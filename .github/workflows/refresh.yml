@@ -1,0 +1,44 @@
+name: Refresh Dashboard Data
+
+on:
+  schedule:
+    # Runs at 5:00 AM IST (23:30 UTC previous day) — pre-market India
+    - cron: '30 23 * * 0-4'
+    # Runs at 4:30 PM IST (11:00 UTC) — post-market India
+    - cron: '0 11 * * 1-5'
+    # Runs at 10:00 PM IST (16:30 UTC) — post-market US
+    - cron: '30 16 * * 1-5'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance requests
+
+      - name: Fetch live data
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: python fetch_data.py
+
+      - name: Commit & push data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data.json 2>/dev/null; then
+            echo "No data changes"
+          else
+            git add data.json
+            git commit -m "chore: refresh market data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
