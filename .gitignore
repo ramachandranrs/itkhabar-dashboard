@@ -1,0 +1,19 @@
+# Generated images (not needed in deploy)
+logo-option-*.png
+logo-A.png
+logo-B.png
+logo-C.png
+logo-D.png
+logo-E.png
+logo-*.b64
+generate_logos*.py
+index-v*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.env
