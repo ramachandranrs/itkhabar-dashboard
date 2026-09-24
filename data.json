@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T18:06:54.281216+00:00",
-  "updated_display": "24 Sep 2026, 18:06 UTC",
+  "updated": "2026-09-24T18:14:53.981681+00:00",
+  "updated_display": "24 Sep 2026, 18:14 UTC",
   "prices": {
     "TCS": {
       "price": 2087.0,
@@ -13,8 +13,8 @@
       "change": -0.6
     },
     "CTSH": {
-      "price": 57.06,
-      "display": "$57.06",
+      "price": 57.08,
+      "display": "$57.08",
       "change": -3.5
     },
     "HCLT": {
@@ -48,9 +48,9 @@
       "change": 0.2
     },
     "ACN": {
-      "price": 179.02,
+      "price": 179.18,
       "display": "$179",
-      "change": -2.5
+      "change": -2.4
     },
     "CAP": {
       "price": 103.75,
@@ -63,14 +63,14 @@
       "change": -4.0
     },
     "DXC": {
-      "price": 10.73,
-      "display": "$10.73",
-      "change": -1.4
+      "price": 10.75,
+      "display": "$10.75",
+      "change": -1.2
     },
     "GIB": {
-      "price": 67.77,
-      "display": "$67.77",
-      "change": -2.0
+      "price": 67.85,
+      "display": "$67.85",
+      "change": -1.9
     }
   },
   "indices": {
@@ -83,8 +83,8 @@
       "change": -0.44
     },
     "SP500": {
-      "value": 7693.48,
-      "change": -0.16
+      "value": 7700.4,
+      "change": -0.07
     },
     "USD_INR": {
       "value": 95.97,
@@ -95,5 +95,206 @@
       "change": -0.24
     }
   },
-  "news": []
+  "news": [
+    {
+      "time": "2026-09-23 18:11",
+      "tk": "Sector",
+      "src": "DevOps.com",
+      "hl": "AWS Adds Harness to Open Source SDK for Building AI Agents",
+      "detail": "AWS has updated its open source Strands SDK with a new harness designed to simplify building and deploying custom AI agents. The new harness provides AI models with access to shell, file, and web tools, along with long-term memory and session resumption. Addi\u2026",
+      "url": "https://devops.com/aws-adds-harness-to-open-source-sdk-for-building-ai-agents/"
+    },
+    {
+      "time": "2026-09-23 18:10",
+      "tk": "Sector",
+      "src": "Cosmopolitan.com",
+      "hl": "People Think My Nails Are Fake All Thanks to Japanese Gel Manicures",
+      "detail": "Japanese gel manicures can help natural nails grow longer and stronger\u2014here\u2019s how they work, how long they last, and why editors love them.",
+      "url": "https://www.cosmopolitan.com/style-beauty/beauty/a73852575/japanese-gel-manicure/"
+    },
+    {
+      "time": "2026-09-23 18:09",
+      "tk": "Sector",
+      "src": "Dansdeals.com",
+      "hl": "2026 Nissan Sentra SV: End Of Model Year Blowout At Leasing Direct!",
+      "detail": "Please note: This is a\u00a0stickied\u00a0sponsored post, please scroll down for new posts. Leasing Direct\u00a0Inc: Broker\u00a0facility number #7109043 is a registered automobile broker business and not a registered new motor vehicle dealer. A fee for services may be charged b\u2026",
+      "url": "https://www.dansdeals.com/advertisement/2026-nissan-sentra-sv-end-of-model-year-blowout-at-leasing-direct/"
+    },
+    {
+      "time": "2026-09-23 18:09",
+      "tk": "Sector",
+      "src": "Theregister.com",
+      "hl": "Someone's attacking a critical 0-day RCE in F5 BIG-IP APM",
+      "detail": "Good news: there's a patch. Bad news: both CISA and F5 warn that it's under active exploitation",
+      "url": "https://www.theregister.com/security/2026/09/23/someones-attacking-a-critical-0-day-rce-in-f5-big-ip-apm/5298659"
+    },
+    {
+      "time": "2026-09-23 18:09",
+      "tk": "Sector",
+      "src": "PRNewswire",
+      "hl": "BUILT ON 20 YEARS OF APPLIED RESEARCH, ALIGN BEHAVIORAL INTELLIGENCE LAUNCHES TO MAKE THE HUMAN VARIABLES DRIVING ORGANIZATIONAL PERFORMANCE VISIBLE AND ACTIONABLE",
+      "detail": "WEST HARTFORD, Conn., Sept. 23, 2026 /PRNewswire/ -- Align Behavioral Intelligence launched today to help leaders turn behavioral insight into stronger collaboration, better decisions, and higher-performing teams. Recent research illustrates the price that or\u2026",
+      "url": "https://www.prnewswire.com/news-releases/built-on-20-years-of-applied-research-align-behavioral-intelligence-launches-to-make-the-human-variables-driving-organizational-performance-visible-and-actionable-302888085.html"
+    },
+    {
+      "time": "2026-09-23 18:06",
+      "tk": "Sector",
+      "src": "New York Post",
+      "hl": "CNN CEO Mark Thompson wants to \u2018stay\u2019 at network post-Paramount merger and be \u2018useful\u2019 to new bosses",
+      "detail": "A CNN source said Thompson told staffers that he \"remained very committted to CNN\" and wants to stay at the company if he can be \"useful\" to his \"new bosses.\"",
+      "url": "https://nypost.com/2026/09/23/media/cnn-ceo-mark-thompson-wants-to-stay-at-network-post-paramount-merger-and-be-useful-to-new-bosses/"
+    },
+    {
+      "time": "2026-09-23 18:06",
+      "tk": "Sector",
+      "src": "PRNewswire",
+      "hl": "Qualfon Brings 700+ Jobs to Irving, Commits to Free College Education for Site Employees",
+      "detail": "IRVING, Texas, Sept. 23, 2026 /PRNewswire/ -- Qualfon, a global provider of omnichannel customer experience and business support solutions, today announced the opening of a new customer experience center in Irving, Texas. The facility will support a leading f\u2026",
+      "url": "https://www.prnewswire.com/news-releases/qualfon-brings-700-jobs-to-irving-commits-to-free-college-education-for-site-employees-302888084.html"
+    },
+    {
+      "time": "2026-09-23 18:05",
+      "tk": "Sector",
+      "src": "Financial Post",
+      "hl": "Ledyard Financial group to Present at the Financial Services Virtual Investor Conference September 24th",
+      "detail": "Company invites individual and institutional investors, as well as advisors and analysts, to attend online at VirtualInvestorConferences.com HANOVER, N.H., Sept. 23, 2026 (GLOBE NEWSWIRE) \u2014 Ledyard Financial Group, Inc. (the \u201cCompany\u201d, OTCQX\u00ae: LFGP), the hold\u2026",
+      "url": "https://financialpost.com/globe-newswire/ledyard-financial-group-to-present-at-the-financial-services-virtual-investor-conference-september-24th"
+    },
+    {
+      "time": "2026-09-23 18:05",
+      "tk": "Sector",
+      "src": "Yahoo Entertainment",
+      "hl": "Manchester United Are Keeping A Keen Eye On This Crystal Palace Left-Back: Good Option For Carrick?",
+      "detail": "In a recent report, journalist Pete O\u2019Rourke mentioned that Manchester United are keeping a keen eye on Crystal Palace left-back Tyrick Mitchell. It has been claimed that the Red Devils are eager to...",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_62a25950-9751-44a9-83ef-924877487eda"
+    },
+    {
+      "time": "2026-09-23 18:05",
+      "tk": "Sector",
+      "src": "Madriduniversal.com",
+      "hl": "Barcelona\u2019s Rodri addresses Real Madrid summer transfer attempt: \u2018I am grateful\u2019",
+      "detail": "Real Madrid lit up the transfer market this past summer by signing half a dozen players, with headline names such as Yan Diomande, Bernardo Silva and Ibrahima Konate.But one name missing from that lis...",
+      "url": "https://madriduniversal.com/barcelonas-rodri-addresses-real-madrid-summer-transfer-attempt-i-am-grateful/"
+    },
+    {
+      "time": "2026-09-23 18:14",
+      "tk": "Sector",
+      "src": "CinemaBlend",
+      "hl": "I'm Already Emotional After Pixar's Bonnie Actress Told Me What She Wants To See In Toy Story 6",
+      "detail": "Someone please get me some tissues, please and thank you.",
+      "url": "https://www.cinemablend.com/streaming-news/emotional-pixar-bonnie-actress-scarlett-spears-toy-story-6"
+    },
+    {
+      "time": "2026-09-23 18:14",
+      "tk": "Sector",
+      "src": "Biztoc.com",
+      "hl": "Why this visa hopeful gave up on the American Dream amid the US's #H1B chaos. #workvisa #techjobs",
+      "detail": "Business Insider is a global newsroom covering business, technology, innovation, and the economy. Visit our homepage for the ...",
+      "url": "https://biztoc.com/x/682e39e44e59c738"
+    },
+    {
+      "time": "2026-09-23 18:13",
+      "tk": "Sector",
+      "src": "Techdirt",
+      "hl": "The FBI Anti-Corruption Squad Was Circling Susan Collins \u2014 Until Trump Got In The Way",
+      "detail": "This story was\u00a0originally published\u00a0by ProPublica and the Texas Tribune.\u00a0Republished under a\u00a0CC BY-NC-ND 3.0\u00a0license. In the final weeks of 2019, a top fundraiser for Sen. Susan Collins walked into a perilous meeting at a Corner Bakery in Washington, D.C. For\u2026",
+      "url": "http://www.techdirt.com/2026/09/23/the-fbi-anti-corruption-squad-was-circling-susan-collins-until-trump-got-in-the-way/"
+    },
+    {
+      "time": "2026-09-23 18:09",
+      "tk": "Sector",
+      "src": "pymnts.com",
+      "hl": "MoonPay Boosts Tokenization Business With North Capital Deal",
+      "detail": "MoonPay is continuing its acquisition spree by merging with private markets infrastructure platform North Capital. The acquisition is designed to bring regulated private markets infrastructure directly to MoonPay\u2019s platform, rather than requiring MoonPay to d\u2026",
+      "url": "https://www.pymnts.com/news/acquiring/2026/moonpay-boosts-tokenization-business-with-north-capital-deal/"
+    },
+    {
+      "time": "2026-09-23 18:08",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "hl": "AI speeding up tech development, but identifying problems is key: SAP Labs India MD",
+      "detail": "During a fireside discussion on Leadership in the AI Era, Gangadharan said companies should start with the business outcome they want to achieve rather than look for problems after adopting a technology.",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ai-speeding-up-tech-development-but-identifying-problems-is-key-sap-labs-india-md/articleshow/134444146.cms"
+    },
+    {
+      "time": "2026-09-23 18:08",
+      "tk": "TECHM",
+      "src": "TechCrunch",
+      "hl": "Disney+ and Hulu add to the growing trend of streaming inflation | TechCrunch",
+      "detail": "At the same time, Disney appears to be exploring new ways to expand its streaming business beyond simply raising subscription prices.",
+      "url": "https://techcrunch.com/2026/09/23/disney-and-hulu-add-to-the-growing-trend-of-streaming-inflation/"
+    },
+    {
+      "time": "2026-09-23 18:07",
+      "tk": "Sector",
+      "src": "Cosmopolitan.com",
+      "hl": "Safe to Say the Robots on the Runway Didn\u2019t Go Over Well",
+      "detail": "The show\u2019s robot cameo was brief, but it stole attention from the clothes\u2014and said a lot about fashion\u2019s uneasy tech era.",
+      "url": "https://www.cosmopolitan.com/style-beauty/fashion/a73852564/vogue-world-robots/"
+    },
+    {
+      "time": "2026-09-23 18:07",
+      "tk": "Sector",
+      "src": "Crypto Briefing",
+      "hl": "Hut 8 wins bidding for Poolin\u2019s Texas data centers with $140M offer",
+      "detail": "Hut 8's acquisition of Texas data centers highlights the strategic shift towards leveraging energy assets for broader tech infrastructure growth.\nThe post Hut 8 wins bidding for Poolin\u2019s Texas data centers with $140M offer appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/hut-8-poolin-texas-data-centers-140m/"
+    },
+    {
+      "time": "2026-09-23 18:06",
+      "tk": "TECHM",
+      "src": "Biztoc.com",
+      "hl": "Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher",
+      "detail": "The post Enterprise Software Stocks Rally as Tech Tape Slides: Atlassian Corporation, Monday.com and Salesforce Climb 3%, ServiceNow Nudges Higher appeared first on 24/7 Wall St..\nEnterprise software stocks are rising in Wednesday morning trading while the br\u2026",
+      "url": "https://biztoc.com/x/16ecc9c1dda574de"
+    },
+    {
+      "time": "2026-09-23 11:58",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "hl": "India's richest in 2026: Adani tops the list, 27 new billionaires emerge",
+      "detail": "India's billionaire club gets bigger: 391 now cross the $1-billion mark",
+      "url": "https://www.business-standard.com/finance/personal-finance/india-s-richest-in-2026-adani-tops-the-list-27-new-billionaires-emerge-126092300983_1.html"
+    },
+    {
+      "time": "2026-09-23 10:49",
+      "tk": "Sector",
+      "src": "BusinessLine",
+      "hl": "Sensex today | Stock Market Highlights: Nifty closes at 23,446, gains 118 points, Sensex ends at 74,828 on stronger domestic growth momentum",
+      "detail": "Sensex, Nifty, Stock Price Highlights: Indian equity markets closed higher on Wednesday, with the Nifty 50 gaining 117.80 points, or 0.50%, to close at 23,446.80, while the BSE Sensex rose 299.17 points, or 0.40%, to close at 74,828.25, as signs of stronger d\u2026",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-september-2026/article71495500.ece"
+    },
+    {
+      "time": "2026-09-22 12:07",
+      "tk": "Sector",
+      "src": "Ibtimes.com.au",
+      "hl": "Nifty 50 Snaps Four-Day Winning Streak, Falls 0.36% to 23,329 as IT Stocks Heavily Weigh on the Index",
+      "detail": "India's Nifty 50 fell 0.36% to 23,329 on Tuesday, ending a four-session winning streak as information technology stocks outweighed a stronger opening and positive global cues.",
+      "url": "https://www.ibtimes.com.au/nifty-50-falls-it-stocks-end-winning-streak-1875745"
+    },
+    {
+      "time": "2026-09-22 10:44",
+      "tk": "Sector",
+      "src": "BusinessLine",
+      "hl": "Sensex today | Stock Market Highlights: Sensex falls 330 pts, Nifty closes at 23,329; oil fell to $98.9 ahead of potential US-Iran talks",
+      "detail": "Sensex, Nifty, Stock Price Highlights: Indian shares reversed early gains on Tuesday, \u200bdragged by IT stocks on concerns around demand and earnings, offsetting \u200cpositive sentiment from a fall in oil prices \u200bfor a fifth session ahead of potential \u2060US-Iran talks\u2026",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-22nd-september-2026/article71492546.ece"
+    },
+    {
+      "time": "2026-09-22 07:26",
+      "tk": "Sector",
+      "src": "CNBC",
+      "hl": "India's large caps stuck in 'bygone economic era', says Bernstein, as foreign investors head for the exit",
+      "detail": "Global brokerage Bernstein said foreign investors had little reason to invest in India as large businesses were struggling to reinvent themselves.",
+      "url": "https://www.cnbc.com/2026/09/22/foreign-investors-bernstein-india-tata-reliance.html"
+    },
+    {
+      "time": "2026-09-22 03:34",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "hl": "GIFT Nifty points to lower start; oil prices, FII flows in focus",
+      "detail": "GIFT Nifty:",
+      "url": "https://www.business-standard.com/markets/capital-market-news/gift-nifty-points-to-lower-start-oil-prices-fii-flows-in-focus-126092200132_1.html"
+    }
+  ]
 }
