@@ -1,0 +1,99 @@
+{
+  "updated": "2026-09-24T18:06:54.281216+00:00",
+  "updated_display": "24 Sep 2026, 18:06 UTC",
+  "prices": {
+    "TCS": {
+      "price": 2087.0,
+      "display": "\u20b92,087",
+      "change": -0.1
+    },
+    "INFY": {
+      "price": 1014.5,
+      "display": "\u20b91,014",
+      "change": -0.6
+    },
+    "CTSH": {
+      "price": 57.06,
+      "display": "$57.06",
+      "change": -3.5
+    },
+    "HCLT": {
+      "price": 1243.6,
+      "display": "\u20b91,244",
+      "change": -1.0
+    },
+    "WIPRO": {
+      "price": 163.64,
+      "display": "\u20b9164",
+      "change": -0.8
+    },
+    "TECHM": {
+      "price": 1543.0,
+      "display": "\u20b91,543",
+      "change": -0.9
+    },
+    "MPHL": {
+      "price": 2248.2,
+      "display": "\u20b92,248",
+      "change": -0.5
+    },
+    "PSYS": {
+      "price": 5277.0,
+      "display": "\u20b95,277",
+      "change": 0.7
+    },
+    "COFG": {
+      "price": 1785.9,
+      "display": "\u20b91,786",
+      "change": 0.2
+    },
+    "ACN": {
+      "price": 179.02,
+      "display": "$179",
+      "change": -2.5
+    },
+    "CAP": {
+      "price": 103.75,
+      "display": "\u20ac104",
+      "change": -2.2
+    },
+    "ATOS": {
+      "price": 22.72,
+      "display": "\u20ac22.72",
+      "change": -4.0
+    },
+    "DXC": {
+      "price": 10.73,
+      "display": "$10.73",
+      "change": -1.4
+    },
+    "GIB": {
+      "price": 67.77,
+      "display": "$67.77",
+      "change": -2.0
+    }
+  },
+  "indices": {
+    "SENSEX": {
+      "value": 73580.54,
+      "change": -1.67
+    },
+    "NIFTY_IT": {
+      "value": 28208.85,
+      "change": -0.44
+    },
+    "SP500": {
+      "value": 7693.48,
+      "change": -0.16
+    },
+    "USD_INR": {
+      "value": 95.97,
+      "change": 0.29
+    },
+    "EUR_INR": {
+      "value": 109.1,
+      "change": -0.24
+    }
+  },
+  "news": []
+}
