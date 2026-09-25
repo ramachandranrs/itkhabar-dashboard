@@ -1,236 +1,268 @@
 {
-  "updated": "2026-09-25T01:43:33.045941+00:00",
-  "updated_display": "25 Sep 2026, 01:43 UTC",
+  "updated": "2026-09-25T15:46:37.443630+00:00",
+  "updated_display": "25 Sep 2026, 15:46 UTC",
   "prices": {
     "TCS": {
-      "price": 2087.0,
-      "display": "\u20b92,087",
-      "change": -0.1
-    },
-    "INFY": {
-      "price": 1014.5,
-      "display": "\u20b91,014",
-      "change": -0.6
-    },
-    "CTSH": {
-      "price": 57.17,
-      "display": "$57.17",
-      "change": -3.3
-    },
-    "HCLT": {
-      "price": 1243.6,
-      "display": "\u20b91,244",
-      "change": -1.0
-    },
-    "WIPRO": {
-      "price": 163.64,
-      "display": "\u20b9164",
-      "change": -0.8
-    },
-    "TECHM": {
-      "price": 1543.0,
-      "display": "\u20b91,543",
-      "change": -0.9
-    },
-    "MPHL": {
-      "price": 2248.2,
-      "display": "\u20b92,248",
-      "change": -0.5
-    },
-    "PSYS": {
-      "price": 5240.0,
-      "display": "\u20b95,240",
-      "change": -2.3
-    },
-    "COFG": {
-      "price": 1785.9,
-      "display": "\u20b91,786",
-      "change": 0.2
-    },
-    "ACN": {
-      "price": 177.41,
-      "display": "$177",
-      "change": -3.3
-    },
-    "CAP": {
-      "price": 106.1,
-      "display": "\u20ac106",
+      "price": 2082.0,
+      "display": "\u20b92,082",
       "change": -0.2
     },
-    "ATOS": {
-      "price": 23.66,
-      "display": "\u20ac23.66",
-      "change": -1.0
+    "INFY": {
+      "price": 1000.2,
+      "display": "\u20b91,000",
+      "change": -1.4
     },
-    "DXC": {
-      "price": 10.81,
-      "display": "$10.81",
+    "CTSH": {
+      "price": 57.85,
+      "display": "$57.85",
+      "change": 1.2
+    },
+    "HCLT": {
+      "price": 1258.0,
+      "display": "\u20b91,258",
+      "change": 1.2
+    },
+    "WIPRO": {
+      "price": 164.02,
+      "display": "\u20b9164",
+      "change": 0.2
+    },
+    "TECHM": {
+      "price": 1548.0,
+      "display": "\u20b91,548",
+      "change": 0.3
+    },
+    "MPHL": {
+      "price": 2234.0,
+      "display": "\u20b92,234",
       "change": -0.6
     },
+    "PSYS": {
+      "price": 5372.0,
+      "display": "\u20b95,372",
+      "change": 1.8
+    },
+    "COFG": {
+      "price": 1784.0,
+      "display": "\u20b91,784",
+      "change": -0.1
+    },
+    "ACN": {
+      "price": 178.95,
+      "display": "$179",
+      "change": 0.9
+    },
+    "CAP": {
+      "price": 104.7,
+      "display": "\u20ac105",
+      "change": 0.9
+    },
+    "ATOS": {
+      "price": 22.24,
+      "display": "\u20ac22.24",
+      "change": -2.1
+    },
+    "DXC": {
+      "price": 10.7,
+      "display": "$10.70",
+      "change": -1.0
+    },
     "GIB": {
-      "price": 68.14,
-      "display": "$68.14",
-      "change": -1.4
+      "price": 67.54,
+      "display": "$67.54",
+      "change": -0.9
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73580.54,
-      "change": -1.67
+      "value": 73895.74,
+      "change": 0.43
     },
     "NIFTY_IT": {
-      "value": 28208.85,
-      "change": -0.44
+      "value": 28160.9,
+      "change": -0.17
     },
     "SP500": {
-      "value": 7704.13,
-      "change": -0.02
+      "value": 7707.52,
+      "change": 0.04
     },
     "USD_INR": {
-      "value": 95.94,
-      "change": 0.21
+      "value": 95.8,
+      "change": 0.06
     },
     "EUR_INR": {
-      "value": 109.19,
-      "change": 0.27
+      "value": 109.16,
+      "change": 0.24
     }
   },
   "news": [
     {
-      "time": "2026-09-24 01:39",
+      "time": "2026-09-24 15:45",
       "tk": "Sector",
-      "src": "Freerepublic.com",
-      "hl": "CNN Staffers Panic over Paramount Merger: \u2018Bloodbath Coming,\u2019 Newsroom Is \u2018Like a Funeral\u2019",
-      "detail": "CNN Staffers Panic over Paramount Merger: \u2018Bloodbath Coming,\u2019 Newsroom Is \u2018Like a Funeral\u2019 CNN news anchor Jake Tapper (C), flanked by Univision's news anchor Ilia Calder\u00f3n (R), waMandel NGAN / AFP via Getty Simon Kent23 Sep 20263,997 2:47 Paramount\u2019s looming\u2026",
-      "url": "https://freerepublic.com/focus/f-chat/4396672/posts"
+      "src": "Medical Daily",
+      "hl": "Donor Islet Cells for Type 1 Diabetes Could Be Regulated Like Organs as HHS Seeks Public Comment",
+      "detail": "HHS is asking whether donor islet cells for type 1 diabetes should be regulated as organs. No rule change is proposed, and comments are due November 8.",
+      "url": "https://www.medicaldaily.com/hhs-islet-cell-transplant-type-1-diabetes-rfi-479074"
     },
     {
-      "time": "2026-09-24 01:38",
+      "time": "2026-09-24 15:45",
       "tk": "Sector",
-      "src": "Business Insider",
-      "hl": "Oops. OpenAI's bot hacked an Australian government website.",
-      "detail": "Australian Prime Minister Anthony Albanese said he spoke with OpenAI CEO Sam Altman to express Australia's \"extreme concern\" about the incident.",
-      "url": "https://www.businessinsider.com/openai-bot-hacked-australian-government-website-anthony-albanese-2026-9#article"
+      "src": "PRNewswire",
+      "hl": "Marani Health Receives FDA Clearance for M\u2022care System, Clearing the Path Toward Commercial Launch",
+      "detail": "Regulatory milestone positions maternal health technology company for 2027 commercial launch of its remote monitoring platform MINNEAPOLIS, Sept. 24, 2026 /PRNewswire/ -- Maternal health technology company Marani Health today announced that it has received U.\u2026",
+      "url": "https://www.prnewswire.com/news-releases/marani-health-receives-fda-clearance-for-mcare-system-clearing-the-path-toward-commercial-launch-302889495.html"
     },
     {
-      "time": "2026-09-24 01:35",
-      "tk": "Sector",
-      "src": "Khabarhub.com",
-      "hl": "Foreign Minister Khanal calls Bhote Koshi disaster a stark warning from the Himalayas",
-      "detail": "KATHMANDU: Foreign Minister Shisir Khanal has described the Bhote Koshi disaster as a \u201cstark warning from the Himalayas to the entire world,\u201d stressing the growing threat posed by climate change. Speaking at the G7 Development Ministers\u2019 Meeting on the sideli\u2026",
-      "url": "https://english.khabarhub.com/2026/24/568998/"
-    },
-    {
-      "time": "2026-09-24 01:35",
+      "time": "2026-09-24 15:45",
       "tk": "Sector",
       "src": "TechRadar",
-      "hl": "FBI claims fake cop scams are costing victims billions \u2014here's what to look out for",
-      "detail": "FBI reports impersonating law enforcement and government officials has netted scammers around $1.6 billion since January 2025 \u2013 but that is only based on reported cases, so the true figure could be much higher",
-      "url": "https://www.techradar.com/pro/security/fbi-claims-fake-cop-scams-are-costing-victims-billions-heres-what-to-look-out-for"
+      "hl": "How to watch Portugal vs Wales live streams.",
+      "detail": "Here's how you can watch Portugal vs Wales for free from anywhere in the Nations League with full TV channels, kick-off times and broadcast details included.",
+      "url": "https://www.techradar.com/how-to-watch/football/portugal-vs-wales-nations-league-free"
     },
     {
-      "time": "2026-09-24 01:34",
+      "time": "2026-09-24 15:45",
+      "tk": "Sector",
+      "src": "TechRadar",
+      "hl": "How to watch Serbia vs Greece: FREE streams, TV channels for Nations League 2026/27",
+      "detail": "All the ways to watch Serbia vs Greece live streams online \u2013 including for FREE \u2013 with Nations League 2026/27 Group A2 from Stadion Rajko Mitic in Belgrade.",
+      "url": "https://www.techradar.com/how-to-watch/football/serbia-vs-greece-nations-league"
+    },
+    {
+      "time": "2026-09-24 15:44",
+      "tk": "Sector",
+      "src": "Financial Post",
+      "hl": "MultiBank Group Founder and Chairman Naser Taher Named Financial Leader of the Year at Gulf Business Awards 2026",
+      "detail": "Recognition highlights Taher\u2019s leadership in building MultiBank Group into a global financial institution DUBAI, United Arab Emirates \u2014 Naser Taher, Founder and Chairman of MultiBank Group, one of the world\u2019s largest financial derivatives institutions, was na\u2026",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/multibank-group-founder-and-chairman-naser-taher-named-financial-leader-of-the-year-at-gulf-business-awards-2026"
+    },
+    {
+      "time": "2026-09-24 15:41",
       "tk": "Sector",
       "src": "The Times of India",
-      "hl": "OpenAI hacks Australian government health website",
-      "detail": "In June, an autonomous program from OpenAI accessed restricted files on an Australian government health website. Prime Minister Anthony Albanese expressed serious concerns over the breach and timing of notification. OpenAI took several months to inform the go\u2026",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/openai-hacked-australian-government-health-website/articleshow/134449048.cms"
+      "hl": "Sebi expands bullion vaulting framework to ETFs, derivatives; vault manager net worth raised",
+      "detail": "Sebi expanded its vault managers framework beyond Electronic Gold Receipts to cover bullion underlying specified ETFs and derivatives, while raising vault managers\u2019 net-worth requirement to Rs 75 crore and strengthening security, segregation, compliance and g\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-expands-bullion-vaulting-framework-to-etfs-derivatives-vault-manager-net-worth-raised/articleshow/134466018.cms"
     },
     {
-      "time": "2026-09-24 01:33",
+      "time": "2026-09-24 15:40",
       "tk": "Sector",
-      "src": "Us Weekly",
-      "hl": "Dolly Parton's Sister Freida Breaks Silence on Family 'Feud' Rumors",
-      "detail": "The late Dolly Parton\u2019s younger sister Freida Parton has broken her silence on family \u201cfeud\u201d rumors following the legendary singer\u2019s death. \u201cHi I\u2019ll say this and this only: there is no feud within our family. No one among the Parton/Owens family is fighting o\u2026",
-      "url": "https://www.usmagazine.com/celebrity-news/news/dolly-partons-sister-breaks-silence-on-family-feud-rumors/"
+      "src": "Breitbart News",
+      "hl": "UK Police Impartiality Undermined by Muslim Staff Networks Who Defend Terror Groups: Report",
+      "detail": "The impartiality of British police forces has been undermined by the proliferation of the institutional collectivisation of special interest staff network groups, particularly the association which represents Muslim officers, a report from a leading think tan\u2026",
+      "url": "https://www.breitbart.com/europe/2026/09/24/uk-police-impartiality-undermined-by-muslim-staff-networks-who-defend-terror-groups-report/"
     },
     {
-      "time": "2026-09-24 01:31",
+      "time": "2026-09-24 15:38",
       "tk": "Sector",
-      "src": "Seismic.com",
-      "hl": "Product Manager, Marketing Platforms at Allspring Global Investments: Owner. Optimizer. Seismic Champion. | Community",
-      "detail": "Allspring Global Investments isn't looking for someone to simply keep Seismic running. They're looking for someone to own where it goes next.As Product Manager, Marketing Platforms, you'll serve as the product owner for Allspring's core Marketing Operations p\u2026",
-      "url": "https://community.seismic.com/job-board-56/product-manager-marketing-platforms-at-allspring-global-investments-owner-optimizer-seismic-champion-339"
+      "src": "pymnts.com",
+      "hl": "What Happens When 10,000 Treasury Agents Make the Same Decision?",
+      "detail": "Treasury departments have traditionally been centered on helping the treasurer, who is typically a human, make better decisions about corporate cash. The next generation of treasury technology, however, is proving capable of making those same decisions on its\u2026",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/what-happens-when-10000-treasury-agents-make-same-decision/"
     },
     {
-      "time": "2026-09-24 01:30",
+      "time": "2026-09-24 15:38",
       "tk": "Sector",
-      "src": "The Gadgeteer",
-      "hl": "Ray-Ban Meta Audio Drops the Camera but Keeps the Smart Glasses Part",
-      "detail": "Smart glasses have a social problem that better cameras cannot completely solve. Even when you are not recording, the person sitting across from you still has to trust that the camera pointed in their direction is inactive. Price: From $349\u2026",
-      "url": "https://the-gadgeteer.com/2026/09/23/ray-ban-meta-audio-no-camera-smart-glasses/"
+      "src": "DevOps.com",
+      "hl": "Why Software Supply Chain Security Is Moving to the Gate",
+      "detail": "March 2026: malicious versions of axios get published directly to npm. May 2026: attackers forge valid provenance for 42 TanStack packages on npm, with 84 malicious versions shipped before detection. August 2026: a worm uses one maintainer\u2019s stolen credential\u2026",
+      "url": "https://devops.com/why-software-supply-chain-security-is-moving-to-the-gate/"
     },
     {
-      "time": "2026-09-24 01:28",
+      "time": "2026-09-24 15:37",
       "tk": "Sector",
-      "src": "BusinessLine",
-      "hl": "Adani Airports aims to reduce regulatory charges to bare minimum, says CEO Arun Bansal",
-      "detail": "Adani Airports plans to reduce regulatory charges by boosting non-aeronautical revenue, while Navi Mumbai airport is being positioned as an international hub.",
-      "url": "https://www.thehindubusinessline.com/economy/logistics/adani-airports-aims-to-reduce-regulatory-charges-to-bare-minimum-says-ceo-arun-bansal/article71502512.ece"
+      "src": "PRNewswire",
+      "hl": "Dialogue over division, cooperation over decoupling in China-U.S. ties",
+      "detail": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- A report from Beijing Review. Chinese President Xi Jinping on September 23 voiced confidence that China and the United States, as two major countries, can find a right way to get along in the new era. China and the U.S.\u2026",
+      "url": "https://www.prnewswire.com/news-releases/dialogue-over-division-cooperation-over-decoupling-in-china-us-ties-302889489.html"
     },
     {
-      "time": "2026-09-24 01:28",
+      "time": "2026-09-24 15:46",
       "tk": "Sector",
-      "src": "The Federalist",
-      "hl": "The \u2018Trans Kids\u2019 Fight Is Ending: Important Transgender \u2018Clinic\u2019 For Minors Closes In California",
-      "detail": "'Prosilio is not transitioning to an adult-only practice. The decision was made in November 2025 to shut down Prosilio entirely, effective October 1, 2026, or sooner.'",
-      "url": "https://thefederalist.com/2026/09/23/the-trans-kids-fight-is-ending-important-transgender-clinic-for-minors-closes-in-california-1/"
+      "src": "PRNewswire",
+      "hl": "CPSC Posts New Product Recalls and Product Safety Warnings to its Web Site",
+      "detail": "WASHINGTON, Sept. 24, 2026 /PRNewswire/ -- The CPSC announces today the following product recalls and product safety warnings are posted and can be viewed at www.cpsc.gov. The Blue Cactus Company Reclining Chair Battery Packs Recalled Due to Fire and Burn Haz\u2026",
+      "url": "https://www.prnewswire.com/news-releases/cpsc-posts-new-product-recalls-and-product-safety-warnings-to-its-web-site-302889499.html"
     },
     {
-      "time": "2026-09-24 01:36",
+      "time": "2026-09-24 15:45",
       "tk": "Sector",
-      "src": "BusinessLine",
-      "hl": "India placed on strategic partner stream in Pacific Islands Forum: Jaishankar",
-      "detail": "India has been placed on the strategic partner stream in the Pacific Islands Forum, with cooperation spanning healthcare, renewables, connectivity and technology.",
-      "url": "https://www.thehindubusinessline.com/news/india-placed-on-strategic-partner-stream-in-pacific-islands-forum-jaishankar/article71502510.ece"
+      "src": "CNET",
+      "hl": "An Electrician Warns: Never Plug These Devices Into a Smart Plug - CNET",
+      "detail": "Smart plugs can give your dumb devices a new lease on life, but not all are safe to use with one.",
+      "url": "https://www.cnet.com/home/smart-home/never-plug-these-devices-into-a-smart-plug-2/"
     },
     {
-      "time": "2026-09-24 01:35",
+      "time": "2026-09-24 15:45",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "hl": "Fewer Indians plan to raise festive budgets in 2026, but high spenders grow: Survey",
+      "detail": "A recent survey shows a decrease in the number of Indians looking to boost their festive budgets for 2026. While the willingness to spend over Rs 10,000 remains unchanged, the high-ticket segment increased marginally. Purchasing confidence is notably higher a\u2026",
+      "url": "https://economictimes.indiatimes.com/news/economy/indicators/fewer-indians-plan-to-raise-festive-budgets-in-2026-but-high-spenders-grow-survey/articleshow/134466054.cms"
+    },
+    {
+      "time": "2026-09-24 15:44",
       "tk": "Sector",
       "src": "Crypto Briefing",
-      "hl": "Replit CEO warns startups of risks from major AI model providers",
-      "detail": "AI startups face increased competition from major model providers, necessitating diversification and innovation to maintain market relevance.\nThe post Replit CEO warns startups of risks from major AI model providers appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/replit-ceo-warns-ai-model-provider-risks/"
+      "hl": "Anthropic\u2019s IPO fuels political donor network for AI safety",
+      "detail": "Anthropic's strategic political investments could significantly influence AI regulatory frameworks, shaping industry standards and future innovations.\nThe post Anthropic\u2019s IPO fuels political donor network for AI safety appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/anthropic-ipo-ai-safety-political-donors/"
     },
     {
-      "time": "2026-09-24 01:33",
+      "time": "2026-09-24 15:44",
       "tk": "Sector",
-      "src": "Forkast.news",
-      "hl": "Meta Connect 2026 Deploys Parallel-Agent Architecture to Consumer Hardware",
-      "detail": "Meta Connect 2026, held on September 23 in Menlo Park, marked the deployment of the company\u2019s parallel-agent architecture to consumer hardware. The introduction of the $1,299.99 Project Phoenix VR glasses and the updated Ray-Ban Meta collection serves as the \u2026",
-      "url": "https://forkast.news/meta-connect-2026-deploys-parallel-agent-architecture-to-consumer-hardware/"
+      "src": "PCMag.com",
+      "hl": "The Best Small Business Cybersecurity Suites for 2026",
+      "detail": "If you run a small business, you don't need an enterprise-level IT army\u2014but you do need serious protection for your systems and data. Here's how Avast, Bitdefender, and other top security suites keep your company safe without breaking your budget.\nWhat Counts\u2026",
+      "url": "https://uk.pcmag.com/security-suites/161199/the-best-small-business-cybersecurity-suites"
     },
     {
-      "time": "2026-09-24 01:32",
+      "time": "2026-09-24 15:44",
       "tk": "Sector",
-      "src": "Gizmodo.com",
-      "hl": "Altman and Amodei Performed Their Stop-Us-From-Murdering-the-World Routine for the UN",
-      "detail": "I'm starting to think these CEOs would like the world to regulate their industry.",
-      "url": "https://gizmodo.com/altman-and-amodei-performed-their-stop-us-from-murdering-the-world-routine-for-the-un-2000816406"
+      "src": "PRNewswire",
+      "hl": "Who made this car? That's getting harder to answer",
+      "detail": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- An article from MNA: For years, the economic relationship between China and the United States has been described in terms of competition: Who sells more, who makes more. But there is another crucial side to the relation\u2026",
+      "url": "https://www.prnewswire.com/news-releases/who-made-this-car-thats-getting-harder-to-answer-302889494.html"
     },
     {
-      "time": "2026-09-24 01:30",
+      "time": "2026-09-24 15:40",
+      "tk": "Sector",
+      "src": "Antaranews.com",
+      "hl": "Prabowo orders scientists, villagers involved in peatland agency",
+      "detail": "President Prabowo Subianto has directed that scientists and local communities be involved in the operations of the planned National Peatland and Mangrove ...",
+      "url": "https://en.antaranews.com/news/432603/prabowo-orders-scientists-villagers-involved-in-peatland-agency"
+    },
+    {
+      "time": "2026-09-24 15:39",
+      "tk": "Sector",
+      "src": "PRNewswire",
+      "hl": "Horizon Commerce and Pacvue Expand Strategic Partnership to Connect Retail Media Planning, Activation and Measurement",
+      "detail": "Expanded partnership brings together Horizon Commerce's strategy and activation expertise with Pacvue's Commerce Media Operating System to help marketers move from insight to outcomes faster NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Horizon Commerce, Horizon M\u2026",
+      "url": "https://www.prnewswire.com/news-releases/horizon-commerce-and-pacvue-expand-strategic-partnership-to-connect-retail-media-planning-activation-and-measurement-302889491.html"
+    },
+    {
+      "time": "2026-09-24 09:00",
       "tk": "Sector",
       "src": "The Times of India",
-      "hl": "AI products in India: What makes an enterprise AI solution stand out in 2026?",
-      "detail": "Enterprise AI is moving beyond experimentation. Products that solve clear business problems, fit existing workflows, and show measurable value are increasingly separating themselves from the wider AI market.",
-      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/ai-products-in-india-what-makes-an-enterprise-ai-solution-stand-out-in-2026/articleshow/134438481.cms"
+      "hl": "Info Edge shares plunge 7% as bloodbath in PB Fintech shares wipes off Rs 1,809 crore from recruiter's stake. What lies ahead?",
+      "detail": "Shares of Info Edge dropped 7% after a massive 32% crash in PB Fintech reduced the value of its 6.5% stake by Rs 1,809 crore in a single session. The sell-off follows IRDAI's proposed overhaul of insurance distributor commission structures and crackdown on di\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/info-edge-shares-plunge-7-as-bloodbath-in-pb-fintech-shares-wipes-off-rs-1809-crore-from-recruiters-stake-what-lies-ahead/articleshow/134456914.cms"
     },
     {
-      "time": "2026-09-24 01:28",
+      "time": "2026-09-24 04:19",
       "tk": "Sector",
-      "src": "Crypto Briefing",
-      "hl": "US extends China trade truce as Trump hosts Xi for summit",
-      "detail": "The extended trade truce may foster improved U.S.-China relations, potentially stabilizing global markets and influencing future diplomatic ties.\nThe post US extends China trade truce as Trump hosts Xi for summit appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/us-extends-china-trade-truce-as-trump-hosts-xi-for-summit/"
+      "src": "The Times of India",
+      "hl": "Bharat Dynamics shares rise 2% in a weak market after bagging Rs 811 crore order from Ministry of Defence",
+      "detail": "Bharat Dynamics shares gained 2% after the Defence Ministry awarded an Rs 810.79-crore contract for 160 SAT-SAAW weapons and associated equipment for the Indian Air Force, adding to the company\u2019s order visibility amid rising defence spending.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/bharat-dynamics-shares-rise-2-in-a-weak-market-after-bagging-rs-811-crore-order-from-ministry-of-defence/articleshow/134451249.cms"
     },
     {
-      "time": "2026-09-24 01:25",
-      "tk": "TECHM",
-      "src": "The Times of India",
-      "hl": "'For the sake of humanity': Tech leaders urge UN to control the AI technology they created",
-      "detail": "Heads of AI firms, including Anthropic and OpenAI, urged the UN for global regulation on AI technology. They emphasized the risks of uncontrolled AI, highlighting the urgent need for international safeguards. Concerns include the potential for AI to make life\u2026",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/for-the-sake-of-humanity-tech-leaders-urge-un-to-control-the-ai-technology-they-created/articleshow/134449050.cms"
+      "time": "2026-09-24 03:34",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "hl": "GIFT Nifty points to weak start as rising US yields weigh on global markets",
+      "detail": "GIFT Nifty:",
+      "url": "https://www.business-standard.com/markets/capital-market-news/gift-nifty-points-to-weak-start-as-rising-us-yields-weigh-on-global-markets-126092400162_1.html"
     },
     {
       "time": "2026-09-23 11:58",
@@ -263,38 +295,6 @@
       "hl": "Sensex today | Stock Market Highlights: Sensex falls 330 pts, Nifty closes at 23,329; oil fell to $98.9 ahead of potential US-Iran talks",
       "detail": "Sensex, Nifty, Stock Price Highlights: Indian shares reversed early gains on Tuesday, \u200bdragged by IT stocks on concerns around demand and earnings, offsetting \u200cpositive sentiment from a fall in oil prices \u200bfor a fifth session ahead of potential \u2060US-Iran talks\u2026",
       "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-22nd-september-2026/article71492546.ece"
-    },
-    {
-      "time": "2026-09-22 07:26",
-      "tk": "Sector",
-      "src": "CNBC",
-      "hl": "India's large caps stuck in 'bygone economic era', says Bernstein, as foreign investors head for the exit",
-      "detail": "Global brokerage Bernstein said foreign investors had little reason to invest in India as large businesses were struggling to reinvent themselves.",
-      "url": "https://www.cnbc.com/2026/09/22/foreign-investors-bernstein-india-tata-reliance.html"
-    },
-    {
-      "time": "2026-09-22 03:34",
-      "tk": "Sector",
-      "src": "Business Standard",
-      "hl": "GIFT Nifty points to lower start; oil prices, FII flows in focus",
-      "detail": "GIFT Nifty:",
-      "url": "https://www.business-standard.com/markets/capital-market-news/gift-nifty-points-to-lower-start-oil-prices-fii-flows-in-focus-126092200132_1.html"
-    },
-    {
-      "time": "2026-09-21 12:14",
-      "tk": "Sector",
-      "src": "BusinessLine",
-      "hl": "Sensex, Nifty rise for fourth straight session as easing crude oil prices lift sentiment",
-      "detail": "Oil prices decline, boosting investor sentiment as Nifty gains for the fourth straight session amid mixed market performance.",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty-rise-for-fourth-straight-session-as-easing-crude-oil-prices-lift-sentiment/article71491258.ece"
-    },
-    {
-      "time": "2026-09-21 10:38",
-      "tk": "Sector",
-      "src": "BusinessLine",
-      "hl": "Sensex today | Stock Market Highlights: Sensex rises 564 pts, Nifty closes at 23,414; Rupee ends at 95.81 in subdued trade",
-      "detail": "Sensex, Nifty, Stock Price Highlights: Indian shares edged higher on Monday, \u200baided by bargain-buying following recent losses, while elevated crude prices \u200cand heightened primary market activity limited the gains.",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-21st-september-2026/article71488721.ece"
     }
   ]
 }
