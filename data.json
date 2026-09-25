@@ -1,244 +1,244 @@
 {
-  "updated": "2026-09-25T15:46:37.443630+00:00",
-  "updated_display": "25 Sep 2026, 15:46 UTC",
+  "updated": "2026-09-25T20:04:48.964223+00:00",
+  "updated_display": "25 Sep 2026, 20:04 UTC",
   "prices": {
     "TCS": {
-      "price": 2082.0,
-      "display": "\u20b92,082",
-      "change": -0.2
-    },
-    "INFY": {
-      "price": 1000.2,
-      "display": "\u20b91,000",
-      "change": -1.4
-    },
-    "CTSH": {
-      "price": 57.85,
-      "display": "$57.85",
-      "change": 1.2
-    },
-    "HCLT": {
-      "price": 1258.0,
-      "display": "\u20b91,258",
-      "change": 1.2
-    },
-    "WIPRO": {
-      "price": 164.02,
-      "display": "\u20b9164",
-      "change": 0.2
-    },
-    "TECHM": {
-      "price": 1548.0,
-      "display": "\u20b91,548",
-      "change": 0.3
-    },
-    "MPHL": {
-      "price": 2234.0,
-      "display": "\u20b92,234",
-      "change": -0.6
-    },
-    "PSYS": {
-      "price": 5372.0,
-      "display": "\u20b95,372",
-      "change": 1.8
-    },
-    "COFG": {
-      "price": 1784.0,
-      "display": "\u20b91,784",
+      "price": 2087.0,
+      "display": "\u20b92,087",
       "change": -0.1
     },
-    "ACN": {
-      "price": 178.95,
-      "display": "$179",
-      "change": 0.9
+    "INFY": {
+      "price": 1014.5,
+      "display": "\u20b91,014",
+      "change": -0.6
     },
-    "CAP": {
-      "price": 104.7,
-      "display": "\u20ac105",
-      "change": 0.9
+    "CTSH": {
+      "price": 57.33,
+      "display": "$57.33",
+      "change": 0.3
     },
-    "ATOS": {
-      "price": 22.24,
-      "display": "\u20ac22.24",
-      "change": -2.1
-    },
-    "DXC": {
-      "price": 10.7,
-      "display": "$10.70",
+    "HCLT": {
+      "price": 1243.6,
+      "display": "\u20b91,244",
       "change": -1.0
     },
-    "GIB": {
-      "price": 67.54,
-      "display": "$67.54",
+    "WIPRO": {
+      "price": 163.64,
+      "display": "\u20b9164",
+      "change": -0.8
+    },
+    "TECHM": {
+      "price": 1543.0,
+      "display": "\u20b91,543",
       "change": -0.9
+    },
+    "MPHL": {
+      "price": 2248.2,
+      "display": "\u20b92,248",
+      "change": -0.5
+    },
+    "PSYS": {
+      "price": 5277.0,
+      "display": "\u20b95,277",
+      "change": 0.7
+    },
+    "COFG": {
+      "price": 1785.9,
+      "display": "\u20b91,786",
+      "change": 0.2
+    },
+    "ACN": {
+      "price": 176.07,
+      "display": "$176",
+      "change": -0.8
+    },
+    "CAP": {
+      "price": 104.5,
+      "display": "\u20ac104",
+      "change": 0.7
+    },
+    "ATOS": {
+      "price": 22.36,
+      "display": "\u20ac22.36",
+      "change": -1.6
+    },
+    "DXC": {
+      "price": 10.65,
+      "display": "$10.65",
+      "change": -1.4
+    },
+    "GIB": {
+      "price": 67.75,
+      "display": "$67.75",
+      "change": -0.6
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73895.74,
-      "change": 0.43
+      "value": 73580.54,
+      "change": -1.67
     },
     "NIFTY_IT": {
-      "value": 28160.9,
-      "change": -0.17
+      "value": 28208.85,
+      "change": -0.44
     },
     "SP500": {
-      "value": 7707.52,
-      "change": 0.04
+      "value": 7743.41,
+      "change": 0.51
     },
     "USD_INR": {
       "value": 95.8,
       "change": 0.06
     },
     "EUR_INR": {
-      "value": 109.16,
-      "change": 0.24
+      "value": 109.21,
+      "change": 0.29
     }
   },
   "news": [
     {
-      "time": "2026-09-24 15:45",
+      "time": "2026-09-24 20:02",
       "tk": "Sector",
-      "src": "Medical Daily",
-      "hl": "Donor Islet Cells for Type 1 Diabetes Could Be Regulated Like Organs as HHS Seeks Public Comment",
-      "detail": "HHS is asking whether donor islet cells for type 1 diabetes should be regulated as organs. No rule change is proposed, and comments are due November 8.",
-      "url": "https://www.medicaldaily.com/hhs-islet-cell-transplant-type-1-diabetes-rfi-479074"
+      "src": "Skeptic.com",
+      "hl": "An Evolutionary Perspective on Socialism",
+      "detail": "Why do strangers cooperate at planetary scale, and why does centrally planned socialism keep stumbling? Drawing on evolutionary biology, game theory, and his own Soviet-era fieldwork, Marc Defant argues that human cooperation is conditional, and that markets,\u2026",
+      "url": "https://www.skeptic.com/article/an-evolutionary-perspective-on-socialism/"
     },
     {
-      "time": "2026-09-24 15:45",
+      "time": "2026-09-24 20:02",
       "tk": "Sector",
-      "src": "PRNewswire",
-      "hl": "Marani Health Receives FDA Clearance for M\u2022care System, Clearing the Path Toward Commercial Launch",
-      "detail": "Regulatory milestone positions maternal health technology company for 2027 commercial launch of its remote monitoring platform MINNEAPOLIS, Sept. 24, 2026 /PRNewswire/ -- Maternal health technology company Marani Health today announced that it has received U.\u2026",
-      "url": "https://www.prnewswire.com/news-releases/marani-health-receives-fda-clearance-for-mcare-system-clearing-the-path-toward-commercial-launch-302889495.html"
+      "src": "Dansdeals.com",
+      "hl": "Nintendo Switch Pro Controller For $55.97 Shipped From Amazon",
+      "detail": "Nintendo Switch Pro Controller For $55.97 Shipped From Amazon This was selling for $55.99 yesterday and is now the lowest price in the past four years from Amazon. Take your game sessions up a notch with the Nintendo Switch Pro Controller Handheld Nintendo Sw\u2026",
+      "url": "https://www.dansdeals.com/shopping-deals/amazon/nintendo-switch-pro-controller-for-55-97-shipped-from-amazon/"
     },
     {
-      "time": "2026-09-24 15:45",
-      "tk": "Sector",
-      "src": "TechRadar",
-      "hl": "How to watch Portugal vs Wales live streams.",
-      "detail": "Here's how you can watch Portugal vs Wales for free from anywhere in the Nations League with full TV channels, kick-off times and broadcast details included.",
-      "url": "https://www.techradar.com/how-to-watch/football/portugal-vs-wales-nations-league-free"
-    },
-    {
-      "time": "2026-09-24 15:45",
-      "tk": "Sector",
-      "src": "TechRadar",
-      "hl": "How to watch Serbia vs Greece: FREE streams, TV channels for Nations League 2026/27",
-      "detail": "All the ways to watch Serbia vs Greece live streams online \u2013 including for FREE \u2013 with Nations League 2026/27 Group A2 from Stadion Rajko Mitic in Belgrade.",
-      "url": "https://www.techradar.com/how-to-watch/football/serbia-vs-greece-nations-league"
-    },
-    {
-      "time": "2026-09-24 15:44",
-      "tk": "Sector",
-      "src": "Financial Post",
-      "hl": "MultiBank Group Founder and Chairman Naser Taher Named Financial Leader of the Year at Gulf Business Awards 2026",
-      "detail": "Recognition highlights Taher\u2019s leadership in building MultiBank Group into a global financial institution DUBAI, United Arab Emirates \u2014 Naser Taher, Founder and Chairman of MultiBank Group, one of the world\u2019s largest financial derivatives institutions, was na\u2026",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/multibank-group-founder-and-chairman-naser-taher-named-financial-leader-of-the-year-at-gulf-business-awards-2026"
-    },
-    {
-      "time": "2026-09-24 15:41",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "hl": "Sebi expands bullion vaulting framework to ETFs, derivatives; vault manager net worth raised",
-      "detail": "Sebi expanded its vault managers framework beyond Electronic Gold Receipts to cover bullion underlying specified ETFs and derivatives, while raising vault managers\u2019 net-worth requirement to Rs 75 crore and strengthening security, segregation, compliance and g\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-expands-bullion-vaulting-framework-to-etfs-derivatives-vault-manager-net-worth-raised/articleshow/134466018.cms"
-    },
-    {
-      "time": "2026-09-24 15:40",
-      "tk": "Sector",
-      "src": "Breitbart News",
-      "hl": "UK Police Impartiality Undermined by Muslim Staff Networks Who Defend Terror Groups: Report",
-      "detail": "The impartiality of British police forces has been undermined by the proliferation of the institutional collectivisation of special interest staff network groups, particularly the association which represents Muslim officers, a report from a leading think tan\u2026",
-      "url": "https://www.breitbart.com/europe/2026/09/24/uk-police-impartiality-undermined-by-muslim-staff-networks-who-defend-terror-groups-report/"
-    },
-    {
-      "time": "2026-09-24 15:38",
-      "tk": "Sector",
-      "src": "pymnts.com",
-      "hl": "What Happens When 10,000 Treasury Agents Make the Same Decision?",
-      "detail": "Treasury departments have traditionally been centered on helping the treasurer, who is typically a human, make better decisions about corporate cash. The next generation of treasury technology, however, is proving capable of making those same decisions on its\u2026",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/what-happens-when-10000-treasury-agents-make-same-decision/"
-    },
-    {
-      "time": "2026-09-24 15:38",
-      "tk": "Sector",
-      "src": "DevOps.com",
-      "hl": "Why Software Supply Chain Security Is Moving to the Gate",
-      "detail": "March 2026: malicious versions of axios get published directly to npm. May 2026: attackers forge valid provenance for 42 TanStack packages on npm, with 84 malicious versions shipped before detection. August 2026: a worm uses one maintainer\u2019s stolen credential\u2026",
-      "url": "https://devops.com/why-software-supply-chain-security-is-moving-to-the-gate/"
-    },
-    {
-      "time": "2026-09-24 15:37",
-      "tk": "Sector",
-      "src": "PRNewswire",
-      "hl": "Dialogue over division, cooperation over decoupling in China-U.S. ties",
-      "detail": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- A report from Beijing Review. Chinese President Xi Jinping on September 23 voiced confidence that China and the United States, as two major countries, can find a right way to get along in the new era. China and the U.S.\u2026",
-      "url": "https://www.prnewswire.com/news-releases/dialogue-over-division-cooperation-over-decoupling-in-china-us-ties-302889489.html"
-    },
-    {
-      "time": "2026-09-24 15:46",
-      "tk": "Sector",
-      "src": "PRNewswire",
-      "hl": "CPSC Posts New Product Recalls and Product Safety Warnings to its Web Site",
-      "detail": "WASHINGTON, Sept. 24, 2026 /PRNewswire/ -- The CPSC announces today the following product recalls and product safety warnings are posted and can be viewed at www.cpsc.gov. The Blue Cactus Company Reclining Chair Battery Packs Recalled Due to Fire and Burn Haz\u2026",
-      "url": "https://www.prnewswire.com/news-releases/cpsc-posts-new-product-recalls-and-product-safety-warnings-to-its-web-site-302889499.html"
-    },
-    {
-      "time": "2026-09-24 15:45",
-      "tk": "Sector",
-      "src": "CNET",
-      "hl": "An Electrician Warns: Never Plug These Devices Into a Smart Plug - CNET",
-      "detail": "Smart plugs can give your dumb devices a new lease on life, but not all are safe to use with one.",
-      "url": "https://www.cnet.com/home/smart-home/never-plug-these-devices-into-a-smart-plug-2/"
-    },
-    {
-      "time": "2026-09-24 15:45",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "hl": "Fewer Indians plan to raise festive budgets in 2026, but high spenders grow: Survey",
-      "detail": "A recent survey shows a decrease in the number of Indians looking to boost their festive budgets for 2026. While the willingness to spend over Rs 10,000 remains unchanged, the high-ticket segment increased marginally. Purchasing confidence is notably higher a\u2026",
-      "url": "https://economictimes.indiatimes.com/news/economy/indicators/fewer-indians-plan-to-raise-festive-budgets-in-2026-but-high-spenders-grow-survey/articleshow/134466054.cms"
-    },
-    {
-      "time": "2026-09-24 15:44",
-      "tk": "Sector",
-      "src": "Crypto Briefing",
-      "hl": "Anthropic\u2019s IPO fuels political donor network for AI safety",
-      "detail": "Anthropic's strategic political investments could significantly influence AI regulatory frameworks, shaping industry standards and future innovations.\nThe post Anthropic\u2019s IPO fuels political donor network for AI safety appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/anthropic-ipo-ai-safety-political-donors/"
-    },
-    {
-      "time": "2026-09-24 15:44",
+      "time": "2026-09-24 20:01",
       "tk": "Sector",
       "src": "PCMag.com",
-      "hl": "The Best Small Business Cybersecurity Suites for 2026",
-      "detail": "If you run a small business, you don't need an enterprise-level IT army\u2014but you do need serious protection for your systems and data. Here's how Avast, Bitdefender, and other top security suites keep your company safe without breaking your budget.\nWhat Counts\u2026",
-      "url": "https://uk.pcmag.com/security-suites/161199/the-best-small-business-cybersecurity-suites"
+      "hl": "Earth's Mightiest Heroes Return: How to Watch All the Marvel Movies and TV Shows in Order",
+      "detail": "Looking to revisit the MCU franchise now that 'Avengers: Endgame' is back in theaters? Whether you want to watch in order of release or chronological story order, we've got you covered.\nTo prepare people for Avengers: Doomsday, Disney is releasing a special e\u2026",
+      "url": "https://uk.pcmag.com/video-streaming-services/127603/avengers-endgame-rerelease-how-to-watch-marvel-movies-in-order-2026"
     },
     {
-      "time": "2026-09-24 15:44",
+      "time": "2026-09-24 20:00",
       "tk": "Sector",
-      "src": "PRNewswire",
-      "hl": "Who made this car? That's getting harder to answer",
-      "detail": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- An article from MNA: For years, the economic relationship between China and the United States has been described in terms of competition: Who sells more, who makes more. But there is another crucial side to the relation\u2026",
-      "url": "https://www.prnewswire.com/news-releases/who-made-this-car-thats-getting-harder-to-answer-302889494.html"
+      "src": "CryptoSlate",
+      "hl": "Man sentenced to 12 years for $16M Coinbase customer support scam",
+      "detail": "Brooklyn prosecutors say about 100 U.S. users were told their funds were at risk and steered into wallets Spektor could access.\nThe post Man sentenced to 12 years for $16M Coinbase customer support scam appeared first on CryptoSlate.",
+      "url": "https://cryptoslate.com/man-sentenced-to-12-years-for-16m-coinbase-customer-support-scam/"
     },
     {
-      "time": "2026-09-24 15:40",
+      "time": "2026-09-24 20:00",
       "tk": "Sector",
-      "src": "Antaranews.com",
-      "hl": "Prabowo orders scientists, villagers involved in peatland agency",
-      "detail": "President Prabowo Subianto has directed that scientists and local communities be involved in the operations of the planned National Peatland and Mangrove ...",
-      "url": "https://en.antaranews.com/news/432603/prabowo-orders-scientists-villagers-involved-in-peatland-agency"
+      "src": "Entrepreneur",
+      "hl": "Before You Launch Your Next Business, Ask These 4 Questions",
+      "detail": "Discover practical strategies for vertical integration, strategic expansion and scaling businesses that work together to increase profitability and long-term value.",
+      "url": "https://www.entrepreneur.com/growing-a-business/before-you-launch-your-next-business-ask-these-4-questions/504867"
     },
     {
-      "time": "2026-09-24 15:39",
+      "time": "2026-09-24 20:00",
       "tk": "Sector",
-      "src": "PRNewswire",
-      "hl": "Horizon Commerce and Pacvue Expand Strategic Partnership to Connect Retail Media Planning, Activation and Measurement",
-      "detail": "Expanded partnership brings together Horizon Commerce's strategy and activation expertise with Pacvue's Commerce Media Operating System to help marketers move from insight to outcomes faster NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Horizon Commerce, Horizon M\u2026",
-      "url": "https://www.prnewswire.com/news-releases/horizon-commerce-and-pacvue-expand-strategic-partnership-to-connect-retail-media-planning-activation-and-measurement-302889491.html"
+      "src": "Anime News Network",
+      "hl": "Disney+, Hulu Raise Monthly Pricing on Streaming Plans in U.S. Again",
+      "detail": "Standalone subscription prices rise to US$12.49 with ads, US$21.49 without ads following last year's increase",
+      "url": "https://www.animenewsnetwork.com/news/2026-09-24/disney-hulu-raise-monthly-pricing-on-streaming-plans-in-u.s-again/.242153"
+    },
+    {
+      "time": "2026-09-24 20:00",
+      "tk": "Sector",
+      "src": "Daily Signal",
+      "hl": "Tim Scott Seeks to Shut Down Birth Tourism Pipeline",
+      "detail": "FIRST ON THE DAILY SIGNAL\u2014Sen. Tim Scott, R-S.C., is introducing legislation to end commercial birth tourism in the United States, a move that could cut off a pipeline that foreign nationals use to gain citizenship for their children. After President Donald T\u2026",
+      "url": "https://www.dailysignal.com/2026/09/24/tim-scott-birth-tourism-pipeline/"
+    },
+    {
+      "time": "2026-09-24 19:59",
+      "tk": "Sector",
+      "src": "Rolling Stone",
+      "hl": "Wait, What the Hell Is Going on With Dolly Parton\u2019s Estate?",
+      "detail": "Dolly Parton's nephew and security head Bryan Seaver faces a restraining order filed by a company led by the country legend's manager, Danny Nozell.",
+      "url": "http://www.rollingstone.com/music/music-country/dolly-parton-estate-dispute-everything-we-know-1235631132/"
+    },
+    {
+      "time": "2026-09-24 19:57",
+      "tk": "Sector",
+      "src": "Tamfitronics.com",
+      "hl": "KFF Health News\u2019 \u2018What the\u2026",
+      "detail": "Health News tamfitronics [[Editor\u2019s note: This transcript was generated using both transcription software ...",
+      "url": "https://www.tamfitronics.com/news/health-news/kff-health-news-what-the-health-live-from-austin-examining-health-equity/"
+    },
+    {
+      "time": "2026-09-24 19:56",
+      "tk": "Sector",
+      "src": "Dailymail.com",
+      "hl": "Terrified residents say their lives are being ruined by mysterious sounds and vibrations damaging their homes and making them sick",
+      "detail": "Residents in a small Louisiana town are complaining of loud rumblings they say began after a private equity-owned waste management company installed a facility across the river.",
+      "url": "https://www.dailymail.com/news/article-16157577/Terrified-residents-say-lives-ruined-mysterious-sounds-vibrations-damaging-homes-making-sick.html"
+    },
+    {
+      "time": "2026-09-24 20:03",
+      "tk": "Sector",
+      "src": "Thecoolist.com",
+      "hl": "That clear coffee jar looks beautiful but kills flavor fast: here\u2019s what pros use instead",
+      "detail": "You bought it because it looked pretty. A tall clear glass jar on the counter, coffee catching the morning light, the whole setup looking like something off Pinterest. So you did the natural thing. Poured your bag of coffee into it, twisted the lid on, and go\u2026",
+      "url": "https://www.thecoolist.com/that-clear-coffee-jar-looks-beautiful-but-kills-flavor-fast-what-pros-use-instead-keeps-every-scoop-fresh/"
+    },
+    {
+      "time": "2026-09-24 20:02",
+      "tk": "Sector",
+      "src": "New York Magazine",
+      "hl": "Trump Makes Xi Greeting As Awkward As Possible",
+      "detail": "He showed up in a winter coat and leather gloves, commented on Xi\u2019s attractiveness, and then exclaimed \u201c(Airport!)\u201d for unclear reasons.",
+      "url": "http://nymag.com/intelligencer/article/trump-makes-xi-greeting-as-awkward-as-possible.html"
+    },
+    {
+      "time": "2026-09-24 20:01",
+      "tk": "Sector",
+      "src": "Dailymail.com",
+      "hl": "Jennifer Lopez looks casually chic in a sheer lace top and stylish jeans as she leaves her hotel in Milan amid Fashion Week",
+      "detail": "She never puts a foot wrong when it comes to fashion.",
+      "url": "https://www.dailymail.com/tvshowbiz/article-16158541/Jennifer-Lopez-looks-casually-chic-sheer-lace-Milan.html"
+    },
+    {
+      "time": "2026-09-24 20:01",
+      "tk": "Sector",
+      "src": "Utica Observer Dispatch",
+      "hl": "Live updates, scores & highlights from NYSPHSAA Section III football",
+      "detail": "Here's your complete high school football scoreboard for this week's games involving Mohawk Valley teams, plus a statewide scoreboard.",
+      "url": "https://www.uticaod.com/story/sports/college/football/2026/09/24/ny-high-school-football-scores-2026-midseason/91920789007/"
+    },
+    {
+      "time": "2026-09-24 20:00",
+      "tk": "TECHM",
+      "src": "Dezeen",
+      "hl": "Sleep supporting emotional wellbeing device among projects from Georgia Institute of Technology",
+      "detail": "Dezeen School Shows: a sleep support device that encourages users to record valuable moments of their day is among the projects from students at Georgia Institute of Technology. Also featured is a compact bike that can store groceries, and a smartphone game t\u2026",
+      "url": "https://www.dezeen.com/2026/09/24/recording-devices-sleep-support-georgia-institute-of-technology-schoolshows/"
+    },
+    {
+      "time": "2026-09-24 19:52",
+      "tk": "Sector",
+      "src": "Biztoc.com",
+      "hl": "OMERS promotes Laura Lenz to lead venture capital unit",
+      "detail": "Ontario Municipal Employees Retirement System has appointed Laura Lenz to head its venture capital arm, the fourth person to hold the job in just over three years, while signalling a continued commitment to backing Canadian technology founders.\nMs. Lenz, a ve\u2026",
+      "url": "https://biztoc.com/x/2e6cb6039a4aab62"
+    },
+    {
+      "time": "2026-09-24 19:51",
+      "tk": "Sector",
+      "src": "Pypi.org",
+      "hl": "megillah 2026.9.24.699",
+      "detail": "A planning technology for sustained, nonlinear work with AI collaborators",
+      "url": "https://pypi.org/project/megillah/2026.9.24.699/"
+    },
+    {
+      "time": "2026-09-24 19:51",
+      "tk": "Sector",
+      "src": "Theregister.com",
+      "hl": "Docker's new sandboxes aim to contain AI agents for real",
+      "detail": "With Cloud Sandboxes, devs can keep agents at arm's length",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/24/dockers-new-sandboxes-aim-to-contain-ai-agents-for-real/5298964"
     },
     {
       "time": "2026-09-24 09:00",
