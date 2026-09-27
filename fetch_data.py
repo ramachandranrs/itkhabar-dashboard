@@ -145,7 +145,12 @@ def fetch_indices():
 
 
 def fetch_news():
-    """Fetch latest IT sector news headlines via NewsAPI (if API key is set)."""
+    """Fetch latest IT sector news headlines via NewsAPI (if API key is set).
+
+    STRICT FILTER: Only headlines mentioning a tracked company name,
+    or specific IT-services-sector terms, are kept. General tech/global
+    news is discarded.
+    """
     api_key = os.environ.get("NEWSAPI_KEY", "")
     if not api_key:
         print("No NEWSAPI_KEY set — skipping news fetch. Add it as a GitHub secret.")
@@ -154,10 +159,60 @@ def fetch_news():
     print("Fetching news...")
     headlines = []
 
+    # ── Relevance keywords (case-insensitive matching) ──
+    # Company names & tickers we track
+    COMPANY_KEYWORDS = set()
+    for tk, info in TICKERS.items():
+        COMPANY_KEYWORDS.add(tk.upper())
+        # Full name and first word
+        full = info["name"]
+        COMPANY_KEYWORDS.add(full.upper())
+        first = full.split()[0].upper()
+        if len(first) > 2:  # skip very short words
+            COMPANY_KEYWORDS.add(first)
+    # Add common alternate names
+    for alt in ["TCS", "INFY", "HCLTECH", "HCL TECH", "TECH MAHINDRA",
+                "LTIMINDTREE", "LTI MINDTREE", "MPHASIS", "COFORGE",
+                "PERSISTENT", "NTT DATA", "DXC", "CGI GROUP"]:
+        COMPANY_KEYWORDS.add(alt.upper())
+
+    # IT-services-sector terms (not generic "technology")
+    SECTOR_KEYWORDS = {
+        "IT SERVICES", "IT SECTOR", "IT OUTSOURCING", "IT OFFSHORING",
+        "NIFTY IT", "BSE IT", "DIGITAL TRANSFORMATION",
+        "MANAGED SERVICES", "CONSULTING SERVICES", "BPO", "BPM",
+        "SYSTEMS INTEGRATION", "IT SPENDING", "IT BUDGET",
+        "CLOUD MIGRATION", "ENTERPRISE SOFTWARE", "IT DEAL",
+        "IT CONTRACT", "OFFSHORE", "NEARSHORE",
+    }
+
+    def is_relevant(title, desc):
+        """Return (True, ticker) if article is about our IT services universe."""
+        text = f"{title} {desc}".upper()
+        # Check company names first
+        for tk_key, info in TICKERS.items():
+            names_to_check = [tk_key.upper(), info["name"].upper()]
+            first_word = info["name"].split()[0].upper()
+            if len(first_word) > 3:
+                names_to_check.append(first_word)
+            for name in names_to_check:
+                if name in text:
+                    return True, tk_key
+        # Check sector keywords
+        for kw in SECTOR_KEYWORDS:
+            if kw in text:
+                return True, "Sector"
+        return False, None
+
+    # Queries: each targets company names explicitly using AND/OR
+    # to force NewsAPI to return only IT-services-relevant articles
     queries = [
-        "TCS OR Infosys OR HCLTech OR Wipro IT services",
-        "Accenture OR Capgemini OR Cognizant technology",
-        "Indian IT sector Nifty",
+        '"TCS" OR "Infosys" OR "HCLTech" OR "Wipro" OR "Tech Mahindra"',
+        '"Accenture" OR "Capgemini" OR "Cognizant" OR "LTIMindtree"',
+        '"Mphasis" OR "Persistent Systems" OR "Coforge" OR "DXC Technology"',
+        '"NTT Data" OR "CGI Group" OR "Atos"',
+        '"IT services" AND ("deal" OR "revenue" OR "earnings" OR "contract")',
+        '"Nifty IT" OR "IT sector" AND India',
     ]
 
     seen = set()
@@ -167,37 +222,35 @@ def fetch_news():
                 "q": q,
                 "sortBy": "publishedAt",
                 "language": "en",
-                "pageSize": 10,
+                "pageSize": 8,
                 "apiKey": api_key,
             }, timeout=15)
             if resp.status_code == 200:
                 articles = resp.json().get("articles", [])
                 for a in articles:
                     title = a.get("title", "")
-                    if title and title not in seen:
-                        seen.add(title)
-                        # Map to a company ticker if possible
-                        tk = "Sector"
-                        for company_tk in TICKERS:
-                            company_name = TICKERS[company_tk]["name"].split()[0]
-                            if company_tk in title or company_name in title:
-                                tk = company_tk
-                                break
-
-                        headlines.append({
-                            "time": a.get("publishedAt", "")[:16].replace("T", " "),
-                            "tk": tk,
-                            "src": a.get("source", {}).get("name", "NEWS"),
-                            "hl": title,
-                            "detail": a.get("description", ""),
-                            "url": a.get("url", ""),
-                        })
+                    desc = a.get("description", "") or ""
+                    if not title or title in seen:
+                        continue
+                    # ── STRICT relevance gate ──
+                    relevant, tk = is_relevant(title, desc)
+                    if not relevant:
+                        continue
+                    seen.add(title)
+                    headlines.append({
+                        "time": a.get("publishedAt", "")[:16].replace("T", " "),
+                        "tk": tk,
+                        "src": a.get("source", {}).get("name", "NEWS"),
+                        "hl": title,
+                        "detail": desc,
+                        "url": a.get("url", ""),
+                    })
             else:
                 print(f"  ⚠ NewsAPI returned {resp.status_code}")
         except Exception as e:
             print(f"  ✗ News query failed: {e}")
 
-    print(f"  ✓ {len(headlines)} headlines fetched")
+    print(f"  ✓ {len(headlines)} relevant headlines (filtered from {len(seen)} total)")
     return headlines[:25]  # Cap at 25
 
 
