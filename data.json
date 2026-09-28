@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-28T01:51:44.166149+00:00",
-  "updated_display": "28 Sep 2026, 01:51 UTC",
+  "updated": "2026-09-28T18:33:27.577995+00:00",
+  "updated_display": "28 Sep 2026, 18:33 UTC",
   "prices": {
     "TCS": {
       "price": 2082.0,
@@ -13,9 +13,9 @@
       "change": -1.4
     },
     "CTSH": {
-      "price": 57.33,
-      "display": "$57.33",
-      "change": 0.3
+      "price": 57.11,
+      "display": "$57.11",
+      "change": -0.4
     },
     "HCLT": {
       "price": 1258.0,
@@ -48,29 +48,29 @@
       "change": -0.1
     },
     "ACN": {
-      "price": 176.11,
-      "display": "$176",
+      "price": 174.93,
+      "display": "$175",
       "change": -0.7
     },
     "CAP": {
-      "price": 104.5,
-      "display": "\u20ac104",
-      "change": 0.7
-    },
-    "ATOS": {
-      "price": 22.36,
-      "display": "\u20ac22.36",
-      "change": -1.6
-    },
-    "DXC": {
-      "price": 10.65,
-      "display": "$10.65",
+      "price": 102.95,
+      "display": "\u20ac103",
       "change": -1.5
     },
+    "ATOS": {
+      "price": 21.6,
+      "display": "\u20ac21.60",
+      "change": -3.4
+    },
+    "DXC": {
+      "price": 10.38,
+      "display": "$10.38",
+      "change": -2.5
+    },
     "GIB": {
-      "price": 67.77,
-      "display": "$67.77",
-      "change": -0.5
+      "price": 67.57,
+      "display": "$67.57",
+      "change": -0.3
     }
   },
   "indices": {
@@ -83,19 +83,43 @@
       "change": -0.17
     },
     "SP500": {
-      "value": 7743.41,
-      "change": 0.51
+      "value": 7696.01,
+      "change": -0.61
     },
     "USD_INR": {
-      "value": 95.8,
-      "change": -0.37
+      "value": 95.97,
+      "change": -0.2
     },
     "EUR_INR": {
-      "value": 109.1,
-      "change": 0.01
+      "value": 109.19,
+      "change": 0.1
     }
   },
   "news": [
+    {
+      "time": "2026-09-27 18:33",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "hl": "WeSchool Bengaluru holds convocation for 2024-26 PGDM batch",
+      "detail": "WeSchool Bengaluru held convocation for the 2024-26 PGDM batch, graduating students across four programmes; Infosys BPM\u2019s Santosh Panpaliya was guest of honour.",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/weschool-bengaluru-holds-convocation-for-2024-26-pgdm-batch/articleshow/134525151.cms"
+    },
+    {
+      "time": "2026-09-27 11:03",
+      "tk": "PSYS",
+      "src": "The Times of India",
+      "hl": "Ahead of Market: 10 things that will decide stock market action on Monday",
+      "detail": "Indian equity benchmarks Sensex and Nifty ended higher on Friday, bouncing back to close at 73,896 and 23,140.50 respectively. Geojit\u2019s Vinod Nair cited strong domestic liquidity holding Nifty above 23,000, while elevated crude prices and persistent foreign o\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/134518822.cms"
+    },
+    {
+      "time": "2026-09-27 02:23",
+      "tk": "TCS",
+      "src": "Livemint",
+      "hl": "Tax audit deadline September 30: 5 common mistakes in GST turnover, TDS, AIS and business expenses to avoid",
+      "detail": "Taxpayers facing the September 30 tax-audit deadline should reconcile their books with GST returns, AIS, TIS and Form 26AS, verify TDS/TCS credits and avoid claiming personal expenses as business deductions. Experts recommend completing these checks well befo\u2026",
+      "url": "https://www.livemint.com/money/personal-finance/tax-audit-deadline-september-30-5-common-mistakes-in-gst-turnover-tds-ais-and-business-expenses-to-avoid-11790475384951.html"
+    },
     {
       "time": "2026-09-27 00:30",
       "tk": "CAP",
@@ -105,28 +129,12 @@
       "url": "https://www.business-standard.com/finance/personal-finance/large-mid-or-smallcaps-pick-the-right-stock-strategy-for-your-portfolio-126092400459_1.html"
     },
     {
-      "time": "2026-09-26 18:14",
-      "tk": "WIPRO",
-      "src": "The Times of India",
-      "hl": "Same Rs 3.5 LPA offer, two very different choices: 4 years later, one reached Rs 38 LPA while the other switched domains",
-      "detail": "Two college batchmates received the same 3.5 LPA Wipro offer in 2022 but took different paths afterward. One rejected the job and spent two years preparing for better opportunities, while the other accepted the offer and continued learning technical skills al\u2026",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/same-rs-3-5-lpa-offer-two-very-different-choices-4-years-later-one-reached-rs-38-lpa-while-the-other-switched-domains/articleshow/134508347.cms"
-    },
-    {
       "time": "2026-09-26 16:16",
       "tk": "CAP",
       "src": "BusinessLine",
       "hl": "Invesco India Large cap Fund: A changing playbook delivers better outcomes",
       "detail": "Invesco India Largecap Fund combines strong rolling returns, active portfolio calls and efficient risk-taking. Here is what investors should know",
       "url": "https://www.thehindubusinessline.com/portfolio/invesco-india-largecap-fund-review-performance-portfolio-risk/article71499416.ece"
-    },
-    {
-      "time": "2026-09-25 22:38",
-      "tk": "ACN",
-      "src": "Atlassian.com",
-      "hl": "Accenture Global IT mastered 6,400 OKRs, but making them visible to leaders was the next challenge.",
-      "detail": "How Accenture Global IT is turning thousands of OKRs into clearer leadership conversations and faster strategic decisions.\nThe post Accenture Global IT mastered 6,400 OKRs, but making them visible to leaders was the next challenge. appeared first on Inside At\u2026",
-      "url": "https://www.atlassian.com/blog/focus/accenture-okr-leadership-visibility-2"
     },
     {
       "time": "2026-09-25 15:00",
@@ -161,6 +169,14 @@
       "url": "https://www.business-standard.com/markets/capital-market-news/persistent-systems-completes-acquisition-of-83-25-stake-in-nagarro-126092300684_1.html"
     },
     {
+      "time": "2026-09-27 10:00",
+      "tk": "TECHM",
+      "src": "TechRadar",
+      "hl": "Goodbye claims, hello prevention \u2014 how smart tech is transforming home insurance",
+      "detail": "As our homes become increasingly digitised, the data generated can be used to detect insurance risks before they happen and ultimately deliver lower premiums.",
+      "url": "https://www.techradar.com/home/smart-home/how-smart-home-tech-is-shaking-up-home-insurance-why-smart-sensors-ai-and-iot-devices-are-revolutionizing-how-we-protect-our-homes"
+    },
+    {
       "time": "2026-09-25 08:09",
       "tk": "NTTD",
       "src": "The Times of India",
@@ -191,14 +207,6 @@
       "hl": "Ema raises $77M as AI starts eating into enterprise software and services | TechCrunch",
       "detail": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
       "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
-    },
-    {
-      "time": "2026-09-22 07:32",
-      "tk": "TECHM",
-      "src": "Ibm.com",
-      "hl": "Introduction to IBM Storage Scale and Storage Scale System",
-      "detail": "This IBM Redbooks publication provides a comprehensive introduction to the IBM Storage Scale System family of integrated hardware and software storage solutions. Built on IBM Storage Scale technology, the IBM Storage Scale System delivers high-performance, re\u2026",
-      "url": "https://www.redbooks.ibm.com/docs/MD260040/MD260040.html"
     },
     {
       "time": "2026-09-26 07:07",
