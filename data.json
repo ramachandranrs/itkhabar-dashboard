@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-28T18:33:27.577995+00:00",
-  "updated_display": "28 Sep 2026, 18:33 UTC",
+  "updated": "2026-09-28T22:11:59.164422+00:00",
+  "updated_display": "28 Sep 2026, 22:11 UTC",
   "prices": {
     "TCS": {
       "price": 2082.0,
@@ -13,9 +13,9 @@
       "change": -1.4
     },
     "CTSH": {
-      "price": 57.11,
-      "display": "$57.11",
-      "change": -0.4
+      "price": 56.75,
+      "display": "$56.75",
+      "change": -1.0
     },
     "HCLT": {
       "price": 1258.0,
@@ -48,29 +48,29 @@
       "change": -0.1
     },
     "ACN": {
-      "price": 174.93,
-      "display": "$175",
-      "change": -0.7
+      "price": 174.47,
+      "display": "$174",
+      "change": -0.9
     },
     "CAP": {
-      "price": 102.95,
-      "display": "\u20ac103",
-      "change": -1.5
+      "price": 104.5,
+      "display": "\u20ac104",
+      "change": 0.7
     },
     "ATOS": {
-      "price": 21.6,
-      "display": "\u20ac21.60",
-      "change": -3.4
+      "price": 22.36,
+      "display": "\u20ac22.36",
+      "change": -1.6
     },
     "DXC": {
-      "price": 10.38,
-      "display": "$10.38",
-      "change": -2.5
+      "price": 10.35,
+      "display": "$10.35",
+      "change": -2.8
     },
     "GIB": {
-      "price": 67.57,
-      "display": "$67.57",
-      "change": -0.3
+      "price": 67.71,
+      "display": "$67.71",
+      "change": -0.1
     }
   },
   "indices": {
@@ -83,16 +83,16 @@
       "change": -0.17
     },
     "SP500": {
-      "value": 7696.01,
-      "change": -0.61
+      "value": 7683.69,
+      "change": -0.77
     },
     "USD_INR": {
       "value": 95.97,
       "change": -0.2
     },
     "EUR_INR": {
-      "value": 109.19,
-      "change": 0.1
+      "value": 109.15,
+      "change": 0.06
     }
   },
   "news": [
@@ -199,14 +199,6 @@
       "hl": "Telangana targets 5 GW Hyperscale data centre capacity by 2029",
       "detail": "Microsoft\u2019s South Central Cloud region goes live in Hyderabad; the facility is part of Microsoft\u2019s $20.5-b cloud, data centre investment",
       "url": "https://www.thehindubusinessline.com/info-tech/telangana-targets-5-gw-hyperscale-data-centre-capacity-by-2029/article71502737.ece"
-    },
-    {
-      "time": "2026-09-23 12:03",
-      "tk": "TECHM",
-      "src": "TechCrunch",
-      "hl": "Ema raises $77M as AI starts eating into enterprise software and services | TechCrunch",
-      "detail": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
-      "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/"
     },
     {
       "time": "2026-09-26 07:07",
