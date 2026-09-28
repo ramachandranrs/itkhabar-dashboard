@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-27T04:15:37.205056+00:00",
-  "updated_display": "27 Sep 2026, 04:15 UTC",
+  "updated": "2026-09-28T01:51:44.166149+00:00",
+  "updated_display": "28 Sep 2026, 01:51 UTC",
   "prices": {
     "TCS": {
       "price": 2082.0,
@@ -87,46 +87,38 @@
       "change": 0.51
     },
     "USD_INR": {
-      "value": 95.82,
-      "change": -0.35
+      "value": 95.8,
+      "change": -0.37
     },
     "EUR_INR": {
-      "value": 109.13,
-      "change": 0.04
+      "value": 109.1,
+      "change": 0.01
     }
   },
   "news": [
     {
-      "time": "2026-09-25 18:50",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "hl": "Indian IT\u2019s FDE race: Can elite tech squad scale?",
-      "detail": "Indian IT firms like Infosys, TCS and LTIMindtree race to scale forward-deployed engineers for AI delivery, but talent and training models may limit speed.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-its-fde-race-can-elite-tech-squad-scale/articleshow/134491413.cms"
+      "time": "2026-09-27 00:30",
+      "tk": "CAP",
+      "src": "Business Standard",
+      "hl": "Large, mid, or smallcaps: Pick the right stock strategy for your portfolio",
+      "detail": "Large vs Mid vs Small-Cap Stocks: Whether you are aiming for stability or higher returns, understanding market capitalisation is the key to building the right equity portfolio for your risk profile",
+      "url": "https://www.business-standard.com/finance/personal-finance/large-mid-or-smallcaps-pick-the-right-stock-strategy-for-your-portfolio-126092400459_1.html"
     },
     {
-      "time": "2026-09-25 15:07",
-      "tk": "TECHM",
+      "time": "2026-09-26 18:14",
+      "tk": "WIPRO",
       "src": "The Times of India",
-      "hl": "Lab-grown diamond manufacturer Anjali LabTech files updated papers for Rs 1,225 cr IPO",
-      "detail": "Anjali LabTech Ltd has re-submitted its draft papers to Sebi for a notable Initial Public Offering targeting Rs 1,225 crore. This IPO encompasses a fresh share issue worth Rs 925 crore alongside a promoter-led Offer For Sale. The raised funds are earmarked fo\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/lab-grown-diamond-manufacturer-anjali-labtech-files-updated-papers-for-rs-1225-cr-ipo/articleshow/134488307.cms"
+      "hl": "Same Rs 3.5 LPA offer, two very different choices: 4 years later, one reached Rs 38 LPA while the other switched domains",
+      "detail": "Two college batchmates received the same 3.5 LPA Wipro offer in 2022 but took different paths afterward. One rejected the job and spent two years preparing for better opportunities, while the other accepted the offer and continued learning technical skills al\u2026",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/same-rs-3-5-lpa-offer-two-very-different-choices-4-years-later-one-reached-rs-38-lpa-while-the-other-switched-domains/articleshow/134508347.cms"
     },
     {
-      "time": "2026-09-25 15:00",
-      "tk": "INFY",
+      "time": "2026-09-26 16:16",
+      "tk": "CAP",
       "src": "BusinessLine",
-      "hl": "Infosys nears July lows, Wipro hits fresh 52-week low",
-      "detail": "IT stocks slide as Infosys, Wipro hit 52-week lows amid AI transition and market volatility in India.",
-      "url": "https://www.thehindubusinessline.com/info-tech/infosys-nears-july-lows-wipro-hits-fresh-52-week-low/article71509264.ece"
-    },
-    {
-      "time": "2026-09-25 12:43",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "hl": "Market wrap: Axis Bank, Asian Paints, Max Healthcare, Infosys top gainers and losers on Nifty and Sensex on Friday",
-      "detail": "Indian equity benchmarks ended higher on Friday, with the Nifty 50 rising 0.34% and the Sensex gaining 0.43%. Axis Bank and Asian Paints led the gainers, while Max Healthcare and Infosys were among the top losers. Here\u2019s a look at the biggest movers across th\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-axis-bank-asian-paints-max-healthcare-infosys-top-gainers-and-losers-on-nifty-and-sensex-on-friday/articleshow/134485432.cms"
+      "hl": "Invesco India Large cap Fund: A changing playbook delivers better outcomes",
+      "detail": "Invesco India Largecap Fund combines strong rolling returns, active portfolio calls and efficient risk-taking. Here is what investors should know",
+      "url": "https://www.thehindubusinessline.com/portfolio/invesco-india-largecap-fund-review-performance-portfolio-risk/article71499416.ece"
     },
     {
       "time": "2026-09-25 22:38",
@@ -135,6 +127,14 @@
       "hl": "Accenture Global IT mastered 6,400 OKRs, but making them visible to leaders was the next challenge.",
       "detail": "How Accenture Global IT is turning thousands of OKRs into clearer leadership conversations and faster strategic decisions.\nThe post Accenture Global IT mastered 6,400 OKRs, but making them visible to leaders was the next challenge. appeared first on Inside At\u2026",
       "url": "https://www.atlassian.com/blog/focus/accenture-okr-leadership-visibility-2"
+    },
+    {
+      "time": "2026-09-25 15:00",
+      "tk": "INFY",
+      "src": "BusinessLine",
+      "hl": "Infosys nears July lows, Wipro hits fresh 52-week low",
+      "detail": "IT stocks slide as Infosys, Wipro hit 52-week lows amid AI transition and market volatility in India.",
+      "url": "https://www.thehindubusinessline.com/info-tech/infosys-nears-july-lows-wipro-hits-fresh-52-week-low/article71509264.ece"
     },
     {
       "time": "2026-09-24 17:20",
@@ -159,14 +159,6 @@
       "hl": "Persistent Systems completes acquisition of 83.25% stake in Nagarro",
       "detail": "Voluntary Public Takeover Offer further extended till 06 October 2026",
       "url": "https://www.business-standard.com/markets/capital-market-news/persistent-systems-completes-acquisition-of-83-25-stake-in-nagarro-126092300684_1.html"
-    },
-    {
-      "time": "2026-09-23 02:28",
-      "tk": "TECHM",
-      "src": "Business Standard",
-      "hl": "Stocks to watch: Adani Group stocks, Coforge, Aditya Infotech, Innovision",
-      "detail": "Five Adani Group companies have settled SEBI adjudication proceedings linked to the Hindenburg report.",
-      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-adani-group-stocks-coforge-aditya-infotech-innovision-126092300117_1.html"
     },
     {
       "time": "2026-09-25 08:09",
@@ -209,6 +201,14 @@
       "url": "https://www.redbooks.ibm.com/docs/MD260040/MD260040.html"
     },
     {
+      "time": "2026-09-26 07:07",
+      "tk": "TECHM",
+      "src": "Careerwebsite.com",
+      "hl": "Oliver Wyman - Communications, Media & Technology/Private Capital - Engagement Manager - Marsh & McLennan Companies - , CA",
+      "detail": "A new Oliver Wyman - Communications, Media & Technology/Private Capital - Engagement Manager job is available in California. Check it out on PR News Online.",
+      "url": "https://naaia-jobs.careerwebsite.com/job/oliver-wyman-communications-media-technologyprivate-capital-engagement-manager/86157998/"
+    },
+    {
       "time": "2026-09-25 07:31",
       "tk": "CAP",
       "src": "The Times of India",
@@ -225,6 +225,14 @@
       "url": "https://www.thehindubusinessline.com/opinion/how-ai-is-redrawing-the-it-services-map/article71503915.ece"
     },
     {
+      "time": "2026-09-26 08:51",
+      "tk": "TECHM",
+      "src": "The Times of India",
+      "hl": "Nifty at key 23,000 support: Can bulls trigger a technical rebound?",
+      "detail": "Nifty extended its losing streak to seven weeks, falling 0.88% to 23,140.50 as technical momentum remained bearish. The 23,000\u201323,200 zone is crucial support, while 23,375 and 23,600 are key resistances amid heightened volatility and derivatives expiry.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-at-key-23000-support-can-bulls-trigger-a-technical-rebound/articleshow/134500890.cms"
+    },
+    {
       "time": "2026-09-22 16:16",
       "tk": "TCS",
       "src": "The Times of India",
@@ -239,14 +247,6 @@
       "hl": "New Zealand route won\u2019t help third-country goods claim India FTA benefits: Here\u2019s what changes",
       "detail": "Under the India-New Zealand trade pact, goods from third countries will not be eligible for tariff concessions, with preferential treatment limited to products originating in India and New Zealand. India has protected sensitive sectors such as dairy and gems \u2026",
       "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/new-zealand-route-wont-help-third-country-goods-claim-india-fta-benefits-heres-what-changes/articleshow/134393585.cms"
-    },
-    {
-      "time": "2026-09-17 06:11",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "hl": "Sensex rises 200 points, Nifty above 23,300 despite Fed rate hike. Why bears may be ready to pounce",
-      "detail": "Sensex and Nifty extended gains despite the US Federal Reserve\u2019s first rate hike in three years, supported by broad-based buying outside the IT sector. Analysts remain cautious as elevated bond yields, FII selling, rupee weakness and geopolitical risks could \u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-200-points-nifty-above-23300-despite-fed-rate-hike-why-bears-may-be-ready-to-pounce/articleshow/134303083.cms"
     }
   ]
 }
