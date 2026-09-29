@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-28T22:11:59.164422+00:00",
-  "updated_display": "28 Sep 2026, 22:11 UTC",
+  "updated": "2026-09-29T02:39:39.074780+00:00",
+  "updated_display": "29 Sep 2026, 02:39 UTC",
   "prices": {
     "TCS": {
-      "price": 2082.0,
-      "display": "\u20b92,082",
-      "change": -0.2
+      "price": 2070.7,
+      "display": "\u20b92,071",
+      "change": -0.5
     },
     "INFY": {
-      "price": 1000.2,
-      "display": "\u20b91,000",
-      "change": -1.4
+      "price": 1003.2,
+      "display": "\u20b91,003",
+      "change": 0.3
     },
     "CTSH": {
       "price": 56.75,
@@ -23,14 +23,14 @@
       "change": 1.2
     },
     "WIPRO": {
-      "price": 164.02,
-      "display": "\u20b9164",
-      "change": 0.2
+      "price": 161.56,
+      "display": "\u20b9162",
+      "change": -1.5
     },
     "TECHM": {
-      "price": 1548.0,
-      "display": "\u20b91,548",
-      "change": 0.3
+      "price": 1542.2,
+      "display": "\u20b91,542",
+      "change": -0.4
     },
     "MPHL": {
       "price": 2234.0,
@@ -43,9 +43,9 @@
       "change": 1.8
     },
     "COFG": {
-      "price": 1784.0,
-      "display": "\u20b91,784",
-      "change": -0.1
+      "price": 1773.0,
+      "display": "\u20b91,773",
+      "change": -0.6
     },
     "ACN": {
       "price": 174.47,
@@ -75,12 +75,12 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 73895.74,
-      "change": 0.43
+      "value": 72771.72,
+      "change": -1.52
     },
     "NIFTY_IT": {
-      "value": 28160.9,
-      "change": -0.17
+      "value": 28086.5,
+      "change": -0.26
     },
     "SP500": {
       "value": 7683.69,
@@ -88,14 +88,30 @@
     },
     "USD_INR": {
       "value": 95.97,
-      "change": -0.2
+      "change": 0.19
     },
     "EUR_INR": {
       "value": 109.15,
-      "change": 0.06
+      "change": 3.1
     }
   },
   "news": [
+    {
+      "time": "2026-09-28 01:54",
+      "tk": "TECHM",
+      "src": "The Times of India",
+      "hl": "a16z\u2019s Raghu Raghuram on India\u2019s AI potential; insurance cos navigate new proposal",
+      "detail": "Happy Monday! a16z\u2019s Raghu Raghuram said India can build frontier AI companies by using its talent. This and more in today\u2019s ETtech Morning Dispatch.",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/a16zs-raghu-raghuram-on-indias-ai-potential-insurance-cos-navigate-new-proposal/articleshow/134529607.cms"
+    },
+    {
+      "time": "2026-09-28 01:49",
+      "tk": "CAP",
+      "src": "Business Standard",
+      "hl": "\u20b931 trn wiped out; nearly 40% of Nifty stocks down over 20%",
+      "detail": "18 of the 50 Nifty stocks are trading more than 20 per cent below their respective 52-week highs, with a market cap erosion of \u20b931.35 lakh crore in the same period.",
+      "url": "https://www.business-standard.com/markets/news/feeling-blue-near-40-of-nifty-stocks-down-over-20-31-trn-wiped-out-126092700709_1.html"
+    },
     {
       "time": "2026-09-27 18:33",
       "tk": "INFY",
@@ -111,14 +127,6 @@
       "hl": "Ahead of Market: 10 things that will decide stock market action on Monday",
       "detail": "Indian equity benchmarks Sensex and Nifty ended higher on Friday, bouncing back to close at 73,896 and 23,140.50 respectively. Geojit\u2019s Vinod Nair cited strong domestic liquidity holding Nifty above 23,000, while elevated crude prices and persistent foreign o\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/134518822.cms"
-    },
-    {
-      "time": "2026-09-27 02:23",
-      "tk": "TCS",
-      "src": "Livemint",
-      "hl": "Tax audit deadline September 30: 5 common mistakes in GST turnover, TDS, AIS and business expenses to avoid",
-      "detail": "Taxpayers facing the September 30 tax-audit deadline should reconcile their books with GST returns, AIS, TIS and Form 26AS, verify TDS/TCS credits and avoid claiming personal expenses as business deductions. Experts recommend completing these checks well befo\u2026",
-      "url": "https://www.livemint.com/money/personal-finance/tax-audit-deadline-september-30-5-common-mistakes-in-gst-turnover-tds-ais-and-business-expenses-to-avoid-11790475384951.html"
     },
     {
       "time": "2026-09-27 00:30",
