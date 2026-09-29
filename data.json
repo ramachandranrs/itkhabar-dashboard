@@ -1,132 +1,172 @@
 {
-  "updated": "2026-09-29T02:39:39.074780+00:00",
-  "updated_display": "29 Sep 2026, 02:39 UTC",
+  "updated": "2026-09-29T16:51:10.243766+00:00",
+  "updated_display": "29 Sep 2026, 16:51 UTC",
   "prices": {
     "TCS": {
-      "price": 2070.7,
-      "display": "\u20b92,071",
-      "change": -0.5
+      "price": 2032.4,
+      "display": "\u20b92,032",
+      "change": -1.8
     },
     "INFY": {
-      "price": 1003.2,
-      "display": "\u20b91,003",
-      "change": 0.3
+      "price": 1015.4,
+      "display": "\u20b91,015",
+      "change": 1.2
     },
     "CTSH": {
-      "price": 56.75,
-      "display": "$56.75",
+      "price": 56.17,
+      "display": "$56.17",
       "change": -1.0
     },
     "HCLT": {
-      "price": 1258.0,
-      "display": "\u20b91,258",
-      "change": 1.2
+      "price": 1222.0,
+      "display": "\u20b91,222",
+      "change": -2.4
     },
     "WIPRO": {
-      "price": 161.56,
-      "display": "\u20b9162",
-      "change": -1.5
+      "price": 156.79,
+      "display": "\u20b9157",
+      "change": -3.0
     },
     "TECHM": {
-      "price": 1542.2,
-      "display": "\u20b91,542",
-      "change": -0.4
+      "price": 1510.5,
+      "display": "\u20b91,510",
+      "change": -2.1
     },
     "MPHL": {
-      "price": 2234.0,
-      "display": "\u20b92,234",
-      "change": -0.6
+      "price": 2154.4,
+      "display": "\u20b92,154",
+      "change": -3.7
     },
     "PSYS": {
-      "price": 5372.0,
-      "display": "\u20b95,372",
-      "change": 1.8
+      "price": 5162.0,
+      "display": "\u20b95,162",
+      "change": -3.1
     },
     "COFG": {
-      "price": 1773.0,
-      "display": "\u20b91,773",
-      "change": -0.6
+      "price": 1722.0,
+      "display": "\u20b91,722",
+      "change": -2.9
     },
     "ACN": {
-      "price": 174.47,
-      "display": "$174",
-      "change": -0.9
+      "price": 174.83,
+      "display": "$175",
+      "change": 0.2
     },
     "CAP": {
-      "price": 104.5,
+      "price": 103.5,
       "display": "\u20ac104",
-      "change": 0.7
+      "change": 0.5
     },
     "ATOS": {
-      "price": 22.36,
-      "display": "\u20ac22.36",
-      "change": -1.6
+      "price": 20.38,
+      "display": "\u20ac20.38",
+      "change": -5.6
     },
     "DXC": {
-      "price": 10.35,
-      "display": "$10.35",
-      "change": -2.8
+      "price": 10.3,
+      "display": "$10.30",
+      "change": -0.5
     },
     "GIB": {
-      "price": 67.71,
-      "display": "$67.71",
-      "change": -0.1
+      "price": 67.54,
+      "display": "$67.54",
+      "change": -0.3
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72771.72,
-      "change": -1.52
+      "value": 72529.07,
+      "change": -0.33
     },
     "NIFTY_IT": {
-      "value": 28086.5,
-      "change": -0.26
+      "value": 27670.0,
+      "change": -1.48
     },
     "SP500": {
-      "value": 7683.69,
-      "change": -0.77
+      "value": 7662.76,
+      "change": -0.27
     },
     "USD_INR": {
       "value": 95.97,
       "change": 0.19
     },
     "EUR_INR": {
-      "value": 109.15,
-      "change": 3.1
+      "value": 108.84,
+      "change": 2.8
     }
   },
   "news": [
     {
-      "time": "2026-09-28 01:54",
-      "tk": "TECHM",
+      "time": "2026-09-28 16:44",
+      "tk": "HCLT",
       "src": "The Times of India",
-      "hl": "a16z\u2019s Raghu Raghuram on India\u2019s AI potential; insurance cos navigate new proposal",
-      "detail": "Happy Monday! a16z\u2019s Raghu Raghuram said India can build frontier AI companies by using its talent. This and more in today\u2019s ETtech Morning Dispatch.",
-      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/a16zs-raghu-raghuram-on-indias-ai-potential-insurance-cos-navigate-new-proposal/articleshow/134529607.cms"
+      "hl": "HCLTech software unit to acquire European firm Robotiq.ai for 9 million euros",
+      "detail": "The company will acquire 100% of the outstanding equity of Robotiq.ai to be acquired by HCL Technologies Austria GmbH, a step- down wholly owned subsidiary of HCLTech, for a cash consideration of nine million euros adjusted for customary post-closing adjustme\u2026",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/hcltech-software-unit-acquires-european-firm-robotiq-ai-for-9-million-euros/articleshow/134547380.cms"
     },
     {
-      "time": "2026-09-28 01:49",
+      "time": "2026-09-28 16:25",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "hl": "Tata Trusts\u2019 bid to reorganise Tata Sons could face regulatory hurdles",
+      "detail": "Regulatory hurdles loom as Tata Trusts\u2019 plan to reorganise Tata Sons faces RBI scrutiny and potential listing requirements.",
+      "url": "https://www.thehindubusinessline.com/companies/tata-trusts-bid-to-reorganise-tata-sons-could-face-regulatory-hurdles/article71520942.ece"
+    },
+    {
+      "time": "2026-09-28 15:07",
+      "tk": "HCLT",
+      "src": "PRNewswire",
+      "hl": "HCLSoftware to Acquire Robotiq.ai, Strengthening Enterprise Agentic Automation",
+      "detail": "Acquisition adds enterprise RPA capabilities to HCL UnO Agentic, strengthening end-to-end orchestration across AI agents and enterprise applications SANTA CLARA, Calif., Sept. 28, 2026 /PRNewswire/ -- HCLSoftware (NSE: HCLTECH) (BSE: HCLTECH), the software bu\u2026",
+      "url": "https://www.prnewswire.com/news-releases/hclsoftware-to-acquire-robotiqai-strengthening-enterprise-agentic-automation-302891642.html"
+    },
+    {
+      "time": "2026-09-28 15:02",
+      "tk": "HCLT",
+      "src": "PRNewswire",
+      "hl": "HCLTech launches first-of-its-kind AI-based synthetic research study for the global wealth management industry",
+      "detail": "Based on more than 1,000 AI personas, the report finds 84% of wealth management firms acknowledge the need for an operating model reset, but less than 10% are prepared for the shift NEW YORK and NOIDA, India, Sept. 28, 2026 /PRNewswire/ -- HCLTech (NSE: HCLTE\u2026",
+      "url": "https://www.prnewswire.com/news-releases/hcltech-launches-first-of-its-kind-ai-based-synthetic-research-study-for-the-global-wealth-management-industry-302891633.html"
+    },
+    {
+      "time": "2026-09-28 14:13",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "hl": "Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword",
+      "detail": "With fiscal Q4 earnings due and analyst day slated for Oct. 14., artificial intelligence looms as a double-edged sword for Accenture stock. \nThe post Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword appeared first on Investor's Bu\u2026",
+      "url": "https://biztoc.com/x/12550ddb028e2f8a"
+    },
+    {
+      "time": "2026-09-28 09:32",
       "tk": "CAP",
-      "src": "Business Standard",
-      "hl": "\u20b931 trn wiped out; nearly 40% of Nifty stocks down over 20%",
-      "detail": "18 of the 50 Nifty stocks are trading more than 20 per cent below their respective 52-week highs, with a market cap erosion of \u20b931.35 lakh crore in the same period.",
-      "url": "https://www.business-standard.com/markets/news/feeling-blue-near-40-of-nifty-stocks-down-over-20-31-trn-wiped-out-126092700709_1.html"
+      "src": "Slashdot.org",
+      "hl": "HMRC vowed to break up with Capgemini then paid it another \u00a34.2B",
+      "detail": "Government wants public spending to back British business, but the French supplier could remain at the tax collector until 2036",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185887138"
     },
     {
-      "time": "2026-09-27 18:33",
-      "tk": "INFY",
+      "time": "2026-09-28 10:29",
+      "tk": "CAP",
       "src": "The Times of India",
-      "hl": "WeSchool Bengaluru holds convocation for 2024-26 PGDM batch",
-      "detail": "WeSchool Bengaluru held convocation for the 2024-26 PGDM batch, graduating students across four programmes; Infosys BPM\u2019s Santosh Panpaliya was guest of honour.",
-      "url": "https://timesofindia.indiatimes.com/city/bengaluru/weschool-bengaluru-holds-convocation-for-2024-26-pgdm-batch/articleshow/134525151.cms"
+      "hl": "Motilal Oswal sees 4 factors boosting risk-reward after market\u2019s sharp fall from 2024 high, lists 27 stock picks",
+      "detail": "Motilal Oswal Financial Services sees improving risk-reward for Indian equities as valuations cool, earnings recover and domestic liquidity remains strong. The brokerage also highlights sectoral rotation and names 27 stocks across large-, mid- and small-cap s\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-sees-4-factors-boosting-risk-reward-after-markets-sharp-fall-from-2024-high-lists-27-stock-picks/articleshow/134539312.cms"
     },
     {
-      "time": "2026-09-27 11:03",
-      "tk": "PSYS",
-      "src": "The Times of India",
-      "hl": "Ahead of Market: 10 things that will decide stock market action on Monday",
-      "detail": "Indian equity benchmarks Sensex and Nifty ended higher on Friday, bouncing back to close at 73,896 and 23,140.50 respectively. Geojit\u2019s Vinod Nair cited strong domestic liquidity holding Nifty above 23,000, while elevated crude prices and persistent foreign o\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/134518822.cms"
+      "time": "2026-09-28 07:35",
+      "tk": "TECHM",
+      "src": "BusinessLine",
+      "hl": "Nifty 50 down 12% from September 2024 peak: Motilal Oswal",
+      "detail": "Metals and PSU Banks have been among the key outperformers,  while Technology, Consumer, Media and Real Estate have been among the key laggards",
+      "url": "https://www.thehindubusinessline.com/markets/nifty-50-down-12-from-september-2024-peak-motilal-oswal/article71518801.ece"
+    },
+    {
+      "time": "2026-09-28 05:43",
+      "tk": "TECHM",
+      "src": "Livemint",
+      "hl": "How mid-sized IT firms are turning AI cost cuts into new revenue",
+      "detail": "As AI automates work traditionally performed by IT services firms and software products, companies like LTM, Coforge and Hexaware are helping clients reduce those costs. The shift could create new revenue streams even as it puts pressure on traditional techno\u2026",
+      "url": "https://www.livemint.com/companies/news/mid-sized-it-firms-ai-cost-cuts-ltm-coforge-hexaware-11790522363302.html"
     },
     {
       "time": "2026-09-27 00:30",
@@ -161,22 +201,6 @@
       "url": "http://digiday.com/sponsored/how-marketers-are-innovating-in-the-age-of-intelligence/"
     },
     {
-      "time": "2026-09-23 21:00",
-      "tk": "TECHM",
-      "src": "PRNewswire",
-      "hl": "Stoneridge Appoints Uwe Brandenburg as Global Vice President, Engineering & Innovation",
-      "detail": "NOVI, Mich., Sept. 23, 2026 /PRNewswire/ -- Stoneridge, Inc. (NYSE: SRI), a global leader of safe, intelligent and efficient electronic technologies for the commercial vehicle and off-highway equipment markets, today announced the appointment of Uwe Brandenbu\u2026",
-      "url": "https://www.prnewswire.com/news-releases/stoneridge-appoints-uwe-brandenburg-as-global-vice-president-engineering--innovation-302888080.html"
-    },
-    {
-      "time": "2026-09-23 09:20",
-      "tk": "PSYS",
-      "src": "Business Standard",
-      "hl": "Persistent Systems completes acquisition of 83.25% stake in Nagarro",
-      "detail": "Voluntary Public Takeover Offer further extended till 06 October 2026",
-      "url": "https://www.business-standard.com/markets/capital-market-news/persistent-systems-completes-acquisition-of-83-25-stake-in-nagarro-126092300684_1.html"
-    },
-    {
       "time": "2026-09-27 10:00",
       "tk": "TECHM",
       "src": "TechRadar",
@@ -209,28 +233,28 @@
       "url": "https://www.thehindubusinessline.com/info-tech/telangana-targets-5-gw-hyperscale-data-centre-capacity-by-2029/article71502737.ece"
     },
     {
+      "time": "2026-09-28 14:18",
+      "tk": "TECHM",
+      "src": "PRNewswire",
+      "hl": "Datalink Networks Reports 58.2% Revenue Growth for Fiscal Year 2026",
+      "detail": "Strategic priorities center on AI, cloud and cybersecurity as the company enters its next phase of growth SANTA CLARITA, Calif., Sept. 28, 2026 /PRNewswire/ -- Datalink Networks, Inc., a technology solutions and managed services provider serving organizations\u2026",
+      "url": "https://www.prnewswire.com/news-releases/datalink-networks-reports-58-2-revenue-growth-for-fiscal-year-2026--302890811.html"
+    },
+    {
+      "time": "2026-09-28 01:54",
+      "tk": "TECHM",
+      "src": "The Times of India",
+      "hl": "a16z\u2019s Raghu Raghuram on India\u2019s AI potential; insurance cos navigate new proposal",
+      "detail": "Happy Monday! a16z\u2019s Raghu Raghuram said India can build frontier AI companies by using its talent. This and more in today\u2019s ETtech Morning Dispatch.",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/a16zs-raghu-raghuram-on-indias-ai-potential-insurance-cos-navigate-new-proposal/articleshow/134529607.cms"
+    },
+    {
       "time": "2026-09-26 07:07",
       "tk": "TECHM",
       "src": "Careerwebsite.com",
       "hl": "Oliver Wyman - Communications, Media & Technology/Private Capital - Engagement Manager - Marsh & McLennan Companies - , CA",
       "detail": "A new Oliver Wyman - Communications, Media & Technology/Private Capital - Engagement Manager job is available in California. Check it out on PR News Online.",
       "url": "https://naaia-jobs.careerwebsite.com/job/oliver-wyman-communications-media-technologyprivate-capital-engagement-manager/86157998/"
-    },
-    {
-      "time": "2026-09-25 07:31",
-      "tk": "CAP",
-      "src": "The Times of India",
-      "hl": "Big AI reset ahead? Chris Wood doubts hyperscalers\u2019 $990 bn capex estimates, highlights India\u2019s reverse AI trade advantage",
-      "detail": "Jefferies\u2019 Chris Wood expects the AI investment narrative to face a major reset, questioning whether Meta, Alphabet, Amazon and Microsoft can sustain $990 billion in projected 2027 capex. He also sees Indian IT services as a potential reverse AI trade, with v\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/big-ai-reset-ahead-chris-wood-doubts-hyperscalers-990-bn-capex-estimates-highlights-indias-reverse-ai-trade-advantage/articleshow/134478611.cms"
-    },
-    {
-      "time": "2026-09-24 11:52",
-      "tk": "INFY",
-      "src": "BusinessLine",
-      "hl": "How AI is redrawing the IT services map",
-      "detail": "The pyramid model is gone. With coding agents, we no longer need basic coding \u2014 this blunt assessment comes from V Balakrishnan, the former CFO of Infosys. It is more than a prediction about entry-level jobs. For three decades, Indian IT services built scale \u2026",
-      "url": "https://www.thehindubusinessline.com/opinion/how-ai-is-redrawing-the-it-services-map/article71503915.ece"
     },
     {
       "time": "2026-09-26 08:51",
