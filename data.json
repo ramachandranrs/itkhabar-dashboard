@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-30T04:13:45.104985+00:00",
-  "updated_display": "30 Sep 2026, 04:13 UTC",
+  "updated": "2026-09-30T04:23:47.201561+00:00",
+  "updated_display": "30 Sep 2026, 04:23 UTC",
   "prices": {
     "TCS": {
-      "price": 2085.4,
-      "display": "\u20b92,085",
-      "change": 2.6
+      "price": 2080.3,
+      "display": "\u20b92,080",
+      "change": 2.4
     },
     "INFY": {
-      "price": 1013.9,
-      "display": "\u20b91,014",
-      "change": -0.1
+      "price": 1011.8,
+      "display": "\u20b91,012",
+      "change": -0.4
     },
     "CTSH": {
       "price": 56.84,
@@ -18,34 +18,34 @@
       "change": 0.2
     },
     "HCLT": {
-      "price": 1244.4,
-      "display": "\u20b91,244",
-      "change": 1.8
+      "price": 1238.8,
+      "display": "\u20b91,239",
+      "change": 1.4
     },
     "WIPRO": {
-      "price": 160.7,
-      "display": "\u20b9161",
-      "change": 2.5
+      "price": 160.41,
+      "display": "\u20b9160",
+      "change": 2.3
     },
     "TECHM": {
-      "price": 1549.5,
-      "display": "\u20b91,550",
-      "change": 2.6
+      "price": 1543.7,
+      "display": "\u20b91,544",
+      "change": 2.2
     },
     "MPHL": {
-      "price": 2229.3,
-      "display": "\u20b92,229",
-      "change": 3.5
+      "price": 2227.7,
+      "display": "\u20b92,228",
+      "change": 3.4
     },
     "PSYS": {
-      "price": 5326.0,
-      "display": "\u20b95,326",
-      "change": 3.2
+      "price": 5330.0,
+      "display": "\u20b95,330",
+      "change": 3.3
     },
     "COFG": {
-      "price": 1801.3,
-      "display": "\u20b91,801",
-      "change": 1.6
+      "price": 1797.6,
+      "display": "\u20b91,798",
+      "change": 1.4
     },
     "ACN": {
       "price": 177.12,
@@ -75,20 +75,20 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72732.16,
-      "change": 0.28
+      "value": 72644.7,
+      "change": 0.16
     },
     "NIFTY_IT": {
-      "value": 28187.2,
-      "change": 1.87
+      "value": 28133.25,
+      "change": 1.67
     },
     "SP500": {
       "value": 7670.84,
       "change": -0.17
     },
     "USD_INR": {
-      "value": 95.95,
-      "change": -0.03
+      "value": 95.96,
+      "change": -0.02
     },
     "EUR_INR": {
       "value": 108.73,
@@ -133,7 +133,7 @@
         2082.0,
         2071.0,
         2032.0,
-        2085.0
+        2080.0
       ]
     },
     "INFY": {
@@ -173,7 +173,7 @@
         1000.0,
         1003.0,
         1015.0,
-        1014.0
+        1012.0
       ]
     },
     "CTSH": {
@@ -251,7 +251,7 @@
         1258.0,
         1253.0,
         1222.0,
-        1244.0
+        1239.0
       ]
     },
     "WIPRO": {
@@ -291,7 +291,7 @@
         164.0,
         162.0,
         157.0,
-        161.0
+        160.0
       ]
     },
     "TECHM": {
@@ -331,7 +331,7 @@
         1548.0,
         1542.0,
         1510.0,
-        1550.0
+        1544.0
       ]
     },
     "MPHL": {
@@ -371,7 +371,7 @@
         2234.0,
         2238.0,
         2154.0,
-        2230.0
+        2228.0
       ]
     },
     "PSYS": {
@@ -411,7 +411,7 @@
         5372.0,
         5328.0,
         5162.0,
-        5326.0
+        5330.0
       ]
     },
     "COFG": {
@@ -450,7 +450,7 @@
         1786.0,
         1784.0,
         1773.0,
-        1801.0
+        1798.0
       ]
     },
     "ACN": {
@@ -646,6 +646,14 @@
   },
   "news": [
     {
+      "time": "2026-09-29 04:14",
+      "tk": "CAP",
+      "src": "The Times of India",
+      "hl": "Why is market falling today? Sensex slumps 700 points, Nifty below 22,600. 8 key factors rattling D-Street",
+      "detail": "On Tuesday, the Indian stock market faced a substantial downturn. This sharp decline came after a previous drop exceeding 1.5% the day before. A staggering Rs 4 lakh crore was wiped off in market capitalisation, as investors reacted to rising oil prices and c\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-falling-today-sensex-slumps-700-points-nifty-below-22600-8-key-factors-rattling-d-street/articleshow/134555814.cms"
+    },
+    {
       "time": "2026-09-29 03:19",
       "tk": "WIPRO",
       "src": "The Times of India",
@@ -686,14 +694,6 @@
       "url": "https://www.thehindubusinessline.com/info-tech/hcltech-arm-to-acquire-croatia-based-rpa-platform-robotiqai-for-98-crore/article71522259.ece"
     },
     {
-      "time": "2026-09-28 18:25",
-      "tk": "INFY",
-      "src": "Forrester.com",
-      "hl": "Infosys America\u2019s Confluence 2026: An AI Transformation Trip Report",
-      "detail": "We attended Infosys\u2019s Confluence event in Washington DC at the historic Omni Shoreham hotel, the hotel the Beatles stayed in before their first live US performance. John Lennon\u2019s handwritten set list hangs in the lobby (see the pic). Over the course of two da\u2026",
-      "url": "https://www.forrester.com/blogs/infosys-americas-confluence-2026-an-ai-transformation-trip-report/"
-    },
-    {
       "time": "2026-09-29 00:01",
       "tk": "TECHM",
       "src": "Sports Illustrated",
@@ -716,6 +716,14 @@
       "hl": "Cook, An Update on AI and the Economy",
       "detail": "Thank you, Freada and Mitch, for that kind introduction. I appreciate the invitation to speak here at Oakland Tech Week and for the opportunity to return to th",
       "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
+    },
+    {
+      "time": "2026-09-29 04:14",
+      "tk": "COFG",
+      "src": "BusinessLine",
+      "hl": "Coforge appoints Akhil Gupta as Non-Executive Independent Director, Chairperson",
+      "detail": "Akhil Gupta named Non-Executive Independent Director and Chairperson of Coforge for five years, bringing extensive governance and industry expertise.",
+      "url": "https://www.thehindubusinessline.com/companies/coforge-appoints-akhil-gupta-as-non-executive-independent-director-chairperson/article71522451.ece"
     },
     {
       "time": "2026-09-29 03:50",
@@ -772,14 +780,6 @@
       "hl": "Coforge appoints Akhil Kumar Gupta as chairperson",
       "detail": "Gupta, who has four decades of experience as a chartered accountant, currently chairs ONE WAM and Bharti Life Insurance. He also serves on the boards of Zepto, Snapdeal, Eutelsat Communications and Lodha Developers.",
       "url": "https://www.livemint.com/companies/coforge-appoints-akhil-kumar-gupta-as-chairperson-11790618685616.html"
-    },
-    {
-      "time": "2026-09-28 17:59",
-      "tk": "COFG",
-      "src": "The Times of India",
-      "hl": "Coforge appoints Akhil Gupta as chairman",
-      "detail": "Coforge appoints ex-Bharti Enterprises vice-chairman Akhil Gupta as non-executive chairperson for five years, succeeding O P Bhatt after KPMG audit.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/coforge-appoints-akhil-gupta-as-chairman/articleshow/134548676.cms"
     },
     {
       "time": "2026-09-27 10:00",
