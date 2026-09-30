@@ -2098,7 +2098,7 @@ document.getElementById('exportBtn').addEventListener('click',()=>{
    ════════════════════════════════════════ */
 function applyLiveData(d){
   const allCOs=[...INDIA,...GLOBAL];
-  // Update stock prices
+  // ── 1. Update stock prices ──
   if(d.prices){
     Object.entries(d.prices).forEach(([tk,p])=>{
       const co=allCOs.find(c=>c.t===tk);
@@ -2108,7 +2108,16 @@ function applyLiveData(d){
       }
     });
   }
-  // Update market indices ribbon
+  // ── 2. Update historical price arrays for trend charts ──
+  if(d.historical){
+    Object.entries(d.historical).forEach(([tk,h])=>{
+      const co=allCOs.find(c=>c.t===tk);
+      if(!co) return;
+      if(h.mp&&h.mp.length>=6) co.mp=h.mp;
+      if(h.dp&&h.dp.length>=1) co.dp=h.dp;
+    });
+  }
+  // ── 3. Update market indices ribbon ──
   if(d.indices){
     const map={SENSEX:'sensex',NIFTY_IT:'niftyIt',SP500:'sp500',USD_INR:'usdInr',EUR_INR:'eurInr'};
     Object.entries(d.indices).forEach(([k,v])=>{
@@ -2123,7 +2132,7 @@ function applyLiveData(d){
       }
     });
   }
-  // Update timestamp display
+  // ── 4. Update timestamp display ──
   if(d.updated_display){
     const tsEl=document.getElementById('liveTimestamp');
     if(tsEl){
@@ -2133,25 +2142,51 @@ function applyLiveData(d){
       setTimeout(()=>{tsEl.style.color='';},3000);
     }
   }
-  // Merge news headlines into EVENTS if available
+  // ── 5. REPLACE events with live news (not merge) ──
+  // When live news is available, clear hardcoded events and use only live data.
+  // This ensures Latest Highlights and Intelligence Stream show current dates.
   if(d.news&&d.news.length){
-    const catMap={'business':'RESULTS','technology':'AI','general':'MACRO'};
+    // Clear all hardcoded events
+    EVENTS.length=0;
     d.news.forEach(n=>{
-      const exists=EVENTS.some(e=>e.hl===n.hl);
-      if(!exists){
-        // Auto-detect earnings/results from headline keywords
-        let cat=n.cat||'MACRO';
-        if(/\b(quarterly|Q[1-4]|results|earnings|profit|revenue|EBIT|EPS|FY\d{2,4})\b/i.test(n.hl)){
-          cat='RESULTS';
-        }
-        const _nd=new Date();
-        const _ndt=n.dt||(_nd.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][_nd.getMonth()]);
-        EVENTS.unshift({
-          dt:_ndt,time:n.time||'',tk:n.tk||'Sector',src:n.src||'NEWS',
-          cat:cat,mat:/\bresults\b/i.test(n.hl)?'HIGH':'MEDIUM',
-          grp:n.tk&&n.tk!=='Sector'?'IN':'GL',
-          hl:n.hl,detail:n.detail||'',liveUrl:n.url||''
-        });
+      // Parse date from news item
+      const _nd=new Date(n.time||Date.now());
+      const _ndt=n.dt||(_nd.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][_nd.getMonth()]);
+      // Auto-detect category from headline keywords
+      let cat='MACRO';
+      if(/\b(quarterly|Q[1-4]|results|earnings|profit|revenue|EBIT|EPS|FY\d{2,4})\b/i.test(n.hl)){
+        cat='RESULTS';
+      } else if(/\b(deal|contract|win|award|partner|acquisition|merge)\b/i.test(n.hl)){
+        cat='DEAL';
+      } else if(/\b(AI|artificial intelligence|GenAI|machine learning|LLM|GPT|agent)\b/i.test(n.hl)){
+        cat='AI';
+      } else if(/\b(CEO|CTO|appoint|resign|hire|board)\b/i.test(n.hl)){
+        cat='PEOPLE';
+      } else if(/\b(guidance|outlook|forecast|target|upgrade|downgrade|rating|BUY|SELL|ADD)\b/i.test(n.hl)){
+        cat='ANALYST';
+      }
+      // Determine materiality from keywords
+      const isHigh=/\b(results|earnings|deal|contract|guidance|restructur|acqui|merge)\b/i.test(n.hl);
+      // Determine region from ticker
+      const tkReg=n.tk&&n.tk!=='Sector'?(TICKER_REGION[n.tk]||'INDIA'):'INDIA';
+      EVENTS.push({
+        dt:_ndt,time:n.time?n.time.substring(11,16):'',tk:n.tk||'Sector',src:n.src||'NEWS',
+        cat:cat,mat:isHigh?'HIGH':'MEDIUM',
+        grp:tkReg==='INDIA'?'IN':'GL',
+        hl:n.hl,detail:n.detail||'',liveUrl:n.url||''
+      });
+    });
+    // Re-assign regions to new events
+    EVENTS.forEach(e=>{
+      if(e.reg) return;
+      if(e.tk==='Ecosystem'||e.tk==='Sector'){
+        if(/\b(Fed |rate |Anthropic|Claude|Azure|Google Cloud|Salesforce|hyperscaler)\b/i.test(e.hl)) e.reg='GLOBAL';
+        else if(/\b(US |H-1B|visa cap)\b/i.test(e.hl)) e.reg='AMER';
+        else if(/\b(EU |European|GDPR|AI Act)\b/i.test(e.hl)) e.reg='EMEA';
+        else if(/\b(India|NASSCOM|CERT-In|Nifty|BSE|NSE)\b/i.test(e.hl)) e.reg='INDIA';
+        else e.reg='GLOBAL';
+      } else {
+        e.reg=TICKER_REGION[e.tk]||'INDIA';
       }
     });
   }
@@ -2234,7 +2269,7 @@ loadLiveData().then(()=>{
   // Auto-refresh every 5 minutes if hosted
   setInterval(async()=>{
     const ok=await loadLiveData();
-    if(ok){renderSnapshot();renderCards();renderEvents();renderTodayHL();buildReport();initBreaking();checkEarningsAlerts();}
+    if(ok){renderSnapshot();renderCards();renderEvents();renderTodayHL();buildTrend();buildStockChart();buildReport();initBreaking();checkEarningsAlerts();}
   },300000);
 
   // ── Earnings Alert Popup ──

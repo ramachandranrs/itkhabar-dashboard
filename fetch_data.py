@@ -121,6 +121,60 @@ def fetch_stock_prices():
     return prices
 
 
+def fetch_historical_prices():
+    """Fetch historical prices for trend charts.
+
+    Returns dict keyed by dashboard ticker:
+      { "TCS": { "mp": [12 monthly closing prices], "dp": [daily closes this month] }, ... }
+
+    mp = last-trading-day close of each of the past 12 calendar months
+         (oldest first, current month excluded — current month is covered by dp).
+    dp = every trading-day close in the current calendar month so far (oldest first).
+    """
+    print("Fetching historical prices for trend charts...")
+    historical = {}
+    now = datetime.datetime.now(datetime.timezone.utc)
+
+    for tk, info in TICKERS.items():
+        sym = info["yf"]
+        try:
+            ticker = yf.Ticker(sym)
+            # Fetch ~14 months of daily data to derive monthly closes
+            hist = ticker.history(period="14mo")
+            if hist.empty or len(hist) < 5:
+                print(f"  ⚠ {tk}: insufficient historical data")
+                continue
+
+            # --- Monthly closes (mp): last trading day of each of the past 12 months ---
+            # Group by year-month
+            hist.index = hist.index.tz_localize(None) if hist.index.tz is not None else hist.index
+            monthly = hist["Close"].resample("ME").last().dropna()
+            # Exclude current month (it's incomplete — dp covers it)
+            cur_month_start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0,
+                                          tzinfo=None)
+            monthly = monthly[monthly.index < cur_month_start]
+            # Take latest 12 months
+            mp_values = [round(float(v), 0) for v in monthly.tail(12).values]
+
+            # --- Daily closes for current month (dp) ---
+            month_start = cur_month_start
+            daily_mask = hist.index >= month_start
+            daily_this_month = hist.loc[daily_mask, "Close"].dropna()
+            dp_values = [round(float(v), 0) for v in daily_this_month.values]
+
+            # Only include if we have meaningful data
+            if len(mp_values) >= 6:
+                historical[tk] = {"mp": mp_values, "dp": dp_values}
+                print(f"  ✓ {tk}: {len(mp_values)} monthly + {len(dp_values)} daily prices")
+            else:
+                print(f"  ⚠ {tk}: only {len(mp_values)} monthly points, skipping")
+
+        except Exception as e:
+            print(f"  ✗ {tk}: {e}")
+
+    return historical
+
+
 def fetch_indices():
     """Fetch market index values."""
     print("Fetching market indices...")
@@ -263,6 +317,7 @@ def main():
         "updated_display": now.strftime("%d %b %Y, %H:%M UTC"),
         "prices": fetch_stock_prices(),
         "indices": fetch_indices(),
+        "historical": fetch_historical_prices(),
         "news": fetch_news(),
     }
 
@@ -274,6 +329,7 @@ def main():
     print(f"\n✓ Wrote {outpath} ({os.path.getsize(outpath):,} bytes)")
     print(f"  {len(output['prices'])} stock prices")
     print(f"  {len(output['indices'])} indices")
+    print(f"  {len(output['historical'])} historical price sets (mp/dp for trend charts)")
     print(f"  {len(output['news'])} news items")
 
 
