@@ -1180,7 +1180,7 @@ function renderTodayHL(){
   }
   const todayStart=new Date(_now.getFullYear(),_now.getMonth(),_now.getDate());
   const threeDaysAgo=new Date(todayStart.getTime()-3*86400000);
-  // Filter: today's HIGH items first, then recent (within 3 days)
+  // Filter: today's HIGH items first, then recent HIGH (3 days), then recent ALL (3 days), then latest
   const highEvts=EVENTS.filter(e=>e.mat==='HIGH');
   let todayEvts=highEvts.filter(e=>{
     const d=parseEvtDate(e.dt);
@@ -1188,7 +1188,7 @@ function renderTodayHL(){
   });
   let heading="Today's Highlights";
   let dateLabel=_todayStr;
-  // If nothing from today, show recent items (last 3 days)
+  // If nothing from today, show recent HIGH items (last 3 days)
   if(!todayEvts.length){
     todayEvts=highEvts.filter(e=>{
       const d=parseEvtDate(e.dt);
@@ -1196,9 +1196,17 @@ function renderTodayHL(){
     });
     if(todayEvts.length){heading='Recent Highlights';}
   }
-  // If still nothing recent, show latest 5 but label clearly
+  // If no recent HIGH items, show ANY recent items (last 3 days) regardless of materiality
   if(!todayEvts.length){
-    todayEvts=highEvts.slice(0,5);
+    todayEvts=EVENTS.filter(e=>{
+      const d=parseEvtDate(e.dt);
+      return d&&d.getTime()>=threeDaysAgo.getTime();
+    });
+    if(todayEvts.length){heading='Recent Highlights';}
+  }
+  // If still nothing recent, show latest 5 from all events
+  if(!todayEvts.length){
+    todayEvts=(highEvts.length?highEvts:EVENTS).slice(0,5);
     if(todayEvts.length){heading='Latest Highlights';dateLabel=todayEvts[0].dt||_todayStr;}
     else{el.hidden=true;return;}
   }
@@ -2152,21 +2160,24 @@ function applyLiveData(d){
       // Parse date from news item
       const _nd=new Date(n.time||Date.now());
       const _ndt=n.dt||(_nd.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][_nd.getMonth()]);
-      // Auto-detect category from headline keywords
-      let cat='MACRO';
-      if(/\b(quarterly|Q[1-4]|results|earnings|profit|revenue|EBIT|EPS|FY\d{2,4})\b/i.test(n.hl)){
-        cat='RESULTS';
-      } else if(/\b(deal|contract|win|award|partner|acquisition|merge)\b/i.test(n.hl)){
-        cat='DEAL';
-      } else if(/\b(AI|artificial intelligence|GenAI|machine learning|LLM|GPT|agent)\b/i.test(n.hl)){
-        cat='AI';
-      } else if(/\b(CEO|CTO|appoint|resign|hire|board)\b/i.test(n.hl)){
-        cat='PEOPLE';
-      } else if(/\b(guidance|outlook|forecast|target|upgrade|downgrade|rating|BUY|SELL|ADD)\b/i.test(n.hl)){
-        cat='ANALYST';
+      // Use category from data.json if available, otherwise auto-detect
+      let cat=n.cat||'MACRO';
+      if(cat==='MACRO'){
+        // Fallback auto-detect if no cat from backend
+        if(/\b(quarterly|Q[1-4]|results|earnings|profit|revenue|EBIT|EPS|FY\d{2,4})\b/i.test(n.hl)){
+          cat='RESULTS';
+        } else if(/\b(deal|contract|win|award|partner|acquisition|merge)\b/i.test(n.hl)){
+          cat='DEAL';
+        } else if(/\b(AI|artificial intelligence|GenAI|machine learning|LLM|GPT|agent)\b/i.test(n.hl)){
+          cat='AI';
+        } else if(/\b(CEO|CTO|appoint|resign|hire|board)\b/i.test(n.hl)){
+          cat='PEOPLE';
+        } else if(/\b(guidance|outlook|forecast|target|upgrade|downgrade|rating|BUY|SELL|ADD)\b/i.test(n.hl)){
+          cat='ANALYST';
+        }
       }
       // Determine materiality from keywords
-      const isHigh=/\b(results|earnings|deal|contract|guidance|restructur|acqui|merge)\b/i.test(n.hl);
+      const isHigh=/\b(results?|earnings?|deal|contract|guidance|restructur\w*|acqui\w*|merg\w*|quarter\w*|profit|revenue|ebit|EPS|net.income|layoff|retrench)\b/i.test(n.hl);
       // Determine region from ticker
       const tkReg=n.tk&&n.tk!=='Sector'?(TICKER_REGION[n.tk]||'INDIA'):'INDIA';
       EVENTS.push({

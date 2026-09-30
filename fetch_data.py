@@ -240,18 +240,39 @@ def fetch_news():
         "IT CONTRACT", "OFFSHORE", "NEARSHORE",
     }
 
+    # Words that are too common to use as standalone matchers
+    AMBIGUOUS_FIRST_WORDS = {"TECH", "DXC", "CGI", "NTT", "PERSISTENT"}
+
     def is_relevant(title, desc):
         """Return (True, ticker) if article is about our IT services universe."""
+        import re
         text = f"{title} {desc}".upper()
-        # Check company names first
+        # Check full company names first (high confidence)
         for tk_key, info in TICKERS.items():
-            names_to_check = [tk_key.upper(), info["name"].upper()]
-            first_word = info["name"].split()[0].upper()
-            if len(first_word) > 3:
-                names_to_check.append(first_word)
-            for name in names_to_check:
-                if name in text:
-                    return True, tk_key
+            full_name = info["name"].upper()
+            if full_name in text:
+                return True, tk_key
+        # Check ticker symbols with word boundaries (avoid partial matches)
+        for tk_key, info in TICKERS.items():
+            if re.search(r'\b' + re.escape(tk_key.upper()) + r'\b', text):
+                # Skip very short tickers that could be false positives
+                if len(tk_key) <= 3 and tk_key.upper() in {"CAP", "GIB"}:
+                    continue
+                return True, tk_key
+        # Check well-known alternate names (only unambiguous ones)
+        SAFE_ALTERNATES = {
+            "HCLTECH": "HCLT", "HCL TECH": "HCLT",
+            "TECH MAHINDRA": "TECHM",
+            "LTIMINDTREE": "LTIM", "LTI MINDTREE": "LTIM",
+            "MPHASIS": "MPHL", "COFORGE": "COFG",
+            "PERSISTENT SYSTEMS": "PSYS",
+            "NTT DATA": "NTTD", "CGI GROUP": "GIB",
+            "DXC TECHNOLOGY": "DXC",
+            "TATA CONSULTANCY": "TCS",
+        }
+        for alt, tk_key in SAFE_ALTERNATES.items():
+            if alt in text:
+                return True, tk_key
         # Check sector keywords
         for kw in SECTOR_KEYWORDS:
             if kw in text:
@@ -267,6 +288,10 @@ def fetch_news():
         '"NTT Data" OR "CGI Group" OR "Atos"',
         '"IT services" AND ("deal" OR "revenue" OR "earnings" OR "contract")',
         '"Nifty IT" OR "IT sector" AND India',
+        # ── Earnings season queries (Oct–Nov = Q2 FY27 results) ──
+        '("TCS" OR "Infosys" OR "HCLTech" OR "Wipro") AND ("results" OR "earnings" OR "quarterly" OR "profit")',
+        '("Tech Mahindra" OR "LTIMindtree" OR "Mphasis" OR "Persistent" OR "Coforge") AND ("results" OR "earnings" OR "quarterly")',
+        '("Cognizant" OR "Accenture" OR "Capgemini" OR "DXC") AND ("results" OR "earnings" OR "revenue" OR "guidance")',
     ]
 
     seen = set()
@@ -291,10 +316,33 @@ def fetch_news():
                     if not relevant:
                         continue
                     seen.add(title)
+                    # Auto-detect category from headline
+                    upper_title = title.upper()
+                    if any(kw in upper_title for kw in
+                           ['RESULTS', 'EARNINGS', 'QUARTERLY', 'PROFIT', 'REVENUE',
+                            'EBIT', 'EPS', 'PAT ', 'NET INCOME', 'Q1 ', 'Q2 ', 'Q3 ', 'Q4 ',
+                            'FY26', 'FY27', 'FISCAL']):
+                        cat = 'RESULTS'
+                    elif any(kw in upper_title for kw in
+                             ['DEAL', 'CONTRACT', 'WIN', 'AWARD', 'PARTNER', 'ACQUISITION', 'MERGER']):
+                        cat = 'DEAL'
+                    elif any(kw in upper_title for kw in
+                             ['GUIDANCE', 'OUTLOOK', 'FORECAST', 'TARGET', 'UPGRADE',
+                              'DOWNGRADE', 'RATING', ' BUY', 'SELL', ' ADD ']):
+                        cat = 'ANALYST'
+                    elif any(kw in upper_title for kw in
+                             [' AI ', 'ARTIFICIAL INTELLIGENCE', 'GENAI', 'MACHINE LEARNING']):
+                        cat = 'AI'
+                    elif any(kw in upper_title for kw in
+                             ['CEO', 'CTO', 'APPOINT', 'RESIGN', 'HIRE', 'BOARD']):
+                        cat = 'PEOPLE'
+                    else:
+                        cat = 'MACRO'
                     headlines.append({
                         "time": a.get("publishedAt", "")[:16].replace("T", " "),
                         "tk": tk,
                         "src": a.get("source", {}).get("name", "NEWS"),
+                        "cat": cat,
                         "hl": title,
                         "detail": desc,
                         "url": a.get("url", ""),
@@ -305,7 +353,7 @@ def fetch_news():
             print(f"  ✗ News query failed: {e}")
 
     print(f"  ✓ {len(headlines)} relevant headlines (filtered from {len(seen)} total)")
-    return headlines[:25]  # Cap at 25
+    return headlines[:40]  # Cap at 40 (higher for earnings season)
 
 
 def main():
