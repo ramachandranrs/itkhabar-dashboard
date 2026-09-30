@@ -1,56 +1,56 @@
 {
-  "updated": "2026-09-30T16:45:43.118573+00:00",
-  "updated_display": "30 Sep 2026, 16:45 UTC",
+  "updated": "2026-09-30T20:55:03.779888+00:00",
+  "updated_display": "30 Sep 2026, 20:55 UTC",
   "prices": {
     "TCS": {
-      "price": 2050.6,
-      "display": "\u20b92,051",
-      "change": 0.9
+      "price": 2032.4,
+      "display": "\u20b92,032",
+      "change": -1.8
     },
     "INFY": {
-      "price": 994.1,
-      "display": "\u20b9994",
-      "change": -2.1
+      "price": 1015.4,
+      "display": "\u20b91,015",
+      "change": 1.2
     },
     "CTSH": {
-      "price": 57.61,
-      "display": "$57.61",
-      "change": 1.4
-    },
-    "HCLT": {
-      "price": 1230.0,
-      "display": "\u20b91,230",
-      "change": 0.7
-    },
-    "WIPRO": {
-      "price": 158.5,
-      "display": "\u20b9158",
+      "price": 57.44,
+      "display": "$57.44",
       "change": 1.1
     },
+    "HCLT": {
+      "price": 1222.0,
+      "display": "\u20b91,222",
+      "change": -2.4
+    },
+    "WIPRO": {
+      "price": 156.79,
+      "display": "\u20b9157",
+      "change": -3.0
+    },
     "TECHM": {
-      "price": 1524.0,
-      "display": "\u20b91,524",
-      "change": 0.9
+      "price": 1510.5,
+      "display": "\u20b91,510",
+      "change": -2.1
     },
     "MPHL": {
       "price": 2154.4,
       "display": "\u20b92,154",
-      "change": 0.0
+      "change": -3.7
     },
     "PSYS": {
-      "price": 5279.0,
-      "display": "\u20b95,279",
-      "change": 2.3
+      "price": 5162.0,
+      "display": "\u20b95,162",
+      "change": -3.1
     },
     "COFG": {
-      "price": 1749.1,
-      "display": "\u20b91,749",
-      "change": 1.6
+      "price": 1722.0,
+      "display": "\u20b91,722",
+      "change": -2.9
     },
     "ACN": {
-      "price": 182.49,
-      "display": "$182",
-      "change": 3.0
+      "price": 183.37,
+      "display": "$183",
+      "change": 3.5
     },
     "CAP": {
       "price": 104.4,
@@ -63,36 +63,36 @@
       "change": 4.2
     },
     "DXC": {
-      "price": 10.78,
-      "display": "$10.78",
-      "change": 4.4
+      "price": 10.83,
+      "display": "$10.83",
+      "change": 4.8
     },
     "GIB": {
-      "price": 68.49,
-      "display": "$68.49",
-      "change": 1.3
+      "price": 68.03,
+      "display": "$68.03",
+      "change": 0.6
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72480.29,
-      "change": -0.07
+      "value": 72529.07,
+      "change": -0.33
     },
     "NIFTY_IT": {
-      "value": 27704.8,
-      "change": 0.13
+      "value": 27670.0,
+      "change": -1.48
     },
     "SP500": {
-      "value": 7710.63,
-      "change": 0.52
+      "value": 7651.54,
+      "change": -0.25
     },
     "USD_INR": {
       "value": 95.82,
       "change": -0.17
     },
     "EUR_INR": {
-      "value": 108.66,
-      "change": -0.37
+      "value": 108.68,
+      "change": -0.36
     }
   },
   "historical": {
@@ -132,8 +132,7 @@
         2087.0,
         2082.0,
         2071.0,
-        2032.0,
-        2051.0
+        2032.0
       ]
     },
     "INFY": {
@@ -172,8 +171,7 @@
         1014.0,
         1000.0,
         1003.0,
-        1015.0,
-        994.0
+        1015.0
       ]
     },
     "CTSH": {
@@ -212,7 +210,7 @@
         57.0,
         57.0,
         57.0,
-        58.0
+        57.0
       ]
     },
     "HCLT": {
@@ -251,8 +249,7 @@
         1244.0,
         1258.0,
         1253.0,
-        1222.0,
-        1230.0
+        1222.0
       ]
     },
     "WIPRO": {
@@ -291,8 +288,7 @@
         164.0,
         164.0,
         162.0,
-        157.0,
-        158.0
+        157.0
       ]
     },
     "TECHM": {
@@ -331,8 +327,7 @@
         1543.0,
         1548.0,
         1542.0,
-        1510.0,
-        1524.0
+        1510.0
       ]
     },
     "MPHL": {
@@ -371,7 +366,6 @@
         2248.0,
         2234.0,
         2238.0,
-        2154.0,
         2154.0
       ]
     },
@@ -411,8 +405,7 @@
         5277.0,
         5372.0,
         5328.0,
-        5162.0,
-        5279.0
+        5162.0
       ]
     },
     "COFG": {
@@ -451,8 +444,7 @@
         1786.0,
         1784.0,
         1773.0,
-        1722.0,
-        1749.0
+        1722.0
       ]
     },
     "ACN": {
@@ -491,7 +483,7 @@
         176.0,
         174.0,
         177.0,
-        182.0
+        183.0
       ]
     },
     "CAP": {
@@ -682,13 +674,13 @@
       "url": "https://thenextweb.com/news/dodge-ai-2-65m-accel-google-enterprise-maintenance"
     },
     {
-      "time": "2026-09-29 11:45",
-      "tk": "WIPRO",
-      "src": "The Times of India",
+      "time": "2026-09-29 17:23",
+      "tk": "CTSH",
+      "src": "Pypi.org",
       "cat": "MACRO",
-      "hl": "Market wrap: Adani Enterprises, Adani Ports, Titan Company, Wipro top gainers and losers on Nifty and Sensex on Tuesday",
-      "detail": "Indian equities extended their decline on Tuesday, with Nifty and Sensex hitting fresh six-month lows. Broader markets also weakened, while Realty, Consumer Durables and Chemicals led sectoral losses. Bearish market breadth persisted despite gains in Metals a\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-adani-enterprises-adani-ports-titan-company-wipro-top-gainers-and-losers-on-nifty-and-sensex-on-tuesday/articleshow/134565034.cms"
+      "hl": "bayan-tokenizer added to PyPI",
+      "detail": "Bayan \u2014 morphological, root-cognizant tokenizer: Arabic words as (root, pattern) pairs, zero dependencies",
+      "url": "https://pypi.org/project/bayan-tokenizer/"
     },
     {
       "time": "2026-09-29 15:00",
@@ -700,22 +692,13 @@
       "url": "https://www.prnewswire.com/news-releases/cognizant-named-to-forbes-worlds-best-employers-2026-list-302893048.html"
     },
     {
-      "time": "2026-09-29 12:33",
-      "tk": "ACN",
-      "src": "PRNewswire",
-      "cat": "ANALYST",
-      "hl": "Shearwater Health Names Steve Heintz Chief Operating Officer, Strengthens Global Leadership Team",
-      "detail": "Former Conduent and Accenture executive brings more than 25 years of operations and transformation experience as Shearwater Health enters its next phase of growth. NASHVILLE, Tenn., Sept. 29, 2026 /PRNewswire/ -- Shearwater Health, the founder of Clinical Pro\u2026",
-      "url": "https://www.prnewswire.com/news-releases/shearwater-health-names-steve-heintz-chief-operating-officer-strengthens-global-leadership-team-302891800.html"
-    },
-    {
-      "time": "2026-09-29 12:10",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "AI",
-      "hl": "Hong Kong firms lag mainland China on AI adoption amid legacy-system burden: Accenture",
-      "detail": "Hong Kong businesses are lagging behind their mainland Chinese peers in adopting artificial intelligence, as entrenched legacy systems and a risk-averse corporate mindset slow the city\u2019s digital transition, according to a senior executive at consultancy Accen\u2026",
-      "url": "https://biztoc.com/x/3eba5946f9a9d001"
+      "time": "2026-09-29 08:14",
+      "tk": "WIPRO",
+      "src": "Business Standard",
+      "cat": "MACRO",
+      "hl": "Nifty IT cracks 11% in Sept; Infy, Wipro, Tata Elxsi trade at 52-week lows",
+      "detail": "The Nifty IT index has underperformed in September, falling over 11%, as against a 6% decline in the Nifty 50.",
+      "url": "https://www.business-standard.com/markets/news/nifty-it-cracks-11-in-sept-infy-wipro-tata-elxsi-trade-at-52-week-lows-126092900530_1.html"
     },
     {
       "time": "2026-09-29 04:14",
@@ -788,24 +771,6 @@
       "hl": "Accenture Helps Sodiaal Complete International Integration of Yoplait Libert\u00e9 Canada to Accelerate Its Global Dairy Expansion",
       "detail": "PARIS & MONTREAL \u2014 Sodiaal, France\u2019s leading farmer-owned dairy cooperative, has collaborated with Accenture (NYSE: ACN) to complete one of the most significant IT integrations in the cooperative\u2019s history. Launched following Sodiaal\u2019s acquisition of Yoplait \u2026",
       "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/accenture-helps-sodiaal-complete-international-integration-of-yoplait-liberte-canada-to-accelerate-its-global-dairy-expansion"
-    },
-    {
-      "time": "2026-09-28 17:26",
-      "tk": "CTSH",
-      "src": "CNBC",
-      "cat": "PEOPLE",
-      "hl": "IRS hires Joseph Velli to help administer Trump accounts",
-      "detail": "Velli previously served on the boards of Paychex, Cognizant and Computershare.",
-      "url": "https://www.cnbc.com/2026/09/28/irs-trump-accounts-joseph-velli.html"
-    },
-    {
-      "time": "2026-09-28 14:13",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword",
-      "detail": "With fiscal Q4 earnings due and analyst day slated for Oct. 14., artificial intelligence looms as a double-edged sword for Accenture stock. \nThe post Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword appeared first on Investor's Bu\u2026",
-      "url": "https://biztoc.com/x/12550ddb028e2f8a"
     }
   ]
 }
