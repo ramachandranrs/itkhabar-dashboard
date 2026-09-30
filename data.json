@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-30T04:23:47.201561+00:00",
-  "updated_display": "30 Sep 2026, 04:23 UTC",
+  "updated": "2026-09-30T04:32:39.592562+00:00",
+  "updated_display": "30 Sep 2026, 04:32 UTC",
   "prices": {
     "TCS": {
-      "price": 2080.3,
-      "display": "\u20b92,080",
-      "change": 2.4
+      "price": 2093.9,
+      "display": "\u20b92,094",
+      "change": 3.0
     },
     "INFY": {
-      "price": 1011.8,
-      "display": "\u20b91,012",
-      "change": -0.4
+      "price": 1019.6,
+      "display": "\u20b91,020",
+      "change": 0.4
     },
     "CTSH": {
       "price": 56.84,
@@ -18,34 +18,34 @@
       "change": 0.2
     },
     "HCLT": {
-      "price": 1238.8,
-      "display": "\u20b91,239",
-      "change": 1.4
+      "price": 1246.2,
+      "display": "\u20b91,246",
+      "change": 2.0
     },
     "WIPRO": {
-      "price": 160.41,
-      "display": "\u20b9160",
-      "change": 2.3
+      "price": 161.01,
+      "display": "\u20b9161",
+      "change": 2.7
     },
     "TECHM": {
-      "price": 1543.7,
-      "display": "\u20b91,544",
-      "change": 2.2
+      "price": 1549.8,
+      "display": "\u20b91,550",
+      "change": 2.6
     },
     "MPHL": {
-      "price": 2227.7,
-      "display": "\u20b92,228",
-      "change": 3.4
+      "price": 2237.2,
+      "display": "\u20b92,237",
+      "change": 3.8
     },
     "PSYS": {
-      "price": 5330.0,
-      "display": "\u20b95,330",
+      "price": 5334.5,
+      "display": "\u20b95,334",
       "change": 3.3
     },
     "COFG": {
-      "price": 1797.6,
-      "display": "\u20b91,798",
-      "change": 1.4
+      "price": 1806.0,
+      "display": "\u20b91,806",
+      "change": 1.9
     },
     "ACN": {
       "price": 177.12,
@@ -75,12 +75,12 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72644.7,
-      "change": 0.16
+      "value": 72700.92,
+      "change": 0.24
     },
     "NIFTY_IT": {
-      "value": 28133.25,
-      "change": 1.67
+      "value": 28275.7,
+      "change": 2.19
     },
     "SP500": {
       "value": 7670.84,
@@ -88,11 +88,11 @@
     },
     "USD_INR": {
       "value": 95.96,
-      "change": -0.02
+      "change": -0.03
     },
     "EUR_INR": {
-      "value": 108.73,
-      "change": -0.31
+      "value": 108.72,
+      "change": -0.32
     }
   },
   "historical": {
@@ -133,7 +133,7 @@
         2082.0,
         2071.0,
         2032.0,
-        2080.0
+        2094.0
       ]
     },
     "INFY": {
@@ -173,7 +173,7 @@
         1000.0,
         1003.0,
         1015.0,
-        1012.0
+        1020.0
       ]
     },
     "CTSH": {
@@ -251,7 +251,7 @@
         1258.0,
         1253.0,
         1222.0,
-        1239.0
+        1246.0
       ]
     },
     "WIPRO": {
@@ -291,7 +291,7 @@
         164.0,
         162.0,
         157.0,
-        160.0
+        161.0
       ]
     },
     "TECHM": {
@@ -331,7 +331,7 @@
         1548.0,
         1542.0,
         1510.0,
-        1544.0
+        1549.0
       ]
     },
     "MPHL": {
@@ -371,7 +371,7 @@
         2234.0,
         2238.0,
         2154.0,
-        2228.0
+        2237.0
       ]
     },
     "PSYS": {
@@ -411,7 +411,7 @@
         5372.0,
         5328.0,
         5162.0,
-        5330.0
+        5336.0
       ]
     },
     "COFG": {
@@ -450,7 +450,7 @@
         1786.0,
         1784.0,
         1773.0,
-        1798.0
+        1807.0
       ]
     },
     "ACN": {
@@ -646,81 +646,37 @@
   },
   "news": [
     {
-      "time": "2026-09-29 04:14",
-      "tk": "CAP",
-      "src": "The Times of India",
-      "hl": "Why is market falling today? Sensex slumps 700 points, Nifty below 22,600. 8 key factors rattling D-Street",
-      "detail": "On Tuesday, the Indian stock market faced a substantial downturn. This sharp decline came after a previous drop exceeding 1.5% the day before. A staggering Rs 4 lakh crore was wiped off in market capitalisation, as investors reacted to rising oil prices and c\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-falling-today-sensex-slumps-700-points-nifty-below-22600-8-key-factors-rattling-d-street/articleshow/134555814.cms"
-    },
-    {
       "time": "2026-09-29 03:19",
       "tk": "WIPRO",
       "src": "The Times of India",
+      "cat": "MACRO",
       "hl": "BSE set to enter Nifty 50 from tomorrow, IT major Wipro to exit. What shareholders must know?",
       "detail": "BSE has been included in the Nifty 50 after its six-month average free-float market capitalisation came in at Rs 1,40,879 crore. This is at least 1.5 times the six-month average free-float market capitalisation of the smallest constituent in the eligible univ\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/bse-set-to-enter-nifty-50-from-tomorrow-it-major-wipro-to-exit-what-shareholders-must-know/articleshow/134554977.cms"
     },
     {
-      "time": "2026-09-29 02:52",
-      "tk": "TCS",
-      "src": "Livemint",
-      "hl": "Tata Sons merger: What TCE and TESS bring to the table in Tata Trusts\u2019 new plan",
-      "detail": "The proposed amalgamation dilutes the holding company's financial income with substantial operating revenue, thereby removing it from the stringent NBFC and Core Investment Company (CIC) classifications.",
-      "url": "https://www.livemint.com/companies/news/tata-sons-merger-what-tce-and-tess-bring-to-the-table-in-tata-trusts-new-plan-11790647082581.html"
-    },
-    {
       "time": "2026-09-29 02:37",
       "tk": "HCLT",
       "src": "Business Standard",
+      "cat": "MACRO",
       "hl": "HCLTech's arm to acquire Croatia-based Robotiq.ai for 9 million euro",
       "detail": "IT services major HCL Technologies on Monday announced that its software business division, HCLSoftware, will acquire Croatia-based enterprise robotic process automation (RPA) platform provider Robotiq.ai in an all-cash deal valued at an enterprise value of 9\u2026",
       "url": "https://www.business-standard.com/companies/news/hcltech-s-arm-to-acquire-croatia-based-robotiq-ai-for-9-million-euro-126092900014_1.html"
     },
     {
-      "time": "2026-09-29 01:29",
-      "tk": "CAP",
-      "src": "The Times of India",
-      "hl": "Market lacks momentum, yet SIPs shine as a reliable investment strategy",
-      "detail": "In the last two years, systematic investment plans have shown remarkable performance, with small-cap funds leading with an average return of 14.25%. Retail investor monthly contributions saw a noteworthy increase of about 37% between August 2024 and August 20\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-lacks-momentum-yet-sips-shine-as-a-reliable-investment-strategy/articleshow/134553598.cms"
-    },
-    {
-      "time": "2026-09-29 00:09",
-      "tk": "HCLT",
-      "src": "BusinessLine",
-      "hl": "HCLTech arm to acquire Croatia-based RPA platform Robotiq.ai for \u20b998 crore",
-      "detail": "The transaction will give the software division full ownership of the Zagreb-based automation company, which serves large banks, insurers and telecom firms",
-      "url": "https://www.thehindubusinessline.com/info-tech/hcltech-arm-to-acquire-croatia-based-rpa-platform-robotiqai-for-98-crore/article71522259.ece"
-    },
-    {
-      "time": "2026-09-29 00:01",
-      "tk": "TECHM",
-      "src": "Sports Illustrated",
-      "hl": "Texas Tech Fans Should Know These Three Colorado Players Who Boost Upset Alert",
-      "detail": "The Texas Tech Red Raiders will likely enter Folsom Field as an overwhelming favorite, but must watch out for these three Colorado Buffaloes.",
-      "url": "https://www.si.com/college/colorado/football/texas-tech-fans-three-colorado-buffaloes-players-boost-upset-alert"
-    },
-    {
       "time": "2026-09-28 17:26",
       "tk": "CTSH",
       "src": "CNBC",
+      "cat": "PEOPLE",
       "hl": "IRS hires Joseph Velli to help administer Trump accounts",
       "detail": "Velli previously served on the boards of Paychex, Cognizant and Computershare.",
       "url": "https://www.cnbc.com/2026/09/28/irs-trump-accounts-joseph-velli.html"
     },
     {
-      "time": "2026-09-28 17:25",
-      "tk": "TECHM",
-      "src": "Federalreserve.gov",
-      "hl": "Cook, An Update on AI and the Economy",
-      "detail": "Thank you, Freada and Mitch, for that kind introduction. I appreciate the invitation to speak here at Oakland Tech Week and for the opportunity to return to th",
-      "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
-    },
-    {
       "time": "2026-09-29 04:14",
       "tk": "COFG",
       "src": "BusinessLine",
+      "cat": "PEOPLE",
       "hl": "Coforge appoints Akhil Gupta as Non-Executive Independent Director, Chairperson",
       "detail": "Akhil Gupta named Non-Executive Independent Director and Chairperson of Coforge for five years, bringing extensive governance and industry expertise.",
       "url": "https://www.thehindubusinessline.com/companies/coforge-appoints-akhil-gupta-as-non-executive-independent-director-chairperson/article71522451.ece"
@@ -729,6 +685,7 @@
       "time": "2026-09-29 03:50",
       "tk": "COFG",
       "src": "Business Standard",
+      "cat": "PEOPLE",
       "hl": "Coforge appoints Akhil Gupta as independent chairperson for five years",
       "detail": "Gupta, former vice chairman of Bharti Enterprises, will serve for five years from September 29 as non-executive independent director and chairperson",
       "url": "https://www.business-standard.com/companies/news/coforge-appoints-akhil-gupta-chairperson-after-op-bhatt-exit-126092900174_1.html"
@@ -737,6 +694,7 @@
       "time": "2026-09-29 03:36",
       "tk": "COFG",
       "src": "The Times of India",
+      "cat": "PEOPLE",
       "hl": "Coforge shares in focus after appointing Akhil Kumar Gupta as chairman after OP Bhatt\u2019s abrupt resignation",
       "detail": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Kumar Gupta as chairperson and independent director for five years, following boardroom turmoil triggered by O P Bhatt\u2019s resignation. The IT services firm retains its FY27 guidance and long-term g\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-shares-in-focus-after-appointing-akhil-kumar-gupta-as-chairman-after-op-bhatts-abrupt-resignation/articleshow/134555215.cms"
@@ -745,22 +703,16 @@
       "time": "2026-09-29 02:37",
       "tk": "COFG",
       "src": "Business Standard",
+      "cat": "PEOPLE",
       "hl": "Coforge appoints former Bharti Enterprises VC Akhil Gupta as chairperson",
       "detail": "IT services firm Coforge Ltd has appointed former\nBharti Enterprises vice-chairman Akhil Kumar Gupta as its chairperson and non-executive independent director for five years, effective Tuesday.\nThe appointment follows weeks of intense boardroom turmoil, trigg\u2026",
       "url": "https://www.business-standard.com/companies/news/coforge-appoints-former-bharti-enterprises-vc-akhil-gupta-as-chairperson-126092900018_1.html"
     },
     {
-      "time": "2026-09-29 02:24",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "hl": "Stocks to watch: Tata stocks, pharma stocks, Ola Electric, Voda Idea, ITC",
-      "detail": "Reliance Jio gained the highest number of wireless mobile subscribers in August, adding nearly 2.40 million users, followed by Bharti Airtel with about 2.11 million additions.",
-      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-sept-29-tata-stocks-pharma-stocks-ola-electric-voda-idea-itc-126092900099_1.html"
-    },
-    {
       "time": "2026-09-29 01:13",
       "tk": "COFG",
       "src": "The Times of India",
+      "cat": "PEOPLE",
       "hl": "Coforge appoints former Bharti Enterprises executive Akhil Gupta as chairman after board upheaval",
       "detail": "Coforge has appointed Akhil Kumar Gupta as its new chairperson and non-executive independent director. This decision comes after the resignation of former chairman O P Bhatt amid controversies surrounding board evaluations. The internal audit revealed discrep\u2026",
       "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/coforge-appoints-former-bharti-enterprises-vice-chairman-akhil-gupta-as-chairman-after-board-upheaval/articleshow/134553580.cms"
@@ -769,6 +721,7 @@
       "time": "2026-09-29 00:13",
       "tk": "COFG",
       "src": "BusinessLine",
+      "cat": "PEOPLE",
       "hl": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Gupta as chairperson",
       "detail": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Kumar Gupta as chairperson and non-executive independent director for five years.",
       "url": "https://www.thehindubusinessline.com/info-tech/coforge-appoints-former-bharti-enterprises-vice-chairman-akhil-gupta-as-chairperson/article71522242.ece"
@@ -777,54 +730,34 @@
       "time": "2026-09-28 18:38",
       "tk": "COFG",
       "src": "Livemint",
+      "cat": "PEOPLE",
       "hl": "Coforge appoints Akhil Kumar Gupta as chairperson",
       "detail": "Gupta, who has four decades of experience as a chartered accountant, currently chairs ONE WAM and Bharti Life Insurance. He also serves on the boards of Zepto, Snapdeal, Eutelsat Communications and Lodha Developers.",
       "url": "https://www.livemint.com/companies/coforge-appoints-akhil-kumar-gupta-as-chairperson-11790618685616.html"
     },
     {
-      "time": "2026-09-27 10:00",
-      "tk": "TECHM",
-      "src": "TechRadar",
-      "hl": "Goodbye claims, hello prevention \u2014 how smart tech is transforming home insurance",
-      "detail": "As our homes become increasingly digitised, the data generated can be used to detect insurance risks before they happen and ultimately deliver lower premiums.",
-      "url": "https://www.techradar.com/home/smart-home/how-smart-home-tech-is-shaking-up-home-insurance-why-smart-sensors-ai-and-iot-devices-are-revolutionizing-how-we-protect-our-homes"
-    },
-    {
       "time": "2026-09-25 08:09",
       "tk": "NTTD",
       "src": "The Times of India",
+      "cat": "DEAL",
       "hl": "Inside the deal engine room: VCs and PEs make the case for ERP as a governance variable",
       "detail": "<i>At an NTT Data Business Solutions India roundtable, a cohort of leading VCs and PE investors argued that the maturity of a company\u2019s ERP and AI adoption, data quality and underlying processes is rapidly emerging as a priced governance variable in deals.</i>",
       "url": "https://economictimes.indiatimes.com/tech/technology/inside-the-deal-engine-room-vcs-and-pes-make-the-case-for-erp-as-a-governance-variable/articleshow/134479353.cms"
     },
     {
-      "time": "2026-09-24 08:21",
-      "tk": "CAP",
-      "src": "Business Standard",
-      "hl": "Microsoft opens data centre in Telangana amid AI infra expansion push",
-      "detail": "Microsoft's India South Central data centre region is now live in Telangana, as the state targets 5 GW of capacity and around $30 billion in AI and digital infrastructure investment by 2029",
-      "url": "https://www.business-standard.com/economy/news/microsoft-telangana-data-centre-5-gw-30-billion-investment-2029-126092400580_1.html"
-    },
-    {
-      "time": "2026-09-24 08:07",
-      "tk": "CAP",
+      "time": "2026-09-29 00:09",
+      "tk": "HCLT",
       "src": "BusinessLine",
-      "hl": "Telangana targets 5 GW Hyperscale data centre capacity by 2029",
-      "detail": "Microsoft\u2019s South Central Cloud region goes live in Hyderabad; the facility is part of Microsoft\u2019s $20.5-b cloud, data centre investment",
-      "url": "https://www.thehindubusinessline.com/info-tech/telangana-targets-5-gw-hyperscale-data-centre-capacity-by-2029/article71502737.ece"
-    },
-    {
-      "time": "2026-09-29 02:33",
-      "tk": "CAP",
-      "src": "Economictimes.com",
-      "hl": "Market veterans favour value plays over crowded, expensive themes",
-      "detail": "Market experts project cautious optimism for Indian equities as valuations become less demanding and earnings growth aligns. Large-cap stocks appear more favorable compared to mid- and small-caps, which require prudence. Preferred sectors include financials, \u2026",
-      "url": "https://m.economictimes.com/mf/analysis/any-asset-class-so-long-as-it-is-equity-some-wind-in-the-sails-expect-reasonable-returns/articleshow/134554032.cms"
+      "cat": "MACRO",
+      "hl": "HCLTech arm to acquire Croatia-based RPA platform Robotiq.ai for \u20b998 crore",
+      "detail": "The transaction will give the software division full ownership of the Zagreb-based automation company, which serves large banks, insurers and telecom firms",
+      "url": "https://www.thehindubusinessline.com/info-tech/hcltech-arm-to-acquire-croatia-based-rpa-platform-robotiqai-for-98-crore/article71522259.ece"
     },
     {
       "time": "2026-09-28 16:44",
       "tk": "HCLT",
       "src": "The Times of India",
+      "cat": "MACRO",
       "hl": "HCLTech software unit to acquire European firm Robotiq.ai for 9 million euros",
       "detail": "The company will acquire 100% of the outstanding equity of Robotiq.ai to be acquired by HCL Technologies Austria GmbH, a step- down wholly owned subsidiary of HCLTech, for a cash consideration of nine million euros adjusted for customary post-closing adjustme\u2026",
       "url": "https://economictimes.indiatimes.com/tech/information-tech/hcltech-software-unit-acquires-european-firm-robotiq-ai-for-9-million-euros/articleshow/134547380.cms"
@@ -833,17 +766,55 @@
       "time": "2026-09-29 03:47",
       "tk": "Sector",
       "src": "The Times of India",
+      "cat": "MACRO",
       "hl": "15-year setback on cards? Nifty heading for worst annual performance since 2011",
       "detail": "As 2023 unfolds, the Nifty index appears headed for its most disappointing year in a decade and a half. Key contributors to this downturn include high valuations and a flight of foreign investors. The IT sector continues to struggle amid geopolitical conflict\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/15-year-setback-on-cards-nifty-heading-for-worst-annual-performance-since-2011/articleshow/134555433.cms"
     },
     {
-      "time": "2026-09-28 18:20",
-      "tk": "TECHM",
-      "src": "Livemint",
-      "hl": "Sectoral mutual funds: Defence, metals gave double-digit returns in 2 years while tech, consumer in red \u2014 here's why",
-      "detail": "Sectoral mutual funds have seen a sharp divergence in returns over the past two years, with some sectors delivering strong gains while others slipped into the red. Here's what drove this divergence, and what should investors consider before making sectoral be\u2026",
-      "url": "https://www.livemint.com/money/personal-finance/sectoral-mutual-funds-defence-metals-gave-double-digit-returns-in-2-years-while-tech-consumer-in-red-heres-why-11790616331002.html"
+      "time": "2026-09-28 18:25",
+      "tk": "INFY",
+      "src": "Forrester.com",
+      "cat": "AI",
+      "hl": "Infosys America\u2019s Confluence 2026: An AI Transformation Trip Report",
+      "detail": "We attended Infosys\u2019s Confluence event in Washington DC at the historic Omni Shoreham hotel, the hotel the Beatles stayed in before their first live US performance. John Lennon\u2019s handwritten set list hangs in the lobby (see the pic). Over the course of two da\u2026",
+      "url": "https://www.forrester.com/blogs/infosys-americas-confluence-2026-an-ai-transformation-trip-report/"
+    },
+    {
+      "time": "2026-09-28 07:31",
+      "tk": "WIPRO",
+      "src": "Business Standard",
+      "cat": "MACRO",
+      "hl": "RIL, Jio Fin, Maruti, Tata Consumer, TaMo PV, HUL, Wipro hit 52-week lows",
+      "detail": "Nifty 50 Stocks: ACC, Ambuja Cements, India Cements, Bank of Baroda, CESC, Britannia, Crompton Greaves Consumer, Havells, REC, PFC and UPL among others from the Nifty 500 index also touched 52-week lows on Monday.",
+      "url": "https://www.business-standard.com/markets/news/ril-jio-fin-maruti-tata-consumer-tamo-pv-hul-wipro-hit-52-week-lows-126092800389_1.html"
+    },
+    {
+      "time": "2026-09-28 14:13",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword",
+      "detail": "With fiscal Q4 earnings due and analyst day slated for Oct. 14., artificial intelligence looms as a double-edged sword for Accenture stock. \nThe post Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword appeared first on Investor's Bu\u2026",
+      "url": "https://biztoc.com/x/12550ddb028e2f8a"
+    },
+    {
+      "time": "2026-09-28 09:15",
+      "tk": "CAP",
+      "src": "Theregister.com",
+      "cat": "MACRO",
+      "hl": "HMRC vowed to break up with Capgemini then paid it another \u00a34.2B",
+      "detail": "Government wants public spending to back British business, but the French supplier could remain at the tax collector until 2036",
+      "url": "https://www.theregister.com/public-sector/2026/09/28/hmrc-vowed-to-break-up-with-capgemini-then-paid-it-another-42b/5299136"
+    },
+    {
+      "time": "2026-09-28 05:05",
+      "tk": "ACN",
+      "src": "Insurance Journal",
+      "cat": "AI",
+      "hl": "How Insurers Can Find the Most Value From Their AI Investments: Accenture",
+      "detail": "Insurers will help maximize their return on AI investments by adopting an enterprise-wide strategy, rather than just focusing on select and segmented areas, which splits the ownership and investment, according to research from Accenture. \u201cAI capability remain\u2026",
+      "url": "https://www.insurancejournal.com/news/international/2026/09/28/886844.htm"
     }
   ]
 }
