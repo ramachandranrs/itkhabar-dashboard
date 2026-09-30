@@ -303,25 +303,53 @@ def fetch_news():
         t = _re.sub(r'\s+', ' ', t).strip()
         return t
 
-    def _is_duplicate(title, seen_titles):
+    _STOP_WORDS = {'a','an','the','to','for','of','in','on','at','by','is','are',
+                    'was','were','with','and','or','but','from','has','have','had',
+                    'been','be','its','it','that','this','as'}
+
+    def _extract_entities(title):
+        """Extract likely entity words: capitalised words 4+ chars."""
+        ents = set()
+        for w in _re.sub(r"[^\w\s'-]", '', title).split():
+            if len(w) >= 4 and w[0].isupper():
+                ents.add(w.lower())
+        return ents
+
+    def _is_duplicate(title, tk, seen_entries):
         """Check if a title is a near-duplicate of any seen title.
-        Uses normalized overlap: if 60%+ of words in common, it's a dupe."""
+        Uses stop-word-filtered overlap + entity matching for same-ticker stories."""
         norm = _normalize(title)
-        norm_words = set(norm.split())
-        if len(norm_words) < 3:
-            return norm in seen_titles
-        for seen_norm, seen_words in seen_titles.values():
-            # Check both directions of overlap
-            if not seen_words:
-                continue
-            common = norm_words & seen_words
-            overlap_a = len(common) / len(norm_words) if norm_words else 0
-            overlap_b = len(common) / len(seen_words) if seen_words else 0
-            if max(overlap_a, overlap_b) >= 0.6:
+        all_words = set(norm.split())
+        sig_words = {w for w in all_words if len(w) > 2 and w not in _STOP_WORDS}
+        ents = _extract_entities(title)
+        if len(all_words) < 3:
+            return any(norm == e['norm'] for e in seen_entries.values())
+        for entry in seen_entries.values():
+            # 1. Same ticker + 2+ shared entity words = duplicate
+            if tk and tk == entry.get('tk') and len(ents) >= 2 and len(entry.get('ents', set())) >= 2:
+                common_ents = ents & entry['ents']
+                if len(common_ents) >= 2:
+                    return True
+            # 2. Significant-word overlap (no stop words)
+            if entry['sig']:
+                common_sig = sig_words & entry['sig']
+                overlap_sig = max(
+                    len(common_sig) / len(sig_words) if sig_words else 0,
+                    len(common_sig) / len(entry['sig']) if entry['sig'] else 0
+                )
+                if overlap_sig >= 0.55:
+                    return True
+            # 3. All-word overlap
+            common_all = all_words & entry['all']
+            overlap_all = max(
+                len(common_all) / len(all_words) if all_words else 0,
+                len(common_all) / len(entry['all']) if entry['all'] else 0
+            )
+            if overlap_all >= 0.6:
                 return True
         return False
 
-    seen_titles = {}  # {exact_title: (normalized, set_of_words)}
+    seen_entries = {}  # {exact_title: {norm, all, sig, ents, tk}}
     for q in queries:
         try:
             resp = requests.get("https://newsapi.org/v2/everything", params={
@@ -336,17 +364,24 @@ def fetch_news():
                 for a in articles:
                     title = a.get("title", "")
                     desc = a.get("description", "") or ""
-                    if not title or title in seen_titles:
-                        continue
-                    # ── Fuzzy dedup: skip near-duplicate headlines ──
-                    if _is_duplicate(title, seen_titles):
+                    if not title or title in seen_entries:
                         continue
                     # ── STRICT relevance gate ──
                     relevant, tk = is_relevant(title, desc)
                     if not relevant:
                         continue
+                    # ── Fuzzy dedup: skip near-duplicate headlines ──
+                    if _is_duplicate(title, tk, seen_entries):
+                        continue
                     norm = _normalize(title)
-                    seen_titles[title] = (norm, set(norm.split()))
+                    norm_words = set(norm.split())
+                    seen_entries[title] = {
+                        'norm': norm,
+                        'all': norm_words,
+                        'sig': {w for w in norm_words if len(w) > 2 and w not in _STOP_WORDS},
+                        'ents': _extract_entities(title),
+                        'tk': tk,
+                    }
                     # Auto-detect category from headline
                     upper_title = title.upper()
                     if any(kw in upper_title for kw in
@@ -355,17 +390,18 @@ def fetch_news():
                             'FY26', 'FY27', 'FISCAL']):
                         cat = 'RESULTS'
                     elif any(kw in upper_title for kw in
-                             ['DEAL', 'CONTRACT', 'WIN', 'AWARD', 'PARTNER', 'ACQUISITION', 'MERGER']):
+                             ['DEAL', 'CONTRACT', 'WIN', 'AWARD', 'PARTNER', 'ACQUISITION', 'ACQUIRE', 'MERGER', 'MERGE', 'BUYOUT', 'TAKEOVER']):
                         cat = 'DEAL'
                     elif any(kw in upper_title for kw in
                              ['GUIDANCE', 'OUTLOOK', 'FORECAST', 'TARGET', 'UPGRADE',
                               'DOWNGRADE', 'RATING', ' BUY', 'SELL', ' ADD ']):
                         cat = 'ANALYST'
                     elif any(kw in upper_title for kw in
-                             [' AI ', 'ARTIFICIAL INTELLIGENCE', 'GENAI', 'MACHINE LEARNING']):
+                             [' AI ', 'ARTIFICIAL INTELLIGENCE', 'GENAI', 'MACHINE LEARNING', 'AUTOMATION', ' RPA ']):
                         cat = 'AI'
                     elif any(kw in upper_title for kw in
-                             ['CEO', 'CTO', 'APPOINT', 'RESIGN', 'HIRE', 'BOARD']):
+                             ['CEO', 'CTO', 'CFO', 'COO', 'APPOINT', 'RESIGN', 'HIRE', 'BOARD',
+                              'CHAIRMAN', 'CHAIRPERSON', 'LEADERSHIP']):
                         cat = 'PEOPLE'
                     else:
                         cat = 'MACRO'
@@ -383,7 +419,7 @@ def fetch_news():
         except Exception as e:
             print(f"  ✗ News query failed: {e}")
 
-    print(f"  ✓ {len(headlines)} relevant headlines (filtered from {len(seen_titles)} unique titles)")
+    print(f"  ✓ {len(headlines)} relevant headlines (filtered from {len(seen_entries)} unique titles)")
     return headlines[:40]  # Cap at 40 (higher for earnings season)
 
 

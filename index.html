@@ -2160,38 +2160,67 @@ function applyLiveData(d){
     // Fuzzy dedup: skip near-duplicate headlines from live news
     const _seenHL=new Map();
     function _normHL(s){return s.toLowerCase().replace(/[^\w\s]/g,'').replace(/\s+/g,' ').trim();}
-    function _isDupHL(hl){
+    // Stop words to ignore in overlap calc — boosts signal from entity/action words
+    const _stopW=new Set('a an the to for of in on at by is are was were with and or but from has have had been be its it that this as'.split(' '));
+    // Extract proper-noun–like tokens (capitalised words, multi-word names) from ORIGINAL headline
+    function _extractEntities(orig){
+      // Match capitalised words 4+ chars, or known patterns
+      const ents=new Set();
+      const words=orig.replace(/[^\w\s'-]/g,'').split(/\s+/);
+      words.forEach(w=>{if(w.length>=4&&w[0]===w[0].toUpperCase()&&w[0]!==w[0].toLowerCase()) ents.add(w.toLowerCase());});
+      return ents;
+    }
+    function _isDupHL(hl,tk){
       const norm=_normHL(hl);
-      const words=new Set(norm.split(' '));
+      const allWords=norm.split(' ');
+      const words=new Set(allWords);
+      const sigWords=new Set(allWords.filter(w=>w.length>2&&!_stopW.has(w)));
+      const ents=_extractEntities(hl);
       if(words.size<3) return _seenHL.has(norm);
-      for(const [,sw] of _seenHL){
-        if(!sw.size) continue;
-        const common=[...words].filter(w=>sw.has(w)).length;
-        if(Math.max(common/words.size,common/sw.size)>=0.6) return true;
+      for(const [,entry] of _seenHL){
+        if(!entry.sig.size) continue;
+        // 1. Same ticker + 3+ shared entity words = duplicate (catches same story, different wording)
+        if(tk&&tk===entry.tk&&ents.size>=2&&entry.ents.size>=2){
+          const commonEnts=[...ents].filter(w=>entry.ents.has(w)).length;
+          if(commonEnts>=2) return true;
+        }
+        // 2. Significant-word overlap (ignoring stop words)
+        const commonSig=[...sigWords].filter(w=>entry.sig.has(w)).length;
+        const overlapSig=Math.max(
+          sigWords.size?commonSig/sigWords.size:0,
+          entry.sig.size?commonSig/entry.sig.size:0
+        );
+        if(overlapSig>=0.55) return true;
+        // 3. Full-word overlap at higher threshold
+        const commonAll=[...words].filter(w=>entry.all.has(w)).length;
+        const overlapAll=Math.max(commonAll/words.size,commonAll/entry.all.size);
+        if(overlapAll>=0.6) return true;
       }
       return false;
     }
     d.news.forEach(n=>{
       // Skip near-duplicate headlines
-      if(_isDupHL(n.hl)){return;}
+      if(_isDupHL(n.hl,n.tk)){return;}
       const _hlNorm=_normHL(n.hl);
-      _seenHL.set(_hlNorm,new Set(_hlNorm.split(' ')));
+      const _hlWords=_hlNorm.split(' ');
+      _seenHL.set(_hlNorm,{all:new Set(_hlWords),sig:new Set(_hlWords.filter(w=>w.length>2&&!_stopW.has(w))),ents:_extractEntities(n.hl),tk:n.tk});
       // Parse date from news item
       const _nd=new Date(n.time||Date.now());
       const _ndt=n.dt||(_nd.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][_nd.getMonth()]);
       // Use category from data.json if available, otherwise auto-detect
       let cat=n.cat||'MACRO';
       if(cat==='MACRO'){
-        // Fallback auto-detect if no cat from backend
-        if(/\b(quarterly|Q[1-4]|results|earnings|profit|revenue|EBIT|EPS|FY\d{2,4})\b/i.test(n.hl)){
+        // Fallback auto-detect from headline + detail
+        const _catText=n.hl+' '+(n.detail||'');
+        if(/\b(quarterly|Q[1-4]|results?|earnings?|profit|revenue|EBIT|EPS|FY\d{2,4}|net.income|PAT)\b/i.test(_catText)){
           cat='RESULTS';
-        } else if(/\b(deal|contract|win|award|partner|acquisition|merge)\b/i.test(n.hl)){
+        } else if(/\b(deal|contract|win|award|partner\w*|acqui\w*|merg\w*|buyout|takeover)\b/i.test(_catText)){
           cat='DEAL';
-        } else if(/\b(AI|artificial intelligence|GenAI|machine learning|LLM|GPT|agent)\b/i.test(n.hl)){
+        } else if(/\b(AI|artificial intelligence|GenAI|machine learning|LLM|GPT|agent|automation|RPA)\b/i.test(_catText)){
           cat='AI';
-        } else if(/\b(CEO|CTO|appoint|resign|hire|board)\b/i.test(n.hl)){
+        } else if(/\b(CEO|CTO|CFO|COO|appoint\w*|resign\w*|hire[sd]?|board|chairman|chairperson|leadership)\b/i.test(_catText)){
           cat='PEOPLE';
-        } else if(/\b(guidance|outlook|forecast|target|upgrade|downgrade|rating|BUY|SELL|ADD)\b/i.test(n.hl)){
+        } else if(/\b(guidance|outlook|forecast|target|upgrade|downgrade|rating|analyst|BUY|SELL|ADD)\b/i.test(_catText)){
           cat='ANALYST';
         }
       }
