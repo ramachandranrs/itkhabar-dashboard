@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-30T04:41:25.360525+00:00",
-  "updated_display": "30 Sep 2026, 04:41 UTC",
+  "updated": "2026-09-30T04:49:16.876525+00:00",
+  "updated_display": "30 Sep 2026, 04:49 UTC",
   "prices": {
     "TCS": {
-      "price": 2093.2,
-      "display": "\u20b92,093",
-      "change": 3.0
+      "price": 2090.6,
+      "display": "\u20b92,091",
+      "change": 2.9
     },
     "INFY": {
-      "price": 1022.5,
-      "display": "\u20b91,022",
-      "change": 0.7
+      "price": 1020.1,
+      "display": "\u20b91,020",
+      "change": 0.5
     },
     "CTSH": {
       "price": 56.84,
@@ -18,34 +18,34 @@
       "change": 0.2
     },
     "HCLT": {
-      "price": 1250.0,
-      "display": "\u20b91,250",
-      "change": 2.3
+      "price": 1247.5,
+      "display": "\u20b91,248",
+      "change": 2.1
     },
     "WIPRO": {
-      "price": 161.22,
+      "price": 161.43,
       "display": "\u20b9161",
-      "change": 2.8
-    },
-    "TECHM": {
-      "price": 1555.1,
-      "display": "\u20b91,555",
       "change": 3.0
     },
+    "TECHM": {
+      "price": 1557.5,
+      "display": "\u20b91,558",
+      "change": 3.1
+    },
     "MPHL": {
-      "price": 2246.5,
-      "display": "\u20b92,246",
-      "change": 4.3
+      "price": 2244.0,
+      "display": "\u20b92,244",
+      "change": 4.2
     },
     "PSYS": {
-      "price": 5364.0,
-      "display": "\u20b95,364",
-      "change": 3.9
+      "price": 5370.0,
+      "display": "\u20b95,370",
+      "change": 4.0
     },
     "COFG": {
-      "price": 1816.9,
-      "display": "\u20b91,817",
-      "change": 2.5
+      "price": 1819.5,
+      "display": "\u20b91,820",
+      "change": 2.6
     },
     "ACN": {
       "price": 177.12,
@@ -75,20 +75,20 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72746.67,
-      "change": 0.3
+      "value": 72740.91,
+      "change": 0.29
     },
     "NIFTY_IT": {
-      "value": 28356.9,
-      "change": 2.48
+      "value": 28343.5,
+      "change": 2.43
     },
     "SP500": {
       "value": 7670.84,
       "change": -0.17
     },
     "USD_INR": {
-      "value": 95.97,
-      "change": -0.01
+      "value": 95.96,
+      "change": -0.02
     },
     "EUR_INR": {
       "value": 108.73,
@@ -133,7 +133,7 @@
         2082.0,
         2071.0,
         2032.0,
-        2094.0
+        2092.0
       ]
     },
     "INFY": {
@@ -173,7 +173,7 @@
         1000.0,
         1003.0,
         1015.0,
-        1022.0
+        1020.0
       ]
     },
     "CTSH": {
@@ -251,7 +251,7 @@
         1258.0,
         1253.0,
         1222.0,
-        1250.0
+        1247.0
       ]
     },
     "WIPRO": {
@@ -291,7 +291,7 @@
         164.0,
         162.0,
         157.0,
-        161.0
+        162.0
       ]
     },
     "TECHM": {
@@ -331,7 +331,7 @@
         1548.0,
         1542.0,
         1510.0,
-        1555.0
+        1558.0
       ]
     },
     "MPHL": {
@@ -371,7 +371,7 @@
         2234.0,
         2238.0,
         2154.0,
-        2246.0
+        2244.0
       ]
     },
     "PSYS": {
@@ -411,7 +411,7 @@
         5372.0,
         5328.0,
         5162.0,
-        5365.0
+        5373.0
       ]
     },
     "COFG": {
@@ -450,7 +450,7 @@
         1786.0,
         1784.0,
         1773.0,
-        1817.0
+        1820.0
       ]
     },
     "ACN": {
@@ -682,24 +682,6 @@
       "url": "https://www.thehindubusinessline.com/companies/coforge-appoints-akhil-gupta-as-non-executive-independent-director-chairperson/article71522451.ece"
     },
     {
-      "time": "2026-09-29 03:36",
-      "tk": "COFG",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Coforge shares in focus after appointing Akhil Kumar Gupta as chairman after OP Bhatt\u2019s abrupt resignation",
-      "detail": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Kumar Gupta as chairperson and independent director for five years, following boardroom turmoil triggered by O P Bhatt\u2019s resignation. The IT services firm retains its FY27 guidance and long-term g\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-shares-in-focus-after-appointing-akhil-kumar-gupta-as-chairman-after-op-bhatts-abrupt-resignation/articleshow/134555215.cms"
-    },
-    {
-      "time": "2026-09-29 01:13",
-      "tk": "COFG",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Coforge appoints former Bharti Enterprises executive Akhil Gupta as chairman after board upheaval",
-      "detail": "Coforge has appointed Akhil Kumar Gupta as its new chairperson and non-executive independent director. This decision comes after the resignation of former chairman O P Bhatt amid controversies surrounding board evaluations. The internal audit revealed discrep\u2026",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/coforge-appoints-former-bharti-enterprises-vice-chairman-akhil-gupta-as-chairman-after-board-upheaval/articleshow/134553580.cms"
-    },
-    {
       "time": "2026-09-25 08:09",
       "tk": "NTTD",
       "src": "The Times of India",
@@ -712,7 +694,7 @@
       "time": "2026-09-29 02:37",
       "tk": "HCLT",
       "src": "Business Standard",
-      "cat": "MACRO",
+      "cat": "DEAL",
       "hl": "HCLTech's arm to acquire Croatia-based Robotiq.ai for 9 million euro",
       "detail": "IT services major HCL Technologies on Monday announced that its software business division, HCLSoftware, will acquire Croatia-based enterprise robotic process automation (RPA) platform provider Robotiq.ai in an all-cash deal valued at an enterprise value of 9\u2026",
       "url": "https://www.business-standard.com/companies/news/hcltech-s-arm-to-acquire-croatia-based-robotiq-ai-for-9-million-euro-126092900014_1.html"
