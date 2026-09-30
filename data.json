@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-29T20:56:27.258690+00:00",
-  "updated_display": "29 Sep 2026, 20:56 UTC",
+  "updated": "2026-09-30T02:16:56.865554+00:00",
+  "updated_display": "30 Sep 2026, 02:16 UTC",
   "prices": {
     "TCS": {
-      "price": 2070.7,
-      "display": "\u20b92,071",
-      "change": -0.5
+      "price": 2032.4,
+      "display": "\u20b92,032",
+      "change": -1.8
     },
     "INFY": {
-      "price": 1003.2,
-      "display": "\u20b91,003",
-      "change": 0.3
+      "price": 1015.4,
+      "display": "\u20b91,015",
+      "change": 1.2
     },
     "CTSH": {
       "price": 56.84,
@@ -18,29 +18,29 @@
       "change": 0.2
     },
     "HCLT": {
-      "price": 1252.6,
-      "display": "\u20b91,253",
-      "change": -0.4
+      "price": 1222.0,
+      "display": "\u20b91,222",
+      "change": -2.4
     },
     "WIPRO": {
-      "price": 161.56,
-      "display": "\u20b9162",
-      "change": -1.5
+      "price": 156.79,
+      "display": "\u20b9157",
+      "change": -3.0
     },
     "TECHM": {
-      "price": 1542.2,
-      "display": "\u20b91,542",
-      "change": -0.4
+      "price": 1510.5,
+      "display": "\u20b91,510",
+      "change": -2.1
     },
     "MPHL": {
-      "price": 2237.5,
-      "display": "\u20b92,238",
-      "change": 0.2
+      "price": 2154.4,
+      "display": "\u20b92,154",
+      "change": -3.7
     },
     "PSYS": {
-      "price": 5328.5,
-      "display": "\u20b95,328",
-      "change": -0.8
+      "price": 5162.0,
+      "display": "\u20b95,162",
+      "change": -3.1
     },
     "COFG": {
       "price": 1773.0,
@@ -53,14 +53,14 @@
       "change": 1.5
     },
     "CAP": {
-      "price": 103.5,
-      "display": "\u20ac104",
-      "change": 0.5
+      "price": 102.95,
+      "display": "\u20ac103",
+      "change": -1.5
     },
     "ATOS": {
-      "price": 20.38,
-      "display": "\u20ac20.38",
-      "change": -5.6
+      "price": 21.6,
+      "display": "\u20ac21.60",
+      "change": -3.4
     },
     "DXC": {
       "price": 10.33,
@@ -75,27 +75,43 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72771.72,
-      "change": -1.52
+      "value": 72529.07,
+      "change": -0.33
     },
     "NIFTY_IT": {
-      "value": 28086.5,
-      "change": -0.26
+      "value": 27670.0,
+      "change": -1.48
     },
     "SP500": {
       "value": 7670.84,
       "change": -0.17
     },
     "USD_INR": {
-      "value": 95.97,
-      "change": 0.19
+      "value": 95.98,
+      "change": -0.0
     },
     "EUR_INR": {
-      "value": 108.87,
-      "change": 2.83
+      "value": 108.82,
+      "change": -0.23
     }
   },
   "news": [
+    {
+      "time": "2026-09-29 01:29",
+      "tk": "CAP",
+      "src": "The Times of India",
+      "hl": "Market lacks momentum, yet SIPs shine as a reliable investment strategy",
+      "detail": "In the last two years, systematic investment plans have shown remarkable performance, with small-cap funds leading with an average return of 14.25%. Retail investor monthly contributions saw a noteworthy increase of about 37% between August 2024 and August 20\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-lacks-momentum-yet-sips-shine-as-a-reliable-investment-strategy/articleshow/134553598.cms"
+    },
+    {
+      "time": "2026-09-29 00:09",
+      "tk": "HCLT",
+      "src": "BusinessLine",
+      "hl": "HCLTech arm to acquire Croatia-based RPA platform Robotiq.ai for \u20b998 crore",
+      "detail": "The transaction will give the software division full ownership of the Zagreb-based automation company, which serves large banks, insurers and telecom firms",
+      "url": "https://www.thehindubusinessline.com/info-tech/hcltech-arm-to-acquire-croatia-based-rpa-platform-robotiqai-for-98-crore/article71522259.ece"
+    },
     {
       "time": "2026-09-28 18:25",
       "tk": "INFY",
@@ -129,12 +145,12 @@
       "url": "https://economictimes.indiatimes.com/tech/information-tech/hcltech-software-unit-acquires-european-firm-robotiq-ai-for-9-million-euros/articleshow/134547380.cms"
     },
     {
-      "time": "2026-09-28 16:25",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "hl": "Tata Trusts\u2019 bid to reorganise Tata Sons could face regulatory hurdles",
-      "detail": "Regulatory hurdles loom as Tata Trusts\u2019 plan to reorganise Tata Sons faces RBI scrutiny and potential listing requirements.",
-      "url": "https://www.thehindubusinessline.com/companies/tata-trusts-bid-to-reorganise-tata-sons-could-face-regulatory-hurdles/article71520942.ece"
+      "time": "2026-09-29 00:01",
+      "tk": "TECHM",
+      "src": "Sports Illustrated",
+      "hl": "Texas Tech Fans Should Know These Three Colorado Players Who Boost Upset Alert",
+      "detail": "The Texas Tech Red Raiders will likely enter Folsom Field as an overwhelming favorite, but must watch out for these three Colorado Buffaloes.",
+      "url": "https://www.si.com/college/colorado/football/texas-tech-fans-three-colorado-buffaloes-players-boost-upset-alert"
     },
     {
       "time": "2026-09-28 17:26",
@@ -153,12 +169,20 @@
       "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
     },
     {
-      "time": "2026-09-28 14:13",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "hl": "Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword",
-      "detail": "With fiscal Q4 earnings due and analyst day slated for Oct. 14., artificial intelligence looms as a double-edged sword for Accenture stock. \nThe post Accenture Earnings Due As Artificial Intelligence Looms As Double-Edged Sword appeared first on Investor's Bu\u2026",
-      "url": "https://biztoc.com/x/12550ddb028e2f8a"
+      "time": "2026-09-29 01:13",
+      "tk": "COFG",
+      "src": "The Times of India",
+      "hl": "Coforge appoints former Bharti Enterprises executive Akhil Gupta as chairman after board upheaval",
+      "detail": "Coforge has appointed Akhil Kumar Gupta as its new chairperson and non-executive independent director. This decision comes after the resignation of former chairman O P Bhatt amid controversies surrounding board evaluations. The internal audit revealed discrep\u2026",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/coforge-appoints-former-bharti-enterprises-vice-chairman-akhil-gupta-as-chairman-after-board-upheaval/articleshow/134553580.cms"
+    },
+    {
+      "time": "2026-09-29 00:13",
+      "tk": "COFG",
+      "src": "BusinessLine",
+      "hl": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Gupta as chairperson",
+      "detail": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Kumar Gupta as chairperson and non-executive independent director for five years.",
+      "url": "https://www.thehindubusinessline.com/info-tech/coforge-appoints-former-bharti-enterprises-vice-chairman-akhil-gupta-as-chairperson/article71522242.ece"
     },
     {
       "time": "2026-09-28 18:38",
@@ -209,22 +233,6 @@
       "url": "https://www.business-standard.com/finance/personal-finance/large-mid-or-smallcaps-pick-the-right-stock-strategy-for-your-portfolio-126092400459_1.html"
     },
     {
-      "time": "2026-09-26 16:16",
-      "tk": "CAP",
-      "src": "BusinessLine",
-      "hl": "Invesco India Large cap Fund: A changing playbook delivers better outcomes",
-      "detail": "Invesco India Largecap Fund combines strong rolling returns, active portfolio calls and efficient risk-taking. Here is what investors should know",
-      "url": "https://www.thehindubusinessline.com/portfolio/invesco-india-largecap-fund-review-performance-portfolio-risk/article71499416.ece"
-    },
-    {
-      "time": "2026-09-25 15:00",
-      "tk": "INFY",
-      "src": "BusinessLine",
-      "hl": "Infosys nears July lows, Wipro hits fresh 52-week low",
-      "detail": "IT stocks slide as Infosys, Wipro hit 52-week lows amid AI transition and market volatility in India.",
-      "url": "https://www.thehindubusinessline.com/info-tech/infosys-nears-july-lows-wipro-hits-fresh-52-week-low/article71509264.ece"
-    },
-    {
       "time": "2026-09-27 10:00",
       "tk": "TECHM",
       "src": "TechRadar",
@@ -265,22 +273,6 @@
       "url": "https://www.prnewswire.com/news-releases/datalink-networks-reports-58-2-revenue-growth-for-fiscal-year-2026--302890811.html"
     },
     {
-      "time": "2026-09-28 01:54",
-      "tk": "TECHM",
-      "src": "The Times of India",
-      "hl": "a16z\u2019s Raghu Raghuram on India\u2019s AI potential; insurance cos navigate new proposal",
-      "detail": "Happy Monday! a16z\u2019s Raghu Raghuram said India can build frontier AI companies by using its talent. This and more in today\u2019s ETtech Morning Dispatch.",
-      "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/a16zs-raghu-raghuram-on-indias-ai-potential-insurance-cos-navigate-new-proposal/articleshow/134529607.cms"
-    },
-    {
-      "time": "2026-09-26 07:07",
-      "tk": "TECHM",
-      "src": "Careerwebsite.com",
-      "hl": "Oliver Wyman - Communications, Media & Technology/Private Capital - Engagement Manager - Marsh & McLennan Companies - , CA",
-      "detail": "A new Oliver Wyman - Communications, Media & Technology/Private Capital - Engagement Manager job is available in California. Check it out on PR News Online.",
-      "url": "https://naaia-jobs.careerwebsite.com/job/oliver-wyman-communications-media-technologyprivate-capital-engagement-manager/86157998/"
-    },
-    {
       "time": "2026-09-28 18:20",
       "tk": "TECHM",
       "src": "Livemint",
@@ -295,6 +287,14 @@
       "hl": "Nifty at key 23,000 support: Can bulls trigger a technical rebound?",
       "detail": "Nifty extended its losing streak to seven weeks, falling 0.88% to 23,140.50 as technical momentum remained bearish. The 23,000\u201323,200 zone is crucial support, while 23,375 and 23,600 are key resistances amid heightened volatility and derivatives expiry.",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-at-key-23000-support-can-bulls-trigger-a-technical-rebound/articleshow/134500890.cms"
+    },
+    {
+      "time": "2026-09-22 16:16",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "hl": "Techie claims he met delivery partner laid off from IT sector on the day he joined new job, says conversation \u2018broke him\u2019",
+      "detail": "A software professional shared an emotional account of meeting a delivery partner who was once employed in the IT sector. The man, a 2024 computer science graduate, had worked at TCS before being laid off and later took up delivery work to support his family.\u2026",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/techie-claims-he-met-delivery-partner-laid-off-from-it-sector-on-the-day-he-joined-new-job-says-conversation-broke-him/articleshow/134415949.cms"
     }
   ]
 }
