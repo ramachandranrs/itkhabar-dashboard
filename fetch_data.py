@@ -294,7 +294,34 @@ def fetch_news():
         '("Cognizant" OR "Accenture" OR "Capgemini" OR "DXC") AND ("results" OR "earnings" OR "revenue" OR "guidance")',
     ]
 
-    seen = set()
+    import re as _re
+
+    def _normalize(text):
+        """Normalize headline for fuzzy dedup: lowercase, strip punctuation, collapse whitespace."""
+        t = text.lower()
+        t = _re.sub(r'[^\w\s]', '', t)
+        t = _re.sub(r'\s+', ' ', t).strip()
+        return t
+
+    def _is_duplicate(title, seen_titles):
+        """Check if a title is a near-duplicate of any seen title.
+        Uses normalized overlap: if 60%+ of words in common, it's a dupe."""
+        norm = _normalize(title)
+        norm_words = set(norm.split())
+        if len(norm_words) < 3:
+            return norm in seen_titles
+        for seen_norm, seen_words in seen_titles.values():
+            # Check both directions of overlap
+            if not seen_words:
+                continue
+            common = norm_words & seen_words
+            overlap_a = len(common) / len(norm_words) if norm_words else 0
+            overlap_b = len(common) / len(seen_words) if seen_words else 0
+            if max(overlap_a, overlap_b) >= 0.6:
+                return True
+        return False
+
+    seen_titles = {}  # {exact_title: (normalized, set_of_words)}
     for q in queries:
         try:
             resp = requests.get("https://newsapi.org/v2/everything", params={
@@ -309,13 +336,17 @@ def fetch_news():
                 for a in articles:
                     title = a.get("title", "")
                     desc = a.get("description", "") or ""
-                    if not title or title in seen:
+                    if not title or title in seen_titles:
+                        continue
+                    # ── Fuzzy dedup: skip near-duplicate headlines ──
+                    if _is_duplicate(title, seen_titles):
                         continue
                     # ── STRICT relevance gate ──
                     relevant, tk = is_relevant(title, desc)
                     if not relevant:
                         continue
-                    seen.add(title)
+                    norm = _normalize(title)
+                    seen_titles[title] = (norm, set(norm.split()))
                     # Auto-detect category from headline
                     upper_title = title.upper()
                     if any(kw in upper_title for kw in
@@ -352,7 +383,7 @@ def fetch_news():
         except Exception as e:
             print(f"  ✗ News query failed: {e}")
 
-    print(f"  ✓ {len(headlines)} relevant headlines (filtered from {len(seen)} total)")
+    print(f"  ✓ {len(headlines)} relevant headlines (filtered from {len(seen_titles)} unique titles)")
     return headlines[:40]  # Cap at 40 (higher for earnings season)
 
 

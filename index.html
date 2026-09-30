@@ -1180,37 +1180,38 @@ function renderTodayHL(){
   }
   const todayStart=new Date(_now.getFullYear(),_now.getMonth(),_now.getDate());
   const threeDaysAgo=new Date(todayStart.getTime()-3*86400000);
-  // Filter: today's HIGH items first, then recent HIGH (3 days), then recent ALL (3 days), then latest
+  // Cascade: collect up to 5 items, prioritising HIGH then recent, topping up each tier
+  const MIN_ITEMS=4, MAX_ITEMS=5;
   const highEvts=EVENTS.filter(e=>e.mat==='HIGH');
-  let todayEvts=highEvts.filter(e=>{
-    const d=parseEvtDate(e.dt);
-    return d&&d.getTime()>=todayStart.getTime();
-  });
+  const allRecent=EVENTS.filter(e=>{const d=parseEvtDate(e.dt);return d&&d.getTime()>=threeDaysAgo.getTime();});
+  const highToday=highEvts.filter(e=>{const d=parseEvtDate(e.dt);return d&&d.getTime()>=todayStart.getTime();});
+  const highRecent=highEvts.filter(e=>{const d=parseEvtDate(e.dt);return d&&d.getTime()>=threeDaysAgo.getTime();});
+
+  let todayEvts=[];
   let heading="Today's Highlights";
   let dateLabel=_todayStr;
-  // If nothing from today, show recent HIGH items (last 3 days)
-  if(!todayEvts.length){
-    todayEvts=highEvts.filter(e=>{
-      const d=parseEvtDate(e.dt);
-      return d&&d.getTime()>=threeDaysAgo.getTime();
-    });
-    if(todayEvts.length){heading='Recent Highlights';}
+
+  // Tier 1: today's HIGH
+  todayEvts=highToday.slice(0,MAX_ITEMS);
+  // Tier 2: top up with recent HIGH (last 3 days, not already included)
+  if(todayEvts.length<MIN_ITEMS){
+    const ids=new Set(todayEvts.map(e=>e.hl));
+    highRecent.forEach(e=>{if(!ids.has(e.hl)&&todayEvts.length<MAX_ITEMS){todayEvts.push(e);ids.add(e.hl);}});
+    if(todayEvts.length) heading='Recent Highlights';
   }
-  // If no recent HIGH items, show ANY recent items (last 3 days) regardless of materiality
-  if(!todayEvts.length){
-    todayEvts=EVENTS.filter(e=>{
-      const d=parseEvtDate(e.dt);
-      return d&&d.getTime()>=threeDaysAgo.getTime();
-    });
-    if(todayEvts.length){heading='Recent Highlights';}
+  // Tier 3: top up with ANY recent items (last 3 days)
+  if(todayEvts.length<MIN_ITEMS){
+    const ids=new Set(todayEvts.map(e=>e.hl));
+    allRecent.forEach(e=>{if(!ids.has(e.hl)&&todayEvts.length<MAX_ITEMS){todayEvts.push(e);ids.add(e.hl);}});
+    if(todayEvts.length) heading='Recent Highlights';
   }
-  // If still nothing recent, show latest 5 from all events
-  if(!todayEvts.length){
-    todayEvts=(highEvts.length?highEvts:EVENTS).slice(0,5);
+  // Tier 4: fall back to latest events overall
+  if(todayEvts.length<MIN_ITEMS){
+    const ids=new Set(todayEvts.map(e=>e.hl));
+    EVENTS.forEach(e=>{if(!ids.has(e.hl)&&todayEvts.length<MAX_ITEMS){todayEvts.push(e);ids.add(e.hl);}});
     if(todayEvts.length){heading='Latest Highlights';dateLabel=todayEvts[0].dt||_todayStr;}
     else{el.hidden=true;return;}
   }
-  todayEvts=todayEvts.slice(0,5);
   el.hidden=false;
   const linkIcon2='<svg width="10" height="10" viewBox="0 0 16 16" fill="none" style="vertical-align:-1px;margin-left:3px"><path d="M6 3H3a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-3M9 2h5v5M15 1 8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   let html=`<div class="today-hl-head"><h3>${heading}</h3><span class="today-hl-date">${dateLabel}</span></div><div class="today-hl-items">`;
@@ -2156,7 +2157,25 @@ function applyLiveData(d){
   if(d.news&&d.news.length){
     // Clear all hardcoded events
     EVENTS.length=0;
+    // Fuzzy dedup: skip near-duplicate headlines from live news
+    const _seenHL=new Map();
+    function _normHL(s){return s.toLowerCase().replace(/[^\w\s]/g,'').replace(/\s+/g,' ').trim();}
+    function _isDupHL(hl){
+      const norm=_normHL(hl);
+      const words=new Set(norm.split(' '));
+      if(words.size<3) return _seenHL.has(norm);
+      for(const [,sw] of _seenHL){
+        if(!sw.size) continue;
+        const common=[...words].filter(w=>sw.has(w)).length;
+        if(Math.max(common/words.size,common/sw.size)>=0.6) return true;
+      }
+      return false;
+    }
     d.news.forEach(n=>{
+      // Skip near-duplicate headlines
+      if(_isDupHL(n.hl)){return;}
+      const _hlNorm=_normHL(n.hl);
+      _seenHL.set(_hlNorm,new Set(_hlNorm.split(' ')));
       // Parse date from news item
       const _nd=new Date(n.time||Date.now());
       const _ndt=n.dt||(_nd.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][_nd.getMonth()]);
