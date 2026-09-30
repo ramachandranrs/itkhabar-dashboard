@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-30T04:32:39.592562+00:00",
-  "updated_display": "30 Sep 2026, 04:32 UTC",
+  "updated": "2026-09-30T04:41:25.360525+00:00",
+  "updated_display": "30 Sep 2026, 04:41 UTC",
   "prices": {
     "TCS": {
-      "price": 2093.9,
-      "display": "\u20b92,094",
+      "price": 2093.2,
+      "display": "\u20b92,093",
       "change": 3.0
     },
     "INFY": {
-      "price": 1019.6,
-      "display": "\u20b91,020",
-      "change": 0.4
+      "price": 1022.5,
+      "display": "\u20b91,022",
+      "change": 0.7
     },
     "CTSH": {
       "price": 56.84,
@@ -18,34 +18,34 @@
       "change": 0.2
     },
     "HCLT": {
-      "price": 1246.2,
-      "display": "\u20b91,246",
-      "change": 2.0
+      "price": 1250.0,
+      "display": "\u20b91,250",
+      "change": 2.3
     },
     "WIPRO": {
-      "price": 161.01,
+      "price": 161.22,
       "display": "\u20b9161",
-      "change": 2.7
+      "change": 2.8
     },
     "TECHM": {
-      "price": 1549.8,
-      "display": "\u20b91,550",
-      "change": 2.6
+      "price": 1555.1,
+      "display": "\u20b91,555",
+      "change": 3.0
     },
     "MPHL": {
-      "price": 2237.2,
-      "display": "\u20b92,237",
-      "change": 3.8
+      "price": 2246.5,
+      "display": "\u20b92,246",
+      "change": 4.3
     },
     "PSYS": {
-      "price": 5334.5,
-      "display": "\u20b95,334",
-      "change": 3.3
+      "price": 5364.0,
+      "display": "\u20b95,364",
+      "change": 3.9
     },
     "COFG": {
-      "price": 1806.0,
-      "display": "\u20b91,806",
-      "change": 1.9
+      "price": 1816.9,
+      "display": "\u20b91,817",
+      "change": 2.5
     },
     "ACN": {
       "price": 177.12,
@@ -75,24 +75,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72700.92,
-      "change": 0.24
+      "value": 72746.67,
+      "change": 0.3
     },
     "NIFTY_IT": {
-      "value": 28275.7,
-      "change": 2.19
+      "value": 28356.9,
+      "change": 2.48
     },
     "SP500": {
       "value": 7670.84,
       "change": -0.17
     },
     "USD_INR": {
-      "value": 95.96,
-      "change": -0.03
+      "value": 95.97,
+      "change": -0.01
     },
     "EUR_INR": {
-      "value": 108.72,
-      "change": -0.32
+      "value": 108.73,
+      "change": -0.31
     }
   },
   "historical": {
@@ -173,7 +173,7 @@
         1000.0,
         1003.0,
         1015.0,
-        1020.0
+        1022.0
       ]
     },
     "CTSH": {
@@ -251,7 +251,7 @@
         1258.0,
         1253.0,
         1222.0,
-        1246.0
+        1250.0
       ]
     },
     "WIPRO": {
@@ -331,7 +331,7 @@
         1548.0,
         1542.0,
         1510.0,
-        1549.0
+        1555.0
       ]
     },
     "MPHL": {
@@ -371,7 +371,7 @@
         2234.0,
         2238.0,
         2154.0,
-        2237.0
+        2246.0
       ]
     },
     "PSYS": {
@@ -411,7 +411,7 @@
         5372.0,
         5328.0,
         5162.0,
-        5336.0
+        5365.0
       ]
     },
     "COFG": {
@@ -450,7 +450,7 @@
         1786.0,
         1784.0,
         1773.0,
-        1807.0
+        1817.0
       ]
     },
     "ACN": {
@@ -646,22 +646,22 @@
   },
   "news": [
     {
-      "time": "2026-09-29 03:19",
+      "time": "2026-09-29 04:39",
       "tk": "WIPRO",
-      "src": "The Times of India",
+      "src": "BusinessLine",
       "cat": "MACRO",
-      "hl": "BSE set to enter Nifty 50 from tomorrow, IT major Wipro to exit. What shareholders must know?",
-      "detail": "BSE has been included in the Nifty 50 after its six-month average free-float market capitalisation came in at Rs 1,40,879 crore. This is at least 1.5 times the six-month average free-float market capitalisation of the smallest constituent in the eligible univ\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/bse-set-to-enter-nifty-50-from-tomorrow-it-major-wipro-to-exit-what-shareholders-must-know/articleshow/134554977.cms"
+      "hl": "BSE shares rise 1.6%, stock to replace Wipro in Nifty 50 reshuffle",
+      "detail": "BSE\u2019s inclusion in the Nifty 50 follows its six-month average free-float market capitalisation of \u20b91,40,879 crore, compared with Wipro\u2019s \u20b955,930 crore",
+      "url": "https://www.thehindubusinessline.com/markets/bse-shares-rise-16-stock-to-replace-wipro-in-nifty-50-reshuffle/article71522520.ece"
     },
     {
-      "time": "2026-09-29 02:37",
-      "tk": "HCLT",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "HCLTech's arm to acquire Croatia-based Robotiq.ai for 9 million euro",
-      "detail": "IT services major HCL Technologies on Monday announced that its software business division, HCLSoftware, will acquire Croatia-based enterprise robotic process automation (RPA) platform provider Robotiq.ai in an all-cash deal valued at an enterprise value of 9\u2026",
-      "url": "https://www.business-standard.com/companies/news/hcltech-s-arm-to-acquire-croatia-based-robotiq-ai-for-9-million-euro-126092900014_1.html"
+      "time": "2026-09-29 04:36",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "AI",
+      "hl": "Infosys plans to shift up to one-third of 320,000 employees into specialist roles, build a team of 6,000 frontier engineers as AI reshapes IT jobs",
+      "detail": "Infosys has more than 320,000 employees, but the growing impact of AI on billing models based on the number of people deployed on projects is putting pressure on the traditional headcount-driven pricing structure. The Bengaluru-headquartered IT services compa\u2026",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms"
     },
     {
       "time": "2026-09-28 17:26",
@@ -682,15 +682,6 @@
       "url": "https://www.thehindubusinessline.com/companies/coforge-appoints-akhil-gupta-as-non-executive-independent-director-chairperson/article71522451.ece"
     },
     {
-      "time": "2026-09-29 03:50",
-      "tk": "COFG",
-      "src": "Business Standard",
-      "cat": "PEOPLE",
-      "hl": "Coforge appoints Akhil Gupta as independent chairperson for five years",
-      "detail": "Gupta, former vice chairman of Bharti Enterprises, will serve for five years from September 29 as non-executive independent director and chairperson",
-      "url": "https://www.business-standard.com/companies/news/coforge-appoints-akhil-gupta-chairperson-after-op-bhatt-exit-126092900174_1.html"
-    },
-    {
       "time": "2026-09-29 03:36",
       "tk": "COFG",
       "src": "The Times of India",
@@ -698,15 +689,6 @@
       "hl": "Coforge shares in focus after appointing Akhil Kumar Gupta as chairman after OP Bhatt\u2019s abrupt resignation",
       "detail": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Kumar Gupta as chairperson and independent director for five years, following boardroom turmoil triggered by O P Bhatt\u2019s resignation. The IT services firm retains its FY27 guidance and long-term g\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-shares-in-focus-after-appointing-akhil-kumar-gupta-as-chairman-after-op-bhatts-abrupt-resignation/articleshow/134555215.cms"
-    },
-    {
-      "time": "2026-09-29 02:37",
-      "tk": "COFG",
-      "src": "Business Standard",
-      "cat": "PEOPLE",
-      "hl": "Coforge appoints former Bharti Enterprises VC Akhil Gupta as chairperson",
-      "detail": "IT services firm Coforge Ltd has appointed former\nBharti Enterprises vice-chairman Akhil Kumar Gupta as its chairperson and non-executive independent director for five years, effective Tuesday.\nThe appointment follows weeks of intense boardroom turmoil, trigg\u2026",
-      "url": "https://www.business-standard.com/companies/news/coforge-appoints-former-bharti-enterprises-vc-akhil-gupta-as-chairperson-126092900018_1.html"
     },
     {
       "time": "2026-09-29 01:13",
@@ -718,24 +700,6 @@
       "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/coforge-appoints-former-bharti-enterprises-vice-chairman-akhil-gupta-as-chairman-after-board-upheaval/articleshow/134553580.cms"
     },
     {
-      "time": "2026-09-29 00:13",
-      "tk": "COFG",
-      "src": "BusinessLine",
-      "cat": "PEOPLE",
-      "hl": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Gupta as chairperson",
-      "detail": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Kumar Gupta as chairperson and non-executive independent director for five years.",
-      "url": "https://www.thehindubusinessline.com/info-tech/coforge-appoints-former-bharti-enterprises-vice-chairman-akhil-gupta-as-chairperson/article71522242.ece"
-    },
-    {
-      "time": "2026-09-28 18:38",
-      "tk": "COFG",
-      "src": "Livemint",
-      "cat": "PEOPLE",
-      "hl": "Coforge appoints Akhil Kumar Gupta as chairperson",
-      "detail": "Gupta, who has four decades of experience as a chartered accountant, currently chairs ONE WAM and Bharti Life Insurance. He also serves on the boards of Zepto, Snapdeal, Eutelsat Communications and Lodha Developers.",
-      "url": "https://www.livemint.com/companies/coforge-appoints-akhil-kumar-gupta-as-chairperson-11790618685616.html"
-    },
-    {
       "time": "2026-09-25 08:09",
       "tk": "NTTD",
       "src": "The Times of India",
@@ -745,22 +709,13 @@
       "url": "https://economictimes.indiatimes.com/tech/technology/inside-the-deal-engine-room-vcs-and-pes-make-the-case-for-erp-as-a-governance-variable/articleshow/134479353.cms"
     },
     {
-      "time": "2026-09-29 00:09",
+      "time": "2026-09-29 02:37",
       "tk": "HCLT",
-      "src": "BusinessLine",
+      "src": "Business Standard",
       "cat": "MACRO",
-      "hl": "HCLTech arm to acquire Croatia-based RPA platform Robotiq.ai for \u20b998 crore",
-      "detail": "The transaction will give the software division full ownership of the Zagreb-based automation company, which serves large banks, insurers and telecom firms",
-      "url": "https://www.thehindubusinessline.com/info-tech/hcltech-arm-to-acquire-croatia-based-rpa-platform-robotiqai-for-98-crore/article71522259.ece"
-    },
-    {
-      "time": "2026-09-28 16:44",
-      "tk": "HCLT",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "HCLTech software unit to acquire European firm Robotiq.ai for 9 million euros",
-      "detail": "The company will acquire 100% of the outstanding equity of Robotiq.ai to be acquired by HCL Technologies Austria GmbH, a step- down wholly owned subsidiary of HCLTech, for a cash consideration of nine million euros adjusted for customary post-closing adjustme\u2026",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/hcltech-software-unit-acquires-european-firm-robotiq-ai-for-9-million-euros/articleshow/134547380.cms"
+      "hl": "HCLTech's arm to acquire Croatia-based Robotiq.ai for 9 million euro",
+      "detail": "IT services major HCL Technologies on Monday announced that its software business division, HCLSoftware, will acquire Croatia-based enterprise robotic process automation (RPA) platform provider Robotiq.ai in an all-cash deal valued at an enterprise value of 9\u2026",
+      "url": "https://www.business-standard.com/companies/news/hcltech-s-arm-to-acquire-croatia-based-robotiq-ai-for-9-million-euro-126092900014_1.html"
     },
     {
       "time": "2026-09-29 03:47",
