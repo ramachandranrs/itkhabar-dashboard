@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-30T02:16:56.865554+00:00",
-  "updated_display": "30 Sep 2026, 02:16 UTC",
+  "updated": "2026-09-30T03:54:37.239139+00:00",
+  "updated_display": "30 Sep 2026, 03:54 UTC",
   "prices": {
     "TCS": {
-      "price": 2032.4,
-      "display": "\u20b92,032",
-      "change": -1.8
+      "price": 2084.4,
+      "display": "\u20b92,084",
+      "change": 2.6
     },
     "INFY": {
-      "price": 1015.4,
-      "display": "\u20b91,015",
-      "change": 1.2
+      "price": 1006.3,
+      "display": "\u20b91,006",
+      "change": -0.9
     },
     "CTSH": {
       "price": 56.84,
@@ -18,34 +18,34 @@
       "change": 0.2
     },
     "HCLT": {
-      "price": 1222.0,
-      "display": "\u20b91,222",
-      "change": -2.4
+      "price": 1239.5,
+      "display": "\u20b91,240",
+      "change": 1.4
     },
     "WIPRO": {
-      "price": 156.79,
-      "display": "\u20b9157",
-      "change": -3.0
+      "price": 160.15,
+      "display": "\u20b9160",
+      "change": 2.1
     },
     "TECHM": {
-      "price": 1510.5,
-      "display": "\u20b91,510",
-      "change": -2.1
+      "price": 1544.4,
+      "display": "\u20b91,544",
+      "change": 2.2
     },
     "MPHL": {
-      "price": 2154.4,
-      "display": "\u20b92,154",
-      "change": -3.7
+      "price": 2212.8,
+      "display": "\u20b92,213",
+      "change": 2.7
     },
     "PSYS": {
-      "price": 5162.0,
-      "display": "\u20b95,162",
-      "change": -3.1
+      "price": 5320.0,
+      "display": "\u20b95,320",
+      "change": 3.1
     },
     "COFG": {
-      "price": 1773.0,
-      "display": "\u20b91,773",
-      "change": -0.6
+      "price": 1798.2,
+      "display": "\u20b91,798",
+      "change": 1.4
     },
     "ACN": {
       "price": 177.12,
@@ -79,23 +79,47 @@
       "change": -0.33
     },
     "NIFTY_IT": {
-      "value": 27670.0,
-      "change": -1.48
+      "value": 28080.75,
+      "change": 1.48
     },
     "SP500": {
       "value": 7670.84,
       "change": -0.17
     },
     "USD_INR": {
-      "value": 95.98,
-      "change": -0.0
+      "value": 95.93,
+      "change": -0.05
     },
     "EUR_INR": {
-      "value": 108.82,
-      "change": -0.23
+      "value": 108.73,
+      "change": -0.3
     }
   },
   "news": [
+    {
+      "time": "2026-09-29 03:19",
+      "tk": "WIPRO",
+      "src": "The Times of India",
+      "hl": "BSE set to enter Nifty 50 from tomorrow, IT major Wipro to exit. What shareholders must know?",
+      "detail": "BSE has been included in the Nifty 50 after its six-month average free-float market capitalisation came in at Rs 1,40,879 crore. This is at least 1.5 times the six-month average free-float market capitalisation of the smallest constituent in the eligible univ\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/bse-set-to-enter-nifty-50-from-tomorrow-it-major-wipro-to-exit-what-shareholders-must-know/articleshow/134554977.cms"
+    },
+    {
+      "time": "2026-09-29 02:52",
+      "tk": "TCS",
+      "src": "Livemint",
+      "hl": "Tata Sons merger: What TCE and TESS bring to the table in Tata Trusts\u2019 new plan",
+      "detail": "The proposed amalgamation dilutes the holding company's financial income with substantial operating revenue, thereby removing it from the stringent NBFC and Core Investment Company (CIC) classifications.",
+      "url": "https://www.livemint.com/companies/news/tata-sons-merger-what-tce-and-tess-bring-to-the-table-in-tata-trusts-new-plan-11790647082581.html"
+    },
+    {
+      "time": "2026-09-29 02:37",
+      "tk": "HCLT",
+      "src": "Business Standard",
+      "hl": "HCLTech's arm to acquire Croatia-based Robotiq.ai for 9 million euro",
+      "detail": "IT services major HCL Technologies on Monday announced that its software business division, HCLSoftware, will acquire Croatia-based enterprise robotic process automation (RPA) platform provider Robotiq.ai in an all-cash deal valued at an enterprise value of 9\u2026",
+      "url": "https://www.business-standard.com/companies/news/hcltech-s-arm-to-acquire-croatia-based-robotiq-ai-for-9-million-euro-126092900014_1.html"
+    },
     {
       "time": "2026-09-29 01:29",
       "tk": "CAP",
@@ -121,30 +145,6 @@
       "url": "https://www.forrester.com/blogs/infosys-americas-confluence-2026-an-ai-transformation-trip-report/"
     },
     {
-      "time": "2026-09-28 17:49",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "hl": "TCS employees lead weekend Jakkur lake clean-up drive in Bengaluru",
-      "detail": "TCS employees and families joined a weekend Jakkur Lake clean-up in Bengaluru, plogging, de-weeding and park cleaning under TCS HOPE and #IamBengaluru.",
-      "url": "https://timesofindia.indiatimes.com/city/bengaluru/tcs-employees-lead-weekend-jakkur-lake-clean-up-drive-in-bengaluru/articleshow/134548558.cms"
-    },
-    {
-      "time": "2026-09-28 16:55",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "hl": "Noel Tata moots merger of 2 group firms with Tata Sons to keep it private",
-      "detail": "Noel Tata proposes merging TESS and TCE into TSPL to keep Tata Sons private and avoid RBI NBFC/CIC thresholds.",
-      "url": "https://www.thehindubusinessline.com/companies/noel-tata-proposes-merger-route-to-keep-tata-sons-private/article71520944.ece"
-    },
-    {
-      "time": "2026-09-28 16:44",
-      "tk": "HCLT",
-      "src": "The Times of India",
-      "hl": "HCLTech software unit to acquire European firm Robotiq.ai for 9 million euros",
-      "detail": "The company will acquire 100% of the outstanding equity of Robotiq.ai to be acquired by HCL Technologies Austria GmbH, a step- down wholly owned subsidiary of HCLTech, for a cash consideration of nine million euros adjusted for customary post-closing adjustme\u2026",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/hcltech-software-unit-acquires-european-firm-robotiq-ai-for-9-million-euros/articleshow/134547380.cms"
-    },
-    {
       "time": "2026-09-29 00:01",
       "tk": "TECHM",
       "src": "Sports Illustrated",
@@ -167,6 +167,38 @@
       "hl": "Cook, An Update on AI and the Economy",
       "detail": "Thank you, Freada and Mitch, for that kind introduction. I appreciate the invitation to speak here at Oakland Tech Week and for the opportunity to return to th",
       "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
+    },
+    {
+      "time": "2026-09-29 03:50",
+      "tk": "COFG",
+      "src": "Business Standard",
+      "hl": "Coforge appoints Akhil Gupta as independent chairperson for five years",
+      "detail": "Gupta, former vice chairman of Bharti Enterprises, will serve for five years from September 29 as non-executive independent director and chairperson",
+      "url": "https://www.business-standard.com/companies/news/coforge-appoints-akhil-gupta-chairperson-after-op-bhatt-exit-126092900174_1.html"
+    },
+    {
+      "time": "2026-09-29 03:36",
+      "tk": "COFG",
+      "src": "The Times of India",
+      "hl": "Coforge shares in focus after appointing Akhil Kumar Gupta as chairman after OP Bhatt\u2019s abrupt resignation",
+      "detail": "Coforge appoints former Bharti Enterprises vice-chairman Akhil Kumar Gupta as chairperson and independent director for five years, following boardroom turmoil triggered by O P Bhatt\u2019s resignation. The IT services firm retains its FY27 guidance and long-term g\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-shares-in-focus-after-appointing-akhil-kumar-gupta-as-chairman-after-op-bhatts-abrupt-resignation/articleshow/134555215.cms"
+    },
+    {
+      "time": "2026-09-29 02:37",
+      "tk": "COFG",
+      "src": "Business Standard",
+      "hl": "Coforge appoints former Bharti Enterprises VC Akhil Gupta as chairperson",
+      "detail": "IT services firm Coforge Ltd has appointed former\nBharti Enterprises vice-chairman Akhil Kumar Gupta as its chairperson and non-executive independent director for five years, effective Tuesday.\nThe appointment follows weeks of intense boardroom turmoil, trigg\u2026",
+      "url": "https://www.business-standard.com/companies/news/coforge-appoints-former-bharti-enterprises-vc-akhil-gupta-as-chairperson-126092900018_1.html"
+    },
+    {
+      "time": "2026-09-29 02:24",
+      "tk": "TCS",
+      "src": "Business Standard",
+      "hl": "Stocks to watch: Tata stocks, pharma stocks, Ola Electric, Voda Idea, ITC",
+      "detail": "Reliance Jio gained the highest number of wireless mobile subscribers in August, adding nearly 2.40 million users, followed by Bharti Airtel with about 2.11 million additions.",
+      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-sept-29-tata-stocks-pharma-stocks-ola-electric-voda-idea-itc-126092900099_1.html"
     },
     {
       "time": "2026-09-29 01:13",
@@ -201,38 +233,6 @@
       "url": "https://timesofindia.indiatimes.com/business/india-business/coforge-appoints-akhil-gupta-as-chairman/articleshow/134548676.cms"
     },
     {
-      "time": "2026-09-28 10:29",
-      "tk": "CAP",
-      "src": "The Times of India",
-      "hl": "Motilal Oswal sees 4 factors boosting risk-reward after market\u2019s sharp fall from 2024 high, lists 27 stock picks",
-      "detail": "Motilal Oswal Financial Services sees improving risk-reward for Indian equities as valuations cool, earnings recover and domestic liquidity remains strong. The brokerage also highlights sectoral rotation and names 27 stocks across large-, mid- and small-cap s\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-sees-4-factors-boosting-risk-reward-after-markets-sharp-fall-from-2024-high-lists-27-stock-picks/articleshow/134539312.cms"
-    },
-    {
-      "time": "2026-09-28 07:35",
-      "tk": "TECHM",
-      "src": "BusinessLine",
-      "hl": "Nifty 50 down 12% from September 2024 peak: Motilal Oswal",
-      "detail": "Metals and PSU Banks have been among the key outperformers,  while Technology, Consumer, Media and Real Estate have been among the key laggards",
-      "url": "https://www.thehindubusinessline.com/markets/nifty-50-down-12-from-september-2024-peak-motilal-oswal/article71518801.ece"
-    },
-    {
-      "time": "2026-09-28 05:43",
-      "tk": "TECHM",
-      "src": "Livemint",
-      "hl": "How mid-sized IT firms are turning AI cost cuts into new revenue",
-      "detail": "As AI automates work traditionally performed by IT services firms and software products, companies like LTM, Coforge and Hexaware are helping clients reduce those costs. The shift could create new revenue streams even as it puts pressure on traditional techno\u2026",
-      "url": "https://www.livemint.com/companies/news/mid-sized-it-firms-ai-cost-cuts-ltm-coforge-hexaware-11790522363302.html"
-    },
-    {
-      "time": "2026-09-27 00:30",
-      "tk": "CAP",
-      "src": "Business Standard",
-      "hl": "Large, mid, or smallcaps: Pick the right stock strategy for your portfolio",
-      "detail": "Large vs Mid vs Small-Cap Stocks: Whether you are aiming for stability or higher returns, understanding market capitalisation is the key to building the right equity portfolio for your risk profile",
-      "url": "https://www.business-standard.com/finance/personal-finance/large-mid-or-smallcaps-pick-the-right-stock-strategy-for-your-portfolio-126092400459_1.html"
-    },
-    {
       "time": "2026-09-27 10:00",
       "tk": "TECHM",
       "src": "TechRadar",
@@ -265,12 +265,28 @@
       "url": "https://www.thehindubusinessline.com/info-tech/telangana-targets-5-gw-hyperscale-data-centre-capacity-by-2029/article71502737.ece"
     },
     {
-      "time": "2026-09-28 14:18",
-      "tk": "TECHM",
-      "src": "PRNewswire",
-      "hl": "Datalink Networks Reports 58.2% Revenue Growth for Fiscal Year 2026",
-      "detail": "Strategic priorities center on AI, cloud and cybersecurity as the company enters its next phase of growth SANTA CLARITA, Calif., Sept. 28, 2026 /PRNewswire/ -- Datalink Networks, Inc., a technology solutions and managed services provider serving organizations\u2026",
-      "url": "https://www.prnewswire.com/news-releases/datalink-networks-reports-58-2-revenue-growth-for-fiscal-year-2026--302890811.html"
+      "time": "2026-09-29 02:33",
+      "tk": "CAP",
+      "src": "Economictimes.com",
+      "hl": "Market veterans favour value plays over crowded, expensive themes",
+      "detail": "Market experts project cautious optimism for Indian equities as valuations become less demanding and earnings growth aligns. Large-cap stocks appear more favorable compared to mid- and small-caps, which require prudence. Preferred sectors include financials, \u2026",
+      "url": "https://m.economictimes.com/mf/analysis/any-asset-class-so-long-as-it-is-equity-some-wind-in-the-sails-expect-reasonable-returns/articleshow/134554032.cms"
+    },
+    {
+      "time": "2026-09-28 16:44",
+      "tk": "HCLT",
+      "src": "The Times of India",
+      "hl": "HCLTech software unit to acquire European firm Robotiq.ai for 9 million euros",
+      "detail": "The company will acquire 100% of the outstanding equity of Robotiq.ai to be acquired by HCL Technologies Austria GmbH, a step- down wholly owned subsidiary of HCLTech, for a cash consideration of nine million euros adjusted for customary post-closing adjustme\u2026",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/hcltech-software-unit-acquires-european-firm-robotiq-ai-for-9-million-euros/articleshow/134547380.cms"
+    },
+    {
+      "time": "2026-09-29 03:47",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "hl": "15-year setback on cards? Nifty heading for worst annual performance since 2011",
+      "detail": "As 2023 unfolds, the Nifty index appears headed for its most disappointing year in a decade and a half. Key contributors to this downturn include high valuations and a flight of foreign investors. The IT sector continues to struggle amid geopolitical conflict\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/15-year-setback-on-cards-nifty-heading-for-worst-annual-performance-since-2011/articleshow/134555433.cms"
     },
     {
       "time": "2026-09-28 18:20",
@@ -279,22 +295,6 @@
       "hl": "Sectoral mutual funds: Defence, metals gave double-digit returns in 2 years while tech, consumer in red \u2014 here's why",
       "detail": "Sectoral mutual funds have seen a sharp divergence in returns over the past two years, with some sectors delivering strong gains while others slipped into the red. Here's what drove this divergence, and what should investors consider before making sectoral be\u2026",
       "url": "https://www.livemint.com/money/personal-finance/sectoral-mutual-funds-defence-metals-gave-double-digit-returns-in-2-years-while-tech-consumer-in-red-heres-why-11790616331002.html"
-    },
-    {
-      "time": "2026-09-26 08:51",
-      "tk": "TECHM",
-      "src": "The Times of India",
-      "hl": "Nifty at key 23,000 support: Can bulls trigger a technical rebound?",
-      "detail": "Nifty extended its losing streak to seven weeks, falling 0.88% to 23,140.50 as technical momentum remained bearish. The 23,000\u201323,200 zone is crucial support, while 23,375 and 23,600 are key resistances amid heightened volatility and derivatives expiry.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-at-key-23000-support-can-bulls-trigger-a-technical-rebound/articleshow/134500890.cms"
-    },
-    {
-      "time": "2026-09-22 16:16",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "hl": "Techie claims he met delivery partner laid off from IT sector on the day he joined new job, says conversation \u2018broke him\u2019",
-      "detail": "A software professional shared an emotional account of meeting a delivery partner who was once employed in the IT sector. The man, a 2024 computer science graduate, had worked at TCS before being laid off and later took up delivery work to support his family.\u2026",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/techie-claims-he-met-delivery-partner-laid-off-from-it-sector-on-the-day-he-joined-new-job-says-conversation-broke-him/articleshow/134415949.cms"
     }
   ]
 }
