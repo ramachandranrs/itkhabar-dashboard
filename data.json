@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-30T20:55:03.779888+00:00",
-  "updated_display": "30 Sep 2026, 20:55 UTC",
+  "updated": "2026-10-01T02:17:45.524123+00:00",
+  "updated_display": "01 Oct 2026, 02:17 UTC",
   "prices": {
     "TCS": {
-      "price": 2032.4,
-      "display": "\u20b92,032",
-      "change": -1.8
+      "price": 2050.6,
+      "display": "\u20b92,051",
+      "change": 0.9
     },
     "INFY": {
-      "price": 1015.4,
-      "display": "\u20b91,015",
-      "change": 1.2
+      "price": 994.1,
+      "display": "\u20b9994",
+      "change": -2.1
     },
     "CTSH": {
       "price": 57.44,
@@ -18,14 +18,14 @@
       "change": 1.1
     },
     "HCLT": {
-      "price": 1222.0,
-      "display": "\u20b91,222",
-      "change": -2.4
+      "price": 1230.0,
+      "display": "\u20b91,230",
+      "change": 0.7
     },
     "WIPRO": {
-      "price": 156.79,
-      "display": "\u20b9157",
-      "change": -3.0
+      "price": 158.5,
+      "display": "\u20b9158",
+      "change": 1.1
     },
     "TECHM": {
       "price": 1510.5,
@@ -35,17 +35,17 @@
     "MPHL": {
       "price": 2154.4,
       "display": "\u20b92,154",
-      "change": -3.7
+      "change": 0.0
     },
     "PSYS": {
-      "price": 5162.0,
-      "display": "\u20b95,162",
-      "change": -3.1
+      "price": 5279.0,
+      "display": "\u20b95,279",
+      "change": 2.3
     },
     "COFG": {
-      "price": 1722.0,
-      "display": "\u20b91,722",
-      "change": -2.9
+      "price": 1749.1,
+      "display": "\u20b91,749",
+      "change": 1.6
     },
     "ACN": {
       "price": 183.37,
@@ -53,14 +53,14 @@
       "change": 3.5
     },
     "CAP": {
-      "price": 104.4,
+      "price": 103.5,
       "display": "\u20ac104",
-      "change": 0.9
+      "change": 0.5
     },
     "ATOS": {
-      "price": 21.24,
-      "display": "\u20ac21.24",
-      "change": 4.2
+      "price": 20.38,
+      "display": "\u20ac20.38",
+      "change": -5.6
     },
     "DXC": {
       "price": 10.83,
@@ -75,12 +75,12 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72529.07,
-      "change": -0.33
+      "value": 72480.29,
+      "change": -0.07
     },
     "NIFTY_IT": {
-      "value": 27670.0,
-      "change": -1.48
+      "value": 27704.8,
+      "change": 0.13
     },
     "SP500": {
       "value": 7651.54,
@@ -88,17 +88,16 @@
     },
     "USD_INR": {
       "value": 95.82,
-      "change": -0.17
+      "change": -0.24
     },
     "EUR_INR": {
-      "value": 108.68,
-      "change": -0.36
+      "value": 108.54,
+      "change": -0.21
     }
   },
   "historical": {
     "TCS": {
       "mp": [
-        2773.0,
         2947.0,
         3024.0,
         3090.0,
@@ -109,35 +108,13 @@
         2247.0,
         2020.0,
         2366.0,
-        2399.0
+        2399.0,
+        2051.0
       ],
-      "dp": [
-        2369.0,
-        2348.0,
-        2320.0,
-        2304.0,
-        2270.0,
-        2256.0,
-        2208.0,
-        2204.0,
-        2201.0,
-        2201.0,
-        2251.0,
-        2189.0,
-        2190.0,
-        2105.0,
-        2129.0,
-        2105.0,
-        2090.0,
-        2087.0,
-        2082.0,
-        2071.0,
-        2032.0
-      ]
+      "dp": []
     },
     "INFY": {
       "mp": [
-        1390.0,
         1451.0,
         1527.0,
         1581.0,
@@ -148,35 +125,13 @@
         1136.0,
         1000.0,
         1130.0,
-        1134.0
+        1134.0,
+        994.0
       ],
-      "dp": [
-        1156.0,
-        1140.0,
-        1130.0,
-        1130.0,
-        1088.0,
-        1082.0,
-        1035.0,
-        1036.0,
-        1038.0,
-        1038.0,
-        1077.0,
-        1060.0,
-        1059.0,
-        1051.0,
-        1038.0,
-        1029.0,
-        1020.0,
-        1014.0,
-        1000.0,
-        1003.0,
-        1015.0
-      ]
+      "dp": []
     },
     "CTSH": {
       "mp": [
-        66.0,
         71.0,
         76.0,
         82.0,
@@ -187,35 +142,13 @@
         55.0,
         39.0,
         55.0,
-        65.0
-      ],
-      "dp": [
-        63.0,
-        63.0,
         65.0,
-        62.0,
-        60.0,
-        58.0,
-        58.0,
-        60.0,
-        64.0,
-        63.0,
-        62.0,
-        62.0,
-        60.0,
-        59.0,
-        59.0,
-        59.0,
-        57.0,
-        57.0,
-        57.0,
-        57.0,
         57.0
-      ]
+      ],
+      "dp": []
     },
     "HCLT": {
       "mp": [
-        1325.0,
         1486.0,
         1566.0,
         1565.0,
@@ -226,35 +159,13 @@
         1172.0,
         1061.0,
         1347.0,
-        1312.0
+        1312.0,
+        1230.0
       ],
-      "dp": [
-        1351.0,
-        1332.0,
-        1319.0,
-        1293.0,
-        1283.0,
-        1277.0,
-        1230.0,
-        1207.0,
-        1206.0,
-        1206.0,
-        1254.0,
-        1253.0,
-        1258.0,
-        1249.0,
-        1281.0,
-        1270.0,
-        1257.0,
-        1244.0,
-        1258.0,
-        1253.0,
-        1222.0
-      ]
+      "dp": []
     },
     "WIPRO": {
       "mp": [
-        231.0,
         232.0,
         241.0,
         254.0,
@@ -265,35 +176,13 @@
         202.0,
         168.0,
         184.0,
-        184.0
+        184.0,
+        158.0
       ],
-      "dp": [
-        182.0,
-        177.0,
-        176.0,
-        176.0,
-        173.0,
-        172.0,
-        167.0,
-        166.0,
-        167.0,
-        167.0,
-        170.0,
-        167.0,
-        166.0,
-        167.0,
-        165.0,
-        166.0,
-        165.0,
-        164.0,
-        164.0,
-        162.0,
-        157.0
-      ]
+      "dp": []
     },
     "TECHM": {
       "mp": [
-        1351.0,
         1388.0,
         1479.0,
         1551.0,
@@ -304,35 +193,13 @@
         1446.0,
         1369.0,
         1651.0,
-        1628.0
-      ],
-      "dp": [
-        1638.0,
-        1623.0,
-        1598.0,
-        1597.0,
-        1564.0,
-        1559.0,
-        1508.0,
-        1526.0,
-        1541.0,
-        1541.0,
-        1576.0,
-        1558.0,
-        1561.0,
-        1537.0,
-        1558.0,
-        1552.0,
-        1557.0,
-        1543.0,
-        1548.0,
-        1542.0,
+        1628.0,
         1510.0
-      ]
+      ],
+      "dp": []
     },
     "MPHL": {
       "mp": [
-        2585.0,
         2692.0,
         2738.0,
         2718.0,
@@ -343,35 +210,13 @@
         2212.0,
         2105.0,
         2342.0,
-        2427.0
-      ],
-      "dp": [
-        2506.0,
-        2480.0,
-        2471.0,
-        2422.0,
-        2369.0,
-        2355.0,
-        2308.0,
-        2292.0,
-        2295.0,
-        2295.0,
-        2378.0,
-        2317.0,
-        2320.0,
-        2300.0,
-        2296.0,
-        2265.0,
-        2259.0,
-        2248.0,
-        2234.0,
-        2238.0,
+        2427.0,
         2154.0
-      ]
+      ],
+      "dp": []
     },
     "PSYS": {
       "mp": [
-        4789.0,
         5875.0,
         6308.0,
         6228.0,
@@ -382,35 +227,13 @@
         5176.0,
         4312.0,
         5549.0,
-        5594.0
+        5594.0,
+        5279.0
       ],
-      "dp": [
-        5800.0,
-        5690.0,
-        5657.0,
-        5643.0,
-        5540.0,
-        5560.0,
-        5419.0,
-        5510.0,
-        5516.0,
-        5516.0,
-        5478.0,
-        5440.0,
-        5473.0,
-        5416.0,
-        5449.0,
-        5366.0,
-        5240.0,
-        5277.0,
-        5372.0,
-        5328.0,
-        5162.0
-      ]
+      "dp": []
     },
     "COFG": {
       "mp": [
-        1580.0,
         1770.0,
         1900.0,
         1655.0,
@@ -421,35 +244,13 @@
         1418.0,
         1462.0,
         1717.0,
-        1985.0
+        1985.0,
+        1749.0
       ],
-      "dp": [
-        1989.0,
-        1966.0,
-        1972.0,
-        1973.0,
-        1935.0,
-        1950.0,
-        1845.0,
-        1833.0,
-        1846.0,
-        1846.0,
-        1776.0,
-        1767.0,
-        1793.0,
-        1841.0,
-        1814.0,
-        1803.0,
-        1782.0,
-        1786.0,
-        1784.0,
-        1773.0,
-        1722.0
-      ]
+      "dp": []
     },
     "ACN": {
       "mp": [
-        242.0,
         245.0,
         245.0,
         263.0,
@@ -460,35 +261,13 @@
         185.0,
         123.0,
         166.0,
-        190.0
-      ],
-      "dp": [
-        188.0,
-        188.0,
-        193.0,
-        187.0,
-        179.0,
-        176.0,
-        178.0,
-        184.0,
-        195.0,
-        193.0,
         190.0,
-        190.0,
-        181.0,
-        186.0,
-        184.0,
-        184.0,
-        177.0,
-        176.0,
-        174.0,
-        177.0,
         183.0
-      ]
+      ],
+      "dp": []
     },
     "CAP": {
       "mp": [
-        120.0,
         129.0,
         131.0,
         138.0,
@@ -499,36 +278,13 @@
         99.0,
         88.0,
         102.0,
-        107.0
-      ],
-      "dp": [
         107.0,
-        105.0,
-        110.0,
-        106.0,
-        105.0,
-        106.0,
-        101.0,
-        102.0,
-        103.0,
-        110.0,
-        109.0,
-        106.0,
-        107.0,
-        104.0,
-        106.0,
-        106.0,
-        106.0,
-        104.0,
-        104.0,
-        103.0,
-        104.0,
         104.0
-      ]
+      ],
+      "dp": []
     },
     "ATOS": {
       "mp": [
-        57.0,
         51.0,
         46.0,
         50.0,
@@ -539,36 +295,13 @@
         40.0,
         34.0,
         32.0,
-        28.0
-      ],
-      "dp": [
         28.0,
-        27.0,
-        27.0,
-        27.0,
-        26.0,
-        26.0,
-        26.0,
-        25.0,
-        25.0,
-        25.0,
-        25.0,
-        26.0,
-        26.0,
-        24.0,
-        24.0,
-        24.0,
-        24.0,
-        23.0,
-        22.0,
-        22.0,
-        20.0,
-        21.0
-      ]
+        20.0
+      ],
+      "dp": []
     },
     "DXC": {
       "mp": [
-        14.0,
         14.0,
         13.0,
         15.0,
@@ -579,35 +312,13 @@
         10.0,
         9.0,
         11.0,
+        11.0,
         11.0
       ],
-      "dp": [
-        11.0,
-        12.0,
-        12.0,
-        12.0,
-        11.0,
-        11.0,
-        11.0,
-        11.0,
-        12.0,
-        12.0,
-        12.0,
-        11.0,
-        11.0,
-        11.0,
-        11.0,
-        11.0,
-        11.0,
-        11.0,
-        10.0,
-        10.0,
-        11.0
-      ]
+      "dp": []
     },
     "GIB": {
       "mp": [
-        89.0,
         87.0,
         88.0,
         92.0,
@@ -618,60 +329,21 @@
         70.0,
         64.0,
         73.0,
-        75.0
-      ],
-      "dp": [
-        74.0,
-        73.0,
         75.0,
-        74.0,
-        71.0,
-        69.0,
-        69.0,
-        70.0,
-        73.0,
-        72.0,
-        71.0,
-        71.0,
-        69.0,
-        69.0,
-        69.0,
-        69.0,
-        68.0,
-        68.0,
-        68.0,
-        68.0,
         68.0
-      ]
+      ],
+      "dp": []
     }
   },
   "news": [
     {
-      "time": "2026-09-29 15:38",
-      "tk": "TCS",
+      "time": "2026-09-30 01:50",
+      "tk": "WIPRO",
       "src": "Business Standard",
       "cat": "MACRO",
-      "hl": "Tata stocks drop amid listing concerns; Titan and TCS lead decline",
-      "detail": "Titan and TCS led declines in Tata Group stocks as investor sentiment weakened amid broader market volatility and uncertainty over Tata Sons' listing",
-      "url": "https://www.business-standard.com/markets/news/tata-stocks-drop-amid-listing-concerns-titan-and-tcs-lead-decline-126092901125_1.html"
-    },
-    {
-      "time": "2026-09-29 15:06",
-      "tk": "Sector",
-      "src": "BusinessLine",
-      "cat": "MACRO",
-      "hl": "H-1B registrations plunge as Indian IT firms shift US staffing strategy",
-      "detail": "Higher visa costs are prompting Indian IT services firms to strengthen local hiring, offshore delivery and alternative staffing models in the US",
-      "url": "https://www.thehindubusinessline.com/info-tech/h-1b-registrations-plunge-as-indian-it-firms-shift-us-staffing-strategy/article71524931.ece"
-    },
-    {
-      "time": "2026-09-29 12:00",
-      "tk": "Sector",
-      "src": "The Next Web",
-      "cat": "AI",
-      "hl": "Dodge AI raises $2.65M from Accel and Google to fix enterprise firefighting",
-      "detail": "Enterprise software is never finished. Once SAP, Salesforce, Oracle, or Microsoft Dynamics goes live, the business keeps changing. Over the years, thousands of company-specific rules get built into the software. When something breaks, the answer is rarely in \u2026",
-      "url": "https://thenextweb.com/news/dodge-ai-2-65m-accel-google-enterprise-maintenance"
+      "hl": "Nifty rejig kicks in: BSE joins as Wipro exits; what investors need to know",
+      "detail": "Macquarie recently initiated coverage on BSE shares with an 'outperform' tag. BSE ranks above NSE in the global brokerage's pecking order for capital market stocks.",
+      "url": "https://www.business-standard.com/markets/news/nifty-rejig-kicks-in-bse-joins-as-wipro-exits-what-investors-need-to-know-126093000096_1.html"
     },
     {
       "time": "2026-09-29 17:23",
@@ -683,24 +355,6 @@
       "url": "https://pypi.org/project/bayan-tokenizer/"
     },
     {
-      "time": "2026-09-29 15:00",
-      "tk": "CTSH",
-      "src": "PRNewswire",
-      "cat": "MACRO",
-      "hl": "Cognizant Named to Forbes World's Best Employers 2026 List",
-      "detail": "Company recognized among the world's top employers for the fifth consecutive year TEANECK, N.J., Sept. 29, 2026 /PRNewswire/ -- Cognizant (Nasdaq: CTSH) today announced it has been named one of the World's Best Employers 2026 by Forbes for the fifth consecuti\u2026",
-      "url": "https://www.prnewswire.com/news-releases/cognizant-named-to-forbes-worlds-best-employers-2026-list-302893048.html"
-    },
-    {
-      "time": "2026-09-29 08:14",
-      "tk": "WIPRO",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "Nifty IT cracks 11% in Sept; Infy, Wipro, Tata Elxsi trade at 52-week lows",
-      "detail": "The Nifty IT index has underperformed in September, falling over 11%, as against a 6% decline in the Nifty 50.",
-      "url": "https://www.business-standard.com/markets/news/nifty-it-cracks-11-in-sept-infy-wipro-tata-elxsi-trade-at-52-week-lows-126092900530_1.html"
-    },
-    {
       "time": "2026-09-29 04:14",
       "tk": "COFG",
       "src": "BusinessLine",
@@ -710,6 +364,24 @@
       "url": "https://www.thehindubusinessline.com/companies/coforge-appoints-akhil-gupta-as-non-executive-independent-director-chairperson/article71522451.ece"
     },
     {
+      "time": "2026-09-30 02:05",
+      "tk": "NTTD",
+      "src": "The Punch",
+      "cat": "MACRO",
+      "hl": "SAP solutions adopted to strengthen HR systems",
+      "detail": "NTT DATA is adopting SAP SuccessFactors and Business Data Cloud solutions to unify its global HR systems, aiming to enhance employee experience and plannin\n\nRead More: https://punchng.com/sap-solutions-adopted-to-strengthen-hr-systems/",
+      "url": "https://punchng.com/sap-solutions-adopted-to-strengthen-hr-systems/"
+    },
+    {
+      "time": "2026-09-29 22:58",
+      "tk": "NTTD",
+      "src": "Seclists.org",
+      "cat": "MACRO",
+      "hl": "NOTICE: FTP service retirement for rr1.ntt.net - November 1, 2026",
+      "detail": "Posted by Dan Lowe via NANOG on Sep 29The below applies to rr.ntt.net, the NTT DATA Global IP Network route registry service, specifically to the associated \nFTP server on rr1.ntt.net.\n\nNTT DATA Global IP Network has decided to discontinue our FTP service, wh\u2026",
+      "url": "https://seclists.org/nanog/2026/Sep/200"
+    },
+    {
       "time": "2026-09-29 15:06",
       "tk": "NTTD",
       "src": "Antaranews.com",
@@ -717,15 +389,6 @@
       "hl": "NTT DATA Launches \u2018Intact, intelligent action.\u2019 to Protect Fragile Places and Advance Sustainability Commitments",
       "detail": "-NTT DATA, a global leader in AI, digital business and technology services, today announced &ldquo;Intact, intelligent action.&rdquo; This global initiative is ...",
       "url": "https://en.antaranews.com/news/433463/ntt-data-launches-intact-intelligent-action-to-protect-fragile-places-and-advance-sustainability-commitments"
-    },
-    {
-      "time": "2026-09-25 08:09",
-      "tk": "NTTD",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "Inside the deal engine room: VCs and PEs make the case for ERP as a governance variable",
-      "detail": "<i>At an NTT Data Business Solutions India roundtable, a cohort of leading VCs and PE investors argued that the maturity of a company\u2019s ERP and AI adoption, data quality and underlying processes is rapidly emerging as a priced governance variable in deals.</i>",
-      "url": "https://economictimes.indiatimes.com/tech/technology/inside-the-deal-engine-room-vcs-and-pes-make-the-case-for-erp-as-a-governance-variable/articleshow/134479353.cms"
     },
     {
       "time": "2026-09-29 16:28",
@@ -762,6 +425,15 @@
       "hl": "15-year setback on cards? Nifty heading for worst annual performance since 2011",
       "detail": "As 2023 unfolds, the Nifty index appears headed for its most disappointing year in a decade and a half. Key contributors to this downturn include high valuations and a flight of foreign investors. The IT sector continues to struggle amid geopolitical conflict\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/15-year-setback-on-cards-nifty-heading-for-worst-annual-performance-since-2011/articleshow/134555433.cms"
+    },
+    {
+      "time": "2026-09-29 12:00",
+      "tk": "Sector",
+      "src": "The Next Web",
+      "cat": "AI",
+      "hl": "Dodge AI raises $2.65M from Accel and Google to fix enterprise firefighting",
+      "detail": "Enterprise software is never finished. Once SAP, Salesforce, Oracle, or Microsoft Dynamics goes live, the business keeps changing. Over the years, thousands of company-specific rules get built into the software. When something breaks, the answer is rarely in \u2026",
+      "url": "https://thenextweb.com/news/dodge-ai-2-65m-accel-google-enterprise-maintenance"
     },
     {
       "time": "2026-09-29 07:08",
