@@ -1,56 +1,56 @@
 {
-  "updated": "2026-10-01T17:19:53.178171+00:00",
-  "updated_display": "01 Oct 2026, 17:19 UTC",
+  "updated": "2026-10-01T21:10:02.442658+00:00",
+  "updated_display": "01 Oct 2026, 21:10 UTC",
   "prices": {
     "TCS": {
-      "price": 2075.0,
-      "display": "\u20b92,075",
-      "change": 1.2
+      "price": 2050.6,
+      "display": "\u20b92,051",
+      "change": 0.9
     },
     "INFY": {
-      "price": 1035.0,
-      "display": "\u20b91,035",
-      "change": 4.1
+      "price": 994.1,
+      "display": "\u20b9994",
+      "change": -2.1
     },
     "CTSH": {
-      "price": 61.1,
-      "display": "$61.10",
-      "change": 6.4
+      "price": 60.88,
+      "display": "$60.88",
+      "change": 6.0
     },
     "HCLT": {
-      "price": 1243.1,
-      "display": "\u20b91,243",
-      "change": 1.1
+      "price": 1230.0,
+      "display": "\u20b91,230",
+      "change": 0.7
     },
     "WIPRO": {
-      "price": 159.35,
-      "display": "\u20b9159",
-      "change": 0.5
+      "price": 158.5,
+      "display": "\u20b9158",
+      "change": 1.1
     },
     "TECHM": {
-      "price": 1533.0,
-      "display": "\u20b91,533",
-      "change": 0.6
+      "price": 1524.0,
+      "display": "\u20b91,524",
+      "change": 0.9
     },
     "MPHL": {
-      "price": 2250.2,
-      "display": "\u20b92,250",
-      "change": 4.4
+      "price": 2154.4,
+      "display": "\u20b92,154",
+      "change": 0.0
     },
     "PSYS": {
-      "price": 5367.0,
-      "display": "\u20b95,367",
-      "change": 1.7
+      "price": 5279.0,
+      "display": "\u20b95,279",
+      "change": 2.3
     },
     "COFG": {
-      "price": 1826.0,
-      "display": "\u20b91,826",
-      "change": 4.4
+      "price": 1749.1,
+      "display": "\u20b91,749",
+      "change": 1.6
     },
     "ACN": {
-      "price": 215.89,
-      "display": "$216",
-      "change": 17.7
+      "price": 212.3,
+      "display": "$212",
+      "change": 15.8
     },
     "CAP": {
       "price": 112.1,
@@ -63,9 +63,9 @@
       "change": 4.9
     },
     "DXC": {
-      "price": 11.68,
-      "display": "$11.68",
-      "change": 7.8
+      "price": 11.64,
+      "display": "$11.64",
+      "change": 7.5
     },
     "GIB": {
       "price": 70.98,
@@ -75,24 +75,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 71909.7,
-      "change": -0.79
+      "value": 72480.29,
+      "change": -0.07
     },
     "NIFTY_IT": {
-      "value": 28304.7,
-      "change": 2.17
+      "value": 27704.8,
+      "change": 0.13
     },
     "SP500": {
-      "value": 7655.02,
-      "change": 0.05
+      "value": 7666.45,
+      "change": 0.19
     },
     "USD_INR": {
       "value": 96.31,
-      "change": 0.26
+      "change": 0.27
     },
     "EUR_INR": {
-      "value": 108.42,
-      "change": -0.32
+      "value": 108.32,
+      "change": -0.41
     }
   },
   "historical": {
@@ -111,9 +111,7 @@
         2399.0,
         2051.0
       ],
-      "dp": [
-        2075.0
-      ]
+      "dp": []
     },
     "INFY": {
       "mp": [
@@ -130,9 +128,7 @@
         1134.0,
         994.0
       ],
-      "dp": [
-        1035.0
-      ]
+      "dp": []
     },
     "CTSH": {
       "mp": [
@@ -168,9 +164,7 @@
         1312.0,
         1230.0
       ],
-      "dp": [
-        1243.0
-      ]
+      "dp": []
     },
     "WIPRO": {
       "mp": [
@@ -187,9 +181,7 @@
         184.0,
         158.0
       ],
-      "dp": [
-        159.0
-      ]
+      "dp": []
     },
     "TECHM": {
       "mp": [
@@ -206,9 +198,7 @@
         1628.0,
         1524.0
       ],
-      "dp": [
-        1533.0
-      ]
+      "dp": []
     },
     "MPHL": {
       "mp": [
@@ -225,9 +215,7 @@
         2427.0,
         2154.0
       ],
-      "dp": [
-        2250.0
-      ]
+      "dp": []
     },
     "PSYS": {
       "mp": [
@@ -244,9 +232,7 @@
         5594.0,
         5279.0
       ],
-      "dp": [
-        5367.0
-      ]
+      "dp": []
     },
     "COFG": {
       "mp": [
@@ -263,9 +249,7 @@
         1985.0,
         1749.0
       ],
-      "dp": [
-        1826.0
-      ]
+      "dp": []
     },
     "ACN": {
       "mp": [
@@ -283,7 +267,7 @@
         183.0
       ],
       "dp": [
-        216.0
+        212.0
       ]
     },
     "CAP": {
@@ -365,31 +349,31 @@
   },
   "news": [
     {
-      "time": "2026-09-30 13:52",
+      "time": "2026-09-30 18:41",
       "tk": "WIPRO",
-      "src": "Economictimes.com",
+      "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "PB Fintech, Wipro among 8 stocks that hit 52-week low and slipped up to 45% in a month",
-      "detail": "On Wednesday, the benchmark Sensex fell 49 points to close at 72,480. Amid the market decline, eight stocks from the BSE 100 Index touched fresh 52-week lows, hitting their lowest price levels in the past year. A 52-week low refers to the lowest price at whic\u2026",
-      "url": "https://m.economictimes.com/markets/stocks/news/pb-fintech-wipro-among-8-stocks-that-hit-52-week-low-and-slipped-up-to-45-in-a-month/fresh-lows/slideshow/134596451.cms"
+      "hl": "Wipro gives benchwarmers a 6-month paid breather",
+      "detail": "Wipro eases bench policy: Band 2 and below can stay unbilled up to 180 days from Oct 1; separation after 6 months. Band 3+ stays at 45 days.",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/wipro-gives-benchwarmers-a-6-month-paid-breather/articleshow/134601120.cms"
     },
     {
-      "time": "2026-09-30 12:01",
-      "tk": "ACN",
-      "src": "Livemint",
-      "cat": "AI",
-      "hl": "Accenture grapples with the dawn of AI era after share slide",
-      "detail": "Accenture's low-cost-worker&nbsp;model is under&nbsp;investor scrutiny as it attempts an AI pivot under CEO Julie Sweet.",
-      "url": "https://www.livemint.com/companies/news/accenture-grapples-with-the-dawn-of-ai-era-after-share-slide-11790769221640.html"
+      "time": "2026-09-30 18:40",
+      "tk": "WIPRO",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Ex-Wipro employee moves labour dept over unpaid extended bench policy",
+      "detail": "Wipro employees move labour commissioner over Extended Bench Leave Programme, alleging unpaid bench periods after 45-day paid bench and forced resignations.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/ex-wipro-employee-moves-labour-dept-over-unpaid-extended-bench-policy/articleshow/134601105.cms"
     },
     {
-      "time": "2026-09-30 12:00",
-      "tk": "ACN",
-      "src": "WWD",
+      "time": "2026-09-30 17:49",
+      "tk": "Sector",
+      "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "DS Smith Taps Accenture and Osapiens for Compliance\u00a0Tech",
-      "detail": "The technology helps the company achieve full transparency with the origin and movement of relevant materials that fall under the EUDR requirements.",
-      "url": "http://wwd.com/sourcing-journal/industry-news/ds-smith-accenture-osapiens-compliance-tech-1239287530/"
+      "hl": "Dodging SaaSocalypse: AI\u2019s enterprise moment could belong to IT services",
+      "detail": "ITC Infotech's merger with Happiest Minds highlights the trend of mid-market consolidation in response to AI advancements. The global IT market faces challenges, requiring companies to adopt AI-centric capabilities for survival. Enterprises are burdened with \u2026",
+      "url": "https://economictimes.indiatimes.com/opinion/et-commentary/dodging-saasocalypse-ais-enterprise-moment-could-belong-to-it-services/articleshow/134599990.cms"
     },
     {
       "time": "2026-09-30 11:15",
@@ -417,24 +401,6 @@
       "hl": "IT stocks rally: Coforge, Mphasis, TCS, Persistent Systems gain up to 5%, Kotak sees muted Q2 growth",
       "detail": "IT stocks rally as Coforge, Mphasis, TCS, and Persistent gain up to 5% ahead of Q2, with Kotak flagging stable margins and muted large-cap growth.",
       "url": "https://www.thehindubusinessline.com/markets/it-stocks-rally-coforge-mphasis-tcs-persistent-systems-gain-up-to-5-kotak-sees-muted-q2-growth/article71526782.ece"
-    },
-    {
-      "time": "2026-09-29 08:14",
-      "tk": "WIPRO",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "Nifty IT cracks 11% in Sept; Infy, Wipro, Tata Elxsi trade at 52-week lows",
-      "detail": "The Nifty IT index has underperformed in September, falling over 11%, as against a 6% decline in the Nifty 50.",
-      "url": "https://www.business-standard.com/markets/news/nifty-it-cracks-11-in-sept-infy-wipro-tata-elxsi-trade-at-52-week-lows-126092900530_1.html"
-    },
-    {
-      "time": "2026-09-29 04:14",
-      "tk": "COFG",
-      "src": "BusinessLine",
-      "cat": "PEOPLE",
-      "hl": "Coforge appoints Akhil Gupta as Non-Executive Independent Director, Chairperson",
-      "detail": "Akhil Gupta named Non-Executive Independent Director and Chairperson of Coforge for five years, bringing extensive governance and industry expertise.",
-      "url": "https://www.thehindubusinessline.com/companies/coforge-appoints-akhil-gupta-as-non-executive-independent-director-chairperson/article71522451.ece"
     },
     {
       "time": "2026-09-30 02:05",
@@ -473,24 +439,6 @@
       "url": "https://economictimes.indiatimes.com/news/international/us/oracle-share-price-orcl-stock-jumps-at-nyse-what-is-making-it-one-of-top-turnover-stocks-in-software-it-services-sector/articleshow/134570574.cms"
     },
     {
-      "time": "2026-09-29 05:01",
-      "tk": "INFY",
-      "src": "Economictimes.com",
-      "cat": "RESULTS",
-      "hl": "Stocks to buy: JM Financial expects soft Q2 season for IT majors; check target prices for Infosys, TCS, others",
-      "detail": "The IT companies are all set to begin the Q2 season, with TCS kickstarting the cycle on October 8. JM Financial noted that investors expect some improvement in growth, given that Q2 is seasonally a stronger quarter. However, macro uncertainty and AI-led produ\u2026",
-      "url": "https://m.economictimes.com/markets/stocks/news/stocks-to-buy-jm-financial-expects-soft-q2-season-for-it-majors-check-target-prices-for-infosys-tcs-others/it-tracker/slideshow/134556958.cms"
-    },
-    {
-      "time": "2026-09-29 02:37",
-      "tk": "HCLT",
-      "src": "Business Standard",
-      "cat": "DEAL",
-      "hl": "HCLTech's arm to acquire Croatia-based Robotiq.ai for 9 million euro",
-      "detail": "IT services major HCL Technologies on Monday announced that its software business division, HCLSoftware, will acquire Croatia-based enterprise robotic process automation (RPA) platform provider Robotiq.ai in an all-cash deal valued at an enterprise value of 9\u2026",
-      "url": "https://www.business-standard.com/companies/news/hcltech-s-arm-to-acquire-croatia-based-robotiq-ai-for-9-million-euro-126092900014_1.html"
-    },
-    {
       "time": "2026-09-29 03:47",
       "tk": "Sector",
       "src": "The Times of India",
@@ -498,6 +446,15 @@
       "hl": "15-year setback on cards? Nifty heading for worst annual performance since 2011",
       "detail": "As 2023 unfolds, the Nifty index appears headed for its most disappointing year in a decade and a half. Key contributors to this downturn include high valuations and a flight of foreign investors. The IT sector continues to struggle amid geopolitical conflict\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/15-year-setback-on-cards-nifty-heading-for-worst-annual-performance-since-2011/articleshow/134555433.cms"
+    },
+    {
+      "time": "2026-09-30 12:01",
+      "tk": "ACN",
+      "src": "Livemint",
+      "cat": "AI",
+      "hl": "Accenture grapples with the dawn of AI era after share slide",
+      "detail": "Accenture's low-cost-worker&nbsp;model is under&nbsp;investor scrutiny as it attempts an AI pivot under CEO Julie Sweet.",
+      "url": "https://www.livemint.com/companies/news/accenture-grapples-with-the-dawn-of-ai-era-after-share-slide-11790769221640.html"
     },
     {
       "time": "2026-09-30 10:29",
@@ -509,13 +466,13 @@
       "url": "https://www.prnewswire.com/news-releases/infosys-and-abn-amro-extend-strategic-collaboration-to-simplify-it-landscape-and-accelerate-ai-driven-transformation-302894264.html"
     },
     {
-      "time": "2026-09-30 11:49",
+      "time": "2026-09-30 12:00",
       "tk": "ACN",
-      "src": "Forrester.com",
-      "cat": "RESULTS",
-      "hl": "Five Questions Ahead Of Accenture Earnings",
-      "detail": "As Accenture prepares to report its fourth-quarter and full-year fiscal 2026 financial results on Thursday, the tech consultancy has several market factors to lean on, including durable managed services growth, healthy bookings, and AI becoming commercially v\u2026",
-      "url": "https://www.forrester.com/blogs/five-questions-ahead-of-accenture-earnings/"
+      "src": "WWD",
+      "cat": "MACRO",
+      "hl": "DS Smith Taps Accenture and Osapiens for Compliance\u00a0Tech",
+      "detail": "The technology helps the company achieve full transparency with the origin and movement of relevant materials that fall under the EUDR requirements.",
+      "url": "http://wwd.com/sourcing-journal/industry-news/ds-smith-accenture-osapiens-compliance-tech-1239287530/"
     }
   ]
 }
