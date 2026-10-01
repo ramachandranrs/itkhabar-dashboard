@@ -1,98 +1,98 @@
 {
-  "updated": "2026-10-01T02:17:45.524123+00:00",
-  "updated_display": "01 Oct 2026, 02:17 UTC",
+  "updated": "2026-10-01T17:19:53.178171+00:00",
+  "updated_display": "01 Oct 2026, 17:19 UTC",
   "prices": {
     "TCS": {
-      "price": 2050.6,
-      "display": "\u20b92,051",
-      "change": 0.9
+      "price": 2075.0,
+      "display": "\u20b92,075",
+      "change": 1.2
     },
     "INFY": {
-      "price": 994.1,
-      "display": "\u20b9994",
-      "change": -2.1
+      "price": 1035.0,
+      "display": "\u20b91,035",
+      "change": 4.1
     },
     "CTSH": {
-      "price": 57.44,
-      "display": "$57.44",
-      "change": 1.1
+      "price": 61.1,
+      "display": "$61.10",
+      "change": 6.4
     },
     "HCLT": {
-      "price": 1230.0,
-      "display": "\u20b91,230",
-      "change": 0.7
-    },
-    "WIPRO": {
-      "price": 158.5,
-      "display": "\u20b9158",
+      "price": 1243.1,
+      "display": "\u20b91,243",
       "change": 1.1
     },
-    "TECHM": {
-      "price": 1510.5,
-      "display": "\u20b91,510",
-      "change": -2.1
-    },
-    "MPHL": {
-      "price": 2154.4,
-      "display": "\u20b92,154",
-      "change": 0.0
-    },
-    "PSYS": {
-      "price": 5279.0,
-      "display": "\u20b95,279",
-      "change": 2.3
-    },
-    "COFG": {
-      "price": 1749.1,
-      "display": "\u20b91,749",
-      "change": 1.6
-    },
-    "ACN": {
-      "price": 183.37,
-      "display": "$183",
-      "change": 3.5
-    },
-    "CAP": {
-      "price": 103.5,
-      "display": "\u20ac104",
+    "WIPRO": {
+      "price": 159.35,
+      "display": "\u20b9159",
       "change": 0.5
     },
+    "TECHM": {
+      "price": 1533.0,
+      "display": "\u20b91,533",
+      "change": 0.6
+    },
+    "MPHL": {
+      "price": 2250.2,
+      "display": "\u20b92,250",
+      "change": 4.4
+    },
+    "PSYS": {
+      "price": 5367.0,
+      "display": "\u20b95,367",
+      "change": 1.7
+    },
+    "COFG": {
+      "price": 1826.0,
+      "display": "\u20b91,826",
+      "change": 4.4
+    },
+    "ACN": {
+      "price": 215.89,
+      "display": "$216",
+      "change": 17.7
+    },
+    "CAP": {
+      "price": 112.1,
+      "display": "\u20ac112",
+      "change": 7.4
+    },
     "ATOS": {
-      "price": 20.38,
-      "display": "\u20ac20.38",
-      "change": -5.6
+      "price": 22.28,
+      "display": "\u20ac22.28",
+      "change": 4.9
     },
     "DXC": {
-      "price": 10.83,
-      "display": "$10.83",
-      "change": 4.8
+      "price": 11.68,
+      "display": "$11.68",
+      "change": 7.8
     },
     "GIB": {
-      "price": 68.03,
-      "display": "$68.03",
-      "change": 0.6
+      "price": 70.98,
+      "display": "$70.98",
+      "change": 4.3
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72480.29,
-      "change": -0.07
+      "value": 71909.7,
+      "change": -0.79
     },
     "NIFTY_IT": {
-      "value": 27704.8,
-      "change": 0.13
+      "value": 28304.7,
+      "change": 2.17
     },
     "SP500": {
-      "value": 7651.54,
-      "change": -0.25
+      "value": 7655.02,
+      "change": 0.05
     },
     "USD_INR": {
-      "value": 95.82,
-      "change": -0.24
+      "value": 96.31,
+      "change": 0.26
     },
     "EUR_INR": {
-      "value": 108.54,
-      "change": -0.21
+      "value": 108.42,
+      "change": -0.32
     }
   },
   "historical": {
@@ -111,7 +111,9 @@
         2399.0,
         2051.0
       ],
-      "dp": []
+      "dp": [
+        2075.0
+      ]
     },
     "INFY": {
       "mp": [
@@ -128,7 +130,9 @@
         1134.0,
         994.0
       ],
-      "dp": []
+      "dp": [
+        1035.0
+      ]
     },
     "CTSH": {
       "mp": [
@@ -145,7 +149,9 @@
         65.0,
         57.0
       ],
-      "dp": []
+      "dp": [
+        61.0
+      ]
     },
     "HCLT": {
       "mp": [
@@ -162,7 +168,9 @@
         1312.0,
         1230.0
       ],
-      "dp": []
+      "dp": [
+        1243.0
+      ]
     },
     "WIPRO": {
       "mp": [
@@ -179,7 +187,9 @@
         184.0,
         158.0
       ],
-      "dp": []
+      "dp": [
+        159.0
+      ]
     },
     "TECHM": {
       "mp": [
@@ -194,9 +204,11 @@
         1369.0,
         1651.0,
         1628.0,
-        1510.0
+        1524.0
       ],
-      "dp": []
+      "dp": [
+        1533.0
+      ]
     },
     "MPHL": {
       "mp": [
@@ -213,7 +225,9 @@
         2427.0,
         2154.0
       ],
-      "dp": []
+      "dp": [
+        2250.0
+      ]
     },
     "PSYS": {
       "mp": [
@@ -230,7 +244,9 @@
         5594.0,
         5279.0
       ],
-      "dp": []
+      "dp": [
+        5367.0
+      ]
     },
     "COFG": {
       "mp": [
@@ -247,7 +263,9 @@
         1985.0,
         1749.0
       ],
-      "dp": []
+      "dp": [
+        1826.0
+      ]
     },
     "ACN": {
       "mp": [
@@ -264,7 +282,9 @@
         190.0,
         183.0
       ],
-      "dp": []
+      "dp": [
+        216.0
+      ]
     },
     "CAP": {
       "mp": [
@@ -281,7 +301,9 @@
         107.0,
         104.0
       ],
-      "dp": []
+      "dp": [
+        112.0
+      ]
     },
     "ATOS": {
       "mp": [
@@ -296,9 +318,11 @@
         34.0,
         32.0,
         28.0,
-        20.0
+        21.0
       ],
-      "dp": []
+      "dp": [
+        22.0
+      ]
     },
     "DXC": {
       "mp": [
@@ -315,7 +339,9 @@
         11.0,
         11.0
       ],
-      "dp": []
+      "dp": [
+        12.0
+      ]
     },
     "GIB": {
       "mp": [
@@ -332,27 +358,74 @@
         75.0,
         68.0
       ],
-      "dp": []
+      "dp": [
+        71.0
+      ]
     }
   },
   "news": [
     {
-      "time": "2026-09-30 01:50",
+      "time": "2026-09-30 13:52",
+      "tk": "WIPRO",
+      "src": "Economictimes.com",
+      "cat": "MACRO",
+      "hl": "PB Fintech, Wipro among 8 stocks that hit 52-week low and slipped up to 45% in a month",
+      "detail": "On Wednesday, the benchmark Sensex fell 49 points to close at 72,480. Amid the market decline, eight stocks from the BSE 100 Index touched fresh 52-week lows, hitting their lowest price levels in the past year. A 52-week low refers to the lowest price at whic\u2026",
+      "url": "https://m.economictimes.com/markets/stocks/news/pb-fintech-wipro-among-8-stocks-that-hit-52-week-low-and-slipped-up-to-45-in-a-month/fresh-lows/slideshow/134596451.cms"
+    },
+    {
+      "time": "2026-09-30 12:01",
+      "tk": "ACN",
+      "src": "Livemint",
+      "cat": "AI",
+      "hl": "Accenture grapples with the dawn of AI era after share slide",
+      "detail": "Accenture's low-cost-worker&nbsp;model is under&nbsp;investor scrutiny as it attempts an AI pivot under CEO Julie Sweet.",
+      "url": "https://www.livemint.com/companies/news/accenture-grapples-with-the-dawn-of-ai-era-after-share-slide-11790769221640.html"
+    },
+    {
+      "time": "2026-09-30 12:00",
+      "tk": "ACN",
+      "src": "WWD",
+      "cat": "MACRO",
+      "hl": "DS Smith Taps Accenture and Osapiens for Compliance\u00a0Tech",
+      "detail": "The technology helps the company achieve full transparency with the origin and movement of relevant materials that fall under the EUDR requirements.",
+      "url": "http://wwd.com/sourcing-journal/industry-news/ds-smith-accenture-osapiens-compliance-tech-1239287530/"
+    },
+    {
+      "time": "2026-09-30 11:15",
+      "tk": "COFG",
+      "src": "Biztoc.com",
+      "cat": "MACRO",
+      "hl": "Coforge Launches CXNova, an Agentic CX Orchestration Platform That Delivers Intelligent, Real-Time Customer Experiences",
+      "detail": "Coforge Launches CXNova, an Agentic CX Orchestration Platform That Delivers Intelligent, Real-Time Customer Experiences\nPRINCETON, N.J. & GREATER NOIDA, India, September 30, 2026--(BUSINESS WIRE)--Coforge, an AI-native engineering services leader, today annou\u2026",
+      "url": "https://biztoc.com/x/130bc0ba2292ec1c"
+    },
+    {
+      "time": "2026-09-30 06:21",
+      "tk": "WIPRO",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "TCS, Wipro, other IT stocks rebound up to 6%, snapping 8-day losing streak. Why is Jefferies cautious?",
+      "detail": "IT stocks rebounded on Wednesday, with TCS, Wipro and Coforge snapping an eight-session losing streak. The Nifty IT index rose nearly 3%, aided by a stronger US dollar and higher US bond yields, though brokerages remain cautious ahead of the Q2 earnings seaso\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-wipro-other-it-stocks-rebound-up-to-6-snapping-8-day-losing-streak-why-is-jefferies-cautious/articleshow/134583730.cms"
+    },
+    {
+      "time": "2026-09-30 05:03",
+      "tk": "MPHL",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "IT stocks rally: Coforge, Mphasis, TCS, Persistent Systems gain up to 5%, Kotak sees muted Q2 growth",
+      "detail": "IT stocks rally as Coforge, Mphasis, TCS, and Persistent gain up to 5% ahead of Q2, with Kotak flagging stable margins and muted large-cap growth.",
+      "url": "https://www.thehindubusinessline.com/markets/it-stocks-rally-coforge-mphasis-tcs-persistent-systems-gain-up-to-5-kotak-sees-muted-q2-growth/article71526782.ece"
+    },
+    {
+      "time": "2026-09-29 08:14",
       "tk": "WIPRO",
       "src": "Business Standard",
       "cat": "MACRO",
-      "hl": "Nifty rejig kicks in: BSE joins as Wipro exits; what investors need to know",
-      "detail": "Macquarie recently initiated coverage on BSE shares with an 'outperform' tag. BSE ranks above NSE in the global brokerage's pecking order for capital market stocks.",
-      "url": "https://www.business-standard.com/markets/news/nifty-rejig-kicks-in-bse-joins-as-wipro-exits-what-investors-need-to-know-126093000096_1.html"
-    },
-    {
-      "time": "2026-09-29 17:23",
-      "tk": "CTSH",
-      "src": "Pypi.org",
-      "cat": "MACRO",
-      "hl": "bayan-tokenizer added to PyPI",
-      "detail": "Bayan \u2014 morphological, root-cognizant tokenizer: Arabic words as (root, pattern) pairs, zero dependencies",
-      "url": "https://pypi.org/project/bayan-tokenizer/"
+      "hl": "Nifty IT cracks 11% in Sept; Infy, Wipro, Tata Elxsi trade at 52-week lows",
+      "detail": "The Nifty IT index has underperformed in September, falling over 11%, as against a 6% decline in the Nifty 50.",
+      "url": "https://www.business-standard.com/markets/news/nifty-it-cracks-11-in-sept-infy-wipro-tata-elxsi-trade-at-52-week-lows-126092900530_1.html"
     },
     {
       "time": "2026-09-29 04:14",
@@ -427,22 +500,22 @@
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/15-year-setback-on-cards-nifty-heading-for-worst-annual-performance-since-2011/articleshow/134555433.cms"
     },
     {
-      "time": "2026-09-29 12:00",
-      "tk": "Sector",
-      "src": "The Next Web",
-      "cat": "AI",
-      "hl": "Dodge AI raises $2.65M from Accel and Google to fix enterprise firefighting",
-      "detail": "Enterprise software is never finished. Once SAP, Salesforce, Oracle, or Microsoft Dynamics goes live, the business keeps changing. Over the years, thousands of company-specific rules get built into the software. When something breaks, the answer is rarely in \u2026",
-      "url": "https://thenextweb.com/news/dodge-ai-2-65m-accel-google-enterprise-maintenance"
+      "time": "2026-09-30 10:29",
+      "tk": "INFY",
+      "src": "PRNewswire",
+      "cat": "MACRO",
+      "hl": "Infosys and ABN Amro Extend Strategic Collaboration to Simplify IT Landscape and Accelerate AI-Driven Transformation",
+      "detail": "Leveraging Infosys Topaz, the collaboration will help ABN AMRO drive operational efficiency, scalability, and innovation BENGALURU, India, Sept. 30, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consul\u2026",
+      "url": "https://www.prnewswire.com/news-releases/infosys-and-abn-amro-extend-strategic-collaboration-to-simplify-it-landscape-and-accelerate-ai-driven-transformation-302894264.html"
     },
     {
-      "time": "2026-09-29 07:08",
+      "time": "2026-09-30 11:49",
       "tk": "ACN",
-      "src": "Financial Post",
-      "cat": "MACRO",
-      "hl": "Accenture Helps Sodiaal Complete International Integration of Yoplait Libert\u00e9 Canada to Accelerate Its Global Dairy Expansion",
-      "detail": "PARIS & MONTREAL \u2014 Sodiaal, France\u2019s leading farmer-owned dairy cooperative, has collaborated with Accenture (NYSE: ACN) to complete one of the most significant IT integrations in the cooperative\u2019s history. Launched following Sodiaal\u2019s acquisition of Yoplait \u2026",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/accenture-helps-sodiaal-complete-international-integration-of-yoplait-liberte-canada-to-accelerate-its-global-dairy-expansion"
+      "src": "Forrester.com",
+      "cat": "RESULTS",
+      "hl": "Five Questions Ahead Of Accenture Earnings",
+      "detail": "As Accenture prepares to report its fourth-quarter and full-year fiscal 2026 financial results on Thursday, the tech consultancy has several market factors to lean on, including durable managed services growth, healthy bookings, and AI becoming commercially v\u2026",
+      "url": "https://www.forrester.com/blogs/five-questions-ahead-of-accenture-earnings/"
     }
   ]
 }
