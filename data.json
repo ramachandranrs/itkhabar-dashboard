@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-01T21:10:02.442658+00:00",
-  "updated_display": "01 Oct 2026, 21:10 UTC",
+  "updated": "2026-10-02T02:27:08.681291+00:00",
+  "updated_display": "02 Oct 2026, 02:27 UTC",
   "prices": {
     "TCS": {
-      "price": 2050.6,
-      "display": "\u20b92,051",
-      "change": 0.9
+      "price": 2075.0,
+      "display": "\u20b92,075",
+      "change": 1.2
     },
     "INFY": {
-      "price": 994.1,
-      "display": "\u20b9994",
-      "change": -2.1
+      "price": 1035.0,
+      "display": "\u20b91,035",
+      "change": 4.1
     },
     "CTSH": {
       "price": 60.88,
@@ -18,34 +18,34 @@
       "change": 6.0
     },
     "HCLT": {
-      "price": 1230.0,
-      "display": "\u20b91,230",
-      "change": 0.7
-    },
-    "WIPRO": {
-      "price": 158.5,
-      "display": "\u20b9158",
+      "price": 1243.1,
+      "display": "\u20b91,243",
       "change": 1.1
     },
+    "WIPRO": {
+      "price": 159.35,
+      "display": "\u20b9159",
+      "change": 0.5
+    },
     "TECHM": {
-      "price": 1524.0,
-      "display": "\u20b91,524",
-      "change": 0.9
+      "price": 1533.0,
+      "display": "\u20b91,533",
+      "change": 0.6
     },
     "MPHL": {
-      "price": 2154.4,
-      "display": "\u20b92,154",
-      "change": 0.0
+      "price": 2250.2,
+      "display": "\u20b92,250",
+      "change": 4.4
     },
     "PSYS": {
-      "price": 5279.0,
-      "display": "\u20b95,279",
-      "change": 2.3
+      "price": 5367.0,
+      "display": "\u20b95,367",
+      "change": 1.7
     },
     "COFG": {
-      "price": 1749.1,
-      "display": "\u20b91,749",
-      "change": 1.6
+      "price": 1826.0,
+      "display": "\u20b91,826",
+      "change": 4.4
     },
     "ACN": {
       "price": 212.3,
@@ -53,14 +53,14 @@
       "change": 15.8
     },
     "CAP": {
-      "price": 112.1,
-      "display": "\u20ac112",
-      "change": 7.4
+      "price": 104.4,
+      "display": "\u20ac104",
+      "change": 0.9
     },
     "ATOS": {
-      "price": 22.28,
-      "display": "\u20ac22.28",
-      "change": 4.9
+      "price": 21.24,
+      "display": "\u20ac21.24",
+      "change": 4.2
     },
     "DXC": {
       "price": 11.64,
@@ -75,12 +75,12 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72480.29,
-      "change": -0.07
+      "value": 71909.7,
+      "change": -0.79
     },
     "NIFTY_IT": {
-      "value": 27704.8,
-      "change": 0.13
+      "value": 28304.7,
+      "change": 2.17
     },
     "SP500": {
       "value": 7666.45,
@@ -88,11 +88,11 @@
     },
     "USD_INR": {
       "value": 96.31,
-      "change": 0.27
+      "change": 0.39
     },
     "EUR_INR": {
-      "value": 108.32,
-      "change": -0.41
+      "value": 108.28,
+      "change": -0.34
     }
   },
   "historical": {
@@ -111,7 +111,9 @@
         2399.0,
         2051.0
       ],
-      "dp": []
+      "dp": [
+        2075.0
+      ]
     },
     "INFY": {
       "mp": [
@@ -128,7 +130,9 @@
         1134.0,
         994.0
       ],
-      "dp": []
+      "dp": [
+        1035.0
+      ]
     },
     "CTSH": {
       "mp": [
@@ -164,7 +168,9 @@
         1312.0,
         1230.0
       ],
-      "dp": []
+      "dp": [
+        1243.0
+      ]
     },
     "WIPRO": {
       "mp": [
@@ -181,7 +187,9 @@
         184.0,
         158.0
       ],
-      "dp": []
+      "dp": [
+        159.0
+      ]
     },
     "TECHM": {
       "mp": [
@@ -198,7 +206,9 @@
         1628.0,
         1524.0
       ],
-      "dp": []
+      "dp": [
+        1533.0
+      ]
     },
     "MPHL": {
       "mp": [
@@ -215,7 +225,9 @@
         2427.0,
         2154.0
       ],
-      "dp": []
+      "dp": [
+        2250.0
+      ]
     },
     "PSYS": {
       "mp": [
@@ -232,7 +244,9 @@
         5594.0,
         5279.0
       ],
-      "dp": []
+      "dp": [
+        5367.0
+      ]
     },
     "COFG": {
       "mp": [
@@ -249,7 +263,9 @@
         1985.0,
         1749.0
       ],
-      "dp": []
+      "dp": [
+        1826.0
+      ]
     },
     "ACN": {
       "mp": [
@@ -285,9 +301,7 @@
         107.0,
         104.0
       ],
-      "dp": [
-        112.0
-      ]
+      "dp": []
     },
     "ATOS": {
       "mp": [
@@ -304,9 +318,7 @@
         28.0,
         21.0
       ],
-      "dp": [
-        22.0
-      ]
+      "dp": []
     },
     "DXC": {
       "mp": [
@@ -349,22 +361,13 @@
   },
   "news": [
     {
-      "time": "2026-09-30 18:41",
-      "tk": "WIPRO",
+      "time": "2026-10-01 00:30",
+      "tk": "INFY",
       "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "Wipro gives benchwarmers a 6-month paid breather",
-      "detail": "Wipro eases bench policy: Band 2 and below can stay unbilled up to 180 days from Oct 1; separation after 6 months. Band 3+ stays at 45 days.",
-      "url": "https://timesofindia.indiatimes.com/city/bengaluru/wipro-gives-benchwarmers-a-6-month-paid-breather/articleshow/134601120.cms"
-    },
-    {
-      "time": "2026-09-30 18:40",
-      "tk": "WIPRO",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Ex-Wipro employee moves labour dept over unpaid extended bench policy",
-      "detail": "Wipro employees move labour commissioner over Extended Bench Leave Programme, alleging unpaid bench periods after 45-day paid bench and forced resignations.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/ex-wipro-employee-moves-labour-dept-over-unpaid-extended-bench-policy/articleshow/134601105.cms"
+      "hl": "Stocks in news: Infosys, HDFC Bank, Jio Financial, IRFC, NCC and Blue Dart",
+      "detail": "Indian equity benchmarks experienced a decline over two sessions due to profit booking and rising oil prices. The Nifty 50 index closed down by 95.75 points, reaching 22,620.45. Jio Financial Services and Allianz Europe B.V. have invested in their joint ventu\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-infosys-hdfc-bank-jio-financial-irfc-ncc-and-blue-dart/articleshow/134599953.cms"
     },
     {
       "time": "2026-09-30 17:49",
@@ -455,15 +458,6 @@
       "hl": "Accenture grapples with the dawn of AI era after share slide",
       "detail": "Accenture's low-cost-worker&nbsp;model is under&nbsp;investor scrutiny as it attempts an AI pivot under CEO Julie Sweet.",
       "url": "https://www.livemint.com/companies/news/accenture-grapples-with-the-dawn-of-ai-era-after-share-slide-11790769221640.html"
-    },
-    {
-      "time": "2026-09-30 10:29",
-      "tk": "INFY",
-      "src": "PRNewswire",
-      "cat": "MACRO",
-      "hl": "Infosys and ABN Amro Extend Strategic Collaboration to Simplify IT Landscape and Accelerate AI-Driven Transformation",
-      "detail": "Leveraging Infosys Topaz, the collaboration will help ABN AMRO drive operational efficiency, scalability, and innovation BENGALURU, India, Sept. 30, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consul\u2026",
-      "url": "https://www.prnewswire.com/news-releases/infosys-and-abn-amro-extend-strategic-collaboration-to-simplify-it-landscape-and-accelerate-ai-driven-transformation-302894264.html"
     },
     {
       "time": "2026-09-30 12:00",
