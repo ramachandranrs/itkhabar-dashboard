@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-02T16:34:43.239227+00:00",
-  "updated_display": "02 Oct 2026, 16:34 UTC",
+  "updated": "2026-10-02T20:51:25.508761+00:00",
+  "updated_display": "02 Oct 2026, 20:51 UTC",
   "prices": {
     "TCS": {
       "price": 2075.0,
@@ -13,9 +13,9 @@
       "change": 4.1
     },
     "CTSH": {
-      "price": 59.23,
-      "display": "$59.23",
-      "change": -2.7
+      "price": 58.51,
+      "display": "$58.51",
+      "change": -3.9
     },
     "HCLT": {
       "price": 1243.1,
@@ -48,9 +48,9 @@
       "change": 4.4
     },
     "ACN": {
-      "price": 202.0,
-      "display": "$202",
-      "change": -4.9
+      "price": 198.9,
+      "display": "$199",
+      "change": -6.3
     },
     "CAP": {
       "price": 108.9,
@@ -63,14 +63,14 @@
       "change": -1.1
     },
     "DXC": {
-      "price": 11.23,
-      "display": "$11.23",
-      "change": -3.5
+      "price": 11.1,
+      "display": "$11.10",
+      "change": -4.6
     },
     "GIB": {
-      "price": 70.06,
-      "display": "$70.06",
-      "change": -1.3
+      "price": 70.19,
+      "display": "$70.19",
+      "change": -1.1
     }
   },
   "indices": {
@@ -83,7 +83,7 @@
       "change": 2.17
     },
     "SP500": {
-      "value": 7722.58,
+      "value": 7722.72,
       "change": 0.73
     },
     "USD_INR": {
@@ -91,8 +91,8 @@
       "change": 0.39
     },
     "EUR_INR": {
-      "value": 108.42,
-      "change": -0.2
+      "value": 108.37,
+      "change": -0.25
     }
   },
   "historical": {
@@ -285,7 +285,7 @@
       ],
       "dp": [
         212.0,
-        202.0
+        199.0
       ]
     },
     "CAP": {
@@ -371,85 +371,58 @@
   },
   "news": [
     {
-      "time": "2026-10-01 16:31",
-      "tk": "ACN",
-      "src": "CNA",
-      "cat": "ANALYST",
-      "hl": "Accenture's forecast eases AI disruption fears, lifts battered IT services stocks",
-      "detail": "Oct 1 : Accenture shares surged 22 per cent, on track for their best day ever, after a stronger-than-anticipated annual revenue growth forecast underscored the resilience of the IT consulting business hammered by worries over AI-led disruption.The outlook sig\u2026",
-      "url": "https://www.channelnewsasia.com/business/accentures-forecast-eases-ai-disruption-fears-lifts-battered-it-services-stocks-6425041"
-    },
-    {
-      "time": "2026-10-01 16:08",
-      "tk": "INFY",
+      "time": "2026-10-01 19:31",
+      "tk": "TCS",
       "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "Accenture shares surge 20%; Infy, Wipro ADRs rise on strong AI-led growth",
-      "detail": "Accenture shares jump 20% after strong Q4 results and AI-led growth; revenue rose 6% to $18.7B, FY27 outlook 3-6%, lifting Infosys and Wipro ADRs.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/accenture-shares-surge-20-infy-wipro-adrs-rise-on-strong-ai-led-growth/articleshow/134623452.cms"
+      "hl": "Rahul Gandhi asks who ordered TCS to change Form 6, whether firm was pressured",
+      "detail": "Congress leader Rahul Gandhi questioned the Election Commission over changes to online Form 6, asking who ordered Tata Consultancy Services to implement them and who approved them at TCS. Gandhi also asked whether the company was pressured. Congress leader Ja\u2026",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-asks-who-ordered-tcs-to-change-form-6-whether-firm-was-pressured/articleshow/134626621.cms"
     },
     {
-      "time": "2026-10-01 16:03",
-      "tk": "INFY",
-      "src": "Livemint",
-      "cat": "AI",
-      "hl": "Accenture expects higher AI spending by clients as token costs fall",
-      "detail": "Accenture's earnings cheered investors, with the company\u2019s shares rising 22% on the New York Stock Exchange. Shares of Infosys and Wipro followed as well, gaining 9% and 8%.",
-      "url": "https://www.livemint.com/companies/accenture-expects-higher-ai-spending-by-clients-as-token-costs-fall-tcs-infosys-hcl-wipro-11790863191226.html"
+      "time": "2026-10-01 19:24",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "DEAL",
+      "hl": "TCS to take over Best Buy's India GCC under multiyear deal",
+      "detail": "Tata Consultancy Services has entered a multiyear agreement to acquire Best Buy's global capability centre located in India. While the financial aspects and employee count remain private, this move aims to transform the centre into an AI-driven engine, optimi\u2026",
+      "url": "https://economictimes.indiatimes.com/news/india/tcs-to-take-over-best-buys-india-gcc-under-multiyear-deal/articleshow/134626627.cms"
     },
     {
-      "time": "2026-10-01 15:27",
-      "tk": "ACN",
-      "src": "BusinessLine",
-      "cat": "MACRO",
-      "hl": "Accenture\u2019s managed services momentum offers positive signals for Indian IT",
-      "detail": "Accenture's strong Q4 results boost tech spending optimism, signaling growth for Indian IT amid rising large-transformations and AI-driven deals.",
-      "url": "https://www.thehindubusinessline.com/info-tech/accentures-managed-services-momentum-offers-positive-signals-for-indian-it/article71533074.ece"
-    },
-    {
-      "time": "2026-10-01 14:17",
+      "time": "2026-10-01 19:05",
       "tk": "INFY",
       "src": "Biztoc.com",
-      "cat": "AI",
-      "hl": "Accenture Soars 23% as Record Bookings Dispel AI Demand Fears; Infosys Jumps 8%, IBM Climbs 5%",
-      "detail": "The post Accenture Soars 23% as Record Bookings Dispel AI Demand Fears; Infosys Jumps 8%, IBM Climbs 5% appeared first on 24/7 Wall St..\nA record year of bookings has handed Accenture (NYSE:ACN) hard evidence against the fear that artificial intelligence (AI)\u2026",
-      "url": "https://biztoc.com/x/359d8ca29214c564"
-    },
-    {
-      "time": "2026-10-01 14:00",
-      "tk": "ATOS",
-      "src": "Plos.org",
       "cat": "MACRO",
-      "hl": "Salmonella infection and biofilms drive anti-C1q and anti-dsDNA autoantibodies in systemic autoimmunity",
-      "detail": "Author summary Up to half of patients with systemic lupus erythematosus (SLE) develop lupus nephritis, a major cause of morbidity characterized by immune complex deposition and complement activation within the glomeruli. The deposition of immune complexes is \u2026",
-      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014666"
+      "hl": "Why Did Infosys Stock Pop on Thursday?",
+      "detail": "Infosys (NYSE:INFY) stock jumped 6.6% through 2 p.m. ET Thursday -- not because of anything Infosys did, but because of what rival IT consultant Accenture (NYSE:ACN) just reported.\nHeading into Accenture's Q4 earnings report this morning, analysts expected Ac\u2026",
+      "url": "https://biztoc.com/x/6834f42ed584d67e"
     },
     {
-      "time": "2026-10-01 12:21",
-      "tk": "INFY",
-      "src": "PRNewswire",
+      "time": "2026-10-01 17:51",
+      "tk": "TCS",
+      "src": "Hautetime.com",
       "cat": "MACRO",
-      "hl": "Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value",
-      "detail": "NEW YORK, Oct. 1, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, today announced a strategic collaboration with Columbia University to foster the development and util\u2026",
-      "url": "https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html"
+      "hl": "TAG Heuer Returns as TCS New York City Marathon Official Timekeeper With the Connected Caliber E5 Running Edition",
+      "detail": "As the TCS New York City Marathon celebrates 50 years across all five boroughs, TAG Heuer brings a titanium smartwatch built for 26.2 miles to the start line.\nThe post TAG Heuer Returns as TCS New York City Marathon Official Timekeeper With the Connected Cali\u2026",
+      "url": "https://www.hautetime.com/tag-heuer-connected-calibre-e5-running-edition-new-york-city-marathon/"
     },
     {
-      "time": "2026-10-01 16:34",
+      "time": "2026-10-01 18:49",
       "tk": "ACN",
       "src": "Biztoc.com",
-      "cat": "AI",
-      "hl": "Accenture shares surge 22% as consultancy confounds AI fears",
-      "detail": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Error Code\n- CG000 / 403\n- Request ID\n- a43cdf7a0971c0ed",
-      "url": "https://biztoc.com/x/af2fc0f8a24c8ba4"
+      "cat": "RESULTS",
+      "hl": "Accenture Q4 2026 earnings beat sends stock up 22%",
+      "detail": "Accenture reported fourth-quarter revenue of $18.68 billion on Thursday, a 6% increase from a year earlier, as the consulting firm's stock posted its largest single-day gain on record.\nShares climbed more than 22% on Thursday, their best single-day performanc\u2026",
+      "url": "https://biztoc.com/x/fd067974501f646e"
     },
     {
-      "time": "2026-10-01 16:20",
-      "tk": "CTSH",
-      "src": "Biztoc.com",
-      "cat": "MACRO",
-      "hl": "Cognizant and EPAM Soar 7% on Accenture\u2019s Good News: What You Need to Know",
-      "detail": "Key Takeaways\n- Cognizant shares are up about 7% on Thursday after Accenture's fiscal fourth-quarter revenue of $18.68 billion beat the top of Accenture's own guidance.\n- Accenture's results suggest big companies are spending on IT services again, which is go\u2026",
-      "url": "https://biztoc.com/x/3af78a83113c5f6b"
+      "time": "2026-10-01 11:47",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Infosys, Wipro ADRs soar up to 8% as strong Accenture earnings forecast lifts mood",
+      "detail": "Infosys and Wipro ADRs rallied in US premarket trading after Accenture forecast stronger-than-expected annual revenue growth. Its upbeat outlook eased concerns over global technology spending, while steady consulting, managed-services and AI demand improved s\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/infosys-wipro-adrs-soar-up-to-8-as-strong-accenture-earnings-forecast-lifts-mood/articleshow/134617937.cms"
     },
     {
       "time": "2026-10-01 05:40",
@@ -479,31 +452,58 @@
       "url": "https://punchng.com/sap-solutions-adopted-to-strengthen-hr-systems/"
     },
     {
-      "time": "2026-09-29 22:58",
-      "tk": "NTTD",
-      "src": "Seclists.org",
-      "cat": "MACRO",
-      "hl": "NOTICE: FTP service retirement for rr1.ntt.net - November 1, 2026",
-      "detail": "Posted by Dan Lowe via NANOG on Sep 29The below applies to rr.ntt.net, the NTT DATA Global IP Network route registry service, specifically to the associated \nFTP server on rr1.ntt.net.\n\nNTT DATA Global IP Network has decided to discontinue our FTP service, wh\u2026",
-      "url": "https://seclists.org/nanog/2026/Sep/200"
-    },
-    {
-      "time": "2026-10-01 15:21",
-      "tk": "CTSH",
-      "src": "Ibtimes.com.au",
+      "time": "2026-10-01 18:49",
+      "tk": "Sector",
+      "src": "Biztoc.com",
       "cat": "RESULTS",
-      "hl": "Cognizant Stock Jumps Nearly 8% as Accenture's Blowout Results Spark Rally in IT Services Amid AI Fears",
-      "detail": "Cognizant shares rose nearly 8% after Accenture reported strong earnings and bookings, easing concerns that generative AI could weaken demand for traditional IT services.",
-      "url": "https://www.ibtimes.com.au/cognizant-shares-jump-accenture-results-ai-fears-1876157"
+      "hl": "Q2 Rundown: Applied Digital (NASDAQ:APLD) Vs Other IT Services & Other Tech Stocks",
+      "detail": "Earnings results often indicate what direction a company will take in the months ahead. With Q2 behind us, let's have a look at Applied Digital (NASDAQ:APLD) and its peers.\nThe IT and tech services subsector is poised for growth as businesses accelerate cloud\u2026",
+      "url": "https://biztoc.com/x/96a4513b65265198"
     },
     {
-      "time": "2026-10-01 14:25",
+      "time": "2026-10-01 16:56",
       "tk": "ACN",
-      "src": "Ibtimes.com.au",
+      "src": "Business Standard",
       "cat": "RESULTS",
-      "hl": "Accenture Stock Soars 22% as Earnings Beat, Record Bookings and Upbeat 2027 Outlook Ease AI Disruption Fears",
-      "detail": "Accenture shares surged after the company exceeded quarterly earnings and revenue expectations, reported strong bookings and issued an outlook that eased concerns about artificial intelligence disruption.",
-      "url": "https://www.ibtimes.com.au/accenture-shares-surge-after-earnings-outlook-1876149"
+      "hl": "Accenture beats Q4 revenue guidance, projects 3-6% growth for FY27",
+      "detail": "Fourth-quarter revenue rose 6 per cent to $18.7 billion, beating guidance, while Accenture projected 3-6 per cent growth for FY27, offering some comfort to Indian IT firms",
+      "url": "https://www.business-standard.com/companies/news/accenture-beats-q4-revenue-guidance-projects-3-6-growth-for-fy27-126100101493_1.html"
+    },
+    {
+      "time": "2026-10-01 16:31",
+      "tk": "ACN",
+      "src": "CNA",
+      "cat": "ANALYST",
+      "hl": "Accenture's forecast eases AI disruption fears, lifts battered IT services stocks",
+      "detail": "Oct 1 : Accenture shares surged 22 per cent, on track for their best day ever, after a stronger-than-anticipated annual revenue growth forecast underscored the resilience of the IT consulting business hammered by worries over AI-led disruption.The outlook sig\u2026",
+      "url": "https://www.channelnewsasia.com/business/accentures-forecast-eases-ai-disruption-fears-lifts-battered-it-services-stocks-6425041"
+    },
+    {
+      "time": "2026-10-01 16:20",
+      "tk": "CTSH",
+      "src": "Biztoc.com",
+      "cat": "MACRO",
+      "hl": "Cognizant and EPAM Soar 7% on Accenture\u2019s Good News: What You Need to Know",
+      "detail": "Key Takeaways\n- Cognizant shares are up about 7% on Thursday after Accenture's fiscal fourth-quarter revenue of $18.68 billion beat the top of Accenture's own guidance.\n- Accenture's results suggest big companies are spending on IT services again, which is go\u2026",
+      "url": "https://biztoc.com/x/3af78a83113c5f6b"
+    },
+    {
+      "time": "2026-10-01 16:03",
+      "tk": "INFY",
+      "src": "Livemint",
+      "cat": "AI",
+      "hl": "Accenture expects higher AI spending by clients as token costs fall",
+      "detail": "Accenture's earnings cheered investors, with the company\u2019s shares rising 22% on the New York Stock Exchange. Shares of Infosys and Wipro followed as well, gaining 9% and 8%.",
+      "url": "https://www.livemint.com/companies/accenture-expects-higher-ai-spending-by-clients-as-token-costs-fall-tcs-infosys-hcl-wipro-11790863191226.html"
+    },
+    {
+      "time": "2026-10-01 15:27",
+      "tk": "ACN",
+      "src": "BusinessLine",
+      "cat": "MACRO",
+      "hl": "Accenture\u2019s managed services momentum offers positive signals for Indian IT",
+      "detail": "Accenture's strong Q4 results boost tech spending optimism, signaling growth for Indian IT amid rising large-transformations and AI-driven deals.",
+      "url": "https://www.thehindubusinessline.com/info-tech/accentures-managed-services-momentum-offers-positive-signals-for-indian-it/article71533074.ece"
     },
     {
       "time": "2026-09-29 03:47",
