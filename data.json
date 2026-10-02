@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-02T02:27:08.681291+00:00",
-  "updated_display": "02 Oct 2026, 02:27 UTC",
+  "updated": "2026-10-02T16:34:43.239227+00:00",
+  "updated_display": "02 Oct 2026, 16:34 UTC",
   "prices": {
     "TCS": {
       "price": 2075.0,
@@ -13,9 +13,9 @@
       "change": 4.1
     },
     "CTSH": {
-      "price": 60.88,
-      "display": "$60.88",
-      "change": 6.0
+      "price": 59.23,
+      "display": "$59.23",
+      "change": -2.7
     },
     "HCLT": {
       "price": 1243.1,
@@ -48,29 +48,29 @@
       "change": 4.4
     },
     "ACN": {
-      "price": 212.3,
-      "display": "$212",
-      "change": 15.8
+      "price": 202.0,
+      "display": "$202",
+      "change": -4.9
     },
     "CAP": {
-      "price": 104.4,
-      "display": "\u20ac104",
-      "change": 0.9
+      "price": 108.9,
+      "display": "\u20ac109",
+      "change": -2.9
     },
     "ATOS": {
-      "price": 21.24,
-      "display": "\u20ac21.24",
-      "change": 4.2
+      "price": 22.04,
+      "display": "\u20ac22.04",
+      "change": -1.1
     },
     "DXC": {
-      "price": 11.64,
-      "display": "$11.64",
-      "change": 7.5
+      "price": 11.23,
+      "display": "$11.23",
+      "change": -3.5
     },
     "GIB": {
-      "price": 70.98,
-      "display": "$70.98",
-      "change": 4.3
+      "price": 70.06,
+      "display": "$70.06",
+      "change": -1.3
     }
   },
   "indices": {
@@ -83,16 +83,16 @@
       "change": 2.17
     },
     "SP500": {
-      "value": 7666.45,
-      "change": 0.19
+      "value": 7722.58,
+      "change": 0.73
     },
     "USD_INR": {
-      "value": 96.31,
+      "value": 96.3,
       "change": 0.39
     },
     "EUR_INR": {
-      "value": 108.28,
-      "change": -0.34
+      "value": 108.42,
+      "change": -0.2
     }
   },
   "historical": {
@@ -150,7 +150,8 @@
         57.0
       ],
       "dp": [
-        61.0
+        61.0,
+        59.0
       ]
     },
     "HCLT": {
@@ -283,7 +284,8 @@
         183.0
       ],
       "dp": [
-        212.0
+        212.0,
+        202.0
       ]
     },
     "CAP": {
@@ -301,7 +303,10 @@
         107.0,
         104.0
       ],
-      "dp": []
+      "dp": [
+        112.0,
+        109.0
+      ]
     },
     "ATOS": {
       "mp": [
@@ -318,7 +323,10 @@
         28.0,
         21.0
       ],
-      "dp": []
+      "dp": [
+        22.0,
+        22.0
+      ]
     },
     "DXC": {
       "mp": [
@@ -336,7 +344,8 @@
         11.0
       ],
       "dp": [
-        12.0
+        12.0,
+        11.0
       ]
     },
     "GIB": {
@@ -355,55 +364,110 @@
         68.0
       ],
       "dp": [
-        71.0
+        71.0,
+        70.0
       ]
     }
   },
   "news": [
     {
-      "time": "2026-10-01 00:30",
+      "time": "2026-10-01 16:31",
+      "tk": "ACN",
+      "src": "CNA",
+      "cat": "ANALYST",
+      "hl": "Accenture's forecast eases AI disruption fears, lifts battered IT services stocks",
+      "detail": "Oct 1 : Accenture shares surged 22 per cent, on track for their best day ever, after a stronger-than-anticipated annual revenue growth forecast underscored the resilience of the IT consulting business hammered by worries over AI-led disruption.The outlook sig\u2026",
+      "url": "https://www.channelnewsasia.com/business/accentures-forecast-eases-ai-disruption-fears-lifts-battered-it-services-stocks-6425041"
+    },
+    {
+      "time": "2026-10-01 16:08",
       "tk": "INFY",
       "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "Stocks in news: Infosys, HDFC Bank, Jio Financial, IRFC, NCC and Blue Dart",
-      "detail": "Indian equity benchmarks experienced a decline over two sessions due to profit booking and rising oil prices. The Nifty 50 index closed down by 95.75 points, reaching 22,620.45. Jio Financial Services and Allianz Europe B.V. have invested in their joint ventu\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-infosys-hdfc-bank-jio-financial-irfc-ncc-and-blue-dart/articleshow/134599953.cms"
+      "hl": "Accenture shares surge 20%; Infy, Wipro ADRs rise on strong AI-led growth",
+      "detail": "Accenture shares jump 20% after strong Q4 results and AI-led growth; revenue rose 6% to $18.7B, FY27 outlook 3-6%, lifting Infosys and Wipro ADRs.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/accenture-shares-surge-20-infy-wipro-adrs-rise-on-strong-ai-led-growth/articleshow/134623452.cms"
     },
     {
-      "time": "2026-09-30 17:49",
-      "tk": "Sector",
-      "src": "The Times of India",
+      "time": "2026-10-01 16:03",
+      "tk": "INFY",
+      "src": "Livemint",
+      "cat": "AI",
+      "hl": "Accenture expects higher AI spending by clients as token costs fall",
+      "detail": "Accenture's earnings cheered investors, with the company\u2019s shares rising 22% on the New York Stock Exchange. Shares of Infosys and Wipro followed as well, gaining 9% and 8%.",
+      "url": "https://www.livemint.com/companies/accenture-expects-higher-ai-spending-by-clients-as-token-costs-fall-tcs-infosys-hcl-wipro-11790863191226.html"
+    },
+    {
+      "time": "2026-10-01 15:27",
+      "tk": "ACN",
+      "src": "BusinessLine",
       "cat": "MACRO",
-      "hl": "Dodging SaaSocalypse: AI\u2019s enterprise moment could belong to IT services",
-      "detail": "ITC Infotech's merger with Happiest Minds highlights the trend of mid-market consolidation in response to AI advancements. The global IT market faces challenges, requiring companies to adopt AI-centric capabilities for survival. Enterprises are burdened with \u2026",
-      "url": "https://economictimes.indiatimes.com/opinion/et-commentary/dodging-saasocalypse-ais-enterprise-moment-could-belong-to-it-services/articleshow/134599990.cms"
+      "hl": "Accenture\u2019s managed services momentum offers positive signals for Indian IT",
+      "detail": "Accenture's strong Q4 results boost tech spending optimism, signaling growth for Indian IT amid rising large-transformations and AI-driven deals.",
+      "url": "https://www.thehindubusinessline.com/info-tech/accentures-managed-services-momentum-offers-positive-signals-for-indian-it/article71533074.ece"
     },
     {
-      "time": "2026-09-30 11:15",
-      "tk": "COFG",
+      "time": "2026-10-01 14:17",
+      "tk": "INFY",
+      "src": "Biztoc.com",
+      "cat": "AI",
+      "hl": "Accenture Soars 23% as Record Bookings Dispel AI Demand Fears; Infosys Jumps 8%, IBM Climbs 5%",
+      "detail": "The post Accenture Soars 23% as Record Bookings Dispel AI Demand Fears; Infosys Jumps 8%, IBM Climbs 5% appeared first on 24/7 Wall St..\nA record year of bookings has handed Accenture (NYSE:ACN) hard evidence against the fear that artificial intelligence (AI)\u2026",
+      "url": "https://biztoc.com/x/359d8ca29214c564"
+    },
+    {
+      "time": "2026-10-01 14:00",
+      "tk": "ATOS",
+      "src": "Plos.org",
+      "cat": "MACRO",
+      "hl": "Salmonella infection and biofilms drive anti-C1q and anti-dsDNA autoantibodies in systemic autoimmunity",
+      "detail": "Author summary Up to half of patients with systemic lupus erythematosus (SLE) develop lupus nephritis, a major cause of morbidity characterized by immune complex deposition and complement activation within the glomeruli. The deposition of immune complexes is \u2026",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014666"
+    },
+    {
+      "time": "2026-10-01 12:21",
+      "tk": "INFY",
+      "src": "PRNewswire",
+      "cat": "MACRO",
+      "hl": "Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value",
+      "detail": "NEW YORK, Oct. 1, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, today announced a strategic collaboration with Columbia University to foster the development and util\u2026",
+      "url": "https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html"
+    },
+    {
+      "time": "2026-10-01 16:34",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "AI",
+      "hl": "Accenture shares surge 22% as consultancy confounds AI fears",
+      "detail": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Error Code\n- CG000 / 403\n- Request ID\n- a43cdf7a0971c0ed",
+      "url": "https://biztoc.com/x/af2fc0f8a24c8ba4"
+    },
+    {
+      "time": "2026-10-01 16:20",
+      "tk": "CTSH",
       "src": "Biztoc.com",
       "cat": "MACRO",
-      "hl": "Coforge Launches CXNova, an Agentic CX Orchestration Platform That Delivers Intelligent, Real-Time Customer Experiences",
-      "detail": "Coforge Launches CXNova, an Agentic CX Orchestration Platform That Delivers Intelligent, Real-Time Customer Experiences\nPRINCETON, N.J. & GREATER NOIDA, India, September 30, 2026--(BUSINESS WIRE)--Coforge, an AI-native engineering services leader, today annou\u2026",
-      "url": "https://biztoc.com/x/130bc0ba2292ec1c"
+      "hl": "Cognizant and EPAM Soar 7% on Accenture\u2019s Good News: What You Need to Know",
+      "detail": "Key Takeaways\n- Cognizant shares are up about 7% on Thursday after Accenture's fiscal fourth-quarter revenue of $18.68 billion beat the top of Accenture's own guidance.\n- Accenture's results suggest big companies are spending on IT services again, which is go\u2026",
+      "url": "https://biztoc.com/x/3af78a83113c5f6b"
     },
     {
-      "time": "2026-09-30 06:21",
-      "tk": "WIPRO",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "TCS, Wipro, other IT stocks rebound up to 6%, snapping 8-day losing streak. Why is Jefferies cautious?",
-      "detail": "IT stocks rebounded on Wednesday, with TCS, Wipro and Coforge snapping an eight-session losing streak. The Nifty IT index rose nearly 3%, aided by a stronger US dollar and higher US bond yields, though brokerages remain cautious ahead of the Q2 earnings seaso\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-wipro-other-it-stocks-rebound-up-to-6-snapping-8-day-losing-streak-why-is-jefferies-cautious/articleshow/134583730.cms"
-    },
-    {
-      "time": "2026-09-30 05:03",
+      "time": "2026-10-01 05:40",
       "tk": "MPHL",
-      "src": "BusinessLine",
+      "src": "Business Standard",
+      "cat": "MACRO",
+      "hl": "Nifty IT defies market weakness, rises 2%; Mphasis, Coforge, TCS lead",
+      "detail": "The Nifty IT index advanced 2.1 per cent during intra-day deals, with nine out of ten constituent stocks of the index trading in the green.",
+      "url": "https://www.business-standard.com/markets/news/nifty-it-defies-market-weakness-rises-2-mphasis-coforge-tcs-lead-126100100335_1.html"
+    },
+    {
+      "time": "2026-10-01 04:39",
+      "tk": "WIPRO",
+      "src": "Economictimes.com",
       "cat": "RESULTS",
-      "hl": "IT stocks rally: Coforge, Mphasis, TCS, Persistent Systems gain up to 5%, Kotak sees muted Q2 growth",
-      "detail": "IT stocks rally as Coforge, Mphasis, TCS, and Persistent gain up to 5% ahead of Q2, with Kotak flagging stable margins and muted large-cap growth.",
-      "url": "https://www.thehindubusinessline.com/markets/it-stocks-rally-coforge-mphasis-tcs-persistent-systems-gain-up-to-5-kotak-sees-muted-q2-growth/article71526782.ece"
+      "hl": "Jefferies is bearish TCS, Wipro, 6 other IT stocks ahead of Q2 results. How many do you own?",
+      "detail": "Jefferies expects revenues across its IT coverage universe to grow 1.7% QoQ in constant currency (cc) during 2QFY27, translating to 4.0% YoY growth, largely driven by acquisitions. On an organic basis, growth is expected to be much slower at 0.8% QoQ and 1.9%\u2026",
+      "url": "https://m.economictimes.com/markets/stocks/news/jefferies-is-bearish-tcs-wipro-6-other-it-stocks-ahead-of-q2-results-how-many-do-you-own/q2-watch/slideshow/134608396.cms"
     },
     {
       "time": "2026-09-30 02:05",
@@ -424,22 +488,22 @@
       "url": "https://seclists.org/nanog/2026/Sep/200"
     },
     {
-      "time": "2026-09-29 15:06",
-      "tk": "NTTD",
-      "src": "Antaranews.com",
-      "cat": "MACRO",
-      "hl": "NTT DATA Launches \u2018Intact, intelligent action.\u2019 to Protect Fragile Places and Advance Sustainability Commitments",
-      "detail": "-NTT DATA, a global leader in AI, digital business and technology services, today announced &ldquo;Intact, intelligent action.&rdquo; This global initiative is ...",
-      "url": "https://en.antaranews.com/news/433463/ntt-data-launches-intact-intelligent-action-to-protect-fragile-places-and-advance-sustainability-commitments"
+      "time": "2026-10-01 15:21",
+      "tk": "CTSH",
+      "src": "Ibtimes.com.au",
+      "cat": "RESULTS",
+      "hl": "Cognizant Stock Jumps Nearly 8% as Accenture's Blowout Results Spark Rally in IT Services Amid AI Fears",
+      "detail": "Cognizant shares rose nearly 8% after Accenture reported strong earnings and bookings, easing concerns that generative AI could weaken demand for traditional IT services.",
+      "url": "https://www.ibtimes.com.au/cognizant-shares-jump-accenture-results-ai-fears-1876157"
     },
     {
-      "time": "2026-09-29 16:28",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Oracle share price: ORCL stock jumps at NYSE, what is making it one of top turnover stocks in Software & IT Services sector",
-      "detail": "Oracle stock: Oracle's move to protect itself against potential delays at a massive data center project developed by Blue Owl in New Mexico sent a chill through the trillion-dollar market for AI infrastructure financing.",
-      "url": "https://economictimes.indiatimes.com/news/international/us/oracle-share-price-orcl-stock-jumps-at-nyse-what-is-making-it-one-of-top-turnover-stocks-in-software-it-services-sector/articleshow/134570574.cms"
+      "time": "2026-10-01 14:25",
+      "tk": "ACN",
+      "src": "Ibtimes.com.au",
+      "cat": "RESULTS",
+      "hl": "Accenture Stock Soars 22% as Earnings Beat, Record Bookings and Upbeat 2027 Outlook Ease AI Disruption Fears",
+      "detail": "Accenture shares surged after the company exceeded quarterly earnings and revenue expectations, reported strong bookings and issued an outlook that eased concerns about artificial intelligence disruption.",
+      "url": "https://www.ibtimes.com.au/accenture-shares-surge-after-earnings-outlook-1876149"
     },
     {
       "time": "2026-09-29 03:47",
@@ -449,24 +513,6 @@
       "hl": "15-year setback on cards? Nifty heading for worst annual performance since 2011",
       "detail": "As 2023 unfolds, the Nifty index appears headed for its most disappointing year in a decade and a half. Key contributors to this downturn include high valuations and a flight of foreign investors. The IT sector continues to struggle amid geopolitical conflict\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/15-year-setback-on-cards-nifty-heading-for-worst-annual-performance-since-2011/articleshow/134555433.cms"
-    },
-    {
-      "time": "2026-09-30 12:01",
-      "tk": "ACN",
-      "src": "Livemint",
-      "cat": "AI",
-      "hl": "Accenture grapples with the dawn of AI era after share slide",
-      "detail": "Accenture's low-cost-worker&nbsp;model is under&nbsp;investor scrutiny as it attempts an AI pivot under CEO Julie Sweet.",
-      "url": "https://www.livemint.com/companies/news/accenture-grapples-with-the-dawn-of-ai-era-after-share-slide-11790769221640.html"
-    },
-    {
-      "time": "2026-09-30 12:00",
-      "tk": "ACN",
-      "src": "WWD",
-      "cat": "MACRO",
-      "hl": "DS Smith Taps Accenture and Osapiens for Compliance\u00a0Tech",
-      "detail": "The technology helps the company achieve full transparency with the origin and movement of relevant materials that fall under the EUDR requirements.",
-      "url": "http://wwd.com/sourcing-journal/industry-news/ds-smith-accenture-osapiens-compliance-tech-1239287530/"
     }
   ]
 }
