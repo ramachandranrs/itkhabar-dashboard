@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-05T02:15:42.903670+00:00",
-  "updated_display": "05 Oct 2026, 02:15 UTC",
+  "updated": "2026-10-05T19:34:32.287012+00:00",
+  "updated_display": "05 Oct 2026, 19:34 UTC",
   "prices": {
     "TCS": {
       "price": 2075.0,
@@ -13,9 +13,9 @@
       "change": 4.1
     },
     "CTSH": {
-      "price": 58.51,
-      "display": "$58.51",
-      "change": -3.9
+      "price": 58.16,
+      "display": "$58.16",
+      "change": -0.6
     },
     "HCLT": {
       "price": 1243.1,
@@ -48,29 +48,29 @@
       "change": 4.4
     },
     "ACN": {
-      "price": 198.9,
-      "display": "$199",
-      "change": -6.3
+      "price": 195.18,
+      "display": "$195",
+      "change": -1.9
     },
     "CAP": {
-      "price": 108.9,
-      "display": "\u20ac109",
-      "change": -2.9
+      "price": 108.4,
+      "display": "\u20ac108",
+      "change": -0.5
     },
     "ATOS": {
-      "price": 22.04,
-      "display": "\u20ac22.04",
-      "change": -1.1
+      "price": 21.6,
+      "display": "\u20ac21.60",
+      "change": -2.0
     },
     "DXC": {
-      "price": 11.1,
-      "display": "$11.10",
-      "change": -4.6
+      "price": 11.66,
+      "display": "$11.66",
+      "change": 5.1
     },
     "GIB": {
-      "price": 70.19,
-      "display": "$70.19",
-      "change": -1.1
+      "price": 71.22,
+      "display": "$71.22",
+      "change": 1.5
     }
   },
   "indices": {
@@ -83,16 +83,16 @@
       "change": 2.17
     },
     "SP500": {
-      "value": 7722.72,
-      "change": 0.73
+      "value": 7787.53,
+      "change": 0.84
     },
     "USD_INR": {
-      "value": 96.3,
-      "change": 0.08
+      "value": 96.28,
+      "change": 0.06
     },
     "EUR_INR": {
-      "value": 108.15,
-      "change": -0.1
+      "value": 107.99,
+      "change": -0.25
     }
   },
   "historical": {
@@ -151,7 +151,8 @@
       ],
       "dp": [
         61.0,
-        59.0
+        59.0,
+        58.0
       ]
     },
     "HCLT": {
@@ -285,7 +286,8 @@
       ],
       "dp": [
         212.0,
-        199.0
+        199.0,
+        195.0
       ]
     },
     "CAP": {
@@ -305,7 +307,8 @@
       ],
       "dp": [
         112.0,
-        109.0
+        109.0,
+        108.0
       ]
     },
     "ATOS": {
@@ -324,6 +327,7 @@
         21.0
       ],
       "dp": [
+        22.0,
         22.0,
         22.0
       ]
@@ -345,7 +349,8 @@
       ],
       "dp": [
         12.0,
-        11.0
+        11.0,
+        12.0
       ]
     },
     "GIB": {
@@ -365,28 +370,47 @@
       ],
       "dp": [
         71.0,
-        70.0
+        70.0,
+        71.0
       ]
     }
   },
   "news": [
     {
-      "time": "2026-10-03 07:55",
-      "tk": "INFY",
-      "src": "The Times of India",
+      "time": "2026-10-04 09:41",
+      "tk": "TCS",
+      "src": "Business Standard",
       "cat": "MACRO",
-      "hl": "F&O Talk: 22,600 is a key Nifty support; Sudeep Shah discusses PB Fintech, Infosys, TCS strategy ahead of Q2",
-      "detail": "Analyst Sudeep Shah, Vice President and Head of Technical & Derivatives Research at SBI Securities, interacted with ETMarkets regarding the outlook for the Nifty, options data, and an index strategy for the upcoming week. The following are the edited excerpts\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-22600-is-a-key-nifty-support-sudeep-shah-discusses-pb-fintech-infosys-tcs-strategy-ahead-of-q2/articleshow/134654760.cms"
+      "hl": "RBI MPC policy, oil prices, bond yields may drive market this week",
+      "detail": "RBI's interest rate decision, TCS' earnings, crude oil prices and global bond yields will be important factors to determine stock market movement this week, analysts said.\nMacroeconomic data announcements and foreign investors' trading activity will also guid\u2026",
+      "url": "https://www.business-standard.com/markets/news/rbi-mpc-policy-oil-prices-bond-yields-may-drive-market-this-week-126100400285_1.html"
     },
     {
-      "time": "2026-10-02 12:22",
-      "tk": "INFY",
-      "src": "Livemint",
+      "time": "2026-10-04 09:18",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "RBI policy, TCS earnings, crude prices to steer markets this week",
+      "detail": "In September, the BSE benchmark lost 4,476.98 points, or 5.81 per cent, and the Nifty fell 1,459.95 points, or 6 per cent.",
+      "url": "https://www.thehindubusinessline.com/markets/rbi-policy-tcs-earnings-crude-prices-to-steer-markets-this-week/article71543313.ece"
+    },
+    {
+      "time": "2026-10-04 03:44",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "PEOPLE",
+      "hl": "Will Nifty, Sensex plunge for 9th straight week? TCS Q2, 4 factors to drive Dalal Street from Monday",
+      "detail": "India's stock market has faced a challenging downturn, marking eight weeks of losses, the longest in 25 years. Driving this trend are soaring oil prices and rising US bond yields. The sell-off by foreign institutional investors has intensified the downturn. A\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-nifty-sensex-plunge-for-9th-straight-week-tcs-q2-4-factors-to-drive-dalal-street-from-monday/articleshow/134669285.cms"
+    },
+    {
+      "time": "2026-10-04 18:14",
+      "tk": "ACN",
+      "src": "Biztoc.com",
       "cat": "MACRO",
-      "hl": "Wipro breaks ranks with IT peers, gives junior staff 180 days on bench: Where do TCS, Cognizant, Infosys stand?",
-      "detail": "Wipro has taken a different approach to bench management in India\u2019s IT industry, giving junior and mid-level employees up to six months to find a new billable assignment",
-      "url": "https://www.livemint.com/companies/news/wipro-breaks-ranks-with-it-peers-gives-junior-staff-180-days-on-bench-where-do-tcs-cognizant-infosys-stand-11790938692296.html"
+      "hl": "Really Priced Like Its Best Days Are Over?",
+      "detail": "Accenture (NYSE:ACN) maintains a formidable financial foundation anchored by $11.6 billion in annual free cash flow, representing 1.4 times net income, alongside a robust return-on-equity profile and a balance sheet that routinely returns nearly 100% of cash \u2026",
+      "url": "https://biztoc.com/x/872454c0946429a4"
     },
     {
       "time": "2026-10-02 10:35",
@@ -398,49 +422,40 @@
       "url": "https://www.business-standard.com/technology/artificial-intelligence/rise-of-persistent-ai-agents-openai-meta-google-126100200565_1.html"
     },
     {
-      "time": "2026-10-01 05:40",
-      "tk": "MPHL",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "Nifty IT defies market weakness, rises 2%; Mphasis, Coforge, TCS lead",
-      "detail": "The Nifty IT index advanced 2.1 per cent during intra-day deals, with nine out of ten constituent stocks of the index trading in the green.",
-      "url": "https://www.business-standard.com/markets/news/nifty-it-defies-market-weakness-rises-2-mphasis-coforge-tcs-lead-126100100335_1.html"
-    },
-    {
-      "time": "2026-10-01 04:39",
-      "tk": "WIPRO",
-      "src": "Economictimes.com",
-      "cat": "RESULTS",
-      "hl": "Jefferies is bearish TCS, Wipro, 6 other IT stocks ahead of Q2 results. How many do you own?",
-      "detail": "Jefferies expects revenues across its IT coverage universe to grow 1.7% QoQ in constant currency (cc) during 2QFY27, translating to 4.0% YoY growth, largely driven by acquisitions. On an organic basis, growth is expected to be much slower at 0.8% QoQ and 1.9%\u2026",
-      "url": "https://m.economictimes.com/markets/stocks/news/jefferies-is-bearish-tcs-wipro-6-other-it-stocks-ahead-of-q2-results-how-many-do-you-own/q2-watch/slideshow/134608396.cms"
-    },
-    {
-      "time": "2026-10-02 11:45",
-      "tk": "CAP",
-      "src": "The Daily Hodl",
-      "cat": "RESULTS",
-      "hl": "Banks Risk Losing $230,000,000,000 in Payments Revenue As Stablecoins and Tokenized Deposits Scale, According to Survey",
-      "detail": "Banks risk losing $230 billion in payments revenue as stablecoins, tokenized deposits and central bank digital currencies move into wider use, according to a survey conducted by IT services and consulting firm Capgemini. Capgemini\u2019s World Payments Report 2027\u2026",
-      "url": "https://dailyhodl.com/2026/10/02/banks-risk-losing-230000000000-in-payments-revenue-as-stablecoins-and-tokenized-deposits-scale-according-to-survey/"
-    },
-    {
-      "time": "2026-10-01 19:05",
+      "time": "2026-10-01 11:47",
       "tk": "INFY",
-      "src": "Biztoc.com",
-      "cat": "MACRO",
-      "hl": "Why Did Infosys Stock Pop on Thursday?",
-      "detail": "Infosys (NYSE:INFY) stock jumped 6.6% through 2 p.m. ET Thursday -- not because of anything Infosys did, but because of what rival IT consultant Accenture (NYSE:ACN) just reported.\nHeading into Accenture's Q4 earnings report this morning, analysts expected Ac\u2026",
-      "url": "https://biztoc.com/x/6834f42ed584d67e"
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Infosys, Wipro ADRs soar up to 8% as strong Accenture earnings forecast lifts mood",
+      "detail": "Infosys and Wipro ADRs rallied in US premarket trading after Accenture forecast stronger-than-expected annual revenue growth. Its upbeat outlook eased concerns over global technology spending, while steady consulting, managed-services and AI demand improved s\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/infosys-wipro-adrs-soar-up-to-8-as-strong-accenture-earnings-forecast-lifts-mood/articleshow/134617937.cms"
     },
     {
-      "time": "2026-10-02 12:00",
-      "tk": "CTSH",
-      "src": "PRNewswire",
+      "time": "2026-10-04 13:03",
+      "tk": "NTTD",
+      "src": "BusinessLine",
+      "cat": "MACRO",
+      "hl": "AI to help India contribute more to NTT Data\u2019s global business",
+      "detail": "IT infrastructure is a significant business for the company, spanning partnerships with infrastructure providers such as Cisco, Dell, HP, Microsoft, VMware, Red Hat, and, more recently, Nvidia",
+      "url": "https://www.thehindubusinessline.com/companies/ai-to-help-india-contribute-more-to-ntt-datas-global-business/article71543646.ece"
+    },
+    {
+      "time": "2026-10-04 11:55",
+      "tk": "Sector",
+      "src": "Business Standard",
       "cat": "RESULTS",
-      "hl": "Cognizant Schedules Third Quarter 2026 Earnings Release and Conference Call",
-      "detail": "TEANECK, N.J., Oct. 2, 2026 /PRNewswire/ -- Cognizant (Nasdaq: CTSH), a leading AI builder and technology services provider, will announce results for the third quarter of 2026 on Thursday, October 29, 2026 before market open. Following the release, Cognizant\u2026",
-      "url": "https://www.prnewswire.com/news-releases/cognizant-schedules-third-quarter-2026-earnings-release-and-conference-call-302896760.html"
+      "hl": "Indian IT firms turn to GCC acquisitions as organic revenue growth falters",
+      "detail": "IT services firms are targeting GCCs for scale, steady revenue and domain expertise as weak organic growth and AI put pressure on traditional contracts",
+      "url": "https://www.business-standard.com/industry/news/indian-it-firms-turn-to-gcc-acquisitions-as-organic-revenue-growth-falters-126100400444_1.html"
+    },
+    {
+      "time": "2026-10-04 10:17",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "cat": "AI",
+      "hl": "Valuations of IT stocks already capture most of AI disruption risk: Chintan Haria",
+      "detail": "The Nifty IT index\u2019s 25% fall in 2026 may have already priced in much of the threat from AI. Chintan Haria of ICICI Prudential AMC sees selective opportunities in companies positioned to benefit from data engineering, cloud migration, legacy modernisation and\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/valuations-of-it-stocks-already-capture-most-of-ai-disruption-risk-chintan-haria/articleshow/134673144.cms"
     }
   ]
 }
