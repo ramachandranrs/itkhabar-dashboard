@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-05T19:34:32.287012+00:00",
-  "updated_display": "05 Oct 2026, 19:34 UTC",
+  "updated": "2026-10-05T22:48:32.641634+00:00",
+  "updated_display": "05 Oct 2026, 22:48 UTC",
   "prices": {
     "TCS": {
       "price": 2075.0,
@@ -13,8 +13,8 @@
       "change": 4.1
     },
     "CTSH": {
-      "price": 58.16,
-      "display": "$58.16",
+      "price": 58.17,
+      "display": "$58.17",
       "change": -0.6
     },
     "HCLT": {
@@ -48,29 +48,29 @@
       "change": 4.4
     },
     "ACN": {
-      "price": 195.18,
+      "price": 195.05,
       "display": "$195",
       "change": -1.9
     },
     "CAP": {
-      "price": 108.4,
-      "display": "\u20ac108",
-      "change": -0.5
+      "price": 108.9,
+      "display": "\u20ac109",
+      "change": -2.9
     },
     "ATOS": {
-      "price": 21.6,
-      "display": "\u20ac21.60",
-      "change": -2.0
+      "price": 22.04,
+      "display": "\u20ac22.04",
+      "change": -1.1
     },
     "DXC": {
       "price": 11.66,
       "display": "$11.66",
-      "change": 5.1
+      "change": 5.0
     },
     "GIB": {
-      "price": 71.22,
-      "display": "$71.22",
-      "change": 1.5
+      "price": 71.06,
+      "display": "$71.06",
+      "change": 1.2
     }
   },
   "indices": {
@@ -83,16 +83,16 @@
       "change": 2.17
     },
     "SP500": {
-      "value": 7787.53,
-      "change": 0.84
+      "value": 7773.95,
+      "change": 0.66
     },
     "USD_INR": {
-      "value": 96.28,
-      "change": 0.06
+      "value": 96.3,
+      "change": 0.08
     },
     "EUR_INR": {
-      "value": 107.99,
-      "change": -0.25
+      "value": 108.08,
+      "change": -0.17
     }
   },
   "historical": {
@@ -307,8 +307,7 @@
       ],
       "dp": [
         112.0,
-        109.0,
-        108.0
+        109.0
       ]
     },
     "ATOS": {
@@ -327,7 +326,6 @@
         21.0
       ],
       "dp": [
-        22.0,
         22.0,
         22.0
       ]
@@ -386,24 +384,6 @@
       "url": "https://www.business-standard.com/markets/news/rbi-mpc-policy-oil-prices-bond-yields-may-drive-market-this-week-126100400285_1.html"
     },
     {
-      "time": "2026-10-04 09:18",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "RBI policy, TCS earnings, crude prices to steer markets this week",
-      "detail": "In September, the BSE benchmark lost 4,476.98 points, or 5.81 per cent, and the Nifty fell 1,459.95 points, or 6 per cent.",
-      "url": "https://www.thehindubusinessline.com/markets/rbi-policy-tcs-earnings-crude-prices-to-steer-markets-this-week/article71543313.ece"
-    },
-    {
-      "time": "2026-10-04 03:44",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Will Nifty, Sensex plunge for 9th straight week? TCS Q2, 4 factors to drive Dalal Street from Monday",
-      "detail": "India's stock market has faced a challenging downturn, marking eight weeks of losses, the longest in 25 years. Driving this trend are soaring oil prices and rising US bond yields. The sell-off by foreign institutional investors has intensified the downturn. A\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-nifty-sensex-plunge-for-9th-straight-week-tcs-q2-4-factors-to-drive-dalal-street-from-monday/articleshow/134669285.cms"
-    },
-    {
       "time": "2026-10-04 18:14",
       "tk": "ACN",
       "src": "Biztoc.com",
@@ -456,6 +436,24 @@
       "hl": "Valuations of IT stocks already capture most of AI disruption risk: Chintan Haria",
       "detail": "The Nifty IT index\u2019s 25% fall in 2026 may have already priced in much of the threat from AI. Chintan Haria of ICICI Prudential AMC sees selective opportunities in companies positioned to benefit from data engineering, cloud migration, legacy modernisation and\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/valuations-of-it-stocks-already-capture-most-of-ai-disruption-risk-chintan-haria/articleshow/134673144.cms"
+    },
+    {
+      "time": "2026-10-04 09:18",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "RBI policy, TCS earnings, crude prices to steer markets this week",
+      "detail": "In September, the BSE benchmark lost 4,476.98 points, or 5.81 per cent, and the Nifty fell 1,459.95 points, or 6 per cent.",
+      "url": "https://www.thehindubusinessline.com/markets/rbi-policy-tcs-earnings-crude-prices-to-steer-markets-this-week/article71543313.ece"
+    },
+    {
+      "time": "2026-10-04 03:44",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "PEOPLE",
+      "hl": "Will Nifty, Sensex plunge for 9th straight week? TCS Q2, 4 factors to drive Dalal Street from Monday",
+      "detail": "India's stock market has faced a challenging downturn, marking eight weeks of losses, the longest in 25 years. Driving this trend are soaring oil prices and rising US bond yields. The sell-off by foreign institutional investors has intensified the downturn. A\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-nifty-sensex-plunge-for-9th-straight-week-tcs-q2-4-factors-to-drive-dalal-street-from-monday/articleshow/134669285.cms"
     }
   ]
 }
