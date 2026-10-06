@@ -1,56 +1,56 @@
 {
-  "updated": "2026-10-06T17:06:51.252799+00:00",
-  "updated_display": "06 Oct 2026, 17:06 UTC",
+  "updated": "2026-10-06T21:05:41.831645+00:00",
+  "updated_display": "06 Oct 2026, 21:05 UTC",
   "prices": {
     "TCS": {
-      "price": 2100.0,
-      "display": "\u20b92,100",
-      "change": -0.7
+      "price": 2114.4,
+      "display": "\u20b92,114",
+      "change": 1.9
     },
     "INFY": {
-      "price": 1013.85,
-      "display": "\u20b91,014",
-      "change": -0.7
+      "price": 1020.5,
+      "display": "\u20b91,020",
+      "change": -1.4
     },
     "CTSH": {
-      "price": 57.69,
-      "display": "$57.69",
-      "change": -0.8
+      "price": 57.22,
+      "display": "$57.22",
+      "change": -1.6
     },
     "HCLT": {
-      "price": 1204.4,
-      "display": "\u20b91,204",
-      "change": 0.2
+      "price": 1201.9,
+      "display": "\u20b91,202",
+      "change": -3.3
     },
     "WIPRO": {
-      "price": 161.84,
+      "price": 162.14,
       "display": "\u20b9162",
-      "change": -0.2
+      "change": 1.8
     },
     "TECHM": {
-      "price": 1504.5,
-      "display": "\u20b91,504",
-      "change": -2.0
+      "price": 1535.9,
+      "display": "\u20b91,536",
+      "change": 0.2
     },
     "MPHL": {
-      "price": 2298.0,
-      "display": "\u20b92,298",
-      "change": 0.0
+      "price": 2297.1,
+      "display": "\u20b92,297",
+      "change": 2.1
     },
     "PSYS": {
-      "price": 5521.0,
-      "display": "\u20b95,521",
-      "change": -0.2
+      "price": 5530.0,
+      "display": "\u20b95,530",
+      "change": 3.0
     },
     "COFG": {
-      "price": 1849.7,
-      "display": "\u20b91,850",
-      "change": -0.1
+      "price": 1852.0,
+      "display": "\u20b91,852",
+      "change": 1.4
     },
     "ACN": {
-      "price": 194.92,
-      "display": "$195",
-      "change": -0.1
+      "price": 193.4,
+      "display": "$193",
+      "change": -0.8
     },
     "CAP": {
       "price": 109.95,
@@ -63,36 +63,36 @@
       "change": 1.3
     },
     "DXC": {
-      "price": 11.85,
-      "display": "$11.85",
-      "change": 1.6
+      "price": 11.83,
+      "display": "$11.83",
+      "change": 1.5
     },
     "GIB": {
-      "price": 69.54,
-      "display": "$69.54",
+      "price": 69.6,
+      "display": "$69.60",
       "change": -2.1
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73067.81,
-      "change": 0.95
+      "value": 72382.47,
+      "change": 0.66
     },
     "NIFTY_IT": {
-      "value": 28136.05,
-      "change": -0.59
+      "value": 28301.7,
+      "change": -0.01
     },
     "SP500": {
-      "value": 7826.29,
-      "change": 0.67
+      "value": 7818.93,
+      "change": 0.58
     },
     "USD_INR": {
-      "value": 96.42,
-      "change": 0.1
+      "value": 96.36,
+      "change": 0.04
     },
     "EUR_INR": {
-      "value": 108.62,
-      "change": 0.43
+      "value": 108.52,
+      "change": 0.34
     }
   },
   "historical": {
@@ -114,8 +114,7 @@
       "dp": [
         2075.0,
         2075.0,
-        2114.0,
-        2100.0
+        2114.0
       ]
     },
     "INFY": {
@@ -136,8 +135,7 @@
       "dp": [
         1035.0,
         1035.0,
-        1020.0,
-        1014.0
+        1020.0
       ]
     },
     "CTSH": {
@@ -159,7 +157,7 @@
         61.0,
         59.0,
         58.0,
-        58.0
+        57.0
       ]
     },
     "HCLT": {
@@ -180,8 +178,7 @@
       "dp": [
         1243.0,
         1243.0,
-        1202.0,
-        1204.0
+        1202.0
       ]
     },
     "WIPRO": {
@@ -202,7 +199,6 @@
       "dp": [
         159.0,
         159.0,
-        162.0,
         162.0
       ]
     },
@@ -224,8 +220,7 @@
       "dp": [
         1533.0,
         1533.0,
-        1536.0,
-        1504.0
+        1536.0
       ]
     },
     "MPHL": {
@@ -245,8 +240,7 @@
       ],
       "dp": [
         2250.0,
-        2297.0,
-        2298.0
+        2297.0
       ]
     },
     "PSYS": {
@@ -267,8 +261,7 @@
       "dp": [
         5367.0,
         5367.0,
-        5530.0,
-        5521.0
+        5530.0
       ]
     },
     "COFG": {
@@ -289,8 +282,7 @@
       "dp": [
         1826.0,
         1826.0,
-        1852.0,
-        1850.0
+        1852.0
       ]
     },
     "ACN": {
@@ -312,7 +304,7 @@
         212.0,
         199.0,
         195.0,
-        195.0
+        193.0
       ]
     },
     "CAP": {
@@ -415,15 +407,6 @@
       "url": "https://www.livemint.com/companies/news/cognizant-targets-mid-sized-firms-as-ai-pressures-big-outsourcing-deals-11791208286115.html"
     },
     {
-      "time": "2026-10-05 13:34",
-      "tk": "INFY",
-      "src": "BusinessLine",
-      "cat": "PEOPLE",
-      "hl": "Day Trading Guide for October 6, 2026: Intraday supports, resistances for Nifty50 stocks",
-      "detail": "Day Trading Guide gives you the key intraday supports and resistances to watch out for on the Nifty Futures and other widely traded stocks such as Reliance Industries, Infosys, HDFC Bank, TCS, SBI",
-      "url": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-october-06/article71547169.ece"
-    },
-    {
       "time": "2026-10-05 16:45",
       "tk": "CAP",
       "src": "TechCrunch",
@@ -431,15 +414,6 @@
       "hl": "HackerRank's AI interviewer offers a glimpse into what job interviews could become | TechCrunch",
       "detail": "HackerRank\u2019s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
       "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
-    },
-    {
-      "time": "2026-10-05 13:11",
-      "tk": "CTSH",
-      "src": "BusinessLine",
-      "cat": "AI",
-      "hl": "Cognizant launches new business unit for AI transformation of emerging enterprises",
-      "detail": "Cognizant Activate to launch with an initial focus on financial services, healthcare, manufacturing and retail/CPG sectors, where Cognizant has deep domain expertise",
-      "url": "https://www.thehindubusinessline.com/info-tech/cognizant-launches-new-business-unit-for-ai-transformation-of-emerging-enterprises/article71547273.ece"
     },
     {
       "time": "2026-10-05 08:03",
@@ -503,6 +477,15 @@
       "hl": "Stocks to watch on October 5: What is buzzing around these 20 companies",
       "detail": "HDFC Bank, ICICI Life, Wipro, DLF, Ola Electric, Gland Pharma, Unimech, Solex Energy, Aurobindo Pharma, and others",
       "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-on-october-5-what-is-buzzing-around-these-20-companies/article71545670.ece"
+    },
+    {
+      "time": "2026-10-05 12:00",
+      "tk": "CTSH",
+      "src": "PRNewswire",
+      "cat": "RESULTS",
+      "hl": "Cognizant Launches Cognizant Activate to Bring Enterprise AI Transformation for Emerging Enterprises",
+      "detail": "New business unit designed to deliver enterprise-grade AI transformation to emerging enterprises that generate $1 billion to $5 billion in annual revenue, building toward Global 2000 scale, through a dedicated, right-sized operating model built for speed TEAN\u2026",
+      "url": "https://www.prnewswire.com/news-releases/cognizant-launches-cognizant-activate-to-bring-enterprise-ai-transformation-for-emerging-enterprises-302897549.html"
     }
   ]
 }
