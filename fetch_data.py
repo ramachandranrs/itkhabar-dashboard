@@ -382,26 +382,30 @@ def fetch_news():
                         'ents': _extract_entities(title),
                         'tk': tk,
                     }
-                    # Auto-detect category from headline
-                    upper_title = title.upper()
-                    if any(kw in upper_title for kw in
+                    # Auto-detect category from headline + description
+                    upper_text = f"{title} {desc}".upper()
+                    if any(kw in upper_text for kw in
                            ['RESULTS', 'EARNINGS', 'QUARTERLY', 'PROFIT', 'REVENUE',
                             'EBIT', 'EPS', 'PAT ', 'NET INCOME', 'Q1 ', 'Q2 ', 'Q3 ', 'Q4 ',
-                            'FY26', 'FY27', 'FISCAL']):
+                            'FY26', 'FY27', 'FISCAL', 'MARGIN', 'BEAT', 'MISS',
+                            'BLOCKBUSTER', 'ESTIMATES', 'OUTLOOK', 'GUIDANCE']):
                         cat = 'RESULTS'
-                    elif any(kw in upper_title for kw in
-                             ['DEAL', 'CONTRACT', 'WIN', 'AWARD', 'PARTNER', 'ACQUISITION', 'ACQUIRE', 'MERGER', 'MERGE', 'BUYOUT', 'TAKEOVER']):
+                    elif any(kw in upper_text for kw in
+                             ['DEAL', 'CONTRACT', 'WIN', 'AWARD', 'PARTNER', 'ACQUISITION',
+                              'ACQUIRE', 'MERGER', 'MERGE', 'BUYOUT', 'TAKEOVER', ' GCC ']):
                         cat = 'DEAL'
-                    elif any(kw in upper_title for kw in
-                             ['GUIDANCE', 'OUTLOOK', 'FORECAST', 'TARGET', 'UPGRADE',
-                              'DOWNGRADE', 'RATING', ' BUY', 'SELL', ' ADD ']):
+                    elif any(kw in upper_text for kw in
+                             ['FORECAST', 'TARGET', 'UPGRADE',
+                              'DOWNGRADE', 'RATING', ' BUY', 'SELL', ' ADD ',
+                              'STOCK PICK', 'RISK-REWARD', 'RISK REWARD']):
                         cat = 'ANALYST'
-                    elif any(kw in upper_title for kw in
-                             [' AI ', 'ARTIFICIAL INTELLIGENCE', 'GENAI', 'MACHINE LEARNING', 'AUTOMATION', ' RPA ']):
+                    elif any(kw in upper_text for kw in
+                             [' AI ', 'ARTIFICIAL INTELLIGENCE', 'GENAI', 'MACHINE LEARNING',
+                              'AUTOMATION', ' RPA ', 'DIGITAL TRANSFORM']):
                         cat = 'AI'
-                    elif any(kw in upper_title for kw in
+                    elif any(kw in upper_text for kw in
                              ['CEO', 'CTO', 'CFO', 'COO', 'APPOINT', 'RESIGN', 'HIRE', 'BOARD',
-                              'CHAIRMAN', 'CHAIRPERSON', 'LEADERSHIP']):
+                              'CHAIRMAN', 'CHAIRPERSON', 'LEADERSHIP', 'LAYOFF', 'RETRENCH']):
                         cat = 'PEOPLE'
                     else:
                         cat = 'MACRO'
