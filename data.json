@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-05T22:48:32.641634+00:00",
-  "updated_display": "05 Oct 2026, 22:48 UTC",
+  "updated": "2026-10-06T03:12:27.002765+00:00",
+  "updated_display": "06 Oct 2026, 03:12 UTC",
   "prices": {
     "TCS": {
-      "price": 2075.0,
-      "display": "\u20b92,075",
-      "change": 1.2
+      "price": 2114.4,
+      "display": "\u20b92,114",
+      "change": 1.9
     },
     "INFY": {
-      "price": 1035.0,
-      "display": "\u20b91,035",
-      "change": 4.1
+      "price": 1020.5,
+      "display": "\u20b91,020",
+      "change": -1.4
     },
     "CTSH": {
       "price": 58.17,
@@ -18,19 +18,19 @@
       "change": -0.6
     },
     "HCLT": {
-      "price": 1243.1,
-      "display": "\u20b91,243",
-      "change": 1.1
+      "price": 1201.9,
+      "display": "\u20b91,202",
+      "change": -3.3
     },
     "WIPRO": {
-      "price": 159.35,
-      "display": "\u20b9159",
-      "change": 0.5
+      "price": 162.14,
+      "display": "\u20b9162",
+      "change": 1.8
     },
     "TECHM": {
-      "price": 1533.0,
-      "display": "\u20b91,533",
-      "change": 0.6
+      "price": 1535.9,
+      "display": "\u20b91,536",
+      "change": 0.2
     },
     "MPHL": {
       "price": 2250.2,
@@ -38,14 +38,14 @@
       "change": 4.4
     },
     "PSYS": {
-      "price": 5367.0,
-      "display": "\u20b95,367",
-      "change": 1.7
+      "price": 5530.0,
+      "display": "\u20b95,530",
+      "change": 3.0
     },
     "COFG": {
-      "price": 1826.0,
-      "display": "\u20b91,826",
-      "change": 4.4
+      "price": 1852.0,
+      "display": "\u20b91,852",
+      "change": 1.4
     },
     "ACN": {
       "price": 195.05,
@@ -75,12 +75,12 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 71909.7,
-      "change": -0.79
+      "value": 72382.47,
+      "change": 0.66
     },
     "NIFTY_IT": {
-      "value": 28304.7,
-      "change": 2.17
+      "value": 28301.7,
+      "change": -0.01
     },
     "SP500": {
       "value": 7773.95,
@@ -88,11 +88,11 @@
     },
     "USD_INR": {
       "value": 96.3,
-      "change": 0.08
+      "change": -0.03
     },
     "EUR_INR": {
-      "value": 108.08,
-      "change": -0.17
+      "value": 108.03,
+      "change": -0.12
     }
   },
   "historical": {
@@ -112,7 +112,9 @@
         2051.0
       ],
       "dp": [
-        2075.0
+        2075.0,
+        2075.0,
+        2114.0
       ]
     },
     "INFY": {
@@ -131,7 +133,9 @@
         994.0
       ],
       "dp": [
-        1035.0
+        1035.0,
+        1035.0,
+        1020.0
       ]
     },
     "CTSH": {
@@ -171,7 +175,9 @@
         1230.0
       ],
       "dp": [
-        1243.0
+        1243.0,
+        1243.0,
+        1202.0
       ]
     },
     "WIPRO": {
@@ -190,7 +196,9 @@
         158.0
       ],
       "dp": [
-        159.0
+        159.0,
+        159.0,
+        162.0
       ]
     },
     "TECHM": {
@@ -209,7 +217,9 @@
         1524.0
       ],
       "dp": [
-        1533.0
+        1533.0,
+        1533.0,
+        1536.0
       ]
     },
     "MPHL": {
@@ -247,7 +257,9 @@
         5279.0
       ],
       "dp": [
-        5367.0
+        5367.0,
+        5367.0,
+        5530.0
       ]
     },
     "COFG": {
@@ -266,7 +278,9 @@
         1749.0
       ],
       "dp": [
-        1826.0
+        1826.0,
+        1826.0,
+        1852.0
       ]
     },
     "ACN": {
@@ -375,22 +389,58 @@
   },
   "news": [
     {
-      "time": "2026-10-04 09:41",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "RBI MPC policy, oil prices, bond yields may drive market this week",
-      "detail": "RBI's interest rate decision, TCS' earnings, crude oil prices and global bond yields will be important factors to determine stock market movement this week, analysts said.\nMacroeconomic data announcements and foreign investors' trading activity will also guid\u2026",
-      "url": "https://www.business-standard.com/markets/news/rbi-mpc-policy-oil-prices-bond-yields-may-drive-market-this-week-126100400285_1.html"
+      "time": "2026-10-05 03:09",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "TCS, Infosys and other IT stocks in focus after Accenture Q4 revenue, outlook beat estimates",
+      "detail": "Indian IT stocks including TCS and Infosys are in focus following Accenture's strong Q4 results and above-estimate revenue guidance. While the outlook signals potential recovery in discretionary technology spending, analysts warn that Indian IT firms may stil\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-and-other-it-stocks-in-focus-after-accenture-q4-revenue-outlook-beat-estimates/articleshow/134684693.cms"
     },
     {
-      "time": "2026-10-04 18:14",
-      "tk": "ACN",
-      "src": "Biztoc.com",
+      "time": "2026-10-05 02:34",
+      "tk": "WIPRO",
+      "src": "BusinessLine",
+      "cat": "PEOPLE",
+      "hl": "Stocks to watch on October 5: What is buzzing around these 20 companies",
+      "detail": "HDFC Bank, ICICI Life, Wipro, DLF, Ola Electric, Gland Pharma, Unimech, Solex Energy, Aurobindo Pharma, and others",
+      "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-on-october-5-what-is-buzzing-around-these-20-companies/article71545670.ece"
+    },
+    {
+      "time": "2026-10-05 01:24",
+      "tk": "INFY",
+      "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "Really Priced Like Its Best Days Are Over?",
-      "detail": "Accenture (NYSE:ACN) maintains a formidable financial foundation anchored by $11.6 billion in annual free cash flow, representing 1.4 times net income, alongside a robust return-on-equity profile and a balance sheet that routinely returns nearly 100% of cash \u2026",
-      "url": "https://biztoc.com/x/872454c0946429a4"
+      "hl": "Now, requests sent to Claude to be processed within India",
+      "detail": "Anthropic has introduced in-country inference for its Claude AI models in India using Amazon Bedrock. This advancement allows processing requests on local servers, fulfilling data residency requirements for regulated sectors. Companies like TCS, Infosys, and \u2026",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/now-requests-sent-to-claude-to-be-processed-within-india/articleshow/134683523.cms"
+    },
+    {
+      "time": "2026-10-05 00:54",
+      "tk": "ACN",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Blockbuster Accenture show holds out hope for battered Indian IT",
+      "detail": "Accenture's latest financial performance has sparked renewed optimism among investors in the Indian IT sector. The strong results hint at a revival in client discretionary spending. Analysts underscore the need for Indian IT firms to enhance their artificial \u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/blockbuster-accenture-show-holds-out-hope-for-battered-indian-it/articleshow/134683352.cms"
+    },
+    {
+      "time": "2026-10-05 00:48",
+      "tk": "ACN",
+      "src": "Livemint",
+      "cat": "DEAL",
+      "hl": "Accenture to return less to shareholders as acquisition spending rises",
+      "detail": "Accenture\u2019s capital-allocation decisions matter to Indian IT services firms, which tend to track the company\u2019s strategy. Local IT services firms also returned less to shareholders last fiscal.&nbsp;",
+      "url": "https://www.livemint.com/companies/news/accenture-dividend-share-buyback-11791124709181.html"
+    },
+    {
+      "time": "2026-10-05 00:30",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Stocks in news: HDFC Bank, Infosys, Yes Bank, Hindustan Zinc and RVNL",
+      "detail": "Indian equities continued their downward trend due to rising global bond yields and high crude oil prices. The Nifty 50 fell by 198.50 points, while the BSE Sensex decreased by 570.59 points. Key companies like HDFC Bank and Infosys made significant corporate\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-hdfc-bank-infosys-yes-bank-hindustan-zinc-and-rvnl/articleshow/134678258.cms"
     },
     {
       "time": "2026-10-02 10:35",
@@ -400,15 +450,6 @@
       "hl": "Chatbots to always-on AI: Why OpenAI, Meta, Google want persistent agents",
       "detail": "Persistent Agents: OpenAI, Meta and Google are moving AI beyond task-specific agents towards persistent systems that can handle multiple jobs, retain context, access apps and continue working in the background",
       "url": "https://www.business-standard.com/technology/artificial-intelligence/rise-of-persistent-ai-agents-openai-meta-google-126100200565_1.html"
-    },
-    {
-      "time": "2026-10-01 11:47",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Infosys, Wipro ADRs soar up to 8% as strong Accenture earnings forecast lifts mood",
-      "detail": "Infosys and Wipro ADRs rallied in US premarket trading after Accenture forecast stronger-than-expected annual revenue growth. Its upbeat outlook eased concerns over global technology spending, while steady consulting, managed-services and AI demand improved s\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/infosys-wipro-adrs-soar-up-to-8-as-strong-accenture-earnings-forecast-lifts-mood/articleshow/134617937.cms"
     },
     {
       "time": "2026-10-04 13:03",
@@ -429,31 +470,13 @@
       "url": "https://www.business-standard.com/industry/news/indian-it-firms-turn-to-gcc-acquisitions-as-organic-revenue-growth-falters-126100400444_1.html"
     },
     {
-      "time": "2026-10-04 10:17",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "AI",
-      "hl": "Valuations of IT stocks already capture most of AI disruption risk: Chintan Haria",
-      "detail": "The Nifty IT index\u2019s 25% fall in 2026 may have already priced in much of the threat from AI. Chintan Haria of ICICI Prudential AMC sees selective opportunities in companies positioned to benefit from data engineering, cloud migration, legacy modernisation and\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/valuations-of-it-stocks-already-capture-most-of-ai-disruption-risk-chintan-haria/articleshow/134673144.cms"
-    },
-    {
-      "time": "2026-10-04 09:18",
+      "time": "2026-10-04 09:41",
       "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "RBI policy, TCS earnings, crude prices to steer markets this week",
-      "detail": "In September, the BSE benchmark lost 4,476.98 points, or 5.81 per cent, and the Nifty fell 1,459.95 points, or 6 per cent.",
-      "url": "https://www.thehindubusinessline.com/markets/rbi-policy-tcs-earnings-crude-prices-to-steer-markets-this-week/article71543313.ece"
-    },
-    {
-      "time": "2026-10-04 03:44",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Will Nifty, Sensex plunge for 9th straight week? TCS Q2, 4 factors to drive Dalal Street from Monday",
-      "detail": "India's stock market has faced a challenging downturn, marking eight weeks of losses, the longest in 25 years. Driving this trend are soaring oil prices and rising US bond yields. The sell-off by foreign institutional investors has intensified the downturn. A\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-nifty-sensex-plunge-for-9th-straight-week-tcs-q2-4-factors-to-drive-dalal-street-from-monday/articleshow/134669285.cms"
+      "src": "Business Standard",
+      "cat": "MACRO",
+      "hl": "RBI MPC policy, oil prices, bond yields may drive market this week",
+      "detail": "RBI's interest rate decision, TCS' earnings, crude oil prices and global bond yields will be important factors to determine stock market movement this week, analysts said.\nMacroeconomic data announcements and foreign investors' trading activity will also guid\u2026",
+      "url": "https://www.business-standard.com/markets/news/rbi-mpc-policy-oil-prices-bond-yields-may-drive-market-this-week-126100400285_1.html"
     }
   ]
 }
