@@ -1,98 +1,98 @@
 {
-  "updated": "2026-10-06T03:12:27.002765+00:00",
-  "updated_display": "06 Oct 2026, 03:12 UTC",
+  "updated": "2026-10-06T17:06:51.252799+00:00",
+  "updated_display": "06 Oct 2026, 17:06 UTC",
   "prices": {
     "TCS": {
-      "price": 2114.4,
-      "display": "\u20b92,114",
-      "change": 1.9
+      "price": 2100.0,
+      "display": "\u20b92,100",
+      "change": -0.7
     },
     "INFY": {
-      "price": 1020.5,
-      "display": "\u20b91,020",
-      "change": -1.4
+      "price": 1013.85,
+      "display": "\u20b91,014",
+      "change": -0.7
     },
     "CTSH": {
-      "price": 58.17,
-      "display": "$58.17",
-      "change": -0.6
+      "price": 57.69,
+      "display": "$57.69",
+      "change": -0.8
     },
     "HCLT": {
-      "price": 1201.9,
-      "display": "\u20b91,202",
-      "change": -3.3
-    },
-    "WIPRO": {
-      "price": 162.14,
-      "display": "\u20b9162",
-      "change": 1.8
-    },
-    "TECHM": {
-      "price": 1535.9,
-      "display": "\u20b91,536",
+      "price": 1204.4,
+      "display": "\u20b91,204",
       "change": 0.2
     },
+    "WIPRO": {
+      "price": 161.84,
+      "display": "\u20b9162",
+      "change": -0.2
+    },
+    "TECHM": {
+      "price": 1504.5,
+      "display": "\u20b91,504",
+      "change": -2.0
+    },
     "MPHL": {
-      "price": 2250.2,
-      "display": "\u20b92,250",
-      "change": 4.4
+      "price": 2298.0,
+      "display": "\u20b92,298",
+      "change": 0.0
     },
     "PSYS": {
-      "price": 5530.0,
-      "display": "\u20b95,530",
-      "change": 3.0
+      "price": 5521.0,
+      "display": "\u20b95,521",
+      "change": -0.2
     },
     "COFG": {
-      "price": 1852.0,
-      "display": "\u20b91,852",
-      "change": 1.4
+      "price": 1849.7,
+      "display": "\u20b91,850",
+      "change": -0.1
     },
     "ACN": {
-      "price": 195.05,
+      "price": 194.92,
       "display": "$195",
-      "change": -1.9
+      "change": -0.1
     },
     "CAP": {
-      "price": 108.9,
-      "display": "\u20ac109",
-      "change": -2.9
+      "price": 109.95,
+      "display": "\u20ac110",
+      "change": 1.4
     },
     "ATOS": {
-      "price": 22.04,
-      "display": "\u20ac22.04",
-      "change": -1.1
+      "price": 21.88,
+      "display": "\u20ac21.88",
+      "change": 1.3
     },
     "DXC": {
-      "price": 11.66,
-      "display": "$11.66",
-      "change": 5.0
+      "price": 11.85,
+      "display": "$11.85",
+      "change": 1.6
     },
     "GIB": {
-      "price": 71.06,
-      "display": "$71.06",
-      "change": 1.2
+      "price": 69.54,
+      "display": "$69.54",
+      "change": -2.1
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72382.47,
-      "change": 0.66
+      "value": 73067.81,
+      "change": 0.95
     },
     "NIFTY_IT": {
-      "value": 28301.7,
-      "change": -0.01
+      "value": 28136.05,
+      "change": -0.59
     },
     "SP500": {
-      "value": 7773.95,
-      "change": 0.66
+      "value": 7826.29,
+      "change": 0.67
     },
     "USD_INR": {
-      "value": 96.3,
-      "change": -0.03
+      "value": 96.42,
+      "change": 0.1
     },
     "EUR_INR": {
-      "value": 108.03,
-      "change": -0.12
+      "value": 108.62,
+      "change": 0.43
     }
   },
   "historical": {
@@ -114,7 +114,8 @@
       "dp": [
         2075.0,
         2075.0,
-        2114.0
+        2114.0,
+        2100.0
       ]
     },
     "INFY": {
@@ -135,7 +136,8 @@
       "dp": [
         1035.0,
         1035.0,
-        1020.0
+        1020.0,
+        1014.0
       ]
     },
     "CTSH": {
@@ -156,6 +158,7 @@
       "dp": [
         61.0,
         59.0,
+        58.0,
         58.0
       ]
     },
@@ -177,7 +180,8 @@
       "dp": [
         1243.0,
         1243.0,
-        1202.0
+        1202.0,
+        1204.0
       ]
     },
     "WIPRO": {
@@ -198,6 +202,7 @@
       "dp": [
         159.0,
         159.0,
+        162.0,
         162.0
       ]
     },
@@ -219,7 +224,8 @@
       "dp": [
         1533.0,
         1533.0,
-        1536.0
+        1536.0,
+        1504.0
       ]
     },
     "MPHL": {
@@ -238,7 +244,9 @@
         2154.0
       ],
       "dp": [
-        2250.0
+        2250.0,
+        2297.0,
+        2298.0
       ]
     },
     "PSYS": {
@@ -259,7 +267,8 @@
       "dp": [
         5367.0,
         5367.0,
-        5530.0
+        5530.0,
+        5521.0
       ]
     },
     "COFG": {
@@ -280,7 +289,8 @@
       "dp": [
         1826.0,
         1826.0,
-        1852.0
+        1852.0,
+        1850.0
       ]
     },
     "ACN": {
@@ -301,6 +311,7 @@
       "dp": [
         212.0,
         199.0,
+        195.0,
         195.0
       ]
     },
@@ -321,7 +332,9 @@
       ],
       "dp": [
         112.0,
-        109.0
+        109.0,
+        108.0,
+        110.0
       ]
     },
     "ATOS": {
@@ -340,6 +353,8 @@
         21.0
       ],
       "dp": [
+        22.0,
+        22.0,
         22.0,
         22.0
       ]
@@ -362,6 +377,7 @@
       "dp": [
         12.0,
         11.0,
+        12.0,
         12.0
       ]
     },
@@ -383,11 +399,93 @@
       "dp": [
         71.0,
         70.0,
-        71.0
+        71.0,
+        70.0
       ]
     }
   },
   "news": [
+    {
+      "time": "2026-10-05 15:12",
+      "tk": "CTSH",
+      "src": "Livemint",
+      "cat": "DEAL",
+      "hl": "Cognizant targets mid-sized firms as AI pressures big outsourcing deals",
+      "detail": "Cognizant Activate follows similar moves by Accenture and HCLTech as the tech-services giants seek new growth beyond their traditional large-enterprise contracts.",
+      "url": "https://www.livemint.com/companies/news/cognizant-targets-mid-sized-firms-as-ai-pressures-big-outsourcing-deals-11791208286115.html"
+    },
+    {
+      "time": "2026-10-05 13:34",
+      "tk": "INFY",
+      "src": "BusinessLine",
+      "cat": "PEOPLE",
+      "hl": "Day Trading Guide for October 6, 2026: Intraday supports, resistances for Nifty50 stocks",
+      "detail": "Day Trading Guide gives you the key intraday supports and resistances to watch out for on the Nifty Futures and other widely traded stocks such as Reliance Industries, Infosys, HDFC Bank, TCS, SBI",
+      "url": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-october-06/article71547169.ece"
+    },
+    {
+      "time": "2026-10-05 16:45",
+      "tk": "CAP",
+      "src": "TechCrunch",
+      "cat": "AI",
+      "hl": "HackerRank's AI interviewer offers a glimpse into what job interviews could become | TechCrunch",
+      "detail": "HackerRank\u2019s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+      "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+    },
+    {
+      "time": "2026-10-05 13:11",
+      "tk": "CTSH",
+      "src": "BusinessLine",
+      "cat": "AI",
+      "hl": "Cognizant launches new business unit for AI transformation of emerging enterprises",
+      "detail": "Cognizant Activate to launch with an initial focus on financial services, healthcare, manufacturing and retail/CPG sectors, where Cognizant has deep domain expertise",
+      "url": "https://www.thehindubusinessline.com/info-tech/cognizant-launches-new-business-unit-for-ai-transformation-of-emerging-enterprises/article71547273.ece"
+    },
+    {
+      "time": "2026-10-05 08:03",
+      "tk": "ACN",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "IT shares trade mixed post Accenture earnings; HCL Tech, Infy down up to 4%",
+      "detail": "Analysts expect IT companies to witness moderate improvement in Q2FY27, as macro headwinds from the Middle East conflict continue to weigh on client spending and decision-making.",
+      "url": "https://www.business-standard.com/markets/news/it-shares-trade-mixed-post-accenture-earnings-hcl-tech-infy-down-up-to-4-126100500411_1.html"
+    },
+    {
+      "time": "2026-10-05 05:35",
+      "tk": "ACN",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "IT stocks: Accenture Q4 results, FY27 outlook lifts sentiment as Indian IT Q2 earnings near",
+      "detail": "Accenture\u2019s strong Q4 and upbeat FY27 outlook boost Indian IT sentiment ahead of Q2 earnings season.",
+      "url": "https://www.thehindubusinessline.com/markets/it-stocks-accenture-q4-results-fy27-outlook-lifts-sentiment-as-indian-it-q2-earnings-near/article71545936.ece"
+    },
+    {
+      "time": "2026-10-05 04:21",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "AI deals seen driving medium-term growth as Indian IT sector faces muted Q2: Report",
+      "detail": "India's IT services sector is likely to see muted performance in the second quarter of FY27, but increasing traction in artificial intelligence-related deals could support growth over the medium term, Centrum said in a report.",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-deals-seen-driving-medium-term-growth-as-indian-it-sector-faces-muted-q2-report/articleshow/134685737.cms"
+    },
+    {
+      "time": "2026-10-05 08:43",
+      "tk": "ATOS",
+      "src": "Biztoc.com",
+      "cat": "DEAL",
+      "hl": "Atos secures \u00a3350 million application management contract with Metropolitan Police Service",
+      "detail": "Press Release\nAtos secures \u00a3350 million application management contract with Metropolitan Police Service\nSix-year contract with opportunity to extend for a further two years to deliver core services with the option of further services added at the discretion \u2026",
+      "url": "https://biztoc.com/x/d42fc426d3fed866"
+    },
+    {
+      "time": "2026-10-04 13:03",
+      "tk": "NTTD",
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "AI to help India contribute more to NTT Data\u2019s global business",
+      "detail": "IT infrastructure is a significant business for the company, spanning partnerships with infrastructure providers such as Cisco, Dell, HP, Microsoft, VMware, Red Hat, and, more recently, Nvidia",
+      "url": "https://www.thehindubusinessline.com/companies/ai-to-help-india-contribute-more-to-ntt-datas-global-business/article71543646.ece"
+    },
     {
       "time": "2026-10-05 03:09",
       "tk": "INFY",
@@ -405,78 +503,6 @@
       "hl": "Stocks to watch on October 5: What is buzzing around these 20 companies",
       "detail": "HDFC Bank, ICICI Life, Wipro, DLF, Ola Electric, Gland Pharma, Unimech, Solex Energy, Aurobindo Pharma, and others",
       "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-on-october-5-what-is-buzzing-around-these-20-companies/article71545670.ece"
-    },
-    {
-      "time": "2026-10-05 01:24",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Now, requests sent to Claude to be processed within India",
-      "detail": "Anthropic has introduced in-country inference for its Claude AI models in India using Amazon Bedrock. This advancement allows processing requests on local servers, fulfilling data residency requirements for regulated sectors. Companies like TCS, Infosys, and \u2026",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/now-requests-sent-to-claude-to-be-processed-within-india/articleshow/134683523.cms"
-    },
-    {
-      "time": "2026-10-05 00:54",
-      "tk": "ACN",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Blockbuster Accenture show holds out hope for battered Indian IT",
-      "detail": "Accenture's latest financial performance has sparked renewed optimism among investors in the Indian IT sector. The strong results hint at a revival in client discretionary spending. Analysts underscore the need for Indian IT firms to enhance their artificial \u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/blockbuster-accenture-show-holds-out-hope-for-battered-indian-it/articleshow/134683352.cms"
-    },
-    {
-      "time": "2026-10-05 00:48",
-      "tk": "ACN",
-      "src": "Livemint",
-      "cat": "DEAL",
-      "hl": "Accenture to return less to shareholders as acquisition spending rises",
-      "detail": "Accenture\u2019s capital-allocation decisions matter to Indian IT services firms, which tend to track the company\u2019s strategy. Local IT services firms also returned less to shareholders last fiscal.&nbsp;",
-      "url": "https://www.livemint.com/companies/news/accenture-dividend-share-buyback-11791124709181.html"
-    },
-    {
-      "time": "2026-10-05 00:30",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Stocks in news: HDFC Bank, Infosys, Yes Bank, Hindustan Zinc and RVNL",
-      "detail": "Indian equities continued their downward trend due to rising global bond yields and high crude oil prices. The Nifty 50 fell by 198.50 points, while the BSE Sensex decreased by 570.59 points. Key companies like HDFC Bank and Infosys made significant corporate\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-hdfc-bank-infosys-yes-bank-hindustan-zinc-and-rvnl/articleshow/134678258.cms"
-    },
-    {
-      "time": "2026-10-02 10:35",
-      "tk": "PSYS",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "Chatbots to always-on AI: Why OpenAI, Meta, Google want persistent agents",
-      "detail": "Persistent Agents: OpenAI, Meta and Google are moving AI beyond task-specific agents towards persistent systems that can handle multiple jobs, retain context, access apps and continue working in the background",
-      "url": "https://www.business-standard.com/technology/artificial-intelligence/rise-of-persistent-ai-agents-openai-meta-google-126100200565_1.html"
-    },
-    {
-      "time": "2026-10-04 13:03",
-      "tk": "NTTD",
-      "src": "BusinessLine",
-      "cat": "MACRO",
-      "hl": "AI to help India contribute more to NTT Data\u2019s global business",
-      "detail": "IT infrastructure is a significant business for the company, spanning partnerships with infrastructure providers such as Cisco, Dell, HP, Microsoft, VMware, Red Hat, and, more recently, Nvidia",
-      "url": "https://www.thehindubusinessline.com/companies/ai-to-help-india-contribute-more-to-ntt-datas-global-business/article71543646.ece"
-    },
-    {
-      "time": "2026-10-04 11:55",
-      "tk": "Sector",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "Indian IT firms turn to GCC acquisitions as organic revenue growth falters",
-      "detail": "IT services firms are targeting GCCs for scale, steady revenue and domain expertise as weak organic growth and AI put pressure on traditional contracts",
-      "url": "https://www.business-standard.com/industry/news/indian-it-firms-turn-to-gcc-acquisitions-as-organic-revenue-growth-falters-126100400444_1.html"
-    },
-    {
-      "time": "2026-10-04 09:41",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "RBI MPC policy, oil prices, bond yields may drive market this week",
-      "detail": "RBI's interest rate decision, TCS' earnings, crude oil prices and global bond yields will be important factors to determine stock market movement this week, analysts said.\nMacroeconomic data announcements and foreign investors' trading activity will also guid\u2026",
-      "url": "https://www.business-standard.com/markets/news/rbi-mpc-policy-oil-prices-bond-yields-may-drive-market-this-week-126100400285_1.html"
     }
   ]
 }
