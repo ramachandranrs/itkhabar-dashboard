@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T16:12:08.620852+00:00",
-  "updated_display": "07 Oct 2026, 16:12 UTC",
+  "updated": "2026-10-07T16:21:39.246716+00:00",
+  "updated_display": "07 Oct 2026, 16:21 UTC",
   "prices": {
     "TCS": {
       "price": 2080.3,
@@ -13,9 +13,9 @@
       "change": -2.2
     },
     "CTSH": {
-      "price": 57.08,
-      "display": "$57.08",
-      "change": -0.2
+      "price": 56.99,
+      "display": "$56.99",
+      "change": -0.4
     },
     "HCLT": {
       "price": 1185.0,
@@ -48,9 +48,9 @@
       "change": -1.5
     },
     "ACN": {
-      "price": 197.25,
+      "price": 197.43,
       "display": "$197",
-      "change": 2.0
+      "change": 2.1
     },
     "CAP": {
       "price": 110.9,
@@ -68,9 +68,9 @@
       "change": 0.3
     },
     "GIB": {
-      "price": 69.98,
-      "display": "$69.98",
-      "change": 0.5
+      "price": 69.79,
+      "display": "$69.79",
+      "change": 0.3
     }
   },
   "indices": {
@@ -83,7 +83,7 @@
       "change": -1.34
     },
     "SP500": {
-      "value": 7793.7,
+      "value": 7793.61,
       "change": -0.32
     },
     "USD_INR": {
@@ -430,15 +430,6 @@
       "url": "https://www.prnewswire.com/news-releases/tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise-302899746.html"
     },
     {
-      "time": "2026-10-06 10:29",
-      "tk": "ATOS",
-      "src": "Theregister.com",
-      "cat": "RESULTS",
-      "hl": "Atos lands \u00a3350M beat keeping Met Police applications running",
-      "detail": "Six-year deal covers management and security, with options to add cloud and digital workplace services",
-      "url": "https://www.theregister.com/public-sector/2026/10/06/atos-lands-350m-beat-keeping-met-police-applications-running/5301310"
-    },
-    {
       "time": "2026-10-06 16:01",
       "tk": "ACN",
       "src": "Bitcoinist",
@@ -457,13 +448,22 @@
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-software-shares-scale-fresh-2026-highs-as-ai-disruption-worries-fade/articleshow/134743282.cms"
     },
     {
-      "time": "2026-10-06 14:08",
-      "tk": "ACN",
-      "src": "Nextgov",
+      "time": "2026-10-06 16:20",
+      "tk": "MPHL",
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "Mphasis extends \u00a335.4 m contract with Social Security Scotland",
+      "detail": "Mphasis has announced it will extend its collaboration with Social Security Scotland as it signs an agreement for approximately \u00a335.4 million to help maintain reliable access to vital benefits services supporting more than 2 million citizens across Scotland.",
+      "url": "https://www.thehindubusinessline.com/companies/mphasis-extends-354-m-contract-with-social-security-scotland/article71552344.ece"
+    },
+    {
+      "time": "2026-10-06 10:29",
+      "tk": "ATOS",
+      "src": "Theregister.com",
       "cat": "RESULTS",
-      "hl": "FBI removes Accenture contractor after missed security patch led to breach",
-      "detail": "The bureau\u2019s cyber chief blamed a contractor\u2019s failure to apply an available fix for an intrusion that may have exposed sensitive employee information.",
-      "url": "https://www.nextgov.com/cybersecurity/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416441/"
+      "hl": "Atos lands \u00a3350M beat keeping Met Police applications running",
+      "detail": "Six-year deal covers management and security, with options to add cloud and digital workplace services",
+      "url": "https://www.theregister.com/public-sector/2026/10/06/atos-lands-350m-beat-keeping-met-police-applications-running/5301310"
     },
     {
       "time": "2026-10-05 15:12",
@@ -1341,14 +1341,14 @@
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701429
+      "usd_rate": 0.701434
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.119695,
+    "EUR": 1.120072,
     "JPY": 0.006329,
-    "CAD": 0.701429,
+    "CAD": 0.701434,
     "INR": 0.010334
   }
 }
