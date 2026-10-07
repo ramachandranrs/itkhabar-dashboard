@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T15:23:42.310364+00:00",
-  "updated_display": "07 Oct 2026, 15:23 UTC",
+  "updated": "2026-10-07T16:00:22.676667+00:00",
+  "updated_display": "07 Oct 2026, 16:00 UTC",
   "prices": {
     "TCS": {
       "price": 2080.3,
@@ -13,9 +13,9 @@
       "change": -2.2
     },
     "CTSH": {
-      "price": 56.63,
-      "display": "$56.63",
-      "change": -1.0
+      "price": 57.13,
+      "display": "$57.13",
+      "change": -0.2
     },
     "HCLT": {
       "price": 1185.0,
@@ -48,19 +48,19 @@
       "change": -1.5
     },
     "ACN": {
-      "price": 195.34,
-      "display": "$195",
-      "change": 1.0
+      "price": 197.75,
+      "display": "$198",
+      "change": 2.2
     },
     "CAP": {
-      "price": 109.85,
-      "display": "\u20ac110",
-      "change": -0.1
+      "price": 110.9,
+      "display": "\u20ac111",
+      "change": 0.9
     },
     "ATOS": {
-      "price": 21.88,
-      "display": "\u20ac21.88",
-      "change": 0.0
+      "price": 22.1,
+      "display": "\u20ac22.10",
+      "change": 1.0
     },
     "DXC": {
       "price": 11.86,
@@ -68,9 +68,9 @@
       "change": 0.3
     },
     "GIB": {
-      "price": 69.68,
-      "display": "$69.68",
-      "change": 0.1
+      "price": 70.04,
+      "display": "$70.04",
+      "change": 0.6
     }
   },
   "indices": {
@@ -83,16 +83,16 @@
       "change": -1.34
     },
     "SP500": {
-      "value": 7775.07,
-      "change": -0.56
+      "value": 7791.47,
+      "change": -0.35
     },
     "USD_INR": {
       "value": 96.76,
       "change": 0.44
     },
     "EUR_INR": {
-      "value": 108.07,
-      "change": 0.12
+      "value": 108.28,
+      "change": 0.32
     }
   },
   "historical": {
@@ -323,7 +323,7 @@
         199.0,
         195.0,
         193.0,
-        195.0
+        198.0
       ]
     },
     "CAP": {
@@ -346,7 +346,7 @@
         109.0,
         108.0,
         110.0,
-        110.0
+        111.0
       ]
     },
     "ATOS": {
@@ -589,6 +589,7 @@
         "growth": null,
         "ebit_margin": 24.8,
         "op_profit": 676270,
+        "op_profit_usd": 6989,
         "fcf": 361.26,
         "fcf_usd": 3.73
       },
@@ -655,6 +656,7 @@
         "growth": null,
         "ebit_margin": 20.4,
         "op_profit": 4135,
+        "op_profit_usd": 43,
         "fcf": 3.8,
         "fcf_usd": 0.04
       },
@@ -721,6 +723,7 @@
         "growth": null,
         "ebit_margin": 16.3,
         "op_profit": 3520,
+        "op_profit_usd": 3520,
         "fcf": 2.6,
         "fcf_usd": 2.6
       },
@@ -787,6 +790,7 @@
         "growth": null,
         "ebit_margin": 31.4,
         "op_profit": 417330,
+        "op_profit_usd": 4313,
         "fcf": null,
         "fcf_usd": null
       },
@@ -853,6 +857,7 @@
         "growth": null,
         "ebit_margin": 16.0,
         "op_profit": 152011,
+        "op_profit_usd": 1571,
         "fcf": 124.84,
         "fcf_usd": 1.29
       },
@@ -919,6 +924,7 @@
         "growth": null,
         "ebit_margin": 13.1,
         "op_profit": 77171,
+        "op_profit_usd": 797,
         "fcf": null,
         "fcf_usd": null
       },
@@ -985,6 +991,7 @@
         "growth": null,
         "ebit_margin": 15.2,
         "op_profit": 24803,
+        "op_profit_usd": 256,
         "fcf": null,
         "fcf_usd": null
       },
@@ -1051,6 +1058,7 @@
         "growth": null,
         "ebit_margin": 15.5,
         "op_profit": 23911,
+        "op_profit_usd": 247,
         "fcf": null,
         "fcf_usd": null
       },
@@ -1117,6 +1125,7 @@
         "growth": null,
         "ebit_margin": 14.5,
         "op_profit": 26163,
+        "op_profit_usd": 270,
         "fcf": null,
         "fcf_usd": null
       },
@@ -1183,6 +1192,7 @@
         "growth": null,
         "ebit_margin": 15.7,
         "op_profit": 11515,
+        "op_profit_usd": 11515,
         "fcf": 12.59,
         "fcf_usd": 12.59
       },
@@ -1249,6 +1259,7 @@
         "growth": null,
         "ebit_margin": 2.4,
         "op_profit": 300,
+        "op_profit_usd": 300,
         "fcf": 0.82,
         "fcf_usd": 0.82
       },
@@ -1315,19 +1326,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
+        "op_profit_usd": 1893,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701484
+      "usd_rate": 0.701469
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.11957,
-    "JPY": 0.006323,
-    "CAD": 0.701484,
+    "EUR": 1.119069,
+    "JPY": 0.006324,
+    "CAD": 0.701469,
     "INR": 0.010334
   }
 }
