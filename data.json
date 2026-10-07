@@ -1,56 +1,56 @@
 {
-  "updated": "2026-10-07T17:43:51.679111+00:00",
-  "updated_display": "07 Oct 2026, 17:43 UTC",
+  "updated": "2026-10-07T21:25:57.289925+00:00",
+  "updated_display": "07 Oct 2026, 21:25 UTC",
   "prices": {
     "TCS": {
-      "price": 2080.3,
-      "display": "\u20b92,080",
-      "change": -0.9
+      "price": 2100.0,
+      "display": "\u20b92,100",
+      "change": -0.7
     },
     "INFY": {
-      "price": 992.0,
-      "display": "\u20b9992",
-      "change": -2.2
+      "price": 1013.85,
+      "display": "\u20b91,014",
+      "change": -0.7
     },
     "CTSH": {
-      "price": 57.0,
-      "display": "$57.00",
-      "change": -0.4
-    },
-    "HCLT": {
-      "price": 1185.0,
-      "display": "\u20b91,185",
-      "change": -1.6
-    },
-    "WIPRO": {
-      "price": 159.6,
-      "display": "\u20b9160",
-      "change": -1.4
-    },
-    "TECHM": {
-      "price": 1491.1,
-      "display": "\u20b91,491",
-      "change": -0.9
-    },
-    "MPHL": {
-      "price": 2289.0,
-      "display": "\u20b92,289",
-      "change": -0.4
-    },
-    "PSYS": {
-      "price": 5507.0,
-      "display": "\u20b95,507",
+      "price": 57.07,
+      "display": "$57.07",
       "change": -0.3
     },
+    "HCLT": {
+      "price": 1204.4,
+      "display": "\u20b91,204",
+      "change": 0.2
+    },
+    "WIPRO": {
+      "price": 161.84,
+      "display": "\u20b9162",
+      "change": -0.2
+    },
+    "TECHM": {
+      "price": 1504.5,
+      "display": "\u20b91,504",
+      "change": -2.0
+    },
+    "MPHL": {
+      "price": 2298.0,
+      "display": "\u20b92,298",
+      "change": 0.0
+    },
+    "PSYS": {
+      "price": 5521.0,
+      "display": "\u20b95,521",
+      "change": -0.2
+    },
     "COFG": {
-      "price": 1822.2,
-      "display": "\u20b91,822",
-      "change": -1.5
+      "price": 1849.7,
+      "display": "\u20b91,850",
+      "change": -0.1
     },
     "ACN": {
-      "price": 196.81,
+      "price": 196.64,
       "display": "$197",
-      "change": 1.8
+      "change": 1.7
     },
     "CAP": {
       "price": 110.9,
@@ -63,36 +63,36 @@
       "change": 1.0
     },
     "DXC": {
-      "price": 11.8,
-      "display": "$11.80",
-      "change": -0.3
+      "price": 12.02,
+      "display": "$12.02",
+      "change": 1.6
     },
     "GIB": {
-      "price": 70.1,
-      "display": "$70.10",
-      "change": 0.7
+      "price": 69.0,
+      "display": "$69.00",
+      "change": -0.9
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72638.7,
-      "change": -0.59
+      "value": 73067.81,
+      "change": 0.95
     },
     "NIFTY_IT": {
-      "value": 27757.8,
-      "change": -1.34
+      "value": 28136.05,
+      "change": -0.59
     },
     "SP500": {
-      "value": 7802.26,
-      "change": -0.21
+      "value": 7801.77,
+      "change": -0.22
     },
     "USD_INR": {
       "value": 96.76,
-      "change": 0.44
+      "change": 0.43
     },
     "EUR_INR": {
-      "value": 108.33,
-      "change": 0.36
+      "value": 108.36,
+      "change": 0.39
     }
   },
   "historical": {
@@ -115,8 +115,7 @@
         2075.0,
         2075.0,
         2114.0,
-        2100.0,
-        2080.0
+        2100.0
       ]
     },
     "INFY": {
@@ -138,8 +137,7 @@
         1035.0,
         1035.0,
         1020.0,
-        1014.0,
-        992.0
+        1014.0
       ]
     },
     "CTSH": {
@@ -184,8 +182,7 @@
         1243.0,
         1243.0,
         1202.0,
-        1204.0,
-        1185.0
+        1204.0
       ]
     },
     "WIPRO": {
@@ -207,8 +204,7 @@
         159.0,
         159.0,
         162.0,
-        162.0,
-        160.0
+        162.0
       ]
     },
     "TECHM": {
@@ -230,8 +226,7 @@
         1533.0,
         1533.0,
         1536.0,
-        1504.0,
-        1491.0
+        1504.0
       ]
     },
     "MPHL": {
@@ -253,8 +248,7 @@
         2250.0,
         2250.0,
         2297.0,
-        2298.0,
-        2289.0
+        2298.0
       ]
     },
     "PSYS": {
@@ -276,8 +270,7 @@
         5367.0,
         5367.0,
         5530.0,
-        5521.0,
-        5507.0
+        5521.0
       ]
     },
     "COFG": {
@@ -299,8 +292,7 @@
         1826.0,
         1826.0,
         1852.0,
-        1850.0,
-        1822.0
+        1850.0
       ]
     },
     "ACN": {
@@ -415,11 +407,20 @@
         70.0,
         71.0,
         70.0,
-        70.0
+        69.0
       ]
     }
   },
   "news": [
+    {
+      "time": "2026-10-06 19:21",
+      "tk": "HCLT",
+      "src": "The Times of India",
+      "cat": "AI",
+      "hl": "Will make Lucknow leading AI innovation hub, set up 50 startups in 5 years: CM",
+      "detail": "UP CM Yogi Adityanath says Lucknow will be an AI innovation hub, backing 50 startups in 5 years, as HCLTech expands IT City with Rs 500 crore investment.",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/will-make-lucknow-leading-ai-innovation-hub-set-up-50-startups-in-5-years-cm/articleshow/134749599.cms"
+    },
     {
       "time": "2026-10-06 17:41",
       "tk": "TCS",
@@ -439,15 +440,6 @@
       "url": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-october-07/article71551711.ece"
     },
     {
-      "time": "2026-10-06 13:30",
-      "tk": "TECHM",
-      "src": "PRNewswire",
-      "cat": "AI",
-      "hl": "Tech Mahindra Expands Agentic AI Readiness with Google Cloud Gemini Enterprise",
-      "detail": "Scales Gemini Enterprise Readiness Across 12,500+ Associates with Google Cloud PUNE, India, Oct. 6, 2026 /PRNewswire/ -- Tech Mahindra (NSE: TECHM), a leading provider of AI-powered digital transformation and technology consulting solutions to enterprises acr\u2026",
-      "url": "https://www.prnewswire.com/news-releases/tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise-302899746.html"
-    },
-    {
       "time": "2026-10-06 17:25",
       "tk": "ACN",
       "src": "Biztoc.com",
@@ -455,24 +447,6 @@
       "hl": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
       "detail": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\nThat's according to a report from Reuters, citing tw\u2026",
       "url": "https://biztoc.com/x/205b8842fcb039e1"
-    },
-    {
-      "time": "2026-10-06 16:01",
-      "tk": "ACN",
-      "src": "Bitcoinist",
-      "cat": "DEAL",
-      "hl": "KuCoin Adds Nike, Accenture And Shipping ETF Perpetuals With 20x Leverage",
-      "detail": "TL;DR KuCoin Futures has launched stock-index perpetual contracts tracking Nike, Accenture and the Breakwave Tanker Shipping ETF. The contracts are settled in USDT, trade continuously and support leverage of up to 20x. They are synthetic derivatives and do no\u2026",
-      "url": "https://bitcoinist.com/kucoin-adds-nike-accenture-and-shipping-etf-perpetuals-with-20x-leverage/"
-    },
-    {
-      "time": "2026-10-06 14:35",
-      "tk": "ACN",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "US stocks: US software shares scale fresh 2026 highs as AI disruption worries fade",
-      "detail": "US software stocks are witnessing robust growth, fueled by optimistic earnings projections and partnerships in AI. Major players like Salesforce and Accenture have showcased impressive earnings, aiding the sector's revival. Analysts suggest that fears of AI d\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-software-shares-scale-fresh-2026-highs-as-ai-disruption-worries-fade/articleshow/134743282.cms"
     },
     {
       "time": "2026-10-06 16:20",
@@ -538,6 +512,15 @@
       "url": "https://www.digitimes.com/news/a20261006VL201/ntt-business-data-center-data-investment.html"
     },
     {
+      "time": "2026-10-06 20:01",
+      "tk": "Sector",
+      "src": "PRNewswire",
+      "cat": "DEAL",
+      "hl": "Strategic Buyer Acquires Florida MSP as Demand Rises for Managed IT Services",
+      "detail": "Deal Facilitated by Viking Mergers & Acquisitions TAMPA, Fla., Oct. 6, 2026 /PRNewswire/ -- A managed IT and cybersecurity services provider serving small and mid-sized businesses in Florida has been acquired by a strategic buyer, bringing together complement\u2026",
+      "url": "https://www.prnewswire.com/news-releases/strategic-buyer-acquires-florida-msp-as-demand-rises-for-managed-it-services-302900302.html"
+    },
+    {
       "time": "2026-10-06 13:07",
       "tk": "Sector",
       "src": "PRNewswire",
@@ -563,6 +546,15 @@
       "hl": "India among top 10 emerging markets in AI readiness: World Bank",
       "detail": "India is among the top 10 leading emerging-market performers in artificial intelligence (AI) readiness and is well positioned to harness the technology, helped by its large technical workforce, globally integrated IT sector and digital public infrastructure, \u2026",
       "url": "https://www.business-standard.com/technology/tech-news/india-among-top-10-emerging-markets-in-ai-readiness-world-bank-126100600800_1.html"
+    },
+    {
+      "time": "2026-10-06 14:35",
+      "tk": "ACN",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "US stocks: US software shares scale fresh 2026 highs as AI disruption worries fade",
+      "detail": "US software stocks are witnessing robust growth, fueled by optimistic earnings projections and partnerships in AI. Major players like Salesforce and Accenture have showcased impressive earnings, aiding the sector's revival. Analysts suggest that fears of AI d\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-software-shares-scale-fresh-2026-highs-as-ai-disruption-worries-fade/articleshow/134743282.cms"
     }
   ],
   "quarterly": {
@@ -631,7 +623,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "INFY": {
       "quarters": [
@@ -698,7 +690,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "CTSH": {
       "quarters": [
@@ -832,7 +824,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "WIPRO": {
       "quarters": [
@@ -899,7 +891,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "TECHM": {
       "quarters": [
@@ -960,13 +952,13 @@
         "growth": null,
         "ebit_margin": 13.1,
         "op_profit": 77171,
-        "op_profit_usd": 797,
+        "op_profit_usd": 798,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "MPHL": {
       "quarters": [
@@ -1033,7 +1025,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "PSYS": {
       "quarters": [
@@ -1100,7 +1092,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "COFG": {
       "quarters": [
@@ -1167,7 +1159,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010335
     },
     "ACN": {
       "quarters": [
@@ -1362,20 +1354,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1892,
+        "op_profit_usd": 1893,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701262
+      "usd_rate": 0.701602
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.119695,
+    "EUR": 1.11957,
     "JPY": 0.006329,
-    "CAD": 0.701262,
-    "INR": 0.010334
+    "CAD": 0.701602,
+    "INR": 0.010335
   }
 }
