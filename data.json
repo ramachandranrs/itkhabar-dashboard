@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T16:21:39.246716+00:00",
-  "updated_display": "07 Oct 2026, 16:21 UTC",
+  "updated": "2026-10-07T17:43:51.679111+00:00",
+  "updated_display": "07 Oct 2026, 17:43 UTC",
   "prices": {
     "TCS": {
       "price": 2080.3,
@@ -13,8 +13,8 @@
       "change": -2.2
     },
     "CTSH": {
-      "price": 56.99,
-      "display": "$56.99",
+      "price": 57.0,
+      "display": "$57.00",
       "change": -0.4
     },
     "HCLT": {
@@ -48,9 +48,9 @@
       "change": -1.5
     },
     "ACN": {
-      "price": 197.43,
+      "price": 196.81,
       "display": "$197",
-      "change": 2.1
+      "change": 1.8
     },
     "CAP": {
       "price": 110.9,
@@ -63,14 +63,14 @@
       "change": 1.0
     },
     "DXC": {
-      "price": 11.86,
-      "display": "$11.86",
-      "change": 0.3
+      "price": 11.8,
+      "display": "$11.80",
+      "change": -0.3
     },
     "GIB": {
-      "price": 69.79,
-      "display": "$69.79",
-      "change": 0.3
+      "price": 70.1,
+      "display": "$70.10",
+      "change": 0.7
     }
   },
   "indices": {
@@ -83,8 +83,8 @@
       "change": -1.34
     },
     "SP500": {
-      "value": 7793.61,
-      "change": -0.32
+      "value": 7802.26,
+      "change": -0.21
     },
     "USD_INR": {
       "value": 96.76,
@@ -421,6 +421,24 @@
   },
   "news": [
     {
+      "time": "2026-10-06 17:41",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "UGI Naini students secure jobs at TCS in campus drive",
+      "detail": "UGI Naini: 51 B.Tech CSE/IT & AIML students (Batch 2027) selected at TCS campus drive; Ninja, Digital, Prime roles offer Rs 3.6\u20139 LPA.",
+      "url": "https://timesofindia.indiatimes.com/city/allahabad/ugi-naini-students-secure-jobs-at-tcs-in-campus-drive/articleshow/134747466.cms"
+    },
+    {
+      "time": "2026-10-06 16:30",
+      "tk": "INFY",
+      "src": "BusinessLine",
+      "cat": "PEOPLE",
+      "hl": "Day Trading Guide for October 7, 2026: Intraday supports, resistances for Nifty50 stocks",
+      "detail": "Day Trading Guide gives you the key intraday supports and resistances to watch out for on the Nifty Futures and other widely traded stocks such as Reliance Industries, Infosys, HDFC Bank, TCS, SBI",
+      "url": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-october-07/article71551711.ece"
+    },
+    {
       "time": "2026-10-06 13:30",
       "tk": "TECHM",
       "src": "PRNewswire",
@@ -428,6 +446,15 @@
       "hl": "Tech Mahindra Expands Agentic AI Readiness with Google Cloud Gemini Enterprise",
       "detail": "Scales Gemini Enterprise Readiness Across 12,500+ Associates with Google Cloud PUNE, India, Oct. 6, 2026 /PRNewswire/ -- Tech Mahindra (NSE: TECHM), a leading provider of AI-powered digital transformation and technology consulting solutions to enterprises acr\u2026",
       "url": "https://www.prnewswire.com/news-releases/tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise-302899746.html"
+    },
+    {
+      "time": "2026-10-06 17:25",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "DEAL",
+      "hl": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+      "detail": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\nThat's according to a report from Reuters, citing tw\u2026",
+      "url": "https://biztoc.com/x/205b8842fcb039e1"
     },
     {
       "time": "2026-10-06 16:01",
@@ -1341,14 +1368,14 @@
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701434
+      "usd_rate": 0.701262
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120072,
+    "EUR": 1.119695,
     "JPY": 0.006329,
-    "CAD": 0.701434,
+    "CAD": 0.701262,
     "INR": 0.010334
   }
 }
