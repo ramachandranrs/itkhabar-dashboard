@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-06T21:05:41.831645+00:00",
-  "updated_display": "06 Oct 2026, 21:05 UTC",
+  "updated": "2026-10-07T02:35:57.560949+00:00",
+  "updated_display": "07 Oct 2026, 02:35 UTC",
   "prices": {
     "TCS": {
-      "price": 2114.4,
-      "display": "\u20b92,114",
-      "change": 1.9
+      "price": 2100.0,
+      "display": "\u20b92,100",
+      "change": -0.7
     },
     "INFY": {
-      "price": 1020.5,
-      "display": "\u20b91,020",
-      "change": -1.4
+      "price": 1013.85,
+      "display": "\u20b91,014",
+      "change": -0.7
     },
     "CTSH": {
       "price": 57.22,
@@ -18,34 +18,34 @@
       "change": -1.6
     },
     "HCLT": {
-      "price": 1201.9,
-      "display": "\u20b91,202",
-      "change": -3.3
-    },
-    "WIPRO": {
-      "price": 162.14,
-      "display": "\u20b9162",
-      "change": 1.8
-    },
-    "TECHM": {
-      "price": 1535.9,
-      "display": "\u20b91,536",
+      "price": 1204.4,
+      "display": "\u20b91,204",
       "change": 0.2
     },
+    "WIPRO": {
+      "price": 161.84,
+      "display": "\u20b9162",
+      "change": -0.2
+    },
+    "TECHM": {
+      "price": 1504.5,
+      "display": "\u20b91,504",
+      "change": -2.0
+    },
     "MPHL": {
-      "price": 2297.1,
-      "display": "\u20b92,297",
-      "change": 2.1
+      "price": 2298.0,
+      "display": "\u20b92,298",
+      "change": 0.0
     },
     "PSYS": {
-      "price": 5530.0,
-      "display": "\u20b95,530",
-      "change": 3.0
+      "price": 5521.0,
+      "display": "\u20b95,521",
+      "change": -0.2
     },
     "COFG": {
-      "price": 1852.0,
-      "display": "\u20b91,852",
-      "change": 1.4
+      "price": 1849.7,
+      "display": "\u20b91,850",
+      "change": -0.1
     },
     "ACN": {
       "price": 193.4,
@@ -53,14 +53,14 @@
       "change": -0.8
     },
     "CAP": {
-      "price": 109.95,
-      "display": "\u20ac110",
-      "change": 1.4
+      "price": 108.4,
+      "display": "\u20ac108",
+      "change": -0.5
     },
     "ATOS": {
-      "price": 21.88,
-      "display": "\u20ac21.88",
-      "change": 1.3
+      "price": 21.6,
+      "display": "\u20ac21.60",
+      "change": -2.0
     },
     "DXC": {
       "price": 11.83,
@@ -75,12 +75,12 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72382.47,
-      "change": 0.66
+      "value": 73067.81,
+      "change": 0.95
     },
     "NIFTY_IT": {
-      "value": 28301.7,
-      "change": -0.01
+      "value": 28136.05,
+      "change": -0.59
     },
     "SP500": {
       "value": 7818.93,
@@ -88,10 +88,10 @@
     },
     "USD_INR": {
       "value": 96.36,
-      "change": 0.04
+      "change": 0.02
     },
     "EUR_INR": {
-      "value": 108.52,
+      "value": 108.3,
       "change": 0.34
     }
   },
@@ -114,7 +114,8 @@
       "dp": [
         2075.0,
         2075.0,
-        2114.0
+        2114.0,
+        2100.0
       ]
     },
     "INFY": {
@@ -135,7 +136,8 @@
       "dp": [
         1035.0,
         1035.0,
-        1020.0
+        1020.0,
+        1014.0
       ]
     },
     "CTSH": {
@@ -178,7 +180,8 @@
       "dp": [
         1243.0,
         1243.0,
-        1202.0
+        1202.0,
+        1204.0
       ]
     },
     "WIPRO": {
@@ -199,6 +202,7 @@
       "dp": [
         159.0,
         159.0,
+        162.0,
         162.0
       ]
     },
@@ -220,7 +224,8 @@
       "dp": [
         1533.0,
         1533.0,
-        1536.0
+        1536.0,
+        1504.0
       ]
     },
     "MPHL": {
@@ -240,7 +245,9 @@
       ],
       "dp": [
         2250.0,
-        2297.0
+        2250.0,
+        2297.0,
+        2298.0
       ]
     },
     "PSYS": {
@@ -261,7 +268,8 @@
       "dp": [
         5367.0,
         5367.0,
-        5530.0
+        5530.0,
+        5521.0
       ]
     },
     "COFG": {
@@ -282,7 +290,8 @@
       "dp": [
         1826.0,
         1826.0,
-        1852.0
+        1852.0,
+        1850.0
       ]
     },
     "ACN": {
@@ -325,8 +334,7 @@
       "dp": [
         112.0,
         109.0,
-        108.0,
-        110.0
+        108.0
       ]
     },
     "ATOS": {
@@ -345,7 +353,6 @@
         21.0
       ],
       "dp": [
-        22.0,
         22.0,
         22.0,
         22.0
@@ -398,13 +405,13 @@
   },
   "news": [
     {
-      "time": "2026-10-05 15:12",
-      "tk": "CTSH",
-      "src": "Livemint",
+      "time": "2026-10-06 01:15",
+      "tk": "ACN",
+      "src": "The Times of India",
       "cat": "DEAL",
-      "hl": "Cognizant targets mid-sized firms as AI pressures big outsourcing deals",
-      "detail": "Cognizant Activate follows similar moves by Accenture and HCLTech as the tech-services giants seek new growth beyond their traditional large-enterprise contracts.",
-      "url": "https://www.livemint.com/companies/news/cognizant-targets-mid-sized-firms-as-ai-pressures-big-outsourcing-deals-11791208286115.html"
+      "hl": "Accenture contractor removed from FBI following damaging data breach, sources say",
+      "detail": "A data breach involving the FBI resulted in the exposure of sensitive information about employees. The breach occurred due to a failure by a contractor to implement security updates. FBI's cyber chief confirmed that the incident was linked to Oracle's PeopleS\u2026",
+      "url": "https://economictimes.indiatimes.com/news/international/business/accenture-contractor-removed-from-fbi-following-damaging-data-breach-sources-say/articleshow/134720470.cms"
     },
     {
       "time": "2026-10-05 16:45",
@@ -414,6 +421,15 @@
       "hl": "HackerRank's AI interviewer offers a glimpse into what job interviews could become | TechCrunch",
       "detail": "HackerRank\u2019s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
       "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+    },
+    {
+      "time": "2026-10-05 15:12",
+      "tk": "CTSH",
+      "src": "Livemint",
+      "cat": "DEAL",
+      "hl": "Cognizant targets mid-sized firms as AI pressures big outsourcing deals",
+      "detail": "Cognizant Activate follows similar moves by Accenture and HCLTech as the tech-services giants seek new growth beyond their traditional large-enterprise contracts.",
+      "url": "https://www.livemint.com/companies/news/cognizant-targets-mid-sized-firms-as-ai-pressures-big-outsourcing-deals-11791208286115.html"
     },
     {
       "time": "2026-10-05 08:03",
@@ -443,6 +459,15 @@
       "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-deals-seen-driving-medium-term-growth-as-indian-it-sector-faces-muted-q2-report/articleshow/134685737.cms"
     },
     {
+      "time": "2026-10-06 02:00",
+      "tk": "NTTD",
+      "src": "Digitimes",
+      "cat": "AI",
+      "hl": "NTT Data bets on India to lift its AI business as data center race heats up",
+      "detail": "NTT Data expects India to contribute a larger share of its global artificial intelligence (AI) business than it does of its overall IT services business, as the Japanese company pushes ahead with a three-year investment program in the country focused on data \u2026",
+      "url": "https://www.digitimes.com/news/a20261006VL201/ntt-business-data-center-data-investment.html"
+    },
+    {
       "time": "2026-10-05 08:43",
       "tk": "ATOS",
       "src": "Biztoc.com",
@@ -468,15 +493,6 @@
       "hl": "TCS, Infosys and other IT stocks in focus after Accenture Q4 revenue, outlook beat estimates",
       "detail": "Indian IT stocks including TCS and Infosys are in focus following Accenture's strong Q4 results and above-estimate revenue guidance. While the outlook signals potential recovery in discretionary technology spending, analysts warn that Indian IT firms may stil\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-and-other-it-stocks-in-focus-after-accenture-q4-revenue-outlook-beat-estimates/articleshow/134684693.cms"
-    },
-    {
-      "time": "2026-10-05 02:34",
-      "tk": "WIPRO",
-      "src": "BusinessLine",
-      "cat": "PEOPLE",
-      "hl": "Stocks to watch on October 5: What is buzzing around these 20 companies",
-      "detail": "HDFC Bank, ICICI Life, Wipro, DLF, Ola Electric, Gland Pharma, Unimech, Solex Energy, Aurobindo Pharma, and others",
-      "url": "https://www.thehindubusinessline.com/markets/stocks-to-watch-on-october-5-what-is-buzzing-around-these-20-companies/article71545670.ece"
     },
     {
       "time": "2026-10-05 12:00",
