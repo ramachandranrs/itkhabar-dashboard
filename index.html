@@ -1663,19 +1663,28 @@ const axLabelsPeriod={
 let bubbleChart;
 
 function getBubbleVal(c,key,period){
-  if(period==='annual') return {g:c.g,r:c.r,m:c.m,p:c.p,mc:c.mc}[key];
+  if(period==='annual') return {g:c.g,r:c.r,m:c.m,p:c.p,mc:c.mc}[key]||0;
   const q=c.qr, qm=c.qm;
-  if(!q||!qm) return {g:c.g,r:c.r,m:c.m,p:c.p,mc:c.mc}[key]; // fallback
-  const L=q.length-1; // index 11 = latest quarter
+  if(!q||!qm) return {g:c.g,r:c.r,m:c.m,p:c.p,mc:c.mc}[key]||0;
+  // Find latest valid (non-null) quarter index
+  let L=q.length-1;
+  while(L>=0&&(q[L]==null||isNaN(q[L]))) L--;
+  if(L<1) return {g:c.g,r:c.r,m:c.m,p:c.p,mc:c.mc}[key]||0;
   if(period==='qoq'){
-    const rGrow=((q[L]-q[L-1])/q[L-1]*100);
-    const mDelta=(qm[L]-qm[L-1]);
-    return {g:+rGrow.toFixed(1),r:+q[L].toFixed(2),m:+mDelta.toFixed(1),p:c.p,mc:c.mc}[key];
+    let prev=L-1;
+    while(prev>=0&&(q[prev]==null||isNaN(q[prev]))) prev--;
+    if(prev<0||!q[prev]) return {g:c.g,r:c.r,m:c.m,p:c.p,mc:c.mc}[key]||0;
+    const rGrow=((q[L]-q[prev])/q[prev]*100);
+    const mDelta=((qm[L]||0)-(qm[prev]||0));
+    return {g:+rGrow.toFixed(1),r:+q[L].toFixed(2),m:+mDelta.toFixed(1),p:c.p,mc:c.mc}[key]||0;
   }
   if(period==='yoy'){
-    const rGrow=((q[L]-q[L-4])/q[L-4]*100);
-    const mDelta=(qm[L]-qm[L-4]);
-    return {g:+rGrow.toFixed(1),r:+q[L].toFixed(2),m:+mDelta.toFixed(1),p:c.p,mc:c.mc}[key];
+    // Find quarter 4 periods back
+    let yoyIdx=L-4;
+    if(yoyIdx<0||q[yoyIdx]==null||isNaN(q[yoyIdx])) return {g:c.g,r:c.r,m:c.m,p:c.p,mc:c.mc}[key]||0;
+    const rGrow=((q[L]-q[yoyIdx])/q[yoyIdx]*100);
+    const mDelta=((qm[L]||0)-(qm[yoyIdx]||0));
+    return {g:+rGrow.toFixed(1),r:+q[L].toFixed(2),m:+mDelta.toFixed(1),p:c.p,mc:c.mc}[key]||0;
   }
   return 0;
 }
@@ -1688,7 +1697,7 @@ function buildBubble(xK,yK){
   const labels=axLabelsPeriod[period]||axLabelsPeriod.annual;
   const datasets=list.map((c,i)=>({
     label:c.t,
-    data:[{x:getBubbleVal(c,xK,period),y:getBubbleVal(c,yK,period),r:Math.sqrt(c.r)*3.2+4}],
+    data:[{x:getBubbleVal(c,xK,period),y:getBubbleVal(c,yK,period),r:Math.sqrt(Math.max(c.r||0,0))*3.2+4}],
     backgroundColor:sCol(i)+'55',borderColor:sCol(i),borderWidth:1.5,hoverBorderWidth:2.5
   }));
   bubbleChart=new Chart(ctx,{
@@ -2048,7 +2057,7 @@ function buildReport(){
       ${exchHtml}
       <div class="rpt-kpi">
         <div class="rpt-kpi-item"><div class="m-label">Stock Price</div><div class="m-val">${c.s} <span style="font-size:10px" class="${c.sc>=0?'up-c':'dn-c'}">${c.sc>=0?'▲':'▼'}${Math.abs(c.sc)}%</span></div></div>
-        <div class="rpt-kpi-item"><div class="m-label">Annual Rev</div><div class="m-val">${_isNonUsd?_sym:'$'}${c.r}B${_isNonUsd&&c.r_usd?`<span style="font-size:9px;color:var(--ink-3)"> ($${c.r_usd}B)</span>`:''}</div></div>
+        <div class="rpt-kpi-item"><div class="m-label">Annual Rev</div><div class="m-val">${_isNonUsd&&c.r_local?`${_sym}${c.r_local}B<span style="font-size:9px;color:var(--ink-3)"> ($${c.r}B)</span>`:`$${c.r}B`}</div></div>
         <div class="rpt-kpi-item"><div class="m-label">CC Growth</div><div class="m-val ${c.g>=0?'up-c':'dn-c'}">${c.g>=0?'+':''}${c.g}%</div></div>
         <div class="rpt-kpi-item"><div class="m-label">Latest QoQ</div><div class="m-val ${latestQoQ&&parseFloat(latestQoQ)>=0?'up-c':'dn-c'}">${latestQoQ?(parseFloat(latestQoQ)>=0?'+':'')+latestQoQ+'%':'—'}</div></div>
         <div class="rpt-kpi-item"><div class="m-label">Latest YoY</div><div class="m-val ${latestYoY&&latestYoY>=0?'up-c':'dn-c'}">${latestYoY!==null?(latestYoY>=0?'+':'')+latestYoY+'%':'—'}</div></div>
@@ -2347,11 +2356,17 @@ function applyLiveData(d){
         // Override annual summary fields
         if(qData.annual){
           const a=qData.annual;
-          if(a.rev) co.r=a.rev;
+          // Store local-currency revenue for report cards
+          if(a.rev) co.r_local=a.rev;
+          // co.r must always be USD-denominated (bubble chart, comparisons)
+          if(a.rev_usd) co.r=a.rev_usd;
+          else if(a.rev) co.r=a.rev; // fallback for USD-reporting cos
           if(a.rev_usd) co.r_usd=a.rev_usd;
           if(a.growth!=null) co.g=a.growth;
           if(a.ebit_margin!=null) co.m=a.ebit_margin;
-          if(a.op_profit) co.p=a.op_profit;
+          // Op profit in USD for comparisons
+          if(a.op_profit_usd) co.p=a.op_profit_usd;
+          else if(a.op_profit) co.p=a.op_profit;
           if(a.fcf_usd!=null) co.fcf_usd=a.fcf_usd;
         }
         // Store FY end month, currency, and USD rate for header display

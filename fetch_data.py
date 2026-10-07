@@ -349,11 +349,15 @@ def fetch_news():
                 return True
         return False
 
+    # Restrict to last 2 days to ensure fresh news
+    from_date = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=2)).strftime("%Y-%m-%d")
+
     seen_entries = {}  # {exact_title: {norm, all, sig, ents, tk}}
     for q in queries:
         try:
             resp = requests.get("https://newsapi.org/v2/everything", params={
                 "q": q,
+                "from": from_date,
                 "sortBy": "publishedAt",
                 "language": "en",
                 "pageSize": 8,
@@ -647,6 +651,7 @@ def fetch_quarterly_financials(forex_rates=None):
                     "growth": yoy_growth,
                     "ebit_margin": annual_margin,
                     "op_profit": round(annual_op_profit),
+                    "op_profit_usd": round(annual_op_profit * fx),
                     "fcf": annual_fcf,
                     "fcf_usd": annual_fcf_usd,
                 },
