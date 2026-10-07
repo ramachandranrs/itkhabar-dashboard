@@ -684,13 +684,15 @@ function generateMLABELS(numM){
   return labels;
 }
 function generateDLABELS(numDays){
-  // Generate trading day labels for the current month up to today
+  // Generate trading day labels for the ENTIRE current month (not just up to today)
+  // so hardcoded dp arrays with future trading days get proper labels
   const now=new Date();
   const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   const mon=months[now.getMonth()];
+  const daysInMonth=new Date(now.getFullYear(),now.getMonth()+1,0).getDate();
   const labels=[];
   let count=0;
-  for(let day=1;day<=now.getDate()&&count<numDays;day++){
+  for(let day=1;day<=daysInMonth&&count<numDays;day++){
     const dt=new Date(now.getFullYear(),now.getMonth(),day);
     const dow=dt.getDay();
     if(dow!==0&&dow!==6){labels.push(day+' '+mon);count++;}
@@ -1442,6 +1444,7 @@ function buildTrend(){
     type:'line',
     data:{labels,datasets},
     options:{
+      spanGaps:true, // draw lines through null values (padded quarters)
       responsive:true,maintainAspectRatio:false,
       animation:{duration:500,easing:'easeOutQuart'},
       interaction:{mode:'index',intersect:false},
@@ -2350,26 +2353,43 @@ function applyLiveData(d){
       const co=allCOs.find(c=>c.t===tk);
       if(!co||!qData.quarters||!qData.quarters.length) return;
       const qs=qData.quarters;
-      // Override qr (quarterly revenue), qm (EBIT margin), qfcf (free cash flow)
-      // Pad to 12 entries: if fewer, pad with nulls at start
-      const padTo=12;
-      const revArr=qs.map(q=>q.rev);
-      const revUsdArr=qs.map(q=>q.rev_usd!=null?q.rev_usd:q.rev);
-      const mrgArr=qs.map(q=>q.ebit_margin!=null?q.ebit_margin:0);
-      const fcfArr=qs.map(q=>q.fcf!=null?q.fcf:0);
-      const fcfUsdArr=qs.map(q=>q.fcf_usd!=null?q.fcf_usd:(q.fcf||0));
-      const lblArr=qs.map(q=>q.label);
-      // Pad arrays to 12
-      while(revArr.length<padTo){revArr.unshift(null);revUsdArr.unshift(null);mrgArr.unshift(null);fcfArr.unshift(null);fcfUsdArr.unshift(null);lblArr.unshift('');}
-      // Only override if we have meaningful data (at least 4 quarters with revenue)
-      const validQ=revArr.filter(v=>v!==null&&v>0).length;
+      // Merge live quarters onto the tail of existing hardcoded arrays
+      // instead of padding with nulls — preserves older hardcoded data
+      const liveRev=qs.map(q=>q.rev);
+      const liveRevUsd=qs.map(q=>q.rev_usd!=null?q.rev_usd:q.rev);
+      const liveMrg=qs.map(q=>q.ebit_margin!=null?q.ebit_margin:0);
+      const liveFcf=qs.map(q=>q.fcf!=null?q.fcf:0);
+      const liveFcfUsd=qs.map(q=>q.fcf_usd!=null?q.fcf_usd:(q.fcf||0));
+      const liveLbl=qs.map(q=>q.label);
+      const nLive=qs.length;
+      const validQ=liveRev.filter(v=>v!==null&&v>0).length;
       if(validQ>=4){
+        // Keep hardcoded front, replace tail with live data
+        const padTo=12;
+        const keep=padTo-nLive; // how many hardcoded quarters to keep at front
+        // Revenue in local currency
+        const revArr=(co.qr&&co.qr.length>=padTo)?co.qr.slice(0,keep).concat(liveRev):
+          Array(Math.max(0,keep)).fill(null).concat(liveRev);
+        // Revenue in USD: hardcoded qr values are already USD, live needs qr_usd
+        const revUsdArr=(co.qr&&co.qr.length>=padTo)?co.qr.slice(0,keep).concat(liveRevUsd):
+          Array(Math.max(0,keep)).fill(null).concat(liveRevUsd);
+        // Margins
+        const mrgArr=(co.qm&&co.qm.length>=padTo)?co.qm.slice(0,keep).concat(liveMrg):
+          Array(Math.max(0,keep)).fill(null).concat(liveMrg);
+        // FCF
+        const fcfArr=(co.qfcf&&co.qfcf.length>=padTo)?co.qfcf.slice(0,keep).concat(liveFcf):
+          Array(Math.max(0,keep)).fill(null).concat(liveFcf);
+        const fcfUsdArr=(co.qfcf_usd&&co.qfcf_usd.length>=padTo)?co.qfcf_usd.slice(0,keep).concat(liveFcfUsd):
+          Array(Math.max(0,keep)).fill(null).concat(liveFcfUsd);
+        // Labels
+        const lblArr=(co.ql&&co.ql.length>=padTo)?co.ql.slice(0,keep).concat(liveLbl):
+          Array(Math.max(0,keep)).fill('').concat(liveLbl);
         co.qr=revArr;
         co.qr_usd=revUsdArr;
         co.qm=mrgArr;
         co.qfcf=fcfArr;
         co.qfcf_usd=fcfUsdArr;
-        co.ql=lblArr; // company-specific quarter labels
+        co.ql=lblArr;
         // Override annual summary fields
         if(qData.annual){
           const a=qData.annual;
