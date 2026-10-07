@@ -1,98 +1,98 @@
 {
-  "updated": "2026-10-07T02:35:57.560949+00:00",
-  "updated_display": "07 Oct 2026, 02:35 UTC",
+  "updated": "2026-10-07T15:23:42.310364+00:00",
+  "updated_display": "07 Oct 2026, 15:23 UTC",
   "prices": {
     "TCS": {
-      "price": 2100.0,
-      "display": "\u20b92,100",
-      "change": -0.7
+      "price": 2080.3,
+      "display": "\u20b92,080",
+      "change": -0.9
     },
     "INFY": {
-      "price": 1013.85,
-      "display": "\u20b91,014",
-      "change": -0.7
+      "price": 992.0,
+      "display": "\u20b9992",
+      "change": -2.2
     },
     "CTSH": {
-      "price": 57.22,
-      "display": "$57.22",
-      "change": -1.6
+      "price": 56.63,
+      "display": "$56.63",
+      "change": -1.0
     },
     "HCLT": {
-      "price": 1204.4,
-      "display": "\u20b91,204",
-      "change": 0.2
+      "price": 1185.0,
+      "display": "\u20b91,185",
+      "change": -1.6
     },
     "WIPRO": {
-      "price": 161.84,
-      "display": "\u20b9162",
-      "change": -0.2
+      "price": 159.6,
+      "display": "\u20b9160",
+      "change": -1.4
     },
     "TECHM": {
-      "price": 1504.5,
-      "display": "\u20b91,504",
-      "change": -2.0
+      "price": 1491.1,
+      "display": "\u20b91,491",
+      "change": -0.9
     },
     "MPHL": {
-      "price": 2298.0,
-      "display": "\u20b92,298",
-      "change": 0.0
+      "price": 2289.0,
+      "display": "\u20b92,289",
+      "change": -0.4
     },
     "PSYS": {
-      "price": 5521.0,
-      "display": "\u20b95,521",
-      "change": -0.2
+      "price": 5507.0,
+      "display": "\u20b95,507",
+      "change": -0.3
     },
     "COFG": {
-      "price": 1849.7,
-      "display": "\u20b91,850",
-      "change": -0.1
+      "price": 1822.2,
+      "display": "\u20b91,822",
+      "change": -1.5
     },
     "ACN": {
-      "price": 193.4,
-      "display": "$193",
-      "change": -0.8
+      "price": 195.34,
+      "display": "$195",
+      "change": 1.0
     },
     "CAP": {
-      "price": 108.4,
-      "display": "\u20ac108",
-      "change": -0.5
+      "price": 109.85,
+      "display": "\u20ac110",
+      "change": -0.1
     },
     "ATOS": {
-      "price": 21.6,
-      "display": "\u20ac21.60",
-      "change": -2.0
+      "price": 21.88,
+      "display": "\u20ac21.88",
+      "change": 0.0
     },
     "DXC": {
-      "price": 11.83,
-      "display": "$11.83",
-      "change": 1.5
+      "price": 11.86,
+      "display": "$11.86",
+      "change": 0.3
     },
     "GIB": {
-      "price": 69.6,
-      "display": "$69.60",
-      "change": -2.1
+      "price": 69.68,
+      "display": "$69.68",
+      "change": 0.1
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73067.81,
-      "change": 0.95
-    },
-    "NIFTY_IT": {
-      "value": 28136.05,
+      "value": 72638.7,
       "change": -0.59
     },
+    "NIFTY_IT": {
+      "value": 27757.8,
+      "change": -1.34
+    },
     "SP500": {
-      "value": 7818.93,
-      "change": 0.58
+      "value": 7775.07,
+      "change": -0.56
     },
     "USD_INR": {
-      "value": 96.36,
-      "change": 0.02
+      "value": 96.76,
+      "change": 0.44
     },
     "EUR_INR": {
-      "value": 108.3,
-      "change": 0.34
+      "value": 108.07,
+      "change": 0.12
     }
   },
   "historical": {
@@ -115,7 +115,8 @@
         2075.0,
         2075.0,
         2114.0,
-        2100.0
+        2100.0,
+        2080.0
       ]
     },
     "INFY": {
@@ -137,7 +138,8 @@
         1035.0,
         1035.0,
         1020.0,
-        1014.0
+        1014.0,
+        992.0
       ]
     },
     "CTSH": {
@@ -159,6 +161,7 @@
         61.0,
         59.0,
         58.0,
+        57.0,
         57.0
       ]
     },
@@ -181,7 +184,8 @@
         1243.0,
         1243.0,
         1202.0,
-        1204.0
+        1204.0,
+        1185.0
       ]
     },
     "WIPRO": {
@@ -203,7 +207,8 @@
         159.0,
         159.0,
         162.0,
-        162.0
+        162.0,
+        160.0
       ]
     },
     "TECHM": {
@@ -225,7 +230,8 @@
         1533.0,
         1533.0,
         1536.0,
-        1504.0
+        1504.0,
+        1491.0
       ]
     },
     "MPHL": {
@@ -247,7 +253,8 @@
         2250.0,
         2250.0,
         2297.0,
-        2298.0
+        2298.0,
+        2289.0
       ]
     },
     "PSYS": {
@@ -269,7 +276,8 @@
         5367.0,
         5367.0,
         5530.0,
-        5521.0
+        5521.0,
+        5507.0
       ]
     },
     "COFG": {
@@ -291,7 +299,8 @@
         1826.0,
         1826.0,
         1852.0,
-        1850.0
+        1850.0,
+        1822.0
       ]
     },
     "ACN": {
@@ -313,7 +322,8 @@
         212.0,
         199.0,
         195.0,
-        193.0
+        193.0,
+        195.0
       ]
     },
     "CAP": {
@@ -334,7 +344,9 @@
       "dp": [
         112.0,
         109.0,
-        108.0
+        108.0,
+        110.0,
+        110.0
       ]
     },
     "ATOS": {
@@ -353,6 +365,8 @@
         21.0
       ],
       "dp": [
+        22.0,
+        22.0,
         22.0,
         22.0,
         22.0
@@ -377,6 +391,7 @@
         12.0,
         11.0,
         12.0,
+        12.0,
         12.0
       ]
     },
@@ -399,28 +414,47 @@
         71.0,
         70.0,
         71.0,
+        70.0,
         70.0
       ]
     }
   },
   "news": [
     {
-      "time": "2026-10-06 01:15",
-      "tk": "ACN",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "Accenture contractor removed from FBI following damaging data breach, sources say",
-      "detail": "A data breach involving the FBI resulted in the exposure of sensitive information about employees. The breach occurred due to a failure by a contractor to implement security updates. FBI's cyber chief confirmed that the incident was linked to Oracle's PeopleS\u2026",
-      "url": "https://economictimes.indiatimes.com/news/international/business/accenture-contractor-removed-from-fbi-following-damaging-data-breach-sources-say/articleshow/134720470.cms"
+      "time": "2026-10-06 13:30",
+      "tk": "TECHM",
+      "src": "PRNewswire",
+      "cat": "AI",
+      "hl": "Tech Mahindra Expands Agentic AI Readiness with Google Cloud Gemini Enterprise",
+      "detail": "Scales Gemini Enterprise Readiness Across 12,500+ Associates with Google Cloud PUNE, India, Oct. 6, 2026 /PRNewswire/ -- Tech Mahindra (NSE: TECHM), a leading provider of AI-powered digital transformation and technology consulting solutions to enterprises acr\u2026",
+      "url": "https://www.prnewswire.com/news-releases/tech-mahindra-expands-agentic-ai-readiness-with-google-cloud-gemini-enterprise-302899746.html"
     },
     {
-      "time": "2026-10-05 16:45",
-      "tk": "CAP",
-      "src": "TechCrunch",
-      "cat": "AI",
-      "hl": "HackerRank's AI interviewer offers a glimpse into what job interviews could become | TechCrunch",
-      "detail": "HackerRank\u2019s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
-      "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+      "time": "2026-10-06 10:29",
+      "tk": "ATOS",
+      "src": "Theregister.com",
+      "cat": "RESULTS",
+      "hl": "Atos lands \u00a3350M beat keeping Met Police applications running",
+      "detail": "Six-year deal covers management and security, with options to add cloud and digital workplace services",
+      "url": "https://www.theregister.com/public-sector/2026/10/06/atos-lands-350m-beat-keeping-met-police-applications-running/5301310"
+    },
+    {
+      "time": "2026-10-06 14:35",
+      "tk": "ACN",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "US stocks: US software shares scale fresh 2026 highs as AI disruption worries fade",
+      "detail": "US software stocks are witnessing robust growth, fueled by optimistic earnings projections and partnerships in AI. Major players like Salesforce and Accenture have showcased impressive earnings, aiding the sector's revival. Analysts suggest that fears of AI d\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-software-shares-scale-fresh-2026-highs-as-ai-disruption-worries-fade/articleshow/134743282.cms"
+    },
+    {
+      "time": "2026-10-06 14:08",
+      "tk": "ACN",
+      "src": "Nextgov",
+      "cat": "RESULTS",
+      "hl": "FBI removes Accenture contractor after missed security patch led to breach",
+      "detail": "The bureau\u2019s cyber chief blamed a contractor\u2019s failure to apply an available fix for an intrusion that may have exposed sensitive employee information.",
+      "url": "https://www.nextgov.com/cybersecurity/2026/10/fbi-removes-accenture-contractor-after-missed-security-patch-led-breach/416441/"
     },
     {
       "time": "2026-10-05 15:12",
@@ -468,40 +502,832 @@
       "url": "https://www.digitimes.com/news/a20261006VL201/ntt-business-data-center-data-investment.html"
     },
     {
-      "time": "2026-10-05 08:43",
-      "tk": "ATOS",
-      "src": "Biztoc.com",
-      "cat": "DEAL",
-      "hl": "Atos secures \u00a3350 million application management contract with Metropolitan Police Service",
-      "detail": "Press Release\nAtos secures \u00a3350 million application management contract with Metropolitan Police Service\nSix-year contract with opportunity to extend for a further two years to deliver core services with the option of further services added at the discretion \u2026",
-      "url": "https://biztoc.com/x/d42fc426d3fed866"
-    },
-    {
-      "time": "2026-10-04 13:03",
-      "tk": "NTTD",
-      "src": "BusinessLine",
-      "cat": "DEAL",
-      "hl": "AI to help India contribute more to NTT Data\u2019s global business",
-      "detail": "IT infrastructure is a significant business for the company, spanning partnerships with infrastructure providers such as Cisco, Dell, HP, Microsoft, VMware, Red Hat, and, more recently, Nvidia",
-      "url": "https://www.thehindubusinessline.com/companies/ai-to-help-india-contribute-more-to-ntt-datas-global-business/article71543646.ece"
-    },
-    {
-      "time": "2026-10-05 03:09",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "TCS, Infosys and other IT stocks in focus after Accenture Q4 revenue, outlook beat estimates",
-      "detail": "Indian IT stocks including TCS and Infosys are in focus following Accenture's strong Q4 results and above-estimate revenue guidance. While the outlook signals potential recovery in discretionary technology spending, analysts warn that Indian IT firms may stil\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-and-other-it-stocks-in-focus-after-accenture-q4-revenue-outlook-beat-estimates/articleshow/134684693.cms"
-    },
-    {
-      "time": "2026-10-05 12:00",
-      "tk": "CTSH",
+      "time": "2026-10-06 13:07",
+      "tk": "Sector",
       "src": "PRNewswire",
       "cat": "RESULTS",
-      "hl": "Cognizant Launches Cognizant Activate to Bring Enterprise AI Transformation for Emerging Enterprises",
-      "detail": "New business unit designed to deliver enterprise-grade AI transformation to emerging enterprises that generate $1 billion to $5 billion in annual revenue, building toward Global 2000 scale, through a dedicated, right-sized operating model built for speed TEAN\u2026",
-      "url": "https://www.prnewswire.com/news-releases/cognizant-launches-cognizant-activate-to-bring-enterprise-ai-transformation-for-emerging-enterprises-302897549.html"
+      "hl": "Visual Edge IT Appoints Chief Growth Officer and Chief Revenue Officer to Support Next Phase of Growth",
+      "detail": "NORTH CANTON, Ohio, Oct. 6, 2026 /PRNewswire/ -- Visual Edge IT (VEIT), one of the nation's largest print and managed IT services organizations, today announced the promotions of Cameron Jones to Chief Growth Officer and Sara Grofcsik to Chief Revenue Officer\u2026",
+      "url": "https://www.prnewswire.com/news-releases/visual-edge-it-appoints-chief-growth-officer-and-chief-revenue-officer-to-support-next-phase-of-growth-302899774.html"
+    },
+    {
+      "time": "2026-10-06 03:19",
+      "tk": "TCS",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 preview, dividend: Analysts see modest growth; PAT may rise by 13%",
+      "detail": "TCS Q2 results date, dividend announcement: TCS will declare its Q2 results on Oct 8. Besides, TCS could also recommend an interim dividend. TCS has set Oct 14 as the dividend record date",
+      "url": "https://www.business-standard.com/markets/news/tcs-q2-results-earnings-preview-expectation-dividend-announcement-record-date-2026-revenue-growth-pat-126100600110_1.html"
+    },
+    {
+      "time": "2026-10-06 11:29",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "cat": "AI",
+      "hl": "India among top 10 emerging markets in AI readiness: World Bank",
+      "detail": "India is among the top 10 leading emerging-market performers in artificial intelligence (AI) readiness and is well positioned to harness the technology, helped by its large technical workforce, globally integrated IT sector and digital public infrastructure, \u2026",
+      "url": "https://www.business-standard.com/technology/tech-news/india-among-top-10-emerging-markets-in-ai-readiness-world-bank-126100600800_1.html"
     }
-  ]
+  ],
+  "quarterly": {
+    "TCS": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 644.79,
+          "rev_usd": 6.66,
+          "ebit_margin": 24.2,
+          "op_profit": 156010.0,
+          "fcf": 130.06,
+          "fcf_usd": 1.34
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 634.37,
+          "rev_usd": 6.56,
+          "ebit_margin": 24.5,
+          "op_profit": 155140.0,
+          "fcf": 110.61,
+          "fcf_usd": 1.14
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 670.87,
+          "rev_usd": 6.93,
+          "ebit_margin": 25.2,
+          "op_profit": 169260.0,
+          "fcf": 123.32,
+          "fcf_usd": 1.27
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 706.98,
+          "rev_usd": 7.31,
+          "ebit_margin": 25.3,
+          "op_profit": 178700.0,
+          "fcf": 127.33,
+          "fcf_usd": 1.32
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 722.75,
+          "rev_usd": 7.47,
+          "ebit_margin": 24.0,
+          "op_profit": 173170.0,
+          "fcf": null,
+          "fcf_usd": null
+        }
+      ],
+      "annual": {
+        "rev": 2735.0,
+        "rev_usd": 28.3,
+        "growth": null,
+        "ebit_margin": 24.8,
+        "op_profit": 676270,
+        "fcf": 361.26,
+        "fcf_usd": 3.73
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "INFY": {
+      "quarters": [
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 4.94,
+          "rev_usd": 0.05,
+          "ebit_margin": 20.8,
+          "op_profit": 1028.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-09-30",
+          "label": "Q2 FY26",
+          "rev": 5.08,
+          "rev_usd": 0.05,
+          "ebit_margin": 21.0,
+          "op_profit": 1065.0,
+          "fcf": 1.1,
+          "fcf_usd": 0.01
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 5.1,
+          "rev_usd": 0.05,
+          "ebit_margin": 18.5,
+          "op_profit": 943.0,
+          "fcf": 0.92,
+          "fcf_usd": 0.01
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 5.04,
+          "rev_usd": 0.05,
+          "ebit_margin": 20.9,
+          "op_profit": 1055.0,
+          "fcf": 0.83,
+          "fcf_usd": 0.01
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 5.08,
+          "rev_usd": 0.05,
+          "ebit_margin": 21.1,
+          "op_profit": 1072.0,
+          "fcf": 0.95,
+          "fcf_usd": 0.01
+        }
+      ],
+      "annual": {
+        "rev": 20.3,
+        "rev_usd": 0.2,
+        "growth": null,
+        "ebit_margin": 20.4,
+        "op_profit": 4135,
+        "fcf": 3.8,
+        "fcf_usd": 0.04
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "CTSH": {
+      "quarters": [
+        {
+          "date": "2025-06-30",
+          "label": "Q2 FY25",
+          "rev": 5.25,
+          "rev_usd": 5.25,
+          "ebit_margin": 15.6,
+          "op_profit": 817.0,
+          "fcf": 0.33,
+          "fcf_usd": 0.33
+        },
+        {
+          "date": "2025-09-30",
+          "label": "Q3 FY25",
+          "rev": 5.42,
+          "rev_usd": 5.42,
+          "ebit_margin": 16.0,
+          "op_profit": 866.0,
+          "fcf": 1.16,
+          "fcf_usd": 1.16
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q4 FY25",
+          "rev": 5.33,
+          "rev_usd": 5.33,
+          "ebit_margin": 16.0,
+          "op_profit": 853.0,
+          "fcf": 0.78,
+          "fcf_usd": 0.78
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q1 FY26",
+          "rev": 5.41,
+          "rev_usd": 5.41,
+          "ebit_margin": 15.6,
+          "op_profit": 843.0,
+          "fcf": 0.2,
+          "fcf_usd": 0.2
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q2 FY26",
+          "rev": 5.48,
+          "rev_usd": 5.48,
+          "ebit_margin": 17.5,
+          "op_profit": 958.0,
+          "fcf": 0.46,
+          "fcf_usd": 0.46
+        }
+      ],
+      "annual": {
+        "rev": 21.6,
+        "rev_usd": 21.6,
+        "growth": null,
+        "ebit_margin": 16.3,
+        "op_profit": 3520,
+        "fcf": 2.6,
+        "fcf_usd": 2.6
+      },
+      "fy_end_month": 12,
+      "currency": "USD",
+      "usd_rate": 1.0
+    },
+    "HCLT": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 302.46,
+          "rev_usd": 3.13,
+          "ebit_margin": 19.5,
+          "op_profit": 58910.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 303.49,
+          "rev_usd": 3.14,
+          "ebit_margin": 29.9,
+          "op_profit": 90800.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 338.72,
+          "rev_usd": 3.5,
+          "ebit_margin": 32.7,
+          "op_profit": 110600.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 339.81,
+          "rev_usd": 3.51,
+          "ebit_margin": 31.4,
+          "op_profit": 106540.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 345.79,
+          "rev_usd": 3.57,
+          "ebit_margin": 31.6,
+          "op_profit": 109390.0,
+          "fcf": null,
+          "fcf_usd": null
+        }
+      ],
+      "annual": {
+        "rev": 1327.8,
+        "rev_usd": 13.7,
+        "growth": null,
+        "ebit_margin": 31.4,
+        "op_profit": 417330,
+        "fcf": null,
+        "fcf_usd": null
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "WIPRO": {
+      "quarters": [
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 221.35,
+          "rev_usd": 2.29,
+          "ebit_margin": 16.1,
+          "op_profit": 35542.0,
+          "fcf": 38.38,
+          "fcf_usd": 0.4
+        },
+        {
+          "date": "2025-09-30",
+          "label": "Q2 FY26",
+          "rev": 226.97,
+          "rev_usd": 2.35,
+          "ebit_margin": 16.4,
+          "op_profit": 37271.0,
+          "fcf": 30.5,
+          "fcf_usd": 0.32
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 235.56,
+          "rev_usd": 2.43,
+          "ebit_margin": 14.8,
+          "op_profit": 34947.0,
+          "fcf": 37.93,
+          "fcf_usd": 0.39
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 242.36,
+          "rev_usd": 2.5,
+          "ebit_margin": 17.1,
+          "op_profit": 41366.0,
+          "fcf": 26.91,
+          "fcf_usd": 0.28
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 244.79,
+          "rev_usd": 2.53,
+          "ebit_margin": 15.7,
+          "op_profit": 38427.0,
+          "fcf": 29.5,
+          "fcf_usd": 0.3
+        }
+      ],
+      "annual": {
+        "rev": 949.7,
+        "rev_usd": 9.8,
+        "growth": null,
+        "ebit_margin": 16.0,
+        "op_profit": 152011,
+        "fcf": 124.84,
+        "fcf_usd": 1.29
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "TECHM": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 133.84,
+          "rev_usd": 1.38,
+          "ebit_margin": 10.5,
+          "op_profit": 14053.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 133.51,
+          "rev_usd": 1.38,
+          "ebit_margin": 11.1,
+          "op_profit": 14771.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 143.93,
+          "rev_usd": 1.49,
+          "ebit_margin": 13.1,
+          "op_profit": 18919.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 150.76,
+          "rev_usd": 1.56,
+          "ebit_margin": 13.8,
+          "op_profit": 20842.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 157.12,
+          "rev_usd": 1.62,
+          "ebit_margin": 14.4,
+          "op_profit": 22639.0,
+          "fcf": null,
+          "fcf_usd": null
+        }
+      ],
+      "annual": {
+        "rev": 585.3,
+        "rev_usd": 6.0,
+        "growth": null,
+        "ebit_margin": 13.1,
+        "op_profit": 77171,
+        "fcf": null,
+        "fcf_usd": null
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "MPHL": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 37.1,
+          "rev_usd": 0.38,
+          "ebit_margin": 15.3,
+          "op_profit": 5672.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 37.32,
+          "rev_usd": 0.39,
+          "ebit_margin": 15.3,
+          "op_profit": 5709.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 40.03,
+          "rev_usd": 0.41,
+          "ebit_margin": 15.2,
+          "op_profit": 6088.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 42.43,
+          "rev_usd": 0.44,
+          "ebit_margin": 15.4,
+          "op_profit": 6525.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 43.84,
+          "rev_usd": 0.45,
+          "ebit_margin": 14.8,
+          "op_profit": 6481.0,
+          "fcf": null,
+          "fcf_usd": null
+        }
+      ],
+      "annual": {
+        "rev": 163.6,
+        "rev_usd": 1.7,
+        "growth": null,
+        "ebit_margin": 15.2,
+        "op_profit": 24803,
+        "fcf": null,
+        "fcf_usd": null
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "PSYS": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 32.42,
+          "rev_usd": 0.34,
+          "ebit_margin": 15.6,
+          "op_profit": 5053.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 33.34,
+          "rev_usd": 0.34,
+          "ebit_margin": 15.5,
+          "op_profit": 5178.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 37.78,
+          "rev_usd": 0.39,
+          "ebit_margin": 16.7,
+          "op_profit": 6325.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 40.56,
+          "rev_usd": 0.42,
+          "ebit_margin": 16.3,
+          "op_profit": 6592.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 43.03,
+          "rev_usd": 0.44,
+          "ebit_margin": 13.5,
+          "op_profit": 5816.0,
+          "fcf": null,
+          "fcf_usd": null
+        }
+      ],
+      "annual": {
+        "rev": 154.7,
+        "rev_usd": 1.6,
+        "growth": null,
+        "ebit_margin": 15.5,
+        "op_profit": 23911,
+        "fcf": null,
+        "fcf_usd": null
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "COFG": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 34.22,
+          "rev_usd": 0.35,
+          "ebit_margin": 12.2,
+          "op_profit": 4183.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 37.04,
+          "rev_usd": 0.38,
+          "ebit_margin": 11.8,
+          "op_profit": 4379.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 41.88,
+          "rev_usd": 0.43,
+          "ebit_margin": 13.4,
+          "op_profit": 5594.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 44.5,
+          "rev_usd": 0.46,
+          "ebit_margin": 16.6,
+          "op_profit": 7368.0,
+          "fcf": null,
+          "fcf_usd": null
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 55.28,
+          "rev_usd": 0.57,
+          "ebit_margin": 16.0,
+          "op_profit": 8822.0,
+          "fcf": null,
+          "fcf_usd": null
+        }
+      ],
+      "annual": {
+        "rev": 178.7,
+        "rev_usd": 1.8,
+        "growth": null,
+        "ebit_margin": 14.5,
+        "op_profit": 26163,
+        "fcf": null,
+        "fcf_usd": null
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010334
+    },
+    "ACN": {
+      "quarters": [
+        {
+          "date": "2025-05-31",
+          "label": "Q3 FY25",
+          "rev": 17.73,
+          "rev_usd": 17.73,
+          "ebit_margin": 16.8,
+          "op_profit": 2983.0,
+          "fcf": 3.52,
+          "fcf_usd": 3.52
+        },
+        {
+          "date": "2025-08-31",
+          "label": "Q4 FY25",
+          "rev": 17.6,
+          "rev_usd": 17.6,
+          "ebit_margin": 15.1,
+          "op_profit": 2665.0,
+          "fcf": 3.81,
+          "fcf_usd": 3.81
+        },
+        {
+          "date": "2025-11-30",
+          "label": "Q1 FY26",
+          "rev": 18.74,
+          "rev_usd": 18.74,
+          "ebit_margin": 17.0,
+          "op_profit": 3181.0,
+          "fcf": 1.51,
+          "fcf_usd": 1.51
+        },
+        {
+          "date": "2026-02-28",
+          "label": "Q2 FY26",
+          "rev": 18.04,
+          "rev_usd": 18.04,
+          "ebit_margin": 13.8,
+          "op_profit": 2494.0,
+          "fcf": 3.67,
+          "fcf_usd": 3.67
+        },
+        {
+          "date": "2026-05-31",
+          "label": "Q3 FY26",
+          "rev": 18.72,
+          "rev_usd": 18.72,
+          "ebit_margin": 17.0,
+          "op_profit": 3175.0,
+          "fcf": 3.6,
+          "fcf_usd": 3.6
+        }
+      ],
+      "annual": {
+        "rev": 73.1,
+        "rev_usd": 73.1,
+        "growth": null,
+        "ebit_margin": 15.7,
+        "op_profit": 11515,
+        "fcf": 12.59,
+        "fcf_usd": 12.59
+      },
+      "fy_end_month": 8,
+      "currency": "USD",
+      "usd_rate": 1.0
+    },
+    "DXC": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 3.17,
+          "rev_usd": 3.17,
+          "ebit_margin": 10.4,
+          "op_profit": 329.0,
+          "fcf": 0.14,
+          "fcf_usd": 0.14
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 3.16,
+          "rev_usd": 3.16,
+          "ebit_margin": 2.3,
+          "op_profit": 73.0,
+          "fcf": 0.13,
+          "fcf_usd": 0.13
+        },
+        {
+          "date": "2025-09-30",
+          "label": "Q2 FY26",
+          "rev": 3.16,
+          "rev_usd": 3.16,
+          "ebit_margin": 3.7,
+          "op_profit": 117.0,
+          "fcf": 0.27,
+          "fcf_usd": 0.27
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 3.19,
+          "rev_usd": 3.19,
+          "ebit_margin": 4.9,
+          "op_profit": 156.0,
+          "fcf": 0.29,
+          "fcf_usd": 0.29
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 3.13,
+          "rev_usd": 3.13,
+          "ebit_margin": -1.5,
+          "op_profit": -46.0,
+          "fcf": 0.13,
+          "fcf_usd": 0.13
+        }
+      ],
+      "annual": {
+        "rev": 12.6,
+        "rev_usd": 12.6,
+        "growth": null,
+        "ebit_margin": 2.4,
+        "op_profit": 300,
+        "fcf": 0.82,
+        "fcf_usd": 0.82
+      },
+      "fy_end_month": 3,
+      "currency": "USD",
+      "usd_rate": 1.0
+    },
+    "GIB": {
+      "quarters": [
+        {
+          "date": "2025-06-30",
+          "label": "Q3 FY25",
+          "rev": 4.09,
+          "rev_usd": 2.87,
+          "ebit_margin": 16.3,
+          "op_profit": 666.0,
+          "fcf": 0.41,
+          "fcf_usd": 0.29
+        },
+        {
+          "date": "2025-09-30",
+          "label": "Q4 FY25",
+          "rev": 4.01,
+          "rev_usd": 2.81,
+          "ebit_margin": 16.6,
+          "op_profit": 668.0,
+          "fcf": 0.6,
+          "fcf_usd": 0.42
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q1 FY26",
+          "rev": 4.08,
+          "rev_usd": 2.86,
+          "ebit_margin": 16.1,
+          "op_profit": 656.0,
+          "fcf": 0.81,
+          "fcf_usd": 0.57
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q2 FY26",
+          "rev": 4.16,
+          "rev_usd": 2.92,
+          "ebit_margin": 16.6,
+          "op_profit": 692.0,
+          "fcf": 0.38,
+          "fcf_usd": 0.27
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q3 FY26",
+          "rev": 4.19,
+          "rev_usd": 2.94,
+          "ebit_margin": 16.3,
+          "op_profit": 682.0,
+          "fcf": 0.53,
+          "fcf_usd": 0.37
+        }
+      ],
+      "annual": {
+        "rev": 16.4,
+        "rev_usd": 11.5,
+        "growth": null,
+        "ebit_margin": 16.4,
+        "op_profit": 2698,
+        "fcf": 2.32,
+        "fcf_usd": 1.63
+      },
+      "fy_end_month": 9,
+      "currency": "CAD",
+      "usd_rate": 0.701484
+    }
+  },
+  "forex_rates": {
+    "USD": 1.0,
+    "EUR": 1.11957,
+    "JPY": 0.006323,
+    "CAD": 0.701484,
+    "INR": 0.010334
+  }
 }
