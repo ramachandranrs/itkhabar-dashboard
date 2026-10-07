@@ -427,9 +427,293 @@ def fetch_news():
     return headlines[:40]  # Cap at 40 (higher for earnings season)
 
 
+# ─── Fiscal year metadata for each company ───
+# fyEnd = month number (1-12) the fiscal year ends in
+# Indian companies: Mar (3), Accenture: Aug (8), Capgemini: Dec (12), etc.
+FISCAL_YEARS = {
+    "TCS": 3, "INFY": 3, "CTSH": 12, "HCLT": 3, "WIPRO": 3,
+    "TECHM": 3, "LTIM": 3, "MPHL": 3, "PSYS": 3, "COFG": 3,
+    "ACN": 8, "CAP": 12, "NTTD": 3, "ATOS": 12, "DXC": 3, "GIB": 9,
+}
+
+# Currency divisors: convert raw financials to $B
+# Indian companies report in INR (divide by ~83-85 for USD, but we'll use yfinance which reports in local currency)
+# We'll convert everything to USD billions for consistency
+CURRENCY_INFO = {
+    "TCS": {"curr": "INR", "div": 1e9}, "INFY": {"curr": "INR", "div": 1e9},
+    "CTSH": {"curr": "USD", "div": 1e9}, "HCLT": {"curr": "INR", "div": 1e9},
+    "WIPRO": {"curr": "INR", "div": 1e9}, "TECHM": {"curr": "INR", "div": 1e9},
+    "LTIM": {"curr": "INR", "div": 1e9}, "MPHL": {"curr": "INR", "div": 1e9},
+    "PSYS": {"curr": "INR", "div": 1e9}, "COFG": {"curr": "INR", "div": 1e9},
+    "ACN": {"curr": "USD", "div": 1e9}, "CAP": {"curr": "EUR", "div": 1e9},
+    "NTTD": {"curr": "JPY", "div": 1e9}, "ATOS": {"curr": "EUR", "div": 1e9},
+    "DXC": {"curr": "USD", "div": 1e9}, "GIB": {"curr": "CAD", "div": 1e9},
+}
+
+
+def fetch_forex_rates():
+    """Fetch latest USD exchange rates for all non-USD currencies used by tracked companies.
+
+    Uses yfinance forex pairs to get live spot rates.
+    Returns dict: {"EUR": 1.09, "JPY": 0.0067, "CAD": 0.74, "INR": 0.012, "USD": 1.0}
+    (all rates are X_to_USD, i.e., multiply local currency by rate to get USD)
+    """
+    print("Fetching forex rates...")
+    # yfinance forex pairs: XXXUSD=X gives price of 1 XXX in USD
+    pairs = {
+        "EUR": "EURUSD=X",
+        "JPY": "JPYUSD=X",   # fallback: use 1/USDJPY
+        "CAD": "CADUSD=X",
+        "INR": "INRUSD=X",
+    }
+    rates = {"USD": 1.0}
+
+    for curr, sym in pairs.items():
+        try:
+            ticker = yf.Ticker(sym)
+            hist = ticker.history(period="5d")
+            if hist is not None and not hist.empty:
+                rate = float(hist["Close"].iloc[-1])
+                rates[curr] = round(rate, 6)
+                print(f"  ✓ {curr}/USD: {rate:.6f}")
+            else:
+                # Fallback: try inverse pair
+                inv_sym = f"USD{curr}=X"
+                ticker2 = yf.Ticker(inv_sym)
+                hist2 = ticker2.history(period="5d")
+                if hist2 is not None and not hist2.empty:
+                    inv_rate = float(hist2["Close"].iloc[-1])
+                    rate = round(1.0 / inv_rate, 6)
+                    rates[curr] = rate
+                    print(f"  ✓ {curr}/USD (via inverse): {rate:.6f}")
+                else:
+                    print(f"  ⚠ {curr}: no forex data, using fallback")
+                    # Hardcoded fallbacks (approximate, updated rarely)
+                    fallbacks = {"EUR": 1.09, "JPY": 0.0067, "CAD": 0.74, "INR": 0.012}
+                    rates[curr] = fallbacks.get(curr, 1.0)
+        except Exception as e:
+            print(f"  ✗ {curr}: {e}")
+            fallbacks = {"EUR": 1.09, "JPY": 0.0067, "CAD": 0.74, "INR": 0.012}
+            rates[curr] = fallbacks.get(curr, 1.0)
+
+    return rates
+
+
+def fetch_quarterly_financials(forex_rates=None):
+    """Fetch quarterly income statement + cash flow for all tracked companies.
+
+    Uses yfinance to pull data from official filings (SEC EDGAR, BSE, etc.).
+    When forex_rates is provided, adds USD-converted values alongside local currency.
+    Returns dict keyed by dashboard ticker:
+      { "ACN": {
+          "quarters": [
+            {"date": "2025-11-30", "label": "Q1 FY26", "rev": 18.74, "rev_usd": 18.74,
+             "ebit_margin": 15.3, "fcf": 1.5, "fcf_usd": 1.5},
+            ...
+          ],
+          "annual": {"rev": 74.2, "rev_usd": 74.2, "growth": 5.0, "ebit_margin": 15.4,
+                     "op_profit": 11410, "fcf": 11.62, "fcf_usd": 11.62},
+          "fy_end_month": 8,
+          "currency": "USD",
+          "usd_rate": 1.0
+        }, ...
+      }
+    """
+    print("Fetching quarterly financials...")
+    if forex_rates is None:
+        forex_rates = {"USD": 1.0}
+    quarterly = {}
+
+    for tk, info in TICKERS.items():
+        sym = info["yf"]
+        fy_end = FISCAL_YEARS.get(tk, 3)
+        curr_info = CURRENCY_INFO.get(tk, {"curr": "USD", "div": 1e9})
+
+        try:
+            ticker = yf.Ticker(sym)
+
+            # ── Income statement (quarterly) ──
+            inc = ticker.quarterly_income_stmt
+            if inc is None or inc.empty:
+                print(f"  ⚠ {tk}: no income statement data")
+                continue
+
+            # ── Cash flow (quarterly) ──
+            cf = ticker.quarterly_cashflow
+            has_cf = cf is not None and not cf.empty
+
+            # yfinance returns columns as dates (most recent first)
+            # We want up to 12 quarters, sorted oldest-first
+            dates = sorted(inc.columns)[-12:]  # last 12 quarters
+
+            quarters = []
+            for dt in dates:
+                q_data = {}
+                q_data["date"] = dt.strftime("%Y-%m-%d")
+
+                # Generate FY quarter label from date and fiscal year end
+                q_label = _make_quarter_label(dt, fy_end)
+                q_data["label"] = q_label
+
+                # Revenue — try multiple field names
+                rev = _get_field(inc, dt, [
+                    "Total Revenue", "Revenue", "Operating Revenue",
+                    "Net Revenue", "Total Net Revenue"
+                ])
+                if rev is None:
+                    continue  # skip quarter if no revenue
+                rev_scaled = round(rev / curr_info["div"], 2)
+                q_data["rev"] = rev_scaled
+                # USD-converted revenue
+                fx = forex_rates.get(curr_info["curr"], 1.0)
+                q_data["rev_usd"] = round(rev_scaled * fx, 2)
+
+                # Operating income / EBIT
+                ebit = _get_field(inc, dt, [
+                    "Operating Income", "EBIT", "Operating Profit",
+                    "Total Operating Income As Reported"
+                ])
+                if ebit is not None and rev > 0:
+                    q_data["ebit_margin"] = round(ebit / rev * 100, 1)
+                    q_data["op_profit"] = round(ebit / curr_info["div"] * 1000, 0)  # in $M equivalent
+                else:
+                    q_data["ebit_margin"] = None
+                    q_data["op_profit"] = None
+
+                # Free cash flow from cash flow statement
+                if has_cf and dt in cf.columns:
+                    opcf = _get_field(cf, dt, [
+                        "Operating Cash Flow", "Cash Flow From Continuing Operating Activities",
+                        "Free Cash Flow", "Total Cash From Operating Activities"
+                    ])
+                    capex = _get_field(cf, dt, [
+                        "Capital Expenditure", "Purchase Of PPE",
+                        "Capital Expenditures"
+                    ])
+                    if opcf is not None:
+                        # If "Free Cash Flow" was found directly, use it
+                        fcf_row = _get_field(cf, dt, ["Free Cash Flow"])
+                        if fcf_row is not None:
+                            q_data["fcf"] = round(fcf_row / curr_info["div"], 2)
+                        elif capex is not None:
+                            # capex is usually negative in yfinance
+                            q_data["fcf"] = round((opcf + capex) / curr_info["div"], 2)
+                        else:
+                            q_data["fcf"] = round(opcf / curr_info["div"], 2)
+                    else:
+                        q_data["fcf"] = None
+                else:
+                    q_data["fcf"] = None
+
+                # USD-converted FCF
+                if q_data.get("fcf") is not None:
+                    q_data["fcf_usd"] = round(q_data["fcf"] * fx, 2)
+                else:
+                    q_data["fcf_usd"] = None
+
+                quarters.append(q_data)
+
+            if not quarters:
+                print(f"  ⚠ {tk}: no valid quarters extracted")
+                continue
+
+            # ── Compute annual totals from last 4 quarters ──
+            last4 = quarters[-4:] if len(quarters) >= 4 else quarters
+            annual_rev = sum(q["rev"] for q in last4)
+            annual_ebit_margins = [q["ebit_margin"] for q in last4 if q.get("ebit_margin") is not None]
+            annual_margin = round(sum(annual_ebit_margins) / len(annual_ebit_margins), 1) if annual_ebit_margins else None
+            annual_op_profit = sum(q.get("op_profit", 0) or 0 for q in last4)
+            annual_fcf_vals = [q.get("fcf") for q in last4 if q.get("fcf") is not None]
+            annual_fcf = round(sum(annual_fcf_vals), 2) if annual_fcf_vals else None
+
+            # USD-converted annual totals
+            fx = forex_rates.get(curr_info["curr"], 1.0)
+            annual_rev_usd = round(annual_rev * fx, 1)
+            annual_fcf_usd = round(annual_fcf * fx, 2) if annual_fcf is not None else None
+
+            # YoY revenue growth (last 4 vs prior 4)
+            yoy_growth = None
+            if len(quarters) >= 8:
+                prior4 = quarters[-8:-4]
+                prior_rev = sum(q["rev"] for q in prior4)
+                if prior_rev > 0:
+                    yoy_growth = round((annual_rev - prior_rev) / prior_rev * 100, 1)
+
+            quarterly[tk] = {
+                "quarters": quarters,
+                "annual": {
+                    "rev": round(annual_rev, 1),
+                    "rev_usd": annual_rev_usd,
+                    "growth": yoy_growth,
+                    "ebit_margin": annual_margin,
+                    "op_profit": round(annual_op_profit),
+                    "fcf": annual_fcf,
+                    "fcf_usd": annual_fcf_usd,
+                },
+                "fy_end_month": fy_end,
+                "currency": curr_info["curr"],
+                "usd_rate": fx,
+            }
+            print(f"  ✓ {tk}: {len(quarters)} quarters, latest={quarters[-1]['label']} rev={quarters[-1]['rev']}")
+
+        except Exception as e:
+            print(f"  ✗ {tk}: {e}")
+
+    print(f"  Total: {len(quarterly)} companies with quarterly data")
+    return quarterly
+
+
+def _make_quarter_label(dt, fy_end_month):
+    """Generate a FY quarter label like 'Q2 FY26' from a quarter-end date and FY end month.
+
+    fy_end_month: the month the fiscal year ends (3=Mar, 8=Aug, 12=Dec, etc.)
+    The quarter containing fy_end_month is Q4.
+
+    Examples for fy_end_month=3 (Indian companies):
+      Jan-Mar -> Q4 FYxx, Apr-Jun -> Q1 FYxx+1, Jul-Sep -> Q2, Oct-Dec -> Q3
+    For fy_end_month=8 (Accenture):
+      Sep-Nov -> Q1, Dec-Feb -> Q2, Mar-May -> Q3, Jun-Aug -> Q4
+    """
+    m = dt.month
+    y = dt.year
+
+    # Compute which quarter (1-4) this month falls in relative to FY
+    # Q4 ends in fy_end_month, Q3 ends 3 months before, etc.
+    # Month offset from FY start
+    fy_start_month = (fy_end_month % 12) + 1  # month after FY end = FY start
+    # How many months after FY start?
+    offset = (m - fy_start_month) % 12
+    q_num = (offset // 3) + 1  # 1-4
+
+    # FY year label: if we're past fy_end_month, we're in the next FY
+    if fy_end_month == 12:
+        fy_year = y
+    elif m > fy_end_month:
+        fy_year = y + 1
+    else:
+        fy_year = y
+
+    return f"Q{q_num} FY{str(fy_year)[-2:]}"
+
+
+def _get_field(df, col, field_names):
+    """Try multiple row names in a yfinance DataFrame, return first found value."""
+    for name in field_names:
+        if name in df.index:
+            val = df.loc[name, col]
+            if val is not None and str(val) != 'nan':
+                try:
+                    return float(val)
+                except (ValueError, TypeError):
+                    continue
+    return None
+
+
 def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     print(f"═══ IT Dashboard Data Refresh — {now.strftime('%Y-%m-%d %H:%M UTC')} ═══\n")
+
+    forex = fetch_forex_rates()
 
     output = {
         "updated": now.isoformat(),
@@ -438,6 +722,8 @@ def main():
         "indices": fetch_indices(),
         "historical": fetch_historical_prices(),
         "news": fetch_news(),
+        "quarterly": fetch_quarterly_financials(forex),
+        "forex_rates": forex,
     }
 
     # Write data.json
@@ -450,6 +736,8 @@ def main():
     print(f"  {len(output['indices'])} indices")
     print(f"  {len(output['historical'])} historical price sets (mp/dp for trend charts)")
     print(f"  {len(output['news'])} news items")
+    print(f"  {len(output['quarterly'])} companies with quarterly financials")
+    print(f"  Forex rates: {', '.join(f'{k}={v}' for k,v in output['forex_rates'].items())}")
 
 
 if __name__ == "__main__":

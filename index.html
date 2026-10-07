@@ -732,6 +732,8 @@ const INDIA=[
    att:13.0,hc:[335,333,331,328],vert:{BFSI:28,Retail:14,Tech:15,Mfg:12,HC:9,Other:22}},
   {t:'CTSH',n:'Cognizant',r:21.1,g:7.0,m:15.8,p:2230,s:'$61',sc:-0.5,mc:28,mcd:'$28B',e:'352K',grp:'IN',
    pe:12.6,evEbitda:6.8,
+   fyEnd:12, /* Dec=12: Cognizant FY ends Dec 31, calendar year */
+   ql:['Q1 FY22','Q2 FY22','Q3 FY22','Q4 FY22','Q1 FY23','Q2 FY23','Q3 FY23','Q4 FY23','Q1 FY24','Q2 FY24','Q3 FY24','Q4 FY24'],
    qr:[4.81,4.89,4.90,4.76, 4.76,4.85,5.04,5.08, 5.12,5.25,5.42,5.33],
    qm:[14.6,14.2,15.5,16.1, 15.1,15.2,15.3,15.7, 15.5,15.6,16.0,16.0],
    qfcf:[0.38,0.42,0.48,0.55, 0.52,0.60,0.77,0.78, 0.60,0.65,0.72,0.70],
@@ -802,14 +804,16 @@ const INDIA=[
 ];
 
 const GLOBAL=[
-  {t:'ACN',n:'Accenture',r:69.7,g:7.4,m:14.7,p:7830,s:'$181',sc:-4.7,mc:111,mcd:'$111B',e:'799K',grp:'GL',
+  {t:'ACN',n:'Accenture',r:74.2,g:5.0,m:15.4,p:11410,s:'$193',sc:-0.8,mc:111,mcd:'$111B',e:'799K',grp:'GL',
    pe:14.7,evEbitda:8.6,
-   qr:[16.22,15.80,16.47,16.41, 17.69,16.66,17.73,17.60, 18.74,18.04,18.72,18.72],
-   qm:[15.8,13.0,16.0,14.3, 16.7,13.5,16.8,11.6, 15.3,13.8,17.0,17.0],
-   qfcf:[1.90,2.05,2.15,2.30, 2.35,2.50,2.25,3.80, 2.50,2.65,3.60,2.80],
+   fyEnd:8, /* Aug=8: Accenture FY ends Aug 31 */
+   ql:['Q1 FY24','Q2 FY24','Q3 FY24','Q4 FY24','Q1 FY25','Q2 FY25','Q3 FY25','Q4 FY25','Q1 FY26','Q2 FY26','Q3 FY26','Q4 FY26'],
+   qr:[16.22,15.80,16.47,16.41, 17.69,16.66,17.73,17.60, 18.74,18.04,18.72,18.68],
+   qm:[15.8,13.0,16.0,14.3, 16.7,13.5,16.8,11.6, 15.3,13.8,17.0,15.3],
+   qfcf:[1.90,2.05,2.15,2.30, 2.35,2.50,2.25,3.81, 1.50,3.67,3.60,2.85],
    },
   {t:'CAP',n:'Capgemini',r:24.5,g:1.7,m:13.3,p:1744,s:'€109',sc:-2.1,mc:20,mcd:'€18.5B',e:'423K',grp:'GL',
-   pe:13.3,evEbitda:7.6,
+   pe:13.3,evEbitda:7.6,fyEnd:12,
    qr:[6.24,6.21,5.97,6.12, 6.02,6.12,5.86,6.08, 6.05,6.05,5.88,6.50],
    qm:[13.0,13.0,13.5,13.5, 13.0,13.0,13.6,13.6, 12.8,12.8,13.7,13.7],
    qfcf:[0.45,0.48,0.52,0.55, 0.50,0.52,0.55,0.53, 0.48,0.50,0.52,0.50],
@@ -821,7 +825,7 @@ const GLOBAL=[
    qfcf:[0.25,0.28,0.30,0.32, 0.28,0.30,0.32,0.35, 0.28,0.30,0.32,0.35],
    },
   {t:'ATOS',n:'Atos',r:8.7,g:-16.4,m:4.4,p:-1528,s:'€26',sc:-43.3,mc:0.5,mcd:'€504M',e:'63K',grp:'GL',
-   pe:null,evEbitda:null,
+   pe:null,evEbitda:null,fyEnd:12,
    qr:[3.06,2.99,2.82,2.78, 2.70,2.71,2.51,2.52, 2.25,2.13,2.15,2.18],
    qm:[4.5,4.5,4.3,4.3, 1.8,1.8,2.4,2.4, 3.5,3.5,5.2,5.2],
    qfcf:[-0.70,-0.65,-0.55,-0.50, -0.08,-0.02,0.01,0.02, 0.01,0.02,0.03,0.02],
@@ -833,7 +837,7 @@ const GLOBAL=[
    qfcf:[0.15,0.18,0.20,0.25, 0.14,0.20,0.22,0.18, 0.13,0.18,0.20,0.17],
    },
   {t:'GIB',n:'CGI Group',r:11.6,g:8.4,m:16.4,p:1210,s:'$69',sc:-1.5,mc:14,mcd:'$14.2B',e:'90K',grp:'GL',
-   pe:12.3,evEbitda:8.2,
+   pe:12.3,evEbitda:8.2,fyEnd:9,
    qr:[2.63,2.73,2.68,2.67, 2.77,2.93,2.99,2.93, 2.98,3.04,3.04,3.04],
    qm:[15.5,15.5,15.7,16.2, 15.6,16.5,16.3,16.6, 16.1,16.6,16.6,16.6],
    qfcf:[0.32,0.34,0.36,0.38, 0.35,0.36,0.37,0.37, 0.40,0.42,0.45,0.48],
@@ -1835,13 +1839,18 @@ function buildReport(){
   container.innerHTML='';
   const badgeClasses={DEAL:'badge-deal',RESULTS:'badge-results',PARTNERSHIP:'badge-partnership',AI:'badge-ai',PEOPLE:'badge-people',GUIDANCE:'badge-guidance',ANALYST:'badge-analyst',MACRO:'badge-macro',CYBER:'badge-cyber',CLOUD:'badge-cloud',POLICY:'badge-policy',PLATFORM:'badge-platform'};
   const nQ=QLABELS.length;
-  const last4=QLABELS.slice(-4); // latest 4 quarters dynamically
 
   selected.forEach(c=>{
+    const last4=c.ql?c.ql.slice(-4):QLABELS.slice(-4); // use company's own FY labels if available
     const inIdx=INDIA.indexOf(c);
     const col=inIdx>=0?sCol(inIdx):'var(--accent)';
     const grpCls=c.grp==='IN'?'grp-in':'grp-gl';
     const grpLabel=c.grp==='IN'?'India':'Global';
+    // FY cycle label for non-Mar companies
+    const _moNames=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const _fyEnd=c.fyEnd||3; // default Mar for Indian
+    const _fyStart=((_fyEnd)%12)+1; // month after FY end
+    const fyInfo=_fyEnd!==3?` <span style="font-size:9px;color:var(--ink-3);font-weight:400">FY: ${_moNames[_fyStart-1]}–${_moNames[_fyEnd-1]}</span>`:'';
     const yoy=computeYoY(c.qr);
     const qLen=c.qr.length;
 
@@ -1865,14 +1874,34 @@ function buildReport(){
     const fyLabel=fyMatch?'FY'+fyMatch[1]:'FY Total';
     tbl+=`<th>${fyLabel}</th></tr></thead><tbody>`;
 
-    // Revenue row
-    tbl+='<tr class="rpt-metric-row"><td>Revenue ($B)</td>';
+    // Determine currency symbol for this company
+    // fyCurr is set by live data override; without live data, hardcoded values are already in USD
+    const _currMap={USD:'$',INR:'₹',EUR:'€',JPY:'¥',CAD:'C$'};
+    const _curr=c.fyCurr||'USD'; // default USD since hardcoded data is USD-denominated
+    const _sym=_currMap[_curr]||'$';
+    const _isNonUsd=_curr!=='USD';
+    const _rate=c.usdRate||1.0;
+
+    // Revenue row (local currency)
+    const revLabel=_isNonUsd?`Revenue (${_sym}B)`:'Revenue ($B)';
+    tbl+=`<tr class="rpt-metric-row"><td>${revLabel}</td>`;
     qr4.forEach((v,i)=>{
       const prev=i>0?qr4[i-1]:(qLen>4?c.qr[qLen-5]:null);
       const cls=prev!=null&&v>prev?'rpt-val-up':prev!=null&&v<prev?'rpt-val-dn':'';
       tbl+=`<td class="${cls}">${v<1?v.toFixed(3):v.toFixed(2)}</td>`;
     });
-    tbl+=`<td class="rpt-total-row">$${fyRev.toFixed(2)}B</td></tr>`;
+    tbl+=`<td class="rpt-total-row">${_sym}${fyRev.toFixed(2)}B</td></tr>`;
+
+    // USD Revenue row for non-USD companies
+    if(_isNonUsd){
+      const qr4_usd=c.qr_usd?c.qr_usd.slice(-4):qr4.map(v=>+(v*_rate).toFixed(2));
+      const fyRevUsd=qr4_usd.reduce((a,b)=>a+b,0);
+      tbl+=`<tr style="font-size:10px;color:var(--ink-3)"><td>≈ USD ($B)</td>`;
+      qr4_usd.forEach(v=>{
+        tbl+=`<td>${v<1?v.toFixed(3):v.toFixed(2)}</td>`;
+      });
+      tbl+=`<td>$${fyRevUsd.toFixed(2)}B</td></tr>`;
+    }
 
     // QoQ Revenue Growth row
     tbl+='<tr><td>QoQ Growth (%)</td>';
@@ -1926,26 +1955,41 @@ function buildReport(){
     tbl+=`<td class="${tdCls}" style="font-weight:600">${totalDelta>0?'+':''}${totalDelta}</td></tr>`;
 
     // Implied quarterly profit row
-    tbl+='<tr class="rpt-metric-row"><td>Op. Profit ($M)</td>';
+    const profLabel=_isNonUsd?`Op. Profit (${_sym}M)`:'Op. Profit ($M)';
+    tbl+=`<tr class="rpt-metric-row"><td>${profLabel}</td>`;
     qr4.forEach((v,i)=>{
       const profit=Math.round(v*qm4[i]/100*1000);
-      tbl+=`<td>$${profit.toLocaleString()}</td>`;
+      tbl+=`<td>${_sym}${profit.toLocaleString()}</td>`;
     });
     const fyProfit=Math.round(fyRev*(parseFloat(fyMarginAvg)/100)*1000);
-    tbl+=`<td style="font-weight:600">$${fyProfit.toLocaleString()}</td></tr>`;
+    tbl+=`<td style="font-weight:600">${_sym}${fyProfit.toLocaleString()}</td></tr>`;
 
     // Free Cash Flow row
     if(c.qfcf){
       const qfcf4=c.qfcf.slice(-4);
-      tbl+='<tr class="rpt-metric-row"><td>Free Cash Flow ($M)</td>';
+      const fcfLabel=_isNonUsd?`Free Cash Flow (${_sym}M)`:'Free Cash Flow ($M)';
+      tbl+=`<tr class="rpt-metric-row"><td>${fcfLabel}</td>`;
       qfcf4.forEach(v=>{
         const val=Math.round(v*1000);
         const cls=v<0?'rpt-val-dn':'';
-        tbl+=`<td class="${cls}">${v<0?'−':''}$${Math.abs(val).toLocaleString()}</td>`;
+        tbl+=`<td class="${cls}">${v<0?'−':''}${_sym}${Math.abs(val).toLocaleString()}</td>`;
       });
       const fyFcf=Math.round(qfcf4.reduce((a,b)=>a+b,0)*1000);
       const fcfCls=fyFcf<0?'rpt-val-dn':'';
-      tbl+=`<td class="${fcfCls}" style="font-weight:600">${fyFcf<0?'−':''}$${Math.abs(fyFcf).toLocaleString()}</td></tr>`;
+      tbl+=`<td class="${fcfCls}" style="font-weight:600">${fyFcf<0?'−':''}${_sym}${Math.abs(fyFcf).toLocaleString()}</td></tr>`;
+
+      // USD FCF row for non-USD companies
+      if(_isNonUsd){
+        const qfcf4_usd=c.qfcf_usd?c.qfcf_usd.slice(-4):qfcf4.map(v=>+(v*_rate).toFixed(2));
+        const fyFcfUsd=Math.round(qfcf4_usd.reduce((a,b)=>a+b,0)*1000);
+        tbl+=`<tr style="font-size:10px;color:var(--ink-3)"><td>≈ USD ($M)</td>`;
+        qfcf4_usd.forEach(v=>{
+          const val=Math.round(v*1000);
+          tbl+=`<td>${v<0?'−':''}$${Math.abs(val).toLocaleString()}</td>`;
+        });
+        const fcfUsdCls=fyFcfUsd<0?'rpt-val-dn':'';
+        tbl+=`<td>${fyFcfUsd<0?'−':''}$${Math.abs(fyFcfUsd).toLocaleString()}</td></tr>`;
+      }
     }
 
     // Valuation row
@@ -1993,7 +2037,7 @@ function buildReport(){
     <div class="rpt-card" style="--card-c:${col}">
       <div class="rpt-card-head">
         <div>
-          <div class="rpt-card-title">${c.t} <span class="grp-label ${grpCls}">${grpLabel}</span></div>
+          <div class="rpt-card-title">${c.t} <span class="grp-label ${grpCls}">${grpLabel}</span>${fyInfo}</div>
           <div class="rpt-card-sub">${c.n} · ${c.e} employees</div>
         </div>
         <div class="rpt-card-stats">
@@ -2004,12 +2048,13 @@ function buildReport(){
       ${exchHtml}
       <div class="rpt-kpi">
         <div class="rpt-kpi-item"><div class="m-label">Stock Price</div><div class="m-val">${c.s} <span style="font-size:10px" class="${c.sc>=0?'up-c':'dn-c'}">${c.sc>=0?'▲':'▼'}${Math.abs(c.sc)}%</span></div></div>
-        <div class="rpt-kpi-item"><div class="m-label">Annual Rev</div><div class="m-val">$${c.r}B</div></div>
+        <div class="rpt-kpi-item"><div class="m-label">Annual Rev</div><div class="m-val">${_isNonUsd?_sym:'$'}${c.r}B${_isNonUsd&&c.r_usd?`<span style="font-size:9px;color:var(--ink-3)"> ($${c.r_usd}B)</span>`:''}</div></div>
         <div class="rpt-kpi-item"><div class="m-label">CC Growth</div><div class="m-val ${c.g>=0?'up-c':'dn-c'}">${c.g>=0?'+':''}${c.g}%</div></div>
         <div class="rpt-kpi-item"><div class="m-label">Latest QoQ</div><div class="m-val ${latestQoQ&&parseFloat(latestQoQ)>=0?'up-c':'dn-c'}">${latestQoQ?(parseFloat(latestQoQ)>=0?'+':'')+latestQoQ+'%':'—'}</div></div>
         <div class="rpt-kpi-item"><div class="m-label">Latest YoY</div><div class="m-val ${latestYoY&&latestYoY>=0?'up-c':'dn-c'}">${latestYoY!==null?(latestYoY>=0?'+':'')+latestYoY+'%':'—'}</div></div>
       </div>
       <div class="rpt-scroll">${tbl}</div>
+      ${_isNonUsd?`<div style="font-size:9px;color:var(--ink-3);padding:2px 8px 4px;border-top:1px solid var(--ln)">FX rate: 1 ${_curr} = ${_rate.toFixed(_curr==='JPY'?4:4)} USD${window._forexRates?' (live)':' (est.)'}</div>`:''}
       ${newsHtml}
     </div>`;
   });
@@ -2272,6 +2317,53 @@ function applyLiveData(d){
       }
     });
   }
+  // ── 6. Override quarterly financials from live data ──
+  if(d.quarterly){
+    const allCOs=[...INDIA,...GLOBAL];
+    Object.entries(d.quarterly).forEach(([tk,qData])=>{
+      const co=allCOs.find(c=>c.t===tk);
+      if(!co||!qData.quarters||!qData.quarters.length) return;
+      const qs=qData.quarters;
+      // Override qr (quarterly revenue), qm (EBIT margin), qfcf (free cash flow)
+      // Pad to 12 entries: if fewer, pad with nulls at start
+      const padTo=12;
+      const revArr=qs.map(q=>q.rev);
+      const revUsdArr=qs.map(q=>q.rev_usd!=null?q.rev_usd:q.rev);
+      const mrgArr=qs.map(q=>q.ebit_margin!=null?q.ebit_margin:0);
+      const fcfArr=qs.map(q=>q.fcf!=null?q.fcf:0);
+      const fcfUsdArr=qs.map(q=>q.fcf_usd!=null?q.fcf_usd:(q.fcf||0));
+      const lblArr=qs.map(q=>q.label);
+      // Pad arrays to 12
+      while(revArr.length<padTo){revArr.unshift(null);revUsdArr.unshift(null);mrgArr.unshift(null);fcfArr.unshift(null);fcfUsdArr.unshift(null);lblArr.unshift('');}
+      // Only override if we have meaningful data (at least 4 quarters with revenue)
+      const validQ=revArr.filter(v=>v!==null&&v>0).length;
+      if(validQ>=4){
+        co.qr=revArr;
+        co.qr_usd=revUsdArr;
+        co.qm=mrgArr;
+        co.qfcf=fcfArr;
+        co.qfcf_usd=fcfUsdArr;
+        co.ql=lblArr; // company-specific quarter labels
+        // Override annual summary fields
+        if(qData.annual){
+          const a=qData.annual;
+          if(a.rev) co.r=a.rev;
+          if(a.rev_usd) co.r_usd=a.rev_usd;
+          if(a.growth!=null) co.g=a.growth;
+          if(a.ebit_margin!=null) co.m=a.ebit_margin;
+          if(a.op_profit) co.p=a.op_profit;
+          if(a.fcf_usd!=null) co.fcf_usd=a.fcf_usd;
+        }
+        // Store FY end month, currency, and USD rate for header display
+        if(qData.fy_end_month) co.fyEnd=qData.fy_end_month;
+        if(qData.currency) co.fyCurr=qData.currency;
+        if(qData.usd_rate) co.usdRate=qData.usd_rate;
+        console.log(`  ✓ ${tk}: quarterly data updated (${validQ} quarters, latest=${lblArr[lblArr.length-1]})`);
+      }
+    });
+  }
+  // ── 7. Store forex rates for display ──
+  if(d.forex_rates) window._forexRates=d.forex_rates;
 }
 
 async function loadLiveData(){
