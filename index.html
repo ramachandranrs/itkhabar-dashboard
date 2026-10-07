@@ -704,7 +704,16 @@ const _fyFirst=QLABELS[0].match(/FY(\d{2})/), _fyLast=QLABELS[QLABELS.length-1].
 const BENCHMARK_FY_RANGE=_fyFirst&&_fyLast?`FY${_fyFirst[1]}–FY${_fyLast[1]}`:'';
 document.addEventListener('DOMContentLoaded',()=>{
   const h=document.getElementById('peerBenchHead');if(h&&BENCHMARK_FY_RANGE)h.textContent='Peer Benchmark · '+BENCHMARK_FY_RANGE;
-  const ids=document.getElementById('intelDateSpan');if(ids)ids.textContent='· '+new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+  const ids=document.getElementById('intelDateSpan');if(ids){
+    // Show actual date range from events, not today's date
+    const evtDates=EVENTS.map(e=>{if(!e.dt)return null;const p=new Date(e.dt+' '+new Date().getFullYear());return isNaN(p)?null:p;}).filter(Boolean);
+    if(evtDates.length){
+      const newest=new Date(Math.max(...evtDates));
+      ids.textContent='· as of '+newest.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+    } else {
+      ids.textContent='· '+new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+    }
+  }
 });
 /* Daily trading days — auto-generated from dp array length or current month */
 let DLABELS=generateDLABELS(50); // generate all available, will be trimmed to dp length later
