@@ -1,98 +1,98 @@
 {
-  "updated": "2026-10-08T02:49:50.191619+00:00",
-  "updated_display": "08 Oct 2026, 02:49 UTC",
+  "updated": "2026-10-08T17:47:59.326244+00:00",
+  "updated_display": "08 Oct 2026, 17:47 UTC",
   "prices": {
     "TCS": {
-      "price": 2080.3,
-      "display": "\u20b92,080",
-      "change": -0.9
+      "price": 2076.0,
+      "display": "\u20b92,076",
+      "change": -0.2
     },
     "INFY": {
-      "price": 992.0,
-      "display": "\u20b9992",
-      "change": -2.2
+      "price": 997.0,
+      "display": "\u20b9997",
+      "change": 0.5
     },
     "CTSH": {
-      "price": 57.07,
-      "display": "$57.07",
-      "change": -0.3
+      "price": 58.52,
+      "display": "$58.52",
+      "change": 2.5
     },
     "HCLT": {
-      "price": 1185.0,
-      "display": "\u20b91,185",
-      "change": -1.6
+      "price": 1176.9,
+      "display": "\u20b91,177",
+      "change": -0.7
     },
     "WIPRO": {
-      "price": 159.6,
-      "display": "\u20b9160",
-      "change": -1.4
+      "price": 158.38,
+      "display": "\u20b9158",
+      "change": -0.8
     },
     "TECHM": {
-      "price": 1491.1,
-      "display": "\u20b91,491",
-      "change": -0.9
+      "price": 1496.2,
+      "display": "\u20b91,496",
+      "change": 0.3
     },
     "MPHL": {
-      "price": 2298.0,
-      "display": "\u20b92,298",
-      "change": 0.0
+      "price": 2303.4,
+      "display": "\u20b92,303",
+      "change": 0.6
     },
     "PSYS": {
-      "price": 5507.0,
-      "display": "\u20b95,507",
-      "change": -0.3
+      "price": 5468.0,
+      "display": "\u20b95,468",
+      "change": -0.7
     },
     "COFG": {
-      "price": 1822.2,
-      "display": "\u20b91,822",
-      "change": -1.5
+      "price": 1814.3,
+      "display": "\u20b91,814",
+      "change": -0.4
     },
     "ACN": {
-      "price": 196.64,
-      "display": "$197",
-      "change": 1.7
+      "price": 202.9,
+      "display": "$203",
+      "change": 3.2
     },
     "CAP": {
-      "price": 109.95,
-      "display": "\u20ac110",
-      "change": 1.4
+      "price": 110.85,
+      "display": "\u20ac111",
+      "change": -0.0
     },
     "ATOS": {
-      "price": 21.88,
-      "display": "\u20ac21.88",
-      "change": 1.3
+      "price": 21.3,
+      "display": "\u20ac21.30",
+      "change": -3.6
     },
     "DXC": {
-      "price": 12.02,
-      "display": "$12.02",
-      "change": 1.6
+      "price": 12.16,
+      "display": "$12.16",
+      "change": 1.2
     },
     "GIB": {
-      "price": 69.0,
-      "display": "$69.00",
-      "change": -0.9
+      "price": 69.47,
+      "display": "$69.47",
+      "change": 0.7
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72638.7,
-      "change": -0.59
+      "value": 71593.24,
+      "change": -1.44
     },
     "NIFTY_IT": {
-      "value": 27757.85,
-      "change": -1.34
+      "value": 27736.6,
+      "change": -0.08
     },
     "SP500": {
-      "value": 7801.77,
-      "change": -0.22
+      "value": 7749.83,
+      "change": -0.67
     },
     "USD_INR": {
-      "value": 96.75,
-      "change": 0.39
+      "value": 96.77,
+      "change": 0.41
     },
     "EUR_INR": {
-      "value": 108.45,
-      "change": 0.04
+      "value": 108.55,
+      "change": 0.14
     }
   },
   "historical": {
@@ -116,7 +116,8 @@
         2075.0,
         2114.0,
         2100.0,
-        2080.0
+        2080.0,
+        2076.0
       ]
     },
     "INFY": {
@@ -139,7 +140,8 @@
         1035.0,
         1020.0,
         1014.0,
-        992.0
+        992.0,
+        997.0
       ]
     },
     "CTSH": {
@@ -162,7 +164,8 @@
         59.0,
         58.0,
         57.0,
-        57.0
+        57.0,
+        59.0
       ]
     },
     "HCLT": {
@@ -185,7 +188,8 @@
         1243.0,
         1202.0,
         1204.0,
-        1185.0
+        1185.0,
+        1177.0
       ]
     },
     "WIPRO": {
@@ -208,7 +212,8 @@
         159.0,
         162.0,
         162.0,
-        160.0
+        160.0,
+        158.0
       ]
     },
     "TECHM": {
@@ -231,7 +236,8 @@
         1533.0,
         1536.0,
         1504.0,
-        1491.0
+        1491.0,
+        1496.0
       ]
     },
     "MPHL": {
@@ -253,7 +259,9 @@
         2250.0,
         2250.0,
         2297.0,
-        2298.0
+        2298.0,
+        2289.0,
+        2303.0
       ]
     },
     "PSYS": {
@@ -276,7 +284,8 @@
         5367.0,
         5530.0,
         5521.0,
-        5507.0
+        5507.0,
+        5468.0
       ]
     },
     "COFG": {
@@ -299,7 +308,8 @@
         1826.0,
         1852.0,
         1850.0,
-        1822.0
+        1822.0,
+        1814.0
       ]
     },
     "ACN": {
@@ -322,7 +332,8 @@
         199.0,
         195.0,
         193.0,
-        197.0
+        197.0,
+        203.0
       ]
     },
     "CAP": {
@@ -344,7 +355,9 @@
         112.0,
         109.0,
         108.0,
-        110.0
+        110.0,
+        111.0,
+        111.0
       ]
     },
     "ATOS": {
@@ -366,7 +379,9 @@
         22.0,
         22.0,
         22.0,
-        22.0
+        22.0,
+        22.0,
+        21.0
       ]
     },
     "DXC": {
@@ -387,6 +402,7 @@
       "dp": [
         12.0,
         11.0,
+        12.0,
         12.0,
         12.0,
         12.0
@@ -412,37 +428,65 @@
         70.0,
         71.0,
         70.0,
+        69.0,
         69.0
       ]
     }
   },
   "news": [
     {
-      "time": "2026-10-07 02:31",
+      "time": "2026-10-07 17:33",
       "tk": "TCS",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 earnings: Five things to watch as Tata boardroom fight adds to scrutiny",
-      "detail": "TCS\u2019s second-quarter results will offer clues on demand, AI revenue, data-centre spending and margins, while investors assess whether the Tata Sons dispute could distract its top leadership.",
-      "url": "https://www.livemint.com/companies/news/tcs-q2-earnings-five-things-to-watch-as-tata-boardroom-fight-adds-to-scrutiny-11791297435743.html"
-    },
-    {
-      "time": "2026-10-07 01:07",
-      "tk": "MPHL",
-      "src": "Moneycontrol",
-      "cat": "PEOPLE",
-      "hl": "Stocks to Watch Today: Titan, Kanohar Electricals, Glass Wall Systems, Arcil, Karamtara Engineering, Apollo Tyres, Mphasis, Mahindra Lifespaces in focus on 07 October",
-      "detail": "Stocks to Watch, 07 Oct: Stocks like Arcil, Glass Wall Systems India, Kanohar Electricals, Karamtara Engineering, Titan Company, Apollo Tyres, Mahindra Lifespace, ABB India, Marsons,Mphasis, and Black Opal Consultants will be in focus on October 7.",
-      "url": "https://www.moneycontrol.com/news/business/markets/stocks-to-watch-today-titan-kanohar-electricals-glass-wall-systems-arcil-karamtara-engineering-apollo-tyres-mphasis-mahindra-lifespaces-in-focus-on-07-october-14046143.html"
-    },
-    {
-      "time": "2026-10-07 00:30",
-      "tk": "HCLT",
       "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "Stocks in news: Titan, HCL Tech, Adani Ports and Utkarsh SFB",
-      "detail": "Indian equities extended their recovery on Tuesday, driven by positive global cues and corporate updates. The Nifty 50 index closed at 22,714.80, marking a gain of 195.05 points. Several companies, including Titan Company and HCLTech, reported encouraging bus\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-titan-hcl-tech-adani-ports-and-utkarsh-sfb/articleshow/134746122.cms"
+      "hl": "HC refuses relief to 12 students issued TCs after school violence",
+      "detail": "Patna High Court denies relief to 12 JNV Siwan students issued transfer certificates for alleged assault on principal, cuts fine to Rs 5,000 each.",
+      "url": "https://timesofindia.indiatimes.com/city/patna/hc-refuses-relief-to-12-students-issued-tcs-after-school-violence/articleshow/134771961.cms"
+    },
+    {
+      "time": "2026-10-07 16:04",
+      "tk": "INFY",
+      "src": "BusinessLine",
+      "cat": "PEOPLE",
+      "hl": "Day Trading Guide for October 8, 2026: Intraday supports, resistances for Nifty50 stocks",
+      "detail": "Day Trading Guide gives you the key intraday supports and resistances to watch out for on the Nifty Futures and other widely traded stocks such as Reliance Industries, Infosys, HDFC Bank, TCS, SBI",
+      "url": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-october-08/article71555488.ece"
+    },
+    {
+      "time": "2026-10-07 13:15",
+      "tk": "WIPRO",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026",
+      "detail": "Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026\nEAST BRUNSWICK, N.J. & BENGALURU, India, October 07, 2026--(BUSINESS WIRE)--Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) a leading AI-powered technolo\u2026",
+      "url": "https://biztoc.com/x/79f3d759ae794942"
+    },
+    {
+      "time": "2026-10-07 15:16",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "What Is Accenture Building That Investors Should Watch?",
+      "detail": "shares rose more than 18% during trading on October 1, 2026, following fiscal fourth-quarter results that topped analyst estimates. Even so, the stock sits well below its level from a year ago amid fears that AI will disrupt consulting. Company leaders push b\u2026",
+      "url": "https://biztoc.com/x/528abf7bc5d6653c"
+    },
+    {
+      "time": "2026-10-07 12:02",
+      "tk": "DXC",
+      "src": "PRNewswire",
+      "cat": "RESULTS",
+      "hl": "DXC Advances Intelligent Insurance Through Platform Innovation, Workflow Modernization and London Market Investment",
+      "detail": "DXC expands Assure Platform with new capabilities designed to accelerate insurance modernization and innovation AI-enabled Smart Apps are delivering measurable results across critical insurance workflows, with Assure Platform adoption now exceeding 275 custom\u2026",
+      "url": "https://www.prnewswire.com/news-releases/dxc-advances-intelligent-insurance-through-platform-innovation-workflow-modernization-and-london-market-investment-302901126.html"
+    },
+    {
+      "time": "2026-10-07 02:41",
+      "tk": "MPHL",
+      "src": "Business Standard",
+      "cat": "PEOPLE",
+      "hl": "Stocks to watch: Rate-sensitive stocks, Titan, Mphasis, Adani Ports, Zaggle",
+      "detail": "Stocks to watch today: Rate-sensitive sectors such as banks, NBFCs, real estate, auto and consumption will be in focus today amid RBI's policy decision.",
+      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-rate-sensitive-stocks-titan-mphasis-adani-ports-zaggle-126100700106_1.html"
     },
     {
       "time": "2026-10-06 16:20",
@@ -463,13 +507,31 @@
       "url": "https://www.theregister.com/public-sector/2026/10/06/atos-lands-350m-beat-keeping-met-police-applications-running/5301310"
     },
     {
-      "time": "2026-10-06 02:00",
+      "time": "2026-10-07 13:08",
       "tk": "NTTD",
-      "src": "Digitimes",
+      "src": "Financial Post",
       "cat": "AI",
-      "hl": "NTT Data bets on India to lift its AI business as data center race heats up",
-      "detail": "NTT Data expects India to contribute a larger share of its global artificial intelligence (AI) business than it does of its overall IT services business, as the Japanese company pushes ahead with a three-year investment program in the country focused on data \u2026",
-      "url": "https://www.digitimes.com/news/a20261006VL201/ntt-business-data-center-data-investment.html"
+      "hl": "NTT DATA Opens AI Factory Munich Where Clients Can Validate their AI in a Live Environment",
+      "detail": "Helping clients move AI from pilots to production in a live, production-grade environment Enabling organizations to test AI they own and control against their own use cases before making investment decisions Bringing together NTT DATA\u2019s consulting, data, AI, \u2026",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ntt-data-opens-ai-factory-munich-where-clients-can-validate-their-ai-in-a-live-environment"
+    },
+    {
+      "time": "2026-10-07 04:28",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 Results Preview: Can the IT bellwether show enough growth to calm investors?",
+      "detail": "Tata Consultancy Services is scheduled to release its second-quarter results on October 8, with analysts predicting a year-on-year revenue growth of roughly 13%. However, the sequential growth might be modest at around 0.5%-0.6%. Investors will also be lookin\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tcs-q2-results-preview-can-the-it-bellwether-show-enough-growth-to-calm-investors/articleshow/134755846.cms"
+    },
+    {
+      "time": "2026-10-07 02:31",
+      "tk": "TCS",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 earnings: Five things to watch as Tata boardroom fight adds to scrutiny",
+      "detail": "TCS\u2019s second-quarter results will offer clues on demand, AI revenue, data-centre spending and margins, while investors assess whether the Tata Sons dispute could distract its top leadership.",
+      "url": "https://www.livemint.com/companies/news/tcs-q2-earnings-five-things-to-watch-as-tata-boardroom-fight-adds-to-scrutiny-11791297435743.html"
     },
     {
       "time": "2026-10-06 20:01",
@@ -499,22 +561,13 @@
       "url": "https://www.business-standard.com/technology/tech-news/india-among-top-10-emerging-markets-in-ai-readiness-world-bank-126100600800_1.html"
     },
     {
-      "time": "2026-10-06 03:19",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 preview, dividend: Analysts see modest growth; PAT may rise by 13%",
-      "detail": "TCS Q2 results date, dividend announcement: TCS will declare its Q2 results on Oct 8. Besides, TCS could also recommend an interim dividend. TCS has set Oct 14 as the dividend record date",
-      "url": "https://www.business-standard.com/markets/news/tcs-q2-results-earnings-preview-expectation-dividend-announcement-record-date-2026-revenue-growth-pat-126100600110_1.html"
-    },
-    {
-      "time": "2026-10-06 14:35",
-      "tk": "ACN",
+      "time": "2026-10-07 00:30",
+      "tk": "HCLT",
       "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "US stocks: US software shares scale fresh 2026 highs as AI disruption worries fade",
-      "detail": "US software stocks are witnessing robust growth, fueled by optimistic earnings projections and partnerships in AI. Major players like Salesforce and Accenture have showcased impressive earnings, aiding the sector's revival. Analysts suggest that fears of AI d\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-software-shares-scale-fresh-2026-highs-as-ai-disruption-worries-fade/articleshow/134743282.cms"
+      "cat": "MACRO",
+      "hl": "Stocks in news: Titan, HCL Tech, Adani Ports and Utkarsh SFB",
+      "detail": "Indian equities extended their recovery on Tuesday, driven by positive global cues and corporate updates. The Nifty 50 index closed at 22,714.80, marking a gain of 195.05 points. Several companies, including Titan Company and HCLTech, reported encouraging bus\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-titan-hcl-tech-adani-ports-and-utkarsh-sfb/articleshow/134746122.cms"
     }
   ],
   "quarterly": {
@@ -577,13 +630,13 @@
         "growth": null,
         "ebit_margin": 24.8,
         "op_profit": 676270,
-        "op_profit_usd": 6990,
+        "op_profit_usd": 6989,
         "fcf": 361.26,
         "fcf_usd": 3.73
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "INFY": {
       "quarters": [
@@ -650,7 +703,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "CTSH": {
       "quarters": [
@@ -778,13 +831,13 @@
         "growth": null,
         "ebit_margin": 31.4,
         "op_profit": 417330,
-        "op_profit_usd": 4314,
+        "op_profit_usd": 4313,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "WIPRO": {
       "quarters": [
@@ -822,7 +875,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 242.36,
-          "rev_usd": 2.51,
+          "rev_usd": 2.5,
           "ebit_margin": 17.1,
           "op_profit": 41366.0,
           "fcf": 26.91,
@@ -851,7 +904,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "TECHM": {
       "quarters": [
@@ -912,13 +965,13 @@
         "growth": null,
         "ebit_margin": 13.1,
         "op_profit": 77171,
-        "op_profit_usd": 798,
+        "op_profit_usd": 797,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "MPHL": {
       "quarters": [
@@ -985,7 +1038,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "PSYS": {
       "quarters": [
@@ -1052,7 +1105,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "COFG": {
       "quarters": [
@@ -1119,7 +1172,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010336
+      "usd_rate": 0.010334
     },
     "ACN": {
       "quarters": [
@@ -1261,7 +1314,7 @@
           "date": "2025-06-30",
           "label": "Q3 FY25",
           "rev": 4.09,
-          "rev_usd": 2.87,
+          "rev_usd": 2.88,
           "ebit_margin": 16.3,
           "op_profit": 666.0,
           "fcf": 0.41,
@@ -1271,7 +1324,7 @@
           "date": "2025-09-30",
           "label": "Q4 FY25",
           "rev": 4.01,
-          "rev_usd": 2.81,
+          "rev_usd": 2.82,
           "ebit_margin": 16.6,
           "op_profit": 668.0,
           "fcf": 0.6,
@@ -1281,7 +1334,7 @@
           "date": "2025-12-31",
           "label": "Q1 FY26",
           "rev": 4.08,
-          "rev_usd": 2.86,
+          "rev_usd": 2.87,
           "ebit_margin": 16.1,
           "op_profit": 656.0,
           "fcf": 0.81,
@@ -1301,7 +1354,7 @@
           "date": "2026-06-30",
           "label": "Q3 FY26",
           "rev": 4.19,
-          "rev_usd": 2.94,
+          "rev_usd": 2.95,
           "ebit_margin": 16.3,
           "op_profit": 682.0,
           "fcf": 0.53,
@@ -1310,24 +1363,24 @@
       ],
       "annual": {
         "rev": 16.4,
-        "rev_usd": 11.5,
+        "rev_usd": 11.6,
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1892,
+        "op_profit_usd": 1897,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701405
+      "usd_rate": 0.702938
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120951,
-    "JPY": 0.006325,
-    "CAD": 0.701405,
-    "INR": 0.010336
+    "EUR": 1.121453,
+    "JPY": 0.006341,
+    "CAD": 0.702938,
+    "INR": 0.010334
   }
 }
