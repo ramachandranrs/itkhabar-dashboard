@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-08T00:39:30.232963+00:00",
-  "updated_display": "08 Oct 2026, 00:39 UTC",
+  "updated": "2026-10-08T01:07:22.637753+00:00",
+  "updated_display": "08 Oct 2026, 01:07 UTC",
   "prices": {
     "TCS": {
       "price": 2080.3,
@@ -91,8 +91,8 @@
       "change": 0.3
     },
     "EUR_INR": {
-      "value": 108.28,
-      "change": -0.11
+      "value": 108.29,
+      "change": -0.1
     }
   },
   "historical": {
@@ -1310,20 +1310,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1892,
+        "op_profit_usd": 1891,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701213
+      "usd_rate": 0.700899
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120197,
-    "JPY": 0.006337,
-    "CAD": 0.701213,
+    "EUR": 1.120072,
+    "JPY": 0.006335,
+    "CAD": 0.700899,
     "INR": 0.010346
   }
 }
