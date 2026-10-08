@@ -1,36 +1,36 @@
 {
-  "updated": "2026-10-07T21:25:57.289925+00:00",
-  "updated_display": "07 Oct 2026, 21:25 UTC",
+  "updated": "2026-10-08T00:39:30.232963+00:00",
+  "updated_display": "08 Oct 2026, 00:39 UTC",
   "prices": {
     "TCS": {
-      "price": 2100.0,
-      "display": "\u20b92,100",
-      "change": -0.7
+      "price": 2080.3,
+      "display": "\u20b92,080",
+      "change": -0.9
     },
     "INFY": {
-      "price": 1013.85,
-      "display": "\u20b91,014",
-      "change": -0.7
+      "price": 992.0,
+      "display": "\u20b9992",
+      "change": -2.2
     },
     "CTSH": {
-      "price": 57.07,
-      "display": "$57.07",
-      "change": -0.3
+      "price": 57.22,
+      "display": "$57.22",
+      "change": -1.6
     },
     "HCLT": {
-      "price": 1204.4,
-      "display": "\u20b91,204",
-      "change": 0.2
+      "price": 1185.0,
+      "display": "\u20b91,185",
+      "change": -1.6
     },
     "WIPRO": {
-      "price": 161.84,
-      "display": "\u20b9162",
-      "change": -0.2
+      "price": 159.6,
+      "display": "\u20b9160",
+      "change": -1.4
     },
     "TECHM": {
-      "price": 1504.5,
-      "display": "\u20b91,504",
-      "change": -2.0
+      "price": 1491.1,
+      "display": "\u20b91,491",
+      "change": -0.9
     },
     "MPHL": {
       "price": 2298.0,
@@ -38,39 +38,39 @@
       "change": 0.0
     },
     "PSYS": {
-      "price": 5521.0,
-      "display": "\u20b95,521",
-      "change": -0.2
+      "price": 5507.0,
+      "display": "\u20b95,507",
+      "change": -0.3
     },
     "COFG": {
-      "price": 1849.7,
-      "display": "\u20b91,850",
-      "change": -0.1
+      "price": 1822.2,
+      "display": "\u20b91,822",
+      "change": -1.5
     },
     "ACN": {
-      "price": 196.64,
-      "display": "$197",
-      "change": 1.7
+      "price": 193.4,
+      "display": "$193",
+      "change": -0.8
     },
     "CAP": {
-      "price": 110.9,
-      "display": "\u20ac111",
-      "change": 0.9
+      "price": 109.95,
+      "display": "\u20ac110",
+      "change": 1.4
     },
     "ATOS": {
-      "price": 22.1,
-      "display": "\u20ac22.10",
-      "change": 1.0
+      "price": 21.88,
+      "display": "\u20ac21.88",
+      "change": 1.3
     },
     "DXC": {
-      "price": 12.02,
-      "display": "$12.02",
-      "change": 1.6
+      "price": 11.83,
+      "display": "$11.83",
+      "change": 1.5
     },
     "GIB": {
-      "price": 69.0,
-      "display": "$69.00",
-      "change": -0.9
+      "price": 69.6,
+      "display": "$69.60",
+      "change": -2.1
     }
   },
   "indices": {
@@ -87,12 +87,12 @@
       "change": -0.22
     },
     "USD_INR": {
-      "value": 96.76,
-      "change": 0.43
+      "value": 96.66,
+      "change": 0.3
     },
     "EUR_INR": {
-      "value": 108.36,
-      "change": 0.39
+      "value": 108.28,
+      "change": -0.11
     }
   },
   "historical": {
@@ -115,7 +115,8 @@
         2075.0,
         2075.0,
         2114.0,
-        2100.0
+        2100.0,
+        2080.0
       ]
     },
     "INFY": {
@@ -137,7 +138,8 @@
         1035.0,
         1035.0,
         1020.0,
-        1014.0
+        1014.0,
+        992.0
       ]
     },
     "CTSH": {
@@ -159,7 +161,6 @@
         61.0,
         59.0,
         58.0,
-        57.0,
         57.0
       ]
     },
@@ -182,7 +183,8 @@
         1243.0,
         1243.0,
         1202.0,
-        1204.0
+        1204.0,
+        1185.0
       ]
     },
     "WIPRO": {
@@ -204,7 +206,8 @@
         159.0,
         159.0,
         162.0,
-        162.0
+        162.0,
+        160.0
       ]
     },
     "TECHM": {
@@ -226,7 +229,8 @@
         1533.0,
         1533.0,
         1536.0,
-        1504.0
+        1504.0,
+        1491.0
       ]
     },
     "MPHL": {
@@ -270,7 +274,8 @@
         5367.0,
         5367.0,
         5530.0,
-        5521.0
+        5521.0,
+        5507.0
       ]
     },
     "COFG": {
@@ -292,7 +297,8 @@
         1826.0,
         1826.0,
         1852.0,
-        1850.0
+        1850.0,
+        1822.0
       ]
     },
     "ACN": {
@@ -314,8 +320,7 @@
         212.0,
         199.0,
         195.0,
-        193.0,
-        197.0
+        193.0
       ]
     },
     "CAP": {
@@ -337,8 +342,7 @@
         112.0,
         109.0,
         108.0,
-        110.0,
-        111.0
+        110.0
       ]
     },
     "ATOS": {
@@ -357,7 +361,6 @@
         21.0
       ],
       "dp": [
-        22.0,
         22.0,
         22.0,
         22.0,
@@ -383,7 +386,6 @@
         12.0,
         11.0,
         12.0,
-        12.0,
         12.0
       ]
     },
@@ -406,12 +408,20 @@
         71.0,
         70.0,
         71.0,
-        70.0,
-        69.0
+        70.0
       ]
     }
   },
   "news": [
+    {
+      "time": "2026-10-07 00:30",
+      "tk": "HCLT",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Stocks in news: Titan, HCL Tech, Adani Ports and Utkarsh SFB",
+      "detail": "Indian equities extended their recovery on Tuesday, driven by positive global cues and corporate updates. The Nifty 50 index closed at 22,714.80, marking a gain of 195.05 points. Several companies, including Titan Company and HCLTech, reported encouraging bus\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-titan-hcl-tech-adani-ports-and-utkarsh-sfb/articleshow/134746122.cms"
+    },
     {
       "time": "2026-10-06 19:21",
       "tk": "HCLT",
@@ -420,24 +430,6 @@
       "hl": "Will make Lucknow leading AI innovation hub, set up 50 startups in 5 years: CM",
       "detail": "UP CM Yogi Adityanath says Lucknow will be an AI innovation hub, backing 50 startups in 5 years, as HCLTech expands IT City with Rs 500 crore investment.",
       "url": "https://timesofindia.indiatimes.com/city/lucknow/will-make-lucknow-leading-ai-innovation-hub-set-up-50-startups-in-5-years-cm/articleshow/134749599.cms"
-    },
-    {
-      "time": "2026-10-06 17:41",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "UGI Naini students secure jobs at TCS in campus drive",
-      "detail": "UGI Naini: 51 B.Tech CSE/IT & AIML students (Batch 2027) selected at TCS campus drive; Ninja, Digital, Prime roles offer Rs 3.6\u20139 LPA.",
-      "url": "https://timesofindia.indiatimes.com/city/allahabad/ugi-naini-students-secure-jobs-at-tcs-in-campus-drive/articleshow/134747466.cms"
-    },
-    {
-      "time": "2026-10-06 16:30",
-      "tk": "INFY",
-      "src": "BusinessLine",
-      "cat": "PEOPLE",
-      "hl": "Day Trading Guide for October 7, 2026: Intraday supports, resistances for Nifty50 stocks",
-      "detail": "Day Trading Guide gives you the key intraday supports and resistances to watch out for on the Nifty Futures and other widely traded stocks such as Reliance Industries, Infosys, HDFC Bank, TCS, SBI",
-      "url": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-october-07/article71551711.ece"
     },
     {
       "time": "2026-10-06 17:25",
@@ -465,42 +457,6 @@
       "hl": "Atos lands \u00a3350M beat keeping Met Police applications running",
       "detail": "Six-year deal covers management and security, with options to add cloud and digital workplace services",
       "url": "https://www.theregister.com/public-sector/2026/10/06/atos-lands-350m-beat-keeping-met-police-applications-running/5301310"
-    },
-    {
-      "time": "2026-10-05 15:12",
-      "tk": "CTSH",
-      "src": "Livemint",
-      "cat": "DEAL",
-      "hl": "Cognizant targets mid-sized firms as AI pressures big outsourcing deals",
-      "detail": "Cognizant Activate follows similar moves by Accenture and HCLTech as the tech-services giants seek new growth beyond their traditional large-enterprise contracts.",
-      "url": "https://www.livemint.com/companies/news/cognizant-targets-mid-sized-firms-as-ai-pressures-big-outsourcing-deals-11791208286115.html"
-    },
-    {
-      "time": "2026-10-05 08:03",
-      "tk": "ACN",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "IT shares trade mixed post Accenture earnings; HCL Tech, Infy down up to 4%",
-      "detail": "Analysts expect IT companies to witness moderate improvement in Q2FY27, as macro headwinds from the Middle East conflict continue to weigh on client spending and decision-making.",
-      "url": "https://www.business-standard.com/markets/news/it-shares-trade-mixed-post-accenture-earnings-hcl-tech-infy-down-up-to-4-126100500411_1.html"
-    },
-    {
-      "time": "2026-10-05 05:35",
-      "tk": "ACN",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "IT stocks: Accenture Q4 results, FY27 outlook lifts sentiment as Indian IT Q2 earnings near",
-      "detail": "Accenture\u2019s strong Q4 and upbeat FY27 outlook boost Indian IT sentiment ahead of Q2 earnings season.",
-      "url": "https://www.thehindubusinessline.com/markets/it-stocks-accenture-q4-results-fy27-outlook-lifts-sentiment-as-indian-it-q2-earnings-near/article71545936.ece"
-    },
-    {
-      "time": "2026-10-05 04:21",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "AI deals seen driving medium-term growth as Indian IT sector faces muted Q2: Report",
-      "detail": "India's IT services sector is likely to see muted performance in the second quarter of FY27, but increasing traction in artificial intelligence-related deals could support growth over the medium term, Centrum said in a report.",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-deals-seen-driving-medium-term-growth-as-indian-it-sector-faces-muted-q2-report/articleshow/134685737.cms"
     },
     {
       "time": "2026-10-06 02:00",
@@ -564,11 +520,11 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 644.79,
-          "rev_usd": 6.66,
+          "rev_usd": 6.67,
           "ebit_margin": 24.2,
           "op_profit": 156010.0,
           "fcf": 130.06,
-          "fcf_usd": 1.34
+          "fcf_usd": 1.35
         },
         {
           "date": "2025-06-30",
@@ -584,11 +540,11 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 670.87,
-          "rev_usd": 6.93,
+          "rev_usd": 6.94,
           "ebit_margin": 25.2,
           "op_profit": 169260.0,
           "fcf": 123.32,
-          "fcf_usd": 1.27
+          "fcf_usd": 1.28
         },
         {
           "date": "2026-03-31",
@@ -604,7 +560,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 722.75,
-          "rev_usd": 7.47,
+          "rev_usd": 7.48,
           "ebit_margin": 24.0,
           "op_profit": 173170.0,
           "fcf": null,
@@ -617,13 +573,13 @@
         "growth": null,
         "ebit_margin": 24.8,
         "op_profit": 676270,
-        "op_profit_usd": 6989,
+        "op_profit_usd": 6997,
         "fcf": 361.26,
-        "fcf_usd": 3.73
+        "fcf_usd": 3.74
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "INFY": {
       "quarters": [
@@ -690,7 +646,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "CTSH": {
       "quarters": [
@@ -795,7 +751,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 339.81,
-          "rev_usd": 3.51,
+          "rev_usd": 3.52,
           "ebit_margin": 31.4,
           "op_profit": 106540.0,
           "fcf": null,
@@ -805,7 +761,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 345.79,
-          "rev_usd": 3.57,
+          "rev_usd": 3.58,
           "ebit_margin": 31.6,
           "op_profit": 109390.0,
           "fcf": null,
@@ -818,13 +774,13 @@
         "growth": null,
         "ebit_margin": 31.4,
         "op_profit": 417330,
-        "op_profit_usd": 4313,
+        "op_profit_usd": 4318,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "WIPRO": {
       "quarters": [
@@ -852,7 +808,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 235.56,
-          "rev_usd": 2.43,
+          "rev_usd": 2.44,
           "ebit_margin": 14.8,
           "op_profit": 34947.0,
           "fcf": 37.93,
@@ -862,7 +818,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 242.36,
-          "rev_usd": 2.5,
+          "rev_usd": 2.51,
           "ebit_margin": 17.1,
           "op_profit": 41366.0,
           "fcf": 26.91,
@@ -876,7 +832,7 @@
           "ebit_margin": 15.7,
           "op_profit": 38427.0,
           "fcf": 29.5,
-          "fcf_usd": 0.3
+          "fcf_usd": 0.31
         }
       ],
       "annual": {
@@ -885,13 +841,13 @@
         "growth": null,
         "ebit_margin": 16.0,
         "op_profit": 152011,
-        "op_profit_usd": 1571,
+        "op_profit_usd": 1573,
         "fcf": 124.84,
         "fcf_usd": 1.29
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "TECHM": {
       "quarters": [
@@ -939,7 +895,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 157.12,
-          "rev_usd": 1.62,
+          "rev_usd": 1.63,
           "ebit_margin": 14.4,
           "op_profit": 22639.0,
           "fcf": null,
@@ -948,7 +904,7 @@
       ],
       "annual": {
         "rev": 585.3,
-        "rev_usd": 6.0,
+        "rev_usd": 6.1,
         "growth": null,
         "ebit_margin": 13.1,
         "op_profit": 77171,
@@ -958,7 +914,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "MPHL": {
       "quarters": [
@@ -1019,13 +975,13 @@
         "growth": null,
         "ebit_margin": 15.2,
         "op_profit": 24803,
-        "op_profit_usd": 256,
+        "op_profit_usd": 257,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "PSYS": {
       "quarters": [
@@ -1073,7 +1029,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 43.03,
-          "rev_usd": 0.44,
+          "rev_usd": 0.45,
           "ebit_margin": 13.5,
           "op_profit": 5816.0,
           "fcf": null,
@@ -1092,7 +1048,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "COFG": {
       "quarters": [
@@ -1153,13 +1109,13 @@
         "growth": null,
         "ebit_margin": 14.5,
         "op_profit": 26163,
-        "op_profit_usd": 270,
+        "op_profit_usd": 271,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010346
     },
     "ACN": {
       "quarters": [
@@ -1354,20 +1310,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1893,
+        "op_profit_usd": 1892,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701602
+      "usd_rate": 0.701213
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.11957,
-    "JPY": 0.006329,
-    "CAD": 0.701602,
-    "INR": 0.010335
+    "EUR": 1.120197,
+    "JPY": 0.006337,
+    "CAD": 0.701213,
+    "INR": 0.010346
   }
 }
