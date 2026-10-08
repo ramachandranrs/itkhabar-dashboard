@@ -2353,8 +2353,6 @@ function applyLiveData(d){
       const co=allCOs.find(c=>c.t===tk);
       if(!co||!qData.quarters||!qData.quarters.length) return;
       const qs=qData.quarters;
-      // Merge live quarters onto the tail of existing hardcoded arrays
-      // instead of padding with nulls — preserves older hardcoded data
       const liveRev=qs.map(q=>q.rev);
       const liveRevUsd=qs.map(q=>q.rev_usd!=null?q.rev_usd:q.rev);
       const liveMrg=qs.map(q=>q.ebit_margin!=null?q.ebit_margin:0);
@@ -2362,57 +2360,127 @@ function applyLiveData(d){
       const liveFcfUsd=qs.map(q=>q.fcf_usd!=null?q.fcf_usd:(q.fcf||0));
       const liveLbl=qs.map(q=>q.label);
       const nLive=qs.length;
-      const validQ=liveRev.filter(v=>v!==null&&v>0).length;
-      if(validQ>=4){
-        // Keep hardcoded front, replace tail with live data
-        const padTo=12;
-        const keep=padTo-nLive; // how many hardcoded quarters to keep at front
-        // Revenue in local currency
-        const revArr=(co.qr&&co.qr.length>=padTo)?co.qr.slice(0,keep).concat(liveRev):
-          Array(Math.max(0,keep)).fill(null).concat(liveRev);
-        // Revenue in USD: hardcoded qr values are already USD, live needs qr_usd
-        const revUsdArr=(co.qr&&co.qr.length>=padTo)?co.qr.slice(0,keep).concat(liveRevUsd):
-          Array(Math.max(0,keep)).fill(null).concat(liveRevUsd);
-        // Margins
-        const mrgArr=(co.qm&&co.qm.length>=padTo)?co.qm.slice(0,keep).concat(liveMrg):
-          Array(Math.max(0,keep)).fill(null).concat(liveMrg);
-        // FCF
-        const fcfArr=(co.qfcf&&co.qfcf.length>=padTo)?co.qfcf.slice(0,keep).concat(liveFcf):
-          Array(Math.max(0,keep)).fill(null).concat(liveFcf);
-        const fcfUsdArr=(co.qfcf_usd&&co.qfcf_usd.length>=padTo)?co.qfcf_usd.slice(0,keep).concat(liveFcfUsd):
-          Array(Math.max(0,keep)).fill(null).concat(liveFcfUsd);
-        // Labels
-        const lblArr=(co.ql&&co.ql.length>=padTo)?co.ql.slice(0,keep).concat(liveLbl):
-          Array(Math.max(0,keep)).fill('').concat(liveLbl);
-        co.qr=revArr;
-        co.qr_usd=revUsdArr;
-        co.qm=mrgArr;
-        co.qfcf=fcfArr;
-        co.qfcf_usd=fcfUsdArr;
-        co.ql=lblArr;
-        // Override annual summary fields
-        if(qData.annual){
-          const a=qData.annual;
-          // Store local-currency revenue for report cards
-          if(a.rev) co.r_local=a.rev;
-          // co.r must always be USD-denominated (bubble chart, comparisons)
-          if(a.rev_usd) co.r=a.rev_usd;
-          else if(a.rev) co.r=a.rev; // fallback for USD-reporting cos
-          if(a.rev_usd) co.r_usd=a.rev_usd;
-          if(a.growth!=null) co.g=a.growth;
-          if(a.ebit_margin!=null) co.m=a.ebit_margin;
-          // Op profit in USD for comparisons
-          if(a.op_profit_usd) co.p=a.op_profit_usd;
-          else if(a.op_profit) co.p=a.op_profit;
-          if(a.fcf_usd!=null) co.fcf_usd=a.fcf_usd;
+      const validLiveUsd=liveRevUsd.filter(v=>v!==null&&v>0);
+      const validQ=validLiveUsd.length;
+      if(validQ<4){ if(!co.qr_usd) co.qr_usd=[...co.qr]; return; }
+
+      // ── Sanity check: reject wildly wrong live data ──
+      // Compare live USD avg with hardcoded avg (hardcoded qr is already USD)
+      const hcLast=co.qr.slice(-4).filter(v=>v!=null&&v>0);
+      const avgHC=hcLast.length?hcLast.reduce((a,b)=>a+b,0)/hcLast.length:0;
+      const avgLive=validLiveUsd.reduce((a,b)=>a+b,0)/validLiveUsd.length;
+      if(avgHC>0&&avgLive>0){
+        const ratio=avgLive/avgHC;
+        if(ratio<0.3||ratio>3.0){
+          console.warn(`⚠ ${tk}: live rev_usd avg $${avgLive.toFixed(2)}B vs hardcoded $${avgHC.toFixed(2)}B (ratio ${ratio.toFixed(2)}) — data quality issue, skipping merge`);
+          if(!co.qr_usd) co.qr_usd=[...co.qr];
+          return; // skip this company entirely
         }
-        // Store FY end month, currency, and USD rate for header display
-        if(qData.fy_end_month) co.fyEnd=qData.fy_end_month;
-        if(qData.currency) co.fyCurr=qData.currency;
-        if(qData.usd_rate) co.usdRate=qData.usd_rate;
-        console.log(`  ✓ ${tk}: quarterly data updated (${validQ} quarters, latest=${lblArr[lblArr.length-1]})`);
       }
+
+      // ── Decide merge strategy based on how much live data we have ──
+      const padTo=12;
+      let revArr,revUsdArr,mrgArr,fcfArr,fcfUsdArr,lblArr;
+
+      if(validQ>=8){
+        // Enough live data to fill most/all of the chart — use ALL live, no mixing
+        // This eliminates the seam between hardcoded and live values
+        const frontPad=Math.max(0,padTo-nLive);
+        revArr=Array(frontPad).fill(null).concat(liveRev);
+        revUsdArr=Array(frontPad).fill(null).concat(liveRevUsd);
+        mrgArr=Array(frontPad).fill(null).concat(liveMrg);
+        fcfArr=Array(frontPad).fill(null).concat(liveFcf);
+        fcfUsdArr=Array(frontPad).fill(null).concat(liveFcfUsd);
+        lblArr=Array(frontPad).fill('').concat(liveLbl);
+        console.log(`  ✓ ${tk}: using all-live data (${validQ}q, no hardcoded mixing)`);
+      } else {
+        // 4-7 quarters of live data — check seam before mixing
+        const keep=padTo-nLive;
+        // Check discontinuity at the merge point
+        let seamOK=true;
+        if(keep>0&&keep<(co.qr||[]).length){
+          const lastHC=co.qr[keep-1];
+          // Find first valid live USD value
+          const firstLive=liveRevUsd.find(v=>v!=null&&v>0);
+          if(lastHC>0&&firstLive>0){
+            const seamRatio=firstLive/lastHC;
+            if(seamRatio<0.7||seamRatio>1.3){
+              // >30% jump at seam — don't mix, use all live with null padding
+              console.warn(`⚠ ${tk}: seam discontinuity $${lastHC.toFixed(2)}B→$${firstLive.toFixed(2)}B (${((seamRatio-1)*100).toFixed(0)}%) — using all-live to avoid jump`);
+              seamOK=false;
+            }
+          }
+        }
+        if(!seamOK){
+          // Use all live with null front-padding (avoids seam)
+          const frontPad=Math.max(0,padTo-nLive);
+          revArr=Array(frontPad).fill(null).concat(liveRev);
+          revUsdArr=Array(frontPad).fill(null).concat(liveRevUsd);
+          mrgArr=Array(frontPad).fill(null).concat(liveMrg);
+          fcfArr=Array(frontPad).fill(null).concat(liveFcf);
+          fcfUsdArr=Array(frontPad).fill(null).concat(liveFcfUsd);
+          lblArr=Array(frontPad).fill('').concat(liveLbl);
+        } else {
+          // Seam is smooth enough — merge hardcoded front + live tail
+          revArr=(co.qr&&co.qr.length>=padTo)?co.qr.slice(0,keep).concat(liveRev):
+            Array(Math.max(0,keep)).fill(null).concat(liveRev);
+          revUsdArr=(co.qr&&co.qr.length>=padTo)?co.qr.slice(0,keep).concat(liveRevUsd):
+            Array(Math.max(0,keep)).fill(null).concat(liveRevUsd);
+          mrgArr=(co.qm&&co.qm.length>=padTo)?co.qm.slice(0,keep).concat(liveMrg):
+            Array(Math.max(0,keep)).fill(null).concat(liveMrg);
+          fcfArr=(co.qfcf&&co.qfcf.length>=padTo)?co.qfcf.slice(0,keep).concat(liveFcf):
+            Array(Math.max(0,keep)).fill(null).concat(liveFcf);
+          fcfUsdArr=(co.qfcf_usd&&co.qfcf_usd.length>=padTo)?co.qfcf_usd.slice(0,keep).concat(liveFcfUsd):
+            Array(Math.max(0,keep)).fill(null).concat(liveFcfUsd);
+          lblArr=(co.ql&&co.ql.length>=padTo)?co.ql.slice(0,keep).concat(liveLbl):
+            Array(Math.max(0,keep)).fill('').concat(liveLbl);
+          console.log(`  ✓ ${tk}: merged ${keep} hardcoded + ${nLive} live quarters (seam OK)`);
+        }
+      }
+      co.qr=revArr;
+      co.qr_usd=revUsdArr;
+      co.qm=mrgArr;
+      co.qfcf=fcfArr;
+      co.qfcf_usd=fcfUsdArr;
+      co.ql=lblArr;
+      // Override annual summary fields
+      if(qData.annual){
+        const a=qData.annual;
+        if(a.rev) co.r_local=a.rev;
+        if(a.rev_usd) co.r=a.rev_usd;
+        else if(a.rev) co.r=a.rev;
+        if(a.rev_usd) co.r_usd=a.rev_usd;
+        if(a.growth!=null) co.g=a.growth;
+        if(a.ebit_margin!=null) co.m=a.ebit_margin;
+        if(a.op_profit_usd) co.p=a.op_profit_usd;
+        else if(a.op_profit) co.p=a.op_profit;
+        if(a.fcf_usd!=null) co.fcf_usd=a.fcf_usd;
+      }
+      if(qData.fy_end_month) co.fyEnd=qData.fy_end_month;
+      if(qData.currency) co.fyCurr=qData.currency;
+      if(qData.usd_rate) co.usdRate=qData.usd_rate;
     });
+  }
+  // ── 6b. Ensure qr_usd exists for ALL companies (hardcoded qr is already USD) ──
+  [...INDIA,...GLOBAL].forEach(co=>{
+    if(!co.qr_usd&&co.qr) co.qr_usd=[...co.qr];
+    if(!co.qfcf_usd&&co.qfcf) co.qfcf_usd=[...co.qfcf];
+  });
+  // ── 6c. Update global QLABELS from best available live labels ──
+  if(d.quarterly){
+    // Find the company with the most complete label set (12 labels preferred)
+    let bestLabels=null, bestLen=0;
+    Object.values(d.quarterly).forEach(qData=>{
+      const qs=qData.quarters||[];
+      const lbls=qs.map(q=>q.label).filter(Boolean);
+      if(lbls.length>bestLen){bestLen=lbls.length;bestLabels=lbls;}
+    });
+    if(bestLabels&&bestLen>=8){
+      // Pad front to 12 if needed, then replace QLABELS
+      const padded=bestLen<12?Array(12-bestLen).fill('').concat(bestLabels):bestLabels.slice(-12);
+      for(let i=0;i<12&&i<padded.length;i++) QLABELS[i]=padded[i];
+      console.log('  ✓ QLABELS updated from live data:',QLABELS.join(', '));
+    }
   }
   // ── 7. Store forex rates for display ──
   if(d.forex_rates) window._forexRates=d.forex_rates;
