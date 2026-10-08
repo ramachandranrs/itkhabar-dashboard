@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-08T01:07:22.637753+00:00",
-  "updated_display": "08 Oct 2026, 01:07 UTC",
+  "updated": "2026-10-08T02:49:50.191619+00:00",
+  "updated_display": "08 Oct 2026, 02:49 UTC",
   "prices": {
     "TCS": {
       "price": 2080.3,
@@ -13,9 +13,9 @@
       "change": -2.2
     },
     "CTSH": {
-      "price": 57.22,
-      "display": "$57.22",
-      "change": -1.6
+      "price": 57.07,
+      "display": "$57.07",
+      "change": -0.3
     },
     "HCLT": {
       "price": 1185.0,
@@ -48,9 +48,9 @@
       "change": -1.5
     },
     "ACN": {
-      "price": 193.4,
-      "display": "$193",
-      "change": -0.8
+      "price": 196.64,
+      "display": "$197",
+      "change": 1.7
     },
     "CAP": {
       "price": 109.95,
@@ -63,36 +63,36 @@
       "change": 1.3
     },
     "DXC": {
-      "price": 11.83,
-      "display": "$11.83",
-      "change": 1.5
+      "price": 12.02,
+      "display": "$12.02",
+      "change": 1.6
     },
     "GIB": {
-      "price": 69.6,
-      "display": "$69.60",
-      "change": -2.1
+      "price": 69.0,
+      "display": "$69.00",
+      "change": -0.9
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73067.81,
-      "change": 0.95
+      "value": 72638.7,
+      "change": -0.59
     },
     "NIFTY_IT": {
-      "value": 28136.05,
-      "change": -0.59
+      "value": 27757.85,
+      "change": -1.34
     },
     "SP500": {
       "value": 7801.77,
       "change": -0.22
     },
     "USD_INR": {
-      "value": 96.66,
-      "change": 0.3
+      "value": 96.75,
+      "change": 0.39
     },
     "EUR_INR": {
-      "value": 108.29,
-      "change": -0.1
+      "value": 108.45,
+      "change": 0.04
     }
   },
   "historical": {
@@ -161,6 +161,7 @@
         61.0,
         59.0,
         58.0,
+        57.0,
         57.0
       ]
     },
@@ -320,7 +321,8 @@
         212.0,
         199.0,
         195.0,
-        193.0
+        193.0,
+        197.0
       ]
     },
     "CAP": {
@@ -386,6 +388,7 @@
         12.0,
         11.0,
         12.0,
+        12.0,
         12.0
       ]
     },
@@ -408,11 +411,30 @@
         71.0,
         70.0,
         71.0,
-        70.0
+        70.0,
+        69.0
       ]
     }
   },
   "news": [
+    {
+      "time": "2026-10-07 02:31",
+      "tk": "TCS",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 earnings: Five things to watch as Tata boardroom fight adds to scrutiny",
+      "detail": "TCS\u2019s second-quarter results will offer clues on demand, AI revenue, data-centre spending and margins, while investors assess whether the Tata Sons dispute could distract its top leadership.",
+      "url": "https://www.livemint.com/companies/news/tcs-q2-earnings-five-things-to-watch-as-tata-boardroom-fight-adds-to-scrutiny-11791297435743.html"
+    },
+    {
+      "time": "2026-10-07 01:07",
+      "tk": "MPHL",
+      "src": "Moneycontrol",
+      "cat": "PEOPLE",
+      "hl": "Stocks to Watch Today: Titan, Kanohar Electricals, Glass Wall Systems, Arcil, Karamtara Engineering, Apollo Tyres, Mphasis, Mahindra Lifespaces in focus on 07 October",
+      "detail": "Stocks to Watch, 07 Oct: Stocks like Arcil, Glass Wall Systems India, Kanohar Electricals, Karamtara Engineering, Titan Company, Apollo Tyres, Mahindra Lifespace, ABB India, Marsons,Mphasis, and Black Opal Consultants will be in focus on October 7.",
+      "url": "https://www.moneycontrol.com/news/business/markets/stocks-to-watch-today-titan-kanohar-electricals-glass-wall-systems-arcil-karamtara-engineering-apollo-tyres-mphasis-mahindra-lifespaces-in-focus-on-07-october-14046143.html"
+    },
     {
       "time": "2026-10-07 00:30",
       "tk": "HCLT",
@@ -421,24 +443,6 @@
       "hl": "Stocks in news: Titan, HCL Tech, Adani Ports and Utkarsh SFB",
       "detail": "Indian equities extended their recovery on Tuesday, driven by positive global cues and corporate updates. The Nifty 50 index closed at 22,714.80, marking a gain of 195.05 points. Several companies, including Titan Company and HCLTech, reported encouraging bus\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-titan-hcl-tech-adani-ports-and-utkarsh-sfb/articleshow/134746122.cms"
-    },
-    {
-      "time": "2026-10-06 19:21",
-      "tk": "HCLT",
-      "src": "The Times of India",
-      "cat": "AI",
-      "hl": "Will make Lucknow leading AI innovation hub, set up 50 startups in 5 years: CM",
-      "detail": "UP CM Yogi Adityanath says Lucknow will be an AI innovation hub, backing 50 startups in 5 years, as HCLTech expands IT City with Rs 500 crore investment.",
-      "url": "https://timesofindia.indiatimes.com/city/lucknow/will-make-lucknow-leading-ai-innovation-hub-set-up-50-startups-in-5-years-cm/articleshow/134749599.cms"
-    },
-    {
-      "time": "2026-10-06 17:25",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "DEAL",
-      "hl": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-      "detail": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.\nThat's according to a report from Reuters, citing tw\u2026",
-      "url": "https://biztoc.com/x/205b8842fcb039e1"
     },
     {
       "time": "2026-10-06 16:20",
@@ -486,15 +490,6 @@
       "url": "https://www.prnewswire.com/news-releases/visual-edge-it-appoints-chief-growth-officer-and-chief-revenue-officer-to-support-next-phase-of-growth-302899774.html"
     },
     {
-      "time": "2026-10-06 03:19",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 preview, dividend: Analysts see modest growth; PAT may rise by 13%",
-      "detail": "TCS Q2 results date, dividend announcement: TCS will declare its Q2 results on Oct 8. Besides, TCS could also recommend an interim dividend. TCS has set Oct 14 as the dividend record date",
-      "url": "https://www.business-standard.com/markets/news/tcs-q2-results-earnings-preview-expectation-dividend-announcement-record-date-2026-revenue-growth-pat-126100600110_1.html"
-    },
-    {
       "time": "2026-10-06 11:29",
       "tk": "Sector",
       "src": "Business Standard",
@@ -502,6 +497,15 @@
       "hl": "India among top 10 emerging markets in AI readiness: World Bank",
       "detail": "India is among the top 10 leading emerging-market performers in artificial intelligence (AI) readiness and is well positioned to harness the technology, helped by its large technical workforce, globally integrated IT sector and digital public infrastructure, \u2026",
       "url": "https://www.business-standard.com/technology/tech-news/india-among-top-10-emerging-markets-in-ai-readiness-world-bank-126100600800_1.html"
+    },
+    {
+      "time": "2026-10-06 03:19",
+      "tk": "TCS",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 preview, dividend: Analysts see modest growth; PAT may rise by 13%",
+      "detail": "TCS Q2 results date, dividend announcement: TCS will declare its Q2 results on Oct 8. Besides, TCS could also recommend an interim dividend. TCS has set Oct 14 as the dividend record date",
+      "url": "https://www.business-standard.com/markets/news/tcs-q2-results-earnings-preview-expectation-dividend-announcement-record-date-2026-revenue-growth-pat-126100600110_1.html"
     },
     {
       "time": "2026-10-06 14:35",
@@ -520,11 +524,11 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 644.79,
-          "rev_usd": 6.67,
+          "rev_usd": 6.66,
           "ebit_margin": 24.2,
           "op_profit": 156010.0,
           "fcf": 130.06,
-          "fcf_usd": 1.35
+          "fcf_usd": 1.34
         },
         {
           "date": "2025-06-30",
@@ -540,11 +544,11 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 670.87,
-          "rev_usd": 6.94,
+          "rev_usd": 6.93,
           "ebit_margin": 25.2,
           "op_profit": 169260.0,
           "fcf": 123.32,
-          "fcf_usd": 1.28
+          "fcf_usd": 1.27
         },
         {
           "date": "2026-03-31",
@@ -560,7 +564,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 722.75,
-          "rev_usd": 7.48,
+          "rev_usd": 7.47,
           "ebit_margin": 24.0,
           "op_profit": 173170.0,
           "fcf": null,
@@ -573,13 +577,13 @@
         "growth": null,
         "ebit_margin": 24.8,
         "op_profit": 676270,
-        "op_profit_usd": 6997,
+        "op_profit_usd": 6990,
         "fcf": 361.26,
-        "fcf_usd": 3.74
+        "fcf_usd": 3.73
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "INFY": {
       "quarters": [
@@ -646,7 +650,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "CTSH": {
       "quarters": [
@@ -751,7 +755,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 339.81,
-          "rev_usd": 3.52,
+          "rev_usd": 3.51,
           "ebit_margin": 31.4,
           "op_profit": 106540.0,
           "fcf": null,
@@ -761,7 +765,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 345.79,
-          "rev_usd": 3.58,
+          "rev_usd": 3.57,
           "ebit_margin": 31.6,
           "op_profit": 109390.0,
           "fcf": null,
@@ -774,13 +778,13 @@
         "growth": null,
         "ebit_margin": 31.4,
         "op_profit": 417330,
-        "op_profit_usd": 4318,
+        "op_profit_usd": 4314,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "WIPRO": {
       "quarters": [
@@ -808,7 +812,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 235.56,
-          "rev_usd": 2.44,
+          "rev_usd": 2.43,
           "ebit_margin": 14.8,
           "op_profit": 34947.0,
           "fcf": 37.93,
@@ -832,7 +836,7 @@
           "ebit_margin": 15.7,
           "op_profit": 38427.0,
           "fcf": 29.5,
-          "fcf_usd": 0.31
+          "fcf_usd": 0.3
         }
       ],
       "annual": {
@@ -841,13 +845,13 @@
         "growth": null,
         "ebit_margin": 16.0,
         "op_profit": 152011,
-        "op_profit_usd": 1573,
+        "op_profit_usd": 1571,
         "fcf": 124.84,
         "fcf_usd": 1.29
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "TECHM": {
       "quarters": [
@@ -895,7 +899,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 157.12,
-          "rev_usd": 1.63,
+          "rev_usd": 1.62,
           "ebit_margin": 14.4,
           "op_profit": 22639.0,
           "fcf": null,
@@ -904,7 +908,7 @@
       ],
       "annual": {
         "rev": 585.3,
-        "rev_usd": 6.1,
+        "rev_usd": 6.0,
         "growth": null,
         "ebit_margin": 13.1,
         "op_profit": 77171,
@@ -914,7 +918,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "MPHL": {
       "quarters": [
@@ -975,13 +979,13 @@
         "growth": null,
         "ebit_margin": 15.2,
         "op_profit": 24803,
-        "op_profit_usd": 257,
+        "op_profit_usd": 256,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "PSYS": {
       "quarters": [
@@ -1029,7 +1033,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 43.03,
-          "rev_usd": 0.45,
+          "rev_usd": 0.44,
           "ebit_margin": 13.5,
           "op_profit": 5816.0,
           "fcf": null,
@@ -1048,7 +1052,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "COFG": {
       "quarters": [
@@ -1109,13 +1113,13 @@
         "growth": null,
         "ebit_margin": 14.5,
         "op_profit": 26163,
-        "op_profit_usd": 271,
+        "op_profit_usd": 270,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010346
+      "usd_rate": 0.010336
     },
     "ACN": {
       "quarters": [
@@ -1310,20 +1314,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1891,
+        "op_profit_usd": 1892,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.700899
+      "usd_rate": 0.701405
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120072,
-    "JPY": 0.006335,
-    "CAD": 0.700899,
-    "INR": 0.010346
+    "EUR": 1.120951,
+    "JPY": 0.006325,
+    "CAD": 0.701405,
+    "INR": 0.010336
   }
 }
