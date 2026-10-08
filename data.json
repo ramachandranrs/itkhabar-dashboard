@@ -1,56 +1,56 @@
 {
-  "updated": "2026-10-08T17:47:59.326244+00:00",
-  "updated_display": "08 Oct 2026, 17:47 UTC",
+  "updated": "2026-10-08T21:25:16.519085+00:00",
+  "updated_display": "08 Oct 2026, 21:25 UTC",
   "prices": {
     "TCS": {
-      "price": 2076.0,
-      "display": "\u20b92,076",
-      "change": -0.2
+      "price": 2080.3,
+      "display": "\u20b92,080",
+      "change": -0.9
     },
     "INFY": {
-      "price": 997.0,
-      "display": "\u20b9997",
-      "change": 0.5
+      "price": 992.0,
+      "display": "\u20b9992",
+      "change": -2.2
     },
     "CTSH": {
-      "price": 58.52,
-      "display": "$58.52",
-      "change": 2.5
+      "price": 60.01,
+      "display": "$60.01",
+      "change": 5.2
     },
     "HCLT": {
-      "price": 1176.9,
-      "display": "\u20b91,177",
-      "change": -0.7
+      "price": 1185.0,
+      "display": "\u20b91,185",
+      "change": -1.6
     },
     "WIPRO": {
-      "price": 158.38,
-      "display": "\u20b9158",
-      "change": -0.8
+      "price": 159.6,
+      "display": "\u20b9160",
+      "change": -1.4
     },
     "TECHM": {
-      "price": 1496.2,
-      "display": "\u20b91,496",
-      "change": 0.3
+      "price": 1491.1,
+      "display": "\u20b91,491",
+      "change": -0.9
     },
     "MPHL": {
-      "price": 2303.4,
-      "display": "\u20b92,303",
-      "change": 0.6
-    },
-    "PSYS": {
-      "price": 5468.0,
-      "display": "\u20b95,468",
-      "change": -0.7
-    },
-    "COFG": {
-      "price": 1814.3,
-      "display": "\u20b91,814",
+      "price": 2289.0,
+      "display": "\u20b92,289",
       "change": -0.4
     },
+    "PSYS": {
+      "price": 5507.0,
+      "display": "\u20b95,507",
+      "change": -0.3
+    },
+    "COFG": {
+      "price": 1822.2,
+      "display": "\u20b91,822",
+      "change": -1.5
+    },
     "ACN": {
-      "price": 202.9,
-      "display": "$203",
-      "change": 3.2
+      "price": 208.36,
+      "display": "$208",
+      "change": 6.0
     },
     "CAP": {
       "price": 110.85,
@@ -63,32 +63,32 @@
       "change": -3.6
     },
     "DXC": {
-      "price": 12.16,
-      "display": "$12.16",
-      "change": 1.2
+      "price": 12.37,
+      "display": "$12.37",
+      "change": 2.9
     },
     "GIB": {
-      "price": 69.47,
-      "display": "$69.47",
-      "change": 0.7
+      "price": 69.68,
+      "display": "$69.68",
+      "change": 1.0
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 71593.24,
-      "change": -1.44
+      "value": 72638.7,
+      "change": -0.59
     },
     "NIFTY_IT": {
-      "value": 27736.6,
-      "change": -0.08
+      "value": 27757.85,
+      "change": -1.34
     },
     "SP500": {
-      "value": 7749.83,
-      "change": -0.67
+      "value": 7765.36,
+      "change": -0.47
     },
     "USD_INR": {
-      "value": 96.77,
-      "change": 0.41
+      "value": 96.78,
+      "change": 0.43
     },
     "EUR_INR": {
       "value": 108.55,
@@ -116,8 +116,7 @@
         2075.0,
         2114.0,
         2100.0,
-        2080.0,
-        2076.0
+        2080.0
       ]
     },
     "INFY": {
@@ -140,8 +139,7 @@
         1035.0,
         1020.0,
         1014.0,
-        992.0,
-        997.0
+        992.0
       ]
     },
     "CTSH": {
@@ -165,7 +163,7 @@
         58.0,
         57.0,
         57.0,
-        59.0
+        60.0
       ]
     },
     "HCLT": {
@@ -188,8 +186,7 @@
         1243.0,
         1202.0,
         1204.0,
-        1185.0,
-        1177.0
+        1185.0
       ]
     },
     "WIPRO": {
@@ -212,8 +209,7 @@
         159.0,
         162.0,
         162.0,
-        160.0,
-        158.0
+        160.0
       ]
     },
     "TECHM": {
@@ -236,8 +232,7 @@
         1533.0,
         1536.0,
         1504.0,
-        1491.0,
-        1496.0
+        1491.0
       ]
     },
     "MPHL": {
@@ -260,8 +255,7 @@
         2250.0,
         2297.0,
         2298.0,
-        2289.0,
-        2303.0
+        2289.0
       ]
     },
     "PSYS": {
@@ -284,8 +278,7 @@
         5367.0,
         5530.0,
         5521.0,
-        5507.0,
-        5468.0
+        5507.0
       ]
     },
     "COFG": {
@@ -308,8 +301,7 @@
         1826.0,
         1852.0,
         1850.0,
-        1822.0,
-        1814.0
+        1822.0
       ]
     },
     "ACN": {
@@ -333,7 +325,7 @@
         195.0,
         193.0,
         197.0,
-        203.0
+        208.0
       ]
     },
     "CAP": {
@@ -429,11 +421,20 @@
         71.0,
         70.0,
         69.0,
-        69.0
+        70.0
       ]
     }
   },
   "news": [
+    {
+      "time": "2026-10-07 19:29",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Are H-1Bs in trouble? Immigration experts on why Cognizant, Infosys, Microsoft are not getting timely approvals on job visas",
+      "detail": "Immigration attorney Emily Neumann said she has been seeing multiple cases of H-1B petitions from three tech giants not getting approved on time.",
+      "url": "https://timesofindia.indiatimes.com/world/us/are-h-1bs-in-trouble-immigration-experts-on-why-cognizant-infosys-microsoft-are-not-getting-timely-approvals-on-job-visas/articleshow/134774150.cms"
+    },
     {
       "time": "2026-10-07 17:33",
       "tk": "TCS",
@@ -587,7 +588,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 634.37,
-          "rev_usd": 6.56,
+          "rev_usd": 6.55,
           "ebit_margin": 24.5,
           "op_profit": 155140.0,
           "fcf": 110.61,
@@ -630,13 +631,13 @@
         "growth": null,
         "ebit_margin": 24.8,
         "op_profit": 676270,
-        "op_profit_usd": 6989,
+        "op_profit_usd": 6988,
         "fcf": 361.26,
         "fcf_usd": 3.73
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "INFY": {
       "quarters": [
@@ -703,7 +704,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "CTSH": {
       "quarters": [
@@ -831,13 +832,13 @@
         "growth": null,
         "ebit_margin": 31.4,
         "op_profit": 417330,
-        "op_profit_usd": 4313,
+        "op_profit_usd": 4312,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "WIPRO": {
       "quarters": [
@@ -904,7 +905,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "TECHM": {
       "quarters": [
@@ -971,7 +972,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "MPHL": {
       "quarters": [
@@ -1038,7 +1039,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "PSYS": {
       "quarters": [
@@ -1046,7 +1047,7 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 32.42,
-          "rev_usd": 0.34,
+          "rev_usd": 0.33,
           "ebit_margin": 15.6,
           "op_profit": 5053.0,
           "fcf": null,
@@ -1105,7 +1106,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "COFG": {
       "quarters": [
@@ -1172,7 +1173,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010334
+      "usd_rate": 0.010333
     },
     "ACN": {
       "quarters": [
@@ -1314,7 +1315,7 @@
           "date": "2025-06-30",
           "label": "Q3 FY25",
           "rev": 4.09,
-          "rev_usd": 2.88,
+          "rev_usd": 2.87,
           "ebit_margin": 16.3,
           "op_profit": 666.0,
           "fcf": 0.41,
@@ -1367,20 +1368,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1897,
+        "op_profit_usd": 1896,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.702938
+      "usd_rate": 0.702889
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.121453,
-    "JPY": 0.006341,
-    "CAD": 0.702938,
-    "INR": 0.010334
+    "EUR": 1.121579,
+    "JPY": 0.006336,
+    "CAD": 0.702889,
+    "INR": 0.010333
   }
 }
