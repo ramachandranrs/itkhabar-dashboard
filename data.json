@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-08T21:25:16.519085+00:00",
-  "updated_display": "08 Oct 2026, 21:25 UTC",
+  "updated": "2026-10-09T03:01:18.497808+00:00",
+  "updated_display": "09 Oct 2026, 03:01 UTC",
   "prices": {
     "TCS": {
-      "price": 2080.3,
-      "display": "\u20b92,080",
-      "change": -0.9
+      "price": 2076.0,
+      "display": "\u20b92,076",
+      "change": -0.2
     },
     "INFY": {
-      "price": 992.0,
-      "display": "\u20b9992",
-      "change": -2.2
+      "price": 997.0,
+      "display": "\u20b9997",
+      "change": 0.5
     },
     "CTSH": {
       "price": 60.01,
@@ -18,34 +18,34 @@
       "change": 5.2
     },
     "HCLT": {
-      "price": 1185.0,
-      "display": "\u20b91,185",
-      "change": -1.6
+      "price": 1176.9,
+      "display": "\u20b91,177",
+      "change": -0.7
     },
     "WIPRO": {
-      "price": 159.6,
-      "display": "\u20b9160",
-      "change": -1.4
+      "price": 158.38,
+      "display": "\u20b9158",
+      "change": -0.8
     },
     "TECHM": {
-      "price": 1491.1,
-      "display": "\u20b91,491",
-      "change": -0.9
+      "price": 1496.2,
+      "display": "\u20b91,496",
+      "change": 0.3
     },
     "MPHL": {
-      "price": 2289.0,
-      "display": "\u20b92,289",
-      "change": -0.4
+      "price": 2303.4,
+      "display": "\u20b92,303",
+      "change": 0.6
     },
     "PSYS": {
-      "price": 5507.0,
-      "display": "\u20b95,507",
-      "change": -0.3
+      "price": 5468.0,
+      "display": "\u20b95,468",
+      "change": -0.7
     },
     "COFG": {
-      "price": 1822.2,
-      "display": "\u20b91,822",
-      "change": -1.5
+      "price": 1814.3,
+      "display": "\u20b91,814",
+      "change": -0.4
     },
     "ACN": {
       "price": 208.36,
@@ -53,14 +53,14 @@
       "change": 6.0
     },
     "CAP": {
-      "price": 110.85,
+      "price": 110.9,
       "display": "\u20ac111",
-      "change": -0.0
+      "change": 0.9
     },
     "ATOS": {
-      "price": 21.3,
-      "display": "\u20ac21.30",
-      "change": -3.6
+      "price": 22.1,
+      "display": "\u20ac22.10",
+      "change": 1.0
     },
     "DXC": {
       "price": 12.37,
@@ -75,12 +75,12 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 72638.7,
-      "change": -0.59
+      "value": 71593.24,
+      "change": -1.44
     },
     "NIFTY_IT": {
-      "value": 27757.85,
-      "change": -1.34
+      "value": 27736.6,
+      "change": -0.08
     },
     "SP500": {
       "value": 7765.36,
@@ -88,11 +88,11 @@
     },
     "USD_INR": {
       "value": 96.78,
-      "change": 0.43
+      "change": 0.02
     },
     "EUR_INR": {
-      "value": 108.55,
-      "change": 0.14
+      "value": 108.66,
+      "change": 0.31
     }
   },
   "historical": {
@@ -113,10 +113,10 @@
       ],
       "dp": [
         2075.0,
-        2075.0,
         2114.0,
         2100.0,
-        2080.0
+        2080.0,
+        2076.0
       ]
     },
     "INFY": {
@@ -136,10 +136,10 @@
       ],
       "dp": [
         1035.0,
-        1035.0,
         1020.0,
         1014.0,
-        992.0
+        992.0,
+        997.0
       ]
     },
     "CTSH": {
@@ -183,10 +183,10 @@
       ],
       "dp": [
         1243.0,
-        1243.0,
         1202.0,
         1204.0,
-        1185.0
+        1185.0,
+        1177.0
       ]
     },
     "WIPRO": {
@@ -206,10 +206,10 @@
       ],
       "dp": [
         159.0,
-        159.0,
         162.0,
         162.0,
-        160.0
+        160.0,
+        158.0
       ]
     },
     "TECHM": {
@@ -229,10 +229,10 @@
       ],
       "dp": [
         1533.0,
-        1533.0,
         1536.0,
         1504.0,
-        1491.0
+        1491.0,
+        1496.0
       ]
     },
     "MPHL": {
@@ -252,10 +252,10 @@
       ],
       "dp": [
         2250.0,
-        2250.0,
         2297.0,
         2298.0,
-        2289.0
+        2289.0,
+        2303.0
       ]
     },
     "PSYS": {
@@ -275,10 +275,10 @@
       ],
       "dp": [
         5367.0,
-        5367.0,
         5530.0,
         5521.0,
-        5507.0
+        5507.0,
+        5468.0
       ]
     },
     "COFG": {
@@ -298,10 +298,10 @@
       ],
       "dp": [
         1826.0,
-        1826.0,
         1852.0,
         1850.0,
-        1822.0
+        1822.0,
+        1814.0
       ]
     },
     "ACN": {
@@ -348,7 +348,6 @@
         109.0,
         108.0,
         110.0,
-        111.0,
         111.0
       ]
     },
@@ -372,8 +371,7 @@
         22.0,
         22.0,
         22.0,
-        22.0,
-        21.0
+        22.0
       ]
     },
     "DXC": {
@@ -427,6 +425,51 @@
   },
   "news": [
     {
+      "time": "2026-10-08 02:57",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 Results LIVE: Analysts see margin expansion despite modest growth, shares in focus",
+      "detail": "TCS Q2 results today live updates: Find all the latest Q2 results 2026 updates of TCS, GM Breweries, Onix Solar Energy, Lotus Chocolate Company, KR Rail Enginerring, Indbank Housing.  Tata Consultancy Services (TCS) is expected to report healthy margin expans\u2026",
+      "url": "https://www.thehindubusinessline.com/markets/tata-consultancy-service-earnings-tcs-q2-results-today-live-news-updates-08-october-2026/article71554965.ece"
+    },
+    {
+      "time": "2026-10-08 02:31",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 results: Ready for the big move? Here's how to trade the IT stock on results day",
+      "detail": "According to the average of seven brokerages, TCS revenue is expected to grow around 13% year-on-year, while profit is likely to rise about 9%. On a sequential basis, constant-currency revenue growth is expected at around 0.5-0.6%.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-q2-results-ready-for-the-big-move-heres-how-to-trade-the-it-stock-on-results-day/articleshow/134777867.cms"
+    },
+    {
+      "time": "2026-10-08 02:30",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Calm or chaos? TCS shares in focus ahead of Q2 results. 5 things investors should watch out for",
+      "detail": "According to the average of seven brokerages, TCS revenue is likely to grow about 13% YoY, while profit may rise around 9%. Sequential growth, however, is expected to remain modest, with most analysts pencilling in constant-currency revenue growth of 0.5-0.6%.",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/calm-or-chaos-tcs-shares-in-focus-ahead-of-q2-results-5-things-investors-should-watch-out-for/articleshow/134777942.cms"
+    },
+    {
+      "time": "2026-10-08 00:30",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Stocks in news: TCS, Adani Enterprises, Ola Electric, HCL Tech, Tata Power and Varun Beverages",
+      "detail": "Indian equities fell as the Reserve Bank of India increased the repo rate by 25 basis points. The Nifty 50 closed down 0.76%, facing resistance at the 22,800 level. Key corporate developments regarding Adani Enterprises, Tata Consultancy Services, Ola Electri\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-tcs-adani-enterprises-ola-electric-hcl-tech-tata-power-and-varun-beverages/articleshow/134771196.cms"
+    },
+    {
+      "time": "2026-10-07 23:39",
+      "tk": "TCS",
+      "src": "WABC-TV",
+      "cat": "MACRO",
+      "hl": "TCS New York City Marathon's 50th anniversary medal honors race's history",
+      "detail": "The 2026 TCS New York City Marathon celebrates 50 years of medals that New Yorkers and people from all over the world have proudly worn ever since.",
+      "url": "https://abc7ny.com/post/2026-tcs-nyc-marathon-50th-anniversary-medal-honors-races-history/19919231/"
+    },
+    {
       "time": "2026-10-07 19:29",
       "tk": "INFY",
       "src": "The Times of India",
@@ -434,33 +477,6 @@
       "hl": "Are H-1Bs in trouble? Immigration experts on why Cognizant, Infosys, Microsoft are not getting timely approvals on job visas",
       "detail": "Immigration attorney Emily Neumann said she has been seeing multiple cases of H-1B petitions from three tech giants not getting approved on time.",
       "url": "https://timesofindia.indiatimes.com/world/us/are-h-1bs-in-trouble-immigration-experts-on-why-cognizant-infosys-microsoft-are-not-getting-timely-approvals-on-job-visas/articleshow/134774150.cms"
-    },
-    {
-      "time": "2026-10-07 17:33",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "HC refuses relief to 12 students issued TCs after school violence",
-      "detail": "Patna High Court denies relief to 12 JNV Siwan students issued transfer certificates for alleged assault on principal, cuts fine to Rs 5,000 each.",
-      "url": "https://timesofindia.indiatimes.com/city/patna/hc-refuses-relief-to-12-students-issued-tcs-after-school-violence/articleshow/134771961.cms"
-    },
-    {
-      "time": "2026-10-07 16:04",
-      "tk": "INFY",
-      "src": "BusinessLine",
-      "cat": "PEOPLE",
-      "hl": "Day Trading Guide for October 8, 2026: Intraday supports, resistances for Nifty50 stocks",
-      "detail": "Day Trading Guide gives you the key intraday supports and resistances to watch out for on the Nifty Futures and other widely traded stocks such as Reliance Industries, Infosys, HDFC Bank, TCS, SBI",
-      "url": "https://www.thehindubusinessline.com/portfolio/day-trading-guide/day-trading-guide-for-october-08/article71555488.ece"
-    },
-    {
-      "time": "2026-10-07 13:15",
-      "tk": "WIPRO",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026",
-      "detail": "Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026\nEAST BRUNSWICK, N.J. & BENGALURU, India, October 07, 2026--(BUSINESS WIRE)--Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) a leading AI-powered technolo\u2026",
-      "url": "https://biztoc.com/x/79f3d759ae794942"
     },
     {
       "time": "2026-10-07 15:16",
@@ -490,24 +506,6 @@
       "url": "https://www.business-standard.com/markets/news/stocks-to-watch-rate-sensitive-stocks-titan-mphasis-adani-ports-zaggle-126100700106_1.html"
     },
     {
-      "time": "2026-10-06 16:20",
-      "tk": "MPHL",
-      "src": "BusinessLine",
-      "cat": "DEAL",
-      "hl": "Mphasis extends \u00a335.4 m contract with Social Security Scotland",
-      "detail": "Mphasis has announced it will extend its collaboration with Social Security Scotland as it signs an agreement for approximately \u00a335.4 million to help maintain reliable access to vital benefits services supporting more than 2 million citizens across Scotland.",
-      "url": "https://www.thehindubusinessline.com/companies/mphasis-extends-354-m-contract-with-social-security-scotland/article71552344.ece"
-    },
-    {
-      "time": "2026-10-06 10:29",
-      "tk": "ATOS",
-      "src": "Theregister.com",
-      "cat": "RESULTS",
-      "hl": "Atos lands \u00a3350M beat keeping Met Police applications running",
-      "detail": "Six-year deal covers management and security, with options to add cloud and digital workplace services",
-      "url": "https://www.theregister.com/public-sector/2026/10/06/atos-lands-350m-beat-keeping-met-police-applications-running/5301310"
-    },
-    {
       "time": "2026-10-07 13:08",
       "tk": "NTTD",
       "src": "Financial Post",
@@ -535,40 +533,13 @@
       "url": "https://www.livemint.com/companies/news/tcs-q2-earnings-five-things-to-watch-as-tata-boardroom-fight-adds-to-scrutiny-11791297435743.html"
     },
     {
-      "time": "2026-10-06 20:01",
-      "tk": "Sector",
-      "src": "PRNewswire",
-      "cat": "DEAL",
-      "hl": "Strategic Buyer Acquires Florida MSP as Demand Rises for Managed IT Services",
-      "detail": "Deal Facilitated by Viking Mergers & Acquisitions TAMPA, Fla., Oct. 6, 2026 /PRNewswire/ -- A managed IT and cybersecurity services provider serving small and mid-sized businesses in Florida has been acquired by a strategic buyer, bringing together complement\u2026",
-      "url": "https://www.prnewswire.com/news-releases/strategic-buyer-acquires-florida-msp-as-demand-rises-for-managed-it-services-302900302.html"
-    },
-    {
-      "time": "2026-10-06 13:07",
-      "tk": "Sector",
-      "src": "PRNewswire",
+      "time": "2026-10-07 13:15",
+      "tk": "WIPRO",
+      "src": "Biztoc.com",
       "cat": "RESULTS",
-      "hl": "Visual Edge IT Appoints Chief Growth Officer and Chief Revenue Officer to Support Next Phase of Growth",
-      "detail": "NORTH CANTON, Ohio, Oct. 6, 2026 /PRNewswire/ -- Visual Edge IT (VEIT), one of the nation's largest print and managed IT services organizations, today announced the promotions of Cameron Jones to Chief Growth Officer and Sara Grofcsik to Chief Revenue Officer\u2026",
-      "url": "https://www.prnewswire.com/news-releases/visual-edge-it-appoints-chief-growth-officer-and-chief-revenue-officer-to-support-next-phase-of-growth-302899774.html"
-    },
-    {
-      "time": "2026-10-06 11:29",
-      "tk": "Sector",
-      "src": "Business Standard",
-      "cat": "AI",
-      "hl": "India among top 10 emerging markets in AI readiness: World Bank",
-      "detail": "India is among the top 10 leading emerging-market performers in artificial intelligence (AI) readiness and is well positioned to harness the technology, helped by its large technical workforce, globally integrated IT sector and digital public infrastructure, \u2026",
-      "url": "https://www.business-standard.com/technology/tech-news/india-among-top-10-emerging-markets-in-ai-readiness-world-bank-126100600800_1.html"
-    },
-    {
-      "time": "2026-10-07 00:30",
-      "tk": "HCLT",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Stocks in news: Titan, HCL Tech, Adani Ports and Utkarsh SFB",
-      "detail": "Indian equities extended their recovery on Tuesday, driven by positive global cues and corporate updates. The Nifty 50 index closed at 22,714.80, marking a gain of 195.05 points. Several companies, including Titan Company and HCLTech, reported encouraging bus\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-titan-hcl-tech-adani-ports-and-utkarsh-sfb/articleshow/134746122.cms"
+      "hl": "Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026",
+      "detail": "Wipro Limited to Announce Results for the Second Quarter Ended September 30, 2026, on October 15, 2026\nEAST BRUNSWICK, N.J. & BENGALURU, India, October 07, 2026--(BUSINESS WIRE)--Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) a leading AI-powered technolo\u2026",
+      "url": "https://biztoc.com/x/79f3d759ae794942"
     }
   ],
   "quarterly": {
@@ -1315,7 +1286,7 @@
           "date": "2025-06-30",
           "label": "Q3 FY25",
           "rev": 4.09,
-          "rev_usd": 2.87,
+          "rev_usd": 2.88,
           "ebit_margin": 16.3,
           "op_profit": 666.0,
           "fcf": 0.41,
@@ -1345,7 +1316,7 @@
           "date": "2026-03-31",
           "label": "Q2 FY26",
           "rev": 4.16,
-          "rev_usd": 2.92,
+          "rev_usd": 2.93,
           "ebit_margin": 16.6,
           "op_profit": 692.0,
           "fcf": 0.38,
@@ -1368,20 +1339,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1896,
+        "op_profit_usd": 1898,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.702889
+      "usd_rate": 0.703552
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.121579,
-    "JPY": 0.006336,
-    "CAD": 0.702889,
+    "EUR": 1.123091,
+    "JPY": 0.006327,
+    "CAD": 0.703552,
     "INR": 0.010333
   }
 }
