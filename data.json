@@ -1,56 +1,56 @@
 {
-  "updated": "2026-10-09T18:28:21.955953+00:00",
-  "updated_display": "09 Oct 2026, 18:28 UTC",
+  "updated": "2026-10-09T21:05:00.358341+00:00",
+  "updated_display": "09 Oct 2026, 21:05 UTC",
   "prices": {
     "TCS": {
-      "price": 2156.0,
-      "display": "\u20b92,156",
-      "change": 3.9
+      "price": 2076.0,
+      "display": "\u20b92,076",
+      "change": -0.2
     },
     "INFY": {
-      "price": 1023.4,
-      "display": "\u20b91,023",
-      "change": 2.6
+      "price": 997.0,
+      "display": "\u20b9997",
+      "change": 0.5
     },
     "CTSH": {
-      "price": 59.45,
-      "display": "$59.45",
-      "change": -0.9
+      "price": 59.2,
+      "display": "$59.20",
+      "change": -1.3
     },
     "HCLT": {
-      "price": 1216.7,
-      "display": "\u20b91,217",
-      "change": 3.4
+      "price": 1176.9,
+      "display": "\u20b91,177",
+      "change": -0.7
     },
     "WIPRO": {
-      "price": 162.57,
-      "display": "\u20b9163",
-      "change": 2.6
+      "price": 158.38,
+      "display": "\u20b9158",
+      "change": -0.8
     },
     "TECHM": {
-      "price": 1514.1,
-      "display": "\u20b91,514",
-      "change": 1.2
+      "price": 1496.2,
+      "display": "\u20b91,496",
+      "change": 0.3
     },
     "MPHL": {
-      "price": 2360.0,
-      "display": "\u20b92,360",
-      "change": 2.5
+      "price": 2303.4,
+      "display": "\u20b92,303",
+      "change": 0.6
     },
     "PSYS": {
-      "price": 5770.0,
-      "display": "\u20b95,770",
-      "change": 5.5
+      "price": 5468.0,
+      "display": "\u20b95,468",
+      "change": -0.7
     },
     "COFG": {
-      "price": 1867.9,
-      "display": "\u20b91,868",
-      "change": 3.0
+      "price": 1814.3,
+      "display": "\u20b91,814",
+      "change": -0.4
     },
     "ACN": {
-      "price": 207.41,
-      "display": "$207",
-      "change": -0.5
+      "price": 209.06,
+      "display": "$209",
+      "change": 0.3
     },
     "CAP": {
       "price": 115.05,
@@ -63,36 +63,36 @@
       "change": -0.7
     },
     "DXC": {
-      "price": 12.36,
-      "display": "$12.36",
-      "change": -0.0
+      "price": 12.4,
+      "display": "$12.40",
+      "change": 0.2
     },
     "GIB": {
-      "price": 70.08,
-      "display": "$70.08",
+      "price": 70.09,
+      "display": "$70.09",
       "change": 0.6
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72472.33,
-      "change": 1.23
+      "value": 71593.24,
+      "change": -1.44
     },
     "NIFTY_IT": {
-      "value": 28574.9,
-      "change": 3.02
+      "value": 27736.6,
+      "change": -0.08
     },
     "SP500": {
-      "value": 7813.1,
-      "change": 0.61
+      "value": 7811.54,
+      "change": 0.59
     },
     "USD_INR": {
-      "value": 96.76,
-      "change": 0.0
+      "value": 96.78,
+      "change": 0.02
     },
     "EUR_INR": {
-      "value": 108.33,
-      "change": 0.01
+      "value": 108.44,
+      "change": 0.11
     }
   },
   "historical": {
@@ -116,8 +116,7 @@
         2114.0,
         2100.0,
         2080.0,
-        2076.0,
-        2156.0
+        2076.0
       ]
     },
     "INFY": {
@@ -140,8 +139,7 @@
         1020.0,
         1014.0,
         992.0,
-        997.0,
-        1023.0
+        997.0
       ]
     },
     "CTSH": {
@@ -189,8 +187,7 @@
         1202.0,
         1204.0,
         1185.0,
-        1177.0,
-        1217.0
+        1177.0
       ]
     },
     "WIPRO": {
@@ -213,8 +210,7 @@
         162.0,
         162.0,
         160.0,
-        158.0,
-        163.0
+        158.0
       ]
     },
     "TECHM": {
@@ -237,8 +233,7 @@
         1536.0,
         1504.0,
         1491.0,
-        1496.0,
-        1514.0
+        1496.0
       ]
     },
     "MPHL": {
@@ -261,8 +256,7 @@
         2297.0,
         2298.0,
         2289.0,
-        2303.0,
-        2360.0
+        2303.0
       ]
     },
     "PSYS": {
@@ -285,8 +279,7 @@
         5530.0,
         5521.0,
         5507.0,
-        5468.0,
-        5770.0
+        5468.0
       ]
     },
     "COFG": {
@@ -309,8 +302,7 @@
         1852.0,
         1850.0,
         1822.0,
-        1814.0,
-        1868.0
+        1814.0
       ]
     },
     "ACN": {
@@ -335,7 +327,7 @@
         193.0,
         197.0,
         208.0,
-        207.0
+        209.0
       ]
     },
     "CAP": {
@@ -441,49 +433,22 @@
   },
   "news": [
     {
-      "time": "2026-10-08 18:26",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "TCS onboards 10,000 freshers in Q2 FY27; plans to hire on demand",
-      "detail": "India's largest IT services firm says hiring will track client demand as it invests in AI skills, workforce training and niche talent, while subcontractor expenses rise in Q2",
-      "url": "https://www.business-standard.com/companies/news/tcs-onboards-10-000-freshers-in-q2-fy27-plans-to-hire-on-demand-126100801677_1.html"
+      "time": "2026-10-08 20:04",
+      "tk": "CTSH",
+      "src": "CNA",
+      "cat": "MACRO",
+      "hl": "Explainer-The skilled foreign tech workers' green card program under attack from Trump",
+      "detail": "Oct 8 : The US government said on Thursday it is suspending some of the world's biggest tech and IT firms including Microsoft, Cognizant and Capgemini from a key green card program that allows skilled foreign workers to gain permanent residency through their \u2026",
+      "url": "https://www.channelnewsasia.com/business/explainer-skilled-foreign-tech-workers-green-card-program-under-attack-trump-6444461"
     },
     {
-      "time": "2026-10-08 18:23",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 profit rises 15% to Rs 13,884 crore as AI revenue doubles; growth remains subdued",
-      "detail": "TCS reported a 15% year-on-year rise in September-quarter net profit to Rs 13,884 crore, while revenue grew 11.2% to Rs 73,188 crore. AI services revenue doubled to $3.1 billion annually, but constant-currency growth was just 0.5%. Margins narrowed to 24% as \u2026",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/tcs-q2-profit-rises-15-to-rs-13884-crore-as-ai-revenue-doubles-growth-remains-subdued/articleshow/134798673.cms"
-    },
-    {
-      "time": "2026-10-08 18:10",
+      "time": "2026-10-08 19:21",
       "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Employees transitioning from H-1B to permanent residency via PERM relatively limited: Nasscom",
-      "detail": "The reaction came after the US administration suspended major outsourcing companies, including India's Infosys, Tata, Wipro and HCL, from the permanent labour certification programme. Cognizant and Capgemini were also included in the action.",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/employees-transitioning-from-h-1b-to-permanent-residency-via-perm-relatively-limited-nasscom/articleshow/134798504.cms"
-    },
-    {
-      "time": "2026-10-08 17:52",
-      "tk": "TCS",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "TCS posts slowest quarterly growth in three years as demand stays muted",
-      "detail": "TCS reported 0.2% sequential revenue growth in the July\u2013September quarter, beating analyst expectations but marking its slowest second-quarter growth in three years.&nbsp;",
-      "url": "https://www.livemint.com/companies/tcs-q2-results-2026-27-review-11791471718004.html"
-    },
-    {
-      "time": "2026-10-08 17:26",
-      "tk": "Sector",
-      "src": "Tom's Hardware UK",
-      "cat": "MACRO",
-      "hl": "U.S. suspends green card path for H-1B workers at Microsoft and Adobe \u2014 labor certification program blocked due to alleged fraud",
-      "detail": "U.S. suspends green card path for H-1B workers at Microsoft, Adobe, and IT outsourcing companies \u2014 PERM program blocked due to alleged fraud",
-      "url": "https://www.tomshardware.com/tech-industry/policy/u-s-suspends-green-card-path-for-h-1b-workers-at-microsoft-and-adobe-labor-certification-program-blocked-due-to-alleged-fraud"
+      "src": "Slashdot.org",
+      "cat": "PEOPLE",
+      "hl": "Trump administration suspends Microsoft from PERM program for H-1B employees",
+      "detail": "The Trump administration has suspended Microsoft, Adobe, and a number IT outsourcing companies (Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini) from seeking permanent residency for foreign workers hired under the H-1B visa program, accusing them of takin\u2026",
+      "url": "https://slashdot.org/submission/17351344/trump-administration-suspends-microsoft-from-perm-program-for-h-1b-employees"
     },
     {
       "time": "2026-10-08 05:56",
@@ -531,6 +496,24 @@
       "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ntt-data-opens-ai-factory-munich-where-clients-can-validate-their-ai-in-a-live-environment"
     },
     {
+      "time": "2026-10-08 18:26",
+      "tk": "TCS",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "TCS onboards 10,000 freshers in Q2 FY27; plans to hire on demand",
+      "detail": "India's largest IT services firm says hiring will track client demand as it invests in AI skills, workforce training and niche talent, while subcontractor expenses rise in Q2",
+      "url": "https://www.business-standard.com/companies/news/tcs-onboards-10-000-freshers-in-q2-fy27-plans-to-hire-on-demand-126100801677_1.html"
+    },
+    {
+      "time": "2026-10-08 17:52",
+      "tk": "TCS",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "TCS posts slowest quarterly growth in three years as demand stays muted",
+      "detail": "TCS reported 0.2% sequential revenue growth in the July\u2013September quarter, beating analyst expectations but marking its slowest second-quarter growth in three years.&nbsp;",
+      "url": "https://www.livemint.com/companies/tcs-q2-results-2026-27-review-11791471718004.html"
+    },
+    {
       "time": "2026-10-08 15:57",
       "tk": "INFY",
       "src": "The Times of India",
@@ -547,6 +530,15 @@
       "hl": "TCS Q2 Results: Net profit up 11% as AI deal flow slowly picks up",
       "detail": "Tata Consultancy Services Ltd. reported quarterly profit that topped analysts\u2019 estimates, helped by cost-cutting measures and a gradually improving contract flow that helped drive growth at Asia\u2019s largest IT services provider.",
       "url": "https://www.livemint.com/companies/company-results/tcs-q2-results-2026-27-ai-deals-revenue-profit-11791471403757.html"
+    },
+    {
+      "time": "2026-10-08 18:23",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 profit rises 15% to Rs 13,884 crore as AI revenue doubles; growth remains subdued",
+      "detail": "TCS reported a 15% year-on-year rise in September-quarter net profit to Rs 13,884 crore, while revenue grew 11.2% to Rs 73,188 crore. AI services revenue doubled to $3.1 billion annually, but constant-currency growth was just 0.5%. Margins narrowed to 24% as \u2026",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/tcs-q2-profit-rises-15-to-rs-13884-crore-as-ai-revenue-doubles-growth-remains-subdued/articleshow/134798673.cms"
     },
     {
       "time": "2026-10-08 04:12",
@@ -611,7 +603,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 634.37,
-          "rev_usd": 6.56,
+          "rev_usd": 6.55,
           "ebit_margin": 24.5,
           "op_profit": 155140.0,
           "fcf": 110.61,
@@ -654,13 +646,13 @@
         "growth": null,
         "ebit_margin": 24.8,
         "op_profit": 676270,
-        "op_profit_usd": 6989,
+        "op_profit_usd": 6988,
         "fcf": 361.26,
         "fcf_usd": 3.73
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "INFY": {
       "quarters": [
@@ -727,7 +719,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "CTSH": {
       "quarters": [
@@ -855,13 +847,13 @@
         "growth": null,
         "ebit_margin": 31.4,
         "op_profit": 417330,
-        "op_profit_usd": 4313,
+        "op_profit_usd": 4312,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "WIPRO": {
       "quarters": [
@@ -928,7 +920,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "TECHM": {
       "quarters": [
@@ -989,13 +981,13 @@
         "growth": null,
         "ebit_margin": 13.1,
         "op_profit": 77171,
-        "op_profit_usd": 798,
+        "op_profit_usd": 797,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "MPHL": {
       "quarters": [
@@ -1062,7 +1054,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "PSYS": {
       "quarters": [
@@ -1070,7 +1062,7 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 32.42,
-          "rev_usd": 0.34,
+          "rev_usd": 0.33,
           "ebit_margin": 15.6,
           "op_profit": 5053.0,
           "fcf": null,
@@ -1129,7 +1121,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "COFG": {
       "quarters": [
@@ -1196,7 +1188,7 @@
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010335
+      "usd_rate": 0.010333
     },
     "ACN": {
       "quarters": [
@@ -1391,20 +1383,20 @@
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1891,
+        "op_profit_usd": 1893,
         "fcf": 2.32,
         "fcf_usd": 1.63
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.700791
+      "usd_rate": 0.701557
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120197,
+    "EUR": 1.120574,
     "JPY": 0.006319,
-    "CAD": 0.700791,
-    "INR": 0.010335
+    "CAD": 0.701557,
+    "INR": 0.010333
   }
 }
