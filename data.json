@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-09T17:23:50.932389+00:00",
-  "updated_display": "09 Oct 2026, 17:23 UTC",
+  "updated": "2026-10-09T18:28:21.955953+00:00",
+  "updated_display": "09 Oct 2026, 18:28 UTC",
   "prices": {
     "TCS": {
       "price": 2156.0,
@@ -13,8 +13,8 @@
       "change": 2.6
     },
     "CTSH": {
-      "price": 59.48,
-      "display": "$59.48",
+      "price": 59.45,
+      "display": "$59.45",
       "change": -0.9
     },
     "HCLT": {
@@ -48,9 +48,9 @@
       "change": 3.0
     },
     "ACN": {
-      "price": 206.98,
+      "price": 207.41,
       "display": "$207",
-      "change": -0.7
+      "change": -0.5
     },
     "CAP": {
       "price": 115.05,
@@ -63,13 +63,13 @@
       "change": -0.7
     },
     "DXC": {
-      "price": 12.4,
-      "display": "$12.40",
-      "change": 0.2
+      "price": 12.36,
+      "display": "$12.36",
+      "change": -0.0
     },
     "GIB": {
-      "price": 70.11,
-      "display": "$70.11",
+      "price": 70.08,
+      "display": "$70.08",
       "change": 0.6
     }
   },
@@ -83,8 +83,8 @@
       "change": 3.02
     },
     "SP500": {
-      "value": 7805.54,
-      "change": 0.52
+      "value": 7813.1,
+      "change": 0.61
     },
     "USD_INR": {
       "value": 96.76,
@@ -441,22 +441,49 @@
   },
   "news": [
     {
-      "time": "2026-10-08 17:12",
+      "time": "2026-10-08 18:26",
+      "tk": "TCS",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "TCS onboards 10,000 freshers in Q2 FY27; plans to hire on demand",
+      "detail": "India's largest IT services firm says hiring will track client demand as it invests in AI skills, workforce training and niche talent, while subcontractor expenses rise in Q2",
+      "url": "https://www.business-standard.com/companies/news/tcs-onboards-10-000-freshers-in-q2-fy27-plans-to-hire-on-demand-126100801677_1.html"
+    },
+    {
+      "time": "2026-10-08 18:23",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "TCS Q2 profit rises 15% to Rs 13,884 crore as AI revenue doubles; growth remains subdued",
+      "detail": "TCS reported a 15% year-on-year rise in September-quarter net profit to Rs 13,884 crore, while revenue grew 11.2% to Rs 73,188 crore. AI services revenue doubled to $3.1 billion annually, but constant-currency growth was just 0.5%. Margins narrowed to 24% as \u2026",
+      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/tcs-q2-profit-rises-15-to-rs-13884-crore-as-ai-revenue-doubles-growth-remains-subdued/articleshow/134798673.cms"
+    },
+    {
+      "time": "2026-10-08 18:10",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Employees transitioning from H-1B to permanent residency via PERM relatively limited: Nasscom",
+      "detail": "The reaction came after the US administration suspended major outsourcing companies, including India's Infosys, Tata, Wipro and HCL, from the permanent labour certification programme. Cognizant and Capgemini were also included in the action.",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/employees-transitioning-from-h-1b-to-permanent-residency-via-perm-relatively-limited-nasscom/articleshow/134798504.cms"
+    },
+    {
+      "time": "2026-10-08 17:52",
       "tk": "TCS",
       "src": "Livemint",
       "cat": "RESULTS",
-      "hl": "TDS statements can be filed directly through TRACES portal: What changed from tax year 2026\u201327? Expert explains",
-      "detail": "TDS and TCS compliance has moved to an online filing setup from Tax Year 2026-27 onwards, changing how deductors submit quarterly statements. The process brings fresh forms, a separate compliance environment, and updated filing steps. Here\u2019s what deductors ne\u2026",
-      "url": "https://www.livemint.com/money/personal-finance/tds-statements-can-be-filed-directly-through-traces-portal-what-changed-from-tax-year-2026-27-expert-explains-11791474735046.html"
+      "hl": "TCS posts slowest quarterly growth in three years as demand stays muted",
+      "detail": "TCS reported 0.2% sequential revenue growth in the July\u2013September quarter, beating analyst expectations but marking its slowest second-quarter growth in three years.&nbsp;",
+      "url": "https://www.livemint.com/companies/tcs-q2-results-2026-27-review-11791471718004.html"
     },
     {
-      "time": "2026-10-08 16:29",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "TCS trumps Q2 estimates on global, AI-led growth; Net profit jumps 15% to \u20b913,884 crore",
-      "detail": "TCS beats Q2 targets on AI-led growth, 14.9% profit rise to \u20b913,884 crore, 11% revenue, with international wins but India falls 10.3%.",
-      "url": "https://www.thehindubusinessline.com/info-tech/tcs-trumps-q2-estimates-on-global-ai-led-growth-net-profit-jumps-15-to-13884-crore/article71561029.ece"
+      "time": "2026-10-08 17:26",
+      "tk": "Sector",
+      "src": "Tom's Hardware UK",
+      "cat": "MACRO",
+      "hl": "U.S. suspends green card path for H-1B workers at Microsoft and Adobe \u2014 labor certification program blocked due to alleged fraud",
+      "detail": "U.S. suspends green card path for H-1B workers at Microsoft, Adobe, and IT outsourcing companies \u2014 PERM program blocked due to alleged fraud",
+      "url": "https://www.tomshardware.com/tech-industry/policy/u-s-suspends-green-card-path-for-h-1b-workers-at-microsoft-and-adobe-labor-certification-program-blocked-due-to-alleged-fraud"
     },
     {
       "time": "2026-10-08 05:56",
@@ -522,24 +549,6 @@
       "url": "https://www.livemint.com/companies/company-results/tcs-q2-results-2026-27-ai-deals-revenue-profit-11791471403757.html"
     },
     {
-      "time": "2026-10-08 12:10",
-      "tk": "TCS",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 results 2026: Important announcements from IT giant on Porsche AG partnership, AI Capability Center from Best Buy",
-      "detail": "TCS announced a five-year partnership with Porsche, including an AI Mobility Centre of Excellence and MHP acquisition. It will also transition Best Buy\u2019s India GCC into an AI Capability Center, expanding its AI-led business.",
-      "url": "https://www.livemint.com/companies/news/tcs-q2-results-2026-important-announcements-from-it-giant-on-porsche-ag-partnership-ai-capability-center-from-best-buy-11791458483525.html"
-    },
-    {
-      "time": "2026-10-08 11:04",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "TCS dividend! IT giant declares second interim dividend of Rs 12 per share for FY27",
-      "detail": "TCS announced a second interim dividend of Rs 12 per share for FY27 after reporting a 15% rise in Q2 net profit to Rs 13,884 crore. Revenue grew 11% to Rs 73,188 crore, while operating margin stood at 24%.",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tcs-dividend-it-giant-declares-second-interim-dividend-of-rs-12-per-share-for-fy27/articleshow/134788293.cms"
-    },
-    {
       "time": "2026-10-08 04:12",
       "tk": "TCS",
       "src": "BusinessLine",
@@ -556,6 +565,24 @@
       "hl": "TCS Q2 Results Preview: Can the IT bellwether show enough growth to calm investors?",
       "detail": "Tata Consultancy Services is scheduled to release its second-quarter results on October 8, with analysts predicting a year-on-year revenue growth of roughly 13%. However, the sequential growth might be modest at around 0.5%-0.6%. Investors will also be lookin\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tcs-q2-results-preview-can-the-it-bellwether-show-enough-growth-to-calm-investors/articleshow/134755846.cms"
+    },
+    {
+      "time": "2026-10-08 17:12",
+      "tk": "TCS",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "TDS statements can be filed directly through TRACES portal: What changed from tax year 2026\u201327? Expert explains",
+      "detail": "TDS and TCS compliance has moved to an online filing setup from Tax Year 2026-27 onwards, changing how deductors submit quarterly statements. The process brings fresh forms, a separate compliance environment, and updated filing steps. Here\u2019s what deductors ne\u2026",
+      "url": "https://www.livemint.com/money/personal-finance/tds-statements-can-be-filed-directly-through-traces-portal-what-changed-from-tax-year-2026-27-expert-explains-11791474735046.html"
+    },
+    {
+      "time": "2026-10-08 16:29",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "TCS trumps Q2 estimates on global, AI-led growth; Net profit jumps 15% to \u20b913,884 crore",
+      "detail": "TCS beats Q2 targets on AI-led growth, 14.9% profit rise to \u20b913,884 crore, 11% revenue, with international wins but India falls 10.3%.",
+      "url": "https://www.thehindubusinessline.com/info-tech/tcs-trumps-q2-estimates-on-global-ai-led-growth-net-profit-jumps-15-to-13884-crore/article71561029.ece"
     },
     {
       "time": "2026-10-08 15:23",
@@ -1370,14 +1397,14 @@
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.700741
+      "usd_rate": 0.700791
     }
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120072,
+    "EUR": 1.120197,
     "JPY": 0.006319,
-    "CAD": 0.700741,
+    "CAD": 0.700791,
     "INR": 0.010335
   }
 }
