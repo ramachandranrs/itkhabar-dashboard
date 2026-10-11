@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11T04:34:14.227282+00:00",
-  "updated_display": "11 Oct 2026, 04:34 UTC",
+  "updated": "2026-10-11T04:45:01.433505+00:00",
+  "updated_display": "11 Oct 2026, 04:45 UTC",
   "prices": {
     "TCS": {
       "price": 2156.0,
@@ -2169,7 +2169,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 722.75,
-          "rev_usd": 7.63,
+          "rev_usd": 7.62,
           "ebit_margin": 24.0,
           "op_profit": 173170.0,
           "fcf": null,
@@ -2236,11 +2236,11 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 5.08,
-          "rev_usd": 0.05,
+          "rev_usd": 5.08,
           "ebit_margin": 21.1,
           "op_profit": 1072.0,
           "fcf": 0.95,
-          "fcf_usd": 0.01
+          "fcf_usd": 0.95
         }
       ],
       "annual": {
@@ -2251,7 +2251,7 @@
         "op_profit": 4135,
         "op_profit_usd": 4115,
         "fcf": 3.8,
-        "fcf_usd": 2.86
+        "fcf_usd": 3.8
       },
       "fy_end_month": 3,
       "currency": "INR",
@@ -2437,7 +2437,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 244.79,
-          "rev_usd": 2.59,
+          "rev_usd": 2.61,
           "ebit_margin": 15.7,
           "op_profit": 38427.0,
           "fcf": 29.5,
@@ -2705,7 +2705,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 55.28,
-          "rev_usd": 0.58,
+          "rev_usd": 0.59,
           "ebit_margin": 16.0,
           "op_profit": 8822.0,
           "fcf": null,
