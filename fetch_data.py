@@ -40,7 +40,7 @@ TICKERS = {
     "HCLT":  {"yf": "HCLTECH.NS","currency": "₹", "name": "HCLTech"},
     "WIPRO": {"yf": "WIPRO.NS",  "currency": "₹", "name": "Wipro"},
     "TECHM": {"yf": "TECHM.NS",  "currency": "₹", "name": "Tech Mahindra"},
-    "LTIM":  {"yf": "LTIMINDLT.NS","currency": "₹", "name": "LTIMindtree"},
+    "LTIM":  {"yf": "LTM.NS","currency": "₹", "name": "LTM"},
     "MPHL":  {"yf": "MPHASIS.NS","currency": "₹", "name": "Mphasis"},
     "PSYS":  {"yf": "PERSISTENT.NS","currency": "₹", "name": "Persistent Systems"},
     "COFG":  {"yf": "COFORGE.NS","currency": "₹", "name": "Coforge"},
@@ -260,7 +260,7 @@ def fetch_news():
             COMPANY_KEYWORDS.add(first)
     # Add common alternate names
     for alt in ["TCS", "INFY", "HCLTECH", "HCL TECH", "TECH MAHINDRA",
-                "LTIMINDTREE", "LTI MINDTREE", "MPHASIS", "COFORGE",
+                "LTIMINDTREE", "LTI MINDTREE", "LTM LIMITED", "LTM LTD", "MPHASIS", "COFORGE",
                 "PERSISTENT", "NTT DATA", "DXC", "CGI GROUP"]:
         COMPANY_KEYWORDS.add(alt.upper())
 
@@ -297,7 +297,7 @@ def fetch_news():
         SAFE_ALTERNATES = {
             "HCLTECH": "HCLT", "HCL TECH": "HCLT",
             "TECH MAHINDRA": "TECHM",
-            "LTIMINDTREE": "LTIM", "LTI MINDTREE": "LTIM",
+            "LTIMINDTREE": "LTIM", "LTI MINDTREE": "LTIM", "LTM LIMITED": "LTIM", "LTM LTD": "LTIM",
             "MPHASIS": "MPHL", "COFORGE": "COFG",
             "PERSISTENT SYSTEMS": "PSYS",
             "NTT DATA": "NTTD", "CGI GROUP": "GIB",
@@ -317,14 +317,14 @@ def fetch_news():
     # to force NewsAPI to return only IT-services-relevant articles
     queries = [
         '"TCS" OR "Infosys" OR "HCLTech" OR "Wipro" OR "Tech Mahindra"',
-        '"Accenture" OR "Capgemini" OR "Cognizant" OR "LTIMindtree"',
+        '"Accenture" OR "Capgemini" OR "Cognizant" OR "LTM" OR "LTIMindtree"',
         '"Mphasis" OR "Persistent Systems" OR "Coforge" OR "DXC Technology"',
         '"NTT Data" OR "CGI Group" OR "Atos"',
         '"IT services" AND ("deal" OR "revenue" OR "earnings" OR "contract")',
         '"Nifty IT" OR "IT sector" AND India',
         # ── Earnings season queries (Oct–Nov = Q2 FY27 results) ──
         '("TCS" OR "Infosys" OR "HCLTech" OR "Wipro") AND ("results" OR "earnings" OR "quarterly" OR "profit")',
-        '("Tech Mahindra" OR "LTIMindtree" OR "Mphasis" OR "Persistent" OR "Coforge") AND ("results" OR "earnings" OR "quarterly")',
+        '("Tech Mahindra" OR "LTM" OR "LTIMindtree" OR "Mphasis" OR "Persistent" OR "Coforge") AND ("results" OR "earnings" OR "quarterly")',
         '("Cognizant" OR "Accenture" OR "Capgemini" OR "DXC") AND ("results" OR "earnings" OR "revenue" OR "guidance")',
     ]
 
