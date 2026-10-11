@@ -1881,11 +1881,13 @@ function buildReport(){
     const _fyEnd=c.fyEnd||3; // default Mar for Indian
     const _fyStart=((_fyEnd)%12)+1; // month after FY end
     const fyInfo=_fyEnd!==3?` <span style="font-size:9px;color:var(--ink-3);font-weight:400">FY: ${_moNames[_fyStart-1]}–${_moNames[_fyEnd-1]}</span>`:'';
-    const yoy=computeYoY(c.qr);
-    const qLen=c.qr.length;
+    // Use USD array for all growth/display calculations (c.qr may mix currencies after live merge)
+    const _qrUsd=c.qr_usd||c.qr;
+    const yoy=computeYoY(_qrUsd);
+    const qLen=_qrUsd.length;
 
     // Last 4 quarters data — dynamically from array end
-    const qr4=c.qr.slice(-4);
+    const qr4=_qrUsd.slice(-4);
     const qm4=c.qm.slice(-4);
     const yoy4=yoy.slice(-4);
     const fyRev=qr4.reduce((a,b)=>a+b,0);
@@ -1912,37 +1914,30 @@ function buildReport(){
     const _isNonUsd=_curr!=='USD';
     const _rate=c.usdRate||1.0;
 
-    // Revenue row — USD first (bright white), local currency second (subdued)
+    // Revenue row — USD (bright white, first line); qr4 is already USD via _qrUsd
+    tbl+=`<tr class="rpt-metric-row"><td>Revenue ($B)</td>`;
+    qr4.forEach((v,i)=>{
+      const prev=i>0?qr4[i-1]:(qLen>4?_qrUsd[qLen-5]:null);
+      const cls=prev!=null&&v>prev?'rpt-val-up':prev!=null&&v<prev?'rpt-val-dn':'';
+      tbl+=`<td class="${cls}">${v<1?v.toFixed(3):v.toFixed(2)}</td>`;
+    });
+    tbl+=`<td class="rpt-total-row">$${fyRev.toFixed(2)}B</td></tr>`;
+    // Local currency row (subdued) for non-USD companies
     if(_isNonUsd){
-      const qr4_usd=c.qr_usd?c.qr_usd.slice(-4):qr4.map(v=>+(v*_rate).toFixed(2));
-      const fyRevUsd=qr4_usd.reduce((a,b)=>a+b,0);
-      tbl+=`<tr class="rpt-metric-row"><td>Revenue ($B)</td>`;
-      qr4_usd.forEach((v,i)=>{
-        const prev=i>0?qr4_usd[i-1]:null;
-        const cls=prev!=null&&v>prev?'rpt-val-up':prev!=null&&v<prev?'rpt-val-dn':'';
-        tbl+=`<td class="${cls}">${v<1?v.toFixed(3):v.toFixed(2)}</td>`;
-      });
-      tbl+=`<td class="rpt-total-row">$${fyRevUsd.toFixed(2)}B</td></tr>`;
-      // Local currency row (subdued)
+      const qr4_local=c.qr.slice(-4);
+      const fyRevLocal=qr4_local.reduce((a,b)=>a+(b||0),0);
       tbl+=`<tr style="font-size:10px;color:var(--ink-3)"><td>≈ ${_curr} (${_sym}B)</td>`;
-      qr4.forEach(v=>{
+      qr4_local.forEach(v=>{
+        if(v==null){tbl+='<td>—</td>';return;}
         tbl+=`<td>${v<1?v.toFixed(3):v.toFixed(2)}</td>`;
       });
-      tbl+=`<td>${_sym}${fyRev.toFixed(2)}B</td></tr>`;
-    } else {
-      tbl+=`<tr class="rpt-metric-row"><td>Revenue ($B)</td>`;
-      qr4.forEach((v,i)=>{
-        const prev=i>0?qr4[i-1]:(qLen>4?c.qr[qLen-5]:null);
-        const cls=prev!=null&&v>prev?'rpt-val-up':prev!=null&&v<prev?'rpt-val-dn':'';
-        tbl+=`<td class="${cls}">${v<1?v.toFixed(3):v.toFixed(2)}</td>`;
-      });
-      tbl+=`<td class="rpt-total-row">$${fyRev.toFixed(2)}B</td></tr>`;
+      tbl+=`<td>${_sym}${fyRevLocal.toFixed(2)}B</td></tr>`;
     }
 
-    // QoQ Revenue Growth row
+    // QoQ Revenue Growth row (USD-based)
     tbl+='<tr><td>QoQ Growth (%)</td>';
     qr4.forEach((v,i)=>{
-      const prev=i>0?qr4[i-1]:(qLen>4?c.qr[qLen-5]:null);
+      const prev=i>0?qr4[i-1]:(qLen>4?_qrUsd[qLen-5]:null);
       if(prev==null||prev===0){tbl+='<td style="color:var(--ink-3)">—</td>';return;}
       const pct=((v-prev)/prev*100).toFixed(1);
       const cls=parseFloat(pct)>=0?'rpt-val-up':'rpt-val-dn';
@@ -2001,13 +1996,16 @@ function buildReport(){
       const fyRevUsd2=qr4_usd2.reduce((a,b)=>a+b,0);
       const fyProfitUsd=Math.round(fyRevUsd2*(parseFloat(fyMarginAvg)/100)*1000);
       tbl+=`<td style="font-weight:600">$${fyProfitUsd.toLocaleString()}</td></tr>`;
-      // Local currency row (subdued)
+      // Local currency row (subdued) — use c.qr for local values
+      const qr4_loc2=c.qr.slice(-4);
+      const fyRevLoc2=qr4_loc2.reduce((a,b)=>a+(b||0),0);
       tbl+=`<tr style="font-size:10px;color:var(--ink-3)"><td>≈ ${_curr} (${_sym}M)</td>`;
-      qr4.forEach((v,i)=>{
+      qr4_loc2.forEach((v,i)=>{
+        if(v==null){tbl+='<td>—</td>';return;}
         const profit=Math.round(v*qm4[i]/100*1000);
         tbl+=`<td>${_sym}${profit.toLocaleString()}</td>`;
       });
-      const fyProfit=Math.round(fyRev*(parseFloat(fyMarginAvg)/100)*1000);
+      const fyProfit=Math.round(fyRevLoc2*(parseFloat(fyMarginAvg)/100)*1000);
       tbl+=`<td>${_sym}${fyProfit.toLocaleString()}</td></tr>`;
     } else {
       tbl+=`<tr class="rpt-metric-row"><td>Op. Profit ($M)</td>`;
