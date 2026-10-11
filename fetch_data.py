@@ -454,6 +454,35 @@ CURRENCY_INFO = {
     "DXC": {"curr": "USD", "div": 1e9}, "GIB": {"curr": "CAD", "div": 1e9},
 }
 
+# ─── Company-reported USD quarterly revenue (from earnings press releases / SEC filings) ───
+# These are official figures declared by the companies, NOT forex-calculated.
+# Key format: (ticker, quarter_end_date) → USD revenue in $B
+# Sources: SEC Form 6-K, quarterly earnings presentations, NSE/BSE filings, PR Newswire
+REPORTED_USD_REVENUE = {
+    # TCS FY26 (source: TCS Q4 FY26 Fact Sheet)
+    "TCS":   {"2025-06-30": 7.42, "2025-09-30": 7.47, "2025-12-31": 7.51, "2026-03-31": 7.62},
+    # Infosys FY26 (source: SEC Form 6-K, Infosys press releases)
+    "INFY":  {"2025-06-30": 4.94, "2025-09-30": 5.08, "2025-12-31": 5.10, "2026-03-31": 5.04},
+    # HCLTech FY26 (source: NSE investor release)
+    "HCLT":  {"2025-06-30": 3.55, "2025-09-30": 3.64, "2025-12-31": 3.79, "2026-03-31": 3.68},
+    # Wipro FY26 (source: SEC Form 6-K, IT Services Revenue)
+    "WIPRO": {"2025-06-30": 2.59, "2025-09-30": 2.60, "2025-12-31": 2.64, "2026-03-31": 2.58},
+    # Tech Mahindra FY26 (source: Tech Mahindra Q4 FY26 earnings presentation)
+    "TECHM": {"2025-06-30": 1.56, "2025-09-30": 1.59, "2025-12-31": 1.61, "2026-03-31": 1.63},
+    # LTIMindtree FY26 (source: quarterly press releases, analyst reports)
+    "LTIM":  {"2025-06-30": 1.15, "2025-09-30": 1.18, "2025-12-31": 1.21, "2026-03-31": 1.22},
+    # Persistent Systems FY26 (source: PR Newswire, quarterly press releases)
+    "PSYS":  {"2025-06-30": 0.39, "2025-09-30": 0.41, "2025-12-31": 0.42, "2026-03-31": 0.44},
+    # Coforge FY26 (source: investor presentations, analyst reports)
+    "COFG":  {"2025-06-30": 0.44, "2025-09-30": 0.46, "2025-12-31": 0.48, "2026-03-31": 0.49},
+}
+
+# Company-reported USD annual revenue ($B) — from FY earnings releases
+REPORTED_USD_ANNUAL = {
+    "TCS": 30.0, "INFY": 20.2, "HCLT": 14.7, "WIPRO": 10.4,
+    "TECHM": 6.4, "LTIM": 4.76, "PSYS": 1.65, "COFG": 1.87,
+}
+
 
 def fetch_forex_rates():
     """Fetch latest USD exchange rates for all non-USD currencies used by tracked companies.
