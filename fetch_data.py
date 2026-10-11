@@ -503,11 +503,111 @@ def fetch_forex_rates():
     return rates
 
 
-def fetch_quarterly_financials(forex_rates=None):
+def fetch_historical_forex_rates():
+    """Fetch 4 years of daily forex rates so each quarter uses its own period-average rate.
+
+    Returns dict: {
+        "INR": { "2024-03-31": 0.01198, "2024-06-30": 0.01195, ... },
+        "EUR": { ... }, "JPY": { ... }, "CAD": { ... },
+        "USD": {}  # identity, always 1.0
+    }
+    Keys are date strings (YYYY-MM-DD), values are X-to-USD rates.
+    """
+    print("Fetching historical forex rates (4 years)...")
+    pairs = {
+        "INR": "INRUSD=X",
+        "EUR": "EURUSD=X",
+        "JPY": "JPYUSD=X",
+        "CAD": "CADUSD=X",
+    }
+    inv_pairs = {
+        "INR": "USDINR=X",
+        "EUR": "USDEUR=X",
+        "JPY": "USDJPY=X",
+        "CAD": "USDCAD=X",
+    }
+    historical = {"USD": {}}
+
+    for curr, sym in pairs.items():
+        daily_rates = {}
+        try:
+            ticker = yf.Ticker(sym)
+            hist = ticker.history(period="4y")
+            if hist is not None and not hist.empty and len(hist) > 100:
+                for idx, row in hist.iterrows():
+                    dt_str = idx.strftime("%Y-%m-%d") if hasattr(idx, 'strftime') else str(idx)[:10]
+                    daily_rates[dt_str] = round(float(row["Close"]), 6)
+                print(f"  ✓ {curr}/USD: {len(daily_rates)} daily rates")
+            else:
+                inv_sym = inv_pairs[curr]
+                ticker2 = yf.Ticker(inv_sym)
+                hist2 = ticker2.history(period="4y")
+                if hist2 is not None and not hist2.empty and len(hist2) > 100:
+                    for idx, row in hist2.iterrows():
+                        dt_str = idx.strftime("%Y-%m-%d") if hasattr(idx, 'strftime') else str(idx)[:10]
+                        daily_rates[dt_str] = round(1.0 / float(row["Close"]), 6)
+                    print(f"  ✓ {curr}/USD (via inverse): {len(daily_rates)} daily rates")
+                else:
+                    print(f"  ⚠ {curr}: no historical forex data")
+        except Exception as e:
+            print(f"  ✗ {curr} historical: {e}")
+
+        historical[curr] = daily_rates
+
+    return historical
+
+
+def get_quarter_avg_fx(historical_rates, currency, quarter_end_date_str):
+    """Get the average forex rate for a quarter (90-day window ending at quarter_end_date).
+
+    Uses the average of daily rates over the quarter for more accurate conversion,
+    matching how companies typically report (using period-average rates).
+
+    Args:
+        historical_rates: dict from fetch_historical_forex_rates()
+        currency: e.g. "INR", "EUR"
+        quarter_end_date_str: e.g. "2024-03-31"
+
+    Returns: float (X-to-USD rate), or None if no data available
+    """
+    if currency == "USD":
+        return 1.0
+
+    daily = historical_rates.get(currency, {})
+    if not daily:
+        return None
+
+    try:
+        end_dt = datetime.datetime.strptime(quarter_end_date_str, "%Y-%m-%d")
+        start_dt = end_dt - datetime.timedelta(days=90)
+
+        rates_in_window = []
+        for dt_str, rate in daily.items():
+            dt = datetime.datetime.strptime(dt_str, "%Y-%m-%d")
+            if start_dt <= dt <= end_dt:
+                rates_in_window.append(rate)
+
+        if rates_in_window:
+            avg_rate = sum(rates_in_window) / len(rates_in_window)
+            return round(avg_rate, 6)
+
+        # Fallback: find the closest available date
+        all_dates = sorted(daily.keys())
+        closest = min(all_dates, key=lambda d: abs((datetime.datetime.strptime(d, "%Y-%m-%d") - end_dt).days))
+        return daily[closest]
+
+    except Exception:
+        return None
+
+
+def fetch_quarterly_financials(forex_rates=None, historical_forex=None):
     """Fetch quarterly income statement + cash flow for all tracked companies.
 
     Uses yfinance to pull data from official filings (SEC EDGAR, BSE, etc.).
-    When forex_rates is provided, adds USD-converted values alongside local currency.
+    When historical_forex is provided, uses quarter-specific average exchange rates
+    for USD conversion (matching how companies report their own USD figures).
+    Falls back to forex_rates (current spot rate) when historical data is unavailable.
+
     Returns dict keyed by dashboard ticker:
       { "ACN": {
           "quarters": [
@@ -526,6 +626,8 @@ def fetch_quarterly_financials(forex_rates=None):
     print("Fetching quarterly financials...")
     if forex_rates is None:
         forex_rates = {"USD": 1.0}
+    if historical_forex is None:
+        historical_forex = {}
     quarterly = {}
 
     for tk, info in TICKERS.items():
@@ -568,9 +670,11 @@ def fetch_quarterly_financials(forex_rates=None):
                     continue  # skip quarter if no revenue
                 rev_scaled = round(rev / curr_info["div"], 2)
                 q_data["rev"] = rev_scaled
-                # USD-converted revenue
-                fx = forex_rates.get(curr_info["curr"], 1.0)
-                q_data["rev_usd"] = round(rev_scaled * fx, 2)
+                # USD-converted revenue — use quarter-specific average FX rate
+                q_fx = get_quarter_avg_fx(historical_forex, curr_info["curr"], q_data["date"])
+                if q_fx is None:
+                    q_fx = forex_rates.get(curr_info["curr"], 1.0)
+                q_data["rev_usd"] = round(rev_scaled * q_fx, 2)
 
                 # Operating income / EBIT
                 ebit = _get_field(inc, dt, [
@@ -609,9 +713,9 @@ def fetch_quarterly_financials(forex_rates=None):
                 else:
                     q_data["fcf"] = None
 
-                # USD-converted FCF
+                # USD-converted FCF — use same quarter-specific FX rate
                 if q_data.get("fcf") is not None:
-                    q_data["fcf_usd"] = round(q_data["fcf"] * fx, 2)
+                    q_data["fcf_usd"] = round(q_data["fcf"] * q_fx, 2)
                 else:
                     q_data["fcf_usd"] = None
 
@@ -630,10 +734,12 @@ def fetch_quarterly_financials(forex_rates=None):
             annual_fcf_vals = [q.get("fcf") for q in last4 if q.get("fcf") is not None]
             annual_fcf = round(sum(annual_fcf_vals), 2) if annual_fcf_vals else None
 
-            # USD-converted annual totals
-            fx = forex_rates.get(curr_info["curr"], 1.0)
-            annual_rev_usd = round(annual_rev * fx, 1)
-            annual_fcf_usd = round(annual_fcf * fx, 2) if annual_fcf is not None else None
+            # USD-converted annual totals — sum per-quarter USD values (already converted at quarter-specific rates)
+            annual_rev_usd = round(sum(q["rev_usd"] for q in last4), 1)
+            annual_fcf_usd_vals = [q.get("fcf_usd") for q in last4 if q.get("fcf_usd") is not None]
+            annual_fcf_usd = round(sum(annual_fcf_usd_vals), 2) if annual_fcf_usd_vals else None
+            # Weighted average FX rate for annual op_profit conversion
+            avg_fx = annual_rev_usd / annual_rev if annual_rev > 0 else forex_rates.get(curr_info["curr"], 1.0)
 
             # YoY revenue growth (last 4 vs prior 4)
             yoy_growth = None
@@ -651,13 +757,13 @@ def fetch_quarterly_financials(forex_rates=None):
                     "growth": yoy_growth,
                     "ebit_margin": annual_margin,
                     "op_profit": round(annual_op_profit),
-                    "op_profit_usd": round(annual_op_profit * fx),
+                    "op_profit_usd": round(annual_op_profit * avg_fx),
                     "fcf": annual_fcf,
                     "fcf_usd": annual_fcf_usd,
                 },
                 "fy_end_month": fy_end,
                 "currency": curr_info["curr"],
-                "usd_rate": fx,
+                "usd_rate": round(avg_fx, 6),
             }
             print(f"  ✓ {tk}: {len(quarters)} quarters, latest={quarters[-1]['label']} rev={quarters[-1]['rev']}")
 
@@ -719,6 +825,7 @@ def main():
     print(f"═══ IT Dashboard Data Refresh — {now.strftime('%Y-%m-%d %H:%M UTC')} ═══\n")
 
     forex = fetch_forex_rates()
+    hist_forex = fetch_historical_forex_rates()
 
     output = {
         "updated": now.isoformat(),
@@ -727,7 +834,7 @@ def main():
         "indices": fetch_indices(),
         "historical": fetch_historical_prices(),
         "news": fetch_news(),
-        "quarterly": fetch_quarterly_financials(forex),
+        "quarterly": fetch_quarterly_financials(forex, hist_forex),
         "forex_rates": forex,
     }
 
