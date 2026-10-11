@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11T04:45:01.433505+00:00",
-  "updated_display": "11 Oct 2026, 04:45 UTC",
+  "updated": "2026-10-11T04:57:07.328786+00:00",
+  "updated_display": "11 Oct 2026, 04:57 UTC",
   "prices": {
     "TCS": {
       "price": 2156.0,
@@ -31,6 +31,11 @@
       "price": 1514.1,
       "display": "\u20b91,514",
       "change": 1.2
+    },
+    "LTIM": {
+      "price": 4070.0,
+      "display": "\u20b94,070",
+      "change": 4.0
     },
     "MPHL": {
       "price": 2360.0,
@@ -876,6 +881,140 @@
         1597.0,
         1541.0,
         1537.0
+      ],
+      "ml": [
+        "Q4'23",
+        "Q1'24",
+        "Q2'24",
+        "Q3'24",
+        "Q4'24",
+        "Q1'25",
+        "Q2'25",
+        "Q3'25",
+        "Q4'25",
+        "Q1'26",
+        "Q2'26",
+        "Q3'26",
+        "Jul 17",
+        "Jul 24",
+        "Jul 31",
+        "Aug 7",
+        "Aug 14",
+        "Aug 21",
+        "Aug 28",
+        "Sep 4",
+        "Sep 11",
+        "Sep 18"
+      ]
+    },
+    "LTIM": {
+      "qp": [
+        6057.0,
+        4752.0,
+        5228.0,
+        6062.0,
+        5441.0,
+        4375.0,
+        5226.0,
+        5069.0,
+        5983.0,
+        3961.0,
+        3538.0,
+        4124.0
+      ],
+      "ql": [
+        "Q4'23",
+        "Q1'24",
+        "Q2'24",
+        "Q3'24",
+        "Q4'24",
+        "Q1'25",
+        "Q2'25",
+        "Q3'25",
+        "Q4'25",
+        "Q1'26",
+        "Q2'26",
+        "Q3'26"
+      ],
+      "wp": [
+        4076.0,
+        4092.0,
+        4362.0,
+        4658.0,
+        4715.0,
+        4488.0,
+        4675.0,
+        4554.0,
+        4275.0,
+        4275.0
+      ],
+      "wl": [
+        "Jul 17",
+        "Jul 24",
+        "Jul 31",
+        "Aug 7",
+        "Aug 14",
+        "Aug 21",
+        "Aug 28",
+        "Sep 4",
+        "Sep 11",
+        "Sep 18"
+      ],
+      "dp": [
+        4280.0,
+        4158.0,
+        4085.0,
+        4038.0,
+        4083.0,
+        4091.0,
+        3936.0,
+        4045.0,
+        4007.0,
+        4010.0,
+        3971.0,
+        3930.0,
+        3915.0,
+        4070.0
+      ],
+      "dl": [
+        "Sep 21",
+        "Sep 22",
+        "Sep 23",
+        "Sep 24",
+        "Sep 25",
+        "Sep 28",
+        "Sep 29",
+        "Sep 30",
+        "Oct 1",
+        "Oct 5",
+        "Oct 6",
+        "Oct 7",
+        "Oct 8",
+        "Oct 9"
+      ],
+      "mp": [
+        6057.0,
+        4752.0,
+        5228.0,
+        6062.0,
+        5441.0,
+        4375.0,
+        5226.0,
+        5069.0,
+        5983.0,
+        3961.0,
+        3538.0,
+        4124.0,
+        4076.0,
+        4092.0,
+        4362.0,
+        4658.0,
+        4715.0,
+        4488.0,
+        4675.0,
+        4554.0,
+        4275.0,
+        4275.0
       ],
       "ml": [
         "Q4'23",
@@ -2041,6 +2180,15 @@
       "url": "https://biztoc.com/x/d8b0868f00ea74f3"
     },
     {
+      "time": "2026-10-09 17:45",
+      "tk": "LTIM",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "CoreWeave Stock Fell Nearly 8% in a Day on an OpenAI Revenue Report. Here\u2019s Why Its Borrowing Model Raises the Stakes",
+      "detail": "CoreWeave Stock Fell Nearly 8% in a Day on an OpenAI Revenue Report. Here\u2019s Why Its Borrowing Model Raises the Stakes\nKey Stats for CoreWeave Stock\n- Current Price: $81.58\n- Street Target: ~$141\n- LTM Net Debt/EBITDA: 8.22x\nWhat Happened?\nCoreWeave (CRWV) clo\u2026",
+      "url": "https://biztoc.com/x/51fc7ffa7321bd4d"
+    },
+    {
       "time": "2026-10-09 08:18",
       "tk": "TCS",
       "src": "The Times of India",
@@ -2524,6 +2672,73 @@
       "fy_end_month": 3,
       "currency": "INR",
       "usd_rate": 0.010934
+    },
+    "LTIM": {
+      "quarters": [
+        {
+          "date": "2025-03-31",
+          "label": "Q4 FY25",
+          "rev": 97.72,
+          "rev_usd": 1.13,
+          "ebit_margin": 13.8,
+          "op_profit": 13454.0,
+          "fcf": 22.24,
+          "fcf_usd": 0.26
+        },
+        {
+          "date": "2025-06-30",
+          "label": "Q1 FY26",
+          "rev": 98.41,
+          "rev_usd": 1.15,
+          "ebit_margin": 14.3,
+          "op_profit": 14065.0,
+          "fcf": 10.33,
+          "fcf_usd": 0.12
+        },
+        {
+          "date": "2025-12-31",
+          "label": "Q3 FY26",
+          "rev": 107.81,
+          "rev_usd": 1.21,
+          "ebit_margin": 16.1,
+          "op_profit": 17371.0,
+          "fcf": -5.74,
+          "fcf_usd": -0.06
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Q4 FY26",
+          "rev": 112.92,
+          "rev_usd": 1.22,
+          "ebit_margin": 15.1,
+          "op_profit": 17094.0,
+          "fcf": 26.86,
+          "fcf_usd": 0.29
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Q1 FY27",
+          "rev": 116.08,
+          "rev_usd": 1.23,
+          "ebit_margin": 15.5,
+          "op_profit": 17993.0,
+          "fcf": 10.33,
+          "fcf_usd": 0.11
+        }
+      ],
+      "annual": {
+        "rev": 435.2,
+        "rev_usd": 4.76,
+        "growth": null,
+        "ebit_margin": 15.2,
+        "op_profit": 66523,
+        "op_profit_usd": 728,
+        "fcf": 41.78,
+        "fcf_usd": 0.46
+      },
+      "fy_end_month": 3,
+      "currency": "INR",
+      "usd_rate": 0.010937
     },
     "MPHL": {
       "quarters": [
