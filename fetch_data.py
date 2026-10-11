@@ -122,16 +122,18 @@ def fetch_stock_prices():
 
 
 def fetch_historical_prices():
-    """Fetch historical prices for trend charts.
+    """Fetch historical prices for trend charts — 3-year progressive granularity.
 
     Returns dict keyed by dashboard ticker:
-      { "TCS": { "mp": [12 monthly closing prices], "dp": [daily closes this month] }, ... }
+      { "TCS": { "qp": [...], "wp": [...], "dp": [...],
+                 "ql": [...], "wl": [...], "dl": [...] }, ... }
 
-    mp = last-trading-day close of each of the past 12 calendar months
-         (oldest first, current month excluded — current month is covered by dp).
-    dp = every trading-day close in the current calendar month so far (oldest first).
+    qp = quarterly closing prices for Year 1-2 (oldest, ~8 points)
+    wp = weekly closing prices for recent ~3 months (~12 points)
+    dp = daily closing prices for last ~3 weeks (~15 points)
+    ql/wl/dl = corresponding date labels (e.g. "Q1'24", "Oct 7", "Oct 10")
     """
-    print("Fetching historical prices for trend charts...")
+    print("Fetching historical prices for trend charts (3-year progressive)...")
     historical = {}
     now = datetime.datetime.now(datetime.timezone.utc)
 
@@ -139,35 +141,67 @@ def fetch_historical_prices():
         sym = info["yf"]
         try:
             ticker = yf.Ticker(sym)
-            # Fetch ~14 months of daily data to derive monthly closes
-            hist = ticker.history(period="14mo")
-            if hist.empty or len(hist) < 5:
+            # Fetch 3 years of daily data
+            hist = ticker.history(period="3y")
+            if hist.empty or len(hist) < 20:
                 print(f"  ⚠ {tk}: insufficient historical data")
                 continue
 
-            # --- Monthly closes (mp): last trading day of each of the past 12 months ---
-            # Group by year-month
             hist.index = hist.index.tz_localize(None) if hist.index.tz is not None else hist.index
-            monthly = hist["Close"].resample("ME").last().dropna()
-            # Exclude current month (it's incomplete — dp covers it)
-            cur_month_start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0,
-                                          tzinfo=None)
-            monthly = monthly[monthly.index < cur_month_start]
-            # Take latest 12 months
-            mp_values = [round(float(v), 0) for v in monthly.tail(12).values]
+            closes = hist["Close"].dropna()
 
-            # --- Daily closes for current month (dp) ---
-            month_start = cur_month_start
-            daily_mask = hist.index >= month_start
-            daily_this_month = hist.loc[daily_mask, "Close"].dropna()
-            dp_values = [round(float(v), 0) for v in daily_this_month.values]
+            # Boundary dates
+            today = now.replace(tzinfo=None)
+            daily_cutoff = today - datetime.timedelta(days=21)       # last ~3 weeks → daily
+            weekly_cutoff = today - datetime.timedelta(days=90)      # last ~3 months → weekly
+            # Everything before weekly_cutoff → quarterly
 
-            # Only include if we have meaningful data
-            if len(mp_values) >= 6:
-                historical[tk] = {"mp": mp_values, "dp": dp_values}
-                print(f"  ✓ {tk}: {len(mp_values)} monthly + {len(dp_values)} daily prices")
+            # --- Quarterly zone (Year 1-2): last trading day of each quarter ---
+            qtr_data = closes[closes.index < weekly_cutoff]
+            if len(qtr_data) > 0:
+                quarterly = qtr_data.resample("QE").last().dropna()
+                qp_values = [round(float(v), 0) for v in quarterly.values]
+                ql_values = []
+                for dt in quarterly.index:
+                    q_num = (dt.month - 1) // 3 + 1
+                    ql_values.append(f"Q{q_num}'{str(dt.year)[2:]}")
             else:
-                print(f"  ⚠ {tk}: only {len(mp_values)} monthly points, skipping")
+                qp_values, ql_values = [], []
+
+            # --- Weekly zone (recent ~3 months): last trading day of each week ---
+            week_data = closes[(closes.index >= weekly_cutoff) & (closes.index < daily_cutoff)]
+            if len(week_data) > 0:
+                weekly = week_data.resample("W-FRI").last().dropna()
+                # If no Friday data, try any week-end
+                if weekly.empty:
+                    weekly = week_data.resample("W").last().dropna()
+                wp_values = [round(float(v), 0) for v in weekly.values]
+                months_short = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+                wl_values = [f"{months_short[dt.month-1]} {dt.day}" for dt in weekly.index]
+            else:
+                wp_values, wl_values = [], []
+
+            # --- Daily zone (last ~3 weeks): every trading day ---
+            day_data = closes[closes.index >= daily_cutoff]
+            if len(day_data) > 0:
+                dp_values = [round(float(v), 0) for v in day_data.values]
+                months_short = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+                dl_values = [f"{months_short[dt.month-1]} {dt.day}" for dt in day_data.index]
+            else:
+                dp_values, dl_values = [], []
+
+            total = len(qp_values) + len(wp_values) + len(dp_values)
+            if total >= 6:
+                historical[tk] = {
+                    "qp": qp_values, "ql": ql_values,
+                    "wp": wp_values, "wl": wl_values,
+                    "dp": dp_values, "dl": dl_values,
+                    # Keep legacy mp/dp for backward compat until index.html is updated
+                    "mp": qp_values + wp_values, "ml": ql_values + wl_values,
+                }
+                print(f"  ✓ {tk}: {len(qp_values)}q + {len(wp_values)}w + {len(dp_values)}d prices ({total} total)")
+            else:
+                print(f"  ⚠ {tk}: only {total} points, skipping")
 
         except Exception as e:
             print(f"  ✗ {tk}: {e}")
@@ -699,11 +733,18 @@ def fetch_quarterly_financials(forex_rates=None, historical_forex=None):
                     continue  # skip quarter if no revenue
                 rev_scaled = round(rev / curr_info["div"], 2)
                 q_data["rev"] = rev_scaled
-                # USD-converted revenue — use quarter-specific average FX rate
-                q_fx = get_quarter_avg_fx(historical_forex, curr_info["curr"], q_data["date"])
-                if q_fx is None:
-                    q_fx = forex_rates.get(curr_info["curr"], 1.0)
-                q_data["rev_usd"] = round(rev_scaled * q_fx, 2)
+                # USD revenue — prefer company-reported figures from earnings releases
+                reported = REPORTED_USD_REVENUE.get(tk, {}).get(q_data["date"])
+                if reported is not None:
+                    q_data["rev_usd"] = reported
+                    # Derive implied FX rate for other USD conversions (FCF, op_profit)
+                    q_fx = reported / rev_scaled if rev_scaled > 0 else 1.0
+                else:
+                    # Fallback: quarter-specific average FX rate (for non-Indian / unlisted quarters)
+                    q_fx = get_quarter_avg_fx(historical_forex, curr_info["curr"], q_data["date"])
+                    if q_fx is None:
+                        q_fx = forex_rates.get(curr_info["curr"], 1.0)
+                    q_data["rev_usd"] = round(rev_scaled * q_fx, 2)
 
                 # Operating income / EBIT
                 ebit = _get_field(inc, dt, [
@@ -763,8 +804,13 @@ def fetch_quarterly_financials(forex_rates=None, historical_forex=None):
             annual_fcf_vals = [q.get("fcf") for q in last4 if q.get("fcf") is not None]
             annual_fcf = round(sum(annual_fcf_vals), 2) if annual_fcf_vals else None
 
-            # USD-converted annual totals — sum per-quarter USD values (already converted at quarter-specific rates)
-            annual_rev_usd = round(sum(q["rev_usd"] for q in last4), 1)
+            # USD annual revenue — prefer company-reported figure from earnings releases
+            reported_annual = REPORTED_USD_ANNUAL.get(tk)
+            if reported_annual is not None:
+                annual_rev_usd = reported_annual
+            else:
+                # Fallback: sum per-quarter USD values (already converted at quarter-specific rates)
+                annual_rev_usd = round(sum(q["rev_usd"] for q in last4), 1)
             annual_fcf_usd_vals = [q.get("fcf_usd") for q in last4 if q.get("fcf_usd") is not None]
             annual_fcf_usd = round(sum(annual_fcf_usd_vals), 2) if annual_fcf_usd_vals else None
             # Weighted average FX rate for annual op_profit conversion

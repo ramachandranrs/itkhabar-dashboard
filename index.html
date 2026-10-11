@@ -485,7 +485,7 @@ body{font-family:var(--sans);background:var(--bg);color:var(--ink-1);-webkit-fon
     <!-- 3-Year Trends -->
     <div class="trends" id="trendsSection">
       <div class="ana-head">
-        <div class="sec-head" style="margin:0">Trends · 1-Year Price + 3-Year Financials</div>
+        <div class="sec-head" style="margin:0">Trends · 3-Year Price + 3-Year Financials</div>
       </div>
       <div class="trend-controls">
         <div class="co-chips" id="coChips"></div>
@@ -1505,7 +1505,8 @@ function buildStockChart(){
   if(stockChart) stockChart.destroy();
 
   const list=getCOs();
-  const sel=list.filter(c=>trendSelected.has(c.t)&&c.mp);
+  // Accept companies with any price data (new 3-zone or legacy)
+  const sel=list.filter(c=>trendSelected.has(c.t)&&(c.qp||c.mp));
   if(!sel.length){
     document.getElementById('stockLegend').innerHTML='<span style="color:var(--ink-3);font-style:italic">Select Indian-listed companies to view share price trends</span>';
     return;
@@ -1514,67 +1515,128 @@ function buildStockChart(){
   const isIdx=stockView==='idx';
   const yLabel=isIdx?'Indexed (Base = 100)':'Share Price (₹)';
 
-  /* ── Blended timeline: monthly prices (all but last month) + daily prices (current month).
-     Dynamically sized based on actual data arrays.
-     X-axis allocation: months get left 35%, daily gets right 65%.
-     Within each zone, points are evenly spaced. */
-  // Determine nM and nD from actual data
-  const refCo=sel.find(c=>c.mp&&c.dp)||sel[0];
-  const nM=refCo&&refCo.mp?refCo.mp.length-1:11;   // monthly points (all but current month)
-  const nD=refCo&&refCo.dp?refCo.dp.length:0;       // daily points for current month
-  const hasDays=nD>0;
-  const mPct=hasDays?35:100, dPct=hasDays?65:0;
+  /* ── 3-zone progressive timeline ──
+     Zone 1 (quarterly, ~30% width): Year 1-2, spaced wide
+     Zone 2 (weekly, ~35% width): Recent ~3 months
+     Zone 3 (daily, ~35% width): Last ~3 weeks
+     Falls back to legacy mp/dp format if new data not present. */
 
-  // Trim DLABELS to match actual dp length
-  const activeDLabels=DLABELS.slice(0,nD);
-  // Use only trailing nM months (skip last month if daily exists)
-  const activeMLabels=MLABELS.slice(0,hasDays?MLABELS.length-1:MLABELS.length).slice(-(nM));
+  const refCo=sel[0];
+  const has3Zone=!!(refCo.qp);
 
-  // Dynamic date range label
-  const _rangeEl=document.getElementById('trendDateRange');
-  if(_rangeEl&&activeMLabels.length){
-    const _mStart=activeMLabels[0]||'';
-    const _mEnd=activeMLabels[activeMLabels.length-1]||'';
-    const _months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const _curMon=_months[new Date().getMonth()];
-    _rangeEl.textContent=hasDays?`(monthly ${_mStart}–${_mEnd} · daily ${_curMon})`:`(monthly ${_mStart}–${_mEnd})`;
-  }
+  let allPrices_ref, allLabels, allX, zoneBreaks;
 
-  const allX=[], allLabels=[];
-  for(let i=0;i<nM;i++){
-    allX.push(nM>1?i/(nM-1)*mPct:0);
-    allLabels.push(activeMLabels[i]||('M'+(i+1)));
-  }
-  for(let j=0;j<nD;j++){
-    allX.push(mPct + (nD>1?j/(nD-1)*dPct:0));
-    allLabels.push(activeDLabels[j]||('D'+(j+1)));
+  if(has3Zone){
+    const nQ=refCo.qp?refCo.qp.length:0;
+    const nW=refCo.wp?refCo.wp.length:0;
+    const nD=refCo.dp_new?refCo.dp_new.length:0;
+    // Allocate x-axis proportionally: quarterly gets 30%, weekly 35%, daily 35%
+    const qPct=nQ>0?30:0, wPct=nW>0?35:0, dPct=nD>0?35:0;
+    const totalPct=qPct+wPct+dPct;
+    const qScale=qPct/totalPct*100, wScale=wPct/totalPct*100, dScale=dPct/totalPct*100;
+
+    allX=[]; allLabels=[];
+    const qLabels=refCo.ql_price||[];
+    const wLabels=refCo.wl||[];
+    const dLabels=refCo.dl||[];
+
+    for(let i=0;i<nQ;i++){
+      allX.push(nQ>1?i/(nQ-1)*qScale:0);
+      allLabels.push(qLabels[i]||'Q'+(i+1));
+    }
+    for(let j=0;j<nW;j++){
+      allX.push(qScale + (nW>1?j/(nW-1)*wScale:0));
+      allLabels.push(wLabels[j]||'W'+(j+1));
+    }
+    for(let k=0;k<nD;k++){
+      allX.push(qScale+wScale + (nD>1?k/(nD-1)*dScale:0));
+      allLabels.push(dLabels[k]||'D'+(k+1));
+    }
+    zoneBreaks=[nQ, nQ+nW]; // indices where zones change
+
+    // Date range label
+    const _rangeEl=document.getElementById('trendDateRange');
+    if(_rangeEl){
+      const parts=[];
+      if(nQ>0) parts.push(`quarterly ${qLabels[0]||''}–${qLabels[nQ-1]||''}`);
+      if(nW>0) parts.push(`weekly ${wLabels[0]||''}–${wLabels[nW-1]||''}`);
+      if(nD>0) parts.push(`daily ${dLabels[0]||''}–${dLabels[nD-1]||''}`);
+      _rangeEl.textContent=`(${parts.join(' · ')})`;
+    }
+  } else {
+    // Legacy mp/dp fallback
+    const nM=refCo.mp?refCo.mp.length-1:11;
+    const nD=refCo.dp?refCo.dp.length:0;
+    const hasDays=nD>0;
+    const mPct=hasDays?35:100, dPct=hasDays?65:0;
+    const activeDLabels=DLABELS.slice(0,nD);
+    const activeMLabels=MLABELS.slice(0,hasDays?MLABELS.length-1:MLABELS.length).slice(-(nM));
+    allX=[]; allLabels=[];
+    for(let i=0;i<nM;i++){
+      allX.push(nM>1?i/(nM-1)*mPct:0);
+      allLabels.push(activeMLabels[i]||('M'+(i+1)));
+    }
+    for(let j=0;j<nD;j++){
+      allX.push(mPct + (nD>1?j/(nD-1)*dPct:0));
+      allLabels.push(activeDLabels[j]||('D'+(j+1)));
+    }
+    zoneBreaks=[nM];
+    const _rangeEl=document.getElementById('trendDateRange');
+    if(_rangeEl&&activeMLabels.length){
+      const _mStart=activeMLabels[0]||'';
+      const _mEnd=activeMLabels[activeMLabels.length-1]||'';
+      const _months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const _curMon=_months[new Date().getMonth()];
+      _rangeEl.textContent=hasDays?`(monthly ${_mStart}–${_mEnd} · daily ${_curMon})`:`(monthly ${_mStart}–${_mEnd})`;
+    }
   }
   const N=allX.length;
 
-  /* Dynamic tick selection — ~10-12 evenly-spaced ticks */
+  /* Dynamic tick selection — ~12-15 evenly-spaced ticks */
   const tickIdx=[];
-  if(nM>0){
-    const mStep=Math.max(1,Math.floor(nM/5));
-    for(let i=0;i<nM;i+=mStep) tickIdx.push(i);
-    if(tickIdx[tickIdx.length-1]!==nM-1) tickIdx.push(nM-1);
-  }
-  if(nD>0){
-    const dStep=Math.max(1,Math.floor(nD/5));
-    for(let j=0;j<nD;j+=dStep) tickIdx.push(nM+j);
-    if(tickIdx[tickIdx.length-1]!==nM+nD-1) tickIdx.push(nM+nD-1);
+  if(has3Zone){
+    const nQ=refCo.qp?refCo.qp.length:0;
+    const nW=refCo.wp?refCo.wp.length:0;
+    const nD=refCo.dp_new?refCo.dp_new.length:0;
+    // Show every 2nd-3rd quarterly tick
+    if(nQ>0){const s=Math.max(1,Math.floor(nQ/4));for(let i=0;i<nQ;i+=s)tickIdx.push(i);if(tickIdx[tickIdx.length-1]!==nQ-1)tickIdx.push(nQ-1);}
+    // Show every 3rd weekly tick
+    if(nW>0){const s=Math.max(1,Math.floor(nW/4));for(let j=0;j<nW;j+=s)tickIdx.push(nQ+j);if(tickIdx[tickIdx.length-1]!==nQ+nW-1)tickIdx.push(nQ+nW-1);}
+    // Show every 4th-5th daily tick
+    if(nD>0){const s=Math.max(1,Math.floor(nD/4));for(let k=0;k<nD;k+=s)tickIdx.push(nQ+nW+k);if(tickIdx[tickIdx.length-1]!==nQ+nW+nD-1)tickIdx.push(nQ+nW+nD-1);}
+  } else {
+    const nM=zoneBreaks[0];
+    const nD=N-nM;
+    if(nM>0){const s=Math.max(1,Math.floor(nM/5));for(let i=0;i<nM;i+=s)tickIdx.push(i);if(tickIdx[tickIdx.length-1]!==nM-1)tickIdx.push(nM-1);}
+    if(nD>0){const s=Math.max(1,Math.floor(nD/5));for(let j=0;j<nD;j+=s)tickIdx.push(nM+j);if(tickIdx[tickIdx.length-1]!==nM+nD-1)tickIdx.push(nM+nD-1);}
   }
 
   const datasets=sel.map(c=>{
     const idx=list.indexOf(c);
     const col=sCol(idx);
-    const mSlice=c.mp?c.mp.slice(0,nM):[];
-    const dSlice=c.dp?c.dp.slice(0,nD):[];
-    const prices=[...mSlice,...dSlice];
-    const base=prices[0]||1;
-    const radii=prices.map((_,i)=>i<nM?2:3); // smaller dots for months, normal for daily
+    let prices;
+    if(has3Zone){
+      prices=[...(c.qp||[]),...(c.wp||[]),...(c.dp_new||[])];
+    } else {
+      const nM=zoneBreaks[0];
+      const nD=N-nM;
+      prices=[...(c.mp?c.mp.slice(0,nM):[]),...(c.dp?c.dp.slice(0,nD):[])];
+    }
+    const base=prices.find(p=>p!=null&&p>0)||1;
+    // Point sizes: smaller for quarterly, medium for weekly, larger for daily
+    const radii=prices.map((_,i)=>{
+      if(has3Zone){
+        const nQ=refCo.qp?refCo.qp.length:0;
+        const nW=refCo.wp?refCo.wp.length:0;
+        if(i<nQ) return 1.5;       // quarterly: subtle
+        if(i<nQ+nW) return 2.5;    // weekly: medium
+        return 3.5;                  // daily: prominent
+      }
+      return i<zoneBreaks[0]?2:3;
+    });
     return {
       label:c.t,
-      data:prices.map((p,i)=>({x:allX[i],y:isIdx?+(p/base*100).toFixed(1):p})),
+      data:prices.map((p,i)=>({x:allX[i],y:p==null?null:(isIdx?+(p/base*100).toFixed(1):p)})),
       borderColor:col, backgroundColor:col+'18',
       borderWidth:2, pointRadius:radii,
       pointHoverRadius:6,
@@ -1587,6 +1649,7 @@ function buildStockChart(){
     type:'line',
     data:{datasets},
     options:{
+      spanGaps:true,
       responsive:true,maintainAspectRatio:false,
       animation:{duration:500,easing:'easeOutQuart'},
       interaction:{mode:'nearest',intersect:false,axis:'x'},
@@ -1607,19 +1670,7 @@ function buildStockChart(){
             label:function(item){
               const c=sel[item.datasetIndex]; const v=item.parsed.y;
               if(isIdx) return ' '+c.t+': '+(typeof v==='number'?v.toFixed(1):v);
-              return ' '+c.t+': ₹'+v.toLocaleString('en-IN');
-            },
-            afterBody:function(items){
-              if(!items.length||sel.length<2) return [];
-              const xv=items[0].parsed.x;
-              let ci=0; allX.forEach((x,i)=>{if(Math.abs(x-xv)<Math.abs(allX[ci]-xv)) ci=i;});
-              const si=items[0].datasetIndex;
-              return sel.map((c,di)=>{
-                if(di===si) return null;
-                const all=[...(c.mp?c.mp.slice(0,nM):[]),...(c.dp?c.dp.slice(0,nD):[])];
-                const v=isIdx?+(all[ci]/(all[0]||1)*100).toFixed(1):all[ci];
-                return isIdx?' '+c.t+': '+v:' '+c.t+': ₹'+v.toLocaleString('en-IN');
-              }).filter(Boolean);
+              return ' '+c.t+': ₹'+(typeof v==='number'?v.toLocaleString('en-IN'):'—');
             }
           }
         }
@@ -1658,13 +1709,17 @@ function buildStockChart(){
     }
   });
 
-  // Legend with 1-year return % (based on first monthly price vs latest daily)
+  // Legend with 3-year return % (first price vs latest)
   const legEl=document.getElementById('stockLegend');
   legEl.innerHTML='';
   sel.forEach(c=>{
     const idx=list.indexOf(c);
-    const latest=c.dp&&c.dp.length?c.dp[c.dp.length-1]:(c.mp?c.mp[c.mp.length-1]:0);
-    const first=c.mp[0];
+    let allP;
+    if(has3Zone) allP=[...(c.qp||[]),...(c.wp||[]),...(c.dp_new||[])];
+    else allP=[...(c.mp||[]),...(c.dp||[])];
+    const validP=allP.filter(p=>p!=null&&p>0);
+    const first=validP[0]||1;
+    const latest=validP[validP.length-1]||first;
     const chg=((latest-first)/first*100).toFixed(1);
     const cls=parseFloat(chg)>=0?'up-c':'dn-c';
     legEl.innerHTML+=`<div class="t-leg"><div class="t-dot" style="background:${sCol(idx)}"></div>${c.t} ₹${latest.toLocaleString('en-IN')} <span class="${cls}" style="font-size:9px;font-weight:600;margin-left:2px">${parseFloat(chg)>=0?'+':''}${chg}%</span></div>`;
@@ -2232,11 +2287,19 @@ function applyLiveData(d){
       }
     });
   }
-  // ── 2. Update historical price arrays for trend charts ──
+  // ── 2. Update historical price arrays for trend charts (3-zone progressive) ──
   if(d.historical){
     Object.entries(d.historical).forEach(([tk,h])=>{
       const co=allCOs.find(c=>c.t===tk);
       if(!co) return;
+      // New 3-zone format: qp/wp/dp with labels ql/wl/dl
+      if(h.qp) co.qp=h.qp;
+      if(h.wp) co.wp=h.wp;
+      if(h.dp) co.dp_new=h.dp; // dp_new to avoid clash with legacy dp
+      if(h.ql) co.ql_price=h.ql;
+      if(h.wl) co.wl=h.wl;
+      if(h.dl) co.dl=h.dl;
+      // Legacy fallback — keep mp/dp working until chart is rebuilt
       if(h.mp&&h.mp.length>=6) co.mp=h.mp;
       if(h.dp&&h.dp.length>=1) co.dp=h.dp;
     });
