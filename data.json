@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-09T21:05:00.358341+00:00",
-  "updated_display": "09 Oct 2026, 21:05 UTC",
+  "updated": "2026-10-11T03:45:43.982952+00:00",
+  "updated_display": "11 Oct 2026, 03:45 UTC",
   "prices": {
     "TCS": {
-      "price": 2076.0,
-      "display": "\u20b92,076",
-      "change": -0.2
+      "price": 2156.0,
+      "display": "\u20b92,156",
+      "change": 3.9
     },
     "INFY": {
-      "price": 997.0,
-      "display": "\u20b9997",
-      "change": 0.5
+      "price": 1023.4,
+      "display": "\u20b91,023",
+      "change": 2.6
     },
     "CTSH": {
       "price": 59.2,
@@ -18,34 +18,34 @@
       "change": -1.3
     },
     "HCLT": {
-      "price": 1176.9,
-      "display": "\u20b91,177",
-      "change": -0.7
+      "price": 1216.7,
+      "display": "\u20b91,217",
+      "change": 3.4
     },
     "WIPRO": {
-      "price": 158.38,
-      "display": "\u20b9158",
-      "change": -0.8
+      "price": 162.57,
+      "display": "\u20b9163",
+      "change": 2.6
     },
     "TECHM": {
-      "price": 1496.2,
-      "display": "\u20b91,496",
-      "change": 0.3
+      "price": 1514.1,
+      "display": "\u20b91,514",
+      "change": 1.2
     },
     "MPHL": {
-      "price": 2303.4,
-      "display": "\u20b92,303",
-      "change": 0.6
+      "price": 2360.0,
+      "display": "\u20b92,360",
+      "change": 2.5
     },
     "PSYS": {
-      "price": 5468.0,
-      "display": "\u20b95,468",
-      "change": -0.7
+      "price": 5770.0,
+      "display": "\u20b95,770",
+      "change": 5.5
     },
     "COFG": {
-      "price": 1814.3,
-      "display": "\u20b91,814",
-      "change": -0.4
+      "price": 1867.9,
+      "display": "\u20b91,868",
+      "change": 3.0
     },
     "ACN": {
       "price": 209.06,
@@ -75,24 +75,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 71593.24,
-      "change": -1.44
+      "value": 72472.33,
+      "change": 1.23
     },
     "NIFTY_IT": {
-      "value": 27736.6,
-      "change": -0.08
+      "value": 28574.9,
+      "change": 3.02
     },
     "SP500": {
       "value": 7811.54,
       "change": 0.59
     },
     "USD_INR": {
-      "value": 96.78,
-      "change": 0.02
+      "value": 96.73,
+      "change": -0.1
     },
     "EUR_INR": {
-      "value": 108.44,
-      "change": 0.11
+      "value": 108.35,
+      "change": -0.09
     }
   },
   "historical": {
@@ -116,7 +116,8 @@
         2114.0,
         2100.0,
         2080.0,
-        2076.0
+        2076.0,
+        2156.0
       ]
     },
     "INFY": {
@@ -139,7 +140,8 @@
         1020.0,
         1014.0,
         992.0,
-        997.0
+        997.0,
+        1023.0
       ]
     },
     "CTSH": {
@@ -187,7 +189,8 @@
         1202.0,
         1204.0,
         1185.0,
-        1177.0
+        1177.0,
+        1217.0
       ]
     },
     "WIPRO": {
@@ -210,7 +213,8 @@
         162.0,
         162.0,
         160.0,
-        158.0
+        158.0,
+        163.0
       ]
     },
     "TECHM": {
@@ -233,7 +237,8 @@
         1536.0,
         1504.0,
         1491.0,
-        1496.0
+        1496.0,
+        1514.0
       ]
     },
     "MPHL": {
@@ -256,7 +261,8 @@
         2297.0,
         2298.0,
         2289.0,
-        2303.0
+        2303.0,
+        2360.0
       ]
     },
     "PSYS": {
@@ -279,7 +285,8 @@
         5530.0,
         5521.0,
         5507.0,
-        5468.0
+        5468.0,
+        5770.0
       ]
     },
     "COFG": {
@@ -302,7 +309,8 @@
         1852.0,
         1850.0,
         1822.0,
-        1814.0
+        1814.0,
+        1868.0
       ]
     },
     "ACN": {
@@ -433,157 +441,157 @@
   },
   "news": [
     {
-      "time": "2026-10-08 20:04",
-      "tk": "CTSH",
-      "src": "CNA",
-      "cat": "MACRO",
-      "hl": "Explainer-The skilled foreign tech workers' green card program under attack from Trump",
-      "detail": "Oct 8 : The US government said on Thursday it is suspending some of the world's biggest tech and IT firms including Microsoft, Cognizant and Capgemini from a key green card program that allows skilled foreign workers to gain permanent residency through their \u2026",
-      "url": "https://www.channelnewsasia.com/business/explainer-skilled-foreign-tech-workers-green-card-program-under-attack-trump-6444461"
+      "time": "2026-10-10 02:53",
+      "tk": "TCS",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "TCS withholds quarterly bonuses for senior staff after missing targets",
+      "detail": "Employees in C3A grade and above will receive no quarterly variable allowance this quarter, while junior-level staff will get 100 per cent of their eligible pay, an internal memo said",
+      "url": "https://www.business-standard.com/companies/news/tcs-withholds-quarterly-bonuses-for-senior-staff-after-missing-targets-126101000060_1.html"
     },
     {
-      "time": "2026-10-08 19:21",
+      "time": "2026-10-09 20:39",
+      "tk": "TCS",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "Indias TCS senior staff will miss out on variable pay for September quarter, memo shows",
+      "detail": "TCS-BONUS/ (PIX):India's TCS senior staff will miss out on variable pay for September quarter, memo shows",
+      "url": "https://www.livemint.com/companies/indias-tcs-senior-staff-will-miss-out-on-variable-pay-for-september-quarter-memo-shows-11791578360142.html"
+    },
+    {
+      "time": "2026-10-09 19:32",
       "tk": "INFY",
       "src": "Slashdot.org",
-      "cat": "PEOPLE",
-      "hl": "Trump administration suspends Microsoft from PERM program for H-1B employees",
-      "detail": "The Trump administration has suspended Microsoft, Adobe, and a number IT outsourcing companies (Cognizant, Infosys, Tata, Wipro, HCL, and Capgemini) from seeking permanent residency for foreign workers hired under the H-1B visa program, accusing them of takin\u2026",
-      "url": "https://slashdot.org/submission/17351344/trump-administration-suspends-microsoft-from-perm-program-for-h-1b-employees"
+      "cat": "MACRO",
+      "hl": "Tech giants Microsoft, Adobe, Infosys and 5 others lose ability to sponsor African and other foreign workers for US green cards - Business Insider Africa",
+      "detail": "Tech giants Microsoft, Adobe, Infosys and 5 others lose ability to sponsor African and other foreign workers for US green cardsBusiness Insider Africa India calls JD Vance's comments about immigrants 'deeply offensive'CNBC Trump administration freezes green c\u2026",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186084280"
     },
     {
-      "time": "2026-10-08 05:56",
-      "tk": "INFY",
-      "src": "The Times of India",
+      "time": "2026-10-10 00:31",
+      "tk": "ACN",
+      "src": "Biztoc.com",
       "cat": "RESULTS",
-      "hl": "TCS, Infosys, HCL Tech, other IT stocks jump up to 3% despite weak market sentiment. What to expect as Q2 earnings season begins?",
-      "detail": "IT stocks rose on Thursday as investors turned their attention to TCS, which is set to kick off the Q2 earnings season. Analysts expect modest sequential revenue growth, while a favourable base and margin support could aid year-on-year growth. Currency tailwi\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-hcl-tech-other-it-stocks-jump-up-to-3-despite-weak-market-sentiment-what-to-expect-as-q2-earnings-season-begins/articleshow/134781427.cms"
+      "hl": "Has Accenture Stock Become A Different Bet?",
+      "detail": "stock is currently priced at 16.4 times earnings, sitting well below the 21.5 multiple of the S&P 500. Investors paying that price need a clear picture of what they are buying. The complication is that management has shifted its priorities. A year ago, execut\u2026",
+      "url": "https://biztoc.com/x/0d4b17d6caad7202"
     },
     {
-      "time": "2026-10-08 04:04",
-      "tk": "HCLT",
-      "src": "Economictimes.com",
-      "cat": "RESULTS",
-      "hl": "IT stocks brace for a weak \"strong\" quarter: Motilal Oswal names HCLTech, Tech Mahindra, Coforge as top picks",
-      "detail": "Motilal Oswal Financial Services (MOFSL) expects soft demand from Indian IT firms in Q2 FY27, even though July to September is usually a seasonally strong quarter. Mid-caps are set to outrun the large-caps again. Swipe to see the growth rankings, the margin c\u2026",
-      "url": "https://m.economictimes.com/wealth/invest/it-stocks-brace-for-a-weak-strong-quarter-motilal-oswal-names-hcltech-tech-mahindra-coforge-as-top-picks/it-stocks-brace-for-a-weak-strong-quarter/slideshow/134779466.cms"
-    },
-    {
-      "time": "2026-10-07 12:02",
-      "tk": "DXC",
-      "src": "PRNewswire",
-      "cat": "RESULTS",
-      "hl": "DXC Advances Intelligent Insurance Through Platform Innovation, Workflow Modernization and London Market Investment",
-      "detail": "DXC expands Assure Platform with new capabilities designed to accelerate insurance modernization and innovation AI-enabled Smart Apps are delivering measurable results across critical insurance workflows, with Assure Platform adoption now exceeding 275 custom\u2026",
-      "url": "https://www.prnewswire.com/news-releases/dxc-advances-intelligent-insurance-through-platform-innovation-workflow-modernization-and-london-market-investment-302901126.html"
-    },
-    {
-      "time": "2026-10-07 02:41",
-      "tk": "MPHL",
-      "src": "Business Standard",
-      "cat": "PEOPLE",
-      "hl": "Stocks to watch: Rate-sensitive stocks, Titan, Mphasis, Adani Ports, Zaggle",
-      "detail": "Stocks to watch today: Rate-sensitive sectors such as banks, NBFCs, real estate, auto and consumption will be in focus today amid RBI's policy decision.",
-      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-rate-sensitive-stocks-titan-mphasis-adani-ports-zaggle-126100700106_1.html"
-    },
-    {
-      "time": "2026-10-07 13:08",
-      "tk": "NTTD",
-      "src": "Financial Post",
-      "cat": "AI",
-      "hl": "NTT DATA Opens AI Factory Munich Where Clients Can Validate their AI in a Live Environment",
-      "detail": "Helping clients move AI from pilots to production in a live, production-grade environment Enabling organizations to test AI they own and control against their own use cases before making investment decisions Bringing together NTT DATA\u2019s consulting, data, AI, \u2026",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ntt-data-opens-ai-factory-munich-where-clients-can-validate-their-ai-in-a-live-environment"
-    },
-    {
-      "time": "2026-10-08 18:26",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "TCS onboards 10,000 freshers in Q2 FY27; plans to hire on demand",
-      "detail": "India's largest IT services firm says hiring will track client demand as it invests in AI skills, workforce training and niche talent, while subcontractor expenses rise in Q2",
-      "url": "https://www.business-standard.com/companies/news/tcs-onboards-10-000-freshers-in-q2-fy27-plans-to-hire-on-demand-126100801677_1.html"
-    },
-    {
-      "time": "2026-10-08 17:52",
-      "tk": "TCS",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "TCS posts slowest quarterly growth in three years as demand stays muted",
-      "detail": "TCS reported 0.2% sequential revenue growth in the July\u2013September quarter, beating analyst expectations but marking its slowest second-quarter growth in three years.&nbsp;",
-      "url": "https://www.livemint.com/companies/tcs-q2-results-2026-27-review-11791471718004.html"
-    },
-    {
-      "time": "2026-10-08 15:57",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Infosys, Wipro ADRs fall nearly 3% after TCS earnings, US crackdown on H-1B-linked green card programme",
-      "detail": "Infosys and Wipro ADRs fell nearly 3% in US trading as investors assessed TCS\u2019s quarterly results and fresh US immigration restrictions. Concerns over technology spending, AI disruption and tighter employment-based immigration added pressure to Indian IT stoc\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/infosys-wipro-adrs-fall-nearly-3-after-tcs-earnings-us-crackdown-on-h-1b-linked-green-card-programme/articleshow/134794915.cms"
-    },
-    {
-      "time": "2026-10-08 15:09",
-      "tk": "TCS",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 Results: Net profit up 11% as AI deal flow slowly picks up",
-      "detail": "Tata Consultancy Services Ltd. reported quarterly profit that topped analysts\u2019 estimates, helped by cost-cutting measures and a gradually improving contract flow that helped drive growth at Asia\u2019s largest IT services provider.",
-      "url": "https://www.livemint.com/companies/company-results/tcs-q2-results-2026-27-ai-deals-revenue-profit-11791471403757.html"
-    },
-    {
-      "time": "2026-10-08 18:23",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 profit rises 15% to Rs 13,884 crore as AI revenue doubles; growth remains subdued",
-      "detail": "TCS reported a 15% year-on-year rise in September-quarter net profit to Rs 13,884 crore, while revenue grew 11.2% to Rs 73,188 crore. AI services revenue doubled to $3.1 billion annually, but constant-currency growth was just 0.5%. Margins narrowed to 24% as \u2026",
-      "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/tcs-q2-profit-rises-15-to-rs-13884-crore-as-ai-revenue-doubles-growth-remains-subdued/articleshow/134798673.cms"
-    },
-    {
-      "time": "2026-10-08 04:12",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "IT stocks lift Nifty despite rate hike, FII selling pressure",
-      "detail": "Equity benchmarks opened lower on Thursday, October 8, 2026, as markets absorbed the RBI's surprise repo rate hike and weak global cues, even as IT heavyweights led by TCS climbed ahead of quarterly results due later in the day.",
-      "url": "https://www.thehindubusinessline.com/markets/it-stocks-lift-nifty-even-as-rate-hike-fii-selling-drag-indices-lower/article71558305.ece"
-    },
-    {
-      "time": "2026-10-07 04:28",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "TCS Q2 Results Preview: Can the IT bellwether show enough growth to calm investors?",
-      "detail": "Tata Consultancy Services is scheduled to release its second-quarter results on October 8, with analysts predicting a year-on-year revenue growth of roughly 13%. However, the sequential growth might be modest at around 0.5%-0.6%. Investors will also be lookin\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/tcs-q2-results-preview-can-the-it-bellwether-show-enough-growth-to-calm-investors/articleshow/134755846.cms"
-    },
-    {
-      "time": "2026-10-08 17:12",
-      "tk": "TCS",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "TDS statements can be filed directly through TRACES portal: What changed from tax year 2026\u201327? Expert explains",
-      "detail": "TDS and TCS compliance has moved to an online filing setup from Tax Year 2026-27 onwards, changing how deductors submit quarterly statements. The process brings fresh forms, a separate compliance environment, and updated filing steps. Here\u2019s what deductors ne\u2026",
-      "url": "https://www.livemint.com/money/personal-finance/tds-statements-can-be-filed-directly-through-traces-portal-what-changed-from-tax-year-2026-27-expert-explains-11791474735046.html"
-    },
-    {
-      "time": "2026-10-08 16:29",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "TCS trumps Q2 estimates on global, AI-led growth; Net profit jumps 15% to \u20b913,884 crore",
-      "detail": "TCS beats Q2 targets on AI-led growth, 14.9% profit rise to \u20b913,884 crore, 11% revenue, with international wins but India falls 10.3%.",
-      "url": "https://www.thehindubusinessline.com/info-tech/tcs-trumps-q2-estimates-on-global-ai-led-growth-net-profit-jumps-15-to-13884-crore/article71561029.ece"
-    },
-    {
-      "time": "2026-10-08 15:23",
-      "tk": "CAP",
-      "src": "The Next Web",
+      "time": "2026-10-09 20:30",
+      "tk": "CTSH",
+      "src": "Biztoc.com",
       "cat": "DEAL",
-      "hl": "US suspending permanent residency programme for Microsoft and Capgemini, officials say",
-      "detail": "The US is suspending eight technology firms from PERM, the labour certification step that precedes an employer-sponsored green card, citing alleged fraud. Capgemini is the only European company named, and North America is its fastest-growing region at 29% of \u2026",
-      "url": "https://thenextweb.com/news/perm-suspension-capgemini-europe"
+      "hl": "Is Cognizant Technology Solutions (CTSH) Undervalued Following Its New Credit Facilities?",
+      "detail": "Cognizant Technology Solutions (CTSH) just locked in a new unsecured credit package that reshapes its access to capital through 2031, while also repaying and replacing older lending facilities.\nThe new unsecured credit facilities land at a moment when Cogniza\u2026",
+      "url": "https://biztoc.com/x/d8b0868f00ea74f3"
+    },
+    {
+      "time": "2026-10-09 08:18",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Explained: Why IT stocks ignored Donald Trump\u2019s PERM suspension to gain Rs 70,000 crore in one day",
+      "detail": "IT stocks rallied up to 4% on Friday, adding Rs 70,000 crore in market capitalisation, despite the US suspension of a labour certification programme. Strong Q2 results from TCS, easing oil prices and bond yields, and developments around OpenAI also supported \u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/explained-why-it-stocks-ignored-donald-trumps-perm-suspension-to-gain-rs-70000-crore-in-one-day/articleshow/134824300.cms"
+    },
+    {
+      "time": "2026-10-09 05:01",
+      "tk": "INFY",
+      "src": "India Today",
+      "cat": "RESULTS",
+      "hl": "TCS, Infosys, Wipro jump up to 5% despite US green-card curbs: Why IT stocks are rising today",
+      "detail": "Indian IT stocks rebounded on Friday as investors looked past the immediate impact of US green-card curbs Company clarifications dip buying and TCS039s AI-led quarterly performance lifted sentiment though broader market risks remain",
+      "url": "https://www.indiatoday.in/business/market/story/tcs-infosys-wipro-shares-rise-why-despite-us-green-card-curbs-as-tcs-q2-ai-revenue-boosts-sentiment-3012976-2026-10-09"
+    },
+    {
+      "time": "2026-10-09 04:18",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "cat": "PEOPLE",
+      "hl": "IT sector defies US green card suspension worries to rally 3%; here's why",
+      "detail": "IT stocks: All index constituents traded in the green, buoying the 10-stock Nifty IT 3.13 per cent to 28,604 during the intraday session.",
+      "url": "https://www.business-standard.com/markets/news/tcs-infosys-hcl-tech-it-sector-defies-us-green-card-suspension-worries-to-rally-3-here-s-why-126100900227_1.html"
+    },
+    {
+      "time": "2026-10-09 04:09",
+      "tk": "TCS",
+      "src": "Moneycontrol",
+      "cat": "RESULTS",
+      "hl": "TCS stock jumps nearly 4% after Q2 results, IT stocks rally up to 3.8% despite US visa curbs",
+      "detail": "Indian information technology stocks soared on Friday, led by strong gains in TCS shares post the company's fiscal second quarter results, despite fresh regulatory uncertainty stemming from the US government's decision to suspend several technology companies \u2026",
+      "url": "https://www.moneycontrol.com/news/business/markets/tcs-stock-jumps-nearly-4-after-q2-results-it-stocks-rally-up-to-3-8-despite-us-visa-curbs-14048205.html"
+    },
+    {
+      "time": "2026-10-09 12:00",
+      "tk": "ATOS",
+      "src": "PRNewswire",
+      "cat": "PEOPLE",
+      "hl": "Atossa Therapeutics Executes Contingent Value Rights Agreement Providing Shareholders Participation in Potential Priority Review Voucher Value",
+      "detail": "Board declares one stapled CVR for each share of Atossa common stock outstanding as of October 19, 2026 record date or issued thereafter CVRs entitle holders to 25% of net proceeds from monetization of Atossa's first qualifying priority review voucher, subjec\u2026",
+      "url": "https://www.prnewswire.com/news-releases/atossa-therapeutics-executes-contingent-value-rights-agreement-providing-shareholders-participation-in-potential-priority-review-voucher-value-302902776.html"
+    },
+    {
+      "time": "2026-10-09 15:45",
+      "tk": "Sector",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "Indian IT firms face 10\u201330 bps margin hit from US PERM suspension",
+      "detail": "Indian IT firms face 10\u201330 bps margin pressure over 12 months due to US PERM suspension, boosting local hiring and reshaping onshore-offshore delivery.",
+      "url": "https://www.thehindubusinessline.com/info-tech/indian-it-firms-face-1030-bps-margin-hit-from-us-perm-suspension/article71564874.ece"
+    },
+    {
+      "time": "2026-10-09 08:11",
+      "tk": "HCLT",
+      "src": "The Times of India",
+      "cat": "PEOPLE",
+      "hl": "'Don't worry about PERM': Former HCL tech CEO Vinnet Nayyar explains why Trump admin's action against 'indentured servants' will help Indian techies than hurt",
+      "detail": "Former HCL Technologies CEO Vineet Nayyar believes tighter US immigration rules could prompt companies to shift more advanced technology projects to India. He has urged Indian IT firms to move beyond cost-driven outsourcing and focus on product engineering, A\u2026",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/dont-worry-about-perm-former-hcl-tech-ceo-vinnet-nayyar-explains-why-trump-admins-action-against-indentured-servants-will-help-indian-techies-than-hurt/articleshow/134821975.cms"
+    },
+    {
+      "time": "2026-10-09 05:00",
+      "tk": "TECHM",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "India IT set for fourth year of weak growth on geopolitics, AI risks",
+      "detail": "HCL Technologies and Tech Mahindra are next to report quarterly results, after TCS's revenue rose just 0.5% sequentially in constant currency terms.",
+      "url": "https://www.livemint.com/industry/infotech/ai-impact-on-it-sector-quarterly-results-11791520593653.html"
+    },
+    {
+      "time": "2026-10-09 03:57",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "cat": "PEOPLE",
+      "hl": "Karnataka Minister warns of 'far-reaching consequences' on US suspension of Green Card program for IT majors",
+      "detail": "Karnataka Minister Priyank Kharge outlined potential challenges for India's IT sector due to the US suspension. This suspension may increase operational costs and reduce flexibility for Indian IT companies in the United States. Kharge suggested that more high\u2026",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/karnataka-minister-warns-of-far-reaching-consequences-on-us-suspension-of-green-card-program-for-it-majors/articleshow/134805360.cms"
+    },
+    {
+      "time": "2026-10-09 14:57",
+      "tk": "TCS",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "TCS earnings lift IT stocks as demand recovery hopes boost market mood",
+      "detail": "Indian IT stocks rallied after TCS reported strong Q2FY27 results, lifting hopes of a demand recovery amid AI concerns and US labour curbs",
+      "url": "https://www.business-standard.com/companies/news/tcs-earnings-lift-it-stocks-as-demand-recovery-hopes-boost-market-mood-126100901293_1.html"
+    },
+    {
+      "time": "2026-10-09 12:36",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "TCS lifts Dalal Street out of its eight-week rut",
+      "detail": "Markets rebound on strong TCS results, lifting Nifty 50 and Sensex as oil cools and geopolitics ease, with key resistance around 22,600\u201322,800.",
+      "url": "https://www.thehindubusinessline.com/markets/tcs-lifts-dalal-street-out-of-its-eight-week-rut/article71563965.ece"
+    },
+    {
+      "time": "2026-10-09 13:00",
+      "tk": "CTSH",
+      "src": "PRNewswire",
+      "cat": "AI",
+      "hl": "80% of Employees Want to Use AI More Than Their Jobs Allow",
+      "detail": "The \"Activation Gap\" could be leaving trillions in potential global economic gains unrealized, according to new research from Cognizant TEANECK, N.J., Oct. 9, 2026 /PRNewswire/ -- A new Cognizant workplace study has identified what researchers are calling the\u2026",
+      "url": "https://www.prnewswire.com/news-releases/80-of-employees-want-to-use-ai-more-than-their-jobs-allow-302903244.html"
     }
   ],
   "quarterly": {
@@ -593,47 +601,47 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 644.79,
-          "rev_usd": 6.66,
+          "rev_usd": 7.45,
           "ebit_margin": 24.2,
           "op_profit": 156010.0,
           "fcf": 130.06,
-          "fcf_usd": 1.34
+          "fcf_usd": 1.5
         },
         {
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 634.37,
-          "rev_usd": 6.55,
+          "rev_usd": 7.41,
           "ebit_margin": 24.5,
           "op_profit": 155140.0,
           "fcf": 110.61,
-          "fcf_usd": 1.14
+          "fcf_usd": 1.29
         },
         {
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 670.87,
-          "rev_usd": 6.93,
+          "rev_usd": 7.53,
           "ebit_margin": 25.2,
           "op_profit": 169260.0,
           "fcf": 123.32,
-          "fcf_usd": 1.27
+          "fcf_usd": 1.38
         },
         {
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 706.98,
-          "rev_usd": 7.31,
+          "rev_usd": 7.73,
           "ebit_margin": 25.3,
           "op_profit": 178700.0,
           "fcf": 127.33,
-          "fcf_usd": 1.32
+          "fcf_usd": 1.39
         },
         {
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 722.75,
-          "rev_usd": 7.47,
+          "rev_usd": 7.63,
           "ebit_margin": 24.0,
           "op_profit": 173170.0,
           "fcf": null,
@@ -642,17 +650,17 @@
       ],
       "annual": {
         "rev": 2735.0,
-        "rev_usd": 28.3,
+        "rev_usd": 30.3,
         "growth": null,
         "ebit_margin": 24.8,
         "op_profit": 676270,
-        "op_profit_usd": 6988,
+        "op_profit_usd": 7492,
         "fcf": 361.26,
-        "fcf_usd": 3.73
+        "fcf_usd": 4.06
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.011079
     },
     "INFY": {
       "quarters": [
@@ -660,7 +668,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 4.94,
-          "rev_usd": 0.05,
+          "rev_usd": 0.06,
           "ebit_margin": 20.8,
           "op_profit": 1028.0,
           "fcf": null,
@@ -670,7 +678,7 @@
           "date": "2025-09-30",
           "label": "Q2 FY26",
           "rev": 5.08,
-          "rev_usd": 0.05,
+          "rev_usd": 0.06,
           "ebit_margin": 21.0,
           "op_profit": 1065.0,
           "fcf": 1.1,
@@ -680,7 +688,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 5.1,
-          "rev_usd": 0.05,
+          "rev_usd": 0.06,
           "ebit_margin": 18.5,
           "op_profit": 943.0,
           "fcf": 0.92,
@@ -690,7 +698,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 5.04,
-          "rev_usd": 0.05,
+          "rev_usd": 0.06,
           "ebit_margin": 20.9,
           "op_profit": 1055.0,
           "fcf": 0.83,
@@ -713,13 +721,13 @@
         "growth": null,
         "ebit_margin": 20.4,
         "op_profit": 4135,
-        "op_profit_usd": 43,
+        "op_profit_usd": 41,
         "fcf": 3.8,
         "fcf_usd": 0.04
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.009852
     },
     "CTSH": {
       "quarters": [
@@ -780,13 +788,13 @@
         "growth": null,
         "ebit_margin": 16.3,
         "op_profit": 3520,
-        "op_profit_usd": 3520,
+        "op_profit_usd": 3513,
         "fcf": 2.6,
         "fcf_usd": 2.6
       },
       "fy_end_month": 12,
       "currency": "USD",
-      "usd_rate": 1.0
+      "usd_rate": 0.998152
     },
     "HCLT": {
       "quarters": [
@@ -794,7 +802,7 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 302.46,
-          "rev_usd": 3.13,
+          "rev_usd": 3.49,
           "ebit_margin": 19.5,
           "op_profit": 58910.0,
           "fcf": null,
@@ -804,7 +812,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 303.49,
-          "rev_usd": 3.14,
+          "rev_usd": 3.55,
           "ebit_margin": 29.9,
           "op_profit": 90800.0,
           "fcf": null,
@@ -814,7 +822,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 338.72,
-          "rev_usd": 3.5,
+          "rev_usd": 3.8,
           "ebit_margin": 32.7,
           "op_profit": 110600.0,
           "fcf": null,
@@ -824,7 +832,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 339.81,
-          "rev_usd": 3.51,
+          "rev_usd": 3.72,
           "ebit_margin": 31.4,
           "op_profit": 106540.0,
           "fcf": null,
@@ -834,7 +842,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 345.79,
-          "rev_usd": 3.57,
+          "rev_usd": 3.65,
           "ebit_margin": 31.6,
           "op_profit": 109390.0,
           "fcf": null,
@@ -843,17 +851,17 @@
       ],
       "annual": {
         "rev": 1327.8,
-        "rev_usd": 13.7,
+        "rev_usd": 14.7,
         "growth": null,
         "ebit_margin": 31.4,
         "op_profit": 417330,
-        "op_profit_usd": 4312,
+        "op_profit_usd": 4620,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.011071
     },
     "WIPRO": {
       "quarters": [
@@ -861,66 +869,66 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 221.35,
-          "rev_usd": 2.29,
+          "rev_usd": 2.59,
           "ebit_margin": 16.1,
           "op_profit": 35542.0,
           "fcf": 38.38,
-          "fcf_usd": 0.4
+          "fcf_usd": 0.45
         },
         {
           "date": "2025-09-30",
           "label": "Q2 FY26",
           "rev": 226.97,
-          "rev_usd": 2.35,
+          "rev_usd": 2.6,
           "ebit_margin": 16.4,
           "op_profit": 37271.0,
           "fcf": 30.5,
-          "fcf_usd": 0.32
+          "fcf_usd": 0.35
         },
         {
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 235.56,
-          "rev_usd": 2.43,
+          "rev_usd": 2.64,
           "ebit_margin": 14.8,
           "op_profit": 34947.0,
           "fcf": 37.93,
-          "fcf_usd": 0.39
+          "fcf_usd": 0.43
         },
         {
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 242.36,
-          "rev_usd": 2.5,
+          "rev_usd": 2.65,
           "ebit_margin": 17.1,
           "op_profit": 41366.0,
           "fcf": 26.91,
-          "fcf_usd": 0.28
+          "fcf_usd": 0.29
         },
         {
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 244.79,
-          "rev_usd": 2.53,
+          "rev_usd": 2.59,
           "ebit_margin": 15.7,
           "op_profit": 38427.0,
           "fcf": 29.5,
-          "fcf_usd": 0.3
+          "fcf_usd": 0.31
         }
       ],
       "annual": {
         "rev": 949.7,
-        "rev_usd": 9.8,
+        "rev_usd": 10.5,
         "growth": null,
         "ebit_margin": 16.0,
         "op_profit": 152011,
-        "op_profit_usd": 1571,
+        "op_profit_usd": 1681,
         "fcf": 124.84,
-        "fcf_usd": 1.29
+        "fcf_usd": 1.38
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.011056
     },
     "TECHM": {
       "quarters": [
@@ -928,7 +936,7 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 133.84,
-          "rev_usd": 1.38,
+          "rev_usd": 1.55,
           "ebit_margin": 10.5,
           "op_profit": 14053.0,
           "fcf": null,
@@ -938,7 +946,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 133.51,
-          "rev_usd": 1.38,
+          "rev_usd": 1.56,
           "ebit_margin": 11.1,
           "op_profit": 14771.0,
           "fcf": null,
@@ -948,7 +956,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 143.93,
-          "rev_usd": 1.49,
+          "rev_usd": 1.62,
           "ebit_margin": 13.1,
           "op_profit": 18919.0,
           "fcf": null,
@@ -958,7 +966,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 150.76,
-          "rev_usd": 1.56,
+          "rev_usd": 1.65,
           "ebit_margin": 13.8,
           "op_profit": 20842.0,
           "fcf": null,
@@ -968,7 +976,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 157.12,
-          "rev_usd": 1.62,
+          "rev_usd": 1.66,
           "ebit_margin": 14.4,
           "op_profit": 22639.0,
           "fcf": null,
@@ -977,17 +985,17 @@
       ],
       "annual": {
         "rev": 585.3,
-        "rev_usd": 6.0,
+        "rev_usd": 6.5,
         "growth": null,
         "ebit_margin": 13.1,
         "op_profit": 77171,
-        "op_profit_usd": 797,
+        "op_profit_usd": 857,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.011105
     },
     "MPHL": {
       "quarters": [
@@ -995,7 +1003,7 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 37.1,
-          "rev_usd": 0.38,
+          "rev_usd": 0.43,
           "ebit_margin": 15.3,
           "op_profit": 5672.0,
           "fcf": null,
@@ -1005,7 +1013,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 37.32,
-          "rev_usd": 0.39,
+          "rev_usd": 0.44,
           "ebit_margin": 15.3,
           "op_profit": 5709.0,
           "fcf": null,
@@ -1015,7 +1023,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 40.03,
-          "rev_usd": 0.41,
+          "rev_usd": 0.45,
           "ebit_margin": 15.2,
           "op_profit": 6088.0,
           "fcf": null,
@@ -1025,7 +1033,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 42.43,
-          "rev_usd": 0.44,
+          "rev_usd": 0.46,
           "ebit_margin": 15.4,
           "op_profit": 6525.0,
           "fcf": null,
@@ -1035,7 +1043,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 43.84,
-          "rev_usd": 0.45,
+          "rev_usd": 0.46,
           "ebit_margin": 14.8,
           "op_profit": 6481.0,
           "fcf": null,
@@ -1044,17 +1052,17 @@
       ],
       "annual": {
         "rev": 163.6,
-        "rev_usd": 1.7,
+        "rev_usd": 1.8,
         "growth": null,
         "ebit_margin": 15.2,
         "op_profit": 24803,
-        "op_profit_usd": 256,
+        "op_profit_usd": 273,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.011001
     },
     "PSYS": {
       "quarters": [
@@ -1062,7 +1070,7 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 32.42,
-          "rev_usd": 0.33,
+          "rev_usd": 0.37,
           "ebit_margin": 15.6,
           "op_profit": 5053.0,
           "fcf": null,
@@ -1072,7 +1080,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 33.34,
-          "rev_usd": 0.34,
+          "rev_usd": 0.39,
           "ebit_margin": 15.5,
           "op_profit": 5178.0,
           "fcf": null,
@@ -1082,7 +1090,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 37.78,
-          "rev_usd": 0.39,
+          "rev_usd": 0.42,
           "ebit_margin": 16.7,
           "op_profit": 6325.0,
           "fcf": null,
@@ -1092,7 +1100,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 40.56,
-          "rev_usd": 0.42,
+          "rev_usd": 0.44,
           "ebit_margin": 16.3,
           "op_profit": 6592.0,
           "fcf": null,
@@ -1102,7 +1110,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 43.03,
-          "rev_usd": 0.44,
+          "rev_usd": 0.45,
           "ebit_margin": 13.5,
           "op_profit": 5816.0,
           "fcf": null,
@@ -1111,17 +1119,17 @@
       ],
       "annual": {
         "rev": 154.7,
-        "rev_usd": 1.6,
+        "rev_usd": 1.7,
         "growth": null,
         "ebit_margin": 15.5,
         "op_profit": 23911,
-        "op_profit_usd": 247,
+        "op_profit_usd": 263,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.010988
     },
     "COFG": {
       "quarters": [
@@ -1129,7 +1137,7 @@
           "date": "2025-03-31",
           "label": "Q4 FY25",
           "rev": 34.22,
-          "rev_usd": 0.35,
+          "rev_usd": 0.4,
           "ebit_margin": 12.2,
           "op_profit": 4183.0,
           "fcf": null,
@@ -1139,7 +1147,7 @@
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 37.04,
-          "rev_usd": 0.38,
+          "rev_usd": 0.43,
           "ebit_margin": 11.8,
           "op_profit": 4379.0,
           "fcf": null,
@@ -1149,7 +1157,7 @@
           "date": "2025-12-31",
           "label": "Q3 FY26",
           "rev": 41.88,
-          "rev_usd": 0.43,
+          "rev_usd": 0.47,
           "ebit_margin": 13.4,
           "op_profit": 5594.0,
           "fcf": null,
@@ -1159,7 +1167,7 @@
           "date": "2026-03-31",
           "label": "Q4 FY26",
           "rev": 44.5,
-          "rev_usd": 0.46,
+          "rev_usd": 0.49,
           "ebit_margin": 16.6,
           "op_profit": 7368.0,
           "fcf": null,
@@ -1169,7 +1177,7 @@
           "date": "2026-06-30",
           "label": "Q1 FY27",
           "rev": 55.28,
-          "rev_usd": 0.57,
+          "rev_usd": 0.58,
           "ebit_margin": 16.0,
           "op_profit": 8822.0,
           "fcf": null,
@@ -1178,17 +1186,17 @@
       ],
       "annual": {
         "rev": 178.7,
-        "rev_usd": 1.8,
+        "rev_usd": 2.0,
         "growth": null,
         "ebit_margin": 14.5,
         "op_profit": 26163,
-        "op_profit_usd": 270,
+        "op_profit_usd": 293,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.010333
+      "usd_rate": 0.011192
     },
     "ACN": {
       "quarters": [
@@ -1316,13 +1324,13 @@
         "growth": null,
         "ebit_margin": 2.4,
         "op_profit": 300,
-        "op_profit_usd": 300,
+        "op_profit_usd": 299,
         "fcf": 0.82,
         "fcf_usd": 0.82
       },
       "fy_end_month": 3,
       "currency": "USD",
-      "usd_rate": 1.0
+      "usd_rate": 0.996835
     },
     "GIB": {
       "quarters": [
@@ -1330,66 +1338,66 @@
           "date": "2025-06-30",
           "label": "Q3 FY25",
           "rev": 4.09,
-          "rev_usd": 2.87,
+          "rev_usd": 2.95,
           "ebit_margin": 16.3,
           "op_profit": 666.0,
           "fcf": 0.41,
-          "fcf_usd": 0.29
+          "fcf_usd": 0.3
         },
         {
           "date": "2025-09-30",
           "label": "Q4 FY25",
           "rev": 4.01,
-          "rev_usd": 2.81,
+          "rev_usd": 2.91,
           "ebit_margin": 16.6,
           "op_profit": 668.0,
           "fcf": 0.6,
-          "fcf_usd": 0.42
+          "fcf_usd": 0.44
         },
         {
           "date": "2025-12-31",
           "label": "Q1 FY26",
           "rev": 4.08,
-          "rev_usd": 2.86,
+          "rev_usd": 2.93,
           "ebit_margin": 16.1,
           "op_profit": 656.0,
           "fcf": 0.81,
-          "fcf_usd": 0.57
+          "fcf_usd": 0.58
         },
         {
           "date": "2026-03-31",
           "label": "Q2 FY26",
           "rev": 4.16,
-          "rev_usd": 2.92,
+          "rev_usd": 3.03,
           "ebit_margin": 16.6,
           "op_profit": 692.0,
           "fcf": 0.38,
-          "fcf_usd": 0.27
+          "fcf_usd": 0.28
         },
         {
           "date": "2026-06-30",
           "label": "Q3 FY26",
           "rev": 4.19,
-          "rev_usd": 2.94,
+          "rev_usd": 3.03,
           "ebit_margin": 16.3,
           "op_profit": 682.0,
           "fcf": 0.53,
-          "fcf_usd": 0.37
+          "fcf_usd": 0.38
         }
       ],
       "annual": {
         "rev": 16.4,
-        "rev_usd": 11.5,
+        "rev_usd": 11.9,
         "growth": null,
         "ebit_margin": 16.4,
         "op_profit": 2698,
-        "op_profit_usd": 1893,
+        "op_profit_usd": 1953,
         "fcf": 2.32,
-        "fcf_usd": 1.63
+        "fcf_usd": 1.68
       },
       "fy_end_month": 9,
       "currency": "CAD",
-      "usd_rate": 0.701557
+      "usd_rate": 0.723844
     }
   },
   "forex_rates": {
@@ -1397,6 +1405,6 @@
     "EUR": 1.120574,
     "JPY": 0.006319,
     "CAD": 0.701557,
-    "INR": 0.010333
+    "INR": 0.010338
   }
 }
