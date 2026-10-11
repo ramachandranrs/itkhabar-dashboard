@@ -493,22 +493,22 @@ CURRENCY_INFO = {
 # Key format: (ticker, quarter_end_date) → USD revenue in $B
 # Sources: SEC Form 6-K, quarterly earnings presentations, NSE/BSE filings, PR Newswire
 REPORTED_USD_REVENUE = {
-    # TCS FY26 (source: TCS Q4 FY26 Fact Sheet)
-    "TCS":   {"2025-06-30": 7.42, "2025-09-30": 7.47, "2025-12-31": 7.51, "2026-03-31": 7.62},
-    # Infosys FY26 (source: SEC Form 6-K, Infosys press releases)
-    "INFY":  {"2025-06-30": 4.94, "2025-09-30": 5.08, "2025-12-31": 5.10, "2026-03-31": 5.04},
-    # HCLTech FY26 (source: NSE investor release)
-    "HCLT":  {"2025-06-30": 3.55, "2025-09-30": 3.64, "2025-12-31": 3.79, "2026-03-31": 3.68},
-    # Wipro FY26 (source: SEC Form 6-K, IT Services Revenue)
-    "WIPRO": {"2025-06-30": 2.59, "2025-09-30": 2.60, "2025-12-31": 2.64, "2026-03-31": 2.58},
-    # Tech Mahindra FY26 (source: Tech Mahindra Q4 FY26 earnings presentation)
-    "TECHM": {"2025-06-30": 1.56, "2025-09-30": 1.59, "2025-12-31": 1.61, "2026-03-31": 1.63},
-    # LTIMindtree FY26 (source: quarterly press releases, analyst reports)
+    # TCS FY26 + Q1 FY27 (source: TCS Fact Sheets, investor.tcs.com)
+    "TCS":   {"2025-06-30": 7.42, "2025-09-30": 7.47, "2025-12-31": 7.51, "2026-03-31": 7.62, "2026-06-30": 7.62},
+    # Infosys FY26 + Q1 FY27 (source: SEC Form 6-K, press releases — $5,082M)
+    "INFY":  {"2025-06-30": 4.94, "2025-09-30": 5.08, "2025-12-31": 5.10, "2026-03-31": 5.04, "2026-06-30": 5.08},
+    # HCLTech FY26 + Q1 FY27 (source: NSE investor release — $3.65B)
+    "HCLT":  {"2025-06-30": 3.55, "2025-09-30": 3.64, "2025-12-31": 3.79, "2026-03-31": 3.68, "2026-06-30": 3.65},
+    # Wipro FY26 + Q1 FY27 (source: SEC Form 6-K, IT Services Revenue — $2.61B)
+    "WIPRO": {"2025-06-30": 2.59, "2025-09-30": 2.60, "2025-12-31": 2.64, "2026-03-31": 2.58, "2026-06-30": 2.61},
+    # Tech Mahindra FY26 + Q1 FY27 (source: earnings presentation — USD 1,660M)
+    "TECHM": {"2025-06-30": 1.56, "2025-09-30": 1.59, "2025-12-31": 1.61, "2026-03-31": 1.63, "2026-06-30": 1.66},
+    # LTIMindtree FY26 (source: quarterly press releases — no USD reported for Q1 FY27)
     "LTIM":  {"2025-06-30": 1.15, "2025-09-30": 1.18, "2025-12-31": 1.21, "2026-03-31": 1.22},
-    # Persistent Systems FY26 (source: PR Newswire, quarterly press releases)
-    "PSYS":  {"2025-06-30": 0.39, "2025-09-30": 0.41, "2025-12-31": 0.42, "2026-03-31": 0.44},
-    # Coforge FY26 (source: investor presentations, analyst reports)
-    "COFG":  {"2025-06-30": 0.44, "2025-09-30": 0.46, "2025-12-31": 0.48, "2026-03-31": 0.49},
+    # Persistent Systems FY26 + Q1 FY27 (source: press releases — $452.4M)
+    "PSYS":  {"2025-06-30": 0.39, "2025-09-30": 0.41, "2025-12-31": 0.42, "2026-03-31": 0.44, "2026-06-30": 0.45},
+    # Coforge FY26 + Q1 FY27 (source: investor presentations — $592.2M, includes Encora)
+    "COFG":  {"2025-06-30": 0.44, "2025-09-30": 0.46, "2025-12-31": 0.48, "2026-03-31": 0.49, "2026-06-30": 0.59},
 }
 
 # Company-reported USD annual revenue ($B) — from FY earnings releases

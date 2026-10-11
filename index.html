@@ -2454,6 +2454,30 @@ function applyLiveData(d){
       const liveFcfUsd=qs.map(q=>q.fcf_usd!=null?q.fcf_usd:(q.fcf!=null?q.fcf:null));
       const liveLbl=qs.map(q=>q.label);
       const nLive=qs.length;
+      // ── Per-quarter outlier detection: catch bad forex conversions ──
+      // If a quarter's rev_usd is <20% of the median, it's a bad forex artifact
+      const _vru=liveRevUsd.filter(v=>v!=null&&v>0);
+      if(_vru.length>=3){
+        const _s=[..._vru].sort((a,b)=>a-b);
+        const _med=_s[Math.floor(_s.length/2)];
+        for(let i=0;i<liveRevUsd.length;i++){
+          if(liveRevUsd[i]!=null&&liveRevUsd[i]>0&&liveRevUsd[i]<_med*0.2){
+            console.warn(`⚠ ${tk} idx${i}: rev_usd $${liveRevUsd[i]}B is outlier vs median $${_med}B — nulling`);
+            liveRevUsd[i]=null;
+          }
+        }
+        // Same check for FCF USD
+        const _vfu=liveFcfUsd.filter(v=>v!=null&&v>0);
+        if(_vfu.length>=3){
+          const _sf=[..._vfu].sort((a,b)=>a-b);
+          const _mf=_sf[Math.floor(_sf.length/2)];
+          for(let i=0;i<liveFcfUsd.length;i++){
+            if(liveFcfUsd[i]!=null&&liveFcfUsd[i]>0&&liveFcfUsd[i]<_mf*0.2){
+              liveFcfUsd[i]=null;
+            }
+          }
+        }
+      }
       const validLiveUsd=liveRevUsd.filter(v=>v!==null&&v>0);
       const validQ=validLiveUsd.length;
       if(validQ<4){ if(!co.qr_usd) co.qr_usd=[...co.qr]; return; }
