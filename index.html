@@ -2447,11 +2447,11 @@ function applyLiveData(d){
       const co=allCOs.find(c=>c.t===tk);
       if(!co||!qData.quarters||!qData.quarters.length) return;
       const qs=qData.quarters;
-      const liveRev=qs.map(q=>q.rev);
-      const liveRevUsd=qs.map(q=>q.rev_usd!=null?q.rev_usd:q.rev);
-      const liveMrg=qs.map(q=>q.ebit_margin!=null?q.ebit_margin:0);
-      const liveFcf=qs.map(q=>q.fcf!=null?q.fcf:0);
-      const liveFcfUsd=qs.map(q=>q.fcf_usd!=null?q.fcf_usd:(q.fcf||0));
+      const liveRev=qs.map(q=>(q.rev!=null&&q.rev>0)?q.rev:null);
+      const liveRevUsd=qs.map(q=>(q.rev_usd!=null&&q.rev_usd>0)?q.rev_usd:((q.rev!=null&&q.rev>0)?q.rev:null));
+      const liveMrg=qs.map(q=>q.ebit_margin!=null?q.ebit_margin:null);
+      const liveFcf=qs.map(q=>q.fcf!=null?q.fcf:null);
+      const liveFcfUsd=qs.map(q=>q.fcf_usd!=null?q.fcf_usd:(q.fcf!=null?q.fcf:null));
       const liveLbl=qs.map(q=>q.label);
       const nLive=qs.length;
       const validLiveUsd=liveRevUsd.filter(v=>v!==null&&v>0);
