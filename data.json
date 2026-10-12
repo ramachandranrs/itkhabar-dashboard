@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12T02:34:27.962788+00:00",
-  "updated_display": "12 Oct 2026, 02:34 UTC",
+  "updated": "2026-10-12T20:12:04.849823+00:00",
+  "updated_display": "12 Oct 2026, 20:12 UTC",
   "prices": {
     "TCS": {
       "price": 2156.0,
@@ -13,9 +13,9 @@
       "change": 2.6
     },
     "CTSH": {
-      "price": 59.2,
-      "display": "$59.20",
-      "change": -1.3
+      "price": 59.68,
+      "display": "$59.68",
+      "change": 0.8
     },
     "HCLT": {
       "price": 1216.7,
@@ -53,29 +53,29 @@
       "change": 3.0
     },
     "ACN": {
-      "price": 209.06,
-      "display": "$209",
-      "change": 0.3
+      "price": 214.85,
+      "display": "$215",
+      "change": 2.8
     },
     "CAP": {
-      "price": 115.05,
+      "price": 115.35,
       "display": "\u20ac115",
-      "change": 3.8
+      "change": 0.3
     },
     "ATOS": {
-      "price": 21.16,
-      "display": "\u20ac21.16",
-      "change": -0.7
+      "price": 22.0,
+      "display": "\u20ac22.00",
+      "change": 4.0
     },
     "DXC": {
-      "price": 12.4,
-      "display": "$12.40",
-      "change": 0.2
+      "price": 12.54,
+      "display": "$12.54",
+      "change": 1.1
     },
     "GIB": {
-      "price": 70.09,
-      "display": "$70.09",
-      "change": 0.6
+      "price": 70.72,
+      "display": "$70.72",
+      "change": 0.9
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": 3.02
     },
     "SP500": {
-      "value": 7811.54,
-      "change": 0.59
+      "value": 7807.24,
+      "change": -0.06
     },
     "USD_INR": {
-      "value": 96.78,
-      "change": -0.04
+      "value": 95.76,
+      "change": -1.1
     },
     "EUR_INR": {
-      "value": 108.35,
-      "change": -0.09
+      "value": 106.87,
+      "change": -1.46
     }
   },
   "historical": {
@@ -442,7 +442,8 @@
         57.0,
         57.0,
         60.0,
-        59.0
+        59.0,
+        60.0
       ],
       "dl": [
         "Sep 22",
@@ -458,7 +459,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 12"
       ],
       "mp": [
         72.0,
@@ -1532,7 +1534,8 @@
         193.0,
         197.0,
         208.0,
-        209.0
+        209.0,
+        215.0
       ],
       "dl": [
         "Sep 22",
@@ -1548,7 +1551,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 12"
       ],
       "mp": [
         334.0,
@@ -1670,6 +1674,7 @@
         110.0,
         111.0,
         111.0,
+        115.0,
         115.0
       ],
       "dl": [
@@ -1686,7 +1691,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 12"
       ],
       "mp": [
         176.0,
@@ -1808,7 +1814,8 @@
         22.0,
         22.0,
         21.0,
-        21.0
+        21.0,
+        22.0
       ],
       "dl": [
         "Sep 22",
@@ -1824,7 +1831,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 12"
       ],
       "mp": [
         524.0,
@@ -1946,7 +1954,8 @@
         12.0,
         12.0,
         12.0,
-        12.0
+        12.0,
+        13.0
       ],
       "dl": [
         "Sep 22",
@@ -1962,7 +1971,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 12"
       ],
       "mp": [
         23.0,
@@ -2084,7 +2094,8 @@
         70.0,
         69.0,
         70.0,
-        70.0
+        70.0,
+        71.0
       ],
       "dl": [
         "Sep 22",
@@ -2100,7 +2111,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 12"
       ],
       "mp": [
         106.0,
@@ -2156,40 +2168,85 @@
   },
   "news": [
     {
-      "time": "2026-10-11 02:22",
-      "tk": "INFY",
+      "time": "2026-10-11 18:35",
+      "tk": "TCS",
       "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "Infosys sees no material impact from US suspension of PERM applications",
-      "detail": "The US government said on Thursday it was suspending some major \u200cglobal tech and IT firms, including Infosys, from the PERM green card program",
-      "url": "https://www.business-standard.com/companies/news/infosys-sees-no-material-impact-from-us-suspension-of-perm-applications-126101001012_1.html"
+      "cat": "ANALYST",
+      "hl": "No impact of Tata Sons board tussle on TCS: COO Aarthi Subramanian",
+      "detail": "Aarthi Subramanian, executive director, president & chief operating officer, TCS talks about the company's AI journey and Tata Sons board tussle, among other issues",
+      "url": "https://www.business-standard.com/companies/people/no-impact-of-tata-sons-board-tussle-on-tcs-coo-aarthi-subramanian-126101100517_1.html"
     },
     {
-      "time": "2026-10-10 18:53",
+      "time": "2026-10-11 17:50",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Green cards not key to workforce strategy: TCS CEO",
+      "detail": "TCS CEO says green cards aren\u2019t central to workforce plans, citing lower H-1B residency filings, rising US local hiring, and $3.1B AI revenue.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/green-cards-not-key-to-workforce-strategy-tcs-ceo/articleshow/134875449.cms"
+    },
+    {
+      "time": "2026-10-11 16:48",
+      "tk": "TCS",
+      "src": "Computationalcomplexity.org",
+      "cat": "MACRO",
+      "hl": "Conjecture that I thought would not be solved in my lifetime....were",
+      "detail": "Lance blogged on the OpenAI solutions to many problems\u00a0 here \u00a0and also created a website of the TCS-related problems OpenAI claims to have s...",
+      "url": "https://blog.computationalcomplexity.org/2026/10/conjecture-that-i-thought-would-not-be.html"
+    },
+    {
+      "time": "2026-10-11 16:16",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "Traditional IT growth to taper as AI takes centre stage: TCS CEO",
+      "detail": "TCS signals traditional IT growth tapering as AI revenue surges, reshaping strategy with AI-driven services and efficiency gains.",
+      "url": "https://www.thehindubusinessline.com/info-tech/traditional-it-growth-to-taper-as-ai-takes-centre-stage-tcs-ceo/article71571999.ece"
+    },
+    {
+      "time": "2026-10-11 15:29",
+      "tk": "WIPRO",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "Wipro Q2 preview: Brokerages expect weak revenue growth, margin recovery",
+      "detail": "Wipro Q2 preview: brokerages expect modest revenue growth, margin recovery of about 40 bps amid AI investments and ongoing demand pressures.",
+      "url": "https://www.thehindubusinessline.com/info-tech/wipro-q2-preview-brokerages-expect-weak-revenue-growth-margin-recovery/article71572048.ece"
+    },
+    {
+      "time": "2026-10-11 10:56",
       "tk": "INFY",
-      "src": "Slashdot.org",
-      "cat": "PEOPLE",
-      "hl": "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data shows - CNBC",
-      "detail": "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data showsCNBC India's Infosys does not expect material impact from US PERM suspensionReuters The advice immigration attorneys have for Microsoft workers worried about the\u2026",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186095090"
-    },
-    {
-      "time": "2026-10-10 08:00",
-      "tk": "CTSH",
-      "src": "Acecomments.mu.nu",
-      "cat": "PEOPLE",
-      "hl": "Daily Tech News 10 October 2026",
-      "detail": "Top Story The US government have suspended US companies Microsoft, Adobe, and Cognizant, and a bunch of European and Indian IT companies as well, from the H-1B visa scheme. (Tech Crunch) Not placed restrictions on them. Not added fees. Booted...",
-      "url": "https://acecomments.mu.nu/?post=421722"
-    },
-    {
-      "time": "2026-10-10 07:52",
-      "tk": "LTIM",
-      "src": "Photorumors.com",
+      "src": "Livemint",
       "cat": "MACRO",
-      "hl": "What else is new?",
-      "detail": "Here is\u00a0what else is new: A new Shoten Tribute 01 LTM 50mm f/1.1 lens for Leica M/L39 released in Japan based on the Zunow 50mm f/1.1 lens from the 1950s Light Lens Lab is working on a new Light Lens Lab 50mm f/2 Apochromatic lens for Leica M-mount The new Vo\u2026",
-      "url": "https://photorumors.com/2026/10/10/what-else-is-new-940/"
+      "hl": "Mint Explainer | What a green card freeze means for H-1B workers",
+      "detail": "The suspension of green card processing for Microsoft, Adobe, Infosys, TCS, Wipro, HCLTech, Cognizant and Capgemini may complicate talent retention and hiring. Companies could rely more on temporary visas, US-based hiring and offshore delivery while investiga\u2026",
+      "url": "https://www.livemint.com/industry/us-green-card-freeze-indian-it-companies-h-1b-workers-hiring-visas-11791708006031.html"
+    },
+    {
+      "time": "2026-10-11 09:48",
+      "tk": "WIPRO",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
+      "detail": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a\u2026",
+      "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html"
+    },
+    {
+      "time": "2026-10-11 04:36",
+      "tk": "INFY",
+      "src": "Livemint",
+      "cat": "MACRO",
+      "hl": "US green-card programme suspension: What happens to your 401(k), stocks and property if you return India?",
+      "detail": "The US has suspended Microsoft, Infosys, Tata, Wipro and other companies from the PERM labour-certification programme. Here's what it means for Indians returning home.",
+      "url": "https://www.livemint.com/money/us-green-card-programme-suspension-what-happens-to-your-401-k-stocks-and-property-if-you-return-india-11791688227175.html"
+    },
+    {
+      "time": "2026-10-11 06:14",
+      "tk": "WIPRO",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Earnings Tracker: HDFC Bank, HCL Tech, Wipro among 129 companies set to report Q2 results this week",
+      "detail": "As many as 129 companies are set to announce their Q2 FY27 results this week, including HDFC Bank, ICICI Bank, Axis Bank, HCL Tech, Wipro and Nestle India. With the earnings season underway, investors will track key announcements across banking, IT and other \u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/earnings-tracker-hdfc-bank-hcl-tech-wipro-among-129-companies-set-to-report-q2-results-this-week/articleshow/134866148.cms"
     },
     {
       "time": "2026-10-10 11:20",
@@ -2201,22 +2258,13 @@
       "url": "https://www.livemint.com/companies/persistent-to-squeeze-out-existing-nagarro-shareholders-en-route-to-become-seventhlargest-11791620781979.html"
     },
     {
-      "time": "2026-10-10 04:19",
-      "tk": "TCS",
+      "time": "2026-10-11 05:24",
+      "tk": "HCLT",
       "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "IT stocks surge despite US immigration curbs",
-      "detail": "On Friday, Indian IT stocks experienced an impressive surge, spearheaded by a remarkable 4.2% jump in Tata Consultancy Services shares. This unexpected rally took analysts by surprise, as it unfolded amidst ongoing concerns surrounding US regulations impactin\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/it-stocks-surge-despite-us-immigration-curbs/articleshow/134847206.cms"
-    },
-    {
-      "time": "2026-10-10 02:53",
-      "tk": "TCS",
-      "src": "Business Standard",
       "cat": "RESULTS",
-      "hl": "TCS withholds quarterly bonuses for senior staff after missing targets",
-      "detail": "Employees in C3A grade and above will receive no quarterly variable allowance this quarter, while junior-level staff will get 100 per cent of their eligible pay, an internal memo said",
-      "url": "https://www.business-standard.com/companies/news/tcs-withholds-quarterly-bonuses-for-senior-staff-after-missing-targets-126101000060_1.html"
+      "hl": "HCL Tech Q2 Preview: Will the IT major narrow its guidance? 5 things to watch out for",
+      "detail": "HCL Tech is set to announce its September quarter results on October 12, with brokerages expecting 12% year-on-year profit growth and 16% revenue growth. Acquisitions, deal ramp-ups and seasonal strength are likely to support performance. Investors will track\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hcl-tech-q2-preview-will-the-it-major-narrow-its-guidance-5-things-to-watch-out-for/articleshow/134865454.cms"
     },
     {
       "time": "2026-10-10 00:31",
@@ -3103,9 +3151,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.121579,
-    "JPY": 0.006322,
-    "CAD": 0.701508,
-    "INR": 0.010333
+    "EUR": 1.115698,
+    "JPY": 0.006304,
+    "CAD": 0.700025,
+    "INR": 0.010443
   }
 }
