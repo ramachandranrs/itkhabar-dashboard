@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12T20:12:04.849823+00:00",
-  "updated_display": "12 Oct 2026, 20:12 UTC",
+  "updated": "2026-10-12T23:06:53.389950+00:00",
+  "updated_display": "12 Oct 2026, 23:06 UTC",
   "prices": {
     "TCS": {
       "price": 2156.0,
@@ -53,19 +53,19 @@
       "change": 3.0
     },
     "ACN": {
-      "price": 214.85,
+      "price": 214.87,
       "display": "$215",
       "change": 2.8
     },
     "CAP": {
-      "price": 115.35,
+      "price": 115.05,
       "display": "\u20ac115",
-      "change": 0.3
+      "change": 3.8
     },
     "ATOS": {
-      "price": 22.0,
-      "display": "\u20ac22.00",
-      "change": 4.0
+      "price": 21.16,
+      "display": "\u20ac21.16",
+      "change": -0.7
     },
     "DXC": {
       "price": 12.54,
@@ -73,8 +73,8 @@
       "change": 1.1
     },
     "GIB": {
-      "price": 70.72,
-      "display": "$70.72",
+      "price": 70.71,
+      "display": "$70.71",
       "change": 0.9
     }
   },
@@ -92,8 +92,8 @@
       "change": -0.06
     },
     "USD_INR": {
-      "value": 95.76,
-      "change": -1.1
+      "value": 96.82,
+      "change": 0.07
     },
     "EUR_INR": {
       "value": 106.87,
@@ -1674,7 +1674,6 @@
         110.0,
         111.0,
         111.0,
-        115.0,
         115.0
       ],
       "dl": [
@@ -1691,8 +1690,7 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9",
-        "Oct 12"
+        "Oct 9"
       ],
       "mp": [
         176.0,
@@ -1814,8 +1812,7 @@
         22.0,
         22.0,
         21.0,
-        21.0,
-        22.0
+        21.0
       ],
       "dl": [
         "Sep 22",
@@ -1831,8 +1828,7 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9",
-        "Oct 12"
+        "Oct 9"
       ],
       "mp": [
         524.0,
@@ -2168,6 +2164,24 @@
   },
   "news": [
     {
+      "time": "2026-10-11 21:49",
+      "tk": "TCS",
+      "src": "The Times of India",
+      "cat": "PEOPLE",
+      "hl": "Green cards not key to workforce strategy: TCS",
+      "detail": "BENGALURU: TCS CEO K Krithivasan said green cards have never been a key part of the company's workforce strategy, as it has significantly reduced",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/green-cards-not-key-to-workforce-strategy-tcs/articleshow/134877320.cms"
+    },
+    {
+      "time": "2026-10-11 21:23",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Infosys plays down impact of PERM suspension",
+      "detail": "BENGALURU: Infosys said the US Department of Labor's suspension of new and pending applications under the Permanent Labor Certification (PERM) programme",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plays-down-impact-of-perm-suspension/articleshow/134877315.cms"
+    },
+    {
       "time": "2026-10-11 18:35",
       "tk": "TCS",
       "src": "Business Standard",
@@ -2175,15 +2189,6 @@
       "hl": "No impact of Tata Sons board tussle on TCS: COO Aarthi Subramanian",
       "detail": "Aarthi Subramanian, executive director, president & chief operating officer, TCS talks about the company's AI journey and Tata Sons board tussle, among other issues",
       "url": "https://www.business-standard.com/companies/people/no-impact-of-tata-sons-board-tussle-on-tcs-coo-aarthi-subramanian-126101100517_1.html"
-    },
-    {
-      "time": "2026-10-11 17:50",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Green cards not key to workforce strategy: TCS CEO",
-      "detail": "TCS CEO says green cards aren\u2019t central to workforce plans, citing lower H-1B residency filings, rising US local hiring, and $3.1B AI revenue.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/green-cards-not-key-to-workforce-strategy-tcs-ceo/articleshow/134875449.cms"
     },
     {
       "time": "2026-10-11 16:48",
@@ -2202,15 +2207,6 @@
       "hl": "Traditional IT growth to taper as AI takes centre stage: TCS CEO",
       "detail": "TCS signals traditional IT growth tapering as AI revenue surges, reshaping strategy with AI-driven services and efficiency gains.",
       "url": "https://www.thehindubusinessline.com/info-tech/traditional-it-growth-to-taper-as-ai-takes-centre-stage-tcs-ceo/article71571999.ece"
-    },
-    {
-      "time": "2026-10-11 15:29",
-      "tk": "WIPRO",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "Wipro Q2 preview: Brokerages expect weak revenue growth, margin recovery",
-      "detail": "Wipro Q2 preview: brokerages expect modest revenue growth, margin recovery of about 40 bps amid AI investments and ongoing demand pressures.",
-      "url": "https://www.thehindubusinessline.com/info-tech/wipro-q2-preview-brokerages-expect-weak-revenue-growth-margin-recovery/article71572048.ece"
     },
     {
       "time": "2026-10-11 10:56",
@@ -2256,6 +2252,15 @@
       "hl": "Persistent to squeeze out existing Nagarro shareholders en route to become seventh-largest",
       "detail": "Persistent Systems has crossed the 90% ownership threshold in Nagarro, giving it the right to squeeze out minority shareholders and complete a full takeover of the German IT firm.",
       "url": "https://www.livemint.com/companies/persistent-to-squeeze-out-existing-nagarro-shareholders-en-route-to-become-seventhlargest-11791620781979.html"
+    },
+    {
+      "time": "2026-10-11 15:29",
+      "tk": "WIPRO",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "Wipro Q2 preview: Brokerages expect weak revenue growth, margin recovery",
+      "detail": "Wipro Q2 preview: brokerages expect modest revenue growth, margin recovery of about 40 bps amid AI investments and ongoing demand pressures.",
+      "url": "https://www.thehindubusinessline.com/info-tech/wipro-q2-preview-brokerages-expect-weak-revenue-growth-margin-recovery/article71572048.ece"
     },
     {
       "time": "2026-10-11 05:24",
@@ -3151,9 +3156,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.115698,
-    "JPY": 0.006304,
-    "CAD": 0.700025,
-    "INR": 0.010443
+    "EUR": 1.116071,
+    "JPY": 0.006306,
+    "CAD": 0.700202,
+    "INR": 0.010328
   }
 }
