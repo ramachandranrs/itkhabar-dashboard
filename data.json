@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11T04:57:07.328786+00:00",
-  "updated_display": "11 Oct 2026, 04:57 UTC",
+  "updated": "2026-10-12T02:34:27.962788+00:00",
+  "updated_display": "12 Oct 2026, 02:34 UTC",
   "prices": {
     "TCS": {
       "price": 2156.0,
@@ -92,8 +92,8 @@
       "change": 0.59
     },
     "USD_INR": {
-      "value": 96.73,
-      "change": -0.1
+      "value": 96.78,
+      "change": -0.04
     },
     "EUR_INR": {
       "value": 108.35,
@@ -114,7 +114,7 @@
         3090.0,
         2315.0,
         2020.0,
-        2170.0
+        2189.0
       ],
       "ql": [
         "Q4'23",
@@ -140,7 +140,8 @@
         2342.0,
         2304.0,
         2201.0,
-        2105.0
+        2105.0,
+        2129.0
       ],
       "wl": [
         "Jul 17",
@@ -152,10 +153,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        2129.0,
         2105.0,
         2090.0,
         2087.0,
@@ -171,7 +172,6 @@
         2156.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -198,7 +198,7 @@
         3090.0,
         2315.0,
         2020.0,
-        2170.0,
+        2189.0,
         2269.0,
         2254.0,
         2366.0,
@@ -208,7 +208,8 @@
         2342.0,
         2304.0,
         2201.0,
-        2105.0
+        2105.0,
+        2129.0
       ],
       "ml": [
         "Q4'23",
@@ -232,7 +233,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "INFY": {
@@ -248,7 +250,7 @@
         1581.0,
         1224.0,
         1000.0,
-        1103.0
+        1093.0
       ],
       "ql": [
         "Q4'23",
@@ -274,7 +276,8 @@
         1144.0,
         1130.0,
         1038.0,
-        1051.0
+        1051.0,
+        1038.0
       ],
       "wl": [
         "Jul 17",
@@ -286,10 +289,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        1038.0,
         1029.0,
         1020.0,
         1014.0,
@@ -305,7 +308,6 @@
         1023.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -332,7 +334,7 @@
         1581.0,
         1224.0,
         1000.0,
-        1103.0,
+        1093.0,
         1096.0,
         1041.0,
         1130.0,
@@ -342,7 +344,8 @@
         1144.0,
         1130.0,
         1038.0,
-        1051.0
+        1051.0,
+        1038.0
       ],
       "ml": [
         "Q4'23",
@@ -366,7 +369,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "CTSH": {
@@ -382,7 +386,7 @@
         82.0,
         61.0,
         39.0,
-        44.0
+        43.0
       ],
       "ql": [
         "Q4'23",
@@ -408,7 +412,8 @@
         64.0,
         62.0,
         60.0,
-        60.0
+        60.0,
+        59.0
       ],
       "wl": [
         "Jul 17",
@@ -420,10 +425,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        59.0,
         59.0,
         59.0,
         57.0,
@@ -440,7 +445,6 @@
         59.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -468,7 +472,7 @@
         82.0,
         61.0,
         39.0,
-        44.0,
+        43.0,
         45.0,
         45.0,
         55.0,
@@ -478,7 +482,8 @@
         64.0,
         62.0,
         60.0,
-        60.0
+        60.0,
+        59.0
       ],
       "ml": [
         "Q4'23",
@@ -502,7 +507,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "HCLT": {
@@ -518,7 +524,7 @@
         1565.0,
         1303.0,
         1061.0,
-        1209.0
+        1155.0
       ],
       "ql": [
         "Q4'23",
@@ -544,7 +550,8 @@
         1316.0,
         1293.0,
         1206.0,
-        1249.0
+        1249.0,
+        1281.0
       ],
       "wl": [
         "Jul 17",
@@ -556,10 +563,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        1281.0,
         1270.0,
         1257.0,
         1244.0,
@@ -575,7 +582,6 @@
         1217.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -602,7 +608,7 @@
         1565.0,
         1303.0,
         1061.0,
-        1209.0,
+        1155.0,
         1204.0,
         1271.0,
         1347.0,
@@ -612,7 +618,8 @@
         1316.0,
         1293.0,
         1206.0,
-        1249.0
+        1249.0,
+        1281.0
       ],
       "ml": [
         "Q4'23",
@@ -636,7 +643,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "WIPRO": {
@@ -652,7 +660,7 @@
         254.0,
         186.0,
         168.0,
-        176.0
+        175.0
       ],
       "ql": [
         "Q4'23",
@@ -678,7 +686,8 @@
         181.0,
         176.0,
         167.0,
-        167.0
+        167.0,
+        165.0
       ],
       "wl": [
         "Jul 17",
@@ -690,10 +699,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        165.0,
         166.0,
         165.0,
         164.0,
@@ -709,7 +718,6 @@
         163.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -736,7 +744,7 @@
         254.0,
         186.0,
         168.0,
-        176.0,
+        175.0,
         174.0,
         175.0,
         184.0,
@@ -746,7 +754,8 @@
         181.0,
         176.0,
         167.0,
-        167.0
+        167.0,
+        165.0
       ],
       "ml": [
         "Q4'23",
@@ -770,7 +779,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "TECHM": {
@@ -786,7 +796,7 @@
         1551.0,
         1349.0,
         1369.0,
-        1504.0
+        1484.0
       ],
       "ql": [
         "Q4'23",
@@ -812,7 +822,8 @@
         1641.0,
         1597.0,
         1541.0,
-        1537.0
+        1537.0,
+        1558.0
       ],
       "wl": [
         "Jul 17",
@@ -824,10 +835,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        1558.0,
         1552.0,
         1557.0,
         1543.0,
@@ -843,7 +854,6 @@
         1514.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -870,7 +880,7 @@
         1551.0,
         1349.0,
         1369.0,
-        1504.0,
+        1484.0,
         1573.0,
         1560.0,
         1651.0,
@@ -880,7 +890,8 @@
         1641.0,
         1597.0,
         1541.0,
-        1537.0
+        1537.0,
+        1558.0
       ],
       "ml": [
         "Q4'23",
@@ -904,7 +915,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "LTIM": {
@@ -920,7 +932,7 @@
         5983.0,
         3961.0,
         3538.0,
-        4124.0
+        4063.0
       ],
       "ql": [
         "Q4'23",
@@ -946,7 +958,8 @@
         4675.0,
         4554.0,
         4275.0,
-        4275.0
+        4275.0,
+        4280.0
       ],
       "wl": [
         "Jul 17",
@@ -958,10 +971,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        4280.0,
         4158.0,
         4085.0,
         4038.0,
@@ -977,7 +990,6 @@
         4070.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1004,7 +1016,7 @@
         5983.0,
         3961.0,
         3538.0,
-        4124.0,
+        4063.0,
         4076.0,
         4092.0,
         4362.0,
@@ -1014,7 +1026,8 @@
         4675.0,
         4554.0,
         4275.0,
-        4275.0
+        4275.0,
+        4280.0
       ],
       "ml": [
         "Q4'23",
@@ -1038,7 +1051,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "MPHL": {
@@ -1054,7 +1068,7 @@
         2718.0,
         1999.0,
         2105.0,
-        2390.0
+        2372.0
       ],
       "ql": [
         "Q4'23",
@@ -1080,7 +1094,8 @@
         2455.0,
         2422.0,
         2295.0,
-        2300.0
+        2300.0,
+        2296.0
       ],
       "wl": [
         "Jul 17",
@@ -1092,10 +1107,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        2296.0,
         2265.0,
         2259.0,
         2248.0,
@@ -1111,7 +1126,6 @@
         2360.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1138,7 +1152,7 @@
         2718.0,
         1999.0,
         2105.0,
-        2390.0,
+        2372.0,
         2394.0,
         2288.0,
         2342.0,
@@ -1148,7 +1162,8 @@
         2455.0,
         2422.0,
         2295.0,
-        2300.0
+        2300.0,
+        2296.0
       ],
       "ml": [
         "Q4'23",
@@ -1172,7 +1187,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "PSYS": {
@@ -1188,7 +1204,7 @@
         6228.0,
         4860.0,
         4312.0,
-        5174.0
+        5111.0
       ],
       "ql": [
         "Q4'23",
@@ -1214,7 +1230,8 @@
         5875.0,
         5643.0,
         5516.0,
-        5416.0
+        5416.0,
+        5449.0
       ],
       "wl": [
         "Jul 17",
@@ -1226,10 +1243,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        5449.0,
         5366.0,
         5240.0,
         5277.0,
@@ -1245,7 +1262,6 @@
         5770.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1272,7 +1288,7 @@
         6228.0,
         4860.0,
         4312.0,
-        5174.0,
+        5111.0,
         5166.0,
         5182.0,
         5549.0,
@@ -1282,7 +1298,8 @@
         5875.0,
         5643.0,
         5516.0,
-        5416.0
+        5416.0,
+        5449.0
       ],
       "ml": [
         "Q4'23",
@@ -1306,7 +1323,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "COFG": {
@@ -1322,7 +1340,7 @@
         1655.0,
         1112.0,
         1462.0,
-        1537.0
+        1531.0
       ],
       "ql": [
         "Q4'23",
@@ -1348,7 +1366,8 @@
         2015.0,
         1973.0,
         1846.0,
-        1841.0
+        1841.0,
+        1814.0
       ],
       "wl": [
         "Jul 17",
@@ -1360,10 +1379,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        1814.0,
         1803.0,
         1782.0,
         1786.0,
@@ -1379,7 +1398,6 @@
         1868.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1406,7 +1424,7 @@
         1655.0,
         1112.0,
         1462.0,
-        1537.0,
+        1531.0,
         1505.0,
         1481.0,
         1717.0,
@@ -1416,7 +1434,8 @@
         2015.0,
         1973.0,
         1846.0,
-        1841.0
+        1841.0,
+        1814.0
       ],
       "ml": [
         "Q4'23",
@@ -1440,7 +1459,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "ACN": {
@@ -1456,7 +1476,7 @@
         263.0,
         194.0,
         123.0,
-        139.0
+        135.0
       ],
       "ql": [
         "Q4'23",
@@ -1482,7 +1502,8 @@
         190.0,
         187.0,
         184.0,
-        181.0
+        181.0,
+        186.0
       ],
       "wl": [
         "Jul 17",
@@ -1494,10 +1515,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        186.0,
         184.0,
         184.0,
         177.0,
@@ -1514,7 +1535,6 @@
         209.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1542,7 +1562,7 @@
         263.0,
         194.0,
         123.0,
-        139.0,
+        135.0,
         144.0,
         147.0,
         166.0,
@@ -1552,7 +1572,8 @@
         190.0,
         187.0,
         184.0,
-        181.0
+        181.0,
+        186.0
       ],
       "ml": [
         "Q4'23",
@@ -1576,7 +1597,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "CAP": {
@@ -1592,7 +1614,7 @@
         138.0,
         97.0,
         88.0,
-        92.0
+        90.0
       ],
       "ql": [
         "Q4'23",
@@ -1618,7 +1640,8 @@
         109.0,
         106.0,
         103.0,
-        104.0
+        104.0,
+        106.0
       ],
       "wl": [
         "Jul 17",
@@ -1630,10 +1653,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        106.0,
         106.0,
         106.0,
         104.0,
@@ -1650,7 +1673,6 @@
         115.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1678,7 +1700,7 @@
         138.0,
         97.0,
         88.0,
-        92.0,
+        90.0,
         91.0,
         90.0,
         102.0,
@@ -1688,7 +1710,8 @@
         109.0,
         106.0,
         103.0,
-        104.0
+        104.0,
+        106.0
       ],
       "ml": [
         "Q4'23",
@@ -1712,7 +1735,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "ATOS": {
@@ -1754,6 +1778,7 @@
         29.0,
         27.0,
         25.0,
+        24.0,
         24.0
       ],
       "wl": [
@@ -1766,10 +1791,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        24.0,
         24.0,
         24.0,
         23.0,
@@ -1786,7 +1811,6 @@
         21.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1824,6 +1848,7 @@
         29.0,
         27.0,
         25.0,
+        24.0,
         24.0
       ],
       "ml": [
@@ -1848,7 +1873,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "DXC": {
@@ -1864,7 +1890,7 @@
         15.0,
         13.0,
         9.0,
-        10.0
+        9.0
       ],
       "ql": [
         "Q4'23",
@@ -1890,6 +1916,7 @@
         11.0,
         12.0,
         11.0,
+        11.0,
         11.0
       ],
       "wl": [
@@ -1902,10 +1929,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        11.0,
         11.0,
         11.0,
         11.0,
@@ -1922,7 +1949,6 @@
         12.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -1950,7 +1976,7 @@
         15.0,
         13.0,
         9.0,
-        10.0,
+        9.0,
         9.0,
         10.0,
         11.0,
@@ -1959,6 +1985,7 @@
         11.0,
         11.0,
         12.0,
+        11.0,
         11.0,
         11.0
       ],
@@ -1984,7 +2011,8 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     },
     "GIB": {
@@ -2000,7 +2028,7 @@
         92.0,
         73.0,
         64.0,
-        68.0
+        65.0
       ],
       "ql": [
         "Q4'23",
@@ -2026,6 +2054,7 @@
         75.0,
         74.0,
         70.0,
+        69.0,
         69.0
       ],
       "wl": [
@@ -2038,10 +2067,10 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ],
       "dp": [
-        69.0,
         69.0,
         69.0,
         68.0,
@@ -2058,7 +2087,6 @@
         70.0
       ],
       "dl": [
-        "Sep 21",
         "Sep 22",
         "Sep 23",
         "Sep 24",
@@ -2086,7 +2114,7 @@
         92.0,
         73.0,
         64.0,
-        68.0,
+        65.0,
         68.0,
         66.0,
         73.0,
@@ -2096,6 +2124,7 @@
         75.0,
         74.0,
         70.0,
+        69.0,
         69.0
       ],
       "ml": [
@@ -2120,11 +2149,57 @@
         "Aug 28",
         "Sep 4",
         "Sep 11",
-        "Sep 18"
+        "Sep 18",
+        "Sep 25"
       ]
     }
   },
   "news": [
+    {
+      "time": "2026-10-11 02:22",
+      "tk": "INFY",
+      "src": "Business Standard",
+      "cat": "MACRO",
+      "hl": "Infosys sees no material impact from US suspension of PERM applications",
+      "detail": "The US government said on Thursday it was suspending some major \u200cglobal tech and IT firms, including Infosys, from the PERM green card program",
+      "url": "https://www.business-standard.com/companies/news/infosys-sees-no-material-impact-from-us-suspension-of-perm-applications-126101001012_1.html"
+    },
+    {
+      "time": "2026-10-10 18:53",
+      "tk": "INFY",
+      "src": "Slashdot.org",
+      "cat": "PEOPLE",
+      "hl": "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data shows - CNBC",
+      "detail": "Vance says Microsoft replaced laid-off workers with foreign hires. Here\u2019s what the visa data showsCNBC India's Infosys does not expect material impact from US PERM suspensionReuters The advice immigration attorneys have for Microsoft workers worried about the\u2026",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186095090"
+    },
+    {
+      "time": "2026-10-10 08:00",
+      "tk": "CTSH",
+      "src": "Acecomments.mu.nu",
+      "cat": "PEOPLE",
+      "hl": "Daily Tech News 10 October 2026",
+      "detail": "Top Story The US government have suspended US companies Microsoft, Adobe, and Cognizant, and a bunch of European and Indian IT companies as well, from the H-1B visa scheme. (Tech Crunch) Not placed restrictions on them. Not added fees. Booted...",
+      "url": "https://acecomments.mu.nu/?post=421722"
+    },
+    {
+      "time": "2026-10-10 07:52",
+      "tk": "LTIM",
+      "src": "Photorumors.com",
+      "cat": "MACRO",
+      "hl": "What else is new?",
+      "detail": "Here is\u00a0what else is new: A new Shoten Tribute 01 LTM 50mm f/1.1 lens for Leica M/L39 released in Japan based on the Zunow 50mm f/1.1 lens from the 1950s Light Lens Lab is working on a new Light Lens Lab 50mm f/2 Apochromatic lens for Leica M-mount The new Vo\u2026",
+      "url": "https://photorumors.com/2026/10/10/what-else-is-new-940/"
+    },
+    {
+      "time": "2026-10-10 11:20",
+      "tk": "PSYS",
+      "src": "Livemint",
+      "cat": "DEAL",
+      "hl": "Persistent to squeeze out existing Nagarro shareholders en route to become seventh-largest",
+      "detail": "Persistent Systems has crossed the 90% ownership threshold in Nagarro, giving it the right to squeeze out minority shareholders and complete a full takeover of the German IT firm.",
+      "url": "https://www.livemint.com/companies/persistent-to-squeeze-out-existing-nagarro-shareholders-en-route-to-become-seventhlargest-11791620781979.html"
+    },
     {
       "time": "2026-10-10 04:19",
       "tk": "TCS",
@@ -2144,24 +2219,6 @@
       "url": "https://www.business-standard.com/companies/news/tcs-withholds-quarterly-bonuses-for-senior-staff-after-missing-targets-126101000060_1.html"
     },
     {
-      "time": "2026-10-09 20:39",
-      "tk": "TCS",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "Indias TCS senior staff will miss out on variable pay for September quarter, memo shows",
-      "detail": "TCS-BONUS/ (PIX):India's TCS senior staff will miss out on variable pay for September quarter, memo shows",
-      "url": "https://www.livemint.com/companies/indias-tcs-senior-staff-will-miss-out-on-variable-pay-for-september-quarter-memo-shows-11791578360142.html"
-    },
-    {
-      "time": "2026-10-09 19:32",
-      "tk": "INFY",
-      "src": "Slashdot.org",
-      "cat": "MACRO",
-      "hl": "Tech giants Microsoft, Adobe, Infosys and 5 others lose ability to sponsor African and other foreign workers for US green cards - Business Insider Africa",
-      "detail": "Tech giants Microsoft, Adobe, Infosys and 5 others lose ability to sponsor African and other foreign workers for US green cardsBusiness Insider Africa India calls JD Vance's comments about immigrants 'deeply offensive'CNBC Trump administration freezes green c\u2026",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186084280"
-    },
-    {
       "time": "2026-10-10 00:31",
       "tk": "ACN",
       "src": "Biztoc.com",
@@ -2169,105 +2226,6 @@
       "hl": "Has Accenture Stock Become A Different Bet?",
       "detail": "stock is currently priced at 16.4 times earnings, sitting well below the 21.5 multiple of the S&P 500. Investors paying that price need a clear picture of what they are buying. The complication is that management has shifted its priorities. A year ago, execut\u2026",
       "url": "https://biztoc.com/x/0d4b17d6caad7202"
-    },
-    {
-      "time": "2026-10-09 20:30",
-      "tk": "CTSH",
-      "src": "Biztoc.com",
-      "cat": "DEAL",
-      "hl": "Is Cognizant Technology Solutions (CTSH) Undervalued Following Its New Credit Facilities?",
-      "detail": "Cognizant Technology Solutions (CTSH) just locked in a new unsecured credit package that reshapes its access to capital through 2031, while also repaying and replacing older lending facilities.\nThe new unsecured credit facilities land at a moment when Cogniza\u2026",
-      "url": "https://biztoc.com/x/d8b0868f00ea74f3"
-    },
-    {
-      "time": "2026-10-09 17:45",
-      "tk": "LTIM",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "CoreWeave Stock Fell Nearly 8% in a Day on an OpenAI Revenue Report. Here\u2019s Why Its Borrowing Model Raises the Stakes",
-      "detail": "CoreWeave Stock Fell Nearly 8% in a Day on an OpenAI Revenue Report. Here\u2019s Why Its Borrowing Model Raises the Stakes\nKey Stats for CoreWeave Stock\n- Current Price: $81.58\n- Street Target: ~$141\n- LTM Net Debt/EBITDA: 8.22x\nWhat Happened?\nCoreWeave (CRWV) clo\u2026",
-      "url": "https://biztoc.com/x/51fc7ffa7321bd4d"
-    },
-    {
-      "time": "2026-10-09 08:18",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Explained: Why IT stocks ignored Donald Trump\u2019s PERM suspension to gain Rs 70,000 crore in one day",
-      "detail": "IT stocks rallied up to 4% on Friday, adding Rs 70,000 crore in market capitalisation, despite the US suspension of a labour certification programme. Strong Q2 results from TCS, easing oil prices and bond yields, and developments around OpenAI also supported \u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/explained-why-it-stocks-ignored-donald-trumps-perm-suspension-to-gain-rs-70000-crore-in-one-day/articleshow/134824300.cms"
-    },
-    {
-      "time": "2026-10-09 04:18",
-      "tk": "Sector",
-      "src": "Business Standard",
-      "cat": "PEOPLE",
-      "hl": "IT sector defies US green card suspension worries to rally 3%; here's why",
-      "detail": "IT stocks: All index constituents traded in the green, buoying the 10-stock Nifty IT 3.13 per cent to 28,604 during the intraday session.",
-      "url": "https://www.business-standard.com/markets/news/tcs-infosys-hcl-tech-it-sector-defies-us-green-card-suspension-worries-to-rally-3-here-s-why-126100900227_1.html"
-    },
-    {
-      "time": "2026-10-09 12:00",
-      "tk": "ATOS",
-      "src": "PRNewswire",
-      "cat": "PEOPLE",
-      "hl": "Atossa Therapeutics Executes Contingent Value Rights Agreement Providing Shareholders Participation in Potential Priority Review Voucher Value",
-      "detail": "Board declares one stapled CVR for each share of Atossa common stock outstanding as of October 19, 2026 record date or issued thereafter CVRs entitle holders to 25% of net proceeds from monetization of Atossa's first qualifying priority review voucher, subjec\u2026",
-      "url": "https://www.prnewswire.com/news-releases/atossa-therapeutics-executes-contingent-value-rights-agreement-providing-shareholders-participation-in-potential-priority-review-voucher-value-302902776.html"
-    },
-    {
-      "time": "2026-10-09 08:11",
-      "tk": "HCLT",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "'Don't worry about PERM': Former HCL tech CEO Vinnet Nayyar explains why Trump admin's action against 'indentured servants' will help Indian techies than hurt",
-      "detail": "Former HCL Technologies CEO Vineet Nayyar believes tighter US immigration rules could prompt companies to shift more advanced technology projects to India. He has urged Indian IT firms to move beyond cost-driven outsourcing and focus on product engineering, A\u2026",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/dont-worry-about-perm-former-hcl-tech-ceo-vinnet-nayyar-explains-why-trump-admins-action-against-indentured-servants-will-help-indian-techies-than-hurt/articleshow/134821975.cms"
-    },
-    {
-      "time": "2026-10-09 05:00",
-      "tk": "TECHM",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "India IT set for fourth year of weak growth on geopolitics, AI risks",
-      "detail": "HCL Technologies and Tech Mahindra are next to report quarterly results, after TCS's revenue rose just 0.5% sequentially in constant currency terms.",
-      "url": "https://www.livemint.com/industry/infotech/ai-impact-on-it-sector-quarterly-results-11791520593653.html"
-    },
-    {
-      "time": "2026-10-09 03:57",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Karnataka Minister warns of 'far-reaching consequences' on US suspension of Green Card program for IT majors",
-      "detail": "Karnataka Minister Priyank Kharge outlined potential challenges for India's IT sector due to the US suspension. This suspension may increase operational costs and reduce flexibility for Indian IT companies in the United States. Kharge suggested that more high\u2026",
-      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/karnataka-minister-warns-of-far-reaching-consequences-on-us-suspension-of-green-card-program-for-it-majors/articleshow/134805360.cms"
-    },
-    {
-      "time": "2026-10-09 14:57",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "TCS earnings lift IT stocks as demand recovery hopes boost market mood",
-      "detail": "Indian IT stocks rallied after TCS reported strong Q2FY27 results, lifting hopes of a demand recovery amid AI concerns and US labour curbs",
-      "url": "https://www.business-standard.com/companies/news/tcs-earnings-lift-it-stocks-as-demand-recovery-hopes-boost-market-mood-126100901293_1.html"
-    },
-    {
-      "time": "2026-10-09 12:36",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "TCS lifts Dalal Street out of its eight-week rut",
-      "detail": "Markets rebound on strong TCS results, lifting Nifty 50 and Sensex as oil cools and geopolitics ease, with key resistance around 22,600\u201322,800.",
-      "url": "https://www.thehindubusinessline.com/markets/tcs-lifts-dalal-street-out-of-its-eight-week-rut/article71563965.ece"
-    },
-    {
-      "time": "2026-10-09 13:00",
-      "tk": "CTSH",
-      "src": "PRNewswire",
-      "cat": "AI",
-      "hl": "80% of Employees Want to Use AI More Than Their Jobs Allow",
-      "detail": "The \"Activation Gap\" could be leaving trillions in potential global economic gains unrealized, according to new research from Cognizant TEANECK, N.J., Oct. 9, 2026 /PRNewswire/ -- A new Cognizant workplace study has identified what researchers are calling the\u2026",
-      "url": "https://www.prnewswire.com/news-releases/80-of-employees-want-to-use-ai-more-than-their-jobs-allow-302903244.html"
     }
   ],
   "quarterly": {
@@ -3145,9 +3103,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120574,
-    "JPY": 0.006319,
-    "CAD": 0.701557,
-    "INR": 0.010338
+    "EUR": 1.121579,
+    "JPY": 0.006322,
+    "CAD": 0.701508,
+    "INR": 0.010333
   }
 }
