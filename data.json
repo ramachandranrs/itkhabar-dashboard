@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-13T03:44:09.072831+00:00",
-  "updated_display": "13 Oct 2026, 03:44 UTC",
+  "updated": "2026-10-13T18:04:40.334411+00:00",
+  "updated_display": "13 Oct 2026, 18:04 UTC",
   "prices": {
     "TCS": {
-      "price": 2125.0,
-      "display": "\u20b92,125",
-      "change": -1.4
+      "price": 2269.3,
+      "display": "\u20b92,269",
+      "change": 5.3
     },
     "INFY": {
-      "price": 1020.0,
-      "display": "\u20b91,020",
-      "change": -0.3
-    },
-    "CTSH": {
-      "price": 59.68,
-      "display": "$59.68",
-      "change": 0.8
-    },
-    "HCLT": {
-      "price": 1223.0,
-      "display": "\u20b91,223",
-      "change": 0.5
-    },
-    "WIPRO": {
-      "price": 161.8,
-      "display": "\u20b9162",
-      "change": -0.5
-    },
-    "TECHM": {
-      "price": 1471.0,
-      "display": "\u20b91,471",
-      "change": -2.8
-    },
-    "LTIM": {
-      "price": 4018.9,
-      "display": "\u20b94,019",
-      "change": -1.3
-    },
-    "MPHL": {
-      "price": 2353.5,
-      "display": "\u20b92,354",
-      "change": -0.3
-    },
-    "PSYS": {
-      "price": 5787.0,
-      "display": "\u20b95,787",
-      "change": 0.3
-    },
-    "COFG": {
-      "price": 1846.6,
-      "display": "\u20b91,847",
-      "change": -1.1
-    },
-    "ACN": {
-      "price": 214.87,
-      "display": "$215",
-      "change": 2.8
-    },
-    "CAP": {
-      "price": 115.05,
-      "display": "\u20ac115",
+      "price": 1062.1,
+      "display": "\u20b91,062",
       "change": 3.8
     },
+    "CTSH": {
+      "price": 61.47,
+      "display": "$61.47",
+      "change": 3.0
+    },
+    "HCLT": {
+      "price": 1326.0,
+      "display": "\u20b91,326",
+      "change": 9.0
+    },
+    "WIPRO": {
+      "price": 169.0,
+      "display": "\u20b9169",
+      "change": 4.0
+    },
+    "TECHM": {
+      "price": 1543.5,
+      "display": "\u20b91,544",
+      "change": 1.9
+    },
+    "LTIM": {
+      "price": 4215.0,
+      "display": "\u20b94,215",
+      "change": 3.6
+    },
+    "MPHL": {
+      "price": 2466.3,
+      "display": "\u20b92,466",
+      "change": 4.5
+    },
+    "PSYS": {
+      "price": 5988.0,
+      "display": "\u20b95,988",
+      "change": 3.8
+    },
+    "COFG": {
+      "price": 1929.0,
+      "display": "\u20b91,929",
+      "change": 3.3
+    },
+    "ACN": {
+      "price": 214.57,
+      "display": "$215",
+      "change": -0.1
+    },
+    "CAP": {
+      "price": 119.3,
+      "display": "\u20ac119",
+      "change": 3.7
+    },
     "ATOS": {
-      "price": 21.16,
-      "display": "\u20ac21.16",
-      "change": -0.7
+      "price": 21.64,
+      "display": "\u20ac21.64",
+      "change": 2.3
     },
     "DXC": {
-      "price": 12.54,
-      "display": "$12.54",
-      "change": 1.1
+      "price": 12.78,
+      "display": "$12.78",
+      "change": 2.0
     },
     "GIB": {
-      "price": 70.71,
-      "display": "$70.71",
-      "change": 0.9
+      "price": 72.02,
+      "display": "$72.02",
+      "change": 1.9
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 71924.68,
-      "change": -0.76
+      "value": 73033.78,
+      "change": 1.54
     },
     "NIFTY_IT": {
-      "value": 28655.4,
-      "change": 1.08
+      "value": 29830.1,
+      "change": 5.22
     },
     "SP500": {
-      "value": 7807.24,
-      "change": -0.06
+      "value": 7795.87,
+      "change": -0.15
     },
     "USD_INR": {
-      "value": 95.1,
-      "change": -1.78
+      "value": 95.27,
+      "change": -1.6
     },
     "EUR_INR": {
-      "value": 106.26,
-      "change": -2.02
+      "value": 106.61,
+      "change": -1.7
     }
   },
   "historical": {
@@ -169,7 +169,7 @@
         2080.0,
         2076.0,
         2156.0,
-        2125.0
+        2269.0
       ],
       "dl": [
         "Sep 23",
@@ -305,7 +305,7 @@
         992.0,
         997.0,
         1023.0,
-        1020.0
+        1062.0
       ],
       "dl": [
         "Sep 23",
@@ -442,7 +442,8 @@
         57.0,
         60.0,
         59.0,
-        60.0
+        60.0,
+        61.0
       ],
       "dl": [
         "Sep 23",
@@ -458,7 +459,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         72.0,
@@ -579,7 +581,7 @@
         1185.0,
         1177.0,
         1217.0,
-        1223.0
+        1326.0
       ],
       "dl": [
         "Sep 23",
@@ -715,7 +717,7 @@
         160.0,
         158.0,
         163.0,
-        162.0
+        169.0
       ],
       "dl": [
         "Sep 23",
@@ -851,7 +853,7 @@
         1491.0,
         1496.0,
         1514.0,
-        1471.0
+        1544.0
       ],
       "dl": [
         "Sep 23",
@@ -987,7 +989,7 @@
         3930.0,
         3915.0,
         4070.0,
-        4019.0
+        4215.0
       ],
       "dl": [
         "Sep 23",
@@ -1123,7 +1125,7 @@
         2289.0,
         2303.0,
         2360.0,
-        2354.0
+        2466.0
       ],
       "dl": [
         "Sep 23",
@@ -1259,7 +1261,7 @@
         5507.0,
         5468.0,
         5770.0,
-        5787.0
+        5988.0
       ],
       "dl": [
         "Sep 23",
@@ -1395,7 +1397,7 @@
         1822.0,
         1814.0,
         1868.0,
-        1847.0
+        1929.0
       ],
       "dl": [
         "Sep 23",
@@ -1532,6 +1534,7 @@
         197.0,
         208.0,
         209.0,
+        215.0,
         215.0
       ],
       "dl": [
@@ -1548,7 +1551,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         334.0,
@@ -1669,7 +1673,8 @@
         110.0,
         111.0,
         111.0,
-        115.0
+        115.0,
+        119.0
       ],
       "dl": [
         "Sep 23",
@@ -1684,7 +1689,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 13"
       ],
       "mp": [
         176.0,
@@ -1805,7 +1811,8 @@
         22.0,
         22.0,
         21.0,
-        21.0
+        21.0,
+        22.0
       ],
       "dl": [
         "Sep 23",
@@ -1820,7 +1827,8 @@
         "Oct 6",
         "Oct 7",
         "Oct 8",
-        "Oct 9"
+        "Oct 9",
+        "Oct 13"
       ],
       "mp": [
         524.0,
@@ -1942,6 +1950,7 @@
         12.0,
         12.0,
         12.0,
+        13.0,
         13.0
       ],
       "dl": [
@@ -1958,7 +1967,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         23.0,
@@ -2080,7 +2090,8 @@
         69.0,
         70.0,
         70.0,
-        71.0
+        71.0,
+        72.0
       ],
       "dl": [
         "Sep 23",
@@ -2096,7 +2107,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         106.0,
@@ -2152,31 +2164,40 @@
   },
   "news": [
     {
-      "time": "2026-10-12 02:26",
+      "time": "2026-10-12 17:13",
       "tk": "HCLT",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "Stocks to watch: HCLTech, DMart, M&M, Adani Green, KEC Int'l, ICICI Pru",
-      "detail": "Stocks to watch today: HCL Technologies, ICICI Pru, RBL Bank, Plastiblends India are among the companies slated to post their Q2 results today.",
-      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-hcltech-dmart-m-m-adani-green-kec-int-l-icici-pru-126101200059_1.html"
-    },
-    {
-      "time": "2026-10-11 10:56",
-      "tk": "INFY",
       "src": "Livemint",
       "cat": "MACRO",
-      "hl": "Mint Explainer | What a green card freeze means for H-1B workers",
-      "detail": "The suspension of green card processing for Microsoft, Adobe, Infosys, TCS, Wipro, HCLTech, Cognizant and Capgemini may complicate talent retention and hiring. Companies could rely more on temporary visas, US-based hiring and offshore delivery while investiga\u2026",
-      "url": "https://www.livemint.com/industry/us-green-card-freeze-indian-it-companies-h-1b-workers-hiring-visas-11791708006031.html"
+      "hl": "US PERM suspension: HCLTech sees limited impact on workforce and visa plans - How it affects Indians on H1-B visa",
+      "detail": "HCLTech expects little workforce impact from the US suspension of PERM applications, citing its limited recent use of the programme and increased recruitment of local talent. Analysts say the move is unlikely to significantly affect Indian IT firms, though it\u2026",
+      "url": "https://www.livemint.com/industry/infotech/us-perm-suspension-hcltech-sees-limited-impact-on-workforce-and-visa-plans-how-it-affects-indians-on-h1-b-visa-11791822166779.html"
     },
     {
-      "time": "2026-10-11 09:48",
-      "tk": "WIPRO",
-      "src": "Business Standard",
+      "time": "2026-10-12 17:11",
+      "tk": "HCLT",
+      "src": "Livemint",
       "cat": "RESULTS",
-      "hl": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
-      "detail": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a\u2026",
-      "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html"
+      "hl": "HCLTech beats estimates, but Q2 growth slips to three-year low",
+      "detail": "HCL Tech\u2019s advanced AI revenue jumped 28% sequentially to $219 million, while net profit jumped 10.25% during the same period to $538 million.",
+      "url": "https://www.livemint.com/companies/hcl-technologies-q2-results-202627-11791813143191.html"
+    },
+    {
+      "time": "2026-10-12 14:59",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "cat": "ANALYST",
+      "hl": "IT, telecom stocks decline as market selloff resumes amid FII outflows",
+      "detail": "Nifty IT fell 0.79 per cent on Monday, while telecom shares remained under pressure amid FII outflows, concerns over Jio Platforms' IPO valuation and broader market weakness",
+      "url": "https://www.business-standard.com/markets/news/it-telecom-stocks-decline-as-market-selloff-resumes-amid-fii-outflows-126101201190_1.html"
+    },
+    {
+      "time": "2026-10-12 14:56",
+      "tk": "HCLT",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "Powered by AI, HCLTech net profit rises 21% y-o-y to \u20b95,132 crore in Q2FY27",
+      "detail": "HCLTech posts 21% y-o-y profit rise to \u20b95,132 crore, raises FY27 revenue growth guidance; expands AI partnerships and advanced AI services.",
+      "url": "https://www.thehindubusinessline.com/companies/powered-by-ai-hcltech-net-profit-rises-21-y-o-y-to-5132-crore-in-q2fy27/article71575751.ece"
     },
     {
       "time": "2026-10-11 06:14",
@@ -2188,22 +2209,40 @@
       "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/earnings-tracker-hdfc-bank-hcl-tech-wipro-among-129-companies-set-to-report-q2-results-this-week/articleshow/134866148.cms"
     },
     {
-      "time": "2026-10-11 16:16",
+      "time": "2026-10-12 09:25",
+      "tk": "NTTD",
+      "src": "PRNewswire",
+      "cat": "MACRO",
+      "hl": "NTT DATA Business Solutions launches \"Elevate\", its Agentic AI-powered delivery framework, to help accelerate SAP transformations",
+      "detail": "Next-generation delivery initiative combines AI-powered execution, intelligent solutions and adoption services BIELEFELD, Germany, Oct. 12, 2026 /PRNewswire/ -- NTT DATA Business Solutions, a leading global IT service provider and specialist in SAP solutions,\u2026",
+      "url": "https://www.prnewswire.com/news-releases/ntt-data-business-solutions-launches-elevate-its-agentic-ai-powered-delivery-framework-to-help-accelerate-sap-transformations-302905553.html"
+    },
+    {
+      "time": "2026-10-12 13:42",
+      "tk": "HCLT",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "HCLTech Q2 Results: Revenue up 11.5% but misses estimates, net profit up 21.2%",
+      "detail": "HCLTech Q2 Results 2026-27: Consolidated revenue rose 11.5% to  \u20b935,620 crore, net profit increased 21.2% to  \u20b95,132 crore.",
+      "url": "https://www.livemint.com/companies/company-results/hcltech-q2-results-202627-11791811434426.html"
+    },
+    {
+      "time": "2026-10-12 10:06",
       "tk": "TCS",
       "src": "BusinessLine",
       "cat": "RESULTS",
-      "hl": "Traditional IT growth to taper as AI takes centre stage: TCS CEO",
-      "detail": "TCS signals traditional IT growth tapering as AI revenue surges, reshaping strategy with AI-driven services and efficiency gains.",
-      "url": "https://www.thehindubusinessline.com/info-tech/traditional-it-growth-to-taper-as-ai-takes-centre-stage-tcs-ceo/article71571999.ece"
+      "hl": "TCS says 80% of new hires will have digital, AI skills; AI revenue to lift margins",
+      "detail": "The IT services major expects rising demand for AI expertise to reshape hiring, expand AI-led business and support profitability in coming quarters",
+      "url": "https://www.thehindubusinessline.com/info-tech/tcs-says-80-of-new-hires-will-have-digital-ai-skills-ai-revenue-to-lift-margins/article71574393.ece"
     },
     {
-      "time": "2026-10-11 15:29",
-      "tk": "WIPRO",
-      "src": "BusinessLine",
+      "time": "2026-10-12 07:00",
+      "tk": "TCS",
+      "src": "Business Standard",
       "cat": "RESULTS",
-      "hl": "Wipro Q2 preview: Brokerages expect weak revenue growth, margin recovery",
-      "detail": "Wipro Q2 preview: brokerages expect modest revenue growth, margin recovery of about 40 bps amid AI investments and ongoing demand pressures.",
-      "url": "https://www.thehindubusinessline.com/info-tech/wipro-q2-preview-brokerages-expect-weak-revenue-growth-margin-recovery/article71572048.ece"
+      "hl": "TCS to hire 80% of workforce with digital, AI skills; expects margin gains",
+      "detail": "As much as 80 per cent of TCS' new hires will be talent with digital and Artificial Intelligence (AI) skills going forward, a top company official has said.\nWith the share of AI-led work in overall revenue growing to 10 per cent in the recently concluded Sept\u2026",
+      "url": "https://www.business-standard.com/companies/news/tcs-to-hire-80-of-workforce-with-digital-ai-skills-expects-margin-gains-126101200249_1.html"
     },
     {
       "time": "2026-10-12 00:34",
@@ -2213,24 +2252,6 @@
       "hl": "Pre-market action: Here's the trade setup for today's session",
       "detail": "On Friday, markets experienced a moment of reprieve as the Nifty index surged by 1.3%, buoyed by support from the IT sector. However, analysts anticipate that Indian stocks will tread carefully due to prevailing global economic uncertainties. Despite a decrea\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/134880075.cms"
-    },
-    {
-      "time": "2026-10-11 16:48",
-      "tk": "TCS",
-      "src": "Computationalcomplexity.org",
-      "cat": "MACRO",
-      "hl": "Conjecture that I thought would not be solved in my lifetime....were",
-      "detail": "Lance blogged on the OpenAI solutions to many problems\u00a0 here \u00a0and also created a website of the TCS-related problems OpenAI claims to have s...",
-      "url": "https://blog.computationalcomplexity.org/2026/10/conjecture-that-i-thought-would-not-be.html"
-    },
-    {
-      "time": "2026-10-11 04:36",
-      "tk": "INFY",
-      "src": "Livemint",
-      "cat": "MACRO",
-      "hl": "US green-card programme suspension: What happens to your 401(k), stocks and property if you return India?",
-      "detail": "The US has suspended Microsoft, Infosys, Tata, Wipro and other companies from the PERM labour-certification programme. Here's what it means for Indians returning home.",
-      "url": "https://www.livemint.com/money/us-green-card-programme-suspension-what-happens-to-your-401-k-stocks-and-property-if-you-return-india-11791688227175.html"
     }
   ],
   "quarterly": {
@@ -3108,9 +3129,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.117568,
-    "JPY": 0.006317,
-    "CAD": 0.700967,
-    "INR": 0.010516
+    "EUR": 1.119695,
+    "JPY": 0.006315,
+    "CAD": 0.703532,
+    "INR": 0.010496
   }
 }
