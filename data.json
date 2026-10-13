@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-13T18:04:40.334411+00:00",
-  "updated_display": "13 Oct 2026, 18:04 UTC",
+  "updated": "2026-10-13T21:23:38.465812+00:00",
+  "updated_display": "13 Oct 2026, 21:23 UTC",
   "prices": {
     "TCS": {
-      "price": 2269.3,
-      "display": "\u20b92,269",
-      "change": 5.3
+      "price": 2125.0,
+      "display": "\u20b92,125",
+      "change": -1.4
     },
     "INFY": {
-      "price": 1062.1,
-      "display": "\u20b91,062",
-      "change": 3.8
+      "price": 1020.0,
+      "display": "\u20b91,020",
+      "change": -0.3
     },
     "CTSH": {
-      "price": 61.47,
-      "display": "$61.47",
-      "change": 3.0
+      "price": 61.33,
+      "display": "$61.33",
+      "change": 2.8
     },
     "HCLT": {
-      "price": 1326.0,
-      "display": "\u20b91,326",
-      "change": 9.0
+      "price": 1223.0,
+      "display": "\u20b91,223",
+      "change": 0.5
     },
     "WIPRO": {
-      "price": 169.0,
-      "display": "\u20b9169",
-      "change": 4.0
+      "price": 161.8,
+      "display": "\u20b9162",
+      "change": -0.5
     },
     "TECHM": {
-      "price": 1543.5,
-      "display": "\u20b91,544",
-      "change": 1.9
+      "price": 1471.0,
+      "display": "\u20b91,471",
+      "change": -2.8
     },
     "LTIM": {
-      "price": 4215.0,
-      "display": "\u20b94,215",
-      "change": 3.6
+      "price": 4018.9,
+      "display": "\u20b94,019",
+      "change": -1.3
     },
     "MPHL": {
-      "price": 2466.3,
-      "display": "\u20b92,466",
-      "change": 4.5
+      "price": 2353.5,
+      "display": "\u20b92,354",
+      "change": -0.3
     },
     "PSYS": {
-      "price": 5988.0,
-      "display": "\u20b95,988",
-      "change": 3.8
+      "price": 5787.0,
+      "display": "\u20b95,787",
+      "change": 0.3
     },
     "COFG": {
-      "price": 1929.0,
-      "display": "\u20b91,929",
-      "change": 3.3
+      "price": 1846.6,
+      "display": "\u20b91,847",
+      "change": -1.1
     },
     "ACN": {
-      "price": 214.57,
-      "display": "$215",
-      "change": -0.1
+      "price": 213.56,
+      "display": "$214",
+      "change": -0.6
     },
     "CAP": {
       "price": 119.3,
       "display": "\u20ac119",
-      "change": 3.7
+      "change": 3.4
     },
     "ATOS": {
       "price": 21.64,
       "display": "\u20ac21.64",
-      "change": 2.3
+      "change": -1.6
     },
     "DXC": {
-      "price": 12.78,
-      "display": "$12.78",
-      "change": 2.0
+      "price": 12.77,
+      "display": "$12.77",
+      "change": 1.8
     },
     "GIB": {
-      "price": 72.02,
-      "display": "$72.02",
-      "change": 1.9
+      "price": 72.12,
+      "display": "$72.12",
+      "change": 2.0
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73033.78,
-      "change": 1.54
+      "value": 71924.68,
+      "change": -0.76
     },
     "NIFTY_IT": {
-      "value": 29830.1,
-      "change": 5.22
+      "value": 28349.6,
+      "change": -0.79
     },
     "SP500": {
-      "value": 7795.87,
-      "change": -0.15
+      "value": 7805.45,
+      "change": -0.02
     },
     "USD_INR": {
-      "value": 95.27,
-      "change": -1.6
+      "value": 95.28,
+      "change": -1.55
     },
     "EUR_INR": {
-      "value": 106.61,
-      "change": -1.7
+      "value": 106.71,
+      "change": 1.55
     }
   },
   "historical": {
@@ -169,7 +169,7 @@
         2080.0,
         2076.0,
         2156.0,
-        2269.0
+        2125.0
       ],
       "dl": [
         "Sep 23",
@@ -184,7 +184,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         3467.0,
@@ -305,7 +305,7 @@
         992.0,
         997.0,
         1023.0,
-        1062.0
+        1020.0
       ],
       "dl": [
         "Sep 23",
@@ -320,7 +320,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         1422.0,
@@ -581,7 +581,7 @@
         1185.0,
         1177.0,
         1217.0,
-        1326.0
+        1223.0
       ],
       "dl": [
         "Sep 23",
@@ -596,7 +596,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         1315.0,
@@ -717,7 +717,7 @@
         160.0,
         158.0,
         163.0,
-        169.0
+        162.0
       ],
       "dl": [
         "Sep 23",
@@ -732,7 +732,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         218.0,
@@ -853,7 +853,7 @@
         1491.0,
         1496.0,
         1514.0,
-        1544.0
+        1471.0
       ],
       "dl": [
         "Sep 23",
@@ -868,7 +868,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         1173.0,
@@ -989,7 +989,7 @@
         3930.0,
         3915.0,
         4070.0,
-        4215.0
+        4019.0
       ],
       "dl": [
         "Sep 23",
@@ -1004,7 +1004,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         6057.0,
@@ -1125,7 +1125,7 @@
         2289.0,
         2303.0,
         2360.0,
-        2466.0
+        2354.0
       ],
       "dl": [
         "Sep 23",
@@ -1140,7 +1140,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         2561.0,
@@ -1261,7 +1261,7 @@
         5507.0,
         5468.0,
         5770.0,
-        5988.0
+        5787.0
       ],
       "dl": [
         "Sep 23",
@@ -1276,7 +1276,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         3625.0,
@@ -1397,7 +1397,7 @@
         1822.0,
         1814.0,
         1868.0,
-        1929.0
+        1847.0
       ],
       "dl": [
         "Sep 23",
@@ -1412,7 +1412,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         1222.0,
@@ -1535,7 +1535,7 @@
         208.0,
         209.0,
         215.0,
-        215.0
+        214.0
       ],
       "dl": [
         "Sep 23",
@@ -1674,6 +1674,7 @@
         111.0,
         111.0,
         115.0,
+        115.0,
         119.0
       ],
       "dl": [
@@ -1690,6 +1691,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
+        "Oct 12",
         "Oct 13"
       ],
       "mp": [
@@ -1812,6 +1814,7 @@
         22.0,
         21.0,
         21.0,
+        22.0,
         22.0
       ],
       "dl": [
@@ -1828,6 +1831,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
+        "Oct 12",
         "Oct 13"
       ],
       "mp": [
@@ -2164,6 +2168,24 @@
   },
   "news": [
     {
+      "time": "2026-10-12 20:39",
+      "tk": "HCLT",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "HCLTech Q2 revenue up 2.2%, narrows FY27 guidance",
+      "detail": "MUMBAI: HCLTech's dollar revenue rose to $3.7 billion in the Sept quarter, up 2% sequentially and 2.2% year-on-year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/hcltech-q2-revenue-up-2-2-narrows-fy27-guidance/articleshow/134902134.cms"
+    },
+    {
+      "time": "2026-10-12 18:37",
+      "tk": "HCLT",
+      "src": "PRNewswire",
+      "cat": "RESULTS",
+      "hl": "HCLTech delivers strong Q2 led by record deal bookings of $3.3 billion",
+      "detail": "EBIT margin expands to 18.2%; annualized advanced AI revenue at $876M NEW YORK and NOIDA, India, Oct. 12, 2026 /PRNewswire/ -- HCLTech (NSE: HCLTECH) (BSE: HCLTECH), a leading global technology company, today reported financial results for the quarter ended S\u2026",
+      "url": "https://www.prnewswire.com/news-releases/hcltech-delivers-strong-q2-led-by-record-deal-bookings-of-3-3-billion-302906028.html"
+    },
+    {
       "time": "2026-10-12 17:13",
       "tk": "HCLT",
       "src": "Livemint",
@@ -2191,15 +2213,6 @@
       "url": "https://www.business-standard.com/markets/news/it-telecom-stocks-decline-as-market-selloff-resumes-amid-fii-outflows-126101201190_1.html"
     },
     {
-      "time": "2026-10-12 14:56",
-      "tk": "HCLT",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "Powered by AI, HCLTech net profit rises 21% y-o-y to \u20b95,132 crore in Q2FY27",
-      "detail": "HCLTech posts 21% y-o-y profit rise to \u20b95,132 crore, raises FY27 revenue growth guidance; expands AI partnerships and advanced AI services.",
-      "url": "https://www.thehindubusinessline.com/companies/powered-by-ai-hcltech-net-profit-rises-21-y-o-y-to-5132-crore-in-q2fy27/article71575751.ece"
-    },
-    {
       "time": "2026-10-11 06:14",
       "tk": "WIPRO",
       "src": "The Times of India",
@@ -2216,6 +2229,15 @@
       "hl": "NTT DATA Business Solutions launches \"Elevate\", its Agentic AI-powered delivery framework, to help accelerate SAP transformations",
       "detail": "Next-generation delivery initiative combines AI-powered execution, intelligent solutions and adoption services BIELEFELD, Germany, Oct. 12, 2026 /PRNewswire/ -- NTT DATA Business Solutions, a leading global IT service provider and specialist in SAP solutions,\u2026",
       "url": "https://www.prnewswire.com/news-releases/ntt-data-business-solutions-launches-elevate-its-agentic-ai-powered-delivery-framework-to-help-accelerate-sap-transformations-302905553.html"
+    },
+    {
+      "time": "2026-10-12 14:56",
+      "tk": "HCLT",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "Powered by AI, HCLTech net profit rises 21% y-o-y to \u20b95,132 crore in Q2FY27",
+      "detail": "HCLTech posts 21% y-o-y profit rise to \u20b95,132 crore, raises FY27 revenue growth guidance; expands AI partnerships and advanced AI services.",
+      "url": "https://www.thehindubusinessline.com/companies/powered-by-ai-hcltech-net-profit-rises-21-y-o-y-to-5132-crore-in-q2fy27/article71575751.ece"
     },
     {
       "time": "2026-10-12 13:42",
@@ -3129,9 +3151,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.119695,
+    "EUR": 1.120323,
     "JPY": 0.006315,
-    "CAD": 0.703532,
-    "INR": 0.010496
+    "CAD": 0.703334,
+    "INR": 0.010495
   }
 }
