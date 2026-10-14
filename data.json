@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-14T15:46:08.806859+00:00",
-  "updated_display": "14 Oct 2026, 15:46 UTC",
+  "updated": "2026-10-14T20:16:30.587237+00:00",
+  "updated_display": "14 Oct 2026, 20:16 UTC",
   "prices": {
     "TCS": {
-      "price": 2304.9,
-      "display": "\u20b92,305",
-      "change": 2.1
+      "price": 2257.3,
+      "display": "\u20b92,257",
+      "change": 6.8
     },
     "INFY": {
-      "price": 1088.0,
-      "display": "\u20b91,088",
-      "change": 2.4
+      "price": 1062.1,
+      "display": "\u20b91,062",
+      "change": 4.1
     },
     "CTSH": {
-      "price": 62.62,
-      "display": "$62.62",
-      "change": 2.1
+      "price": 62.47,
+      "display": "$62.47",
+      "change": 1.9
     },
     "HCLT": {
-      "price": 1327.0,
-      "display": "\u20b91,327",
-      "change": 0.1
+      "price": 1326.0,
+      "display": "\u20b91,326",
+      "change": 8.4
     },
     "WIPRO": {
-      "price": 170.92,
-      "display": "\u20b9171",
-      "change": 1.1
+      "price": 169.0,
+      "display": "\u20b9169",
+      "change": 4.4
     },
     "TECHM": {
-      "price": 1575.2,
-      "display": "\u20b91,575",
-      "change": 2.1
+      "price": 1543.5,
+      "display": "\u20b91,544",
+      "change": 4.9
     },
     "LTIM": {
-      "price": 4226.1,
-      "display": "\u20b94,226",
-      "change": 0.3
+      "price": 4215.0,
+      "display": "\u20b94,215",
+      "change": 4.9
     },
     "MPHL": {
-      "price": 2435.3,
-      "display": "\u20b92,435",
-      "change": -1.3
+      "price": 2466.3,
+      "display": "\u20b92,466",
+      "change": 4.8
     },
     "PSYS": {
-      "price": 5898.0,
-      "display": "\u20b95,898",
-      "change": -1.5
+      "price": 5988.0,
+      "display": "\u20b95,988",
+      "change": 3.5
     },
     "COFG": {
-      "price": 1928.0,
-      "display": "\u20b91,928",
-      "change": -0.1
+      "price": 1929.0,
+      "display": "\u20b91,929",
+      "change": 4.5
     },
     "ACN": {
-      "price": 216.74,
-      "display": "$217",
-      "change": 1.5
+      "price": 214.96,
+      "display": "$215",
+      "change": 0.7
     },
     "CAP": {
-      "price": 118.15,
+      "price": 118.0,
       "display": "\u20ac118",
-      "change": -1.0
+      "change": -1.1
     },
     "ATOS": {
-      "price": 22.1,
-      "display": "\u20ac22.10",
-      "change": 2.1
+      "price": 22.0,
+      "display": "\u20ac22.00",
+      "change": 1.7
     },
     "DXC": {
-      "price": 12.69,
-      "display": "$12.69",
-      "change": -0.7
+      "price": 12.79,
+      "display": "$12.79",
+      "change": 0.2
     },
     "GIB": {
-      "price": 72.2,
-      "display": "$72.20",
-      "change": 0.1
+      "price": 72.35,
+      "display": "$72.35",
+      "change": 0.3
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72781.89,
-      "change": -0.34
+      "value": 73033.78,
+      "change": 1.54
     },
     "NIFTY_IT": {
-      "value": 30171.0,
-      "change": 1.14
+      "value": 29830.1,
+      "change": 5.22
     },
     "SP500": {
-      "value": 7730.79,
-      "change": -0.96
+      "value": 7718.94,
+      "change": -1.11
     },
     "USD_INR": {
       "value": 95.14,
       "change": -0.66
     },
     "EUR_INR": {
-      "value": 105.89,
-      "change": -0.86
+      "value": 106.11,
+      "change": -0.65
     }
   },
   "historical": {
@@ -169,8 +169,7 @@
         2065.0,
         2145.0,
         2114.0,
-        2257.0,
-        2305.0
+        2257.0
       ],
       "dl": [
         "Sep 24",
@@ -185,8 +184,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         3448.0,
@@ -307,8 +305,7 @@
         997.0,
         1023.0,
         1020.0,
-        1062.0,
-        1088.0
+        1062.0
       ],
       "dl": [
         "Sep 24",
@@ -323,8 +320,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         1422.0,
@@ -447,7 +443,7 @@
         59.0,
         60.0,
         61.0,
-        63.0
+        62.0
       ],
       "dl": [
         "Sep 24",
@@ -585,8 +581,7 @@
         1177.0,
         1217.0,
         1223.0,
-        1326.0,
-        1327.0
+        1326.0
       ],
       "dl": [
         "Sep 24",
@@ -601,8 +596,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         1315.0,
@@ -723,8 +717,7 @@
         158.0,
         163.0,
         162.0,
-        169.0,
-        171.0
+        169.0
       ],
       "dl": [
         "Sep 24",
@@ -739,8 +732,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         218.0,
@@ -861,8 +853,7 @@
         1496.0,
         1514.0,
         1471.0,
-        1544.0,
-        1575.0
+        1544.0
       ],
       "dl": [
         "Sep 24",
@@ -877,8 +868,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         1173.0,
@@ -999,8 +989,7 @@
         3915.0,
         4070.0,
         4019.0,
-        4215.0,
-        4226.0
+        4215.0
       ],
       "dl": [
         "Sep 24",
@@ -1015,8 +1004,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         6057.0,
@@ -1137,8 +1125,7 @@
         2303.0,
         2360.0,
         2354.0,
-        2466.0,
-        2435.0
+        2466.0
       ],
       "dl": [
         "Sep 24",
@@ -1153,8 +1140,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         2561.0,
@@ -1275,8 +1261,7 @@
         5468.0,
         5770.0,
         5787.0,
-        5988.0,
-        5898.0
+        5988.0
       ],
       "dl": [
         "Sep 24",
@@ -1291,8 +1276,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         3625.0,
@@ -1413,8 +1397,7 @@
         1814.0,
         1868.0,
         1847.0,
-        1929.0,
-        1928.0
+        1929.0
       ],
       "dl": [
         "Sep 24",
@@ -1429,8 +1412,7 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13",
-        "Oct 14"
+        "Oct 13"
       ],
       "mp": [
         1222.0,
@@ -1553,7 +1535,7 @@
         207.0,
         213.0,
         214.0,
-        217.0
+        215.0
       ],
       "dl": [
         "Sep 24",
@@ -2186,31 +2168,31 @@
   },
   "news": [
     {
-      "time": "2026-10-13 15:04",
-      "tk": "WIPRO",
-      "src": "Livemint",
-      "cat": "PEOPLE",
-      "hl": "'80% workforce locally hired': Wipro sees no material business impact from US suspension of PERM applications",
-      "detail": "The company said the announcement concerns a specific pathway to permanent residency in the US and is distinct from broader skilled talent mobility programmes, such as the H-1B visa.",
-      "url": "https://www.livemint.com/companies/news/80-workforce-locally-hired-wipro-sees-no-material-business-impact-from-us-suspension-of-perm-applications-11791903504114.html"
-    },
-    {
-      "time": "2026-10-13 15:02",
-      "tk": "NTTD",
+      "time": "2026-10-13 16:24",
+      "tk": "INFY",
       "src": "Business Standard",
       "cat": "AI",
-      "hl": "Data centre demand to outstrip supply as AI usage grows, say experts",
-      "detail": "NTT Data and Brookfield executives expect strong data centre demand amid rising AI adoption, but warn that power infrastructure, skilled talent and capacity constraints pose challenges",
-      "url": "https://www.business-standard.com/technology/tech-news/data-centre-demand-to-outstrip-supply-as-ai-usage-grows-say-experts-126101301194_1.html"
+      "hl": "AI helps Infosys' Finacle suite reduce friction in its sales process",
+      "detail": "Infosys Finacle is using AI to reduce sales process time by 60-70 per cent, while deploying multiple language models to improve banking efficiency and control costs",
+      "url": "https://www.business-standard.com/companies/news/ai-helps-infosys-finacle-suite-reduce-friction-in-its-sales-process-126101201006_1.html"
     },
     {
-      "time": "2026-10-13 13:29",
+      "time": "2026-10-13 16:19",
       "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "AI services may account for almost half of Infosys' work in 2-3 years: CEO Salil Parekh",
-      "detail": "Parekh said the business, which includes building AI agents, coding work and modernising old technology for clients, is small relative to the company's size but growing so fast that it could account for 20-30% of Infosys' work within a few quarters if the cur\u2026",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-services-may-account-for-almost-half-of-infosys-work-in-2-3-years-ceo-salil-parekh/articleshow/134919388.cms"
+      "src": "The Next Web",
+      "cat": "AI",
+      "hl": "Data centre firms say the AI bottleneck is now power and labour",
+      "detail": "Executives from NTT Data, Brookfield and Infosys say electricity and skilled labour, not chips, now limit how fast AI data centres get built. In Europe the binding constraint is worse, with grid connections in congested markets running to ten years. The thing\u2026",
+      "url": "https://thenextweb.com/news/ai-data-centre-power-talent"
+    },
+    {
+      "time": "2026-10-13 17:24",
+      "tk": "CAP",
+      "src": "Forrester.com",
+      "cat": "AI",
+      "hl": "Capgemini SPARK 2026: AI Makes The Task Cheap. Redesign The Enterprise For Outsized Value",
+      "detail": "Enterprise AI conversations have moved from experimentation to implementation. At Capgemini SPARK 2026, the focus shifted: from implementation to value realization. The gathering explored \u201cMake It Real: From Action to Value,\u201d and how organizations apply AI at\u2026",
+      "url": "https://www.forrester.com/blogs/capgemini-spark-2026-ai-makes-the-task-cheap-redesign-the-enterprise-for-outsized-value/"
     },
     {
       "time": "2026-10-13 14:39",
@@ -2258,6 +2240,15 @@
       "url": "https://www.business-standard.com/markets/news/it-telecom-stocks-decline-as-market-selloff-resumes-amid-fii-outflows-126101201190_1.html"
     },
     {
+      "time": "2026-10-13 15:02",
+      "tk": "NTTD",
+      "src": "Business Standard",
+      "cat": "AI",
+      "hl": "Data centre demand to outstrip supply as AI usage grows, say experts",
+      "detail": "NTT Data and Brookfield executives expect strong data centre demand amid rising AI adoption, but warn that power infrastructure, skilled talent and capacity constraints pose challenges",
+      "url": "https://www.business-standard.com/technology/tech-news/data-centre-demand-to-outstrip-supply-as-ai-usage-grows-say-experts-126101301194_1.html"
+    },
+    {
       "time": "2026-10-13 08:12",
       "tk": "NTTD",
       "src": "The Next Web",
@@ -2265,6 +2256,15 @@
       "hl": "NTT Data reportedly nears deal to build Anthropic\u2019s first Japan data centre",
       "detail": "NTT Data Group is close to agreeing to a deal with Anthropic for a new data centre in Osaka, Nikkei Asia reported\u00a0on Tuesday, citing multiple sources. It would be the first site in Japan built just for Anthropic, which makes the Claude AI models. TNW has not \u2026",
       "url": "https://thenextweb.com/news/ntt-data-anthropic-osaka-data-centre"
+    },
+    {
+      "time": "2026-10-13 13:29",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "DEAL",
+      "hl": "AI services may account for almost half of Infosys' work in 2-3 years: CEO Salil Parekh",
+      "detail": "Parekh said the business, which includes building AI agents, coding work and modernising old technology for clients, is small relative to the company's size but growing so fast that it could account for 20-30% of Infosys' work within a few quarters if the cur\u2026",
+      "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-services-may-account-for-almost-half-of-infosys-work-in-2-3-years-ceo-salil-parekh/articleshow/134919388.cms"
     },
     {
       "time": "2026-10-13 12:47",
@@ -3205,9 +3205,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.112718,
-    "JPY": 0.006302,
-    "CAD": 0.700496,
+    "EUR": 1.115947,
+    "JPY": 0.006316,
+    "CAD": 0.702237,
     "INR": 0.010511
   }
 }
