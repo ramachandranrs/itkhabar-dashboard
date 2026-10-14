@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-13T21:23:38.465812+00:00",
-  "updated_display": "13 Oct 2026, 21:23 UTC",
+  "updated": "2026-10-14T02:03:55.376676+00:00",
+  "updated_display": "14 Oct 2026, 02:03 UTC",
   "prices": {
     "TCS": {
-      "price": 2125.0,
-      "display": "\u20b92,125",
-      "change": -1.4
+      "price": 2257.3,
+      "display": "\u20b92,257",
+      "change": 6.8
     },
     "INFY": {
-      "price": 1020.0,
-      "display": "\u20b91,020",
-      "change": -0.3
+      "price": 1062.1,
+      "display": "\u20b91,062",
+      "change": 4.1
     },
     "CTSH": {
       "price": 61.33,
@@ -18,19 +18,19 @@
       "change": 2.8
     },
     "HCLT": {
-      "price": 1223.0,
-      "display": "\u20b91,223",
-      "change": 0.5
+      "price": 1326.0,
+      "display": "\u20b91,326",
+      "change": 8.4
     },
     "WIPRO": {
-      "price": 161.8,
-      "display": "\u20b9162",
-      "change": -0.5
+      "price": 169.0,
+      "display": "\u20b9169",
+      "change": 4.4
     },
     "TECHM": {
-      "price": 1471.0,
-      "display": "\u20b91,471",
-      "change": -2.8
+      "price": 1543.5,
+      "display": "\u20b91,544",
+      "change": 4.9
     },
     "LTIM": {
       "price": 4018.9,
@@ -38,34 +38,34 @@
       "change": -1.3
     },
     "MPHL": {
-      "price": 2353.5,
-      "display": "\u20b92,354",
-      "change": -0.3
+      "price": 2466.3,
+      "display": "\u20b92,466",
+      "change": 4.8
     },
     "PSYS": {
-      "price": 5787.0,
-      "display": "\u20b95,787",
-      "change": 0.3
+      "price": 5988.0,
+      "display": "\u20b95,988",
+      "change": 3.5
     },
     "COFG": {
-      "price": 1846.6,
-      "display": "\u20b91,847",
-      "change": -1.1
+      "price": 1929.0,
+      "display": "\u20b91,929",
+      "change": 4.5
     },
     "ACN": {
       "price": 213.56,
       "display": "$214",
-      "change": -0.6
+      "change": 0.2
     },
     "CAP": {
-      "price": 119.3,
-      "display": "\u20ac119",
-      "change": 3.4
+      "price": 115.35,
+      "display": "\u20ac115",
+      "change": 0.3
     },
     "ATOS": {
-      "price": 21.64,
-      "display": "\u20ac21.64",
-      "change": -1.6
+      "price": 22.0,
+      "display": "\u20ac22.00",
+      "change": 4.0
     },
     "DXC": {
       "price": 12.77,
@@ -80,40 +80,40 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 71924.68,
-      "change": -0.76
+      "value": 73033.78,
+      "change": 1.54
     },
     "NIFTY_IT": {
-      "value": 28349.6,
-      "change": -0.79
+      "value": 29830.1,
+      "change": 5.22
     },
     "SP500": {
       "value": 7805.45,
       "change": -0.02
     },
     "USD_INR": {
-      "value": 95.28,
-      "change": -1.55
+      "value": 95.78,
+      "change": -1.03
     },
     "EUR_INR": {
-      "value": 106.71,
-      "change": 1.55
+      "value": 106.8,
+      "change": 1.64
     }
   },
   "historical": {
     "TCS": {
       "qp": [
-        3467.0,
-        3567.0,
-        3619.0,
-        3966.0,
-        3814.0,
-        3420.0,
-        3313.0,
-        2773.0,
-        3090.0,
-        2315.0,
-        2020.0,
+        3448.0,
+        3548.0,
+        3600.0,
+        3945.0,
+        3793.0,
+        3402.0,
+        3295.0,
+        2759.0,
+        3074.0,
+        2302.0,
+        2010.0,
         2189.0
       ],
       "ql": [
@@ -131,17 +131,17 @@
         "Q3'26"
       ],
       "wp": [
-        2269.0,
-        2254.0,
-        2366.0,
-        2453.0,
-        2361.0,
-        2302.0,
-        2342.0,
-        2304.0,
-        2201.0,
-        2105.0,
-        2105.0
+        2257.0,
+        2242.0,
+        2353.0,
+        2440.0,
+        2349.0,
+        2290.0,
+        2330.0,
+        2292.0,
+        2189.0,
+        2094.0,
+        2079.0
       ],
       "wl": [
         "Jul 17",
@@ -157,22 +157,21 @@
         "Sep 25"
       ],
       "dp": [
-        2090.0,
-        2087.0,
-        2082.0,
-        2071.0,
-        2032.0,
-        2051.0,
-        2075.0,
-        2114.0,
-        2100.0,
-        2080.0,
         2076.0,
-        2156.0,
-        2125.0
+        2071.0,
+        2060.0,
+        2022.0,
+        2040.0,
+        2064.0,
+        2103.0,
+        2089.0,
+        2069.0,
+        2065.0,
+        2145.0,
+        2114.0,
+        2257.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -184,32 +183,33 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
-        3467.0,
-        3567.0,
-        3619.0,
-        3966.0,
-        3814.0,
-        3420.0,
-        3313.0,
-        2773.0,
-        3090.0,
-        2315.0,
-        2020.0,
-        2189.0,
-        2269.0,
-        2254.0,
-        2366.0,
-        2453.0,
-        2361.0,
+        3448.0,
+        3548.0,
+        3600.0,
+        3945.0,
+        3793.0,
+        3402.0,
+        3295.0,
+        2759.0,
+        3074.0,
         2302.0,
-        2342.0,
-        2304.0,
-        2201.0,
-        2105.0,
-        2105.0
+        2010.0,
+        2189.0,
+        2257.0,
+        2242.0,
+        2353.0,
+        2440.0,
+        2349.0,
+        2290.0,
+        2330.0,
+        2292.0,
+        2189.0,
+        2094.0,
+        2079.0
       ],
       "ml": [
         "Q4'23",
@@ -250,7 +250,7 @@
         1581.0,
         1224.0,
         1000.0,
-        1076.0
+        1082.0
       ],
       "ql": [
         "Q4'23",
@@ -277,7 +277,7 @@
         1130.0,
         1038.0,
         1051.0,
-        1029.0
+        1020.0
       ],
       "wl": [
         "Jul 17",
@@ -293,7 +293,6 @@
         "Sep 25"
       ],
       "dp": [
-        1020.0,
         1014.0,
         1000.0,
         1003.0,
@@ -305,10 +304,10 @@
         992.0,
         997.0,
         1023.0,
-        1020.0
+        1020.0,
+        1062.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -320,7 +319,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         1422.0,
@@ -334,7 +334,7 @@
         1581.0,
         1224.0,
         1000.0,
-        1076.0,
+        1082.0,
         1096.0,
         1041.0,
         1130.0,
@@ -345,7 +345,7 @@
         1130.0,
         1038.0,
         1051.0,
-        1029.0
+        1020.0
       ],
       "ml": [
         "Q4'23",
@@ -386,7 +386,7 @@
         82.0,
         61.0,
         39.0,
-        43.0
+        44.0
       ],
       "ql": [
         "Q4'23",
@@ -429,7 +429,6 @@
         "Sep 25"
       ],
       "dp": [
-        59.0,
         57.0,
         57.0,
         57.0,
@@ -446,7 +445,6 @@
         61.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -474,7 +472,7 @@
         82.0,
         61.0,
         39.0,
-        43.0,
+        44.0,
         45.0,
         45.0,
         55.0,
@@ -526,7 +524,7 @@
         1565.0,
         1303.0,
         1061.0,
-        1156.0
+        1175.0
       ],
       "ql": [
         "Q4'23",
@@ -553,7 +551,7 @@
         1293.0,
         1206.0,
         1249.0,
-        1270.0
+        1257.0
       ],
       "wl": [
         "Jul 17",
@@ -569,7 +567,6 @@
         "Sep 25"
       ],
       "dp": [
-        1257.0,
         1244.0,
         1258.0,
         1253.0,
@@ -581,10 +578,10 @@
         1185.0,
         1177.0,
         1217.0,
-        1223.0
+        1223.0,
+        1326.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -596,7 +593,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         1315.0,
@@ -610,7 +608,7 @@
         1565.0,
         1303.0,
         1061.0,
-        1156.0,
+        1175.0,
         1204.0,
         1271.0,
         1347.0,
@@ -621,7 +619,7 @@
         1293.0,
         1206.0,
         1249.0,
-        1270.0
+        1257.0
       ],
       "ml": [
         "Q4'23",
@@ -662,7 +660,7 @@
         254.0,
         186.0,
         168.0,
-        173.0
+        176.0
       ],
       "ql": [
         "Q4'23",
@@ -689,7 +687,7 @@
         176.0,
         167.0,
         167.0,
-        166.0
+        165.0
       ],
       "wl": [
         "Jul 17",
@@ -705,7 +703,6 @@
         "Sep 25"
       ],
       "dp": [
-        165.0,
         164.0,
         164.0,
         162.0,
@@ -717,10 +714,10 @@
         160.0,
         158.0,
         163.0,
-        162.0
+        162.0,
+        169.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -732,7 +729,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         218.0,
@@ -746,7 +744,7 @@
         254.0,
         186.0,
         168.0,
-        173.0,
+        176.0,
         174.0,
         175.0,
         184.0,
@@ -757,7 +755,7 @@
         176.0,
         167.0,
         167.0,
-        166.0
+        165.0
       ],
       "ml": [
         "Q4'23",
@@ -798,7 +796,7 @@
         1551.0,
         1349.0,
         1369.0,
-        1499.0
+        1510.0
       ],
       "ql": [
         "Q4'23",
@@ -825,7 +823,7 @@
         1597.0,
         1541.0,
         1537.0,
-        1552.0
+        1557.0
       ],
       "wl": [
         "Jul 17",
@@ -841,7 +839,6 @@
         "Sep 25"
       ],
       "dp": [
-        1557.0,
         1543.0,
         1548.0,
         1542.0,
@@ -853,10 +850,10 @@
         1491.0,
         1496.0,
         1514.0,
-        1471.0
+        1471.0,
+        1544.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -868,7 +865,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         1173.0,
@@ -882,7 +880,7 @@
         1551.0,
         1349.0,
         1369.0,
-        1499.0,
+        1510.0,
         1573.0,
         1560.0,
         1651.0,
@@ -893,7 +891,7 @@
         1597.0,
         1541.0,
         1537.0,
-        1552.0
+        1557.0
       ],
       "ml": [
         "Q4'23",
@@ -934,7 +932,7 @@
         5983.0,
         3961.0,
         3538.0,
-        4051.0
+        4060.0
       ],
       "ql": [
         "Q4'23",
@@ -961,7 +959,7 @@
         4554.0,
         4275.0,
         4275.0,
-        4158.0
+        4085.0
       ],
       "wl": [
         "Jul 17",
@@ -977,7 +975,6 @@
         "Sep 25"
       ],
       "dp": [
-        4085.0,
         4038.0,
         4083.0,
         4091.0,
@@ -992,7 +989,6 @@
         4019.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -1018,7 +1014,7 @@
         5983.0,
         3961.0,
         3538.0,
-        4051.0,
+        4060.0,
         4076.0,
         4092.0,
         4362.0,
@@ -1029,7 +1025,7 @@
         4554.0,
         4275.0,
         4275.0,
-        4158.0
+        4085.0
       ],
       "ml": [
         "Q4'23",
@@ -1070,7 +1066,7 @@
         2718.0,
         1999.0,
         2105.0,
-        2339.0
+        2352.0
       ],
       "ql": [
         "Q4'23",
@@ -1097,7 +1093,7 @@
         2422.0,
         2295.0,
         2300.0,
-        2265.0
+        2259.0
       ],
       "wl": [
         "Jul 17",
@@ -1113,7 +1109,6 @@
         "Sep 25"
       ],
       "dp": [
-        2259.0,
         2248.0,
         2234.0,
         2238.0,
@@ -1125,10 +1120,10 @@
         2289.0,
         2303.0,
         2360.0,
-        2354.0
+        2354.0,
+        2466.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -1140,7 +1135,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         2561.0,
@@ -1154,7 +1150,7 @@
         2718.0,
         1999.0,
         2105.0,
-        2339.0,
+        2352.0,
         2394.0,
         2288.0,
         2342.0,
@@ -1165,7 +1161,7 @@
         2422.0,
         2295.0,
         2300.0,
-        2265.0
+        2259.0
       ],
       "ml": [
         "Q4'23",
@@ -1206,7 +1202,7 @@
         6228.0,
         4860.0,
         4312.0,
-        5058.0
+        5042.0
       ],
       "ql": [
         "Q4'23",
@@ -1233,7 +1229,7 @@
         5643.0,
         5516.0,
         5416.0,
-        5366.0
+        5240.0
       ],
       "wl": [
         "Jul 17",
@@ -1249,7 +1245,6 @@
         "Sep 25"
       ],
       "dp": [
-        5240.0,
         5277.0,
         5372.0,
         5328.0,
@@ -1261,10 +1256,10 @@
         5507.0,
         5468.0,
         5770.0,
-        5787.0
+        5787.0,
+        5988.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -1276,7 +1271,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         3625.0,
@@ -1290,7 +1286,7 @@
         6228.0,
         4860.0,
         4312.0,
-        5058.0,
+        5042.0,
         5166.0,
         5182.0,
         5549.0,
@@ -1301,7 +1297,7 @@
         5643.0,
         5516.0,
         5416.0,
-        5366.0
+        5240.0
       ],
       "ml": [
         "Q4'23",
@@ -1342,7 +1338,7 @@
         1655.0,
         1112.0,
         1462.0,
-        1530.0
+        1527.0
       ],
       "ql": [
         "Q4'23",
@@ -1369,7 +1365,7 @@
         1973.0,
         1846.0,
         1841.0,
-        1803.0
+        1782.0
       ],
       "wl": [
         "Jul 17",
@@ -1385,7 +1381,6 @@
         "Sep 25"
       ],
       "dp": [
-        1782.0,
         1786.0,
         1784.0,
         1773.0,
@@ -1397,10 +1392,10 @@
         1822.0,
         1814.0,
         1868.0,
-        1847.0
+        1847.0,
+        1929.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -1412,7 +1407,8 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12"
+        "Oct 12",
+        "Oct 13"
       ],
       "mp": [
         1222.0,
@@ -1426,7 +1422,7 @@
         1655.0,
         1112.0,
         1462.0,
-        1530.0,
+        1527.0,
         1505.0,
         1481.0,
         1717.0,
@@ -1437,7 +1433,7 @@
         1973.0,
         1846.0,
         1841.0,
-        1803.0
+        1782.0
       ],
       "ml": [
         "Q4'23",
@@ -1467,18 +1463,18 @@
     },
     "ACN": {
       "qp": [
-        334.0,
         331.0,
-        291.0,
-        340.0,
-        340.0,
-        303.0,
-        291.0,
-        242.0,
-        263.0,
-        194.0,
-        123.0,
-        137.0
+        328.0,
+        288.0,
+        337.0,
+        337.0,
+        300.0,
+        289.0,
+        240.0,
+        261.0,
+        193.0,
+        122.0,
+        143.0
       ],
       "ql": [
         "Q4'23",
@@ -1495,17 +1491,17 @@
         "Q3'26"
       ],
       "wp": [
-        144.0,
-        147.0,
-        166.0,
-        176.0,
-        177.0,
-        185.0,
-        190.0,
-        187.0,
+        142.0,
+        146.0,
+        165.0,
+        174.0,
+        175.0,
         184.0,
-        181.0,
-        184.0
+        188.0,
+        185.0,
+        182.0,
+        180.0,
+        182.0
       ],
       "wl": [
         "Jul 17",
@@ -1521,24 +1517,22 @@
         "Sep 25"
       ],
       "dp": [
-        184.0,
-        177.0,
         176.0,
-        174.0,
-        177.0,
-        183.0,
-        212.0,
-        199.0,
-        195.0,
-        193.0,
+        175.0,
+        173.0,
+        176.0,
+        182.0,
+        211.0,
         197.0,
-        208.0,
-        209.0,
-        215.0,
+        193.0,
+        192.0,
+        195.0,
+        207.0,
+        207.0,
+        213.0,
         214.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -1555,29 +1549,29 @@
         "Oct 13"
       ],
       "mp": [
-        334.0,
         331.0,
-        291.0,
-        340.0,
-        340.0,
-        303.0,
-        291.0,
-        242.0,
-        263.0,
-        194.0,
-        123.0,
-        137.0,
-        144.0,
-        147.0,
-        166.0,
-        176.0,
-        177.0,
-        185.0,
-        190.0,
-        187.0,
+        328.0,
+        288.0,
+        337.0,
+        337.0,
+        300.0,
+        289.0,
+        240.0,
+        261.0,
+        193.0,
+        122.0,
+        143.0,
+        142.0,
+        146.0,
+        165.0,
+        174.0,
+        175.0,
         184.0,
-        181.0,
-        184.0
+        188.0,
+        185.0,
+        182.0,
+        180.0,
+        182.0
       ],
       "ml": [
         "Q4'23",
@@ -1618,7 +1612,7 @@
         138.0,
         97.0,
         88.0,
-        93.0
+        91.0
       ],
       "ql": [
         "Q4'23",
@@ -1661,7 +1655,6 @@
         "Sep 25"
       ],
       "dp": [
-        106.0,
         104.0,
         104.0,
         103.0,
@@ -1674,11 +1667,9 @@
         111.0,
         111.0,
         115.0,
-        115.0,
-        119.0
+        115.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -1691,8 +1682,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         176.0,
@@ -1706,7 +1696,7 @@
         138.0,
         97.0,
         88.0,
-        93.0,
+        91.0,
         91.0,
         90.0,
         102.0,
@@ -1758,7 +1748,7 @@
         50.0,
         34.0,
         34.0,
-        33.0
+        31.0
       ],
       "ql": [
         "Q4'23",
@@ -1801,7 +1791,6 @@
         "Sep 25"
       ],
       "dp": [
-        24.0,
         23.0,
         22.0,
         22.0,
@@ -1814,11 +1803,9 @@
         22.0,
         21.0,
         21.0,
-        22.0,
         22.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -1831,8 +1818,7 @@
         "Oct 7",
         "Oct 8",
         "Oct 9",
-        "Oct 12",
-        "Oct 13"
+        "Oct 12"
       ],
       "mp": [
         524.0,
@@ -1846,7 +1832,7 @@
         50.0,
         34.0,
         34.0,
-        33.0,
+        31.0,
         30.0,
         30.0,
         32.0,
@@ -1943,7 +1929,6 @@
       "dp": [
         11.0,
         11.0,
-        11.0,
         10.0,
         10.0,
         11.0,
@@ -1958,7 +1943,6 @@
         13.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -2038,7 +2022,7 @@
         92.0,
         73.0,
         64.0,
-        66.0
+        68.0
       ],
       "ql": [
         "Q4'23",
@@ -2081,7 +2065,6 @@
         "Sep 25"
       ],
       "dp": [
-        69.0,
         68.0,
         68.0,
         68.0,
@@ -2098,7 +2081,6 @@
         72.0
       ],
       "dl": [
-        "Sep 23",
         "Sep 24",
         "Sep 25",
         "Sep 28",
@@ -2126,7 +2108,7 @@
         92.0,
         73.0,
         64.0,
-        66.0,
+        68.0,
         68.0,
         66.0,
         73.0,
@@ -2168,31 +2150,22 @@
   },
   "news": [
     {
-      "time": "2026-10-12 20:39",
+      "time": "2026-10-13 01:54",
       "tk": "HCLT",
       "src": "The Times of India",
       "cat": "RESULTS",
-      "hl": "HCLTech Q2 revenue up 2.2%, narrows FY27 guidance",
-      "detail": "MUMBAI: HCLTech's dollar revenue rose to $3.7 billion in the Sept quarter, up 2% sequentially and 2.2% year-on-year.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/hcltech-q2-revenue-up-2-2-narrows-fy27-guidance/articleshow/134902134.cms"
+      "hl": "HCL Tech sees revenue rebound, but AI deflation remains a concern",
+      "detail": "HCL Technologies recorded a 2% increase in revenue during the September quarter, following two quarters of decline. The company secured new deals worth $3,258 million, indicating strong demand despite global uncertainties. While there is cautious optimism reg\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/hcl-tech-stays-cautious-amid-global-upheavals-ai-deflation/articleshow/134905880.cms"
     },
     {
-      "time": "2026-10-12 18:37",
+      "time": "2026-10-13 01:53",
       "tk": "HCLT",
-      "src": "PRNewswire",
-      "cat": "RESULTS",
-      "hl": "HCLTech delivers strong Q2 led by record deal bookings of $3.3 billion",
-      "detail": "EBIT margin expands to 18.2%; annualized advanced AI revenue at $876M NEW YORK and NOIDA, India, Oct. 12, 2026 /PRNewswire/ -- HCLTech (NSE: HCLTECH) (BSE: HCLTECH), a leading global technology company, today reported financial results for the quarter ended S\u2026",
-      "url": "https://www.prnewswire.com/news-releases/hcltech-delivers-strong-q2-led-by-record-deal-bookings-of-3-3-billion-302906028.html"
-    },
-    {
-      "time": "2026-10-12 17:13",
-      "tk": "HCLT",
-      "src": "Livemint",
-      "cat": "MACRO",
-      "hl": "US PERM suspension: HCLTech sees limited impact on workforce and visa plans - How it affects Indians on H1-B visa",
-      "detail": "HCLTech expects little workforce impact from the US suspension of PERM applications, citing its limited recent use of the programme and increased recruitment of local talent. Analysts say the move is unlikely to significantly affect Indian IT firms, though it\u2026",
-      "url": "https://www.livemint.com/industry/infotech/us-perm-suspension-hcltech-sees-limited-impact-on-workforce-and-visa-plans-how-it-affects-indians-on-h1-b-visa-11791822166779.html"
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "Buzzing stocks for Tuesday: HCL Tech, Nazara, Bank of India, TD Power, Juniper Green, Airflow Rail, Globus Power, Vikran Engg, Minda Corp, ARSS Infra Ceigall India, IRCON",
+      "detail": "Key moves span AI collaboration, asset classification as fraud, leadership reshuffles, big-ticket project wins, and strategic stakes in renewable and defence sectors across multiple listed firms",
+      "url": "https://www.thehindubusinessline.com/markets/buzzing-stocks-for-tuesday-hcl-tech-nazara-bank-of-india-td-power-juniper-green-airflow-rail-globus-power-vikran-engg-minda-corp-arss-infra-ceigall-india-ircon/article71577768.ece"
     },
     {
       "time": "2026-10-12 17:11",
@@ -2213,15 +2186,6 @@
       "url": "https://www.business-standard.com/markets/news/it-telecom-stocks-decline-as-market-selloff-resumes-amid-fii-outflows-126101201190_1.html"
     },
     {
-      "time": "2026-10-11 06:14",
-      "tk": "WIPRO",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Earnings Tracker: HDFC Bank, HCL Tech, Wipro among 129 companies set to report Q2 results this week",
-      "detail": "As many as 129 companies are set to announce their Q2 FY27 results this week, including HDFC Bank, ICICI Bank, Axis Bank, HCL Tech, Wipro and Nestle India. With the earnings season underway, investors will track key announcements across banking, IT and other \u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/earnings-tracker-hdfc-bank-hcl-tech-wipro-among-129-companies-set-to-report-q2-results-this-week/articleshow/134866148.cms"
-    },
-    {
       "time": "2026-10-12 09:25",
       "tk": "NTTD",
       "src": "PRNewswire",
@@ -2240,33 +2204,6 @@
       "url": "https://www.thehindubusinessline.com/companies/powered-by-ai-hcltech-net-profit-rises-21-y-o-y-to-5132-crore-in-q2fy27/article71575751.ece"
     },
     {
-      "time": "2026-10-12 13:42",
-      "tk": "HCLT",
-      "src": "Livemint",
-      "cat": "RESULTS",
-      "hl": "HCLTech Q2 Results: Revenue up 11.5% but misses estimates, net profit up 21.2%",
-      "detail": "HCLTech Q2 Results 2026-27: Consolidated revenue rose 11.5% to  \u20b935,620 crore, net profit increased 21.2% to  \u20b95,132 crore.",
-      "url": "https://www.livemint.com/companies/company-results/hcltech-q2-results-202627-11791811434426.html"
-    },
-    {
-      "time": "2026-10-12 10:06",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "TCS says 80% of new hires will have digital, AI skills; AI revenue to lift margins",
-      "detail": "The IT services major expects rising demand for AI expertise to reshape hiring, expand AI-led business and support profitability in coming quarters",
-      "url": "https://www.thehindubusinessline.com/info-tech/tcs-says-80-of-new-hires-will-have-digital-ai-skills-ai-revenue-to-lift-margins/article71574393.ece"
-    },
-    {
-      "time": "2026-10-12 07:00",
-      "tk": "TCS",
-      "src": "Business Standard",
-      "cat": "RESULTS",
-      "hl": "TCS to hire 80% of workforce with digital, AI skills; expects margin gains",
-      "detail": "As much as 80 per cent of TCS' new hires will be talent with digital and Artificial Intelligence (AI) skills going forward, a top company official has said.\nWith the share of AI-led work in overall revenue growing to 10 per cent in the recently concluded Sept\u2026",
-      "url": "https://www.business-standard.com/companies/news/tcs-to-hire-80-of-workforce-with-digital-ai-skills-expects-margin-gains-126101200249_1.html"
-    },
-    {
       "time": "2026-10-12 00:34",
       "tk": "Sector",
       "src": "The Times of India",
@@ -2274,6 +2211,24 @@
       "hl": "Pre-market action: Here's the trade setup for today's session",
       "detail": "On Friday, markets experienced a moment of reprieve as the Nifty index surged by 1.3%, buoyed by support from the IT sector. However, analysts anticipate that Indian stocks will tread carefully due to prevailing global economic uncertainties. Despite a decrea\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/134880075.cms"
+    },
+    {
+      "time": "2026-10-12 18:37",
+      "tk": "HCLT",
+      "src": "PRNewswire",
+      "cat": "RESULTS",
+      "hl": "HCLTech delivers strong Q2 led by record deal bookings of $3.3 billion",
+      "detail": "EBIT margin expands to 18.2%; annualized advanced AI revenue at $876M NEW YORK and NOIDA, India, Oct. 12, 2026 /PRNewswire/ -- HCLTech (NSE: HCLTECH) (BSE: HCLTECH), a leading global technology company, today reported financial results for the quarter ended S\u2026",
+      "url": "https://www.prnewswire.com/news-releases/hcltech-delivers-strong-q2-led-by-record-deal-bookings-of-3-3-billion-302906028.html"
+    },
+    {
+      "time": "2026-10-12 17:13",
+      "tk": "HCLT",
+      "src": "Livemint",
+      "cat": "MACRO",
+      "hl": "US PERM suspension: HCLTech sees limited impact on workforce and visa plans - How it affects Indians on H1-B visa",
+      "detail": "HCLTech expects little workforce impact from the US suspension of PERM applications, citing its limited recent use of the programme and increased recruitment of local talent. Analysts say the move is unlikely to significantly affect Indian IT firms, though it\u2026",
+      "url": "https://www.livemint.com/industry/infotech/us-perm-suspension-hcltech-sees-limited-impact-on-workforce-and-visa-plans-how-it-affects-indians-on-h1-b-visa-11791822166779.html"
     }
   ],
   "quarterly": {
@@ -3151,9 +3106,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120323,
-    "JPY": 0.006315,
-    "CAD": 0.703334,
-    "INR": 0.010495
+    "EUR": 1.120951,
+    "JPY": 0.006314,
+    "CAD": 0.704141,
+    "INR": 0.010441
   }
 }
