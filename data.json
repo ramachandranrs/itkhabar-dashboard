@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-15T01:39:59.765794+00:00",
-  "updated_display": "15 Oct 2026, 01:39 UTC",
+  "updated": "2026-10-15T15:33:11.403544+00:00",
+  "updated_display": "15 Oct 2026, 15:33 UTC",
   "prices": {
     "TCS": {
-      "price": 2304.9,
-      "display": "\u20b92,305",
-      "change": 2.1
+      "price": 2350.0,
+      "display": "\u20b92,350",
+      "change": 2.0
     },
     "INFY": {
-      "price": 1088.0,
-      "display": "\u20b91,088",
-      "change": 2.4
+      "price": 1110.0,
+      "display": "\u20b91,110",
+      "change": 2.0
     },
     "CTSH": {
-      "price": 62.47,
-      "display": "$62.47",
-      "change": 1.9
+      "price": 65.65,
+      "display": "$65.65",
+      "change": 5.1
     },
     "HCLT": {
-      "price": 1327.0,
-      "display": "\u20b91,327",
-      "change": 0.1
+      "price": 1360.0,
+      "display": "\u20b91,360",
+      "change": 2.5
     },
     "WIPRO": {
-      "price": 170.92,
-      "display": "\u20b9171",
-      "change": 1.1
+      "price": 174.05,
+      "display": "\u20b9174",
+      "change": 1.8
     },
     "TECHM": {
-      "price": 1575.2,
-      "display": "\u20b91,575",
-      "change": 2.1
+      "price": 1650.0,
+      "display": "\u20b91,650",
+      "change": 4.7
     },
     "LTIM": {
-      "price": 4226.1,
-      "display": "\u20b94,226",
-      "change": 0.3
-    },
-    "MPHL": {
-      "price": 2435.3,
-      "display": "\u20b92,435",
-      "change": -1.3
-    },
-    "PSYS": {
-      "price": 5898.0,
-      "display": "\u20b95,898",
-      "change": -1.5
-    },
-    "COFG": {
-      "price": 1928.0,
-      "display": "\u20b91,928",
-      "change": -0.1
-    },
-    "ACN": {
-      "price": 214.96,
-      "display": "$215",
-      "change": 0.7
-    },
-    "CAP": {
-      "price": 119.3,
-      "display": "\u20ac119",
-      "change": 3.4
-    },
-    "ATOS": {
-      "price": 21.64,
-      "display": "\u20ac21.64",
-      "change": -1.6
-    },
-    "DXC": {
-      "price": 12.79,
-      "display": "$12.79",
+      "price": 4235.0,
+      "display": "\u20b94,235",
       "change": 0.2
     },
-    "GIB": {
-      "price": 72.35,
-      "display": "$72.35",
+    "MPHL": {
+      "price": 2453.2,
+      "display": "\u20b92,453",
+      "change": 0.7
+    },
+    "PSYS": {
+      "price": 5840.0,
+      "display": "\u20b95,840",
+      "change": -1.0
+    },
+    "COFG": {
+      "price": 1934.3,
+      "display": "\u20b91,934",
       "change": 0.3
+    },
+    "ACN": {
+      "price": 226.96,
+      "display": "$227",
+      "change": 5.6
+    },
+    "CAP": {
+      "price": 121.45,
+      "display": "\u20ac121",
+      "change": 2.9
+    },
+    "ATOS": {
+      "price": 21.84,
+      "display": "\u20ac21.84",
+      "change": -0.7
+    },
+    "DXC": {
+      "price": 13.52,
+      "display": "$13.52",
+      "change": 5.7
+    },
+    "GIB": {
+      "price": 74.44,
+      "display": "$74.44",
+      "change": 2.9
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 72781.89,
-      "change": -0.34
+      "value": 74315.61,
+      "change": 2.11
     },
     "NIFTY_IT": {
-      "value": 30171.0,
-      "change": 1.14
+      "value": 30719.8,
+      "change": 1.82
     },
     "SP500": {
-      "value": 7718.94,
-      "change": -1.11
+      "value": 7725.11,
+      "change": 0.08
     },
     "USD_INR": {
-      "value": 95.29,
-      "change": -0.51
+      "value": 95.04,
+      "change": -0.25
     },
     "EUR_INR": {
-      "value": 106.65,
-      "change": -0.14
+      "value": 106.58,
+      "change": -0.06
     }
   },
   "historical": {
@@ -167,7 +167,8 @@
         2145.0,
         2114.0,
         2257.0,
-        2305.0
+        2305.0,
+        2350.0
       ],
       "dl": [
         "Sep 25",
@@ -182,7 +183,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         3448.0,
@@ -299,7 +301,8 @@
         1023.0,
         1020.0,
         1062.0,
-        1088.0
+        1088.0,
+        1110.0
       ],
       "dl": [
         "Sep 25",
@@ -314,7 +317,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         1422.0,
@@ -432,7 +436,8 @@
         59.0,
         60.0,
         61.0,
-        62.0
+        62.0,
+        66.0
       ],
       "dl": [
         "Sep 25",
@@ -448,7 +453,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         72.0,
@@ -565,7 +571,8 @@
         1217.0,
         1223.0,
         1326.0,
-        1327.0
+        1327.0,
+        1360.0
       ],
       "dl": [
         "Sep 25",
@@ -580,7 +587,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         1315.0,
@@ -697,7 +705,8 @@
         163.0,
         162.0,
         169.0,
-        171.0
+        171.0,
+        174.0
       ],
       "dl": [
         "Sep 25",
@@ -712,7 +721,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         218.0,
@@ -829,7 +839,8 @@
         1514.0,
         1471.0,
         1544.0,
-        1575.0
+        1575.0,
+        1650.0
       ],
       "dl": [
         "Sep 25",
@@ -844,7 +855,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         1173.0,
@@ -961,7 +973,8 @@
         4070.0,
         4019.0,
         4215.0,
-        4226.0
+        4226.0,
+        4235.0
       ],
       "dl": [
         "Sep 25",
@@ -976,7 +989,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         6057.0,
@@ -1093,7 +1107,8 @@
         2360.0,
         2354.0,
         2466.0,
-        2435.0
+        2435.0,
+        2453.0
       ],
       "dl": [
         "Sep 25",
@@ -1108,7 +1123,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         2561.0,
@@ -1225,7 +1241,8 @@
         5770.0,
         5787.0,
         5988.0,
-        5898.0
+        5898.0,
+        5840.0
       ],
       "dl": [
         "Sep 25",
@@ -1240,7 +1257,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         3625.0,
@@ -1357,7 +1375,8 @@
         1868.0,
         1847.0,
         1929.0,
-        1928.0
+        1928.0,
+        1934.0
       ],
       "dl": [
         "Sep 25",
@@ -1372,7 +1391,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         1222.0,
@@ -1490,7 +1510,8 @@
         207.0,
         213.0,
         214.0,
-        215.0
+        215.0,
+        227.0
       ],
       "dl": [
         "Sep 25",
@@ -1506,7 +1527,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         331.0,
@@ -1623,7 +1645,9 @@
         111.0,
         115.0,
         115.0,
-        119.0
+        119.0,
+        118.0,
+        121.0
       ],
       "dl": [
         "Sep 25",
@@ -1638,7 +1662,9 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13"
+        "Oct 13",
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         176.0,
@@ -1755,6 +1781,8 @@
         21.0,
         21.0,
         22.0,
+        22.0,
+        22.0,
         22.0
       ],
       "dl": [
@@ -1770,7 +1798,9 @@
         "Oct 8",
         "Oct 9",
         "Oct 12",
-        "Oct 13"
+        "Oct 13",
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         524.0,
@@ -1888,7 +1918,8 @@
         12.0,
         13.0,
         13.0,
-        13.0
+        13.0,
+        14.0
       ],
       "dl": [
         "Sep 25",
@@ -1904,7 +1935,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         23.0,
@@ -2022,7 +2054,8 @@
         70.0,
         71.0,
         72.0,
-        72.0
+        72.0,
+        74.0
       ],
       "dl": [
         "Sep 25",
@@ -2038,7 +2071,8 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14"
+        "Oct 14",
+        "Oct 15"
       ],
       "mp": [
         106.0,
@@ -2092,49 +2126,31 @@
   },
   "news": [
     {
-      "time": "2026-10-14 00:48",
-      "tk": "HCLT",
+      "time": "2026-10-14 11:56",
+      "tk": "INFY",
       "src": "The Times of India",
       "cat": "RESULTS",
-      "hl": "Mood Swing: AI hits a bump, Indian IT stocks get a jump",
-      "detail": "Indian IT stocks experienced a significant increase following HCL Technologies' strong earnings report for the September quarter. The Nifty IT index rose by 5.2%, marking its largest gain in 17 months. All 10 components of the index ended higher, with HCL Tec\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mood-swing-ai-hits-a-bump-indian-it-stocks-get-a-jump/articleshow/134929451.cms"
+      "hl": "Market wrap: Nestle India, Infosys, Shriram Finance, HDFC Life top gainers and losers on Nifty and Sensex on Wednesday",
+      "detail": "Indian equities closed lower on Wednesday as investors booked profits ahead of key US inflation data. The Nifty 50 fell 0.44% to 22,623, while the Sensex declined 0.34% to 72,782. Nestle India and Infosys led Nifty gainers, while Shriram Finance and HDFC Life\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-nestle-india-infosys-shriram-finance-hdfc-life-top-gainers-and-losers-on-nifty-and-sensex-on-wednesday/articleshow/134942022.cms"
     },
     {
-      "time": "2026-10-13 16:24",
-      "tk": "INFY",
-      "src": "Business Standard",
-      "cat": "AI",
-      "hl": "AI helps Infosys' Finacle suite reduce friction in its sales process",
-      "detail": "Infosys Finacle is using AI to reduce sales process time by 60-70 per cent, while deploying multiple language models to improve banking efficiency and control costs",
-      "url": "https://www.business-standard.com/companies/news/ai-helps-infosys-finacle-suite-reduce-friction-in-its-sales-process-126101201006_1.html"
+      "time": "2026-10-14 13:14",
+      "tk": "CTSH",
+      "src": "USA Today",
+      "cat": "RESULTS",
+      "hl": "This PGA Tour event is slashing premium ticket prices by 50 percent",
+      "detail": "The Cognizant Classic in the Palm Beaches is reducing admission prices for the Bear Trap by more than 50 percent for the 2027 event that runs Feb. 25-28.",
+      "url": "https://golfweek.usatoday.com/story/sports/golf/pga/2026/10/14/pga-tour-event-slashes-premium-ticket-prices-by-50-percent/92246272007/"
     },
     {
-      "time": "2026-10-14 00:00",
+      "time": "2026-10-14 12:33",
       "tk": "ACN",
       "src": "Biztoc.com",
-      "cat": "MACRO",
-      "hl": "Why Is Everyone Ignoring Accenture Stock's High Cash Yield?",
-      "detail": "shares currently trade at a valuation offering a free cash flow yield of 9.7%. That figure is more than double the 4.4% seen at the median S&P 500 company. An elevated yield typically signals one of two scenarios: investors are either discounting a fundamenta\u2026",
-      "url": "https://biztoc.com/x/ca42957c42f50caa"
-    },
-    {
-      "time": "2026-10-13 17:24",
-      "tk": "CAP",
-      "src": "Forrester.com",
-      "cat": "AI",
-      "hl": "Capgemini SPARK 2026: AI Makes The Task Cheap. Redesign The Enterprise For Outsized Value",
-      "detail": "Enterprise AI conversations have moved from experimentation to implementation. At Capgemini SPARK 2026, the focus shifted: from implementation to value realization. The gathering explored \u201cMake It Real: From Action to Value,\u201d and how organizations apply AI at\u2026",
-      "url": "https://www.forrester.com/blogs/capgemini-spark-2026-ai-makes-the-task-cheap-redesign-the-enterprise-for-outsized-value/"
-    },
-    {
-      "time": "2026-10-13 14:39",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "DEAL",
-      "hl": "Accenture acquires UK customer intelligence firm Sagacity to strengthen AI and data capabilities",
-      "detail": "Accenture has acquired Sagacity, a UK-based data and customer intelligence firm. \nFounded in 2005 and headquartered in London, Sagacity brings differentiated data assets, AI-enabled technology and deep customer intelligence expertise. \nThe company has helped \u2026",
-      "url": "https://biztoc.com/x/3b5c0289d6e78915"
+      "cat": "RESULTS",
+      "hl": "Accenture Continues Comeback With Strong Investor Day Guidance",
+      "detail": "Accenture stock rose after the global technology services firm updated financial guidance at an investor day focusing on its AI strategy.\nThe post Accenture Continues Comeback With Strong Investor Day Guidance appeared first on Investor's Business Daily.",
+      "url": "https://biztoc.com/x/c34a12ffa542f6ee"
     },
     {
       "time": "2026-10-14 01:01",
@@ -2144,6 +2160,15 @@
       "hl": "Sensex today | Stock Market Live Updates: Stock to buy today: Mphasis (\u20b92,465) \u2013 BUY",
       "detail": "Sensex, Nifty, Share Prices Live: The short-term outlook for Mphasis is bullish. The stock surged over 5% on Tuesday and closed strongly. This rise has taken the share price well above the key \u20b92,390-\u20b92,400 resistance zone.",
       "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-14-october-2026/article71579059.ece"
+    },
+    {
+      "time": "2026-10-14 00:48",
+      "tk": "HCLT",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Mood Swing: AI hits a bump, Indian IT stocks get a jump",
+      "detail": "Indian IT stocks experienced a significant increase following HCL Technologies' strong earnings report for the September quarter. The Nifty IT index rose by 5.2%, marking its largest gain in 17 months. All 10 components of the index ended higher, with HCL Tec\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mood-swing-ai-hits-a-bump-indian-it-stocks-get-a-jump/articleshow/134929451.cms"
     },
     {
       "time": "2026-10-13 04:48",
@@ -2191,6 +2216,33 @@
       "url": "https://www.business-standard.com/technology/tech-news/data-centre-demand-to-outstrip-supply-as-ai-usage-grows-say-experts-126101301194_1.html"
     },
     {
+      "time": "2026-10-14 07:05",
+      "tk": "WIPRO",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "Wipro Q2 results preview: Revenue growth likely over 8%, margins in focus",
+      "detail": "Overall, analysts expect Wipro to post nearly 8 per cent year-on-year (YoY) rise in revenue during the quarter under review, along with single-digit growth in earnings before interest and taxes.",
+      "url": "https://www.business-standard.com/markets/news/wipro-q2-results-preview-revenue-growth-likely-over-8-margins-in-focus-126101400475_1.html"
+    },
+    {
+      "time": "2026-10-14 05:25",
+      "tk": "WIPRO",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Wipro Q2 Results Preview: After TCS & HCL Tech, will this IT major exceed expectations?",
+      "detail": "Wipro is anticipated to report limited earnings growth for the September quarter due to various pressures. The focus will likely shift to guidance for the future quarter and profit margins. Analysts expect IT revenue to decline slightly despite inorganic cont\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/wipro-q2-results-preview-after-tcs-hcl-tech-will-this-it-major-exceed-expectations/articleshow/134933154.cms"
+    },
+    {
+      "time": "2026-10-14 04:10",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "5 years, no returns: Are these 9 Nifty bluechip stocks finally ready for a turnaround?",
+      "detail": "Investors are witnessing notable losses in well-known blue-chip stocks such as TCS, Infosys, and Hindustan Unilever. These major players are encountering significant hurdles affecting their market position. Analysts believe that lowered expectations may allow\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/5-years-no-returns-are-these-9-nifty-bluechip-stocks-finally-ready-for-a-turnaround/articleshow/134931808.cms"
+    },
+    {
       "time": "2026-10-13 13:29",
       "tk": "INFY",
       "src": "The Times of India",
@@ -2200,58 +2252,13 @@
       "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-services-may-account-for-almost-half-of-infosys-work-in-2-3-years-ceo-salil-parekh/articleshow/134919388.cms"
     },
     {
-      "time": "2026-10-13 12:47",
-      "tk": "INFY",
+      "time": "2026-10-13 17:24",
+      "tk": "CAP",
       "src": "Forrester.com",
       "cat": "AI",
-      "hl": "Infosys Bets On Trust As AI Reprices IT Services",
-      "detail": "Last week, Infosys brought clients and analysts to Geneva for its 25th Confluence in EMEA. We expected the usual AI promises. Instead, Salil Parekh opened the event with a remarkably down-to-earth message: Infosys is a delivery organization, its foundation is\u2026",
-      "url": "https://www.forrester.com/blogs/infosys-bets-on-trust-as-ai-reprices-it-services/"
-    },
-    {
-      "time": "2026-10-13 10:29",
-      "tk": "HCLT",
-      "src": "Forkast.news",
-      "cat": "DEAL",
-      "hl": "HCLTech and Anthropic Partner on \u2018Governed Agentic AI.\u2019 The Labor It Automates Is the Work HCLTech Used to Sell.",
-      "detail": "A dedicated Anthropic business unit, Claude embedded in HCL BigFix and AppScan, and human oversight on every high-impact change. The IT firm whose headcount just fell for the first time in 20 years is now selling the governance layer for the automation replac\u2026",
-      "url": "https://forkast.news/hcltech-and-anthropic-partner-on-governed-agentic-ai-the-labor-it-automates-is-the-work-hcltech-used-to-sell/"
-    },
-    {
-      "time": "2026-10-13 10:09",
-      "tk": "INFY",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "AI job-loss fears for IT firms 'hogwash', disaster marketing by large capital: Nandan Nilekani",
-      "detail": "Infosys co-founder Nandan Nilekani on Tuesday dismissed fears that artificial intelligence would wipe out jobs in India\u2019s IT services sector as \u201chogwash\u201d and \u201cdisaster marketing to suit the interests of large capital\u201d, saying demand for such firms is higher t\u2026",
-      "url": "https://www.thehindubusinessline.com/info-tech/ai-job-loss-fears-for-it-firms-hogwash-disaster-marketing-by-large-capital-nandan-nilekani/article71578837.ece"
-    },
-    {
-      "time": "2026-10-13 12:52",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Market wrap: HCL Tech, TCS, Kotak Bank, Eternal top gainers and losers on Nifty and Sensex on Tuesday",
-      "detail": "Indian equity markets rallied over 1.5% on Tuesday, with the Sensex rising 1,109 points and the Nifty 50 gaining 358 points. IT stocks led the advance, with HCL Tech and TCS topping the gainers\u2019 lists. Kotak Mahindra Bank, Eternal and Maruti Suzuki were among\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-hcl-tech-tcs-kotak-bank-eternal-top-gainers-and-losers-on-nifty-and-sensex-on-tuesday/articleshow/134918550.cms"
-    },
-    {
-      "time": "2026-10-13 11:16",
-      "tk": "HCLT",
-      "src": "BusinessLine",
-      "cat": "MACRO",
-      "hl": "HCLTech sparks IT-led surge; Nifty posts sharpest single-day gain since June",
-      "detail": "Nifty 50 closed at 22,721.95, up 358.60 points or 1.60%, recovering sharply from an intraday low of 22,288 and Sensex ended 1,109.10 points higher at 73,033.78",
-      "url": "https://www.thehindubusinessline.com/markets/hcltech-sparks-it-led-surge-nifty-posts-sharpest-single-day-gain-since-june/article71579061.ece"
-    },
-    {
-      "time": "2026-10-13 12:40",
-      "tk": "ACN",
-      "src": "The Irish Times",
-      "cat": "MACRO",
-      "hl": "Will Dublin-headquartered Accenture survive or thrive in the age of AI?",
-      "detail": "The technology consultancy seeks to calm jitters with an investor day this week",
-      "url": "https://www.irishtimes.com/business/2026/10/13/will-dublin-headquartered-accenture-survive-or-thrive-in-the-age-of-ai/"
+      "hl": "Capgemini SPARK 2026: AI Makes The Task Cheap. Redesign The Enterprise For Outsized Value",
+      "detail": "Enterprise AI conversations have moved from experimentation to implementation. At Capgemini SPARK 2026, the focus shifted: from implementation to value realization. The gathering explored \u201cMake It Real: From Action to Value,\u201d and how organizations apply AI at\u2026",
+      "url": "https://www.forrester.com/blogs/capgemini-spark-2026-ai-makes-the-task-cheap-redesign-the-enterprise-for-outsized-value/"
     }
   ],
   "quarterly": {
@@ -3129,9 +3136,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.121202,
-    "JPY": 0.006345,
-    "CAD": 0.704032,
-    "INR": 0.010495
+    "EUR": 1.121076,
+    "JPY": 0.006324,
+    "CAD": 0.704344,
+    "INR": 0.010521
   }
 }
