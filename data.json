@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-15T15:33:11.403544+00:00",
-  "updated_display": "15 Oct 2026, 15:33 UTC",
+  "updated": "2026-10-15T19:56:56.833195+00:00",
+  "updated_display": "15 Oct 2026, 19:56 UTC",
   "prices": {
     "TCS": {
-      "price": 2350.0,
-      "display": "\u20b92,350",
-      "change": 2.0
+      "price": 2304.9,
+      "display": "\u20b92,305",
+      "change": 2.1
     },
     "INFY": {
-      "price": 1110.0,
-      "display": "\u20b91,110",
-      "change": 2.0
+      "price": 1088.0,
+      "display": "\u20b91,088",
+      "change": 2.4
     },
     "CTSH": {
-      "price": 65.65,
-      "display": "$65.65",
-      "change": 5.1
+      "price": 65.74,
+      "display": "$65.74",
+      "change": 5.2
     },
     "HCLT": {
-      "price": 1360.0,
-      "display": "\u20b91,360",
-      "change": 2.5
+      "price": 1327.0,
+      "display": "\u20b91,327",
+      "change": 0.1
     },
     "WIPRO": {
-      "price": 174.05,
-      "display": "\u20b9174",
-      "change": 1.8
+      "price": 170.92,
+      "display": "\u20b9171",
+      "change": 1.1
     },
     "TECHM": {
-      "price": 1650.0,
-      "display": "\u20b91,650",
-      "change": 4.7
+      "price": 1575.2,
+      "display": "\u20b91,575",
+      "change": 2.1
     },
     "LTIM": {
-      "price": 4235.0,
-      "display": "\u20b94,235",
-      "change": 0.2
-    },
-    "MPHL": {
-      "price": 2453.2,
-      "display": "\u20b92,453",
-      "change": 0.7
-    },
-    "PSYS": {
-      "price": 5840.0,
-      "display": "\u20b95,840",
-      "change": -1.0
-    },
-    "COFG": {
-      "price": 1934.3,
-      "display": "\u20b91,934",
+      "price": 4226.1,
+      "display": "\u20b94,226",
       "change": 0.3
     },
+    "MPHL": {
+      "price": 2435.3,
+      "display": "\u20b92,435",
+      "change": -1.3
+    },
+    "PSYS": {
+      "price": 5898.0,
+      "display": "\u20b95,898",
+      "change": -1.5
+    },
+    "COFG": {
+      "price": 1928.0,
+      "display": "\u20b91,928",
+      "change": -0.1
+    },
     "ACN": {
-      "price": 226.96,
-      "display": "$227",
-      "change": 5.6
+      "price": 224.9,
+      "display": "$225",
+      "change": 4.6
     },
     "CAP": {
-      "price": 121.45,
-      "display": "\u20ac121",
-      "change": 2.9
+      "price": 122.1,
+      "display": "\u20ac122",
+      "change": 3.5
     },
     "ATOS": {
-      "price": 21.84,
-      "display": "\u20ac21.84",
-      "change": -0.7
+      "price": 21.8,
+      "display": "\u20ac21.80",
+      "change": -0.9
     },
     "DXC": {
-      "price": 13.52,
-      "display": "$13.52",
-      "change": 5.7
+      "price": 13.8,
+      "display": "$13.80",
+      "change": 7.9
     },
     "GIB": {
-      "price": 74.44,
-      "display": "$74.44",
-      "change": 2.9
+      "price": 74.92,
+      "display": "$74.92",
+      "change": 3.5
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 74315.61,
-      "change": 2.11
+      "value": 72781.89,
+      "change": -0.34
     },
     "NIFTY_IT": {
-      "value": 30719.8,
-      "change": 1.82
+      "value": 30171.0,
+      "change": 1.14
     },
     "SP500": {
-      "value": 7725.11,
-      "change": 0.08
+      "value": 7745.5,
+      "change": 0.34
     },
     "USD_INR": {
       "value": 95.04,
       "change": -0.25
     },
     "EUR_INR": {
-      "value": 106.58,
-      "change": -0.06
+      "value": 106.6,
+      "change": -0.05
     }
   },
   "historical": {
@@ -167,8 +167,7 @@
         2145.0,
         2114.0,
         2257.0,
-        2305.0,
-        2350.0
+        2305.0
       ],
       "dl": [
         "Sep 25",
@@ -183,8 +182,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         3448.0,
@@ -301,8 +299,7 @@
         1023.0,
         1020.0,
         1062.0,
-        1088.0,
-        1110.0
+        1088.0
       ],
       "dl": [
         "Sep 25",
@@ -317,8 +314,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         1422.0,
@@ -571,8 +567,7 @@
         1217.0,
         1223.0,
         1326.0,
-        1327.0,
-        1360.0
+        1327.0
       ],
       "dl": [
         "Sep 25",
@@ -587,8 +582,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         1315.0,
@@ -705,8 +699,7 @@
         163.0,
         162.0,
         169.0,
-        171.0,
-        174.0
+        171.0
       ],
       "dl": [
         "Sep 25",
@@ -721,8 +714,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         218.0,
@@ -839,8 +831,7 @@
         1514.0,
         1471.0,
         1544.0,
-        1575.0,
-        1650.0
+        1575.0
       ],
       "dl": [
         "Sep 25",
@@ -855,8 +846,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         1173.0,
@@ -973,8 +963,7 @@
         4070.0,
         4019.0,
         4215.0,
-        4226.0,
-        4235.0
+        4226.0
       ],
       "dl": [
         "Sep 25",
@@ -989,8 +978,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         6057.0,
@@ -1107,8 +1095,7 @@
         2360.0,
         2354.0,
         2466.0,
-        2435.0,
-        2453.0
+        2435.0
       ],
       "dl": [
         "Sep 25",
@@ -1123,8 +1110,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         2561.0,
@@ -1241,8 +1227,7 @@
         5770.0,
         5787.0,
         5988.0,
-        5898.0,
-        5840.0
+        5898.0
       ],
       "dl": [
         "Sep 25",
@@ -1257,8 +1242,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         3625.0,
@@ -1375,8 +1359,7 @@
         1868.0,
         1847.0,
         1929.0,
-        1928.0,
-        1934.0
+        1928.0
       ],
       "dl": [
         "Sep 25",
@@ -1391,8 +1374,7 @@
         "Oct 9",
         "Oct 12",
         "Oct 13",
-        "Oct 14",
-        "Oct 15"
+        "Oct 14"
       ],
       "mp": [
         1222.0,
@@ -1511,7 +1493,7 @@
         213.0,
         214.0,
         215.0,
-        227.0
+        225.0
       ],
       "dl": [
         "Sep 25",
@@ -1647,7 +1629,7 @@
         115.0,
         119.0,
         118.0,
-        121.0
+        122.0
       ],
       "dl": [
         "Sep 25",
@@ -2055,7 +2037,7 @@
         71.0,
         72.0,
         72.0,
-        74.0
+        75.0
       ],
       "dl": [
         "Sep 25",
@@ -2126,31 +2108,40 @@
   },
   "news": [
     {
-      "time": "2026-10-14 11:56",
-      "tk": "INFY",
+      "time": "2026-10-14 17:28",
+      "tk": "TCS",
       "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Market wrap: Nestle India, Infosys, Shriram Finance, HDFC Life top gainers and losers on Nifty and Sensex on Wednesday",
-      "detail": "Indian equities closed lower on Wednesday as investors booked profits ahead of key US inflation data. The Nifty 50 fell 0.44% to 22,623, while the Sensex declined 0.34% to 72,782. Nestle India and Infosys led Nifty gainers, while Shriram Finance and HDFC Life\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-nestle-india-infosys-shriram-finance-hdfc-life-top-gainers-and-losers-on-nifty-and-sensex-on-wednesday/articleshow/134942022.cms"
+      "cat": "MACRO",
+      "hl": "Antonio Felix Da Costa shares wedding album featuring Max Verstappen, Kelly Piquet: \u201cWe travel around the world trying to kill each other\u201d",
+      "detail": "Antonio Felix Da Costa and wife Ines Castro recently celebrated their second wedding anniversary. Marking the occasion on Instagram, the Jaguar TCS Racing driver shared several pictures from his wedding album and it shows several famous drivers in attendance.\u2026",
+      "url": "https://timesofindia.indiatimes.com/sports/formula-e/antonio-felix-da-costa-shares-wedding-album-featuring-max-verstappen-kelly-piquet-we-travel-around-the-world-trying-to-kill-each-other/articleshow/134947762.cms"
     },
     {
-      "time": "2026-10-14 13:14",
-      "tk": "CTSH",
-      "src": "USA Today",
+      "time": "2026-10-14 16:05",
+      "tk": "ACN",
+      "src": "Livemint",
       "cat": "RESULTS",
-      "hl": "This PGA Tour event is slashing premium ticket prices by 50 percent",
-      "detail": "The Cognizant Classic in the Palm Beaches is reducing admission prices for the Bear Trap by more than 50 percent for the 2027 event that runs Feb. 25-28.",
-      "url": "https://golfweek.usatoday.com/story/sports/golf/pga/2026/10/14/pga-tour-event-slashes-premium-ticket-prices-by-50-percent/92246272007/"
+      "hl": "Accenture lays out three-year plan to approach $100 billion revenue despite macro drag",
+      "detail": "CEO Julie Sweet said the company plans to harness tech modernization, mid-market expansion, and an $8-billion M&amp;A budget to drive long-term growth.",
+      "url": "https://www.livemint.com/companies/accenture-lays-out-three-year-plan-to-approach-100-billion-revenue-despite-macro-drag-11791987219450.html"
     },
     {
-      "time": "2026-10-14 12:33",
+      "time": "2026-10-14 16:53",
       "tk": "ACN",
       "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Accenture Continues Comeback With Strong Investor Day Guidance",
-      "detail": "Accenture stock rose after the global technology services firm updated financial guidance at an investor day focusing on its AI strategy.\nThe post Accenture Continues Comeback With Strong Investor Day Guidance appeared first on Investor's Business Daily.",
-      "url": "https://biztoc.com/x/c34a12ffa542f6ee"
+      "cat": "ANALYST",
+      "hl": "Accenture\u2019s Investor Day Answers the AI Question: Why the Street Isn\u2019t Buying It Yet",
+      "detail": "Accenture (ACN:NYSE) stock is up about 2% on Wednesday, October 14 (trading near $217), after the consulting giant laid out a three-year financial plan at its investor day. Shares jumped about 4% before the open, then gave back roughly half the gain once trad\u2026",
+      "url": "https://biztoc.com/x/706e47bd93190627"
+    },
+    {
+      "time": "2026-10-14 16:42",
+      "tk": "ACN",
+      "src": "Forkast.news",
+      "cat": "AI",
+      "hl": "Accenture and Workday Promise a Faster Path to Measurable AI Impact. The Path Has No Numbers on It.",
+      "detail": "The enterprise AI conversation used to be about what the software can do. This month it is about how fast the proof will arrive. In an October 13, 2026 announcement, Accenture and Workday launched a Forward Deployed Engineering program that embeds engineers a\u2026",
+      "url": "https://forkast.news/accenture-and-workday-promise-a-faster-path-to-measurable-ai-impact-the-path-has-no-numbers-on-it/"
     },
     {
       "time": "2026-10-14 01:01",
@@ -2216,6 +2207,15 @@
       "url": "https://www.business-standard.com/technology/tech-news/data-centre-demand-to-outstrip-supply-as-ai-usage-grows-say-experts-126101301194_1.html"
     },
     {
+      "time": "2026-10-14 15:35",
+      "tk": "ACN",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "Accenture bets on AI, targets mid-single-digit growth for next two years",
+      "detail": "Accenture aims for mid-single-digit revenue growth in constant currency in FY27 and FY28, followed by faster growth from FY29, as AI services help offset revenue pressure",
+      "url": "https://www.business-standard.com/companies/news/accenture-bets-on-ai-targets-mid-single-digit-growth-for-next-two-years-126101401302_1.html"
+    },
+    {
       "time": "2026-10-14 07:05",
       "tk": "WIPRO",
       "src": "Business Standard",
@@ -2243,22 +2243,13 @@
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/5-years-no-returns-are-these-9-nifty-bluechip-stocks-finally-ready-for-a-turnaround/articleshow/134931808.cms"
     },
     {
-      "time": "2026-10-13 13:29",
+      "time": "2026-10-14 11:56",
       "tk": "INFY",
       "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "AI services may account for almost half of Infosys' work in 2-3 years: CEO Salil Parekh",
-      "detail": "Parekh said the business, which includes building AI agents, coding work and modernising old technology for clients, is small relative to the company's size but growing so fast that it could account for 20-30% of Infosys' work within a few quarters if the cur\u2026",
-      "url": "https://economictimes.indiatimes.com/tech/information-tech/ai-services-may-account-for-almost-half-of-infosys-work-in-2-3-years-ceo-salil-parekh/articleshow/134919388.cms"
-    },
-    {
-      "time": "2026-10-13 17:24",
-      "tk": "CAP",
-      "src": "Forrester.com",
-      "cat": "AI",
-      "hl": "Capgemini SPARK 2026: AI Makes The Task Cheap. Redesign The Enterprise For Outsized Value",
-      "detail": "Enterprise AI conversations have moved from experimentation to implementation. At Capgemini SPARK 2026, the focus shifted: from implementation to value realization. The gathering explored \u201cMake It Real: From Action to Value,\u201d and how organizations apply AI at\u2026",
-      "url": "https://www.forrester.com/blogs/capgemini-spark-2026-ai-makes-the-task-cheap-redesign-the-enterprise-for-outsized-value/"
+      "cat": "RESULTS",
+      "hl": "Market wrap: Nestle India, Infosys, Shriram Finance, HDFC Life top gainers and losers on Nifty and Sensex on Wednesday",
+      "detail": "Indian equities closed lower on Wednesday as investors booked profits ahead of key US inflation data. The Nifty 50 fell 0.44% to 22,623, while the Sensex declined 0.34% to 72,782. Nestle India and Infosys led Nifty gainers, while Shriram Finance and HDFC Life\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-nestle-india-infosys-shriram-finance-hdfc-life-top-gainers-and-losers-on-nifty-and-sensex-on-wednesday/articleshow/134942022.cms"
     }
   ],
   "quarterly": {
@@ -3136,9 +3127,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.121076,
+    "EUR": 1.121705,
     "JPY": 0.006324,
-    "CAD": 0.704344,
+    "CAD": 0.704871,
     "INR": 0.010521
   }
 }
