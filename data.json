@@ -1,61 +1,61 @@
 {
-  "updated": "2026-10-19T17:24:04.554483+00:00",
-  "updated_display": "19 Oct 2026, 17:24 UTC",
+  "updated": "2026-10-19T21:10:53.339049+00:00",
+  "updated_display": "19 Oct 2026, 21:10 UTC",
   "prices": {
     "TCS": {
-      "price": 2460.9,
-      "display": "\u20b92,461",
-      "change": -0.2
+      "price": 2465.0,
+      "display": "\u20b92,465",
+      "change": 4.9
     },
     "INFY": {
-      "price": 1130.7,
-      "display": "\u20b91,131",
-      "change": -2.6
+      "price": 1161.2,
+      "display": "\u20b91,161",
+      "change": 4.6
     },
     "CTSH": {
-      "price": 66.55,
-      "display": "$66.55",
-      "change": 0.8
+      "price": 66.79,
+      "display": "$66.79",
+      "change": 1.2
     },
     "HCLT": {
-      "price": 1379.9,
+      "price": 1380.0,
       "display": "\u20b91,380",
-      "change": -0.0
+      "change": 2.4
     },
     "WIPRO": {
-      "price": 182.14,
-      "display": "\u20b9182",
-      "change": -1.2
+      "price": 184.4,
+      "display": "\u20b9184",
+      "change": 5.9
     },
     "TECHM": {
-      "price": 1779.1,
-      "display": "\u20b91,779",
-      "change": -0.6
+      "price": 1790.0,
+      "display": "\u20b91,790",
+      "change": 8.5
     },
     "LTIM": {
-      "price": 4264.9,
-      "display": "\u20b94,265",
-      "change": -2.8
+      "price": 4390.0,
+      "display": "\u20b94,390",
+      "change": 3.7
     },
     "MPHL": {
       "price": 2500.0,
       "display": "\u20b92,500",
-      "change": 0.0
+      "change": 1.9
     },
     "PSYS": {
-      "price": 5690.0,
-      "display": "\u20b95,690",
-      "change": -0.9
+      "price": 5741.0,
+      "display": "\u20b95,741",
+      "change": -1.7
     },
     "COFG": {
-      "price": 1925.0,
-      "display": "\u20b91,925",
-      "change": -1.4
+      "price": 1951.9,
+      "display": "\u20b91,952",
+      "change": 0.9
     },
     "ACN": {
-      "price": 234.7,
-      "display": "$235",
-      "change": 2.2
+      "price": 236.93,
+      "display": "$237",
+      "change": 3.2
     },
     "CAP": {
       "price": 123.15,
@@ -68,36 +68,36 @@
       "change": -1.6
     },
     "DXC": {
-      "price": 14.98,
-      "display": "$14.98",
-      "change": 10.0
+      "price": 14.26,
+      "display": "$14.26",
+      "change": 4.7
     },
     "GIB": {
-      "price": 76.02,
-      "display": "$76.02",
-      "change": 1.0
+      "price": 75.81,
+      "display": "$75.81",
+      "change": 0.7
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73852.9,
-      "change": -1.17
+      "value": 74729.27,
+      "change": 0.56
     },
     "NIFTY_IT": {
-      "value": 31516.3,
-      "change": -1.28
+      "value": 31924.1,
+      "change": 3.92
     },
     "SP500": {
-      "value": 7698.0,
-      "change": 0.5
+      "value": 7690.73,
+      "change": 0.41
     },
     "USD_INR": {
       "value": 94.92,
       "change": 0.41
     },
     "EUR_INR": {
-      "value": 106.42,
-      "change": -0.09
+      "value": 106.43,
+      "change": -0.08
     }
   },
   "historical": {
@@ -169,8 +169,7 @@
         2257.0,
         2305.0,
         2350.0,
-        2465.0,
-        2461.0
+        2465.0
       ],
       "dl": [
         "Sep 29",
@@ -185,8 +184,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         3448.0,
@@ -307,8 +305,7 @@
         1062.0,
         1088.0,
         1110.0,
-        1161.0,
-        1131.0
+        1161.0
       ],
       "dl": [
         "Sep 29",
@@ -323,8 +320,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         1422.0,
@@ -585,7 +581,6 @@
         1314.0,
         1315.0,
         1348.0,
-        1380.0,
         1380.0
       ],
       "dl": [
@@ -601,8 +596,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         1303.0,
@@ -723,8 +717,7 @@
         169.0,
         171.0,
         174.0,
-        184.0,
-        182.0
+        184.0
       ],
       "dl": [
         "Sep 29",
@@ -739,8 +732,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         218.0,
@@ -861,8 +853,7 @@
         1544.0,
         1575.0,
         1650.0,
-        1790.0,
-        1779.0
+        1790.0
       ],
       "dl": [
         "Sep 29",
@@ -877,8 +868,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         1173.0,
@@ -999,8 +989,7 @@
         4215.0,
         4226.0,
         4235.0,
-        4390.0,
-        4265.0
+        4390.0
       ],
       "dl": [
         "Sep 29",
@@ -1015,8 +1004,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         6057.0,
@@ -1137,7 +1125,6 @@
         2466.0,
         2435.0,
         2453.0,
-        2500.0,
         2500.0
       ],
       "dl": [
@@ -1153,8 +1140,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         2561.0,
@@ -1275,8 +1261,7 @@
         5988.0,
         5898.0,
         5840.0,
-        5741.0,
-        5690.0
+        5741.0
       ],
       "dl": [
         "Sep 29",
@@ -1291,8 +1276,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         3625.0,
@@ -1413,8 +1397,7 @@
         1929.0,
         1928.0,
         1934.0,
-        1952.0,
-        1925.0
+        1952.0
       ],
       "dl": [
         "Sep 29",
@@ -1429,8 +1412,7 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16",
-        "Oct 19"
+        "Oct 16"
       ],
       "mp": [
         1222.0,
@@ -1553,7 +1535,7 @@
         215.0,
         225.0,
         230.0,
-        235.0
+        237.0
       ],
       "dl": [
         "Sep 29",
@@ -1973,7 +1955,7 @@
         13.0,
         14.0,
         14.0,
-        15.0
+        14.0
       ],
       "dl": [
         "Sep 29",
@@ -2231,13 +2213,13 @@
       "url": "https://economictimes.indiatimes.com/news/new-updates/moving-to-goa-looked-like-a-dream-until-reality-hit-ex-cognizant-hr-opens-up-about-quitting-her-corporate-job-to-move-to-a-city-where-others-go-on-holiday/articleshow/135029429.cms"
     },
     {
-      "time": "2026-10-18 05:53",
-      "tk": "TECHM",
+      "time": "2026-10-18 20:19",
+      "tk": "COFG",
       "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Bonus issues, stock splits & dividends: HDB Financial, IRFC, TechM among 19 stocks turning ex-record date this week",
-      "detail": "Around 19 companies including LTIMindtree, Tech Mahindra, IRFC, HDB Financial Services, and Angel One have fixed their record dates for dividends, stock splits, and bonus issues during the week of October 19-23. Investors must hold shares in their demat accou\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/bonus-issues-stock-splits-dividends-hdb-financial-irfc-techm-among-19-stocks-turning-ex-record-date-this-week/articleshow/135024511.cms"
+      "cat": "AI",
+      "hl": "Shared perspectives, AI take centre stage at TEDx Amity",
+      "detail": "TEDx Amity University Lucknow explored shared perspectives, AI\u2019s impact on human skills, reading habits, and imagination, featuring leaders from Coforge and PwC.",
+      "url": "https://timesofindia.indiatimes.com/city/lucknow/shared-perspectives-ai-take-centre-stage-at-tedx-amity/articleshow/135035031.cms"
     },
     {
       "time": "2026-10-17 04:16",
@@ -3143,8 +3125,8 @@
   "forex_rates": {
     "USD": 1.0,
     "EUR": 1.121328,
-    "JPY": 0.006309,
-    "CAD": 0.709673,
+    "JPY": 0.00631,
+    "CAD": 0.709019,
     "INR": 0.010536
   }
 }
