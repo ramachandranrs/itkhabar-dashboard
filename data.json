@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T15:36:11.557238+00:00",
-  "updated_display": "20 Oct 2026, 15:36 UTC",
+  "updated": "2026-10-20T20:03:26.996034+00:00",
+  "updated_display": "20 Oct 2026, 20:03 UTC",
   "prices": {
     "TCS": {
       "price": 2460.9,
@@ -13,9 +13,9 @@
       "change": -2.6
     },
     "CTSH": {
-      "price": 67.75,
-      "display": "$67.75",
-      "change": 1.4
+      "price": 68.18,
+      "display": "$68.18",
+      "change": 2.1
     },
     "HCLT": {
       "price": 1379.9,
@@ -53,29 +53,29 @@
       "change": -1.4
     },
     "ACN": {
-      "price": 240.21,
-      "display": "$240",
-      "change": 1.4
+      "price": 239.21,
+      "display": "$239",
+      "change": 1.0
     },
     "CAP": {
-      "price": 123.5,
-      "display": "\u20ac124",
-      "change": 0.3
+      "price": 123.0,
+      "display": "\u20ac123",
+      "change": -0.1
     },
     "ATOS": {
-      "price": 22.92,
-      "display": "\u20ac22.92",
-      "change": 3.7
+      "price": 22.84,
+      "display": "\u20ac22.84",
+      "change": 3.3
     },
     "DXC": {
-      "price": 14.47,
-      "display": "$14.47",
-      "change": 1.4
+      "price": 14.63,
+      "display": "$14.63",
+      "change": 2.6
     },
     "GIB": {
-      "price": 78.08,
-      "display": "$78.08",
-      "change": 3.0
+      "price": 79.0,
+      "display": "$79.00",
+      "change": 4.2
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -1.28
     },
     "SP500": {
-      "value": 7715.87,
-      "change": 0.33
+      "value": 7712.62,
+      "change": 0.28
     },
     "USD_INR": {
-      "value": 94.92,
-      "change": -0.07
+      "value": 94.79,
+      "change": -0.2
     },
     "EUR_INR": {
-      "value": 106.71,
-      "change": 0.08
+      "value": 106.52,
+      "change": -0.1
     }
   },
   "historical": {
@@ -1535,7 +1535,7 @@
         225.0,
         230.0,
         237.0,
-        240.0
+        239.0
       ],
       "dl": [
         "Sep 30",
@@ -1675,7 +1675,7 @@
         122.0,
         121.0,
         123.0,
-        124.0
+        123.0
       ],
       "dl": [
         "Sep 30",
@@ -1955,7 +1955,7 @@
         14.0,
         14.0,
         14.0,
-        14.0
+        15.0
       ],
       "dl": [
         "Sep 30",
@@ -2095,7 +2095,7 @@
         75.0,
         75.0,
         76.0,
-        78.0
+        79.0
       ],
       "dl": [
         "Sep 30",
@@ -2168,31 +2168,31 @@
   },
   "news": [
     {
-      "time": "2026-10-19 11:45",
-      "tk": "TCS",
-      "src": "BusinessLine",
-      "cat": "DEAL",
-      "hl": "TCS expands Indian Bank partnership, deploys BaNCS for Treasury in Sri Lanka",
-      "detail": "TCS expands Indian Bank\u2019s Colombo treasury with BaNCS, enabling unified, real-time, compliant overseas operations and enhanced risk controls.",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/tcs-expands-indian-bank-partnership-deploys-bancs-for-treasury-in-sri-lanka/article71602541.ece"
-    },
-    {
-      "time": "2026-10-19 10:32",
-      "tk": "INFY",
-      "src": "PRNewswire",
+      "time": "2026-10-19 15:46",
+      "tk": "WIPRO",
+      "src": "The Times of India",
       "cat": "MACRO",
-      "hl": "Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India",
-      "detail": "BENGALURU, India, Oct. 19, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, recently announced the expansion of its collaboration with Truist, one of the largest US-bas\u2026",
-      "url": "https://www.prnewswire.com/news-releases/infosys-and-truist-strengthen-strategic-collaboration-to-build-a-global-capability-center-in-india-302912501.html"
+      "hl": "Bengaluru techie left a high-paying Wipro job to help farmers. His father did not speak to him for 8 years. Today, he is running a Rs 1,500 empire and earning Rs 60 crore per month",
+      "detail": "More than a decade ago, Shashi Kumar did the impossible - leave a lucrative job in Wipro to open a dairy business. He founded Akshayakalpa Organic, India\u2019s first organic milk company, in 2010. The company came near bankruptcy several times but is now valued a\u2026",
+      "url": "https://economictimes.indiatimes.com/magazines/panache/bengaluru-techie-left-a-high-paying-wipro-job-to-help-farmers-his-father-did-not-speak-to-him-for-8-years-today-he-is-running-a-rs-1500-empire-and-earning-rs-60-crore-per-month/articleshow/135051776.cms"
     },
     {
-      "time": "2026-10-19 09:15",
-      "tk": "Sector",
-      "src": "PRNewswire",
+      "time": "2026-10-19 15:43",
+      "tk": "INFY",
+      "src": "The Times of India",
       "cat": "DEAL",
-      "hl": "Comviva and Aduna Showcase Network Intelligence for Financial Services at Money20/20",
-      "detail": "LAS VEGAS, Oct. 19, 2026 /PRNewswire/ -- Comviva, a global leader in digital transformation solutions, and Aduna, the global aggregator of standardized network APIs, are advancing the use of network intelligence to address growing digital identity and fraud c\u2026",
-      "url": "https://www.prnewswire.com/news-releases/comviva-and-aduna-showcase-network-intelligence-for-financial-services-at-money2020-302912446.html"
+      "hl": "Infosys expands Truist GCC tie-up, adds 1,000 staff in Hyd",
+      "detail": "Infosys expands its partnership with Truist to scale the Hyderabad GCC, adding 1,000+ staff to consolidate tech, data, AI and operations in an integrated model.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-expands-truist-gcc-tie-up-adds-1000-staff-in-hyd/articleshow/135051777.cms"
+    },
+    {
+      "time": "2026-10-19 18:25",
+      "tk": "CTSH",
+      "src": "Crypto Briefing",
+      "cat": "DEAL",
+      "hl": "Google and Cognizant expand AI partnership, eye Gemini rollout to 200,000 workers",
+      "detail": "The expanded AI partnership could significantly enhance operational efficiency and innovation across multiple sectors, driving industry-wide transformation.\nThe post Google and Cognizant expand AI partnership, eye Gemini rollout to 200,000 workers appeared fi\u2026",
+      "url": "https://cryptobriefing.com/google-cognizant-expand-gemini-ai-partnership/"
     },
     {
       "time": "2026-10-19 14:52",
@@ -2202,6 +2202,15 @@
       "hl": "Accenture Federal Services and Google Public Sector Deploy Gemini Launchpads for Federal AI Agents",
       "detail": "Federal agencies are currently struggling to reconcile the rapid evolution of autonomous AI with the rigid, non-negotiable compliance requirements of the federal technology stack. While frontier models have generated significant interest, the transition from \u2026",
       "url": "https://forkast.news/accenture-federal-services-and-google-public-sector-deploy-gemini-launchpads-for-federal-ai-agents/"
+    },
+    {
+      "time": "2026-10-19 16:59",
+      "tk": "DXC",
+      "src": "CNA",
+      "cat": "ANALYST",
+      "hl": "Exclusive-DXC in advanced talks to sell insurance software unit for $2.4 billion, sources say",
+      "detail": "NEW YORK, Oct 19 : IT services company DXC Technology is in advanced talks to sell its insurance software and services division to private investment firm Eldridge Industries for about $2.4 billion, according to people familiar with the matter.Eldridge is dis\u2026",
+      "url": "https://www.channelnewsasia.com/business/exclusive-dxc-in-advanced-talks-sell-insurance-software-unit-24-billion-sources-say-6472881"
     },
     {
       "time": "2026-10-18 20:19",
@@ -2229,15 +2238,6 @@
       "hl": "Is the worst of AI deflation over? Depends on which IT boss you ask",
       "detail": "India's leading IT services companies disagree on how long AI-driven revenue deflation will persist, highlighting uncertainty over the industry's growth outlook.",
       "url": "https://www.livemint.com/companies/news/indian-it-companies-ai-revenue-deflation-tcs-hcltech-wipro-11792327351170.html"
-    },
-    {
-      "time": "2026-10-18 15:27",
-      "tk": "INFY",
-      "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "Infosys Q2 revenue growth likely to remain modest; analysts see guidance cut",
-      "detail": "Infosys Q2FY27 likely shows modest revenue growth with potential FY27 guidance cut amid demand uncertainties, per brokerages.",
-      "url": "https://www.thehindubusinessline.com/companies/infosys-q2-revenue-growth-likely-to-remain-modest-analysts-see-guidance-cut/article71600402.ece"
     },
     {
       "time": "2026-10-18 02:58",
@@ -3124,9 +3124,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.123217,
-    "JPY": 0.006322,
-    "CAD": 0.711637,
-    "INR": 0.010536
+    "EUR": 1.123974,
+    "JPY": 0.00632,
+    "CAD": 0.71143,
+    "INR": 0.01055
   }
 }
