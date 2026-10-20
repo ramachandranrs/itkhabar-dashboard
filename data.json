@@ -1,81 +1,81 @@
 {
-  "updated": "2026-10-20T01:59:33.393008+00:00",
-  "updated_display": "20 Oct 2026, 01:59 UTC",
+  "updated": "2026-10-20T15:36:11.557238+00:00",
+  "updated_display": "20 Oct 2026, 15:36 UTC",
   "prices": {
     "TCS": {
-      "price": 2465.0,
-      "display": "\u20b92,465",
-      "change": 4.9
+      "price": 2460.9,
+      "display": "\u20b92,461",
+      "change": -0.2
     },
     "INFY": {
-      "price": 1161.2,
-      "display": "\u20b91,161",
-      "change": 4.6
+      "price": 1130.7,
+      "display": "\u20b91,131",
+      "change": -2.6
     },
     "CTSH": {
-      "price": 66.79,
-      "display": "$66.79",
-      "change": 1.2
+      "price": 67.75,
+      "display": "$67.75",
+      "change": 1.4
     },
     "HCLT": {
-      "price": 1380.0,
+      "price": 1379.9,
       "display": "\u20b91,380",
-      "change": 2.4
+      "change": -0.0
     },
     "WIPRO": {
-      "price": 184.4,
-      "display": "\u20b9184",
-      "change": 5.9
+      "price": 182.14,
+      "display": "\u20b9182",
+      "change": -1.2
     },
     "TECHM": {
-      "price": 1790.0,
-      "display": "\u20b91,790",
-      "change": 8.5
+      "price": 1779.1,
+      "display": "\u20b91,779",
+      "change": -0.6
     },
     "LTIM": {
-      "price": 4390.0,
-      "display": "\u20b94,390",
-      "change": 3.7
+      "price": 4264.9,
+      "display": "\u20b94,265",
+      "change": -2.8
     },
     "MPHL": {
       "price": 2500.0,
       "display": "\u20b92,500",
-      "change": 1.9
+      "change": 0.0
     },
     "PSYS": {
-      "price": 5741.0,
-      "display": "\u20b95,741",
-      "change": -1.7
+      "price": 5690.0,
+      "display": "\u20b95,690",
+      "change": -0.9
     },
     "COFG": {
-      "price": 1951.9,
-      "display": "\u20b91,952",
-      "change": 0.9
+      "price": 1925.0,
+      "display": "\u20b91,925",
+      "change": -1.4
     },
     "ACN": {
-      "price": 236.93,
-      "display": "$237",
-      "change": 3.2
+      "price": 240.21,
+      "display": "$240",
+      "change": 1.4
     },
     "CAP": {
-      "price": 121.35,
-      "display": "\u20ac121",
-      "change": -0.6
+      "price": 123.5,
+      "display": "\u20ac124",
+      "change": 0.3
     },
     "ATOS": {
-      "price": 22.46,
-      "display": "\u20ac22.46",
-      "change": 3.0
+      "price": 22.92,
+      "display": "\u20ac22.92",
+      "change": 3.7
     },
     "DXC": {
-      "price": 14.26,
-      "display": "$14.26",
-      "change": 4.7
+      "price": 14.47,
+      "display": "$14.47",
+      "change": 1.4
     },
     "GIB": {
-      "price": 75.81,
-      "display": "$75.81",
-      "change": 0.7
+      "price": 78.08,
+      "display": "$78.08",
+      "change": 3.0
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -1.28
     },
     "SP500": {
-      "value": 7690.73,
-      "change": 0.41
+      "value": 7715.87,
+      "change": 0.33
     },
     "USD_INR": {
       "value": 94.92,
-      "change": -0.06
+      "change": -0.07
     },
     "EUR_INR": {
-      "value": 106.51,
-      "change": -0.12
+      "value": 106.71,
+      "change": 0.08
     }
   },
   "historical": {
@@ -168,7 +168,8 @@
         2257.0,
         2305.0,
         2350.0,
-        2465.0
+        2465.0,
+        2461.0
       ],
       "dl": [
         "Sep 30",
@@ -182,7 +183,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         3448.0,
@@ -302,7 +304,8 @@
         1062.0,
         1088.0,
         1110.0,
-        1161.0
+        1161.0,
+        1131.0
       ],
       "dl": [
         "Sep 30",
@@ -316,7 +319,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         1422.0,
@@ -438,7 +442,8 @@
         62.0,
         66.0,
         66.0,
-        67.0
+        67.0,
+        68.0
       ],
       "dl": [
         "Sep 30",
@@ -454,7 +459,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 20"
       ],
       "mp": [
         72.0,
@@ -574,6 +580,7 @@
         1314.0,
         1315.0,
         1348.0,
+        1380.0,
         1380.0
       ],
       "dl": [
@@ -588,7 +595,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         1303.0,
@@ -708,7 +716,8 @@
         169.0,
         171.0,
         174.0,
-        184.0
+        184.0,
+        182.0
       ],
       "dl": [
         "Sep 30",
@@ -722,7 +731,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         218.0,
@@ -842,7 +852,8 @@
         1544.0,
         1575.0,
         1650.0,
-        1790.0
+        1790.0,
+        1779.0
       ],
       "dl": [
         "Sep 30",
@@ -856,7 +867,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         1173.0,
@@ -976,7 +988,8 @@
         4215.0,
         4226.0,
         4235.0,
-        4390.0
+        4390.0,
+        4265.0
       ],
       "dl": [
         "Sep 30",
@@ -990,7 +1003,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         6057.0,
@@ -1110,6 +1124,7 @@
         2466.0,
         2435.0,
         2453.0,
+        2500.0,
         2500.0
       ],
       "dl": [
@@ -1124,7 +1139,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         2561.0,
@@ -1244,7 +1260,8 @@
         5988.0,
         5898.0,
         5840.0,
-        5741.0
+        5741.0,
+        5690.0
       ],
       "dl": [
         "Sep 30",
@@ -1258,7 +1275,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         3625.0,
@@ -1378,7 +1396,8 @@
         1929.0,
         1928.0,
         1934.0,
-        1952.0
+        1952.0,
+        1925.0
       ],
       "dl": [
         "Sep 30",
@@ -1392,7 +1411,8 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19"
       ],
       "mp": [
         1222.0,
@@ -1514,7 +1534,8 @@
         215.0,
         225.0,
         230.0,
-        237.0
+        237.0,
+        240.0
       ],
       "dl": [
         "Sep 30",
@@ -1530,7 +1551,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 20"
       ],
       "mp": [
         331.0,
@@ -1651,7 +1673,9 @@
         119.0,
         118.0,
         122.0,
-        121.0
+        121.0,
+        123.0,
+        124.0
       ],
       "dl": [
         "Sep 30",
@@ -1666,7 +1690,9 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19",
+        "Oct 20"
       ],
       "mp": [
         176.0,
@@ -1787,7 +1813,9 @@
         22.0,
         22.0,
         22.0,
-        22.0
+        22.0,
+        22.0,
+        23.0
       ],
       "dl": [
         "Sep 30",
@@ -1802,7 +1830,9 @@
         "Oct 13",
         "Oct 14",
         "Oct 15",
-        "Oct 16"
+        "Oct 16",
+        "Oct 19",
+        "Oct 20"
       ],
       "mp": [
         524.0,
@@ -1924,6 +1954,7 @@
         13.0,
         14.0,
         14.0,
+        14.0,
         14.0
       ],
       "dl": [
@@ -1940,7 +1971,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 20"
       ],
       "mp": [
         23.0,
@@ -2062,7 +2094,8 @@
         72.0,
         75.0,
         75.0,
-        76.0
+        76.0,
+        78.0
       ],
       "dl": [
         "Sep 30",
@@ -2078,7 +2111,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 20"
       ],
       "mp": [
         106.0,
@@ -2134,49 +2168,40 @@
   },
   "news": [
     {
-      "time": "2026-10-18 15:27",
-      "tk": "INFY",
+      "time": "2026-10-19 11:45",
+      "tk": "TCS",
       "src": "BusinessLine",
-      "cat": "RESULTS",
-      "hl": "Infosys Q2 revenue growth likely to remain modest; analysts see guidance cut",
-      "detail": "Infosys Q2FY27 likely shows modest revenue growth with potential FY27 guidance cut amid demand uncertainties, per brokerages.",
-      "url": "https://www.thehindubusinessline.com/companies/infosys-q2-revenue-growth-likely-to-remain-modest-analysts-see-guidance-cut/article71600402.ece"
+      "cat": "DEAL",
+      "hl": "TCS expands Indian Bank partnership, deploys BaNCS for Treasury in Sri Lanka",
+      "detail": "TCS expands Indian Bank\u2019s Colombo treasury with BaNCS, enabling unified, real-time, compliant overseas operations and enhanced risk controls.",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/tcs-expands-indian-bank-partnership-deploys-bancs-for-treasury-in-sri-lanka/article71602541.ece"
     },
     {
-      "time": "2026-10-18 15:03",
-      "tk": "TECHM",
-      "src": "BusinessLine",
-      "cat": "AI",
-      "hl": "HCL Technologies, Tech Mahindra overtake TCS in net adds",
-      "detail": "On one hand companies say AI will do entry level work and they will hire experienced forward deployed engineers but still focus on entry-level hirings to manage spends",
-      "url": "https://www.thehindubusinessline.com/info-tech/hcl-technologies-tech-mahindra-overtake-tcs-in-net-hiring-adds/article71600310.ece"
-    },
-    {
-      "time": "2026-10-18 09:21",
+      "time": "2026-10-19 10:32",
       "tk": "INFY",
-      "src": "The Tribune India",
-      "cat": "DEAL",
-      "hl": "Mcap of nine of top-10 most valued firms surges by Rs 3.65 lakh crore; TCS shines - The Tribune",
-      "detail": "The combined market valuation of nine of the top-10 most valued firms surged by Rs 3.65 lakh crore last week, with TCS, Bharti Airtel and Infosys emerging as the biggest winners, amid a bullish trend in equities.",
-      "url": "https://www.tribuneindia.com/news/business/mcap-of-nine-of-top-10-most-valued-firms-surges-by-rs-3-65-lakh-crore-tcs-shines/"
-    },
-    {
-      "time": "2026-10-18 14:15",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "DEAL",
-      "hl": "Accenture looks to sell Chinese operations for up to $1.5bn",
-      "detail": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Error Code\n- CG000 / 403\n- Request ID\n- a4c82745ae6d983d",
-      "url": "https://biztoc.com/x/c7920ae9b5c0d4ba"
-    },
-    {
-      "time": "2026-10-18 13:56",
-      "tk": "CTSH",
-      "src": "The Times of India",
+      "src": "PRNewswire",
       "cat": "MACRO",
-      "hl": "Moving to Goa looked like a dream until reality hit: Ex-Cognizant HR opens up about quitting her corporate job to move to a city where others go on holiday",
-      "detail": "Finding purpose: Former Cognizant HR professional Arpita Sahu has opened up about the fears and financial uncertainty she faces after quitting her corporate job in Delhi and moving to Goa in search of purpose. In Instagram videos, she spoke about struggling w\u2026",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/moving-to-goa-looked-like-a-dream-until-reality-hit-ex-cognizant-hr-opens-up-about-quitting-her-corporate-job-to-move-to-a-city-where-others-go-on-holiday/articleshow/135029429.cms"
+      "hl": "Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India",
+      "detail": "BENGALURU, India, Oct. 19, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, recently announced the expansion of its collaboration with Truist, one of the largest US-bas\u2026",
+      "url": "https://www.prnewswire.com/news-releases/infosys-and-truist-strengthen-strategic-collaboration-to-build-a-global-capability-center-in-india-302912501.html"
+    },
+    {
+      "time": "2026-10-19 09:15",
+      "tk": "Sector",
+      "src": "PRNewswire",
+      "cat": "DEAL",
+      "hl": "Comviva and Aduna Showcase Network Intelligence for Financial Services at Money20/20",
+      "detail": "LAS VEGAS, Oct. 19, 2026 /PRNewswire/ -- Comviva, a global leader in digital transformation solutions, and Aduna, the global aggregator of standardized network APIs, are advancing the use of network intelligence to address growing digital identity and fraud c\u2026",
+      "url": "https://www.prnewswire.com/news-releases/comviva-and-aduna-showcase-network-intelligence-for-financial-services-at-money2020-302912446.html"
+    },
+    {
+      "time": "2026-10-19 14:52",
+      "tk": "ACN",
+      "src": "Forkast.news",
+      "cat": "AI",
+      "hl": "Accenture Federal Services and Google Public Sector Deploy Gemini Launchpads for Federal AI Agents",
+      "detail": "Federal agencies are currently struggling to reconcile the rapid evolution of autonomous AI with the rigid, non-negotiable compliance requirements of the federal technology stack. While frontier models have generated significant interest, the transition from \u2026",
+      "url": "https://forkast.news/accenture-federal-services-and-google-public-sector-deploy-gemini-launchpads-for-federal-ai-agents/"
     },
     {
       "time": "2026-10-18 20:19",
@@ -2188,13 +2213,31 @@
       "url": "https://timesofindia.indiatimes.com/city/lucknow/shared-perspectives-ai-take-centre-stage-at-tedx-amity/articleshow/135035031.cms"
     },
     {
-      "time": "2026-10-18 06:59",
-      "tk": "TCS",
+      "time": "2026-10-19 14:08",
+      "tk": "Sector",
+      "src": "PRNewswire",
+      "cat": "DEAL",
+      "hl": "Enciso Systems Joins SOLAIYA / GARDANT GLOBAL Team to Provide IT Services on NASA SEWP VI Contract",
+      "detail": "Technology consulting firm leverages UCF Business Incubation Program to partner on major federal procurement vehicle, expanding its software solutions to the aerospace sector ORLANDO, Fla., Oct. 19, 2026 /PRNewswire/ -- Enciso Systems today announced a strate\u2026",
+      "url": "https://www.prnewswire.com/news-releases/enciso-systems-joins-solaiya--gardant-global-team-to-provide-it-services-on-nasa-sewp-vi-contract-302912697.html"
+    },
+    {
+      "time": "2026-10-19 06:28",
+      "tk": "Sector",
+      "src": "Livemint",
+      "cat": "RESULTS",
+      "hl": "Is the worst of AI deflation over? Depends on which IT boss you ask",
+      "detail": "India's leading IT services companies disagree on how long AI-driven revenue deflation will persist, highlighting uncertainty over the industry's growth outlook.",
+      "url": "https://www.livemint.com/companies/news/indian-it-companies-ai-revenue-deflation-tcs-hcltech-wipro-11792327351170.html"
+    },
+    {
+      "time": "2026-10-18 15:27",
+      "tk": "INFY",
       "src": "BusinessLine",
-      "cat": "MACRO",
-      "hl": "Market cap of 9 top firms surges \u20b93.65 lakh crore; TCS leads gains",
-      "detail": "Last week, the BSE benchmark Sensex surged 2,256.94 points, or 3.11 per cent, and the NSE Nifty jumped 625.7 points, or 2.77 per cent.",
-      "url": "https://www.thehindubusinessline.com/markets/market-cap-of-9-top-firms-surges-365-lakh-crore-tcs-leads-gains/article71599313.ece"
+      "cat": "RESULTS",
+      "hl": "Infosys Q2 revenue growth likely to remain modest; analysts see guidance cut",
+      "detail": "Infosys Q2FY27 likely shows modest revenue growth with potential FY27 guidance cut amid demand uncertainties, per brokerages.",
+      "url": "https://www.thehindubusinessline.com/companies/infosys-q2-revenue-growth-likely-to-remain-modest-analysts-see-guidance-cut/article71600402.ece"
     },
     {
       "time": "2026-10-18 02:58",
@@ -3081,9 +3124,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.122334,
-    "JPY": 0.006308,
-    "CAD": 0.709653,
-    "INR": 0.010535
+    "EUR": 1.123217,
+    "JPY": 0.006322,
+    "CAD": 0.711637,
+    "INR": 0.010536
   }
 }
