@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T20:03:26.996034+00:00",
-  "updated_display": "20 Oct 2026, 20:03 UTC",
+  "updated": "2026-10-21T01:50:32.651721+00:00",
+  "updated_display": "21 Oct 2026, 01:50 UTC",
   "prices": {
     "TCS": {
       "price": 2460.9,
@@ -53,19 +53,19 @@
       "change": -1.4
     },
     "ACN": {
-      "price": 239.21,
+      "price": 239.12,
       "display": "$239",
-      "change": 1.0
+      "change": 0.9
     },
     "CAP": {
-      "price": 123.0,
+      "price": 123.15,
       "display": "\u20ac123",
-      "change": -0.1
+      "change": 1.5
     },
     "ATOS": {
-      "price": 22.84,
-      "display": "\u20ac22.84",
-      "change": 3.3
+      "price": 22.1,
+      "display": "\u20ac22.10",
+      "change": -1.6
     },
     "DXC": {
       "price": 14.63,
@@ -73,8 +73,8 @@
       "change": 2.6
     },
     "GIB": {
-      "price": 79.0,
-      "display": "$79.00",
+      "price": 78.98,
+      "display": "$78.98",
       "change": 4.2
     }
   },
@@ -88,16 +88,16 @@
       "change": -1.28
     },
     "SP500": {
-      "value": 7712.62,
+      "value": 7712.57,
       "change": 0.28
     },
     "USD_INR": {
-      "value": 94.79,
-      "change": -0.2
+      "value": 94.77,
+      "change": -0.24
     },
     "EUR_INR": {
-      "value": 106.52,
-      "change": -0.1
+      "value": 106.43,
+      "change": 0.05
     }
   },
   "historical": {
@@ -114,7 +114,7 @@
         3074.0,
         2302.0,
         2010.0,
-        2197.0
+        2231.0
       ],
       "ql": [
         "Q4'23",
@@ -141,7 +141,7 @@
         2189.0,
         2094.0,
         2071.0,
-        2022.0
+        2040.0
       ],
       "wl": [
         "Jul 24",
@@ -157,7 +157,6 @@
         "Oct 2"
       ],
       "dp": [
-        2040.0,
         2064.0,
         2103.0,
         2089.0,
@@ -172,7 +171,6 @@
         2461.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -198,7 +196,7 @@
         3074.0,
         2302.0,
         2010.0,
-        2197.0,
+        2231.0,
         2242.0,
         2353.0,
         2440.0,
@@ -209,7 +207,7 @@
         2189.0,
         2094.0,
         2071.0,
-        2022.0
+        2040.0
       ],
       "ml": [
         "Q4'23",
@@ -250,7 +248,7 @@
         1581.0,
         1224.0,
         1000.0,
-        1052.0
+        1047.0
       ],
       "ql": [
         "Q4'23",
@@ -277,7 +275,7 @@
         1038.0,
         1051.0,
         1000.0,
-        1015.0
+        994.0
       ],
       "wl": [
         "Jul 24",
@@ -293,7 +291,6 @@
         "Oct 2"
       ],
       "dp": [
-        994.0,
         1035.0,
         1020.0,
         1014.0,
@@ -308,7 +305,6 @@
         1131.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -334,7 +330,7 @@
         1581.0,
         1224.0,
         1000.0,
-        1052.0,
+        1047.0,
         1041.0,
         1130.0,
         1175.0,
@@ -345,7 +341,7 @@
         1038.0,
         1051.0,
         1000.0,
-        1015.0
+        994.0
       ],
       "ml": [
         "Q4'23",
@@ -429,7 +425,6 @@
         "Oct 2"
       ],
       "dp": [
-        57.0,
         61.0,
         59.0,
         58.0,
@@ -446,7 +441,6 @@
         68.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 2",
         "Oct 5",
@@ -526,7 +520,7 @@
         1552.0,
         1292.0,
         1052.0,
-        1226.0
+        1234.0
       ],
       "ql": [
         "Q4'23",
@@ -553,7 +547,7 @@
         1195.0,
         1238.0,
         1247.0,
-        1211.0
+        1219.0
       ],
       "wl": [
         "Jul 24",
@@ -569,7 +563,6 @@
         "Oct 2"
       ],
       "dp": [
-        1219.0,
         1232.0,
         1191.0,
         1194.0,
@@ -584,7 +577,6 @@
         1380.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -610,7 +602,7 @@
         1552.0,
         1292.0,
         1052.0,
-        1226.0,
+        1234.0,
         1260.0,
         1335.0,
         1345.0,
@@ -621,7 +613,7 @@
         1195.0,
         1238.0,
         1247.0,
-        1211.0
+        1219.0
       ],
       "ml": [
         "Q4'23",
@@ -662,7 +654,7 @@
         254.0,
         186.0,
         168.0,
-        172.0
+        173.0
       ],
       "ql": [
         "Q4'23",
@@ -689,7 +681,7 @@
         167.0,
         167.0,
         164.0,
-        157.0
+        158.0
       ],
       "wl": [
         "Jul 24",
@@ -705,7 +697,6 @@
         "Oct 2"
       ],
       "dp": [
-        158.0,
         159.0,
         162.0,
         162.0,
@@ -720,7 +711,6 @@
         182.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -746,7 +736,7 @@
         254.0,
         186.0,
         168.0,
-        172.0,
+        173.0,
         175.0,
         184.0,
         188.0,
@@ -757,7 +747,7 @@
         167.0,
         167.0,
         164.0,
-        157.0
+        158.0
       ],
       "ml": [
         "Q4'23",
@@ -798,7 +788,7 @@
         1551.0,
         1349.0,
         1369.0,
-        1561.0
+        1556.0
       ],
       "ql": [
         "Q4'23",
@@ -825,7 +815,7 @@
         1541.0,
         1537.0,
         1548.0,
-        1510.0
+        1524.0
       ],
       "wl": [
         "Jul 24",
@@ -841,7 +831,6 @@
         "Oct 2"
       ],
       "dp": [
-        1524.0,
         1533.0,
         1536.0,
         1504.0,
@@ -856,7 +845,6 @@
         1779.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -882,7 +870,7 @@
         1551.0,
         1349.0,
         1369.0,
-        1561.0,
+        1556.0,
         1560.0,
         1651.0,
         1635.0,
@@ -893,7 +881,7 @@
         1541.0,
         1537.0,
         1548.0,
-        1510.0
+        1524.0
       ],
       "ml": [
         "Q4'23",
@@ -934,7 +922,7 @@
         5983.0,
         3961.0,
         3538.0,
-        3982.0
+        3965.0
       ],
       "ql": [
         "Q4'23",
@@ -961,7 +949,7 @@
         4275.0,
         4275.0,
         4083.0,
-        3936.0
+        4045.0
       ],
       "wl": [
         "Jul 24",
@@ -977,7 +965,6 @@
         "Oct 2"
       ],
       "dp": [
-        4045.0,
         4007.0,
         4010.0,
         3971.0,
@@ -992,7 +979,6 @@
         4265.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -1018,7 +1004,7 @@
         5983.0,
         3961.0,
         3538.0,
-        3982.0,
+        3965.0,
         4092.0,
         4362.0,
         4658.0,
@@ -1029,7 +1015,7 @@
         4275.0,
         4275.0,
         4083.0,
-        3936.0
+        4045.0
       ],
       "ml": [
         "Q4'23",
@@ -1070,7 +1056,7 @@
         2718.0,
         1999.0,
         2105.0,
-        2274.0
+        2232.0
       ],
       "ql": [
         "Q4'23",
@@ -1113,7 +1099,6 @@
         "Oct 2"
       ],
       "dp": [
-        2154.0,
         2250.0,
         2297.0,
         2298.0,
@@ -1128,7 +1113,6 @@
         2500.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -1154,7 +1138,7 @@
         2718.0,
         1999.0,
         2105.0,
-        2274.0,
+        2232.0,
         2288.0,
         2342.0,
         2475.0,
@@ -1206,7 +1190,7 @@
         6228.0,
         4860.0,
         4312.0,
-        5081.0
+        4985.0
       ],
       "ql": [
         "Q4'23",
@@ -1233,7 +1217,7 @@
         5516.0,
         5416.0,
         5372.0,
-        5162.0
+        5279.0
       ],
       "wl": [
         "Jul 24",
@@ -1249,7 +1233,6 @@
         "Oct 2"
       ],
       "dp": [
-        5279.0,
         5367.0,
         5530.0,
         5521.0,
@@ -1264,7 +1247,6 @@
         5690.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -1290,7 +1272,7 @@
         6228.0,
         4860.0,
         4312.0,
-        5081.0,
+        4985.0,
         5182.0,
         5549.0,
         5475.0,
@@ -1301,7 +1283,7 @@
         5516.0,
         5416.0,
         5372.0,
-        5162.0
+        5279.0
       ],
       "ml": [
         "Q4'23",
@@ -1342,7 +1324,7 @@
         1655.0,
         1112.0,
         1462.0,
-        1468.0
+        1437.0
       ],
       "ql": [
         "Q4'23",
@@ -1369,7 +1351,7 @@
         1846.0,
         1841.0,
         1784.0,
-        1722.0
+        1749.0
       ],
       "wl": [
         "Jul 24",
@@ -1385,7 +1367,6 @@
         "Oct 2"
       ],
       "dp": [
-        1749.0,
         1826.0,
         1852.0,
         1850.0,
@@ -1400,7 +1381,6 @@
         1925.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 5",
         "Oct 6",
@@ -1426,7 +1406,7 @@
         1655.0,
         1112.0,
         1462.0,
-        1468.0,
+        1437.0,
         1481.0,
         1717.0,
         1776.0,
@@ -1437,7 +1417,7 @@
         1846.0,
         1841.0,
         1784.0,
-        1722.0
+        1749.0
       ],
       "ml": [
         "Q4'23",
@@ -1478,7 +1458,7 @@
         261.0,
         193.0,
         122.0,
-        139.0
+        138.0
       ],
       "ql": [
         "Q4'23",
@@ -1505,7 +1485,7 @@
         182.0,
         180.0,
         175.0,
-        176.0
+        182.0
       ],
       "wl": [
         "Jul 24",
@@ -1521,7 +1501,6 @@
         "Oct 2"
       ],
       "dp": [
-        182.0,
         211.0,
         197.0,
         193.0,
@@ -1538,7 +1517,6 @@
         239.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 2",
         "Oct 5",
@@ -1566,7 +1544,7 @@
         261.0,
         193.0,
         122.0,
-        139.0,
+        138.0,
         146.0,
         165.0,
         174.0,
@@ -1577,7 +1555,7 @@
         182.0,
         180.0,
         175.0,
-        176.0
+        182.0
       ],
       "ml": [
         "Q4'23",
@@ -1618,7 +1596,7 @@
         138.0,
         97.0,
         88.0,
-        89.0
+        86.0
       ],
       "ql": [
         "Q4'23",
@@ -1661,7 +1639,6 @@
         "Oct 2"
       ],
       "dp": [
-        104.0,
         112.0,
         109.0,
         108.0,
@@ -1674,11 +1651,9 @@
         118.0,
         122.0,
         121.0,
-        123.0,
         123.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 2",
         "Oct 5",
@@ -1691,8 +1666,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 20"
+        "Oct 19"
       ],
       "mp": [
         176.0,
@@ -1706,7 +1680,7 @@
         138.0,
         97.0,
         88.0,
-        89.0,
+        86.0,
         90.0,
         102.0,
         109.0,
@@ -1785,7 +1759,7 @@
         25.0,
         24.0,
         22.0,
-        20.0
+        21.0
       ],
       "wl": [
         "Jul 24",
@@ -1801,7 +1775,6 @@
         "Oct 2"
       ],
       "dp": [
-        21.0,
         22.0,
         22.0,
         22.0,
@@ -1814,11 +1787,9 @@
         22.0,
         22.0,
         22.0,
-        22.0,
-        23.0
+        22.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 2",
         "Oct 5",
@@ -1831,8 +1802,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 20"
+        "Oct 19"
       ],
       "mp": [
         524.0,
@@ -1857,7 +1827,7 @@
         25.0,
         24.0,
         22.0,
-        20.0
+        21.0
       ],
       "ml": [
         "Q4'23",
@@ -1925,7 +1895,7 @@
         11.0,
         11.0,
         11.0,
-        10.0
+        11.0
       ],
       "wl": [
         "Jul 24",
@@ -1941,7 +1911,6 @@
         "Oct 2"
       ],
       "dp": [
-        11.0,
         12.0,
         11.0,
         12.0,
@@ -1958,7 +1927,6 @@
         15.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 2",
         "Oct 5",
@@ -1997,7 +1965,7 @@
         11.0,
         11.0,
         11.0,
-        10.0
+        11.0
       ],
       "ml": [
         "Q4'23",
@@ -2038,7 +2006,7 @@
         92.0,
         73.0,
         64.0,
-        66.0
+        64.0
       ],
       "ql": [
         "Q4'23",
@@ -2081,7 +2049,6 @@
         "Oct 2"
       ],
       "dp": [
-        68.0,
         71.0,
         70.0,
         71.0,
@@ -2098,7 +2065,6 @@
         79.0
       ],
       "dl": [
-        "Sep 30",
         "Oct 1",
         "Oct 2",
         "Oct 5",
@@ -2126,7 +2092,7 @@
         92.0,
         73.0,
         64.0,
-        66.0,
+        64.0,
         66.0,
         73.0,
         75.0,
@@ -2168,6 +2134,15 @@
   },
   "news": [
     {
+      "time": "2026-10-19 23:47",
+      "tk": "CTSH",
+      "src": "The Next Web",
+      "cat": "AI",
+      "hl": "Cognizant puts 18,000 staff behind Google\u2019s Gemini in AI agent push",
+      "detail": "Cognizant and Google Cloud have set up a Gemini Frontier Capability Group of 18,000 Cognizant staff to help companies move AI agents from pilots to use.",
+      "url": "https://thenextweb.com/news/cognizant-google-gemini-18000-engineers"
+    },
+    {
       "time": "2026-10-19 15:46",
       "tk": "WIPRO",
       "src": "The Times of India",
@@ -2177,31 +2152,22 @@
       "url": "https://economictimes.indiatimes.com/magazines/panache/bengaluru-techie-left-a-high-paying-wipro-job-to-help-farmers-his-father-did-not-speak-to-him-for-8-years-today-he-is-running-a-rs-1500-empire-and-earning-rs-60-crore-per-month/articleshow/135051776.cms"
     },
     {
-      "time": "2026-10-19 15:43",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "Infosys expands Truist GCC tie-up, adds 1,000 staff in Hyd",
-      "detail": "Infosys expands its partnership with Truist to scale the Hyderabad GCC, adding 1,000+ staff to consolidate tech, data, AI and operations in an integrated model.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-expands-truist-gcc-tie-up-adds-1000-staff-in-hyd/articleshow/135051777.cms"
-    },
-    {
-      "time": "2026-10-19 18:25",
-      "tk": "CTSH",
-      "src": "Crypto Briefing",
-      "cat": "DEAL",
-      "hl": "Google and Cognizant expand AI partnership, eye Gemini rollout to 200,000 workers",
-      "detail": "The expanded AI partnership could significantly enhance operational efficiency and innovation across multiple sectors, driving industry-wide transformation.\nThe post Google and Cognizant expand AI partnership, eye Gemini rollout to 200,000 workers appeared fi\u2026",
-      "url": "https://cryptobriefing.com/google-cognizant-expand-gemini-ai-partnership/"
-    },
-    {
-      "time": "2026-10-19 14:52",
+      "time": "2026-10-19 22:14",
       "tk": "ACN",
-      "src": "Forkast.news",
-      "cat": "AI",
-      "hl": "Accenture Federal Services and Google Public Sector Deploy Gemini Launchpads for Federal AI Agents",
-      "detail": "Federal agencies are currently struggling to reconcile the rapid evolution of autonomous AI with the rigid, non-negotiable compliance requirements of the federal technology stack. While frontier models have generated significant interest, the transition from \u2026",
-      "url": "https://forkast.news/accenture-federal-services-and-google-public-sector-deploy-gemini-launchpads-for-federal-ai-agents/"
+      "src": "Biztoc.com",
+      "cat": "MACRO",
+      "hl": "Accenture spent years building in China; now it may cash out",
+      "detail": "In November 2004, Accenture opened an office in Guangzhou and called it a sign of its \u201cdeep commitment to China,\u201d ZDNET reported. By then, the firm had already operated on the mainland for over a decade.\nMore than two decades later, that commitment has a pric\u2026",
+      "url": "https://biztoc.com/x/5a9b0575f790740a"
+    },
+    {
+      "time": "2026-10-19 16:40",
+      "tk": "CTSH",
+      "src": "Biztoc.com",
+      "cat": "DEAL",
+      "hl": "Google Cloud, Cognizant expand AI partnership",
+      "detail": "Google LLC announced in a statement on Monday that its cloud unit is expanding its alliance with Cognizant Technology Solutions Corporation \"to accelerate the adoption of agentic AI, including a new G...",
+      "url": "https://biztoc.com/x/50e910482f9ac719"
     },
     {
       "time": "2026-10-19 16:59",
@@ -2213,15 +2179,6 @@
       "url": "https://www.channelnewsasia.com/business/exclusive-dxc-in-advanced-talks-sell-insurance-software-unit-24-billion-sources-say-6472881"
     },
     {
-      "time": "2026-10-18 20:19",
-      "tk": "COFG",
-      "src": "The Times of India",
-      "cat": "AI",
-      "hl": "Shared perspectives, AI take centre stage at TEDx Amity",
-      "detail": "TEDx Amity University Lucknow explored shared perspectives, AI\u2019s impact on human skills, reading habits, and imagination, featuring leaders from Coforge and PwC.",
-      "url": "https://timesofindia.indiatimes.com/city/lucknow/shared-perspectives-ai-take-centre-stage-at-tedx-amity/articleshow/135035031.cms"
-    },
-    {
       "time": "2026-10-19 14:08",
       "tk": "Sector",
       "src": "PRNewswire",
@@ -2231,6 +2188,15 @@
       "url": "https://www.prnewswire.com/news-releases/enciso-systems-joins-solaiya--gardant-global-team-to-provide-it-services-on-nasa-sewp-vi-contract-302912697.html"
     },
     {
+      "time": "2026-10-19 10:32",
+      "tk": "INFY",
+      "src": "PRNewswire",
+      "cat": "MACRO",
+      "hl": "Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India",
+      "detail": "BENGALURU, India, Oct. 19, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, recently announced the expansion of its collaboration with Truist, one of the largest US-bas\u2026",
+      "url": "https://www.prnewswire.com/news-releases/infosys-and-truist-strengthen-strategic-collaboration-to-build-a-global-capability-center-in-india-302912501.html"
+    },
+    {
       "time": "2026-10-19 06:28",
       "tk": "Sector",
       "src": "Livemint",
@@ -2238,15 +2204,6 @@
       "hl": "Is the worst of AI deflation over? Depends on which IT boss you ask",
       "detail": "India's leading IT services companies disagree on how long AI-driven revenue deflation will persist, highlighting uncertainty over the industry's growth outlook.",
       "url": "https://www.livemint.com/companies/news/indian-it-companies-ai-revenue-deflation-tcs-hcltech-wipro-11792327351170.html"
-    },
-    {
-      "time": "2026-10-18 02:58",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Q4 Results Reinforce AI Bookings And Margin Progress",
-      "detail": "The market liked what it saw. Accenture stock closed at about US$229.68, up 2.1% on the day, as investors reacted to fresh Q4 2026 numbers that landed with a cleaner story than many expected.\nThe headline takeaway is simple. The consulting giant reported roug\u2026",
-      "url": "https://biztoc.com/x/527cf8b0f40941be"
     }
   ],
   "quarterly": {
@@ -3124,9 +3081,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.123974,
-    "JPY": 0.00632,
-    "CAD": 0.71143,
-    "INR": 0.01055
+    "EUR": 1.122838,
+    "JPY": 0.006316,
+    "CAD": 0.711045,
+    "INR": 0.010552
   }
 }
