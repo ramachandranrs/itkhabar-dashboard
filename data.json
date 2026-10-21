@@ -1,61 +1,61 @@
 {
-  "updated": "2026-10-21T15:53:49.937072+00:00",
-  "updated_display": "21 Oct 2026, 15:53 UTC",
+  "updated": "2026-10-21T20:16:17.871825+00:00",
+  "updated_display": "21 Oct 2026, 20:16 UTC",
   "prices": {
     "TCS": {
-      "price": 2529.0,
-      "display": "\u20b92,529",
-      "change": 2.8
+      "price": 2460.9,
+      "display": "\u20b92,461",
+      "change": -0.2
     },
     "INFY": {
-      "price": 1168.0,
-      "display": "\u20b91,168",
-      "change": 3.3
+      "price": 1130.7,
+      "display": "\u20b91,131",
+      "change": -2.6
     },
     "CTSH": {
-      "price": 69.21,
-      "display": "$69.21",
-      "change": 1.5
+      "price": 69.55,
+      "display": "$69.55",
+      "change": 2.0
     },
     "HCLT": {
-      "price": 1424.2,
-      "display": "\u20b91,424",
-      "change": 3.2
+      "price": 1379.9,
+      "display": "\u20b91,380",
+      "change": -0.0
     },
     "WIPRO": {
-      "price": 189.17,
-      "display": "\u20b9189",
-      "change": 3.9
+      "price": 182.14,
+      "display": "\u20b9182",
+      "change": -1.2
     },
     "TECHM": {
-      "price": 1834.7,
-      "display": "\u20b91,835",
-      "change": 3.1
+      "price": 1779.1,
+      "display": "\u20b91,779",
+      "change": -0.6
     },
     "LTIM": {
-      "price": 4298.0,
-      "display": "\u20b94,298",
-      "change": 0.8
+      "price": 4264.9,
+      "display": "\u20b94,265",
+      "change": -2.8
     },
     "MPHL": {
-      "price": 2575.0,
-      "display": "\u20b92,575",
-      "change": 3.0
+      "price": 2500.0,
+      "display": "\u20b92,500",
+      "change": 0.0
     },
     "PSYS": {
-      "price": 5858.5,
-      "display": "\u20b95,858",
-      "change": 3.0
+      "price": 5690.0,
+      "display": "\u20b95,690",
+      "change": -0.9
     },
     "COFG": {
-      "price": 1951.0,
-      "display": "\u20b91,951",
-      "change": 1.4
+      "price": 1925.0,
+      "display": "\u20b91,925",
+      "change": -1.4
     },
     "ACN": {
-      "price": 241.07,
-      "display": "$241",
-      "change": 0.8
+      "price": 240.26,
+      "display": "$240",
+      "change": 0.5
     },
     "CAP": {
       "price": 125.05,
@@ -68,36 +68,36 @@
       "change": 13.8
     },
     "DXC": {
-      "price": 14.98,
-      "display": "$14.98",
-      "change": 2.4
+      "price": 15.4,
+      "display": "$15.40",
+      "change": 5.3
     },
     "GIB": {
-      "price": 79.2,
-      "display": "$79.20",
-      "change": 0.3
+      "price": 79.57,
+      "display": "$79.57",
+      "change": 0.7
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73709.69,
-      "change": -0.19
+      "value": 73852.9,
+      "change": -1.17
     },
     "NIFTY_IT": {
-      "value": 32422.5,
-      "change": 2.88
+      "value": 31516.3,
+      "change": -1.28
     },
     "SP500": {
-      "value": 7752.82,
-      "change": 0.52
+      "value": 7757.17,
+      "change": 0.58
     },
     "USD_INR": {
       "value": 94.45,
       "change": -0.57
     },
     "EUR_INR": {
-      "value": 105.97,
-      "change": -0.38
+      "value": 106.13,
+      "change": -0.23
     }
   },
   "historical": {
@@ -168,8 +168,7 @@
         2305.0,
         2350.0,
         2465.0,
-        2461.0,
-        2529.0
+        2461.0
       ],
       "dl": [
         "Oct 1",
@@ -183,8 +182,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         3448.0,
@@ -304,8 +302,7 @@
         1088.0,
         1110.0,
         1161.0,
-        1131.0,
-        1168.0
+        1131.0
       ],
       "dl": [
         "Oct 1",
@@ -319,8 +316,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         1422.0,
@@ -443,7 +439,7 @@
         66.0,
         67.0,
         68.0,
-        69.0
+        70.0
       ],
       "dl": [
         "Oct 1",
@@ -580,8 +576,7 @@
         1315.0,
         1348.0,
         1380.0,
-        1380.0,
-        1424.0
+        1380.0
       ],
       "dl": [
         "Oct 1",
@@ -595,8 +590,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         1303.0,
@@ -716,8 +710,7 @@
         171.0,
         174.0,
         184.0,
-        182.0,
-        189.0
+        182.0
       ],
       "dl": [
         "Oct 1",
@@ -731,8 +724,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         218.0,
@@ -852,8 +844,7 @@
         1575.0,
         1650.0,
         1790.0,
-        1779.0,
-        1835.0
+        1779.0
       ],
       "dl": [
         "Oct 1",
@@ -867,8 +858,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         1173.0,
@@ -988,8 +978,7 @@
         4226.0,
         4235.0,
         4390.0,
-        4265.0,
-        4298.0
+        4265.0
       ],
       "dl": [
         "Oct 1",
@@ -1003,8 +992,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         6057.0,
@@ -1124,8 +1112,7 @@
         2435.0,
         2453.0,
         2500.0,
-        2500.0,
-        2575.0
+        2500.0
       ],
       "dl": [
         "Oct 1",
@@ -1139,8 +1126,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         2561.0,
@@ -1260,8 +1246,7 @@
         5898.0,
         5840.0,
         5741.0,
-        5690.0,
-        5858.0
+        5690.0
       ],
       "dl": [
         "Oct 1",
@@ -1275,8 +1260,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         3625.0,
@@ -1396,8 +1380,7 @@
         1928.0,
         1934.0,
         1952.0,
-        1925.0,
-        1951.0
+        1925.0
       ],
       "dl": [
         "Oct 1",
@@ -1411,8 +1394,7 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19",
-        "Oct 21"
+        "Oct 19"
       ],
       "mp": [
         1222.0,
@@ -1535,7 +1517,7 @@
         230.0,
         237.0,
         239.0,
-        241.0
+        240.0
       ],
       "dl": [
         "Oct 1",
@@ -2095,7 +2077,7 @@
         75.0,
         76.0,
         79.0,
-        79.0
+        80.0
       ],
       "dl": [
         "Oct 1",
@@ -2168,6 +2150,15 @@
   },
   "news": [
     {
+      "time": "2026-10-20 17:38",
+      "tk": "ACN",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Accenture leases, renews 5.84 lakh sq ft across Mindspace REIT\u2019s Airoli parks",
+      "detail": "Accenture has secured over 5.84 lakh square feet of office space in Navi Mumbai. This includes fresh leasing, expansion, and renewal of existing spaces spanning ten years. The new offices are expected to house around 10,000 employees engaged in various functi\u2026",
+      "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/accenture-leases-renews-5-84-lakh-sq-ft-across-mindspace-reits-airoli-parks/articleshow/135074685.cms"
+    },
+    {
       "time": "2026-10-20 14:34",
       "tk": "LTIM",
       "src": "PRNewswire",
@@ -2193,15 +2184,6 @@
       "hl": "Reuters: DXC in Advanced Talks to Sell Insurance Software Unit for $2.4 Billion",
       "detail": "IT services company DXC Technology is in advanced talks to sell its insurance software and services division to private investment firm Eldridge Industries for about $2.4 billion, according to people familiar with the matter. Eldridge is discussing combining \u2026",
       "url": "https://www.insurancejournal.com/news/east/2026/10/20/889618.htm"
-    },
-    {
-      "time": "2026-10-19 14:08",
-      "tk": "Sector",
-      "src": "PRNewswire",
-      "cat": "DEAL",
-      "hl": "Enciso Systems Joins SOLAIYA / GARDANT GLOBAL Team to Provide IT Services on NASA SEWP VI Contract",
-      "detail": "Technology consulting firm leverages UCF Business Incubation Program to partner on major federal procurement vehicle, expanding its software solutions to the aerospace sector ORLANDO, Fla., Oct. 19, 2026 /PRNewswire/ -- Enciso Systems today announced a strate\u2026",
-      "url": "https://www.prnewswire.com/news-releases/enciso-systems-joins-solaiya--gardant-global-team-to-provide-it-services-on-nasa-sewp-vi-contract-302912697.html"
     },
     {
       "time": "2026-10-19 10:32",
@@ -3097,9 +3079,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.122083,
-    "JPY": 0.006324,
-    "CAD": 0.710778,
+    "EUR": 1.123722,
+    "JPY": 0.006322,
+    "CAD": 0.712099,
     "INR": 0.010588
   }
 }
