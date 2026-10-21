@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-21T01:50:32.651721+00:00",
-  "updated_display": "21 Oct 2026, 01:50 UTC",
+  "updated": "2026-10-21T15:53:49.937072+00:00",
+  "updated_display": "21 Oct 2026, 15:53 UTC",
   "prices": {
     "TCS": {
-      "price": 2460.9,
-      "display": "\u20b92,461",
-      "change": -0.2
+      "price": 2529.0,
+      "display": "\u20b92,529",
+      "change": 2.8
     },
     "INFY": {
-      "price": 1130.7,
-      "display": "\u20b91,131",
-      "change": -2.6
+      "price": 1168.0,
+      "display": "\u20b91,168",
+      "change": 3.3
     },
     "CTSH": {
-      "price": 68.18,
-      "display": "$68.18",
-      "change": 2.1
-    },
-    "HCLT": {
-      "price": 1379.9,
-      "display": "\u20b91,380",
-      "change": -0.0
-    },
-    "WIPRO": {
-      "price": 182.14,
-      "display": "\u20b9182",
-      "change": -1.2
-    },
-    "TECHM": {
-      "price": 1779.1,
-      "display": "\u20b91,779",
-      "change": -0.6
-    },
-    "LTIM": {
-      "price": 4264.9,
-      "display": "\u20b94,265",
-      "change": -2.8
-    },
-    "MPHL": {
-      "price": 2500.0,
-      "display": "\u20b92,500",
-      "change": 0.0
-    },
-    "PSYS": {
-      "price": 5690.0,
-      "display": "\u20b95,690",
-      "change": -0.9
-    },
-    "COFG": {
-      "price": 1925.0,
-      "display": "\u20b91,925",
-      "change": -1.4
-    },
-    "ACN": {
-      "price": 239.12,
-      "display": "$239",
-      "change": 0.9
-    },
-    "CAP": {
-      "price": 123.15,
-      "display": "\u20ac123",
+      "price": 69.21,
+      "display": "$69.21",
       "change": 1.5
     },
+    "HCLT": {
+      "price": 1424.2,
+      "display": "\u20b91,424",
+      "change": 3.2
+    },
+    "WIPRO": {
+      "price": 189.17,
+      "display": "\u20b9189",
+      "change": 3.9
+    },
+    "TECHM": {
+      "price": 1834.7,
+      "display": "\u20b91,835",
+      "change": 3.1
+    },
+    "LTIM": {
+      "price": 4298.0,
+      "display": "\u20b94,298",
+      "change": 0.8
+    },
+    "MPHL": {
+      "price": 2575.0,
+      "display": "\u20b92,575",
+      "change": 3.0
+    },
+    "PSYS": {
+      "price": 5858.5,
+      "display": "\u20b95,858",
+      "change": 3.0
+    },
+    "COFG": {
+      "price": 1951.0,
+      "display": "\u20b91,951",
+      "change": 1.4
+    },
+    "ACN": {
+      "price": 241.07,
+      "display": "$241",
+      "change": 0.8
+    },
+    "CAP": {
+      "price": 125.05,
+      "display": "\u20ac125",
+      "change": 1.7
+    },
     "ATOS": {
-      "price": 22.1,
-      "display": "\u20ac22.10",
-      "change": -1.6
+      "price": 26.0,
+      "display": "\u20ac26.00",
+      "change": 13.8
     },
     "DXC": {
-      "price": 14.63,
-      "display": "$14.63",
-      "change": 2.6
+      "price": 14.98,
+      "display": "$14.98",
+      "change": 2.4
     },
     "GIB": {
-      "price": 78.98,
-      "display": "$78.98",
-      "change": 4.2
+      "price": 79.2,
+      "display": "$79.20",
+      "change": 0.3
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73852.9,
-      "change": -1.17
+      "value": 73709.69,
+      "change": -0.19
     },
     "NIFTY_IT": {
-      "value": 31516.3,
-      "change": -1.28
+      "value": 32422.5,
+      "change": 2.88
     },
     "SP500": {
-      "value": 7712.57,
-      "change": 0.28
+      "value": 7752.82,
+      "change": 0.52
     },
     "USD_INR": {
-      "value": 94.77,
-      "change": -0.24
+      "value": 94.45,
+      "change": -0.57
     },
     "EUR_INR": {
-      "value": 106.43,
-      "change": 0.05
+      "value": 105.97,
+      "change": -0.38
     }
   },
   "historical": {
@@ -168,7 +168,8 @@
         2305.0,
         2350.0,
         2465.0,
-        2461.0
+        2461.0,
+        2529.0
       ],
       "dl": [
         "Oct 1",
@@ -182,7 +183,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         3448.0,
@@ -302,7 +304,8 @@
         1088.0,
         1110.0,
         1161.0,
-        1131.0
+        1131.0,
+        1168.0
       ],
       "dl": [
         "Oct 1",
@@ -316,7 +319,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         1422.0,
@@ -438,7 +442,8 @@
         66.0,
         66.0,
         67.0,
-        68.0
+        68.0,
+        69.0
       ],
       "dl": [
         "Oct 1",
@@ -454,7 +459,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 20"
+        "Oct 20",
+        "Oct 21"
       ],
       "mp": [
         72.0,
@@ -574,7 +580,8 @@
         1315.0,
         1348.0,
         1380.0,
-        1380.0
+        1380.0,
+        1424.0
       ],
       "dl": [
         "Oct 1",
@@ -588,7 +595,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         1303.0,
@@ -708,7 +716,8 @@
         171.0,
         174.0,
         184.0,
-        182.0
+        182.0,
+        189.0
       ],
       "dl": [
         "Oct 1",
@@ -722,7 +731,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         218.0,
@@ -842,7 +852,8 @@
         1575.0,
         1650.0,
         1790.0,
-        1779.0
+        1779.0,
+        1835.0
       ],
       "dl": [
         "Oct 1",
@@ -856,7 +867,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         1173.0,
@@ -976,7 +988,8 @@
         4226.0,
         4235.0,
         4390.0,
-        4265.0
+        4265.0,
+        4298.0
       ],
       "dl": [
         "Oct 1",
@@ -990,7 +1003,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         6057.0,
@@ -1110,7 +1124,8 @@
         2435.0,
         2453.0,
         2500.0,
-        2500.0
+        2500.0,
+        2575.0
       ],
       "dl": [
         "Oct 1",
@@ -1124,7 +1139,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         2561.0,
@@ -1244,7 +1260,8 @@
         5898.0,
         5840.0,
         5741.0,
-        5690.0
+        5690.0,
+        5858.0
       ],
       "dl": [
         "Oct 1",
@@ -1258,7 +1275,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         3625.0,
@@ -1378,7 +1396,8 @@
         1928.0,
         1934.0,
         1952.0,
-        1925.0
+        1925.0,
+        1951.0
       ],
       "dl": [
         "Oct 1",
@@ -1392,7 +1411,8 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21"
       ],
       "mp": [
         1222.0,
@@ -1514,7 +1534,8 @@
         225.0,
         230.0,
         237.0,
-        239.0
+        239.0,
+        241.0
       ],
       "dl": [
         "Oct 1",
@@ -1530,7 +1551,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 20"
+        "Oct 20",
+        "Oct 21"
       ],
       "mp": [
         331.0,
@@ -1651,7 +1673,9 @@
         118.0,
         122.0,
         121.0,
-        123.0
+        123.0,
+        123.0,
+        125.0
       ],
       "dl": [
         "Oct 1",
@@ -1666,7 +1690,9 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 20",
+        "Oct 21"
       ],
       "mp": [
         176.0,
@@ -1787,7 +1813,9 @@
         22.0,
         22.0,
         22.0,
-        22.0
+        22.0,
+        23.0,
+        26.0
       ],
       "dl": [
         "Oct 1",
@@ -1802,7 +1830,9 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 20",
+        "Oct 21"
       ],
       "mp": [
         524.0,
@@ -1924,6 +1954,7 @@
         14.0,
         14.0,
         14.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1940,7 +1971,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 20"
+        "Oct 20",
+        "Oct 21"
       ],
       "mp": [
         23.0,
@@ -2062,6 +2094,7 @@
         75.0,
         75.0,
         76.0,
+        79.0,
         79.0
       ],
       "dl": [
@@ -2078,7 +2111,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 20"
+        "Oct 20",
+        "Oct 21"
       ],
       "mp": [
         106.0,
@@ -2134,49 +2168,31 @@
   },
   "news": [
     {
-      "time": "2026-10-19 23:47",
+      "time": "2026-10-20 14:34",
+      "tk": "LTIM",
+      "src": "PRNewswire",
+      "cat": "RESULTS",
+      "hl": "Mattamy Group Corporation Announces First Quarter 2027 Key Operating Results",
+      "detail": "TORONTO, Oct. 20, 2026 /PRNewswire/ -- Mattamy Group Corporation (\"Mattamy\"), the largest family-owned homebuilder in North America, today announced key operating results for the first quarter ended August 31, 2026 and posted LTM financial results for the fou\u2026",
+      "url": "https://www.prnewswire.com/news-releases/mattamy-group-corporation-announces-first-quarter-2027-key-operating-results-302914222.html"
+    },
+    {
+      "time": "2026-10-20 09:42",
       "tk": "CTSH",
-      "src": "The Next Web",
-      "cat": "AI",
-      "hl": "Cognizant puts 18,000 staff behind Google\u2019s Gemini in AI agent push",
-      "detail": "Cognizant and Google Cloud have set up a Gemini Frontier Capability Group of 18,000 Cognizant staff to help companies move AI agents from pilots to use.",
-      "url": "https://thenextweb.com/news/cognizant-google-gemini-18000-engineers"
-    },
-    {
-      "time": "2026-10-19 15:46",
-      "tk": "WIPRO",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Bengaluru techie left a high-paying Wipro job to help farmers. His father did not speak to him for 8 years. Today, he is running a Rs 1,500 empire and earning Rs 60 crore per month",
-      "detail": "More than a decade ago, Shashi Kumar did the impossible - leave a lucrative job in Wipro to open a dairy business. He founded Akshayakalpa Organic, India\u2019s first organic milk company, in 2010. The company came near bankruptcy several times but is now valued a\u2026",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/bengaluru-techie-left-a-high-paying-wipro-job-to-help-farmers-his-father-did-not-speak-to-him-for-8-years-today-he-is-running-a-rs-1500-empire-and-earning-rs-60-crore-per-month/articleshow/135051776.cms"
-    },
-    {
-      "time": "2026-10-19 22:14",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "MACRO",
-      "hl": "Accenture spent years building in China; now it may cash out",
-      "detail": "In November 2004, Accenture opened an office in Guangzhou and called it a sign of its \u201cdeep commitment to China,\u201d ZDNET reported. By then, the firm had already operated on the mainland for over a decade.\nMore than two decades later, that commitment has a pric\u2026",
-      "url": "https://biztoc.com/x/5a9b0575f790740a"
-    },
-    {
-      "time": "2026-10-19 16:40",
-      "tk": "CTSH",
-      "src": "Biztoc.com",
+      "src": "BusinessLine",
       "cat": "DEAL",
-      "hl": "Google Cloud, Cognizant expand AI partnership",
-      "detail": "Google LLC announced in a statement on Monday that its cloud unit is expanding its alliance with Cognizant Technology Solutions Corporation \"to accelerate the adoption of agentic AI, including a new G...",
-      "url": "https://biztoc.com/x/50e910482f9ac719"
+      "hl": "Cognizant expands partnership with Google Cloud for new Gemini frontier workforce",
+      "detail": "Gemini Frontier Capability Group brings together a dedicated global workforce that pairs Google\u2019s AI platform with Cognizant\u2019s domain, industry and engineering expertise as an AI Builder",
+      "url": "https://www.thehindubusinessline.com/info-tech/cognizant-expands-partnership-with-google-cloud-for-new-gemini-frontier-workforce/article71604010.ece"
     },
     {
-      "time": "2026-10-19 16:59",
+      "time": "2026-10-20 05:00",
       "tk": "DXC",
-      "src": "CNA",
+      "src": "Insurance Journal",
       "cat": "ANALYST",
-      "hl": "Exclusive-DXC in advanced talks to sell insurance software unit for $2.4 billion, sources say",
-      "detail": "NEW YORK, Oct 19 : IT services company DXC Technology is in advanced talks to sell its insurance software and services division to private investment firm Eldridge Industries for about $2.4 billion, according to people familiar with the matter.Eldridge is dis\u2026",
-      "url": "https://www.channelnewsasia.com/business/exclusive-dxc-in-advanced-talks-sell-insurance-software-unit-24-billion-sources-say-6472881"
+      "hl": "Reuters: DXC in Advanced Talks to Sell Insurance Software Unit for $2.4 Billion",
+      "detail": "IT services company DXC Technology is in advanced talks to sell its insurance software and services division to private investment firm Eldridge Industries for about $2.4 billion, according to people familiar with the matter. Eldridge is discussing combining \u2026",
+      "url": "https://www.insurancejournal.com/news/east/2026/10/20/889618.htm"
     },
     {
       "time": "2026-10-19 14:08",
@@ -3081,9 +3097,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.122838,
-    "JPY": 0.006316,
-    "CAD": 0.711045,
-    "INR": 0.010552
+    "EUR": 1.122083,
+    "JPY": 0.006324,
+    "CAD": 0.710778,
+    "INR": 0.010588
   }
 }
