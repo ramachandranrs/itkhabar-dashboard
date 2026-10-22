@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-22T01:41:44.953319+00:00",
-  "updated_display": "22 Oct 2026, 01:41 UTC",
+  "updated": "2026-10-22T15:50:33.149808+00:00",
+  "updated_display": "22 Oct 2026, 15:50 UTC",
   "prices": {
     "TCS": {
-      "price": 2529.0,
-      "display": "\u20b92,529",
-      "change": 2.8
+      "price": 2506.9,
+      "display": "\u20b92,507",
+      "change": -0.9
     },
     "INFY": {
-      "price": 1168.0,
-      "display": "\u20b91,168",
-      "change": 3.3
+      "price": 1153.35,
+      "display": "\u20b91,153",
+      "change": -1.3
     },
     "CTSH": {
-      "price": 69.55,
-      "display": "$69.55",
-      "change": 2.0
-    },
-    "HCLT": {
-      "price": 1424.2,
-      "display": "\u20b91,424",
-      "change": 3.2
-    },
-    "WIPRO": {
-      "price": 189.17,
-      "display": "\u20b9189",
+      "price": 72.28,
+      "display": "$72.28",
       "change": 3.9
     },
+    "HCLT": {
+      "price": 1421.7,
+      "display": "\u20b91,422",
+      "change": -0.2
+    },
+    "WIPRO": {
+      "price": 190.41,
+      "display": "\u20b9190",
+      "change": 0.7
+    },
     "TECHM": {
-      "price": 1834.7,
-      "display": "\u20b91,835",
-      "change": 3.1
+      "price": 1829.1,
+      "display": "\u20b91,829",
+      "change": -0.3
     },
     "LTIM": {
-      "price": 4264.9,
-      "display": "\u20b94,265",
-      "change": -2.8
+      "price": 4274.0,
+      "display": "\u20b94,274",
+      "change": -0.6
     },
     "MPHL": {
-      "price": 2575.0,
-      "display": "\u20b92,575",
-      "change": 3.0
+      "price": 2499.5,
+      "display": "\u20b92,500",
+      "change": -2.9
     },
     "PSYS": {
-      "price": 5858.5,
-      "display": "\u20b95,858",
-      "change": 3.0
+      "price": 5740.5,
+      "display": "\u20b95,740",
+      "change": -2.0
     },
     "COFG": {
-      "price": 1951.0,
-      "display": "\u20b91,951",
-      "change": 1.4
+      "price": 1908.8,
+      "display": "\u20b91,909",
+      "change": -2.2
     },
     "ACN": {
-      "price": 240.26,
-      "display": "$240",
-      "change": 0.5
+      "price": 249.73,
+      "display": "$250",
+      "change": 3.9
     },
     "CAP": {
-      "price": 123.0,
-      "display": "\u20ac123",
-      "change": -0.1
+      "price": 126.8,
+      "display": "\u20ac127",
+      "change": 1.4
     },
     "ATOS": {
-      "price": 22.84,
-      "display": "\u20ac22.84",
-      "change": 3.3
+      "price": 23.86,
+      "display": "\u20ac23.86",
+      "change": -8.2
     },
     "DXC": {
-      "price": 15.4,
-      "display": "$15.40",
-      "change": 5.3
+      "price": 15.65,
+      "display": "$15.65",
+      "change": 1.7
     },
     "GIB": {
-      "price": 79.57,
-      "display": "$79.57",
-      "change": 0.7
+      "price": 81.46,
+      "display": "$81.46",
+      "change": 2.4
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73709.69,
-      "change": -0.19
+      "value": 73249.39,
+      "change": -0.62
     },
     "NIFTY_IT": {
-      "value": 32422.5,
-      "change": 2.88
+      "value": 32081.25,
+      "change": -1.05
     },
     "SP500": {
-      "value": 7757.17,
-      "change": 0.58
+      "value": 7663.02,
+      "change": -1.21
     },
     "USD_INR": {
-      "value": 94.45,
-      "change": -0.28
+      "value": 94.81,
+      "change": 0.1
     },
     "EUR_INR": {
-      "value": 106.09,
-      "change": -0.23
+      "value": 106.23,
+      "change": -0.1
     }
   },
   "historical": {
@@ -166,7 +166,8 @@
         2350.0,
         2465.0,
         2461.0,
-        2529.0
+        2529.0,
+        2507.0
       ],
       "dl": [
         "Oct 5",
@@ -180,7 +181,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         3448.0,
@@ -296,7 +298,8 @@
         1110.0,
         1161.0,
         1131.0,
-        1168.0
+        1168.0,
+        1153.0
       ],
       "dl": [
         "Oct 5",
@@ -310,7 +313,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         1422.0,
@@ -428,7 +432,8 @@
         66.0,
         67.0,
         68.0,
-        70.0
+        70.0,
+        72.0
       ],
       "dl": [
         "Oct 2",
@@ -444,7 +449,8 @@
         "Oct 16",
         "Oct 19",
         "Oct 20",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         72.0,
@@ -560,7 +566,8 @@
         1348.0,
         1380.0,
         1380.0,
-        1424.0
+        1424.0,
+        1422.0
       ],
       "dl": [
         "Oct 5",
@@ -574,7 +581,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         1303.0,
@@ -690,7 +698,8 @@
         174.0,
         184.0,
         182.0,
-        189.0
+        189.0,
+        190.0
       ],
       "dl": [
         "Oct 5",
@@ -704,7 +713,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         218.0,
@@ -820,7 +830,8 @@
         1650.0,
         1790.0,
         1779.0,
-        1835.0
+        1835.0,
+        1829.0
       ],
       "dl": [
         "Oct 5",
@@ -834,7 +845,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         1173.0,
@@ -949,7 +961,9 @@
         4226.0,
         4235.0,
         4390.0,
-        4265.0
+        4265.0,
+        4298.0,
+        4274.0
       ],
       "dl": [
         "Oct 5",
@@ -962,7 +976,9 @@
         "Oct 14",
         "Oct 15",
         "Oct 16",
-        "Oct 19"
+        "Oct 19",
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         6057.0,
@@ -1078,7 +1094,8 @@
         2453.0,
         2500.0,
         2500.0,
-        2575.0
+        2575.0,
+        2500.0
       ],
       "dl": [
         "Oct 5",
@@ -1092,7 +1109,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         2561.0,
@@ -1208,7 +1226,8 @@
         5840.0,
         5741.0,
         5690.0,
-        5858.0
+        5858.0,
+        5740.0
       ],
       "dl": [
         "Oct 5",
@@ -1222,7 +1241,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         3625.0,
@@ -1338,7 +1358,8 @@
         1934.0,
         1952.0,
         1925.0,
-        1951.0
+        1951.0,
+        1909.0
       ],
       "dl": [
         "Oct 5",
@@ -1352,7 +1373,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         1222.0,
@@ -1470,7 +1492,8 @@
         230.0,
         237.0,
         239.0,
-        240.0
+        240.0,
+        250.0
       ],
       "dl": [
         "Oct 2",
@@ -1486,7 +1509,8 @@
         "Oct 16",
         "Oct 19",
         "Oct 20",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         331.0,
@@ -1603,7 +1627,9 @@
         122.0,
         121.0,
         123.0,
-        123.0
+        123.0,
+        125.0,
+        127.0
       ],
       "dl": [
         "Oct 2",
@@ -1618,7 +1644,9 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 20"
+        "Oct 20",
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         176.0,
@@ -1735,7 +1763,9 @@
         22.0,
         22.0,
         22.0,
-        23.0
+        23.0,
+        26.0,
+        24.0
       ],
       "dl": [
         "Oct 2",
@@ -1750,7 +1780,9 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 20"
+        "Oct 20",
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         524.0,
@@ -1868,7 +1900,8 @@
         14.0,
         14.0,
         15.0,
-        15.0
+        15.0,
+        16.0
       ],
       "dl": [
         "Oct 2",
@@ -1884,7 +1917,8 @@
         "Oct 16",
         "Oct 19",
         "Oct 20",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         23.0,
@@ -2002,7 +2036,8 @@
         75.0,
         76.0,
         79.0,
-        80.0
+        80.0,
+        81.0
       ],
       "dl": [
         "Oct 2",
@@ -2018,7 +2053,8 @@
         "Oct 16",
         "Oct 19",
         "Oct 20",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         106.0,
@@ -2072,31 +2108,85 @@
   },
   "news": [
     {
-      "time": "2026-10-20 17:38",
-      "tk": "ACN",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Accenture leases, renews 5.84 lakh sq ft across Mindspace REIT\u2019s Airoli parks",
-      "detail": "Accenture has secured over 5.84 lakh square feet of office space in Navi Mumbai. This includes fresh leasing, expansion, and renewal of existing spaces spanning ten years. The new offices are expected to house around 10,000 employees engaged in various functi\u2026",
-      "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/accenture-leases-renews-5-84-lakh-sq-ft-across-mindspace-reits-airoli-parks/articleshow/135074685.cms"
-    },
-    {
-      "time": "2026-10-20 20:42",
-      "tk": "CTSH",
-      "src": "Biztoc.com",
-      "cat": "PEOPLE",
-      "hl": "What Gave IBM Stock Its Edge Over Cognizant?",
-      "detail": "Two IT consulting and services companies grew their sales at about the same pace over the last three years. Over the five years to October 2026, though, one stock climbed 110.0% while the other dropped 8.8%. The stock that rose belongs to International Busine\u2026",
-      "url": "https://biztoc.com/x/c30809036d7992dd"
-    },
-    {
-      "time": "2026-10-20 14:34",
-      "tk": "LTIM",
-      "src": "PRNewswire",
+      "time": "2026-10-21 15:09",
+      "tk": "WIPRO",
+      "src": "Economictimes.com",
       "cat": "RESULTS",
-      "hl": "Mattamy Group Corporation Announces First Quarter 2027 Key Operating Results",
-      "detail": "TORONTO, Oct. 20, 2026 /PRNewswire/ -- Mattamy Group Corporation (\"Mattamy\"), the largest family-owned homebuilder in North America, today announced key operating results for the first quarter ended August 31, 2026 and posted LTM financial results for the fou\u2026",
-      "url": "https://www.prnewswire.com/news-releases/mattamy-group-corporation-announces-first-quarter-2027-key-operating-results-302914222.html"
+      "hl": "Market Trading Guide: Wipro among 5 stock recommendations for Thursday",
+      "detail": "Indian equities gave up strong early gains as elevated crude prices and continued FII selling overshadowed optimism surrounding India-US trade negotiations. Profit-booking intensified across autos, financials, metals and realty, reflecting concerns over infla\u2026",
+      "url": "https://m.economictimes.com/markets/stocks/news/market-trading-guide-wipro-among-5-stock-recommendations-for-thursday/stock-ideas/slideshow/135095527.cms"
+    },
+    {
+      "time": "2026-10-21 12:50",
+      "tk": "TECHM",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "BFSI demand, AI revenue help Indian IT firms weather Q2 growth slowdown",
+      "detail": "BFSI demand and rising AI revenue helped Indian IT firms withstand weak growth in Q2FY27, with Tech Mahindra standing out, although analysts caution that a broader recovery remains elusive",
+      "url": "https://www.business-standard.com/technology/tech-news/bfsi-demand-ai-revenue-help-indian-it-firms-weather-q2-growth-slowdown-126102101080_1.html"
+    },
+    {
+      "time": "2026-10-21 12:51",
+      "tk": "LTIM",
+      "src": "Financial Post",
+      "cat": "DEAL",
+      "hl": "LTM Launches BlueVerse\u2122 ValueMesh\u2122 to Help Enterprises Scale AI Across Oracle Transformations",
+      "detail": "MUMBAI, India \u2014 LTM, the Business Creativity partner to the world\u2019s largest enterprises, today announced the launch of BlueVerse\u2122 ValueMesh\u2122, an AI execution fabric designed to help enterprises industrialize AI across the Oracle transformation lifecycle, from\u2026",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ltm-launches-blueverse-valuemesh-to-help-enterprises-scale-ai-across-oracle-transformations"
+    },
+    {
+      "time": "2026-10-21 12:21",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "ISRG, NFLX, ACN Stocks Slide Before The Bell: Why Intuitive Surgical, Netflix And Accenture Are Heading Lower",
+      "detail": "ISRG stock drops despite a third-quarter earnings beat, with a $450 million pretax antitrust settlement charge weighing on GAAP net income.\n- NFLX shares fall as disappointing revenue guidance and concerns over advertising growth prompt two analysts to cut th\u2026",
+      "url": "https://biztoc.com/x/5ec9f1c42d57717a"
+    },
+    {
+      "time": "2026-10-21 10:59",
+      "tk": "CTSH",
+      "src": "Livemint",
+      "cat": "ANALYST",
+      "hl": "TCS, Wipro turn to mid-market clients as AI erodes demand from large customers",
+      "detail": "TCS and Wipro join Accenture, Cognizant and HCLTech in sharpening their focus on mid-market clients. While Accenture, Cognizant and HCLTech have set up dedicated business units to target this segment, TCS and Wipro have so far only announced plans to step up \u2026",
+      "url": "https://www.livemint.com/companies/news/tcs-and-wipro-join-indian-its-mid-market-onslaught-amid-ai-pressures-11792493065831.html"
+    },
+    {
+      "time": "2026-10-21 10:17",
+      "tk": "INFY",
+      "src": "BusinessLine",
+      "cat": "ANALYST",
+      "hl": "Nifty IT surges 2.2% as IT stocks buck market-wide selloff",
+      "detail": "Nifty IT leaps 2.21% amid mixed markets as Wipro, Infosys, Mphasis lead gains; broader indices remain weak.",
+      "url": "https://www.thehindubusinessline.com/markets/nifty-it-surges-22-as-it-stocks-buck-market-wide-selloff/article71607004.ece"
+    },
+    {
+      "time": "2026-10-21 10:00",
+      "tk": "Sector",
+      "src": "PRNewswire",
+      "cat": "PEOPLE",
+      "hl": "Assured Data Protection appoints Neil Manna as Chief Financial Officer to support continued global growth",
+      "detail": "Experienced technology finance executive brings extensive leadership experience across cybersecurity, IT services and high-growth businesses HERNDON, Va. and LEEDS, England, Oct. 21, 2026 /PRNewswire/ -- Assured Data Protection (Assured), a global managed ser\u2026",
+      "url": "https://www.prnewswire.com/news-releases/assured-data-protection-appoints-neil-manna-as-chief-financial-officer-to-support-continued-global-growth-302914627.html"
+    },
+    {
+      "time": "2026-10-21 05:30",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Missed reversal in IT stocks? Jefferies gives 3 ideas with up to 50% re-rating potential",
+      "detail": "Jefferies sees further valuation upside in Indian IT stocks despite a muted sector growth outlook. Infosys and TCS offer over 20% rerating potential, while Sagility could deliver more than 50% in a best-case scenario. The brokerage raised target prices for In\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/missed-reversal-in-it-stocks-jefferies-gives-3-ideas-with-up-to-50-re-rating-potential/articleshow/135083074.cms"
+    },
+    {
+      "time": "2026-10-21 04:56",
+      "tk": "INFY",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "Nifty IT index hits 10-month high; LTTS zooms 15% on Wednesday; here's why",
+      "detail": "Thus far in October, the Nifty IT index has rallied 16% as TCS, Tech Mahindra, Wipro, Infosys and Mphasis surged in the range of 18-23% amid Q2 earnings cheer.",
+      "url": "https://www.business-standard.com/markets/news/nifty-it-index-hits-8-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html"
     },
     {
       "time": "2026-10-20 05:00",
@@ -2992,9 +3082,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.123217,
-    "JPY": 0.006324,
-    "CAD": 0.711952,
-    "INR": 0.010588
+    "EUR": 1.121328,
+    "JPY": 0.006367,
+    "CAD": 0.71315,
+    "INR": 0.010548
   }
 }
