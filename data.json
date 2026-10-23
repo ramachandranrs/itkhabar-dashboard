@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22T20:14:01.252519+00:00",
-  "updated_display": "22 Oct 2026, 20:14 UTC",
+  "updated": "2026-10-23T01:44:46.422305+00:00",
+  "updated_display": "23 Oct 2026, 01:44 UTC",
   "prices": {
     "TCS": {
       "price": 2529.0,
@@ -8,9 +8,9 @@
       "change": 2.8
     },
     "INFY": {
-      "price": 1168.0,
-      "display": "\u20b91,168",
-      "change": 3.3
+      "price": 1153.35,
+      "display": "\u20b91,153",
+      "change": -1.3
     },
     "CTSH": {
       "price": 73.72,
@@ -18,24 +18,24 @@
       "change": 6.0
     },
     "HCLT": {
-      "price": 1424.2,
-      "display": "\u20b91,424",
-      "change": 3.2
+      "price": 1421.7,
+      "display": "\u20b91,422",
+      "change": -0.2
     },
     "WIPRO": {
-      "price": 189.17,
-      "display": "\u20b9189",
-      "change": 3.9
+      "price": 190.41,
+      "display": "\u20b9190",
+      "change": 0.7
     },
     "TECHM": {
-      "price": 1834.7,
-      "display": "\u20b91,835",
-      "change": 3.1
+      "price": 1814.1,
+      "display": "\u20b91,814",
+      "change": -0.3
     },
     "LTIM": {
-      "price": 4298.0,
-      "display": "\u20b94,298",
-      "change": 0.8
+      "price": 4249.0,
+      "display": "\u20b94,249",
+      "change": -0.6
     },
     "MPHL": {
       "price": 2575.0,
@@ -48,9 +48,9 @@
       "change": 3.0
     },
     "COFG": {
-      "price": 1951.0,
-      "display": "\u20b91,951",
-      "change": 1.4
+      "price": 1908.8,
+      "display": "\u20b91,909",
+      "change": -2.2
     },
     "ACN": {
       "price": 258.74,
@@ -58,34 +58,34 @@
       "change": 7.7
     },
     "CAP": {
-      "price": 126.8,
-      "display": "\u20ac127",
-      "change": 1.4
+      "price": 125.05,
+      "display": "\u20ac125",
+      "change": 1.7
     },
     "ATOS": {
-      "price": 23.86,
-      "display": "\u20ac23.86",
-      "change": -8.2
+      "price": 26.0,
+      "display": "\u20ac26.00",
+      "change": 13.8
     },
     "DXC": {
-      "price": 16.09,
-      "display": "$16.09",
-      "change": 4.5
+      "price": 16.08,
+      "display": "$16.08",
+      "change": 4.4
     },
     "GIB": {
-      "price": 82.08,
-      "display": "$82.08",
+      "price": 82.15,
+      "display": "$82.15",
       "change": 3.2
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73709.69,
-      "change": -0.19
+      "value": 73249.39,
+      "change": -0.62
     },
     "NIFTY_IT": {
-      "value": 32422.5,
-      "change": 2.88
+      "value": 32081.25,
+      "change": -1.05
     },
     "SP500": {
       "value": 7663.43,
@@ -93,11 +93,11 @@
     },
     "USD_INR": {
       "value": 94.81,
-      "change": 0.1
+      "change": 0.53
     },
     "EUR_INR": {
-      "value": 106.4,
-      "change": 0.06
+      "value": 106.41,
+      "change": 0.35
     }
   },
   "historical": {
@@ -296,7 +296,8 @@
         1110.0,
         1161.0,
         1131.0,
-        1168.0
+        1168.0,
+        1153.0
       ],
       "dl": [
         "Oct 5",
@@ -310,7 +311,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         1422.0,
@@ -400,7 +402,7 @@
         60.0,
         60.0,
         57.0,
-        61.0
+        59.0
       ],
       "wl": [
         "Jul 31",
@@ -415,7 +417,6 @@
         "Oct 2"
       ],
       "dp": [
-        59.0,
         58.0,
         57.0,
         57.0,
@@ -432,7 +433,6 @@
         74.0
       ],
       "dl": [
-        "Oct 2",
         "Oct 5",
         "Oct 6",
         "Oct 7",
@@ -470,7 +470,7 @@
         60.0,
         60.0,
         57.0,
-        61.0
+        59.0
       ],
       "ml": [
         "Q4'23",
@@ -562,7 +562,8 @@
         1348.0,
         1380.0,
         1380.0,
-        1424.0
+        1424.0,
+        1422.0
       ],
       "dl": [
         "Oct 5",
@@ -576,7 +577,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         1303.0,
@@ -692,7 +694,8 @@
         174.0,
         184.0,
         182.0,
-        189.0
+        189.0,
+        190.0
       ],
       "dl": [
         "Oct 5",
@@ -706,7 +709,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         218.0,
@@ -759,18 +763,18 @@
     },
     "TECHM": {
       "qp": [
-        1173.0,
-        1150.0,
-        1318.0,
-        1481.0,
-        1616.0,
-        1343.0,
-        1598.0,
-        1351.0,
-        1551.0,
-        1349.0,
-        1369.0,
-        1560.0
+        1163.0,
+        1141.0,
+        1308.0,
+        1469.0,
+        1603.0,
+        1332.0,
+        1585.0,
+        1340.0,
+        1538.0,
+        1338.0,
+        1358.0,
+        1547.0
       ],
       "ql": [
         "Q4'23",
@@ -787,16 +791,16 @@
         "Q3'26"
       ],
       "wp": [
-        1651.0,
-        1635.0,
-        1633.0,
+        1638.0,
+        1622.0,
+        1619.0,
+        1571.0,
+        1627.0,
         1584.0,
-        1641.0,
-        1597.0,
-        1541.0,
-        1537.0,
-        1548.0,
-        1533.0
+        1528.0,
+        1524.0,
+        1535.0,
+        1520.0
       ],
       "wl": [
         "Jul 31",
@@ -811,18 +815,19 @@
         "Oct 2"
       ],
       "dp": [
-        1536.0,
-        1504.0,
-        1491.0,
-        1496.0,
-        1514.0,
-        1471.0,
-        1544.0,
-        1575.0,
-        1650.0,
-        1790.0,
-        1779.0,
-        1835.0
+        1523.0,
+        1492.0,
+        1479.0,
+        1484.0,
+        1502.0,
+        1459.0,
+        1531.0,
+        1562.0,
+        1636.0,
+        1775.0,
+        1765.0,
+        1820.0,
+        1814.0
       ],
       "dl": [
         "Oct 5",
@@ -836,31 +841,32 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
-        1173.0,
-        1150.0,
-        1318.0,
-        1481.0,
-        1616.0,
-        1343.0,
-        1598.0,
-        1351.0,
-        1551.0,
-        1349.0,
-        1369.0,
-        1560.0,
-        1651.0,
-        1635.0,
-        1633.0,
+        1163.0,
+        1141.0,
+        1308.0,
+        1469.0,
+        1603.0,
+        1332.0,
+        1585.0,
+        1340.0,
+        1538.0,
+        1338.0,
+        1358.0,
+        1547.0,
+        1638.0,
+        1622.0,
+        1619.0,
+        1571.0,
+        1627.0,
         1584.0,
-        1641.0,
-        1597.0,
-        1541.0,
-        1537.0,
-        1548.0,
-        1533.0
+        1528.0,
+        1524.0,
+        1535.0,
+        1520.0
       ],
       "ml": [
         "Q4'23",
@@ -889,18 +895,18 @@
     },
     "LTIM": {
       "qp": [
-        6057.0,
-        4752.0,
-        5228.0,
-        6062.0,
-        5441.0,
-        4375.0,
-        5226.0,
-        5069.0,
-        5983.0,
-        3961.0,
-        3538.0,
-        4092.0
+        6022.0,
+        4724.0,
+        5197.0,
+        6027.0,
+        5409.0,
+        4349.0,
+        5196.0,
+        5040.0,
+        5948.0,
+        3938.0,
+        3517.0,
+        4068.0
       ],
       "ql": [
         "Q4'23",
@@ -917,16 +923,16 @@
         "Q3'26"
       ],
       "wp": [
-        4362.0,
-        4658.0,
-        4715.0,
-        4488.0,
-        4675.0,
-        4554.0,
-        4275.0,
-        4275.0,
-        4083.0,
-        4007.0
+        4337.0,
+        4631.0,
+        4687.0,
+        4462.0,
+        4648.0,
+        4527.0,
+        4250.0,
+        4250.0,
+        4059.0,
+        3984.0
       ],
       "wl": [
         "Jul 31",
@@ -941,18 +947,19 @@
         "Oct 2"
       ],
       "dp": [
-        4010.0,
-        3971.0,
-        3930.0,
-        3915.0,
-        4070.0,
-        4019.0,
-        4215.0,
-        4226.0,
-        4235.0,
-        4390.0,
-        4265.0,
-        4298.0
+        3987.0,
+        3948.0,
+        3907.0,
+        3892.0,
+        4046.0,
+        3995.0,
+        4190.0,
+        4201.0,
+        4210.0,
+        4364.0,
+        4240.0,
+        4273.0,
+        4249.0
       ],
       "dl": [
         "Oct 5",
@@ -966,31 +973,32 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
-        6057.0,
-        4752.0,
-        5228.0,
-        6062.0,
-        5441.0,
-        4375.0,
-        5226.0,
-        5069.0,
-        5983.0,
-        3961.0,
-        3538.0,
-        4092.0,
-        4362.0,
-        4658.0,
-        4715.0,
-        4488.0,
-        4675.0,
-        4554.0,
-        4275.0,
-        4275.0,
-        4083.0,
-        4007.0
+        6022.0,
+        4724.0,
+        5197.0,
+        6027.0,
+        5409.0,
+        4349.0,
+        5196.0,
+        5040.0,
+        5948.0,
+        3938.0,
+        3517.0,
+        4068.0,
+        4337.0,
+        4631.0,
+        4687.0,
+        4462.0,
+        4648.0,
+        4527.0,
+        4250.0,
+        4250.0,
+        4059.0,
+        3984.0
       ],
       "ml": [
         "Q4'23",
@@ -1342,7 +1350,8 @@
         1934.0,
         1952.0,
         1925.0,
-        1951.0
+        1951.0,
+        1909.0
       ],
       "dl": [
         "Oct 5",
@@ -1356,7 +1365,8 @@
         "Oct 15",
         "Oct 16",
         "Oct 19",
-        "Oct 21"
+        "Oct 21",
+        "Oct 22"
       ],
       "mp": [
         1222.0,
@@ -1446,7 +1456,7 @@
         182.0,
         180.0,
         175.0,
-        211.0
+        197.0
       ],
       "wl": [
         "Jul 31",
@@ -1461,7 +1471,6 @@
         "Oct 2"
       ],
       "dp": [
-        197.0,
         193.0,
         192.0,
         195.0,
@@ -1478,7 +1487,6 @@
         259.0
       ],
       "dl": [
-        "Oct 2",
         "Oct 5",
         "Oct 6",
         "Oct 7",
@@ -1516,7 +1524,7 @@
         182.0,
         180.0,
         175.0,
-        211.0
+        197.0
       ],
       "ml": [
         "Q4'23",
@@ -1582,7 +1590,7 @@
         103.0,
         104.0,
         104.0,
-        112.0
+        109.0
       ],
       "wl": [
         "Jul 31",
@@ -1597,7 +1605,6 @@
         "Oct 2"
       ],
       "dp": [
-        109.0,
         108.0,
         110.0,
         111.0,
@@ -1610,11 +1617,9 @@
         121.0,
         123.0,
         123.0,
-        125.0,
-        127.0
+        125.0
       ],
       "dl": [
-        "Oct 2",
         "Oct 5",
         "Oct 6",
         "Oct 7",
@@ -1627,8 +1632,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 20",
-        "Oct 21",
-        "Oct 22"
+        "Oct 21"
       ],
       "mp": [
         176.0,
@@ -1652,7 +1656,7 @@
         103.0,
         104.0,
         104.0,
-        112.0
+        109.0
       ],
       "ml": [
         "Q4'23",
@@ -1736,7 +1740,6 @@
         22.0,
         22.0,
         22.0,
-        22.0,
         21.0,
         21.0,
         22.0,
@@ -1746,11 +1749,9 @@
         22.0,
         22.0,
         23.0,
-        26.0,
-        24.0
+        26.0
       ],
       "dl": [
-        "Oct 2",
         "Oct 5",
         "Oct 6",
         "Oct 7",
@@ -1763,8 +1764,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 20",
-        "Oct 21",
-        "Oct 22"
+        "Oct 21"
       ],
       "mp": [
         524.0,
@@ -1854,7 +1854,7 @@
         11.0,
         11.0,
         11.0,
-        12.0
+        11.0
       ],
       "wl": [
         "Jul 31",
@@ -1869,7 +1869,6 @@
         "Oct 2"
       ],
       "dp": [
-        11.0,
         12.0,
         12.0,
         12.0,
@@ -1886,7 +1885,6 @@
         16.0
       ],
       "dl": [
-        "Oct 2",
         "Oct 5",
         "Oct 6",
         "Oct 7",
@@ -1924,7 +1922,7 @@
         11.0,
         11.0,
         11.0,
-        12.0
+        11.0
       ],
       "ml": [
         "Q4'23",
@@ -1990,7 +1988,7 @@
         70.0,
         69.0,
         68.0,
-        71.0
+        70.0
       ],
       "wl": [
         "Jul 31",
@@ -2005,7 +2003,6 @@
         "Oct 2"
       ],
       "dp": [
-        70.0,
         71.0,
         70.0,
         69.0,
@@ -2022,7 +2019,6 @@
         82.0
       ],
       "dl": [
-        "Oct 2",
         "Oct 5",
         "Oct 6",
         "Oct 7",
@@ -2060,7 +2056,7 @@
         70.0,
         69.0,
         68.0,
-        71.0
+        70.0
       ],
       "ml": [
         "Q4'23",
@@ -2099,31 +2095,13 @@
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/persistent-systems-launches-rs-4265-cr-qip-floor-price-set-at-rs-5550/share/articleshow/135097602.cms"
     },
     {
-      "time": "2026-10-21 15:09",
-      "tk": "WIPRO",
-      "src": "Economictimes.com",
-      "cat": "RESULTS",
-      "hl": "Market Trading Guide: Wipro among 5 stock recommendations for Thursday",
-      "detail": "Indian equities gave up strong early gains as elevated crude prices and continued FII selling overshadowed optimism surrounding India-US trade negotiations. Profit-booking intensified across autos, financials, metals and realty, reflecting concerns over infla\u2026",
-      "url": "https://m.economictimes.com/markets/stocks/news/market-trading-guide-wipro-among-5-stock-recommendations-for-thursday/stock-ideas/slideshow/135095527.cms"
-    },
-    {
-      "time": "2026-10-21 12:51",
-      "tk": "LTIM",
-      "src": "Financial Post",
+      "time": "2026-10-21 23:25",
+      "tk": "CTSH",
+      "src": "PRNewswire",
       "cat": "DEAL",
-      "hl": "LTM Launches BlueVerse\u2122 ValueMesh\u2122 to Help Enterprises Scale AI Across Oracle Transformations",
-      "detail": "MUMBAI, India \u2014 LTM, the Business Creativity partner to the world\u2019s largest enterprises, today announced the launch of BlueVerse\u2122 ValueMesh\u2122, an AI execution fabric designed to help enterprises industrialize AI across the Oracle transformation lifecycle, from\u2026",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ltm-launches-blueverse-valuemesh-to-help-enterprises-scale-ai-across-oracle-transformations"
-    },
-    {
-      "time": "2026-10-21 12:21",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "ISRG, NFLX, ACN Stocks Slide Before The Bell: Why Intuitive Surgical, Netflix And Accenture Are Heading Lower",
-      "detail": "ISRG stock drops despite a third-quarter earnings beat, with a $450 million pretax antitrust settlement charge weighing on GAAP net income.\n- NFLX shares fall as disappointing revenue guidance and concerns over advertising growth prompt two analysts to cut th\u2026",
-      "url": "https://biztoc.com/x/5ec9f1c42d57717a"
+      "hl": "Cognizant to Acquire DyFlex Solutions, Accelerating AI-Led Enterprise Transformation for SAP Clients in Australia and New Zealand",
+      "detail": "Advances Cognizant's AI Builder strategy, helping clients in Australia and New Zealand turn AI investment into enterprise value across their SAP landscapes. Is expected to combine DyFlex's deep SAP advisory, implementation and managed services capabilities, i\u2026",
+      "url": "https://www.prnewswire.com/news-releases/cognizant-to-acquire-dyflex-solutions-accelerating-ai-led-enterprise-transformation-for-sap-clients-in-australia-and-new-zealand-302916092.html"
     },
     {
       "time": "2026-10-21 10:59",
@@ -2180,13 +2158,22 @@
       "url": "https://www.business-standard.com/technology/tech-news/bfsi-demand-ai-revenue-help-indian-it-firms-weather-q2-growth-slowdown-126102101080_1.html"
     },
     {
-      "time": "2026-10-20 22:17",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "GCCs emerging top career choice for tech talent: Survey",
-      "detail": "The gap is also visible in employees\u2019 current workplaces. Only 46% of respondents described their career paths as very clear. Among GCC employees, the figure fell to 36%, compared with 50% in IT services and 51% in startups. This could make career clarity a d\u2026",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/gccs-emerging-top-career-choice-for-tech-talent-survey/articleshow/135077162.cms"
+      "time": "2026-10-21 15:09",
+      "tk": "WIPRO",
+      "src": "Economictimes.com",
+      "cat": "RESULTS",
+      "hl": "Market Trading Guide: Wipro among 5 stock recommendations for Thursday",
+      "detail": "Indian equities gave up strong early gains as elevated crude prices and continued FII selling overshadowed optimism surrounding India-US trade negotiations. Profit-booking intensified across autos, financials, metals and realty, reflecting concerns over infla\u2026",
+      "url": "https://m.economictimes.com/markets/stocks/news/market-trading-guide-wipro-among-5-stock-recommendations-for-thursday/stock-ideas/slideshow/135095527.cms"
+    },
+    {
+      "time": "2026-10-21 12:21",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "ISRG, NFLX, ACN Stocks Slide Before The Bell: Why Intuitive Surgical, Netflix And Accenture Are Heading Lower",
+      "detail": "ISRG stock drops despite a third-quarter earnings beat, with a $450 million pretax antitrust settlement charge weighing on GAAP net income.\n- NFLX shares fall as disappointing revenue guidance and concerns over advertising growth prompt two analysts to cut th\u2026",
+      "url": "https://biztoc.com/x/5ec9f1c42d57717a"
     }
   ],
   "quarterly": {
@@ -3064,9 +3051,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.121579,
-    "JPY": 0.006373,
-    "CAD": 0.713531,
+    "EUR": 1.122208,
+    "JPY": 0.006383,
+    "CAD": 0.714153,
     "INR": 0.010548
   }
 }
