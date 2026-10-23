@@ -1,61 +1,61 @@
 {
-  "updated": "2026-10-23T15:41:21.532404+00:00",
-  "updated_display": "23 Oct 2026, 15:41 UTC",
+  "updated": "2026-10-23T20:00:31.491570+00:00",
+  "updated_display": "23 Oct 2026, 20:00 UTC",
   "prices": {
     "TCS": {
-      "price": 2530.0,
-      "display": "\u20b92,530",
-      "change": 0.9
+      "price": 2506.9,
+      "display": "\u20b92,507",
+      "change": -0.9
     },
     "INFY": {
-      "price": 1153.8,
-      "display": "\u20b91,154",
-      "change": 0.0
-    },
-    "CTSH": {
-      "price": 70.64,
-      "display": "$70.64",
-      "change": -4.2
-    },
-    "HCLT": {
-      "price": 1422.2,
-      "display": "\u20b91,422",
-      "change": 0.0
-    },
-    "WIPRO": {
-      "price": 189.84,
-      "display": "\u20b9190",
-      "change": -0.3
-    },
-    "TECHM": {
-      "price": 1790.0,
-      "display": "\u20b91,790",
+      "price": 1153.35,
+      "display": "\u20b91,153",
       "change": -1.3
     },
-    "LTIM": {
-      "price": 4134.0,
-      "display": "\u20b94,134",
-      "change": -2.7
+    "CTSH": {
+      "price": 70.54,
+      "display": "$70.54",
+      "change": -4.3
     },
-    "MPHL": {
-      "price": 2480.0,
-      "display": "\u20b92,480",
-      "change": -0.8
-    },
-    "PSYS": {
-      "price": 5727.5,
-      "display": "\u20b95,728",
+    "HCLT": {
+      "price": 1421.7,
+      "display": "\u20b91,422",
       "change": -0.2
     },
+    "WIPRO": {
+      "price": 190.41,
+      "display": "\u20b9190",
+      "change": 0.7
+    },
+    "TECHM": {
+      "price": 1814.1,
+      "display": "\u20b91,814",
+      "change": -0.3
+    },
+    "LTIM": {
+      "price": 4249.0,
+      "display": "\u20b94,249",
+      "change": -0.6
+    },
+    "MPHL": {
+      "price": 2499.5,
+      "display": "\u20b92,500",
+      "change": -2.9
+    },
+    "PSYS": {
+      "price": 5740.5,
+      "display": "\u20b95,740",
+      "change": -2.0
+    },
     "COFG": {
-      "price": 1900.5,
-      "display": "\u20b91,900",
-      "change": -0.4
+      "price": 1908.8,
+      "display": "\u20b91,909",
+      "change": -2.2
     },
     "ACN": {
-      "price": 248.46,
-      "display": "$248",
-      "change": -4.0
+      "price": 249.43,
+      "display": "$249",
+      "change": -3.6
     },
     "CAP": {
       "price": 123.95,
@@ -63,41 +63,41 @@
       "change": -2.2
     },
     "ATOS": {
-      "price": 23.48,
-      "display": "\u20ac23.48",
-      "change": -1.6
+      "price": 23.28,
+      "display": "\u20ac23.28",
+      "change": -2.4
     },
     "DXC": {
-      "price": 15.85,
-      "display": "$15.85",
-      "change": -1.4
+      "price": 16.1,
+      "display": "$16.10",
+      "change": 0.1
     },
     "GIB": {
-      "price": 81.94,
-      "display": "$81.94",
-      "change": -0.3
+      "price": 81.97,
+      "display": "$81.97",
+      "change": -0.2
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73123.83,
-      "change": -0.17
+      "value": 73249.39,
+      "change": -0.62
     },
     "NIFTY_IT": {
-      "value": 31995.5,
-      "change": -0.27
+      "value": 32081.25,
+      "change": -1.05
     },
     "SP500": {
-      "value": 7652.12,
-      "change": -0.15
+      "value": 7623.63,
+      "change": -0.52
     },
     "USD_INR": {
       "value": 94.93,
       "change": 0.65
     },
     "EUR_INR": {
-      "value": 106.33,
-      "change": 0.27
+      "value": 106.29,
+      "change": 0.23
     }
   },
   "historical": {
@@ -167,8 +167,7 @@
         2465.0,
         2461.0,
         2529.0,
-        2507.0,
-        2530.0
+        2507.0
       ],
       "dl": [
         "Oct 5",
@@ -183,8 +182,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         3448.0,
@@ -301,8 +299,7 @@
         1161.0,
         1131.0,
         1168.0,
-        1153.0,
-        1154.0
+        1153.0
       ],
       "dl": [
         "Oct 5",
@@ -317,8 +314,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         1422.0,
@@ -571,7 +567,6 @@
         1380.0,
         1380.0,
         1424.0,
-        1422.0,
         1422.0
       ],
       "dl": [
@@ -587,8 +582,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         1303.0,
@@ -705,7 +699,6 @@
         184.0,
         182.0,
         189.0,
-        190.0,
         190.0
       ],
       "dl": [
@@ -721,8 +714,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         218.0,
@@ -839,8 +831,7 @@
         1775.0,
         1765.0,
         1820.0,
-        1814.0,
-        1790.0
+        1814.0
       ],
       "dl": [
         "Oct 5",
@@ -855,8 +846,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         1163.0,
@@ -973,8 +963,7 @@
         4364.0,
         4240.0,
         4273.0,
-        4249.0,
-        4134.0
+        4249.0
       ],
       "dl": [
         "Oct 5",
@@ -989,8 +978,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         6022.0,
@@ -1107,8 +1095,7 @@
         2500.0,
         2500.0,
         2575.0,
-        2500.0,
-        2480.0
+        2500.0
       ],
       "dl": [
         "Oct 5",
@@ -1123,8 +1110,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         2561.0,
@@ -1241,8 +1227,7 @@
         5741.0,
         5690.0,
         5858.0,
-        5740.0,
-        5728.0
+        5740.0
       ],
       "dl": [
         "Oct 5",
@@ -1257,8 +1242,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         3625.0,
@@ -1375,8 +1359,7 @@
         1952.0,
         1925.0,
         1951.0,
-        1909.0,
-        1900.0
+        1909.0
       ],
       "dl": [
         "Oct 5",
@@ -1391,8 +1374,7 @@
         "Oct 16",
         "Oct 19",
         "Oct 21",
-        "Oct 22",
-        "Oct 23"
+        "Oct 22"
       ],
       "mp": [
         1222.0,
@@ -1511,7 +1493,7 @@
         239.0,
         240.0,
         259.0,
-        248.0
+        249.0
       ],
       "dl": [
         "Oct 5",
@@ -2126,6 +2108,15 @@
   },
   "news": [
     {
+      "time": "2026-10-22 17:31",
+      "tk": "TCS",
+      "src": "PRNewswire",
+      "cat": "DEAL",
+      "hl": "Shokz Returns as the Official Headphones Partner of the 2026 TCS New York City Marathon, Celebrating the 50th Anniversary of the 5-Boro Course",
+      "detail": "Race Week experiences, community collaborations, and limited-edition headphones connect Shokz with runners across New York City NEW YORK, Oct. 22, 2026 /PRNewswire/ -- Shokz, a pioneer in open-ear audio technology, today announced its return for the second co\u2026",
+      "url": "https://www.prnewswire.com/news-releases/shokz-returns-as-the-official-headphones-partner-of-the-2026-tcs-new-york-city-marathon-celebrating-the-50th-anniversary-of-the-5-boro-course-302917222.html"
+    },
+    {
       "time": "2026-10-22 14:32",
       "tk": "TECHM",
       "src": "CNA",
@@ -2162,13 +2153,13 @@
       "url": "https://economictimes.indiatimes.com/tech/information-tech/cognizant-acquires-dyflex-solutions-to-enhance-ai-and-sap-transformation-capabilities/articleshow/135120601.cms"
     },
     {
-      "time": "2026-10-22 13:10",
-      "tk": "INFY",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "IBM Sinks 7% as CEO\u2019s AI Spending Caution Overshadows Earnings Beat; Accenture and Infosys Ease Back",
-      "detail": "The post IBM Sinks 7% as CEO\u2019s AI Spending Caution Overshadows Earnings Beat; Accenture and Infosys Ease Back appeared first on 24/7 Wall St..\nA quarter that topped Wall Street forecasts on revenue and adjusted earnings is drawing sellers into International B\u2026",
-      "url": "https://biztoc.com/x/202c89aea669e4c1"
+      "time": "2026-10-22 18:27",
+      "tk": "MPHL",
+      "src": "Commercial Observer",
+      "cat": "DEAL",
+      "hl": "IT Firm Mphasis Expands by 14K SF at Rudin\u2019s 41 Madison Avenue",
+      "detail": "Blackstone-backed information technology firm Mphasis has more than doubled its office footprint at 41 Madison Avenue to 27,709 square feet, and tacked on another decade to its tenure.\u00a0 The deal adds 14,151 square feet to Mphasis\u2019 footprint at Rudin\u2019s office \u2026",
+      "url": "http://commercialobserver.com/2026/10/mphasis-lease-expansion-rudin-41-madison-avenue/"
     },
     {
       "time": "2026-10-22 04:04",
@@ -2207,15 +2198,6 @@
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/persistent-systems-launches-rs-4265-cr-qip-floor-price-set-at-rs-5550/share/articleshow/135097602.cms"
     },
     {
-      "time": "2026-10-21 10:59",
-      "tk": "CTSH",
-      "src": "Livemint",
-      "cat": "ANALYST",
-      "hl": "TCS, Wipro turn to mid-market clients as AI erodes demand from large customers",
-      "detail": "TCS and Wipro join Accenture, Cognizant and HCLTech in sharpening their focus on mid-market clients. While Accenture, Cognizant and HCLTech have set up dedicated business units to target this segment, TCS and Wipro have so far only announced plans to step up \u2026",
-      "url": "https://www.livemint.com/companies/news/tcs-and-wipro-join-indian-its-mid-market-onslaught-amid-ai-pressures-11792493065831.html"
-    },
-    {
       "time": "2026-10-22 09:14",
       "tk": "INFY",
       "src": "Business Standard",
@@ -2223,6 +2205,15 @@
       "hl": "Infosys Q2 results preview: Analysts see PAT rising 10%; guidance in focus",
       "detail": "Infosys Q2 results preview: Brokerages said that the Street will watch for a possible revision in FY27 revenue growth guidance.",
       "url": "https://www.business-standard.com/markets/news/infosys-q2-results-preview-analysts-see-pat-rising-10-guidance-in-focus-126102200709_1.html"
+    },
+    {
+      "time": "2026-10-22 13:10",
+      "tk": "INFY",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "IBM Sinks 7% as CEO\u2019s AI Spending Caution Overshadows Earnings Beat; Accenture and Infosys Ease Back",
+      "detail": "The post IBM Sinks 7% as CEO\u2019s AI Spending Caution Overshadows Earnings Beat; Accenture and Infosys Ease Back appeared first on 24/7 Wall St..\nA quarter that topped Wall Street forecasts on revenue and adjusted earnings is drawing sellers into International B\u2026",
+      "url": "https://biztoc.com/x/202c89aea669e4c1"
     },
     {
       "time": "2026-10-22 10:30",
@@ -3109,9 +3100,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.120197,
-    "JPY": 0.006374,
-    "CAD": 0.715037,
+    "EUR": 1.119695,
+    "JPY": 0.006376,
+    "CAD": 0.713949,
     "INR": 0.010534
   }
 }
