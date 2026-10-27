@@ -1,95 +1,95 @@
 {
-  "updated": "2026-10-27T16:19:53.099098+00:00",
-  "updated_display": "27 Oct 2026, 16:19 UTC",
+  "updated": "2026-10-27T20:49:36.517254+00:00",
+  "updated_display": "27 Oct 2026, 20:49 UTC",
   "prices": {
     "TCS": {
-      "price": 2496.9,
-      "display": "\u20b92,497",
-      "change": -1.5
+      "price": 2535.0,
+      "display": "\u20b92,535",
+      "change": 0.2
     },
     "INFY": {
-      "price": 1163.0,
-      "display": "\u20b91,163",
-      "change": -0.3
+      "price": 1166.0,
+      "display": "\u20b91,166",
+      "change": 1.1
     },
     "CTSH": {
-      "price": 65.83,
-      "display": "$65.83",
-      "change": -5.1
+      "price": 66.22,
+      "display": "$66.22",
+      "change": -4.5
     },
     "HCLT": {
-      "price": 1420.0,
-      "display": "\u20b91,420",
-      "change": 0.2
-    },
-    "WIPRO": {
-      "price": 187.0,
-      "display": "\u20b9187",
-      "change": -1.2
-    },
-    "TECHM": {
-      "price": 1811.4,
-      "display": "\u20b91,811",
-      "change": 0.9
-    },
-    "LTIM": {
-      "price": 4059.7,
-      "display": "\u20b94,060",
+      "price": 1417.0,
+      "display": "\u20b91,417",
       "change": -0.4
     },
-    "MPHL": {
-      "price": 2618.4,
-      "display": "\u20b92,618",
-      "change": 2.4
-    },
-    "PSYS": {
-      "price": 5832.5,
-      "display": "\u20b95,832",
+    "WIPRO": {
+      "price": 189.2,
+      "display": "\u20b9189",
       "change": -0.3
     },
+    "TECHM": {
+      "price": 1795.0,
+      "display": "\u20b91,795",
+      "change": 0.3
+    },
+    "LTIM": {
+      "price": 4074.9,
+      "display": "\u20b94,075",
+      "change": -1.4
+    },
+    "MPHL": {
+      "price": 2557.6,
+      "display": "\u20b92,558",
+      "change": 3.1
+    },
+    "PSYS": {
+      "price": 5850.0,
+      "display": "\u20b95,850",
+      "change": 2.1
+    },
     "COFG": {
-      "price": 1997.0,
-      "display": "\u20b91,997",
-      "change": 0.2
+      "price": 1993.0,
+      "display": "\u20b91,993",
+      "change": 4.9
     },
     "ACN": {
-      "price": 235.76,
-      "display": "$236",
-      "change": -4.6
+      "price": 235.16,
+      "display": "$235",
+      "change": -4.9
     },
     "CAP": {
-      "price": 123.55,
-      "display": "\u20ac124",
-      "change": -0.5
+      "price": 122.8,
+      "display": "\u20ac123",
+      "change": -1.1
     },
     "ATOS": {
-      "price": 25.64,
-      "display": "\u20ac25.64",
-      "change": 2.0
+      "price": 25.5,
+      "display": "\u20ac25.50",
+      "change": 1.4
     },
     "DXC": {
-      "price": 15.93,
-      "display": "$15.93",
-      "change": -2.3
+      "price": 15.84,
+      "display": "$15.84",
+      "change": -2.8
     },
     "GIB": {
-      "price": 79.99,
-      "display": "$79.99",
-      "change": -2.3
+      "price": 79.63,
+      "display": "$79.63",
+      "change": -2.8
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73598.67,
-      "change": -0.01
+      "value": 73606.75,
+      "change": 0.66
     },
     "NIFTY_IT": {
-      "value": 32189.45,
-      "change": -0.26
+      "value": 32273.05,
+      "change": 0.87
     },
     "SP500": {
-      "value": 7727.7,
-      "change": 0.66
+      "value": 7722.6,
+      "change": 0.6
     },
     "USD_INR": {
       "value": 95.11,
@@ -169,8 +169,7 @@
         2529.0,
         2507.0,
         2530.0,
-        2535.0,
-        2497.0
+        2535.0
       ],
       "dl": [
         "Oct 7",
@@ -185,8 +184,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         3448.0,
@@ -307,8 +305,7 @@
         1168.0,
         1153.0,
         1154.0,
-        1166.0,
-        1163.0
+        1166.0
       ],
       "dl": [
         "Oct 7",
@@ -323,8 +320,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         1422.0,
@@ -585,8 +581,7 @@
         1424.0,
         1422.0,
         1422.0,
-        1417.0,
-        1420.0
+        1417.0
       ],
       "dl": [
         "Oct 7",
@@ -601,8 +596,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         1303.0,
@@ -723,8 +717,7 @@
         189.0,
         190.0,
         190.0,
-        189.0,
-        187.0
+        189.0
       ],
       "dl": [
         "Oct 7",
@@ -739,8 +732,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         218.0,
@@ -861,8 +853,7 @@
         1820.0,
         1814.0,
         1790.0,
-        1795.0,
-        1811.0
+        1795.0
       ],
       "dl": [
         "Oct 7",
@@ -877,8 +868,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         1163.0,
@@ -999,8 +989,7 @@
         4273.0,
         4249.0,
         4134.0,
-        4075.0,
-        4060.0
+        4075.0
       ],
       "dl": [
         "Oct 7",
@@ -1015,8 +1004,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         6022.0,
@@ -1137,8 +1125,7 @@
         2575.0,
         2500.0,
         2480.0,
-        2558.0,
-        2618.0
+        2558.0
       ],
       "dl": [
         "Oct 7",
@@ -1153,8 +1140,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         2561.0,
@@ -1275,8 +1261,7 @@
         5858.0,
         5740.0,
         5728.0,
-        5850.0,
-        5832.0
+        5850.0
       ],
       "dl": [
         "Oct 7",
@@ -1291,8 +1276,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         3625.0,
@@ -1413,8 +1397,7 @@
         1951.0,
         1909.0,
         1900.0,
-        1993.0,
-        1997.0
+        1993.0
       ],
       "dl": [
         "Oct 7",
@@ -1429,8 +1412,7 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26",
-        "Oct 27"
+        "Oct 26"
       ],
       "mp": [
         1222.0,
@@ -1553,7 +1535,7 @@
         259.0,
         249.0,
         247.0,
-        236.0
+        235.0
       ],
       "dl": [
         "Oct 7",
@@ -1693,7 +1675,7 @@
         127.0,
         124.0,
         124.0,
-        124.0
+        123.0
       ],
       "dl": [
         "Oct 7",
@@ -2186,6 +2168,15 @@
   },
   "news": [
     {
+      "time": "2026-10-26 18:33",
+      "tk": "TECHM",
+      "src": "Finovate.com",
+      "cat": "DEAL",
+      "hl": "Tech Mahindra Acquires Finastra\u2019s Cash Management Product Suite",
+      "detail": "India-based consulting services company Tech Mahindra announced it has acquired the Cash Management product suite of financial services software company Finastra. Under the agreement, Finastra is offloading Fusion Cash Management (FCM), Fusion Virtual Account\u2026",
+      "url": "https://finovate.com/tech-mahindra-acquires-finastras-cash-management-product-suite/"
+    },
+    {
       "time": "2026-10-26 11:56",
       "tk": "CTSH",
       "src": "Biztoc.com",
@@ -2247,15 +2238,6 @@
       "hl": "Infosys shares fall 4% after FY27 revenue growth guidance cut",
       "detail": "Infosys cuts FY27 revenue growth guidance to 1-2%, sparking a 4% stock drop amid weak demand and muted growth outlook.",
       "url": "https://www.thehindubusinessline.com/markets/infosys-shares-fall-4-after-fy27-revenue-growth-guidance-cut/article71625657.ece"
-    },
-    {
-      "time": "2026-10-26 07:06",
-      "tk": "INFY",
-      "src": "Ibtimes.com.au",
-      "cat": "MACRO",
-      "hl": "Sensex Pares Steep Opening Losses to Trade Nearly Flat as Oil Above $110 and Infosys Weakness Weigh on Mumbai",
-      "detail": "India's benchmark indexes recovered most early losses on Monday as gains in banks, pharmaceuticals and metals offset weakness in IT stocks, while high oil prices weighed on sentiment.",
-      "url": "https://www.ibtimes.com.au/indian-shares-recover-banks-pharma-stocks-1877395"
     },
     {
       "time": "2026-10-26 03:30",
@@ -3142,9 +3124,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.114082,
-    "JPY": 0.006334,
-    "CAD": 0.712043,
+    "EUR": 1.112842,
+    "JPY": 0.006331,
+    "CAD": 0.711607,
     "INR": 0.010515
   }
 }
