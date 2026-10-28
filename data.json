@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-28T02:30:34.855693+00:00",
-  "updated_display": "28 Oct 2026, 02:30 UTC",
+  "updated": "2026-10-28T17:04:15.387353+00:00",
+  "updated_display": "28 Oct 2026, 17:04 UTC",
   "prices": {
     "TCS": {
-      "price": 2496.9,
-      "display": "\u20b92,497",
+      "price": 2460.0,
+      "display": "\u20b92,460",
       "change": -1.5
     },
     "INFY": {
-      "price": 1163.0,
-      "display": "\u20b91,163",
-      "change": -0.3
+      "price": 1123.15,
+      "display": "\u20b91,123",
+      "change": -3.4
     },
     "CTSH": {
-      "price": 66.22,
-      "display": "$66.22",
-      "change": -4.5
-    },
-    "HCLT": {
-      "price": 1420.0,
-      "display": "\u20b91,420",
-      "change": 0.2
-    },
-    "WIPRO": {
-      "price": 187.0,
-      "display": "\u20b9187",
-      "change": -1.2
-    },
-    "TECHM": {
-      "price": 1795.0,
-      "display": "\u20b91,795",
+      "price": 66.43,
+      "display": "$66.43",
       "change": 0.3
     },
-    "LTIM": {
-      "price": 4074.9,
-      "display": "\u20b94,075",
+    "HCLT": {
+      "price": 1400.5,
+      "display": "\u20b91,400",
       "change": -1.4
     },
+    "WIPRO": {
+      "price": 184.5,
+      "display": "\u20b9184",
+      "change": -1.3
+    },
+    "TECHM": {
+      "price": 1776.6,
+      "display": "\u20b91,777",
+      "change": -1.9
+    },
+    "LTIM": {
+      "price": 4104.0,
+      "display": "\u20b94,104",
+      "change": 1.1
+    },
     "MPHL": {
-      "price": 2618.4,
-      "display": "\u20b92,618",
-      "change": 2.4
+      "price": 2518.0,
+      "display": "\u20b92,518",
+      "change": -3.8
     },
     "PSYS": {
-      "price": 5850.0,
-      "display": "\u20b95,850",
-      "change": 2.1
+      "price": 5848.0,
+      "display": "\u20b95,848",
+      "change": 0.3
     },
     "COFG": {
-      "price": 1997.0,
-      "display": "\u20b91,997",
-      "change": 0.2
+      "price": 1961.9,
+      "display": "\u20b91,962",
+      "change": -1.8
     },
     "ACN": {
-      "price": 235.16,
-      "display": "$235",
-      "change": -4.9
+      "price": 244.74,
+      "display": "$245",
+      "change": 4.1
     },
     "CAP": {
-      "price": 124.15,
-      "display": "\u20ac124",
-      "change": 0.2
+      "price": 122.45,
+      "display": "\u20ac122",
+      "change": -0.3
     },
     "ATOS": {
-      "price": 25.14,
-      "display": "\u20ac25.14",
-      "change": 8.0
+      "price": 27.78,
+      "display": "\u20ac27.78",
+      "change": 8.9
     },
     "DXC": {
-      "price": 15.84,
-      "display": "$15.84",
-      "change": -2.8
+      "price": 15.94,
+      "display": "$15.94",
+      "change": 0.6
     },
     "GIB": {
-      "price": 79.63,
-      "display": "$79.63",
-      "change": -2.8
+      "price": 79.5,
+      "display": "$79.50",
+      "change": -0.2
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73598.67,
-      "change": -0.01
+      "value": 73246.03,
+      "change": -0.48
     },
     "NIFTY_IT": {
-      "value": 32189.45,
-      "change": -0.26
+      "value": 31553.4,
+      "change": -1.98
     },
     "SP500": {
-      "value": 7722.6,
-      "change": 0.6
+      "value": 7742.8,
+      "change": 0.26
     },
     "USD_INR": {
-      "value": 95.11,
-      "change": -0.09
+      "value": 95.22,
+      "change": 0.03
     },
     "EUR_INR": {
-      "value": 105.81,
-      "change": -0.43
+      "value": 106.16,
+      "change": -0.11
     }
   },
   "historical": {
@@ -169,7 +169,8 @@
         2507.0,
         2530.0,
         2535.0,
-        2497.0
+        2497.0,
+        2460.0
       ],
       "dl": [
         "Oct 8",
@@ -184,7 +185,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         3448.0,
@@ -305,7 +307,8 @@
         1153.0,
         1154.0,
         1166.0,
-        1163.0
+        1163.0,
+        1123.0
       ],
       "dl": [
         "Oct 8",
@@ -320,7 +323,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         1422.0,
@@ -442,6 +446,7 @@
         74.0,
         71.0,
         69.0,
+        66.0,
         66.0
       ],
       "dl": [
@@ -458,7 +463,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         72.0,
@@ -579,7 +585,8 @@
         1422.0,
         1422.0,
         1417.0,
-        1420.0
+        1420.0,
+        1400.0
       ],
       "dl": [
         "Oct 8",
@@ -594,7 +601,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         1303.0,
@@ -715,7 +723,8 @@
         190.0,
         190.0,
         189.0,
-        187.0
+        187.0,
+        184.0
       ],
       "dl": [
         "Oct 8",
@@ -730,7 +739,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         218.0,
@@ -850,7 +860,9 @@
         1820.0,
         1814.0,
         1790.0,
-        1795.0
+        1795.0,
+        1811.0,
+        1777.0
       ],
       "dl": [
         "Oct 8",
@@ -864,7 +876,9 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26"
+        "Oct 26",
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         1163.0,
@@ -984,7 +998,9 @@
         4273.0,
         4249.0,
         4134.0,
-        4075.0
+        4075.0,
+        4060.0,
+        4104.0
       ],
       "dl": [
         "Oct 8",
@@ -998,7 +1014,9 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26"
+        "Oct 26",
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         6022.0,
@@ -1119,7 +1137,8 @@
         2500.0,
         2480.0,
         2558.0,
-        2618.0
+        2618.0,
+        2518.0
       ],
       "dl": [
         "Oct 8",
@@ -1134,7 +1153,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         2561.0,
@@ -1254,7 +1274,9 @@
         5858.0,
         5740.0,
         5728.0,
-        5850.0
+        5850.0,
+        5832.0,
+        5848.0
       ],
       "dl": [
         "Oct 8",
@@ -1268,7 +1290,9 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26"
+        "Oct 26",
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         3625.0,
@@ -1389,7 +1413,8 @@
         1909.0,
         1900.0,
         1993.0,
-        1997.0
+        1997.0,
+        1962.0
       ],
       "dl": [
         "Oct 8",
@@ -1404,7 +1429,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         1222.0,
@@ -1526,7 +1552,8 @@
         259.0,
         249.0,
         247.0,
-        235.0
+        235.0,
+        245.0
       ],
       "dl": [
         "Oct 8",
@@ -1542,7 +1569,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         331.0,
@@ -1663,7 +1691,9 @@
         125.0,
         127.0,
         124.0,
-        124.0
+        124.0,
+        123.0,
+        122.0
       ],
       "dl": [
         "Oct 8",
@@ -1678,7 +1708,9 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26"
+        "Oct 26",
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         176.0,
@@ -1799,7 +1831,9 @@
         26.0,
         24.0,
         23.0,
-        25.0
+        25.0,
+        26.0,
+        28.0
       ],
       "dl": [
         "Oct 8",
@@ -1814,7 +1848,9 @@
         "Oct 21",
         "Oct 22",
         "Oct 23",
-        "Oct 26"
+        "Oct 26",
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         524.0,
@@ -1936,6 +1972,7 @@
         16.0,
         16.0,
         16.0,
+        16.0,
         16.0
       ],
       "dl": [
@@ -1952,7 +1989,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         23.0,
@@ -2074,6 +2112,7 @@
         82.0,
         82.0,
         82.0,
+        80.0,
         80.0
       ],
       "dl": [
@@ -2090,7 +2129,8 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28"
       ],
       "mp": [
         106.0,
@@ -2146,22 +2186,31 @@
   },
   "news": [
     {
-      "time": "2026-10-27 02:18",
+      "time": "2026-10-27 13:45",
       "tk": "HCLT",
-      "src": "Digitimes",
-      "cat": "PEOPLE",
-      "hl": "HCLTech and Rapidus open India centers to support semiconductor engineering",
-      "detail": "HCLTech and Japan's Rapidus have inaugurated development centers in Bengaluru and Hubli, India, expanding their semiconductor engineering collaboration across Asia. The facilities will support advanced chip work, while a planned talent pipeline could connect \u2026",
-      "url": "https://www.digitimes.com/news/a20261027PR200/india-rapidus-semiconductors-design-development-manufacturing.html"
+      "src": "BusinessLine",
+      "cat": "MACRO",
+      "hl": "HCLTech expands Climate Action Grant to 24 countries, to give $1.25 million to four NPOs",
+      "detail": "The company launched the HCLTech Grant for Climate Action in the Americas in 2023 to support locally relevant solutions to pressing climate and environmental issues.",
+      "url": "https://www.thehindubusinessline.com/info-tech/hcltech-expands-climate-action-grant-to-24-countries-to-give-125-million-to-four-npos/article71631161.ece"
     },
     {
-      "time": "2026-10-26 11:56",
+      "time": "2026-10-27 15:27",
       "tk": "CTSH",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Cognizant Lands Five-Year AI Partnership Ahead Of Earnings",
-      "detail": "Cognizant AI Deal with EBRD boosts CTSH momentum ahead of earnings, with shares trading near key technical resistance.",
-      "url": "https://biztoc.com/x/bcee09aa4ea7d690"
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "Cognizant expands partnership with Travelport",
+      "detail": "The IT major will work towards embedding AI across the Travelport\u2019s platforms, products and operations enabling faster innovation, greater efficiency and enhanced traveler experiences",
+      "url": "https://www.thehindubusinessline.com/info-tech/cognizant-expands-partnership-with-travelport/article71632201.ece"
+    },
+    {
+      "time": "2026-10-27 07:27",
+      "tk": "CTSH",
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "Cognizant signs five-year technology transformation deal with EBRD",
+      "detail": "Cognizant has won a five-year deal from the European Bank for Reconstruction and Development (EBRD) to support the bank\u2019s technology transformation programme powered by AI, data, and intelligent automation",
+      "url": "https://www.thehindubusinessline.com/info-tech/cognizant-signs-five-year-technology-transformation-deal-with-ebrd/article71630201.ece"
     },
     {
       "time": "2026-10-26 07:13",
@@ -2191,31 +2240,49 @@
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-slips-3-even-as-jefferies-nomura-others-raise-targets-after-q2-earnings-why-are-they-bullish/articleshow/135202672.cms"
     },
     {
-      "time": "2026-10-26 10:30",
-      "tk": "Sector",
-      "src": "Livemint",
-      "cat": "ANALYST",
-      "hl": "How to handle an AI agent that outgrows its mandate\u2014and why it's an opportunity for Indian IT",
-      "detail": "Deployers of agents must use external supervision to stop them from veering off their brief. That creates an opening for Indian IT services firms, which have spent three decades embedded in client systems, operating the surrounding technology and maintaining \u2026",
-      "url": "https://www.livemint.com/opinion/online-views/it-opportunity-what-happens-when-an-ai-agent-outgrows-its-mandate-11792949122028.html"
+      "time": "2026-10-27 13:19",
+      "tk": "NTTD",
+      "src": "Financial Post",
+      "cat": "AI",
+      "hl": "NTT DATA Expands AI Factory Footprint Globally to Help Clients Scale AI from Pilots to Production",
+      "detail": "NTT DATA AI Factories help clients validate priority AI use cases, infrastructure, security, governance and economics before scaling into production. The environments bring together NTT DATA\u2019s full-stack AI expertise with technologies from leading ecosystem p\u2026",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ntt-data-expands-ai-factory-footprint-globally-to-help-clients-scale-ai-from-pilots-to-production"
     },
     {
-      "time": "2026-10-26 04:58",
+      "time": "2026-10-27 13:00",
+      "tk": "ATOS",
+      "src": "Tenable.com",
+      "cat": "AI",
+      "hl": "Tenable Selected by Atos to Power Continuous Threat Exposure Management Program",
+      "detail": "Tenable\u00ae Holdings, Inc. (NASDAQ: TENB), the exposure management company, today announced it has been selected to power the Atos Continuous Threat Exposure Management (CTEM) service. Atos, a global leader in AI-powered digital transformation, counts Tenable as\u2026",
+      "url": "https://www.tenable.com/press-releases/tenable-selected-by-atos-to-power-continuous-threat-exposure-management-program"
+    },
+    {
+      "time": "2026-10-27 05:36",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "AI",
+      "hl": "TCS, Infosys, other IT stocks drop up to 3% as Anthropic IPO sparks rally in global AI stocks",
+      "detail": "Indian IT stocks fell amid reports that Anthropic, the maker of Claude, is preparing for an IPO that could value it at around $1.5 trillion. While the listing would open up investment opportunities in a leading AI developer, rising infrastructure costs, mount\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-other-it-stocks-drop-up-to-3-as-anthropic-ipo-sparks-rally-in-global-ai-stocks/articleshow/135225464.cms"
+    },
+    {
+      "time": "2026-10-27 12:06",
       "tk": "INFY",
       "src": "BusinessLine",
       "cat": "RESULTS",
-      "hl": "Infosys shares fall 4% after FY27 revenue growth guidance cut",
-      "detail": "Infosys cuts FY27 revenue growth guidance to 1-2%, sparking a 4% stock drop amid weak demand and muted growth outlook.",
-      "url": "https://www.thehindubusinessline.com/markets/infosys-shares-fall-4-after-fy27-revenue-growth-guidance-cut/article71625657.ece"
+      "hl": "Stock market ends flat as Infosys drags IT stocks, defence shares rally",
+      "detail": "Investors weighed corporate earnings concerns against policy developments, while upcoming market events are expected to influence trading direction on Wednesday",
+      "url": "https://www.thehindubusinessline.com/markets/stock-market-ends-flat-as-infosys-drags-it-stocks-defence-shares-rally/article71631323.ece"
     },
     {
-      "time": "2026-10-26 08:00",
+      "time": "2026-10-26 11:56",
       "tk": "CTSH",
-      "src": "PRNewswire",
+      "src": "Biztoc.com",
       "cat": "RESULTS",
-      "hl": "Cognizant and EBRD Partner to Accelerate Digital Transformation Through AI-Led, Outcome-Driven Services",
-      "detail": "A five-year strategic framework will support the delivery of critical, results-focused technology helping the EBRD to drive continuous improvement, innovation and the responsible adoption of AI across its technology estate LONDON, Oct 26, 2026 /PRNewswire/ --\u2026",
-      "url": "https://www.prnewswire.com/news-releases/cognizant-and-ebrd-partner-to-accelerate-digital-transformation-through-ai-led-outcome-driven-services-302918452.html"
+      "hl": "Cognizant Lands Five-Year AI Partnership Ahead Of Earnings",
+      "detail": "Cognizant AI Deal with EBRD boosts CTSH momentum ahead of earnings, with shares trading near key technical resistance.",
+      "url": "https://biztoc.com/x/bcee09aa4ea7d690"
     }
   ],
   "quarterly": {
@@ -3093,9 +3160,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.112595,
-    "JPY": 0.006332,
-    "CAD": 0.711187,
-    "INR": 0.010515
+    "EUR": 1.115076,
+    "JPY": 0.006323,
+    "CAD": 0.712504,
+    "INR": 0.010502
   }
 }
