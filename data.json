@@ -1,103 +1,103 @@
 {
-  "updated": "2026-10-29T02:43:02.263009+00:00",
-  "updated_display": "29 Oct 2026, 02:43 UTC",
+  "updated": "2026-10-29T17:22:14.320910+00:00",
+  "updated_display": "29 Oct 2026, 17:22 UTC",
   "prices": {
     "TCS": {
-      "price": 2460.0,
-      "display": "\u20b92,460",
-      "change": -1.5
+      "price": 2478.0,
+      "display": "\u20b92,478",
+      "change": 0.7
     },
     "INFY": {
-      "price": 1123.15,
-      "display": "\u20b91,123",
-      "change": -3.4
+      "price": 1146.5,
+      "display": "\u20b91,146",
+      "change": 2.1
     },
     "CTSH": {
-      "price": 66.36,
-      "display": "$66.36",
-      "change": 0.2
+      "price": 62.3,
+      "display": "$62.30",
+      "change": -6.1
     },
     "HCLT": {
-      "price": 1400.5,
-      "display": "\u20b91,400",
-      "change": -1.4
+      "price": 1403.9,
+      "display": "\u20b91,404",
+      "change": 0.2
     },
     "WIPRO": {
-      "price": 184.5,
-      "display": "\u20b9184",
-      "change": -1.3
+      "price": 190.1,
+      "display": "\u20b9190",
+      "change": 3.0
     },
     "TECHM": {
-      "price": 1776.6,
-      "display": "\u20b91,777",
-      "change": -1.9
+      "price": 1769.6,
+      "display": "\u20b91,770",
+      "change": -0.4
     },
     "LTIM": {
-      "price": 4059.7,
-      "display": "\u20b94,060",
-      "change": -0.4
+      "price": 4094.7,
+      "display": "\u20b94,095",
+      "change": -0.2
     },
     "MPHL": {
-      "price": 2618.4,
-      "display": "\u20b92,618",
-      "change": 2.4
+      "price": 2561.3,
+      "display": "\u20b92,561",
+      "change": 1.7
     },
     "PSYS": {
-      "price": 5832.5,
-      "display": "\u20b95,832",
-      "change": -0.3
+      "price": 5880.0,
+      "display": "\u20b95,880",
+      "change": 0.5
     },
     "COFG": {
-      "price": 1961.9,
+      "price": 1962.0,
       "display": "\u20b91,962",
-      "change": -1.8
+      "change": 0.0
     },
     "ACN": {
-      "price": 243.4,
-      "display": "$243",
-      "change": 3.5
+      "price": 245.15,
+      "display": "$245",
+      "change": 0.7
     },
     "CAP": {
-      "price": 122.8,
+      "price": 123.1,
       "display": "\u20ac123",
-      "change": -1.1
+      "change": 0.5
     },
     "ATOS": {
-      "price": 25.5,
-      "display": "\u20ac25.50",
-      "change": 1.4
+      "price": 27.64,
+      "display": "\u20ac27.64",
+      "change": -0.5
     },
     "DXC": {
-      "price": 16.09,
-      "display": "$16.09",
-      "change": 1.6
+      "price": 15.59,
+      "display": "$15.59",
+      "change": -3.1
     },
     "GIB": {
-      "price": 79.32,
-      "display": "$79.32",
-      "change": -0.4
+      "price": 78.84,
+      "display": "$78.84",
+      "change": -0.6
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 73246.03,
-      "change": -0.48
+      "value": 74151.04,
+      "change": 1.24
     },
     "NIFTY_IT": {
-      "value": 31553.4,
-      "change": -1.98
+      "value": 31866.4,
+      "change": 0.99
     },
     "SP500": {
-      "value": 7743.98,
-      "change": 0.28
+      "value": 7707.73,
+      "change": -0.47
     },
     "USD_INR": {
-      "value": 95.21,
-      "change": 0.03
+      "value": 95.25,
+      "change": 0.08
     },
     "EUR_INR": {
-      "value": 106.2,
-      "change": 0.42
+      "value": 106.37,
+      "change": 0.57
     }
   },
   "historical": {
@@ -167,7 +167,8 @@
         2530.0,
         2535.0,
         2497.0,
-        2460.0
+        2460.0,
+        2478.0
       ],
       "dl": [
         "Oct 9",
@@ -182,7 +183,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         3448.0,
@@ -299,7 +301,8 @@
         1154.0,
         1166.0,
         1163.0,
-        1123.0
+        1123.0,
+        1146.0
       ],
       "dl": [
         "Oct 9",
@@ -314,7 +317,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         1422.0,
@@ -432,7 +436,8 @@
         71.0,
         69.0,
         66.0,
-        66.0
+        66.0,
+        62.0
       ],
       "dl": [
         "Oct 9",
@@ -448,7 +453,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         72.0,
@@ -565,7 +571,8 @@
         1422.0,
         1417.0,
         1420.0,
-        1400.0
+        1400.0,
+        1404.0
       ],
       "dl": [
         "Oct 9",
@@ -580,7 +587,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         1303.0,
@@ -697,7 +705,8 @@
         190.0,
         189.0,
         187.0,
-        184.0
+        184.0,
+        190.0
       ],
       "dl": [
         "Oct 9",
@@ -712,7 +721,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         218.0,
@@ -829,7 +839,8 @@
         1790.0,
         1795.0,
         1811.0,
-        1777.0
+        1777.0,
+        1770.0
       ],
       "dl": [
         "Oct 9",
@@ -844,7 +855,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         1163.0,
@@ -960,7 +972,9 @@
         4249.0,
         4134.0,
         4075.0,
-        4060.0
+        4060.0,
+        4104.0,
+        4095.0
       ],
       "dl": [
         "Oct 9",
@@ -974,7 +988,9 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         6022.0,
@@ -1090,7 +1106,9 @@
         2500.0,
         2480.0,
         2558.0,
-        2618.0
+        2618.0,
+        2518.0,
+        2561.0
       ],
       "dl": [
         "Oct 9",
@@ -1104,7 +1122,9 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         2561.0,
@@ -1220,7 +1240,9 @@
         5740.0,
         5728.0,
         5850.0,
-        5832.0
+        5832.0,
+        5848.0,
+        5880.0
       ],
       "dl": [
         "Oct 9",
@@ -1234,7 +1256,9 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         3625.0,
@@ -1351,6 +1375,7 @@
         1900.0,
         1993.0,
         1997.0,
+        1962.0,
         1962.0
       ],
       "dl": [
@@ -1366,7 +1391,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         1222.0,
@@ -1484,7 +1510,8 @@
         249.0,
         247.0,
         235.0,
-        243.0
+        243.0,
+        245.0
       ],
       "dl": [
         "Oct 9",
@@ -1500,7 +1527,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         331.0,
@@ -1617,6 +1645,8 @@
         127.0,
         124.0,
         124.0,
+        123.0,
+        122.0,
         123.0
       ],
       "dl": [
@@ -1632,7 +1662,9 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         176.0,
@@ -1749,7 +1781,9 @@
         24.0,
         23.0,
         25.0,
-        26.0
+        26.0,
+        28.0,
+        28.0
       ],
       "dl": [
         "Oct 9",
@@ -1764,7 +1798,9 @@
         "Oct 22",
         "Oct 23",
         "Oct 26",
-        "Oct 27"
+        "Oct 27",
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         524.0,
@@ -1882,6 +1918,7 @@
         16.0,
         16.0,
         16.0,
+        16.0,
         16.0
       ],
       "dl": [
@@ -1898,7 +1935,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         23.0,
@@ -2016,6 +2054,7 @@
         82.0,
         82.0,
         80.0,
+        79.0,
         79.0
       ],
       "dl": [
@@ -2032,7 +2071,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         106.0,
@@ -2086,22 +2126,49 @@
   },
   "news": [
     {
-      "time": "2026-10-28 02:18",
-      "tk": "INFY",
-      "src": "Theregister.com",
-      "cat": "RESULTS",
-      "hl": "AI slows growth for Infosys and keeps it afloat at the same time",
-      "detail": "Predicts slower growth as savings from automation hit price of extended deals",
-      "url": "https://www.theregister.com/channel/2026/10/28/ai-slows-growth-for-infosys-and-keeps-it-afloat-at-the-same-time/5305879"
+      "time": "2026-10-28 15:09",
+      "tk": "TCS",
+      "src": "WABC-TV",
+      "cat": "MACRO",
+      "hl": "Security measures in place, blue line painted ahead of TCS NYC Marathon",
+      "detail": "Final preparations are underway for Sunday's TCS New York City Marathon, with crews painting the iconic blue line along the 26.2-mile course and setting up the finish line in Central Park.",
+      "url": "https://abc7ny.com/post/security-measures-place-blue-line-painted-ahead-2026-tcs-new-york-city-marathon/19989850/"
     },
     {
-      "time": "2026-10-28 01:55",
+      "time": "2026-10-28 15:13",
+      "tk": "ACN",
+      "src": "Tom's Hardware UK",
+      "cat": "AI",
+      "hl": "Amazon tells engineers to stop \u2018tokenmaxxing\u2019 to look productive",
+      "detail": "Amazon has published new engineering guidelines warning developers and managers against \u2018tokenmaxxing,\u2019 arguing that AI usage metrics are \u2018deeply flawed\u2019 unless tied to long-term outcomes. The move follows similar spending concerns at Uber and Accenture.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim"
+    },
+    {
+      "time": "2026-10-28 15:10",
+      "tk": "ACN",
+      "src": "Stashmedia.tv",
+      "cat": "PEOPLE",
+      "hl": "Hornet Signs UK Director Troy Browne to Global Roster",
+      "detail": "From the release: Troy Browne brings a bold, distinctive voice to multimedia storytelling, creating work for global brands including Apple, Vimeo, Adobe, Crocs, Converse, and Accenture. [Watch]\nThe post Hornet Signs UK Director Troy Browne to Global Roster ap\u2026",
+      "url": "https://www.stashmedia.tv/hornet-signs-uk-director-troy-browne-to-global-roster/"
+    },
+    {
+      "time": "2026-10-28 06:46",
       "tk": "INFY",
-      "src": "BusinessLine",
-      "cat": "DEAL",
-      "hl": "Buzzing stocks: Infy, Midhani, Choice Intl, Kothari Industrial, Subros, Gulf Oil, Exide, Steamhouse",
-      "detail": "Global deal activity and strategic partnerships drive momentum across tech, manufacturing, and energy sectors, with major investments, MoUs, and contract wins shaping growth prospects for Infosys, Choice Intl, MIDHANI, Subros, Gulf Oil, Exide, and more.",
-      "url": "https://www.thehindubusinessline.com/markets/buzzing-stocks-infy-midhani-choice-intl-kothari-industrial-subros-gulf-oil-exide-steamhouse/article71634126.ece"
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Infosys, TechM, TCS, other IT stocks plunge up to 5%, extend losses as global AI trade rebounds. What lies ahead?",
+      "detail": "Indian IT stocks fell sharply on Wednsday as renewed optimism around the global AI trade weighed on sentiment. Strong earnings from SK Hynix and Anthropic\u2019s IPO filing fuelled gains in AI-linked stocks globally. However, concerns over an AI bubble persist, wi\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-techm-tcs-other-it-stocks-plunge-up-to-5-extend-losses-as-global-ai-trade-rebounds-what-lies-ahead/articleshow/135255322.cms"
+    },
+    {
+      "time": "2026-10-28 06:31",
+      "tk": "INFY",
+      "src": "Business Standard",
+      "cat": "PEOPLE",
+      "hl": "Nifty IT index slips 4%; Infosys, TCS, Coforge tank up to 5%; here's why",
+      "detail": "Till Tuesday in October 2026, the Nifty IT index outperformed the market and rallied 12%, compared to 0.05% decline in the Nifty 50.",
+      "url": "https://www.business-standard.com/markets/news/nifty-it-index-slips-4-infosys-tcs-coforge-tank-up-to-5-here-s-why-126102800478_1.html"
     },
     {
       "time": "2026-10-28 01:55",
@@ -2111,33 +2178,6 @@
       "hl": "Cognizant eyes Sarvam stake; Ather aims for higher market share",
       "detail": "Happy Wednesday! Cognizant has held discussions to invest in homegrown AI startup Sarvam. This and more in today\u2019s ETtech Morning Dispatch.",
       "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/cognizant-eyes-sarvam-stake-ather-aims-for-higher-market-share/articleshow/135249122.cms"
-    },
-    {
-      "time": "2026-10-28 00:30",
-      "tk": "CTSH",
-      "src": "Livemint",
-      "cat": "AI",
-      "hl": "Cognizant restructures software engineering business as clients seek AI returns",
-      "detail": "The restructuring is part of Cognizant\u2019s efforts to prepare for an AI-driven market, where companies are reassessing the work they outsource to technology services providers. It is arguably the largest organizational overhaul under chief executive Ravi Kumar,\u2026",
-      "url": "https://www.livemint.com/companies/cognizant-restructures-software-engineering-business-as-clients-seek-ai-returns-11793068691018.html"
-    },
-    {
-      "time": "2026-10-27 21:35",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "ANALYST",
-      "hl": "vs. CTSH and IBM: Can Valuation Recovery and Dividend Growth Drive the Next Upside?",
-      "detail": "Is ACN a good stock to buy? We came across a bullish thesis on Accenture plc on Quality At A Fair Price's Substack by Longacres Finance. The thesis was published on August 25th, when the stock was trading at $186.93, and ACN gained 38.41% since then. The gain\u2026",
-      "url": "https://biztoc.com/x/7ef9f1c9cee94e3a"
-    },
-    {
-      "time": "2026-10-27 15:27",
-      "tk": "CTSH",
-      "src": "BusinessLine",
-      "cat": "DEAL",
-      "hl": "Cognizant expands partnership with Travelport",
-      "detail": "The IT major will work towards embedding AI across the Travelport\u2019s platforms, products and operations enabling faster innovation, greater efficiency and enhanced traveler experiences",
-      "url": "https://www.thehindubusinessline.com/info-tech/cognizant-expands-partnership-with-travelport/article71632201.ece"
     },
     {
       "time": "2026-10-28 00:00",
@@ -2167,6 +2207,15 @@
       "url": "https://www.tenable.com/press-releases/tenable-selected-by-atos-to-power-continuous-threat-exposure-management-program"
     },
     {
+      "time": "2026-10-28 08:56",
+      "tk": "Sector",
+      "src": "Ibtimes.com.au",
+      "cat": "RESULTS",
+      "hl": "Data#3 Shares Surge 7.8% as IT Services Firm Forecasts Up to 70% Jump in First-Half Profit at Annual Meeting",
+      "detail": "Data#3 shares climbed nearly 8% after the Brisbane-based IT services company forecast first-half fiscal 2027 pre-tax profit growth of up to 70%.",
+      "url": "https://www.ibtimes.com.au/data3-shares-first-half-profit-growth-forecast-1877496"
+    },
+    {
       "time": "2026-10-27 05:36",
       "tk": "INFY",
       "src": "The Times of India",
@@ -2177,12 +2226,12 @@
     },
     {
       "time": "2026-10-28 00:30",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Stocks in news: Jio Platforms, RIL, Infosys, L&T, Tata Capital, Waaree Energies and Vedanta Iron",
-      "detail": "Indian benchmark indices saw a volatile session amid the Nifty and Bank Nifty monthly expiry. Stocks like Jio Platforms made headlines following its IPO debut after raising significant funds. Reliance Industries remained a focus as its financial results and f\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-jio-platforms-ril-infosys-lt-tata-capital-waaree-energies-and-vedanta-iron/articleshow/135245790.cms"
+      "tk": "CTSH",
+      "src": "Livemint",
+      "cat": "AI",
+      "hl": "Cognizant restructures software engineering business as clients seek AI returns",
+      "detail": "The restructuring is part of Cognizant\u2019s efforts to prepare for an AI-driven market, where companies are reassessing the work they outsource to technology services providers. It is arguably the largest organizational overhaul under chief executive Ravi Kumar,\u2026",
+      "url": "https://www.livemint.com/companies/cognizant-restructures-software-engineering-business-as-clients-seek-ai-returns-11793068691018.html"
     }
   ],
   "quarterly": {
@@ -2270,8 +2319,8 @@
           "label": "Q3 FY26",
           "rev": 5.1,
           "rev_usd": 5.1,
-          "ebit_margin": 18.5,
-          "op_profit": 943.0,
+          "ebit_margin": 18.4,
+          "op_profit": 937.0,
           "fcf": 0.92,
           "fcf_usd": 0.92
         },
@@ -2300,8 +2349,8 @@
           "label": "Q2 FY27",
           "rev": 5.14,
           "rev_usd": 0.05,
-          "ebit_margin": 21.1,
-          "op_profit": 1085.0,
+          "ebit_margin": 21.0,
+          "op_profit": 1079.0,
           "fcf": 0.93,
           "fcf_usd": 0.01
         }
@@ -2311,8 +2360,8 @@
         "rev_usd": 20.2,
         "growth": null,
         "ebit_margin": 20.4,
-        "op_profit": 4155,
-        "op_profit_usd": 4122,
+        "op_profit": 4143,
+        "op_profit_usd": 4110,
         "fcf": 3.63,
         "fcf_usd": 2.71
       },
@@ -3060,9 +3109,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.115449,
-    "JPY": 0.006341,
-    "CAD": 0.715512,
-    "INR": 0.010503
+    "EUR": 1.117194,
+    "JPY": 0.006334,
+    "CAD": 0.715666,
+    "INR": 0.010499
   }
 }
