@@ -1,61 +1,61 @@
 {
-  "updated": "2026-10-30T16:58:36.611183+00:00",
-  "updated_display": "30 Oct 2026, 16:58 UTC",
+  "updated": "2026-10-30T20:56:55.054030+00:00",
+  "updated_display": "30 Oct 2026, 20:56 UTC",
   "prices": {
     "TCS": {
-      "price": 2502.6,
-      "display": "\u20b92,503",
-      "change": 1.0
+      "price": 2478.0,
+      "display": "\u20b92,478",
+      "change": 0.7
     },
     "INFY": {
-      "price": 1185.0,
-      "display": "\u20b91,185",
-      "change": 3.4
+      "price": 1146.5,
+      "display": "\u20b91,146",
+      "change": 2.1
     },
     "CTSH": {
-      "price": 65.82,
-      "display": "$65.82",
-      "change": 5.3
+      "price": 65.11,
+      "display": "$65.11",
+      "change": 4.1
     },
     "HCLT": {
-      "price": 1428.1,
-      "display": "\u20b91,428",
-      "change": 1.7
+      "price": 1403.9,
+      "display": "\u20b91,404",
+      "change": 0.2
     },
     "WIPRO": {
-      "price": 198.31,
-      "display": "\u20b9198",
-      "change": 4.3
+      "price": 190.1,
+      "display": "\u20b9190",
+      "change": 3.0
     },
     "TECHM": {
-      "price": 1790.8,
-      "display": "\u20b91,791",
-      "change": 1.2
+      "price": 1769.6,
+      "display": "\u20b91,770",
+      "change": -0.4
     },
     "LTIM": {
-      "price": 4233.5,
-      "display": "\u20b94,234",
-      "change": 3.4
+      "price": 4094.7,
+      "display": "\u20b94,095",
+      "change": -0.2
     },
     "MPHL": {
-      "price": 2525.6,
-      "display": "\u20b92,526",
-      "change": -1.4
+      "price": 2561.3,
+      "display": "\u20b92,561",
+      "change": 1.7
     },
     "PSYS": {
-      "price": 6048.0,
-      "display": "\u20b96,048",
-      "change": 2.9
+      "price": 5880.0,
+      "display": "\u20b95,880",
+      "change": 0.5
     },
     "COFG": {
-      "price": 2045.0,
-      "display": "\u20b92,045",
-      "change": 4.2
+      "price": 1962.0,
+      "display": "\u20b91,962",
+      "change": 0.0
     },
     "ACN": {
-      "price": 259.23,
-      "display": "$259",
-      "change": 4.9
+      "price": 258.24,
+      "display": "$258",
+      "change": 4.5
     },
     "CAP": {
       "price": 127.65,
@@ -68,36 +68,36 @@
       "change": -0.7
     },
     "DXC": {
-      "price": 14.06,
-      "display": "$14.06",
-      "change": -7.7
+      "price": 14.98,
+      "display": "$14.98",
+      "change": -1.6
     },
     "GIB": {
-      "price": 80.83,
-      "display": "$80.83",
-      "change": 1.6
+      "price": 80.56,
+      "display": "$80.56",
+      "change": 1.2
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 74459.53,
-      "change": 0.42
+      "value": 74151.04,
+      "change": 1.24
     },
     "NIFTY_IT": {
-      "value": 32606.9,
-      "change": 2.32
+      "value": 31866.4,
+      "change": 0.99
     },
     "SP500": {
-      "value": 7581.11,
-      "change": -1.8
+      "value": 7580.07,
+      "change": -1.82
     },
     "USD_INR": {
       "value": 94.94,
       "change": -0.28
     },
     "EUR_INR": {
-      "value": 105.98,
-      "change": -0.18
+      "value": 106.07,
+      "change": -0.1
     }
   },
   "historical": {
@@ -167,8 +167,7 @@
         2535.0,
         2497.0,
         2460.0,
-        2478.0,
-        2503.0
+        2478.0
       ],
       "dl": [
         "Oct 12",
@@ -183,8 +182,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         3448.0,
@@ -301,8 +299,7 @@
         1166.0,
         1163.0,
         1123.0,
-        1146.0,
-        1185.0
+        1146.0
       ],
       "dl": [
         "Oct 12",
@@ -317,8 +314,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         1422.0,
@@ -437,7 +433,7 @@
         66.0,
         66.0,
         63.0,
-        66.0
+        65.0
       ],
       "dl": [
         "Oct 12",
@@ -571,8 +567,7 @@
         1417.0,
         1420.0,
         1400.0,
-        1404.0,
-        1428.0
+        1404.0
       ],
       "dl": [
         "Oct 12",
@@ -587,8 +582,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         1303.0,
@@ -705,8 +699,7 @@
         189.0,
         187.0,
         184.0,
-        190.0,
-        198.0
+        190.0
       ],
       "dl": [
         "Oct 12",
@@ -721,8 +714,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         218.0,
@@ -839,8 +831,7 @@
         1795.0,
         1811.0,
         1777.0,
-        1770.0,
-        1791.0
+        1770.0
       ],
       "dl": [
         "Oct 12",
@@ -855,8 +846,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         1163.0,
@@ -973,8 +963,7 @@
         4075.0,
         4060.0,
         4104.0,
-        4095.0,
-        4234.0
+        4095.0
       ],
       "dl": [
         "Oct 12",
@@ -989,8 +978,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         6022.0,
@@ -1107,8 +1095,7 @@
         2558.0,
         2618.0,
         2518.0,
-        2561.0,
-        2526.0
+        2561.0
       ],
       "dl": [
         "Oct 12",
@@ -1123,8 +1110,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         2561.0,
@@ -1241,8 +1227,7 @@
         5850.0,
         5832.0,
         5848.0,
-        5880.0,
-        6048.0
+        5880.0
       ],
       "dl": [
         "Oct 12",
@@ -1257,8 +1242,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         3625.0,
@@ -1375,8 +1359,7 @@
         1993.0,
         1997.0,
         1962.0,
-        1962.0,
-        2045.0
+        1962.0
       ],
       "dl": [
         "Oct 12",
@@ -1391,8 +1374,7 @@
         "Oct 26",
         "Oct 27",
         "Oct 28",
-        "Oct 29",
-        "Oct 30"
+        "Oct 29"
       ],
       "mp": [
         1222.0,
@@ -1511,7 +1493,7 @@
         235.0,
         243.0,
         247.0,
-        259.0
+        258.0
       ],
       "dl": [
         "Oct 12",
@@ -1919,7 +1901,7 @@
         16.0,
         16.0,
         15.0,
-        14.0
+        15.0
       ],
       "dl": [
         "Oct 12",
@@ -2126,6 +2108,15 @@
   },
   "news": [
     {
+      "time": "2026-10-29 17:26",
+      "tk": "CTSH",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "Cognizant trims 2026 revenue growth guidance again amid macro uncertainty",
+      "detail": "Cognizant cuts its 2026 constant-currency growth forecast to 4-4.4 per cent amid weak discretionary spending, even as Q3 revenue rises 4.6 per cent and net profit reaches $627 million.",
+      "url": "https://www.business-standard.com/companies/news/cognizant-trims-2026-revenue-growth-guidance-again-amid-macro-uncertainty-126102901592_1.html"
+    },
+    {
       "time": "2026-10-29 16:03",
       "tk": "CTSH",
       "src": "Livemint",
@@ -2144,22 +2135,22 @@
       "url": "https://www.thehindubusinessline.com/companies/cognizant-cuts-growth-guidance-despite-industry-beating-growth-in-september-quarter/article71641232.ece"
     },
     {
-      "time": "2026-10-29 14:58",
-      "tk": "CTSH",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Cognizant Sinks as Bookings Drop 7% and AI Shifts \u201cFrom Capability to Value Realization\u201d",
-      "detail": "Key Takeaways\n- Cognizant shares fell today after third-quarter bookings dropped 7% and it guided to 3.0% to 4.5% fourth-quarter revenue growth.\n- Revenue and earnings topped estimates, but four firms had raised their price targets in the days before the repo\u2026",
-      "url": "https://biztoc.com/x/214c5f14c5ae22e2"
+      "time": "2026-10-29 18:48",
+      "tk": "ACN",
+      "src": "Crypto Briefing",
+      "cat": "AI",
+      "hl": "Accenture employee\u2019s AI agent accessed secure DOD network for about two months",
+      "detail": "An Accenture employee's AI agent reportedly accessed a DOD system holding controlled unclassified information for about two months, Wired says.\nThe post Accenture employee\u2019s AI agent accessed secure DOD network for about two months appeared first on Crypto Br\u2026",
+      "url": "https://cryptobriefing.com/accenture-ai-agent-dod-network-access/"
     },
     {
-      "time": "2026-10-29 13:45",
-      "tk": "TCS",
-      "src": "WABC-TV",
-      "cat": "MACRO",
-      "hl": "TCS NYC Marathon runner finds healing through running after leaving monastery",
-      "detail": "Griffin Oleynick said the running community helped him rediscover a sense of belonging and care for others.",
-      "url": "https://abc7ny.com/post/2026-nyc-marathon-runner-finds-healing-running-leaving-monastery/19985277/"
+      "time": "2026-10-29 18:39",
+      "tk": "ACN",
+      "src": "Wired",
+      "cat": "DEAL",
+      "hl": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+      "detail": "Sources tell WIRED that an Accenture employee\u2019s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"
     },
     {
       "time": "2026-10-29 16:22",
@@ -2234,13 +2225,13 @@
       "url": "https://ing.dk/artikel/denmarks-microsoft-free-pc-faces-crucial-test-front-line-ribe"
     },
     {
-      "time": "2026-10-29 11:25",
+      "time": "2026-10-29 14:58",
       "tk": "CTSH",
-      "src": "BusinessLine",
+      "src": "Biztoc.com",
       "cat": "RESULTS",
-      "hl": "Cognizant reports 4.8% CC growth in Q3; trims 2026 revenue guidance",
-      "detail": "Cognizant posts 4.8% CC Q3 growth, trims 2026 revenue guidance, reports stronger profits and rising headcount amid sector variances.",
-      "url": "https://www.thehindubusinessline.com/info-tech/cognizant-reports-48-cc-growth-in-q3-trims-2026-revenue-guidance/article71640199.ece"
+      "hl": "Cognizant Sinks as Bookings Drop 7% and AI Shifts \u201cFrom Capability to Value Realization\u201d",
+      "detail": "Key Takeaways\n- Cognizant shares fell today after third-quarter bookings dropped 7% and it guided to 3.0% to 4.5% fourth-quarter revenue growth.\n- Revenue and earnings topped estimates, but four firms had raised their price targets in the days before the repo\u2026",
+      "url": "https://biztoc.com/x/214c5f14c5ae22e2"
     },
     {
       "time": "2026-10-29 14:32",
@@ -2250,15 +2241,6 @@
       "hl": "Cognizant lowers FY26 growth outlook to 4% to 4.4% in constant currency",
       "detail": "Cognizant cut FY26 constant-currency growth outlook to 4%-4.4% amid macro uncertainty, guiding $22-$22.1B revenue and slower client decisions.",
       "url": "https://timesofindia.indiatimes.com/business/india-business/cognizant-lowers-fy26-growth-outlook-to-4-to-4-4-in-constant-currency/articleshow/135320007.cms"
-    },
-    {
-      "time": "2026-10-29 11:22",
-      "tk": "CTSH",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Cognizant: Q3 Earnings Snapshot",
-      "detail": "TEANECK, N.J. (AP) \u2014 Cognizant Technology Solutions Corp. (CTSH) on Thursday reported third-quarter profit of $627 million.\nOn a per-share basis, the Teaneck, New Jersey-based company said it had profit of $1.39. Earnings, adjusted for one-time gains and cost\u2026",
-      "url": "https://biztoc.com/x/86f40e2925994884"
     }
   ],
   "quarterly": {
@@ -2399,16 +2381,6 @@
     "CTSH": {
       "quarters": [
         {
-          "date": "2025-06-30",
-          "label": "Q2 FY25",
-          "rev": 5.25,
-          "rev_usd": 5.25,
-          "ebit_margin": 15.6,
-          "op_profit": 817.0,
-          "fcf": 0.33,
-          "fcf_usd": 0.33
-        },
-        {
           "date": "2025-09-30",
           "label": "Q3 FY25",
           "rev": 5.42,
@@ -2447,21 +2419,31 @@
           "op_profit": 958.0,
           "fcf": 0.46,
           "fcf_usd": 0.46
+        },
+        {
+          "date": "2026-09-30",
+          "label": "Q3 FY26",
+          "rev": 5.66,
+          "rev_usd": 5.66,
+          "ebit_margin": 16.3,
+          "op_profit": 923.0,
+          "fcf": 0.93,
+          "fcf_usd": 0.93
         }
       ],
       "annual": {
-        "rev": 21.6,
-        "rev_usd": 21.6,
+        "rev": 21.9,
+        "rev_usd": 21.9,
         "growth": null,
-        "ebit_margin": 16.3,
-        "op_profit": 3520,
-        "op_profit_usd": 3513,
-        "fcf": 2.6,
-        "fcf_usd": 2.6
+        "ebit_margin": 16.4,
+        "op_profit": 3577,
+        "op_profit_usd": 3580,
+        "fcf": 2.37,
+        "fcf_usd": 2.37
       },
       "fy_end_month": 12,
       "currency": "USD",
-      "usd_rate": 0.998152
+      "usd_rate": 1.000914
     },
     "HCLT": {
       "quarters": [
@@ -3136,9 +3118,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.115947,
-    "JPY": 0.006352,
-    "CAD": 0.717021,
+    "EUR": 1.116445,
+    "JPY": 0.006347,
+    "CAD": 0.715436,
     "INR": 0.010533
   }
 }
