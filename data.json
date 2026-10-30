@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-29T21:16:32.373244+00:00",
-  "updated_display": "29 Oct 2026, 21:16 UTC",
+  "updated": "2026-10-30T02:46:27.409530+00:00",
+  "updated_display": "30 Oct 2026, 02:46 UTC",
   "prices": {
     "TCS": {
-      "price": 2460.0,
-      "display": "\u20b92,460",
-      "change": -1.5
+      "price": 2478.0,
+      "display": "\u20b92,478",
+      "change": 0.7
     },
     "INFY": {
-      "price": 1123.15,
-      "display": "\u20b91,123",
-      "change": -3.4
+      "price": 1146.5,
+      "display": "\u20b91,146",
+      "change": 2.1
     },
     "CTSH": {
       "price": 62.52,
@@ -18,14 +18,14 @@
       "change": -5.8
     },
     "HCLT": {
-      "price": 1400.5,
-      "display": "\u20b91,400",
-      "change": -1.4
+      "price": 1403.9,
+      "display": "\u20b91,404",
+      "change": 0.2
     },
     "WIPRO": {
-      "price": 184.5,
-      "display": "\u20b9184",
-      "change": -1.3
+      "price": 190.1,
+      "display": "\u20b9190",
+      "change": 3.0
     },
     "TECHM": {
       "price": 1776.6,
@@ -33,14 +33,14 @@
       "change": -1.9
     },
     "LTIM": {
-      "price": 4104.0,
-      "display": "\u20b94,104",
-      "change": 1.1
+      "price": 4094.7,
+      "display": "\u20b94,095",
+      "change": -0.2
     },
     "MPHL": {
-      "price": 2518.0,
-      "display": "\u20b92,518",
-      "change": -3.8
+      "price": 2561.3,
+      "display": "\u20b92,561",
+      "change": 1.7
     },
     "PSYS": {
       "price": 5848.0,
@@ -48,9 +48,9 @@
       "change": 0.3
     },
     "COFG": {
-      "price": 1961.9,
+      "price": 1962.0,
       "display": "\u20b91,962",
-      "change": -1.8
+      "change": 0.0
     },
     "ACN": {
       "price": 247.22,
@@ -58,14 +58,14 @@
       "change": 1.6
     },
     "CAP": {
-      "price": 123.1,
-      "display": "\u20ac123",
-      "change": 0.5
+      "price": 122.45,
+      "display": "\u20ac122",
+      "change": -0.3
     },
     "ATOS": {
-      "price": 27.64,
-      "display": "\u20ac27.64",
-      "change": -0.5
+      "price": 27.78,
+      "display": "\u20ac27.78",
+      "change": 8.9
     },
     "DXC": {
       "price": 15.23,
@@ -80,24 +80,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 73246.03,
-      "change": -0.48
+      "value": 74151.04,
+      "change": 1.24
     },
     "NIFTY_IT": {
-      "value": 31553.4,
-      "change": -1.98
+      "value": 31866.4,
+      "change": 0.99
     },
     "SP500": {
       "value": 7720.39,
       "change": -0.3
     },
     "USD_INR": {
-      "value": 95.21,
-      "change": 0.03
+      "value": 95.18,
+      "change": -0.03
     },
     "EUR_INR": {
-      "value": 106.43,
-      "change": 0.63
+      "value": 106.59,
+      "change": 0.4
     }
   },
   "historical": {
@@ -140,7 +140,7 @@
         2094.0,
         2071.0,
         2064.0,
-        2065.0
+        2145.0
       ],
       "wl": [
         "Aug 7",
@@ -155,7 +155,6 @@
         "Oct 9"
       ],
       "dp": [
-        2145.0,
         2114.0,
         2257.0,
         2305.0,
@@ -167,10 +166,10 @@
         2530.0,
         2535.0,
         2497.0,
-        2460.0
+        2460.0,
+        2478.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -182,7 +181,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         3448.0,
@@ -206,7 +206,7 @@
         2094.0,
         2071.0,
         2064.0,
-        2065.0
+        2145.0
       ],
       "ml": [
         "Q4'23",
@@ -272,7 +272,7 @@
         1051.0,
         1000.0,
         1035.0,
-        997.0
+        1023.0
       ],
       "wl": [
         "Aug 7",
@@ -287,7 +287,6 @@
         "Oct 9"
       ],
       "dp": [
-        1023.0,
         1020.0,
         1062.0,
         1088.0,
@@ -299,10 +298,10 @@
         1154.0,
         1166.0,
         1163.0,
-        1123.0
+        1123.0,
+        1146.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -314,7 +313,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         1422.0,
@@ -338,7 +338,7 @@
         1051.0,
         1000.0,
         1035.0,
-        997.0
+        1023.0
       ],
       "ml": [
         "Q4'23",
@@ -404,7 +404,7 @@
         60.0,
         57.0,
         59.0,
-        60.0
+        59.0
       ],
       "wl": [
         "Aug 7",
@@ -419,7 +419,6 @@
         "Oct 9"
       ],
       "dp": [
-        59.0,
         60.0,
         61.0,
         62.0,
@@ -436,7 +435,6 @@
         63.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -474,7 +472,7 @@
         60.0,
         57.0,
         59.0,
-        60.0
+        59.0
       ],
       "ml": [
         "Q4'23",
@@ -540,7 +538,7 @@
         1238.0,
         1247.0,
         1232.0,
-        1167.0
+        1206.0
       ],
       "wl": [
         "Aug 7",
@@ -555,7 +553,6 @@
         "Oct 9"
       ],
       "dp": [
-        1206.0,
         1212.0,
         1314.0,
         1315.0,
@@ -567,10 +564,10 @@
         1422.0,
         1417.0,
         1420.0,
-        1400.0
+        1400.0,
+        1404.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -582,7 +579,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         1303.0,
@@ -606,7 +604,7 @@
         1238.0,
         1247.0,
         1232.0,
-        1167.0
+        1206.0
       ],
       "ml": [
         "Q4'23",
@@ -672,7 +670,7 @@
         167.0,
         164.0,
         159.0,
-        158.0
+        163.0
       ],
       "wl": [
         "Aug 7",
@@ -687,7 +685,6 @@
         "Oct 9"
       ],
       "dp": [
-        163.0,
         162.0,
         169.0,
         171.0,
@@ -699,10 +696,10 @@
         190.0,
         189.0,
         187.0,
-        184.0
+        184.0,
+        190.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -714,7 +711,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         218.0,
@@ -738,7 +736,7 @@
         167.0,
         164.0,
         159.0,
-        158.0
+        163.0
       ],
       "ml": [
         "Q4'23",
@@ -804,7 +802,7 @@
         1524.0,
         1535.0,
         1520.0,
-        1484.0
+        1502.0
       ],
       "wl": [
         "Aug 7",
@@ -819,7 +817,6 @@
         "Oct 9"
       ],
       "dp": [
-        1502.0,
         1459.0,
         1531.0,
         1562.0,
@@ -834,7 +831,6 @@
         1777.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -870,7 +866,7 @@
         1524.0,
         1535.0,
         1520.0,
-        1484.0
+        1502.0
       ],
       "ml": [
         "Q4'23",
@@ -936,7 +932,7 @@
         4250.0,
         4059.0,
         3984.0,
-        3892.0
+        4046.0
       ],
       "wl": [
         "Aug 7",
@@ -951,7 +947,6 @@
         "Oct 9"
       ],
       "dp": [
-        4046.0,
         3995.0,
         4190.0,
         4201.0,
@@ -963,10 +958,10 @@
         4134.0,
         4075.0,
         4060.0,
-        4104.0
+        4104.0,
+        4095.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -978,7 +973,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         6022.0,
@@ -1002,7 +998,7 @@
         4250.0,
         4059.0,
         3984.0,
-        3892.0
+        4046.0
       ],
       "ml": [
         "Q4'23",
@@ -1068,7 +1064,7 @@
         2300.0,
         2234.0,
         2250.0,
-        2303.0
+        2360.0
       ],
       "wl": [
         "Aug 7",
@@ -1083,7 +1079,6 @@
         "Oct 9"
       ],
       "dp": [
-        2360.0,
         2354.0,
         2466.0,
         2435.0,
@@ -1095,10 +1090,10 @@
         2480.0,
         2558.0,
         2618.0,
-        2518.0
+        2518.0,
+        2561.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -1110,7 +1105,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         2561.0,
@@ -1134,7 +1130,7 @@
         2300.0,
         2234.0,
         2250.0,
-        2303.0
+        2360.0
       ],
       "ml": [
         "Q4'23",
@@ -1200,7 +1196,7 @@
         5416.0,
         5372.0,
         5367.0,
-        5468.0
+        5770.0
       ],
       "wl": [
         "Aug 7",
@@ -1215,7 +1211,6 @@
         "Oct 9"
       ],
       "dp": [
-        5770.0,
         5787.0,
         5988.0,
         5898.0,
@@ -1230,7 +1225,6 @@
         5848.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -1266,7 +1260,7 @@
         5416.0,
         5372.0,
         5367.0,
-        5468.0
+        5770.0
       ],
       "ml": [
         "Q4'23",
@@ -1332,7 +1326,7 @@
         1841.0,
         1784.0,
         1826.0,
-        1814.0
+        1868.0
       ],
       "wl": [
         "Aug 7",
@@ -1347,7 +1341,6 @@
         "Oct 9"
       ],
       "dp": [
-        1868.0,
         1847.0,
         1929.0,
         1928.0,
@@ -1359,10 +1352,10 @@
         1900.0,
         1993.0,
         1997.0,
+        1962.0,
         1962.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -1374,7 +1367,8 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28"
+        "Oct 28",
+        "Oct 29"
       ],
       "mp": [
         1222.0,
@@ -1398,7 +1392,7 @@
         1841.0,
         1784.0,
         1826.0,
-        1814.0
+        1868.0
       ],
       "ml": [
         "Q4'23",
@@ -1479,7 +1473,6 @@
         "Oct 9"
       ],
       "dp": [
-        207.0,
         213.0,
         214.0,
         215.0,
@@ -1496,7 +1489,6 @@
         247.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -1600,7 +1592,7 @@
         104.0,
         104.0,
         109.0,
-        111.0
+        115.0
       ],
       "wl": [
         "Aug 7",
@@ -1616,7 +1608,6 @@
       ],
       "dp": [
         115.0,
-        115.0,
         119.0,
         118.0,
         122.0,
@@ -1628,11 +1619,9 @@
         124.0,
         124.0,
         123.0,
-        122.0,
-        123.0
+        122.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -1645,8 +1634,7 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28",
-        "Oct 29"
+        "Oct 28"
       ],
       "mp": [
         176.0,
@@ -1670,7 +1658,7 @@
         104.0,
         104.0,
         109.0,
-        111.0
+        115.0
       ],
       "ml": [
         "Q4'23",
@@ -1751,7 +1739,6 @@
         "Oct 9"
       ],
       "dp": [
-        21.0,
         22.0,
         22.0,
         22.0,
@@ -1764,11 +1751,9 @@
         23.0,
         25.0,
         26.0,
-        28.0,
         28.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -1781,8 +1766,7 @@
         "Oct 23",
         "Oct 26",
         "Oct 27",
-        "Oct 28",
-        "Oct 29"
+        "Oct 28"
       ],
       "mp": [
         524.0,
@@ -1887,7 +1871,6 @@
         "Oct 9"
       ],
       "dp": [
-        12.0,
         13.0,
         13.0,
         13.0,
@@ -1904,7 +1887,6 @@
         15.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -2023,7 +2005,6 @@
         "Oct 9"
       ],
       "dp": [
-        70.0,
         71.0,
         72.0,
         72.0,
@@ -2040,7 +2021,6 @@
         80.0
       ],
       "dl": [
-        "Oct 9",
         "Oct 12",
         "Oct 13",
         "Oct 14",
@@ -2108,13 +2088,22 @@
   },
   "news": [
     {
-      "time": "2026-10-28 15:13",
-      "tk": "ACN",
-      "src": "Tom's Hardware UK",
-      "cat": "AI",
-      "hl": "Amazon tells engineers to stop \u2018tokenmaxxing\u2019 to look productive",
-      "detail": "Amazon has published new engineering guidelines warning developers and managers against \u2018tokenmaxxing,\u2019 arguing that AI usage metrics are \u2018deeply flawed\u2019 unless tied to long-term outcomes. The move follows similar spending concerns at Uber and Accenture.",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim"
+      "time": "2026-10-29 01:00",
+      "tk": "INFY",
+      "src": "Prtimes.jp",
+      "cat": "MACRO",
+      "hl": "\u30a4\u30f3\u30d5\u30a9\u30b7\u30b9\u3001\u30b7\u30f3\u30b8\u30a7\u30f3\u30bf\u306e\u4f5c\u7269\u4fdd\u8b77\u4e8b\u696d\u306b\u304a\u3051\u308bSAP S/4HANA\u3078\u306e\u79fb\u884c\u3092\u5b9f\u73fe",
+      "detail": "[Infosys Limited]\n[\u753b\u50cf1: https://prcdn.freetls.fastly.net/release_image/191022/2/191022-2-449b89eacf7a85dec1bcd9fb4e740ea6-512x341.png?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&...",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000191022.html"
+    },
+    {
+      "time": "2026-10-29 01:11",
+      "tk": "PSYS",
+      "src": "The Times of India",
+      "cat": "DEAL",
+      "hl": "Persistent Systems to raise Rs 6,000 crore via NCDs for Nagarro deal",
+      "detail": "Persistent Systems plans to raise more than \u20b96,000 crore through non-convertible debentures for its Nagarro SE acquisition. The company successfully completed a QIP earlier this week, raising \u20b94,264 crore. NCDs will range from one to five years, averaging thr\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/persistent-systems-to-raise-rs-6000-crore-via-ncds-for-nagarro-deal/articleshow/135285377.cms"
     },
     {
       "time": "2026-10-28 06:46",
@@ -2153,24 +2142,6 @@
       "url": "https://www.redhat.com/en/blog/how-atos-uses-red-hat-ai-build-smaller-specialized-models-sovereign-ai"
     },
     {
-      "time": "2026-10-27 13:19",
-      "tk": "NTTD",
-      "src": "Financial Post",
-      "cat": "AI",
-      "hl": "NTT DATA Expands AI Factory Footprint Globally to Help Clients Scale AI from Pilots to Production",
-      "detail": "NTT DATA AI Factories help clients validate priority AI use cases, infrastructure, security, governance and economics before scaling into production. The environments bring together NTT DATA\u2019s full-stack AI expertise with technologies from leading ecosystem p\u2026",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ntt-data-expands-ai-factory-footprint-globally-to-help-clients-scale-ai-from-pilots-to-production"
-    },
-    {
-      "time": "2026-10-27 13:00",
-      "tk": "ATOS",
-      "src": "Tenable.com",
-      "cat": "AI",
-      "hl": "Tenable Selected by Atos to Power Continuous Threat Exposure Management Program",
-      "detail": "Tenable\u00ae Holdings, Inc. (NASDAQ: TENB), the exposure management company, today announced it has been selected to power the Atos Continuous Threat Exposure Management (CTEM) service. Atos, a global leader in AI-powered digital transformation, counts Tenable as\u2026",
-      "url": "https://www.tenable.com/press-releases/tenable-selected-by-atos-to-power-continuous-threat-exposure-management-program"
-    },
-    {
       "time": "2026-10-28 08:56",
       "tk": "Sector",
       "src": "Ibtimes.com.au",
@@ -2180,13 +2151,22 @@
       "url": "https://www.ibtimes.com.au/data3-shares-first-half-profit-growth-forecast-1877496"
     },
     {
-      "time": "2026-10-27 05:36",
-      "tk": "INFY",
+      "time": "2026-10-29 00:21",
+      "tk": "Sector",
       "src": "The Times of India",
+      "cat": "PEOPLE",
+      "hl": "Sensex, Nifty fall as IT stocks slide, rising oil prices weigh",
+      "detail": "Indian equity markets took a hit on Wednesday, primarily due to declines in the IT sector and escalating crude oil prices. Both the Sensex and Nifty closed lower, showcasing investors' cautious mood amidst significant intraday drops. Key downturns were influe\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-equity-benchmarks-decline-as-it-stocks-rising-crude-oil-prices-weigh-on-market-sentiment/articleshow/135284084.cms"
+    },
+    {
+      "time": "2026-10-28 15:13",
+      "tk": "ACN",
+      "src": "Tom's Hardware UK",
       "cat": "AI",
-      "hl": "TCS, Infosys, other IT stocks drop up to 3% as Anthropic IPO sparks rally in global AI stocks",
-      "detail": "Indian IT stocks fell amid reports that Anthropic, the maker of Claude, is preparing for an IPO that could value it at around $1.5 trillion. While the listing would open up investment opportunities in a leading AI developer, rising infrastructure costs, mount\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tcs-infosys-other-it-stocks-drop-up-to-3-as-anthropic-ipo-sparks-rally-in-global-ai-stocks/articleshow/135225464.cms"
+      "hl": "Amazon tells engineers to stop \u2018tokenmaxxing\u2019 to look productive",
+      "detail": "Amazon has published new engineering guidelines warning developers and managers against \u2018tokenmaxxing,\u2019 arguing that AI usage metrics are \u2018deeply flawed\u2019 unless tied to long-term outcomes. The move follows similar spending concerns at Uber and Accenture.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim"
     },
     {
       "time": "2026-10-28 00:30",
@@ -3073,9 +3053,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.117818,
-    "JPY": 0.006343,
-    "CAD": 0.71498,
-    "INR": 0.010503
+    "EUR": 1.119946,
+    "JPY": 0.006352,
+    "CAD": 0.71623,
+    "INR": 0.010506
   }
 }
