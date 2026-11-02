@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02T02:40:48.442883+00:00",
-  "updated_display": "02 Nov 2026, 02:40 UTC",
+  "updated": "2026-11-02T20:42:03.322854+00:00",
+  "updated_display": "02 Nov 2026, 20:42 UTC",
   "prices": {
     "TCS": {
       "price": 2502.6,
@@ -13,9 +13,9 @@
       "change": 3.4
     },
     "CTSH": {
-      "price": 65.11,
-      "display": "$65.11",
-      "change": 4.1
+      "price": 65.21,
+      "display": "$65.21",
+      "change": 0.2
     },
     "HCLT": {
       "price": 1428.1,
@@ -53,29 +53,29 @@
       "change": 4.2
     },
     "ACN": {
-      "price": 258.24,
-      "display": "$258",
-      "change": 4.5
+      "price": 261.41,
+      "display": "$261",
+      "change": 1.2
     },
     "CAP": {
-      "price": 127.65,
-      "display": "\u20ac128",
-      "change": 3.7
+      "price": 126.9,
+      "display": "\u20ac127",
+      "change": -0.6
     },
     "ATOS": {
-      "price": 27.46,
-      "display": "\u20ac27.46",
-      "change": -0.7
+      "price": 26.52,
+      "display": "\u20ac26.52",
+      "change": -3.4
     },
     "DXC": {
-      "price": 14.98,
-      "display": "$14.98",
-      "change": -1.6
+      "price": 14.82,
+      "display": "$14.82",
+      "change": -1.0
     },
     "GIB": {
-      "price": 80.56,
-      "display": "$80.56",
-      "change": 1.2
+      "price": 82.26,
+      "display": "$82.26",
+      "change": 2.1
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": 2.32
     },
     "SP500": {
-      "value": 7580.07,
-      "change": -1.82
+      "value": 7545.99,
+      "change": -0.45
     },
     "USD_INR": {
-      "value": 94.94,
-      "change": -0.22
+      "value": 94.89,
+      "change": -0.28
     },
     "EUR_INR": {
-      "value": 105.95,
-      "change": -0.42
+      "value": 106.24,
+      "change": -0.13
     }
   },
   "historical": {
@@ -442,6 +442,7 @@
         66.0,
         66.0,
         63.0,
+        65.0,
         65.0
       ],
       "dl": [
@@ -458,7 +459,8 @@
         "Oct 27",
         "Oct 28",
         "Oct 29",
-        "Oct 30"
+        "Oct 30",
+        "Nov 2"
       ],
       "mp": [
         72.0,
@@ -1532,7 +1534,8 @@
         235.0,
         243.0,
         247.0,
-        258.0
+        258.0,
+        261.0
       ],
       "dl": [
         "Oct 13",
@@ -1548,7 +1551,8 @@
         "Oct 27",
         "Oct 28",
         "Oct 29",
-        "Oct 30"
+        "Oct 30",
+        "Nov 2"
       ],
       "mp": [
         331.0,
@@ -1670,7 +1674,8 @@
         123.0,
         122.0,
         123.0,
-        128.0
+        128.0,
+        127.0
       ],
       "dl": [
         "Oct 13",
@@ -1686,7 +1691,8 @@
         "Oct 27",
         "Oct 28",
         "Oct 29",
-        "Oct 30"
+        "Oct 30",
+        "Nov 2"
       ],
       "mp": [
         176.0,
@@ -1808,6 +1814,7 @@
         26.0,
         28.0,
         28.0,
+        27.0,
         27.0
       ],
       "dl": [
@@ -1824,7 +1831,8 @@
         "Oct 27",
         "Oct 28",
         "Oct 29",
-        "Oct 30"
+        "Oct 30",
+        "Nov 2"
       ],
       "mp": [
         524.0,
@@ -1946,6 +1954,7 @@
         16.0,
         16.0,
         15.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1962,7 +1971,8 @@
         "Oct 27",
         "Oct 28",
         "Oct 29",
-        "Oct 30"
+        "Oct 30",
+        "Nov 2"
       ],
       "mp": [
         23.0,
@@ -2084,7 +2094,8 @@
         80.0,
         79.0,
         80.0,
-        81.0
+        81.0,
+        82.0
       ],
       "dl": [
         "Oct 13",
@@ -2100,7 +2111,8 @@
         "Oct 27",
         "Oct 28",
         "Oct 29",
-        "Oct 30"
+        "Oct 30",
+        "Nov 2"
       ],
       "mp": [
         106.0,
@@ -2156,67 +2168,67 @@
   },
   "news": [
     {
-      "time": "2026-10-31 22:00",
+      "time": "2026-11-01 15:53",
       "tk": "TCS",
-      "src": "WWD",
-      "cat": "MACRO",
-      "hl": "Where to Watch the 2026 New York City Marathon Online Without\u00a0Cable",
-      "detail": "The 2026 TCS New York City Marathon promises to bring together nearly 60,000 runners from all over the world. Here's how to livestream the event for free online.",
-      "url": "http://wwd.com/shop/shop-shoes/how-to-watch-nyc-marathon-online-free-livestream-2026-1239388908/"
+      "src": "Livemint",
+      "cat": "ANALYST",
+      "hl": "Buying a car on Dhanteras, Diwali 2026? You could get at least \u20b910,000 as tax refund next year \u2014 here's how",
+      "detail": "Buyers of motor vehicles priced above  \u20b910 lakh pay 1% TCS, which can be claimed as a tax credit when filing an income tax return. Here's the entire process, other details.",
+      "url": "https://www.livemint.com/money/personal-finance/buying-a-car-on-dhanteras-diwali-2026-you-could-get-at-least-10-000-as-tax-refund-next-year-heres-how-11793537101387.html"
     },
     {
-      "time": "2026-10-31 18:35",
-      "tk": "TCS",
-      "src": "The Times of India",
-      "cat": "AI",
-      "hl": "Tech Leap: A(I)wadh loading\u2026",
-      "detail": "Lucknow shifts from IT to AI as HCL, TCS, Deloitte expand; AI City, data centres, U-Hub and AI skilling aim to boost compute, capital and talent.",
-      "url": "https://timesofindia.indiatimes.com/city/lucknow/tech-leap-aiwadh-loading/articleshow/135410001.cms"
-    },
-    {
-      "time": "2026-10-31 16:37",
-      "tk": "TCS",
-      "src": "Gujaratsamachar.com",
-      "cat": "DEAL",
-      "hl": "TCS-Partnered Marathons Drive Over 50 Per Cent of Global $6 Billion Economic Impact for Host Cities, Study Reveals",
-      "detail": "TCS-partnered marathons generated 53% of the $6 billion economic impact from top 50 global marathons in 2025, driving $3.2 billion in benefits. Their tech integration fueled tourism, commerce, and charity, with TCS New York City Marathon leading at $857 milli\u2026",
-      "url": "https://english.gujaratsamachar.com/news/business/tcs-partnered-marathons-drive-over-50-per-cent-of-global-dollar6-billion-economic-impact-for-host-cities-study-reveals-83464459918"
-    },
-    {
-      "time": "2026-10-31 16:01",
-      "tk": "TCS",
-      "src": "WABC-TV",
-      "cat": "MACRO",
-      "hl": "Abbott Dash to the Finish Line serves as 5k warm-up for 2026 TCS NYC Marathon",
-      "detail": "The 5k course starts outside the United Nations building and takes runners across Midtown Manhattan before ending in Central Park on the Upper West Side.",
-      "url": "https://abc7ny.com/post/abbott-dash-finish-line-serves-5k-warm-2026-tcs-nyc-marathon/20003461/"
-    },
-    {
-      "time": "2026-10-31 11:55",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Our AI agent experience: we scrapped the multiple $60,000 salary marketing jobs and hired one person at a far higher salary",
-      "detail": "In July, Accenture published guidance for companies alarmed by their AI bills. Avoid blanket usage cuts, it said. Don\u2019t tell employees to use less AI. Route work to the cheapest model that does the job. It also noted that in nearly every deployment it had exa\u2026",
-      "url": "https://biztoc.com/x/a5408d5ba0d98b1a"
-    },
-    {
-      "time": "2026-10-31 11:33",
-      "tk": "ACN",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "IIM Bangalore summer placements 2026: All 608 students placed, median stipend at Rs 2 lakh per month",
-      "detail": "IIM Bangalore's summer placements for the PGP and PGPBA 2026\u201328 cohorts saw all 608 participating students secure offers from 128 organisations. Management consulting dominated recruitment, accounting for 50.7% of offers, while Accenture Strategy led with a r\u2026",
-      "url": "https://timesofindia.indiatimes.com/education/news/iim-bangalore-summer-placements-2026-all-608-students-placed-median-stipend-at-rs-2-lakh-per-month/articleshow/135399508.cms"
-    },
-    {
-      "time": "2026-10-31 08:38",
-      "tk": "CTSH",
+      "time": "2026-11-01 14:30",
+      "tk": "TECHM",
       "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "AI challenges traditional productivity metrics for Indian IT",
+      "detail": "According to UnearthInsight data, Revenue per FTE increased sequentially, with Tech Mahindra recording the sharpest growth at 7.1 per cent to $11,123, alongside a 0.3 per cent decline in headcount",
+      "url": "https://www.thehindubusinessline.com/info-tech/ai-challenges-traditional-productivity-metrics-for-indian-it/article71653390.ece"
+    },
+    {
+      "time": "2026-11-01 13:54",
+      "tk": "TCS",
+      "src": "CBS News",
       "cat": "MACRO",
-      "hl": "ATSL\u2019s notice on re-instatement of written-down AT-1 Bonds: Yes Bank says fully committed to acting in accordance with SC Judgment",
-      "detail": "Yes\u00a0Bank, as per its regulatory filing,\u00a0has informed the Trustee that it\u00a0is cognizant of the matters and is examining the SC Judgment and its implications in detail",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/atsls-notice-on-re-instatement-of-written-down-at-1-bonds-yes-bank-says-fully-committed-to-acting-in-accordance-with-sc-judgment/article71648730.ece"
+      "hl": "2026 NYC Marathon runners take to the streets as huge crowds cheer them on",
+      "detail": "Tens of thousands of runners are participating in the 2026 TCS New York City marathon.",
+      "url": "https://www.cbsnews.com/newyork/news/nyc-marathon-2026-runners-winners/"
+    },
+    {
+      "time": "2026-11-01 13:37",
+      "tk": "LTIM",
+      "src": "Business Standard",
+      "cat": "AI",
+      "hl": "Traditional entry-level engineering roles have collapsed due to AI: LTM",
+      "detail": "LTM says AI is reshaping IT services delivery, eliminating traditional entry-level roles while creating demand for AI-native engineers, new skills and outcome-based pricing models",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/traditional-entry-level-engineering-roles-have-collapsed-due-to-ai-ltm-126110100668_1.html"
+    },
+    {
+      "time": "2026-11-01 12:18",
+      "tk": "LTIM",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "L&T pushes IT and engineering arms to accelerate growth beyond 15%",
+      "detail": "Larsen and Toubro is focusing on raising revenue growth in its services arms, LTM and LTTS. Currently, these companies grow at about 10-11 percent per year, which needs to increase. The management highlighted the importance of scaling up their services and ac\u2026",
+      "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/lt-pushes-it-and-engineering-arms-to-accelerate-growth-beyond-15/articleshow/135427194.cms"
+    },
+    {
+      "time": "2026-11-01 11:43",
+      "tk": "LTIM",
+      "src": "Pypi.org",
+      "cat": "AI",
+      "hl": "memtomem-stm 0.7.5",
+      "detail": "MCP proxy for AI agents: compresses and caches tool responses, and surfaces relevant memories from memtomem LTM",
+      "url": "https://pypi.org/project/memtomem-stm/0.7.5/"
+    },
+    {
+      "time": "2026-11-01 05:55",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "cat": "ANALYST",
+      "hl": "Nifty IT\u2019s 18% rally may mark a durable leadership cycle; 35,000 next: LKP's Vatsal Bhuva",
+      "detail": "Nifty IT\u2019s 18% October rally could signal a sustained leadership cycle, supported by improving momentum, a bullish RSI crossover and capital rotation from global AI stocks. Analyst Vatsal Bhuva sees the index targeting 35,000. He remains cautious on Swiggy, b\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-its-18-rally-may-mark-a-durable-leadership-cycle-35000-next-lkps-vatsal-bhuva/articleshow/135419140.cms"
     },
     {
       "time": "2026-10-31 07:02",
@@ -2228,13 +2240,22 @@
       "url": "https://economictimes.indiatimes.com/magazines/panache/rs-10000-investment-created-a-rs-600-crore-per-yer-business-how-bengaluru-man-created-flourishing-it-empire-that-survived-three-recessions/articleshow/135392082.cms"
     },
     {
-      "time": "2026-10-31 11:55",
+      "time": "2026-11-01 05:04",
       "tk": "INFY",
-      "src": "Livemint",
-      "cat": "DEAL",
-      "hl": "Infosys Hyderabad Pocharam campus: New 1.1 million sq ft block adds 10,000 seats, supports 13,000 employees",
-      "detail": "Infosys has opened a 1.1 million sq ft development block at its Hyderabad Pocharam campus, adding 10,000 seats and capacity for more than 13,000 employees under a hybrid model. The expansion supports growing demand for AI, cloud, cybersecurity, engineering an\u2026",
-      "url": "https://www.livemint.com/companies/news/infosys-hyderabad-pocharam-campus-new-1-1-million-sq-ft-block-adds-10-000-seats-supports-13-000-employees-11793440276906.html"
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "Bonus issues, stock splits, dividends: Infosys, Asian Paints among over 40 stocks turning ex-date this week",
+      "detail": "More than 40 companies have scheduled record dates for dividends, bonus issues, rights issues and stock splits during November 2\u20136, 2026. Major names include Infosys, Asian Paints, Coal India, Power Grid and Info Edge, while Sanofi India will offer the week\u2019s\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/bonus-issues-stock-splits-dividends-infosys-asian-paints-among-over-40-stocks-turning-ex-date-this-week/articleshow/135418410.cms"
+    },
+    {
+      "time": "2026-10-31 11:55",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "Our AI agent experience: we scrapped the multiple $60,000 salary marketing jobs and hired one person at a far higher salary",
+      "detail": "In July, Accenture published guidance for companies alarmed by their AI bills. Avoid blanket usage cuts, it said. Don\u2019t tell employees to use less AI. Route work to the cheapest model that does the job. It also noted that in nearly every deployment it had exa\u2026",
+      "url": "https://biztoc.com/x/a5408d5ba0d98b1a"
     }
   ],
   "quarterly": {
@@ -3112,9 +3133,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.116695,
-    "JPY": 0.006331,
-    "CAD": 0.715359,
-    "INR": 0.010533
+    "EUR": 1.119946,
+    "JPY": 0.006335,
+    "CAD": 0.714955,
+    "INR": 0.010539
   }
 }
