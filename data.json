@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T18:32:42.705096+00:00",
-  "updated_display": "04 Nov 2026, 18:32 UTC",
+  "updated": "2026-11-04T22:01:33.064905+00:00",
+  "updated_display": "04 Nov 2026, 22:01 UTC",
   "prices": {
     "TCS": {
       "price": 2499.1,
@@ -13,9 +13,9 @@
       "change": 1.2
     },
     "CTSH": {
-      "price": 65.55,
-      "display": "$65.55",
-      "change": 2.7
+      "price": 65.78,
+      "display": "$65.78",
+      "change": 3.1
     },
     "HCLT": {
       "price": 1439.1,
@@ -53,9 +53,9 @@
       "change": -1.8
     },
     "ACN": {
-      "price": 264.98,
-      "display": "$265",
-      "change": 4.1
+      "price": 264.27,
+      "display": "$264",
+      "change": 3.8
     },
     "CAP": {
       "price": 129.5,
@@ -68,14 +68,14 @@
       "change": 2.6
     },
     "DXC": {
-      "price": 14.81,
-      "display": "$14.81",
-      "change": 7.5
+      "price": 14.88,
+      "display": "$14.88",
+      "change": 8.0
     },
     "GIB": {
-      "price": 82.36,
-      "display": "$82.36",
-      "change": 1.5
+      "price": 82.26,
+      "display": "$82.26",
+      "change": 1.4
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": 0.34
     },
     "SP500": {
-      "value": 7703.27,
-      "change": 1.78
+      "value": 7688.62,
+      "change": 1.58
     },
     "USD_INR": {
       "value": 94.63,
       "change": -0.1
     },
     "EUR_INR": {
-      "value": 106.36,
-      "change": 0.22
+      "value": 106.21,
+      "change": 0.08
     }
   },
   "historical": {
@@ -1535,7 +1535,7 @@
         258.0,
         261.0,
         255.0,
-        265.0
+        264.0
       ],
       "dl": [
         "Oct 15",
@@ -3115,9 +3115,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.122838,
-    "JPY": 0.006311,
-    "CAD": 0.715948,
+    "EUR": 1.122965,
+    "JPY": 0.006315,
+    "CAD": 0.715262,
     "INR": 0.010567
   }
 }
