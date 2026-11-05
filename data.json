@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-04T22:01:33.064905+00:00",
-  "updated_display": "04 Nov 2026, 22:01 UTC",
+  "updated": "2026-11-05T03:37:01.017286+00:00",
+  "updated_display": "05 Nov 2026, 03:37 UTC",
   "prices": {
     "TCS": {
-      "price": 2499.1,
-      "display": "\u20b92,499",
-      "change": -0.1
+      "price": 2436.0,
+      "display": "\u20b92,436",
+      "change": -2.5
     },
     "INFY": {
-      "price": 1148.1,
-      "display": "\u20b91,148",
-      "change": 1.2
+      "price": 1128.2,
+      "display": "\u20b91,128",
+      "change": -1.7
     },
     "CTSH": {
       "price": 65.78,
@@ -23,34 +23,34 @@
       "change": 0.4
     },
     "WIPRO": {
-      "price": 198.0,
-      "display": "\u20b9198",
-      "change": 0.8
+      "price": 194.55,
+      "display": "\u20b9195",
+      "change": -1.7
     },
     "TECHM": {
-      "price": 1789.1,
-      "display": "\u20b91,789",
-      "change": 0.1
+      "price": 1783.0,
+      "display": "\u20b91,783",
+      "change": -0.3
     },
     "LTIM": {
-      "price": 4213.0,
-      "display": "\u20b94,213",
-      "change": -0.5
+      "price": 4204.9,
+      "display": "\u20b94,205",
+      "change": -0.2
     },
     "MPHL": {
-      "price": 2535.3,
-      "display": "\u20b92,535",
-      "change": -1.1
+      "price": 2468.4,
+      "display": "\u20b92,468",
+      "change": -2.6
     },
     "PSYS": {
-      "price": 6097.0,
-      "display": "\u20b96,097",
-      "change": 0.8
+      "price": 6065.0,
+      "display": "\u20b96,065",
+      "change": -0.5
     },
     "COFG": {
-      "price": 2060.8,
-      "display": "\u20b92,061",
-      "change": -1.8
+      "price": 2060.0,
+      "display": "\u20b92,060",
+      "change": -0.0
     },
     "ACN": {
       "price": 264.27,
@@ -58,14 +58,14 @@
       "change": 3.8
     },
     "CAP": {
-      "price": 129.5,
-      "display": "\u20ac130",
-      "change": 3.4
+      "price": 125.2,
+      "display": "\u20ac125",
+      "change": -1.3
     },
     "ATOS": {
-      "price": 26.5,
-      "display": "\u20ac26.50",
-      "change": 2.6
+      "price": 25.84,
+      "display": "\u20ac25.84",
+      "change": -2.6
     },
     "DXC": {
       "price": 14.88,
@@ -80,24 +80,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 76917.85,
-      "change": 1.62
+      "value": 77301.4,
+      "change": 0.5
     },
     "NIFTY_IT": {
-      "value": 32551.6,
-      "change": 0.34
+      "value": 32061.9,
+      "change": -1.5
     },
     "SP500": {
       "value": 7688.62,
       "change": 1.58
     },
     "USD_INR": {
-      "value": 94.63,
-      "change": -0.1
+      "value": 94.33,
+      "change": -0.44
     },
     "EUR_INR": {
-      "value": 106.21,
-      "change": 0.08
+      "value": 106.24,
+      "change": 0.14
     }
   },
   "historical": {
@@ -114,7 +114,7 @@
         3074.0,
         2302.0,
         2010.0,
-        2360.0
+        2440.0
       ],
       "ql": [
         "Q4'23",
@@ -131,7 +131,6 @@
         "Q3'26"
       ],
       "wp": [
-        2440.0,
         2349.0,
         2290.0,
         2330.0,
@@ -141,10 +140,9 @@
         2071.0,
         2064.0,
         2145.0,
-        2305.0
+        2350.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -157,7 +155,6 @@
         "Oct 16"
       ],
       "dp": [
-        2350.0,
         2465.0,
         2461.0,
         2529.0,
@@ -169,10 +166,10 @@
         2478.0,
         2503.0,
         2502.0,
-        2499.0
+        2499.0,
+        2436.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -184,7 +181,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         3448.0,
@@ -198,7 +196,6 @@
         3074.0,
         2302.0,
         2010.0,
-        2360.0,
         2440.0,
         2349.0,
         2290.0,
@@ -209,7 +206,7 @@
         2071.0,
         2064.0,
         2145.0,
-        2305.0
+        2350.0
       ],
       "ml": [
         "Q4'23",
@@ -224,7 +221,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -250,7 +246,7 @@
         1546.0,
         1197.0,
         978.0,
-        1139.0
+        1149.0
       ],
       "ql": [
         "Q4'23",
@@ -267,7 +263,6 @@
         "Q3'26"
       ],
       "wp": [
-        1149.0,
         1143.0,
         1096.0,
         1118.0,
@@ -277,10 +272,9 @@
         978.0,
         1012.0,
         1000.0,
-        1064.0
+        1085.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -293,7 +287,6 @@
         "Oct 16"
       ],
       "dp": [
-        1085.0,
         1135.0,
         1105.0,
         1142.0,
@@ -305,10 +298,10 @@
         1121.0,
         1158.0,
         1135.0,
-        1148.0
+        1148.0,
+        1128.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -320,7 +313,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         1390.0,
@@ -334,7 +328,6 @@
         1546.0,
         1197.0,
         978.0,
-        1139.0,
         1149.0,
         1143.0,
         1096.0,
@@ -345,7 +338,7 @@
         978.0,
         1012.0,
         1000.0,
-        1064.0
+        1085.0
       ],
       "ml": [
         "Q4'23",
@@ -360,7 +353,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -403,7 +395,6 @@
         "Q3'26"
       ],
       "wp": [
-        57.0,
         58.0,
         62.0,
         64.0,
@@ -413,10 +404,9 @@
         57.0,
         59.0,
         59.0,
-        62.0
+        66.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -429,7 +419,6 @@
         "Oct 16"
       ],
       "dp": [
-        66.0,
         66.0,
         67.0,
         68.0,
@@ -446,7 +435,6 @@
         66.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 20",
@@ -475,7 +463,6 @@
         61.0,
         39.0,
         57.0,
-        57.0,
         58.0,
         62.0,
         64.0,
@@ -485,7 +472,7 @@
         57.0,
         59.0,
         59.0,
-        62.0
+        66.0
       ],
       "ml": [
         "Q4'23",
@@ -500,7 +487,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -526,7 +512,7 @@
         1552.0,
         1292.0,
         1052.0,
-        1323.0
+        1345.0
       ],
       "ql": [
         "Q4'23",
@@ -543,7 +529,6 @@
         "Q3'26"
       ],
       "wp": [
-        1345.0,
         1348.0,
         1291.0,
         1304.0,
@@ -553,10 +538,9 @@
         1247.0,
         1232.0,
         1206.0,
-        1315.0
+        1348.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -569,7 +553,6 @@
         "Oct 16"
       ],
       "dp": [
-        1348.0,
         1380.0,
         1380.0,
         1424.0,
@@ -584,7 +567,6 @@
         1439.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -610,7 +592,6 @@
         1552.0,
         1292.0,
         1052.0,
-        1323.0,
         1345.0,
         1348.0,
         1291.0,
@@ -621,7 +602,7 @@
         1247.0,
         1232.0,
         1206.0,
-        1315.0
+        1348.0
       ],
       "ml": [
         "Q4'23",
@@ -636,7 +617,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -662,7 +642,7 @@
         254.0,
         186.0,
         168.0,
-        186.0
+        188.0
       ],
       "ql": [
         "Q4'23",
@@ -679,7 +659,6 @@
         "Q3'26"
       ],
       "wp": [
-        188.0,
         184.0,
         181.0,
         181.0,
@@ -689,10 +668,9 @@
         164.0,
         159.0,
         163.0,
-        171.0
+        174.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -705,7 +683,6 @@
         "Oct 16"
       ],
       "dp": [
-        174.0,
         184.0,
         182.0,
         189.0,
@@ -717,10 +694,10 @@
         190.0,
         198.0,
         196.0,
-        198.0
+        198.0,
+        195.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -732,7 +709,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         218.0,
@@ -746,7 +724,6 @@
         254.0,
         186.0,
         168.0,
-        186.0,
         188.0,
         184.0,
         181.0,
@@ -757,7 +734,7 @@
         164.0,
         159.0,
         163.0,
-        171.0
+        174.0
       ],
       "ml": [
         "Q4'23",
@@ -772,7 +749,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -798,7 +774,7 @@
         1538.0,
         1338.0,
         1358.0,
-        1619.0
+        1622.0
       ],
       "ql": [
         "Q4'23",
@@ -815,7 +791,6 @@
         "Q3'26"
       ],
       "wp": [
-        1622.0,
         1619.0,
         1571.0,
         1627.0,
@@ -825,10 +800,9 @@
         1535.0,
         1520.0,
         1502.0,
-        1562.0
+        1636.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -841,7 +815,6 @@
         "Oct 16"
       ],
       "dp": [
-        1636.0,
         1775.0,
         1765.0,
         1820.0,
@@ -853,10 +826,10 @@
         1770.0,
         1791.0,
         1787.0,
-        1789.0
+        1789.0,
+        1783.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -868,7 +841,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         1163.0,
@@ -882,7 +856,6 @@
         1538.0,
         1338.0,
         1358.0,
-        1619.0,
         1622.0,
         1619.0,
         1571.0,
@@ -893,7 +866,7 @@
         1535.0,
         1520.0,
         1502.0,
-        1562.0
+        1636.0
       ],
       "ml": [
         "Q4'23",
@@ -908,7 +881,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -934,7 +906,7 @@
         5948.0,
         3938.0,
         3517.0,
-        4502.0
+        4631.0
       ],
       "ql": [
         "Q4'23",
@@ -951,7 +923,6 @@
         "Q3'26"
       ],
       "wp": [
-        4631.0,
         4687.0,
         4462.0,
         4648.0,
@@ -961,10 +932,9 @@
         4059.0,
         3984.0,
         4046.0,
-        4201.0
+        4210.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -977,7 +947,6 @@
         "Oct 16"
       ],
       "dp": [
-        4210.0,
         4364.0,
         4240.0,
         4273.0,
@@ -989,10 +958,10 @@
         4095.0,
         4234.0,
         4234.0,
-        4213.0
+        4213.0,
+        4205.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -1004,7 +973,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         6022.0,
@@ -1018,7 +988,6 @@
         5948.0,
         3938.0,
         3517.0,
-        4502.0,
         4631.0,
         4687.0,
         4462.0,
@@ -1029,7 +998,7 @@
         4059.0,
         3984.0,
         4046.0,
-        4201.0
+        4210.0
       ],
       "ml": [
         "Q4'23",
@@ -1044,7 +1013,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1070,7 +1038,7 @@
         2718.0,
         1999.0,
         2105.0,
-        2422.0
+        2475.0
       ],
       "ql": [
         "Q4'23",
@@ -1087,7 +1055,6 @@
         "Q3'26"
       ],
       "wp": [
-        2475.0,
         2545.0,
         2430.0,
         2455.0,
@@ -1097,10 +1064,9 @@
         2234.0,
         2250.0,
         2360.0,
-        2435.0
+        2453.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1113,7 +1079,6 @@
         "Oct 16"
       ],
       "dp": [
-        2453.0,
         2500.0,
         2500.0,
         2575.0,
@@ -1125,10 +1090,10 @@
         2561.0,
         2526.0,
         2564.0,
-        2535.0
+        2535.0,
+        2468.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -1140,7 +1105,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         2561.0,
@@ -1154,7 +1120,6 @@
         2718.0,
         1999.0,
         2105.0,
-        2422.0,
         2475.0,
         2545.0,
         2430.0,
@@ -1165,7 +1130,7 @@
         2234.0,
         2250.0,
         2360.0,
-        2435.0
+        2453.0
       ],
       "ml": [
         "Q4'23",
@@ -1180,7 +1145,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1206,7 +1170,7 @@
         6228.0,
         4860.0,
         4312.0,
-        5460.0
+        5475.0
       ],
       "ql": [
         "Q4'23",
@@ -1223,7 +1187,6 @@
         "Q3'26"
       ],
       "wp": [
-        5475.0,
         5580.0,
         5668.0,
         5875.0,
@@ -1233,10 +1196,9 @@
         5372.0,
         5367.0,
         5770.0,
-        5898.0
+        5840.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1249,7 +1211,6 @@
         "Oct 16"
       ],
       "dp": [
-        5840.0,
         5741.0,
         5690.0,
         5858.0,
@@ -1261,10 +1222,10 @@
         5880.0,
         6048.0,
         6051.0,
-        6097.0
+        6097.0,
+        6065.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -1276,7 +1237,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         3625.0,
@@ -1290,7 +1252,6 @@
         6228.0,
         4860.0,
         4312.0,
-        5460.0,
         5475.0,
         5580.0,
         5668.0,
@@ -1301,7 +1262,7 @@
         5372.0,
         5367.0,
         5770.0,
-        5898.0
+        5840.0
       ],
       "ml": [
         "Q4'23",
@@ -1316,7 +1277,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1342,7 +1302,7 @@
         1655.0,
         1112.0,
         1462.0,
-        1773.0
+        1776.0
       ],
       "ql": [
         "Q4'23",
@@ -1359,7 +1319,6 @@
         "Q3'26"
       ],
       "wp": [
-        1776.0,
         1812.0,
         1892.0,
         2015.0,
@@ -1369,10 +1328,9 @@
         1784.0,
         1826.0,
         1868.0,
-        1928.0
+        1934.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1385,7 +1343,6 @@
         "Oct 16"
       ],
       "dp": [
-        1934.0,
         1952.0,
         1925.0,
         1951.0,
@@ -1397,10 +1354,10 @@
         1962.0,
         2045.0,
         2099.0,
-        2061.0
+        2061.0,
+        2060.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 21",
@@ -1412,7 +1369,8 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3"
+        "Nov 3",
+        "Nov 4"
       ],
       "mp": [
         1222.0,
@@ -1426,7 +1384,6 @@
         1655.0,
         1112.0,
         1462.0,
-        1773.0,
         1776.0,
         1812.0,
         1892.0,
@@ -1437,7 +1394,7 @@
         1784.0,
         1826.0,
         1868.0,
-        1928.0
+        1934.0
       ],
       "ml": [
         "Q4'23",
@@ -1452,7 +1409,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1478,7 +1434,7 @@
         261.0,
         193.0,
         122.0,
-        170.0
+        174.0
       ],
       "ql": [
         "Q4'23",
@@ -1495,7 +1451,6 @@
         "Q3'26"
       ],
       "wp": [
-        174.0,
         175.0,
         184.0,
         188.0,
@@ -1505,10 +1460,9 @@
         175.0,
         197.0,
         207.0,
-        215.0
+        225.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1521,7 +1475,6 @@
         "Oct 16"
       ],
       "dp": [
-        225.0,
         230.0,
         237.0,
         239.0,
@@ -1538,7 +1491,6 @@
         264.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 20",
@@ -1566,7 +1518,6 @@
         261.0,
         193.0,
         122.0,
-        170.0,
         174.0,
         175.0,
         184.0,
@@ -1577,7 +1528,7 @@
         175.0,
         197.0,
         207.0,
-        215.0
+        225.0
       ],
       "ml": [
         "Q4'23",
@@ -1592,7 +1543,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1635,7 +1585,6 @@
         "Q3'26"
       ],
       "wp": [
-        109.0,
         108.0,
         111.0,
         109.0,
@@ -1645,10 +1594,9 @@
         104.0,
         109.0,
         115.0,
-        118.0
+        122.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1661,7 +1609,6 @@
         "Oct 16"
       ],
       "dp": [
-        122.0,
         121.0,
         123.0,
         123.0,
@@ -1674,11 +1621,9 @@
         123.0,
         128.0,
         127.0,
-        125.0,
-        130.0
+        125.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 20",
@@ -1691,8 +1636,7 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3",
-        "Nov 4"
+        "Nov 3"
       ],
       "mp": [
         176.0,
@@ -1707,7 +1651,6 @@
         97.0,
         88.0,
         109.0,
-        109.0,
         108.0,
         111.0,
         109.0,
@@ -1717,7 +1660,7 @@
         104.0,
         109.0,
         115.0,
-        118.0
+        122.0
       ],
       "ml": [
         "Q4'23",
@@ -1732,7 +1675,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1775,7 +1717,6 @@
         "Q3'26"
       ],
       "wp": [
-        32.0,
         30.0,
         29.0,
         29.0,
@@ -1788,7 +1729,6 @@
         22.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1803,7 +1743,6 @@
       "dp": [
         22.0,
         22.0,
-        22.0,
         23.0,
         26.0,
         24.0,
@@ -1814,11 +1753,9 @@
         28.0,
         27.0,
         27.0,
-        26.0,
         26.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 20",
@@ -1831,8 +1768,7 @@
         "Oct 29",
         "Oct 30",
         "Nov 2",
-        "Nov 3",
-        "Nov 4"
+        "Nov 3"
       ],
       "mp": [
         524.0,
@@ -1846,7 +1782,6 @@
         50.0,
         34.0,
         34.0,
-        32.0,
         32.0,
         30.0,
         29.0,
@@ -1872,7 +1807,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1918,17 +1852,15 @@
         11.0,
         11.0,
         11.0,
-        11.0,
         12.0,
         11.0,
         11.0,
         11.0,
         11.0,
         12.0,
-        13.0
+        14.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -1941,7 +1873,6 @@
         "Oct 16"
       ],
       "dp": [
-        14.0,
         14.0,
         14.0,
         15.0,
@@ -1958,7 +1889,6 @@
         15.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 20",
@@ -1990,14 +1920,13 @@
         11.0,
         11.0,
         11.0,
-        11.0,
         12.0,
         11.0,
         11.0,
         11.0,
         11.0,
         12.0,
-        13.0
+        14.0
       ],
       "ml": [
         "Q4'23",
@@ -2012,7 +1941,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -2038,7 +1966,7 @@
         92.0,
         73.0,
         64.0,
-        74.0
+        75.0
       ],
       "ql": [
         "Q4'23",
@@ -2055,7 +1983,6 @@
         "Q3'26"
       ],
       "wp": [
-        75.0,
         73.0,
         75.0,
         75.0,
@@ -2065,10 +1992,9 @@
         68.0,
         70.0,
         70.0,
-        72.0
+        75.0
       ],
       "wl": [
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -2081,7 +2007,6 @@
         "Oct 16"
       ],
       "dp": [
-        75.0,
         75.0,
         76.0,
         79.0,
@@ -2098,7 +2023,6 @@
         82.0
       ],
       "dl": [
-        "Oct 15",
         "Oct 16",
         "Oct 19",
         "Oct 20",
@@ -2126,7 +2050,6 @@
         92.0,
         73.0,
         64.0,
-        74.0,
         75.0,
         73.0,
         75.0,
@@ -2137,7 +2060,7 @@
         68.0,
         70.0,
         70.0,
-        72.0
+        75.0
       ],
       "ml": [
         "Q4'23",
@@ -2152,7 +2075,6 @@
         "Q1'26",
         "Q2'26",
         "Q3'26",
-        "Aug 7",
         "Aug 14",
         "Aug 21",
         "Aug 28",
@@ -2168,42 +2090,6 @@
   },
   "news": [
     {
-      "time": "2026-11-03 17:24",
-      "tk": "TCS",
-      "src": "Biztoc.com",
-      "cat": "DEAL",
-      "hl": "The NYC Marathon costs more than $300 to enter. Here's what it's like to run it",
-      "detail": "The 2026 TCS New York City Marathon took place on November 1.\nDavid Schwartz\nNearly 60,000 runners participated in the 2026 NYC Marathon, starting from Staten Island.\nEntry to the NYC Marathon is tough, with a 1% chance in the general drawing.\nBusiness Inside\u2026",
-      "url": "https://biztoc.com/x/c07c81cccbe5345e"
-    },
-    {
-      "time": "2026-11-02 13:31",
-      "tk": "COFG",
-      "src": "Economictimes.com",
-      "cat": "MACRO",
-      "hl": "Coforge among 4 stocks that hit 52-week highs and rallied up to 15% in a month",
-      "detail": "On Monday, the Sensex skyrocketed over 1,200 points to close at 75,692. Four stocks from the BSE 100 index touched fresh 52-week highs, marking their highest price levels in the past year. A 52-week high represents the highest price at which a stock has trade\u2026",
-      "url": "https://m.economictimes.com/markets/stocks/news/coforge-among-4-stocks-that-hit-52-week-highs-and-rallied-up-to-15-in-a-month/fresh-highs/slideshow/135463866.cms"
-    },
-    {
-      "time": "2026-11-02 06:56",
-      "tk": "COFG",
-      "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Stocks to buy: What's the outlook for Nifty for November 2-November 6 week? Top stock recommendations",
-      "detail": "Stock market recommendations: Coforge, and ICICI Bank have been picked as the top stocks to buy for the November 2, 2026 week by Sudeep Shah, Head - Technical Research and Derivatives, SBI Securities:",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/stocks-to-buy-whats-the-outlook-for-nifty-for-november-02-november-06-week-check-list-of-top-stock-recommendations-coforege-icici-bank/articleshow/135449123.cms"
-    },
-    {
-      "time": "2026-11-02 03:16",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "Nifty\u2019s comeback or a largecap trap? Anand James decodes breadth, IT and Swiggy",
-      "detail": "Anand James, Chief Market Strategist at Geojit Investments, says the recovery still looks like a narrow largecap-led bounce, even as the 18% surge in Nifty IT points to the early stages of a possible leadership cycle. He also assesses Swiggy\u2019s rebound prospec\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/expert-view/niftys-comeback-or-a-largecap-trap-anand-james-decodes-breadth-it-and-swiggy/articleshow/135443410.cms"
-    },
-    {
       "time": "2026-11-03 16:59",
       "tk": "NTTD",
       "src": "Livemint",
@@ -2211,24 +2097,6 @@
       "hl": "NTT DATA to nearly triple Mangaluru workforce to 2,500 by 2027; expansion to focus on AI, cloud",
       "detail": "The proposed expansion is expected to strengthen Mangaluru's position as an emerging technology destination under Karnataka's broader strategy to attract investments and create employment opportunities beyond Bengaluru.",
       "url": "https://www.livemint.com/companies/news/ntt-data-to-nearly-triple-mangaluru-workforce-to-2-500-by-2027-expansion-to-focus-on-ai-cloud-11793723935153.html"
-    },
-    {
-      "time": "2026-11-02 06:20",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "AI",
-      "hl": "India among world's best-performing markets in October as investors rotate away from AI stocks: Goldman Sachs",
-      "detail": "During October, Indian stocks showcased impressive gains, outshining other Asia-Pacific markets and reflecting a shift in investment focus among traders. IT services made headway, while AI-focused companies lagged behind according to Goldman Sachs. This growt\u2026",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-among-worlds-best-markets-in-october-as-investors-rotate-away-from-ai-stocks-goldman-sachs/articleshow/135447171.cms"
-    },
-    {
-      "time": "2026-11-03 00:27",
-      "tk": "Sector",
-      "src": "The Times of India",
-      "cat": "PEOPLE",
-      "hl": "FPI holding hits multi-year lows in 70% of top 100 Indian companies",
-      "detail": "Foreign investors have significantly reduced their holdings in nearly 70% of India's leading companies in recent years. Major firms, including banks and IT sectors, are seeing foreign ownership decline to multi-decade lows. This decrease in foreign investment\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-holding-hits-multi-year-lows-in-70-of-top-100-indian-companies/articleshow/135477354.cms"
     },
     {
       "time": "2026-11-03 07:30",
@@ -3115,9 +2983,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.122965,
-    "JPY": 0.006315,
-    "CAD": 0.715262,
-    "INR": 0.010567
+    "EUR": 1.126253,
+    "JPY": 0.006331,
+    "CAD": 0.716846,
+    "INR": 0.010601
   }
 }
