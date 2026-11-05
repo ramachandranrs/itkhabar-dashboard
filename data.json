@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-05T18:38:08.371696+00:00",
-  "updated_display": "05 Nov 2026, 18:38 UTC",
+  "updated": "2026-11-05T22:09:35.969849+00:00",
+  "updated_display": "05 Nov 2026, 22:09 UTC",
   "prices": {
     "TCS": {
       "price": 2436.0,
@@ -13,9 +13,9 @@
       "change": -1.7
     },
     "CTSH": {
-      "price": 66.52,
-      "display": "$66.52",
-      "change": 1.1
+      "price": 66.54,
+      "display": "$66.54",
+      "change": 1.2
     },
     "HCLT": {
       "price": 1405.0,
@@ -53,9 +53,9 @@
       "change": -0.0
     },
     "ACN": {
-      "price": 267.44,
-      "display": "$267",
-      "change": 1.2
+      "price": 265.16,
+      "display": "$265",
+      "change": 0.3
     },
     "CAP": {
       "price": 130.5,
@@ -68,14 +68,14 @@
       "change": -4.2
     },
     "DXC": {
-      "price": 15.23,
-      "display": "$15.23",
-      "change": 2.4
+      "price": 15.17,
+      "display": "$15.17",
+      "change": 1.9
     },
     "GIB": {
-      "price": 82.58,
-      "display": "$82.58",
-      "change": 0.4
+      "price": 82.37,
+      "display": "$82.37",
+      "change": 0.1
     }
   },
   "indices": {
@@ -88,8 +88,8 @@
       "change": -1.5
     },
     "SP500": {
-      "value": 7379.42,
-      "change": -4.02
+      "value": 7353.73,
+      "change": -4.36
     },
     "USD_INR": {
       "value": 94.46,
@@ -97,7 +97,7 @@
     },
     "EUR_INR": {
       "value": 106.01,
-      "change": -0.09
+      "change": -0.08
     }
   },
   "historical": {
@@ -1493,7 +1493,7 @@
         261.0,
         255.0,
         264.0,
-        267.0
+        265.0
       ],
       "dl": [
         "Oct 16",
@@ -2037,7 +2037,7 @@
         82.0,
         81.0,
         82.0,
-        83.0
+        82.0
       ],
       "dl": [
         "Oct 16",
@@ -2124,15 +2124,6 @@
       "hl": "Healthcare Consulting Services Market worth $56.99 billion by 2031 - Exclusive Report by MarketsandMarkets\u2122",
       "detail": "DELRAY BEACH, Fla., Nov. 4, 2026 /PRNewswire/ -- According to MarketsandMarkets\u2122, the Healthcare Consulting Services Market is projected to reach USD 56.99 billion by 2031 from USD 35.55 billion in 2026, at a CAGR of 9.9% during the forecast period. Browse 35\u2026",
       "url": "https://www.prnewswire.co.uk/news-releases/healthcare-consulting-services-market-worth-56-99-billion-by-2031---exclusive-report-by-marketsandmarkets-302929163.html"
-    },
-    {
-      "time": "2026-11-04 10:53",
-      "tk": "LTIM",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "LATAM: Q3 Earnings Snapshot",
-      "detail": "SANTIAGO, Chile (AP) \u2014 LATAM Airlines Group SA (LTM) on Wednesday reported earnings of $440.6 million in its third quarter.\nOn a per-share basis, the Santiago, Chile-based company said it had profit of $1.54. Earnings, adjusted for non-recurring gains, were $\u2026",
-      "url": "https://biztoc.com/x/3f45465b8ef811a6"
     },
     {
       "time": "2026-11-03 16:59",
@@ -3037,9 +3028,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.123595,
-    "JPY": 0.006342,
-    "CAD": 0.714847,
+    "EUR": 1.122334,
+    "JPY": 0.006343,
+    "CAD": 0.713776,
     "INR": 0.010586
   }
 }
