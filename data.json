@@ -1,103 +1,103 @@
 {
-  "updated": "2026-11-09T02:52:44.904665+00:00",
-  "updated_display": "09 Nov 2026, 02:52 UTC",
+  "updated": "2026-11-09T21:22:22.319188+00:00",
+  "updated_display": "09 Nov 2026, 21:22 UTC",
   "prices": {
     "TCS": {
-      "price": 2498.8,
-      "display": "\u20b92,499",
-      "change": 0.0
+      "price": 2475.4,
+      "display": "\u20b92,475",
+      "change": -0.9
     },
     "INFY": {
-      "price": 1171.6,
-      "display": "\u20b91,172",
-      "change": -0.8
+      "price": 1154.1,
+      "display": "\u20b91,154",
+      "change": -2.3
     },
     "CTSH": {
-      "price": 64.72,
-      "display": "$64.72",
-      "change": -2.7
+      "price": 63.6,
+      "display": "$63.60",
+      "change": -1.7
     },
     "HCLT": {
-      "price": 1442.0,
-      "display": "\u20b91,442",
-      "change": 0.1
+      "price": 1407.0,
+      "display": "\u20b91,407",
+      "change": -2.3
     },
     "WIPRO": {
-      "price": 197.55,
-      "display": "\u20b9198",
-      "change": -0.2
+      "price": 199.0,
+      "display": "\u20b9199",
+      "change": 0.5
     },
     "TECHM": {
-      "price": 1829.9,
-      "display": "\u20b91,830",
-      "change": -0.1
+      "price": 1805.0,
+      "display": "\u20b91,805",
+      "change": -1.4
     },
     "LTIM": {
-      "price": 4324.2,
-      "display": "\u20b94,324",
-      "change": -0.3
-    },
-    "MPHL": {
-      "price": 2524.0,
-      "display": "\u20b92,524",
-      "change": 0.2
-    },
-    "PSYS": {
-      "price": 6022.0,
-      "display": "\u20b96,022",
+      "price": 4318.2,
+      "display": "\u20b94,318",
       "change": -0.5
     },
-    "COFG": {
-      "price": 2072.0,
-      "display": "\u20b92,072",
+    "MPHL": {
+      "price": 2455.0,
+      "display": "\u20b92,455",
+      "change": -2.6
+    },
+    "PSYS": {
+      "price": 6040.0,
+      "display": "\u20b96,040",
       "change": -0.2
     },
+    "COFG": {
+      "price": 2047.0,
+      "display": "\u20b92,047",
+      "change": -1.4
+    },
     "ACN": {
-      "price": 260.5,
-      "display": "$260",
-      "change": -1.8
+      "price": 254.37,
+      "display": "$254",
+      "change": -2.4
     },
     "CAP": {
-      "price": 126.9,
-      "display": "\u20ac127",
+      "price": 123.3,
+      "display": "\u20ac123",
       "change": -2.8
     },
     "ATOS": {
-      "price": 24.82,
-      "display": "\u20ac24.82",
-      "change": -2.3
+      "price": 24.66,
+      "display": "\u20ac24.66",
+      "change": -0.6
     },
     "DXC": {
-      "price": 14.86,
-      "display": "$14.86",
-      "change": -2.0
+      "price": 15.18,
+      "display": "$15.18",
+      "change": 2.2
     },
     "GIB": {
-      "price": 83.29,
-      "display": "$83.29",
-      "change": 1.1
+      "price": 82.57,
+      "display": "$82.57",
+      "change": -0.9
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 80999.4,
-      "change": -0.04
+      "value": 81028.02,
+      "change": 2.17
     },
     "NIFTY_IT": {
-      "value": 32869.65,
-      "change": -0.33
+      "value": 32977.9,
+      "change": 0.43
     },
     "SP500": {
-      "value": 7376.86,
-      "change": 0.31
+      "value": 7549.94,
+      "change": 2.35
     },
     "USD_INR": {
-      "value": 93.89,
-      "change": -0.6
+      "value": 93.92,
+      "change": -0.57
     },
     "EUR_INR": {
-      "value": 104.72,
-      "change": -1.2
+      "value": 105.39,
+      "change": -0.58
     }
   },
   "historical": {
@@ -170,7 +170,7 @@
         2436.0,
         2496.0,
         2498.0,
-        2499.0
+        2475.0
       ],
       "dl": [
         "Oct 21",
@@ -186,7 +186,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         3448.0,
@@ -308,7 +308,7 @@
         1128.0,
         1167.0,
         1181.0,
-        1172.0
+        1154.0
       ],
       "dl": [
         "Oct 21",
@@ -324,7 +324,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         1390.0,
@@ -446,7 +446,8 @@
         64.0,
         66.0,
         67.0,
-        65.0
+        65.0,
+        64.0
       ],
       "dl": [
         "Oct 20",
@@ -462,7 +463,8 @@
         "Nov 3",
         "Nov 4",
         "Nov 5",
-        "Nov 6"
+        "Nov 6",
+        "Nov 9"
       ],
       "mp": [
         72.0,
@@ -584,7 +586,7 @@
         1405.0,
         1430.0,
         1440.0,
-        1442.0
+        1407.0
       ],
       "dl": [
         "Oct 21",
@@ -600,7 +602,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         1303.0,
@@ -722,7 +724,7 @@
         195.0,
         198.0,
         198.0,
-        198.0
+        199.0
       ],
       "dl": [
         "Oct 21",
@@ -738,7 +740,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         218.0,
@@ -860,7 +862,7 @@
         1783.0,
         1823.0,
         1831.0,
-        1830.0
+        1805.0
       ],
       "dl": [
         "Oct 21",
@@ -876,7 +878,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         1163.0,
@@ -998,7 +1000,7 @@
         4205.0,
         4393.0,
         4338.0,
-        4324.0
+        4318.0
       ],
       "dl": [
         "Oct 21",
@@ -1014,7 +1016,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         6022.0,
@@ -1136,7 +1138,7 @@
         2468.0,
         2510.0,
         2520.0,
-        2524.0
+        2455.0
       ],
       "dl": [
         "Oct 21",
@@ -1152,7 +1154,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         2561.0,
@@ -1274,7 +1276,7 @@
         6065.0,
         6110.0,
         6054.0,
-        6022.0
+        6040.0
       ],
       "dl": [
         "Oct 21",
@@ -1290,7 +1292,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         3625.0,
@@ -1412,7 +1414,7 @@
         2060.0,
         2079.0,
         2076.0,
-        2072.0
+        2047.0
       ],
       "dl": [
         "Oct 21",
@@ -1428,7 +1430,7 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 8"
+        "Nov 9"
       ],
       "mp": [
         1222.0,
@@ -1550,7 +1552,8 @@
         255.0,
         264.0,
         265.0,
-        260.0
+        260.0,
+        254.0
       ],
       "dl": [
         "Oct 20",
@@ -1566,7 +1569,8 @@
         "Nov 3",
         "Nov 4",
         "Nov 5",
-        "Nov 6"
+        "Nov 6",
+        "Nov 9"
       ],
       "mp": [
         331.0,
@@ -1688,7 +1692,8 @@
         125.0,
         130.0,
         130.0,
-        127.0
+        127.0,
+        123.0
       ],
       "dl": [
         "Oct 20",
@@ -1704,7 +1709,8 @@
         "Nov 3",
         "Nov 4",
         "Nov 5",
-        "Nov 6"
+        "Nov 6",
+        "Nov 9"
       ],
       "mp": [
         176.0,
@@ -1826,6 +1832,7 @@
         26.0,
         26.0,
         25.0,
+        25.0,
         25.0
       ],
       "dl": [
@@ -1842,7 +1849,8 @@
         "Nov 3",
         "Nov 4",
         "Nov 5",
-        "Nov 6"
+        "Nov 6",
+        "Nov 9"
       ],
       "mp": [
         524.0,
@@ -1964,6 +1972,7 @@
         14.0,
         15.0,
         15.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1980,7 +1989,8 @@
         "Nov 3",
         "Nov 4",
         "Nov 5",
-        "Nov 6"
+        "Nov 6",
+        "Nov 9"
       ],
       "mp": [
         23.0,
@@ -2102,6 +2112,7 @@
         81.0,
         82.0,
         82.0,
+        83.0,
         83.0
       ],
       "dl": [
@@ -2118,7 +2129,8 @@
         "Nov 3",
         "Nov 4",
         "Nov 5",
-        "Nov 6"
+        "Nov 6",
+        "Nov 9"
       ],
       "mp": [
         106.0,
@@ -2174,49 +2186,22 @@
   },
   "news": [
     {
-      "time": "2026-11-08 02:38",
+      "time": "2026-11-08 19:13",
       "tk": "TECHM",
-      "src": "The Times of India",
-      "cat": "MACRO",
-      "hl": "Accused's chilling threats to Tech Mahindra ex-APAC head Paramjeet Dhankhar hours before murder: 'Ever seen what a widow looks like?'",
-      "detail": "A parking dispute escalated into a shooting incident in Gurugram, where Monu Sharma allegedly killed his neighbor Paramjeet Dhankhar. The confrontation stemmed from a broken parking gate and threats were exchanged at a police post. Dhankhar was back in India \u2026",
-      "url": "https://timesofindia.indiatimes.com/city/gurgaon/accuseds-chilling-threats-to-tech-mahindra-ex-apac-head-paramjeet-dhankhar-hours-before-murder-ever-seen-what-a-widow-looks-like/articleshow/135649713.cms"
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "Missed Out On Tech Mahindra's Run? Here's The Bet Holders Made",
+      "detail": "If you had bought Tech Mahindra on 8 November 2025, with analysts split between a bullish AI and 5G upswing case and a bearish automation and cost squeeze story, the past year looks very different today. Investors who held Tech Mahindra over the past year are\u2026",
+      "url": "https://biztoc.com/x/00c88e0e6f98c74e"
     },
     {
-      "time": "2026-11-07 16:44",
-      "tk": "WIPRO",
-      "src": "BusinessLine",
-      "cat": "ANALYST",
-      "hl": "F&O Strategy: Buy Wipro call option",
-      "detail": "Strategic F&O insight: Buy Wipro 205-call with risk-managed targets, noting short-term bullish setup amid resistance, support, and time decay.",
-      "url": "https://www.thehindubusinessline.com/portfolio/commodity-analysis/fampo-strategy-buy-wipro-call-option/article71677295.ece"
-    },
-    {
-      "time": "2026-11-07 19:12",
-      "tk": "LTIM",
-      "src": "Pypi.org",
-      "cat": "AI",
-      "hl": "continuum-mcp 2.1.0",
-      "detail": "Production-grade memory infrastructure for AI agents \u2014 tiered STM / MTM / LTM with first-class supersession and bi-temporal queries.",
-      "url": "https://pypi.org/project/continuum-mcp/2.1.0/"
-    },
-    {
-      "time": "2026-11-07 19:05",
-      "tk": "ACN",
-      "src": "TechRadar",
-      "cat": "AI",
-      "hl": "Accenture accused of publishing major research full of AI hallucinations \u2014 paper featured as many as 15 fictitious citations and case studies",
-      "detail": "A new paper from Accenture called \u201cLeapfrogging Development\u201d appears to have been produced using AI, and features as many as 15 fictitious citations and case studies.",
-      "url": "https://www.techradar.com/pro/accenture-accused-of-publishing-major-research-full-of-ai-hallucinations-paper-featured-as-many-as-15-fictitious-citations-and-case-studies"
-    },
-    {
-      "time": "2026-11-07 11:16",
-      "tk": "Sector",
-      "src": "Business Standard",
-      "cat": "ANALYST",
-      "hl": "US visa curbs: Will Indian IT firms shift more technology work offshore?",
-      "detail": "US visa restrictions and the PERM suspension are adding pressure on Indian IT firms to rethink workforce strategies, potentially accelerating the shift towards offshore technology delivery",
-      "url": "https://www.business-standard.com/immigration/us-visa-curbs-will-indian-it-firms-shift-more-technology-work-offshore-126110700833_1.html"
+      "time": "2026-11-08 08:57",
+      "tk": "HCLT",
+      "src": "Hcltech.com",
+      "cat": "RESULTS",
+      "hl": "Driving Personalized Marketing with Unified Customer Data | HCLTech",
+      "detail": "Discover how HCLTech enabled personalized marketing using a unified customer data platform, boosting revenue, engagement, and omnichannel experiences. Read the case study!",
+      "url": "https://www.hcltech.com/case-study/personalized-marketing-unified-customer-data#article"
     },
     {
       "time": "2026-11-07 00:00",
@@ -2235,6 +2220,33 @@
       "hl": "Gartner Sees Software Growing 14.6% to $1.68 Trillion in 2027: Models at 117%, AI App Platforms at 39%, and Price Increases Doing a Lot of the Work",
       "detail": "Gartner released its latest IT spending forecast on October 21. Worldwide IT spending will reach $7.35 trillion in 2027, up 15%, crossing $7 trillion for the first time. Most coverage focused on data centers. Data center systems add $487 billion in 2027, abou\u2026",
       "url": "https://www.saastr.com/gartner-sees-software-growing-14-6-to-1-68-trillion-in-2027-models-at-117-ai-app-platforms-at-39-and-price-increases-doing-a-lot-of-the-work/"
+    },
+    {
+      "time": "2026-11-07 11:16",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "cat": "ANALYST",
+      "hl": "US visa curbs: Will Indian IT firms shift more technology work offshore?",
+      "detail": "US visa restrictions and the PERM suspension are adding pressure on Indian IT firms to rethink workforce strategies, potentially accelerating the shift towards offshore technology delivery",
+      "url": "https://www.business-standard.com/immigration/us-visa-curbs-will-indian-it-firms-shift-more-technology-work-offshore-126110700833_1.html"
+    },
+    {
+      "time": "2026-11-07 16:44",
+      "tk": "WIPRO",
+      "src": "BusinessLine",
+      "cat": "ANALYST",
+      "hl": "F&O Strategy: Buy Wipro call option",
+      "detail": "Strategic F&O insight: Buy Wipro 205-call with risk-managed targets, noting short-term bullish setup amid resistance, support, and time decay.",
+      "url": "https://www.thehindubusinessline.com/portfolio/commodity-analysis/fampo-strategy-buy-wipro-call-option/article71677295.ece"
+    },
+    {
+      "time": "2026-11-07 19:05",
+      "tk": "ACN",
+      "src": "TechRadar",
+      "cat": "AI",
+      "hl": "Accenture accused of publishing major research full of AI hallucinations \u2014 paper featured as many as 15 fictitious citations and case studies",
+      "detail": "A new paper from Accenture called \u201cLeapfrogging Development\u201d appears to have been produced using AI, and features as many as 15 fictitious citations and case studies.",
+      "url": "https://www.techradar.com/pro/accenture-accused-of-publishing-major-research-full-of-ai-hallucinations-paper-featured-as-many-as-15-fictitious-citations-and-case-studies"
     }
   ],
   "quarterly": {
@@ -2710,16 +2722,6 @@
     "MPHL": {
       "quarters": [
         {
-          "date": "2025-03-31",
-          "label": "Q4 FY25",
-          "rev": 37.1,
-          "rev_usd": 0.43,
-          "ebit_margin": 15.3,
-          "op_profit": 5672.0,
-          "fcf": null,
-          "fcf_usd": null
-        },
-        {
           "date": "2025-06-30",
           "label": "Q1 FY26",
           "rev": 37.32,
@@ -2758,21 +2760,31 @@
           "op_profit": 6481.0,
           "fcf": null,
           "fcf_usd": null
+        },
+        {
+          "date": "2026-09-30",
+          "label": "Q2 FY27",
+          "rev": 45.81,
+          "rev_usd": 0.48,
+          "ebit_margin": 14.8,
+          "op_profit": 6774.0,
+          "fcf": null,
+          "fcf_usd": null
         }
       ],
       "annual": {
-        "rev": 163.6,
-        "rev_usd": 1.8,
+        "rev": 172.1,
+        "rev_usd": 1.9,
         "growth": null,
-        "ebit_margin": 15.2,
-        "op_profit": 24803,
-        "op_profit_usd": 273,
+        "ebit_margin": 15.1,
+        "op_profit": 25868,
+        "op_profit_usd": 286,
         "fcf": null,
         "fcf_usd": null
       },
       "fy_end_month": 3,
       "currency": "INR",
-      "usd_rate": 0.011001
+      "usd_rate": 0.011039
     },
     "PSYS": {
       "quarters": [
@@ -3112,9 +3124,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.115698,
-    "JPY": 0.006317,
-    "CAD": 0.708843,
-    "INR": 0.01065
+    "EUR": 1.122586,
+    "JPY": 0.006332,
+    "CAD": 0.708356,
+    "INR": 0.010647
   }
 }
