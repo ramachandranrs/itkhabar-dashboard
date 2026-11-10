@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-10T00:20:49.438907+00:00",
-  "updated_display": "10 Nov 2026, 00:20 UTC",
+  "updated": "2026-11-10T04:43:43.040806+00:00",
+  "updated_display": "10 Nov 2026, 04:43 UTC",
   "prices": {
     "TCS": {
       "price": 2475.4,
@@ -80,24 +80,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 81028.02,
-      "change": 2.17
+      "value": 81106.65,
+      "change": 0.1
     },
     "NIFTY_IT": {
-      "value": 32977.9,
-      "change": 0.43
+      "value": 32468.95,
+      "change": -1.54
     },
     "SP500": {
       "value": 7549.94,
       "change": 2.35
     },
     "USD_INR": {
-      "value": 93.9,
-      "change": -0.59
+      "value": 93.92,
+      "change": 0.02
     },
     "EUR_INR": {
-      "value": 104.54,
-      "change": -1.38
+      "value": 105.41,
+      "change": 0.84
     }
   },
   "historical": {
@@ -3063,9 +3063,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.122208,
-    "JPY": 0.006327,
-    "CAD": 0.708065,
-    "INR": 0.010649
+    "EUR": 1.122965,
+    "JPY": 0.006331,
+    "CAD": 0.708265,
+    "INR": 0.010648
   }
 }
