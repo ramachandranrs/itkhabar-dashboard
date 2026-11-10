@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-10T18:33:34.391063+00:00",
-  "updated_display": "10 Nov 2026, 18:33 UTC",
+  "updated": "2026-11-10T21:51:45.382173+00:00",
+  "updated_display": "10 Nov 2026, 21:51 UTC",
   "prices": {
     "TCS": {
       "price": 2475.4,
@@ -13,9 +13,9 @@
       "change": -2.3
     },
     "CTSH": {
-      "price": 65.55,
-      "display": "$65.55",
-      "change": 3.1
+      "price": 65.0,
+      "display": "$65.00",
+      "change": 2.2
     },
     "HCLT": {
       "price": 1407.0,
@@ -53,9 +53,9 @@
       "change": -1.4
     },
     "ACN": {
-      "price": 259.84,
-      "display": "$260",
-      "change": 2.2
+      "price": 258.51,
+      "display": "$259",
+      "change": 1.6
     },
     "CAP": {
       "price": 123.2,
@@ -68,14 +68,14 @@
       "change": 0.2
     },
     "DXC": {
-      "price": 15.47,
-      "display": "$15.47",
-      "change": 1.9
+      "price": 15.31,
+      "display": "$15.31",
+      "change": 0.9
     },
     "GIB": {
-      "price": 82.62,
-      "display": "$82.62",
-      "change": 0.1
+      "price": 82.51,
+      "display": "$82.51",
+      "change": -0.1
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -1.54
     },
     "SP500": {
-      "value": 7495.17,
-      "change": -0.73
+      "value": 7520.93,
+      "change": -0.38
     },
     "USD_INR": {
       "value": 93.92,
       "change": 0.02
     },
     "EUR_INR": {
-      "value": 104.83,
-      "change": 0.28
+      "value": 104.88,
+      "change": 0.32
     }
   },
   "historical": {
@@ -447,7 +447,7 @@
         67.0,
         65.0,
         64.0,
-        66.0
+        65.0
       ],
       "dl": [
         "Oct 21",
@@ -1553,7 +1553,7 @@
         265.0,
         260.0,
         254.0,
-        260.0
+        259.0
       ],
       "dl": [
         "Oct 21",
@@ -2211,6 +2211,15 @@
       "hl": "'This represents an important evolution in AI governance': Infosys lays out how your business can thrive with the new generation of autonomous AI agents",
       "detail": "Infosys tells us how your business can prepare for the age of autonomous AI agents.",
       "url": "https://www.techradar.com/pro/this-represents-an-important-evolution-in-ai-governance-infosys-lays-out-how-your-business-can-thrive-with-the-new-generation-of-autonomous-ai-agents"
+    },
+    {
+      "time": "2026-11-09 20:00",
+      "tk": "ACN",
+      "src": "Activistpost.com",
+      "cat": "PEOPLE",
+      "hl": "Club of Rome proposes pan-African public digital currency: report",
+      "detail": "The author is a MasterCard director, Accenture consultant & fintech co-founder who proposes his own US-based blockchain network platform to facilitate the \u2018digital afro\u2019: perspective The Club of Rome proposes the creation of a pan-African public \u00a0digital curr\u2026",
+      "url": "https://activistpost.com/club-of-rome-proposes-pan-african-public-digital-currency-report/"
     },
     {
       "time": "2026-11-09 11:49",
@@ -3133,9 +3142,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.116196,
-    "JPY": 0.006299,
-    "CAD": 0.7049,
+    "EUR": 1.116695,
+    "JPY": 0.006298,
+    "CAD": 0.704881,
     "INR": 0.010648
   }
 }
