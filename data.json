@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11T02:55:19.414381+00:00",
-  "updated_display": "11 Nov 2026, 02:55 UTC",
+  "updated": "2026-11-11T18:30:33.819392+00:00",
+  "updated_display": "11 Nov 2026, 18:30 UTC",
   "prices": {
     "TCS": {
       "price": 2475.4,
@@ -13,9 +13,9 @@
       "change": -2.3
     },
     "CTSH": {
-      "price": 65.0,
-      "display": "$65.00",
-      "change": 2.2
+      "price": 64.2,
+      "display": "$64.20",
+      "change": -1.2
     },
     "HCLT": {
       "price": 1407.0,
@@ -53,29 +53,29 @@
       "change": -1.4
     },
     "ACN": {
-      "price": 258.51,
-      "display": "$259",
-      "change": 1.6
+      "price": 251.95,
+      "display": "$252",
+      "change": -2.5
     },
     "CAP": {
-      "price": 123.3,
-      "display": "\u20ac123",
-      "change": -2.8
+      "price": 123.95,
+      "display": "\u20ac124",
+      "change": 0.6
     },
     "ATOS": {
-      "price": 24.66,
-      "display": "\u20ac24.66",
-      "change": -0.6
+      "price": 24.5,
+      "display": "\u20ac24.50",
+      "change": -0.9
     },
     "DXC": {
-      "price": 15.31,
-      "display": "$15.31",
-      "change": 0.9
+      "price": 15.24,
+      "display": "$15.24",
+      "change": -0.4
     },
     "GIB": {
-      "price": 82.51,
-      "display": "$82.51",
-      "change": -0.1
+      "price": 80.47,
+      "display": "$80.47",
+      "change": -2.5
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -1.54
     },
     "SP500": {
-      "value": 7520.93,
-      "change": -0.38
+      "value": 7643.08,
+      "change": 1.62
     },
     "USD_INR": {
-      "value": 93.92,
-      "change": -0.03
+      "value": 93.68,
+      "change": -0.28
     },
     "EUR_INR": {
-      "value": 104.92,
-      "change": -0.39
+      "value": 103.94,
+      "change": -1.32
     }
   },
   "historical": {
@@ -442,7 +442,8 @@
         67.0,
         65.0,
         64.0,
-        65.0
+        65.0,
+        64.0
       ],
       "dl": [
         "Oct 22",
@@ -458,7 +459,8 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 10"
+        "Nov 10",
+        "Nov 11"
       ],
       "mp": [
         72.0,
@@ -1532,7 +1534,8 @@
         265.0,
         260.0,
         254.0,
-        259.0
+        259.0,
+        252.0
       ],
       "dl": [
         "Oct 22",
@@ -1548,7 +1551,8 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 10"
+        "Nov 10",
+        "Nov 11"
       ],
       "mp": [
         331.0,
@@ -1669,7 +1673,9 @@
         130.0,
         130.0,
         127.0,
-        123.0
+        123.0,
+        123.0,
+        124.0
       ],
       "dl": [
         "Oct 22",
@@ -1684,7 +1690,9 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 9"
+        "Nov 9",
+        "Nov 10",
+        "Nov 11"
       ],
       "mp": [
         176.0,
@@ -1805,7 +1813,9 @@
         26.0,
         25.0,
         25.0,
-        25.0
+        25.0,
+        25.0,
+        24.0
       ],
       "dl": [
         "Oct 22",
@@ -1820,7 +1830,9 @@
         "Nov 4",
         "Nov 5",
         "Nov 6",
-        "Nov 9"
+        "Nov 9",
+        "Nov 10",
+        "Nov 11"
       ],
       "mp": [
         524.0,
@@ -1942,6 +1954,7 @@
         15.0,
         15.0,
         15.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1958,7 +1971,8 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 10"
+        "Nov 10",
+        "Nov 11"
       ],
       "mp": [
         23.0,
@@ -2080,7 +2094,8 @@
         82.0,
         83.0,
         83.0,
-        83.0
+        83.0,
+        80.0
       ],
       "dl": [
         "Oct 22",
@@ -2096,7 +2111,8 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 10"
+        "Nov 10",
+        "Nov 11"
       ],
       "mp": [
         106.0,
@@ -2152,31 +2168,49 @@
   },
   "news": [
     {
-      "time": "2026-11-09 15:52",
+      "time": "2026-11-10 16:59",
+      "tk": "TCS",
+      "src": "Amazon.com",
+      "cat": "MACRO",
+      "hl": "How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore",
+      "detail": "Tata Consultancy Services (TCS) built an agentic test orchestrator on Amazon Bedrock AgentCore that turns requirements into executable, governed tests for its Banking, Financial Services, and Insurance (BFSI) clients. Learn how specialized agents, per-tenant \u2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/"
+    },
+    {
+      "time": "2026-11-10 16:21",
       "tk": "Sector",
-      "src": "BusinessLine",
-      "cat": "DEAL",
-      "hl": "Indian IT stocks strengthen buoyed by weakness in the global AI trade and attractive valuations",
-      "detail": "The IT sector emerged as the strongest-performing sector, gaining 17.69 per cent over the month, leading ahead of healthcare and bank services",
-      "url": "https://www.thehindubusinessline.com/markets/indian-it-stocks-strengthen-buoyed-by-weakness-in-the-global-ai-trade-and-attractive-valuations/article71683017.ece"
+      "src": "Business Standard",
+      "cat": "AI",
+      "hl": "India not a refuge but 'compelling' AI opportunity: Anand Mahindra",
+      "detail": "Mahindra Group Chairman Anand Mahindra on Tuesday said India is not just a refuge from the AI hype but rather has \"a compelling AI opportunity of its own\".\nIn a post on X, Mahindra cited the nation's software talent, systems integration expertise and enormous\u2026",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/india-not-a-refuge-but-compelling-ai-opportunity-anand-mahindra-126111000734_1.html"
     },
     {
-      "time": "2026-11-10 02:47",
+      "time": "2026-11-10 15:32",
       "tk": "ACN",
-      "src": "The Straits Times",
+      "src": "Slashdot.org",
       "cat": "DEAL",
-      "hl": "Qantas to axe 850 jobs in Accenture offshoring deal",
-      "detail": "Qantas to axe 850 jobs in Australia and outsource corporate functions to Accenture in response to AI-driven industry changes. Read more at straitstimes.com.",
-      "url": "https://www.straitstimes.com/business/australias-qantas-to-axe-850-jobs-in-offshoring-deal-with-accenture"
+      "hl": "Another contract extension for Fujitsu on the Post Office's Horizon",
+      "detail": "Just a few more months until Accenture takes over running scandal-hit Horizon system",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186678426"
     },
     {
-      "time": "2026-11-10 02:23",
-      "tk": "ACN",
-      "src": "The Times of India",
+      "time": "2026-11-10 13:03",
+      "tk": "CTSH",
+      "src": "Business Standard",
+      "cat": "AI",
+      "hl": "Cognizant sets up Claude Frontier group with over 25,000 professionals",
+      "detail": "The IT services firm also introduces a managed services model for Claude, aiming to help enterprises deploy, operate and scale AI systems securely across core business functions",
+      "url": "https://www.business-standard.com/companies/news/cognizant-sets-up-claude-frontier-group-with-over-25-000-professionals-126111000713_1.html"
+    },
+    {
+      "time": "2026-11-10 07:59",
+      "tk": "Sector",
+      "src": "Livemint",
       "cat": "DEAL",
-      "hl": "Australia's Qantas Airways to cut 850 jobs as AI takes off, back-office work shifts to India",
-      "detail": "Australia's largest airline Qantas will cut 850 jobs from mid-2027 as it shifts some corporate functions to India and accelerates the adoption of artificial intelligence. A partnership with Accenture will overhaul its back-end systems, even as the airline emb\u2026",
-      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/australias-qantas-airways-to-cut-850-jobs-as-ai-takes-off-back-office-work-shifts-to-india/articleshow/135696879.cms"
+      "hl": "AI pushes mid-sized IT firms to rethink sales playbook",
+      "detail": "As AI reshapes client demand and competition for contracts intensifies, mid-sized IT services firms are revamping sales incentives and exploring new channels to win business.",
+      "url": "https://www.livemint.com/industry/infotech/ai-mid-sized-it-firms-coforge-ltm-infosys-tcs-hexaware-incentives-business-11794282254837.html"
     },
     {
       "time": "2026-11-09 13:17",
@@ -2197,22 +2231,31 @@
       "url": "https://www.verdict.co.uk/coforge-joins-spacex-network/"
     },
     {
-      "time": "2026-11-09 11:32",
+      "time": "2026-11-10 11:45",
       "tk": "ATOS",
       "src": "Biztoc.com",
-      "cat": "MACRO",
-      "hl": "EU sues IBM and two European firms over troubled entry/exit border system",
-      "detail": "Lawsuit filed last year against IBM, Atos and Leonardo after delays to passengers blamed on the system, first reported in the FT\nThe EU has filed a lawsuit against IBM and two other companies involved in its troubled border-management system, an internal docu\u2026",
-      "url": "https://biztoc.com/x/8a08fb29892210cb"
+      "cat": "RESULTS",
+      "hl": "EU's \u20ac212M border IT project lands IBM and Atos in legal water",
+      "detail": "The European Union has dragged IBM, Atos, and Leonardo into court over years of delays to its troubled \u20ac212 million smart border system, which finally went live after missing a string of deadlines and leaving travelers stuck in airport queues.\nThe lawsuit dat\u2026",
+      "url": "https://biztoc.com/x/6b0e867f32c03dfe"
     },
     {
-      "time": "2026-11-09 10:57",
-      "tk": "ATOS",
-      "src": "Livemint",
+      "time": "2026-11-10 11:46",
+      "tk": "Sector",
+      "src": "Inrng.com",
       "cat": "MACRO",
-      "hl": "Fingerprint failures, airport queues: Why IBM is facing EU lawsuit? Smart Border System case explained",
-      "detail": "Why has the EU sued IBM, Atos and Leonardo? A look at the delays, rising costs and technical problems behind Europe's troubled smart border system.",
-      "url": "https://www.livemint.com/companies/news/why-ibm-is-facing-the-ire-of-european-union-smart-border-system-case-explained-11794219539099.html"
+      "hl": "Total Energies Team Saved, Becomes Xefi",
+      "detail": "Embed from Getty Images The Total Energies team is saved. The new sponsor for 2027 is XEFI, a French IT services company. It\u2019s a rescue in need of a rebuild. XEFI (pronounce it \u201czeffy\u201d) is a French firm that offers IT services to small and medium-sized busine\u2026",
+      "url": "https://inrng.com/2026/11/total-energies-team-xefi/"
+    },
+    {
+      "time": "2026-11-09 15:52",
+      "tk": "Sector",
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "Indian IT stocks strengthen buoyed by weakness in the global AI trade and attractive valuations",
+      "detail": "The IT sector emerged as the strongest-performing sector, gaining 17.69 per cent over the month, leading ahead of healthcare and bank services",
+      "url": "https://www.thehindubusinessline.com/markets/indian-it-stocks-strengthen-buoyed-by-weakness-in-the-global-ai-trade-and-attractive-valuations/article71683017.ece"
     },
     {
       "time": "2026-11-09 12:52",
@@ -2222,6 +2265,15 @@
       "hl": "Top IT service firms see dip in share of revenue from healthcare sector",
       "detail": "Cognizant, which has the largest exposure to the sector compared to its peers, posted the sharpest decrease with healthcare revenue dropping 160 basis points",
       "url": "https://www.thehindubusinessline.com/info-tech/top-it-service-firms-see-dip-in-share-of-revenue-from-healthcare-sector/article71682248.ece"
+    },
+    {
+      "time": "2026-11-10 02:23",
+      "tk": "ACN",
+      "src": "The Times of India",
+      "cat": "DEAL",
+      "hl": "Australia's Qantas Airways to cut 850 jobs as AI takes off, back-office work shifts to India",
+      "detail": "Australia's largest airline Qantas will cut 850 jobs from mid-2027 as it shifts some corporate functions to India and accelerates the adoption of artificial intelligence. A partnership with Accenture will overhaul its back-end systems, even as the airline emb\u2026",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/australias-qantas-airways-to-cut-850-jobs-as-ai-takes-off-back-office-work-shifts-to-india/articleshow/135696879.cms"
     }
   ],
   "quarterly": {
@@ -3099,9 +3151,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.116695,
-    "JPY": 0.006297,
-    "CAD": 0.704399,
-    "INR": 0.010648
+    "EUR": 1.109385,
+    "JPY": 0.006256,
+    "CAD": 0.701902,
+    "INR": 0.010675
   }
 }
