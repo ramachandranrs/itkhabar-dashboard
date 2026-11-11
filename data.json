@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11T18:30:33.819392+00:00",
-  "updated_display": "11 Nov 2026, 18:30 UTC",
+  "updated": "2026-11-11T22:53:20.120249+00:00",
+  "updated_display": "11 Nov 2026, 22:53 UTC",
   "prices": {
     "TCS": {
       "price": 2475.4,
@@ -13,9 +13,9 @@
       "change": -2.3
     },
     "CTSH": {
-      "price": 64.2,
-      "display": "$64.20",
-      "change": -1.2
+      "price": 64.43,
+      "display": "$64.43",
+      "change": -0.9
     },
     "HCLT": {
       "price": 1407.0,
@@ -53,9 +53,9 @@
       "change": -1.4
     },
     "ACN": {
-      "price": 251.95,
-      "display": "$252",
-      "change": -2.5
+      "price": 253.66,
+      "display": "$254",
+      "change": -1.9
     },
     "CAP": {
       "price": 123.95,
@@ -68,14 +68,14 @@
       "change": -0.9
     },
     "DXC": {
-      "price": 15.24,
-      "display": "$15.24",
-      "change": -0.4
+      "price": 15.27,
+      "display": "$15.27",
+      "change": -0.3
     },
     "GIB": {
-      "price": 80.47,
-      "display": "$80.47",
-      "change": -2.5
+      "price": 81.13,
+      "display": "$81.13",
+      "change": -1.7
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -1.54
     },
     "SP500": {
-      "value": 7643.08,
-      "change": 1.62
+      "value": 7619.38,
+      "change": 1.31
     },
     "USD_INR": {
       "value": 93.68,
       "change": -0.28
     },
     "EUR_INR": {
-      "value": 103.94,
-      "change": -1.32
+      "value": 103.89,
+      "change": -1.37
     }
   },
   "historical": {
@@ -1535,7 +1535,7 @@
         260.0,
         254.0,
         259.0,
-        252.0
+        254.0
       ],
       "dl": [
         "Oct 22",
@@ -2095,7 +2095,7 @@
         83.0,
         83.0,
         83.0,
-        80.0
+        81.0
       ],
       "dl": [
         "Oct 22",
@@ -2186,6 +2186,24 @@
       "url": "https://www.business-standard.com/technology/artificial-intelligence/india-not-a-refuge-but-compelling-ai-opportunity-anand-mahindra-126111000734_1.html"
     },
     {
+      "time": "2026-11-10 22:30",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "Is Accenture Stock Becoming A Different Bet?",
+      "detail": "For questions about this article or underlying research, email help@trefis.com.\nAccenture (ACN) stock costs you 18.3 times its earnings over the last twelve months, compared with 21.8 for the S&P 500, so you will want to know what growth you are buying. In Se\u2026",
+      "url": "https://biztoc.com/x/470cb1ad8d7ac80c"
+    },
+    {
+      "time": "2026-11-10 20:58",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "Accenture vs. Adobe: What Does Fluctuating vs. Steady Revenue Tell Investors?",
+      "detail": "Accenture: Experiencing Fluctuating Revenue Totals\nAccenture Ltd. (NYSE:ACN) primarily generates revenue by providing strategy, technology consulting, and operational services to enterprises worldwide.\nIt recently appointed a new chief marketing officer to it\u2026",
+      "url": "https://biztoc.com/x/d17c9fbc28ada7dc"
+    },
+    {
       "time": "2026-11-10 15:32",
       "tk": "ACN",
       "src": "Slashdot.org",
@@ -2193,15 +2211,6 @@
       "hl": "Another contract extension for Fujitsu on the Post Office's Horizon",
       "detail": "Just a few more months until Accenture takes over running scandal-hit Horizon system",
       "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186678426"
-    },
-    {
-      "time": "2026-11-10 13:03",
-      "tk": "CTSH",
-      "src": "Business Standard",
-      "cat": "AI",
-      "hl": "Cognizant sets up Claude Frontier group with over 25,000 professionals",
-      "detail": "The IT services firm also introduces a managed services model for Claude, aiming to help enterprises deploy, operate and scale AI systems securely across core business functions",
-      "url": "https://www.business-standard.com/companies/news/cognizant-sets-up-claude-frontier-group-with-over-25-000-professionals-126111000713_1.html"
     },
     {
       "time": "2026-11-10 07:59",
@@ -2267,13 +2276,13 @@
       "url": "https://www.thehindubusinessline.com/info-tech/top-it-service-firms-see-dip-in-share-of-revenue-from-healthcare-sector/article71682248.ece"
     },
     {
-      "time": "2026-11-10 02:23",
-      "tk": "ACN",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "Australia's Qantas Airways to cut 850 jobs as AI takes off, back-office work shifts to India",
-      "detail": "Australia's largest airline Qantas will cut 850 jobs from mid-2027 as it shifts some corporate functions to India and accelerates the adoption of artificial intelligence. A partnership with Accenture will overhaul its back-end systems, even as the airline emb\u2026",
-      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/australias-qantas-airways-to-cut-850-jobs-as-ai-takes-off-back-office-work-shifts-to-india/articleshow/135696879.cms"
+      "time": "2026-11-10 13:03",
+      "tk": "CTSH",
+      "src": "Business Standard",
+      "cat": "AI",
+      "hl": "Cognizant sets up Claude Frontier group with over 25,000 professionals",
+      "detail": "The IT services firm also introduces a managed services model for Claude, aiming to help enterprises deploy, operate and scale AI systems securely across core business functions",
+      "url": "https://www.business-standard.com/companies/news/cognizant-sets-up-claude-frontier-group-with-over-25-000-professionals-126111000713_1.html"
     }
   ],
   "quarterly": {
@@ -3151,9 +3160,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.109385,
-    "JPY": 0.006256,
-    "CAD": 0.701902,
+    "EUR": 1.109262,
+    "JPY": 0.006262,
+    "CAD": 0.701853,
     "INR": 0.010675
   }
 }
