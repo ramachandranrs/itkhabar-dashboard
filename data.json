@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T18:46:19.902034+00:00",
-  "updated_display": "12 Nov 2026, 18:46 UTC",
+  "updated": "2026-11-12T22:21:19.099848+00:00",
+  "updated_display": "12 Nov 2026, 22:21 UTC",
   "prices": {
     "TCS": {
       "price": 2472.1,
@@ -13,9 +13,9 @@
       "change": 0.1
     },
     "CTSH": {
-      "price": 64.65,
-      "display": "$64.65",
-      "change": 0.3
+      "price": 63.75,
+      "display": "$63.75",
+      "change": -1.1
     },
     "HCLT": {
       "price": 1395.0,
@@ -53,9 +53,9 @@
       "change": -1.4
     },
     "ACN": {
-      "price": 252.58,
-      "display": "$253",
-      "change": -0.4
+      "price": 249.95,
+      "display": "$250",
+      "change": -1.5
     },
     "CAP": {
       "price": 126.55,
@@ -68,14 +68,14 @@
       "change": -1.9
     },
     "DXC": {
-      "price": 14.9,
-      "display": "$14.90",
-      "change": -2.5
+      "price": 14.85,
+      "display": "$14.85",
+      "change": -2.8
     },
     "GIB": {
-      "price": 82.02,
-      "display": "$82.02",
-      "change": 1.1
+      "price": 81.81,
+      "display": "$81.81",
+      "change": 0.8
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -0.53
     },
     "SP500": {
-      "value": 7617.45,
-      "change": -0.03
+      "value": 7592.4,
+      "change": -0.35
     },
     "USD_INR": {
-      "value": 94.03,
-      "change": 0.11
+      "value": 94.04,
+      "change": 0.12
     },
     "EUR_INR": {
-      "value": 104.04,
-      "change": -0.75
+      "value": 103.99,
+      "change": -0.8
     }
   },
   "historical": {
@@ -433,7 +433,7 @@
         64.0,
         65.0,
         64.0,
-        65.0
+        64.0
       ],
       "dl": [
         "Oct 23",
@@ -1493,7 +1493,7 @@
         254.0,
         259.0,
         254.0,
-        253.0
+        250.0
       ],
       "dl": [
         "Oct 23",
@@ -2108,6 +2108,15 @@
   },
   "news": [
     {
+      "time": "2026-11-11 18:54",
+      "tk": "WIPRO",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Wipro Consumer Care targets Rs 20,000 cr revenue by FY30",
+      "detail": "Wipro Consumer Care & Lighting targets Rs 20,000 crore revenue by FY30, driven by organic growth and acquisitions, focusing on developing markets and digital-first brands.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/wipro-consumer-care-targets-rs-20000-cr-revenue-by-fy30/articleshow/135747438.cms"
+    },
+    {
       "time": "2026-11-11 08:45",
       "tk": "TCS",
       "src": "BusinessLine",
@@ -2115,6 +2124,24 @@
       "hl": "TCS bags Rio Marathon tech deal; stocks in red",
       "detail": "The partnership positions TCS as a technology enabler for Latin America\u2019s largest street running event, which recently earned its first World Athletics Elite Label",
       "url": "https://www.thehindubusinessline.com/markets/tcs-bags-rio-marathon-tech-deal-stocks-in-red/article71688805.ece"
+    },
+    {
+      "time": "2026-11-11 21:01",
+      "tk": "Sector",
+      "src": "CNA",
+      "cat": "DEAL",
+      "hl": "Australian companies face 'AI washing' claims after wave of job cuts, offshoring",
+      "detail": "SYDNEY, Nov 12 : Australia's blue-chip companies are increasingly invoking artificial intelligence as they cut jobs and move work offshore, unions and experts say, complicating the government's efforts to support employment in a slowing economy.On Tuesday, Qa\u2026",
+      "url": "https://www.channelnewsasia.com/business/australian-companies-face-ai-washing-claims-after-wave-job-cuts-offshoring-6543886"
+    },
+    {
+      "time": "2026-11-11 20:45",
+      "tk": "DXC",
+      "src": "Amazon.com",
+      "cat": "RESULTS",
+      "hl": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+      "detail": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrat\u2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/"
     },
     {
       "time": "2026-11-11 05:43",
@@ -2187,15 +2214,6 @@
       "hl": "Is Accenture Stock Becoming A Different Bet?",
       "detail": "For questions about this article or underlying research, email help@trefis.com.\nAccenture (ACN) stock costs you 18.3 times its earnings over the last twelve months, compared with 21.8 for the S&P 500, so you will want to know what growth you are buying. In Se\u2026",
       "url": "https://biztoc.com/x/470cb1ad8d7ac80c"
-    },
-    {
-      "time": "2026-11-10 20:58",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Accenture vs. Adobe: What Does Fluctuating vs. Steady Revenue Tell Investors?",
-      "detail": "Accenture: Experiencing Fluctuating Revenue Totals\nAccenture Ltd. (NYSE:ACN) primarily generates revenue by providing strategy, technology consulting, and operational services to enterprises worldwide.\nIt recently appointed a new chief marketing officer to it\u2026",
-      "url": "https://biztoc.com/x/d17c9fbc28ada7dc"
     }
   ],
   "quarterly": {
@@ -3073,9 +3091,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.105339,
-    "JPY": 0.006258,
-    "CAD": 0.70139,
-    "INR": 0.010635
+    "EUR": 1.105583,
+    "JPY": 0.006256,
+    "CAD": 0.701311,
+    "INR": 0.010634
   }
 }
