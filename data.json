@@ -1,103 +1,103 @@
 {
-  "updated": "2026-11-12T04:01:15.824443+00:00",
-  "updated_display": "12 Nov 2026, 04:01 UTC",
+  "updated": "2026-11-12T18:46:19.902034+00:00",
+  "updated_display": "12 Nov 2026, 18:46 UTC",
   "prices": {
     "TCS": {
-      "price": 2458.7,
-      "display": "\u20b92,459",
-      "change": -0.5
-    },
-    "INFY": {
-      "price": 1146.3,
-      "display": "\u20b91,146",
-      "change": -0.8
-    },
-    "CTSH": {
-      "price": 64.43,
-      "display": "$64.43",
-      "change": -0.9
-    },
-    "HCLT": {
-      "price": 1390.8,
-      "display": "\u20b91,391",
-      "change": -0.3
-    },
-    "WIPRO": {
-      "price": 196.17,
-      "display": "\u20b9196",
-      "change": -0.9
-    },
-    "TECHM": {
-      "price": 1777.4,
-      "display": "\u20b91,777",
-      "change": -0.6
-    },
-    "LTIM": {
-      "price": 4229.2,
-      "display": "\u20b94,229",
-      "change": 0.1
-    },
-    "MPHL": {
-      "price": 2402.4,
-      "display": "\u20b92,402",
-      "change": 0.5
-    },
-    "PSYS": {
-      "price": 5963.0,
-      "display": "\u20b95,963",
-      "change": -0.2
-    },
-    "COFG": {
-      "price": 2017.0,
-      "display": "\u20b92,017",
-      "change": -0.0
-    },
-    "ACN": {
-      "price": 253.66,
-      "display": "$254",
-      "change": -1.9
-    },
-    "CAP": {
-      "price": 123.2,
-      "display": "\u20ac123",
+      "price": 2472.1,
+      "display": "\u20b92,472",
       "change": -0.1
     },
+    "INFY": {
+      "price": 1155.0,
+      "display": "\u20b91,155",
+      "change": 0.1
+    },
+    "CTSH": {
+      "price": 64.65,
+      "display": "$64.65",
+      "change": 0.3
+    },
+    "HCLT": {
+      "price": 1395.0,
+      "display": "\u20b91,395",
+      "change": -0.9
+    },
+    "WIPRO": {
+      "price": 197.99,
+      "display": "\u20b9198",
+      "change": -0.5
+    },
+    "TECHM": {
+      "price": 1788.5,
+      "display": "\u20b91,788",
+      "change": -0.9
+    },
+    "LTIM": {
+      "price": 4224.8,
+      "display": "\u20b94,225",
+      "change": -2.2
+    },
+    "MPHL": {
+      "price": 2390.0,
+      "display": "\u20b92,390",
+      "change": -2.6
+    },
+    "PSYS": {
+      "price": 5973.5,
+      "display": "\u20b95,974",
+      "change": -1.1
+    },
+    "COFG": {
+      "price": 2017.5,
+      "display": "\u20b92,018",
+      "change": -1.4
+    },
+    "ACN": {
+      "price": 252.58,
+      "display": "$253",
+      "change": -0.4
+    },
+    "CAP": {
+      "price": 126.55,
+      "display": "\u20ac127",
+      "change": 2.1
+    },
     "ATOS": {
-      "price": 24.72,
-      "display": "\u20ac24.72",
-      "change": 0.2
+      "price": 24.04,
+      "display": "\u20ac24.04",
+      "change": -1.9
     },
     "DXC": {
-      "price": 15.27,
-      "display": "$15.27",
-      "change": -0.3
+      "price": 14.9,
+      "display": "$14.90",
+      "change": -2.5
     },
     "GIB": {
-      "price": 81.13,
-      "display": "$81.13",
-      "change": -1.7
+      "price": 82.02,
+      "display": "$82.02",
+      "change": 1.1
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 81856.9,
-      "change": -0.03
+      "value": 81879.4,
+      "change": 0.95
     },
     "NIFTY_IT": {
-      "value": 32135.75,
-      "change": -0.49
+      "value": 32295.6,
+      "change": -0.53
     },
     "SP500": {
-      "value": 7619.38,
-      "change": 1.31
+      "value": 7617.45,
+      "change": -0.03
     },
     "USD_INR": {
-      "value": 93.7,
-      "change": -0.24
+      "value": 94.03,
+      "change": 0.11
     },
     "EUR_INR": {
-      "value": 103.79,
-      "change": -0.99
+      "value": 104.04,
+      "change": -0.75
     }
   },
   "historical": {
@@ -167,8 +167,7 @@
         2496.0,
         2498.0,
         2475.0,
-        2472.0,
-        2459.0
+        2472.0
       ],
       "dl": [
         "Oct 23",
@@ -183,8 +182,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         3448.0,
@@ -301,8 +299,7 @@
         1167.0,
         1181.0,
         1154.0,
-        1155.0,
-        1146.0
+        1155.0
       ],
       "dl": [
         "Oct 23",
@@ -317,8 +314,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         1390.0,
@@ -436,7 +432,8 @@
         65.0,
         64.0,
         65.0,
-        64.0
+        64.0,
+        65.0
       ],
       "dl": [
         "Oct 23",
@@ -452,7 +449,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 10",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12"
       ],
       "mp": [
         72.0,
@@ -569,8 +567,7 @@
         1430.0,
         1440.0,
         1407.0,
-        1395.0,
-        1391.0
+        1395.0
       ],
       "dl": [
         "Oct 23",
@@ -585,8 +582,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         1303.0,
@@ -703,8 +699,7 @@
         198.0,
         198.0,
         199.0,
-        198.0,
-        196.0
+        198.0
       ],
       "dl": [
         "Oct 23",
@@ -719,8 +714,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         218.0,
@@ -837,8 +831,7 @@
         1823.0,
         1831.0,
         1805.0,
-        1788.0,
-        1777.0
+        1788.0
       ],
       "dl": [
         "Oct 23",
@@ -853,8 +846,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         1163.0,
@@ -971,8 +963,7 @@
         4393.0,
         4338.0,
         4318.0,
-        4225.0,
-        4228.0
+        4225.0
       ],
       "dl": [
         "Oct 23",
@@ -987,8 +978,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         6022.0,
@@ -1105,8 +1095,7 @@
         2510.0,
         2520.0,
         2455.0,
-        2390.0,
-        2402.0
+        2390.0
       ],
       "dl": [
         "Oct 23",
@@ -1121,8 +1110,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         2561.0,
@@ -1239,8 +1227,7 @@
         6110.0,
         6054.0,
         6040.0,
-        5974.0,
-        5963.0
+        5974.0
       ],
       "dl": [
         "Oct 23",
@@ -1255,8 +1242,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         3625.0,
@@ -1373,7 +1359,6 @@
         2079.0,
         2076.0,
         2047.0,
-        2018.0,
         2018.0
       ],
       "dl": [
@@ -1389,8 +1374,7 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11",
-        "Nov 12"
+        "Nov 11"
       ],
       "mp": [
         1222.0,
@@ -1508,7 +1492,8 @@
         260.0,
         254.0,
         259.0,
-        254.0
+        254.0,
+        253.0
       ],
       "dl": [
         "Oct 23",
@@ -1524,7 +1509,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 10",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12"
       ],
       "mp": [
         331.0,
@@ -1641,7 +1627,9 @@
         130.0,
         127.0,
         123.0,
-        123.0
+        123.0,
+        124.0,
+        127.0
       ],
       "dl": [
         "Oct 23",
@@ -1656,7 +1644,9 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 10"
+        "Nov 10",
+        "Nov 11",
+        "Nov 12"
       ],
       "mp": [
         176.0,
@@ -1773,7 +1763,9 @@
         25.0,
         25.0,
         25.0,
-        25.0
+        25.0,
+        24.0,
+        24.0
       ],
       "dl": [
         "Oct 23",
@@ -1788,7 +1780,9 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 10"
+        "Nov 10",
+        "Nov 11",
+        "Nov 12"
       ],
       "mp": [
         524.0,
@@ -1906,6 +1900,7 @@
         15.0,
         15.0,
         15.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1922,7 +1917,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 10",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12"
       ],
       "mp": [
         23.0,
@@ -2040,7 +2036,8 @@
         83.0,
         83.0,
         83.0,
-        81.0
+        81.0,
+        82.0
       ],
       "dl": [
         "Oct 23",
@@ -2056,7 +2053,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 10",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12"
       ],
       "mp": [
         106.0,
@@ -2110,22 +2108,22 @@
   },
   "news": [
     {
-      "time": "2026-11-11 00:30",
-      "tk": "CTSH",
-      "src": "Livemint",
-      "cat": "AI",
-      "hl": "Cognizant to tie job titles to AI adoption in major workforce revamp",
-      "detail": "According to an internal memo, the IT giant is introducing a three-tiered role architecture\u2014spanning current, evolving, and future states\u2014to match designations with how much work AI has taken over.",
-      "url": "https://www.livemint.com/companies/cognizant-to-tie-job-titles-to-ai-adoption-in-major-workforce-revamp-11794319497907.html"
+      "time": "2026-11-11 08:45",
+      "tk": "TCS",
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "TCS bags Rio Marathon tech deal; stocks in red",
+      "detail": "The partnership positions TCS as a technology enabler for Latin America\u2019s largest street running event, which recently earned its first World Athletics Elite Label",
+      "url": "https://www.thehindubusinessline.com/markets/tcs-bags-rio-marathon-tech-deal-stocks-in-red/article71688805.ece"
     },
     {
-      "time": "2026-11-10 22:30",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "RESULTS",
-      "hl": "Is Accenture Stock Becoming A Different Bet?",
-      "detail": "For questions about this article or underlying research, email help@trefis.com.\nAccenture (ACN) stock costs you 18.3 times its earnings over the last twelve months, compared with 21.8 for the S&P 500, so you will want to know what growth you are buying. In Se\u2026",
-      "url": "https://biztoc.com/x/470cb1ad8d7ac80c"
+      "time": "2026-11-11 05:43",
+      "tk": "COFG",
+      "src": "BusinessLine",
+      "cat": "ANALYST",
+      "hl": "MSCI November rejig: Coforge, LIC, Adani Green and Meesho stocks likely to be added",
+      "detail": "MSCI November index review could add Coforge, LIC, Adani Green Energy and Meesho, with potential large passive inflows and updates effective Nov 30.",
+      "url": "https://www.thehindubusinessline.com/markets/msci-november-rejig-coforge-lic-adani-green-and-meesho-stocks-likely-to-be-added/article71688448.ece"
     },
     {
       "time": "2026-11-10 07:59",
@@ -2146,6 +2144,24 @@
       "url": "https://biztoc.com/x/6b0e867f32c03dfe"
     },
     {
+      "time": "2026-11-11 13:52",
+      "tk": "Sector",
+      "src": "Crypto Briefing",
+      "cat": "ANALYST",
+      "hl": "Rox raises $100M at $1.3B valuation to take on Salesforce",
+      "detail": "Rox's funding surge signals a shift in enterprise software dynamics, challenging established giants and accelerating AI-driven sales innovation.\nThe post Rox raises $100M at $1.3B valuation to take on Salesforce appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/rox-raises-100m-ai-sales-salesforce/"
+    },
+    {
+      "time": "2026-11-11 00:30",
+      "tk": "CTSH",
+      "src": "Livemint",
+      "cat": "AI",
+      "hl": "Cognizant to tie job titles to AI adoption in major workforce revamp",
+      "detail": "According to an internal memo, the IT giant is introducing a three-tiered role architecture\u2014spanning current, evolving, and future states\u2014to match designations with how much work AI has taken over.",
+      "url": "https://www.livemint.com/companies/cognizant-to-tie-job-titles-to-ai-adoption-in-major-workforce-revamp-11794319497907.html"
+    },
+    {
       "time": "2026-11-10 11:46",
       "tk": "Sector",
       "src": "Inrng.com",
@@ -2164,6 +2180,15 @@
       "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/"
     },
     {
+      "time": "2026-11-10 22:30",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "RESULTS",
+      "hl": "Is Accenture Stock Becoming A Different Bet?",
+      "detail": "For questions about this article or underlying research, email help@trefis.com.\nAccenture (ACN) stock costs you 18.3 times its earnings over the last twelve months, compared with 21.8 for the S&P 500, so you will want to know what growth you are buying. In Se\u2026",
+      "url": "https://biztoc.com/x/470cb1ad8d7ac80c"
+    },
+    {
       "time": "2026-11-10 20:58",
       "tk": "ACN",
       "src": "Biztoc.com",
@@ -2171,15 +2196,6 @@
       "hl": "Accenture vs. Adobe: What Does Fluctuating vs. Steady Revenue Tell Investors?",
       "detail": "Accenture: Experiencing Fluctuating Revenue Totals\nAccenture Ltd. (NYSE:ACN) primarily generates revenue by providing strategy, technology consulting, and operational services to enterprises worldwide.\nIt recently appointed a new chief marketing officer to it\u2026",
       "url": "https://biztoc.com/x/d17c9fbc28ada7dc"
-    },
-    {
-      "time": "2026-11-10 13:03",
-      "tk": "CTSH",
-      "src": "Business Standard",
-      "cat": "AI",
-      "hl": "Cognizant sets up Claude Frontier group with over 25,000 professionals",
-      "detail": "The IT services firm also introduces a managed services model for Claude, aiming to help enterprises deploy, operate and scale AI systems securely across core business functions",
-      "url": "https://www.business-standard.com/companies/news/cognizant-sets-up-claude-frontier-group-with-over-25-000-professionals-126111000713_1.html"
     }
   ],
   "quarterly": {
@@ -3057,9 +3073,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.107788,
-    "JPY": 0.00626,
-    "CAD": 0.701321,
-    "INR": 0.010671
+    "EUR": 1.105339,
+    "JPY": 0.006258,
+    "CAD": 0.70139,
+    "INR": 0.010635
   }
 }
