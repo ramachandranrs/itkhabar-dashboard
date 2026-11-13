@@ -1,103 +1,103 @@
 {
-  "updated": "2026-11-13T03:30:29.802187+00:00",
-  "updated_display": "13 Nov 2026, 03:30 UTC",
+  "updated": "2026-11-13T18:28:20.177340+00:00",
+  "updated_display": "13 Nov 2026, 18:28 UTC",
   "prices": {
     "TCS": {
-      "price": 2442.4,
-      "display": "\u20b92,442",
-      "change": -1.2
+      "price": 2407.5,
+      "display": "\u20b92,408",
+      "change": -1.4
     },
     "INFY": {
-      "price": 1151.2,
-      "display": "\u20b91,151",
-      "change": -0.3
+      "price": 1141.5,
+      "display": "\u20b91,142",
+      "change": -0.8
     },
     "CTSH": {
-      "price": 63.75,
-      "display": "$63.75",
-      "change": -1.1
+      "price": 63.18,
+      "display": "$63.18",
+      "change": -0.9
     },
     "HCLT": {
-      "price": 1380.8,
-      "display": "\u20b91,381",
-      "change": -1.0
+      "price": 1378.0,
+      "display": "\u20b91,378",
+      "change": -0.2
     },
     "WIPRO": {
-      "price": 196.2,
-      "display": "\u20b9196",
-      "change": -0.9
+      "price": 194.6,
+      "display": "\u20b9195",
+      "change": -0.8
     },
     "TECHM": {
-      "price": 1788.5,
-      "display": "\u20b91,788",
-      "change": -0.9
+      "price": 1764.0,
+      "display": "\u20b91,764",
+      "change": -0.6
     },
     "LTIM": {
-      "price": 4224.8,
-      "display": "\u20b94,225",
-      "change": -2.2
+      "price": 4256.4,
+      "display": "\u20b94,256",
+      "change": -1.1
     },
     "MPHL": {
-      "price": 2410.0,
-      "display": "\u20b92,410",
-      "change": 0.8
+      "price": 2455.0,
+      "display": "\u20b92,455",
+      "change": 1.9
     },
     "PSYS": {
-      "price": 6030.0,
-      "display": "\u20b96,030",
-      "change": 0.9
+      "price": 6003.0,
+      "display": "\u20b96,003",
+      "change": -0.4
     },
     "COFG": {
-      "price": 2034.0,
-      "display": "\u20b92,034",
-      "change": 0.8
+      "price": 2028.0,
+      "display": "\u20b92,028",
+      "change": -0.3
     },
     "ACN": {
-      "price": 249.95,
-      "display": "$250",
-      "change": -1.5
+      "price": 253.07,
+      "display": "$253",
+      "change": 1.2
     },
     "CAP": {
-      "price": 123.95,
-      "display": "\u20ac124",
-      "change": 0.6
+      "price": 127.4,
+      "display": "\u20ac127",
+      "change": 0.7
     },
     "ATOS": {
-      "price": 24.5,
-      "display": "\u20ac24.50",
-      "change": -0.9
+      "price": 23.74,
+      "display": "\u20ac23.74",
+      "change": -1.2
     },
     "DXC": {
-      "price": 14.85,
-      "display": "$14.85",
-      "change": -2.8
+      "price": 14.93,
+      "display": "$14.93",
+      "change": 0.5
     },
     "GIB": {
-      "price": 81.81,
-      "display": "$81.81",
-      "change": 0.8
+      "price": 82.52,
+      "display": "$82.52",
+      "change": 0.9
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 81911.01,
-      "change": 0.04
+      "value": 81592.45,
+      "change": -0.39
     },
     "NIFTY_IT": {
-      "value": 32163.55,
-      "change": -0.41
+      "value": 31931.15,
+      "change": -0.72
     },
     "SP500": {
-      "value": 7592.4,
-      "change": -0.35
+      "value": 7543.57,
+      "change": -0.64
     },
     "USD_INR": {
-      "value": 94.03,
-      "change": 0.35
+      "value": 94.23,
+      "change": 0.57
     },
     "EUR_INR": {
-      "value": 104.02,
-      "change": 0.14
+      "value": 104.2,
+      "change": 0.31
     }
   },
   "historical": {
@@ -167,7 +167,8 @@
         2498.0,
         2475.0,
         2472.0,
-        2442.0
+        2442.0,
+        2408.0
       ],
       "dl": [
         "Oct 26",
@@ -182,7 +183,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         3448.0,
@@ -299,7 +301,8 @@
         1181.0,
         1154.0,
         1155.0,
-        1151.0
+        1151.0,
+        1142.0
       ],
       "dl": [
         "Oct 26",
@@ -314,7 +317,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         1390.0,
@@ -432,7 +436,8 @@
         64.0,
         65.0,
         64.0,
-        64.0
+        64.0,
+        63.0
       ],
       "dl": [
         "Oct 26",
@@ -448,7 +453,8 @@
         "Nov 9",
         "Nov 10",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         72.0,
@@ -565,7 +571,8 @@
         1440.0,
         1407.0,
         1395.0,
-        1381.0
+        1381.0,
+        1378.0
       ],
       "dl": [
         "Oct 26",
@@ -580,7 +587,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         1303.0,
@@ -697,7 +705,8 @@
         198.0,
         199.0,
         198.0,
-        196.0
+        196.0,
+        195.0
       ],
       "dl": [
         "Oct 26",
@@ -712,7 +721,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         218.0,
@@ -828,7 +838,9 @@
         1823.0,
         1831.0,
         1805.0,
-        1788.0
+        1788.0,
+        1774.0,
+        1764.0
       ],
       "dl": [
         "Oct 26",
@@ -842,7 +854,9 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         1163.0,
@@ -958,7 +972,9 @@
         4393.0,
         4338.0,
         4318.0,
-        4225.0
+        4225.0,
+        4304.0,
+        4256.0
       ],
       "dl": [
         "Oct 26",
@@ -972,7 +988,9 @@
         "Nov 5",
         "Nov 6",
         "Nov 9",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         6022.0,
@@ -1089,7 +1107,8 @@
         2520.0,
         2455.0,
         2390.0,
-        2410.0
+        2410.0,
+        2455.0
       ],
       "dl": [
         "Oct 26",
@@ -1104,7 +1123,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         2561.0,
@@ -1221,7 +1241,8 @@
         6054.0,
         6040.0,
         5974.0,
-        6030.0
+        6030.0,
+        6003.0
       ],
       "dl": [
         "Oct 26",
@@ -1236,7 +1257,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         3625.0,
@@ -1353,7 +1375,8 @@
         2076.0,
         2047.0,
         2018.0,
-        2034.0
+        2034.0,
+        2028.0
       ],
       "dl": [
         "Oct 26",
@@ -1368,7 +1391,8 @@
         "Nov 6",
         "Nov 9",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         1222.0,
@@ -1486,7 +1510,8 @@
         254.0,
         259.0,
         254.0,
-        250.0
+        250.0,
+        253.0
       ],
       "dl": [
         "Oct 26",
@@ -1502,7 +1527,8 @@
         "Nov 9",
         "Nov 10",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         331.0,
@@ -1619,7 +1645,9 @@
         127.0,
         123.0,
         123.0,
-        124.0
+        124.0,
+        127.0,
+        127.0
       ],
       "dl": [
         "Oct 26",
@@ -1634,7 +1662,9 @@
         "Nov 6",
         "Nov 9",
         "Nov 10",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         176.0,
@@ -1751,6 +1781,8 @@
         25.0,
         25.0,
         25.0,
+        24.0,
+        24.0,
         24.0
       ],
       "dl": [
@@ -1766,7 +1798,9 @@
         "Nov 6",
         "Nov 9",
         "Nov 10",
-        "Nov 11"
+        "Nov 11",
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         524.0,
@@ -1884,6 +1918,7 @@
         15.0,
         15.0,
         15.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1900,7 +1935,8 @@
         "Nov 9",
         "Nov 10",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         23.0,
@@ -2018,7 +2054,8 @@
         83.0,
         83.0,
         81.0,
-        82.0
+        82.0,
+        83.0
       ],
       "dl": [
         "Oct 26",
@@ -2034,7 +2071,8 @@
         "Nov 9",
         "Nov 10",
         "Nov 11",
-        "Nov 12"
+        "Nov 12",
+        "Nov 13"
       ],
       "mp": [
         106.0,
@@ -2088,13 +2126,49 @@
   },
   "news": [
     {
-      "time": "2026-11-11 21:01",
-      "tk": "Sector",
-      "src": "CNA",
+      "time": "2026-11-12 18:04",
+      "tk": "INFY",
+      "src": "The Times of India",
       "cat": "DEAL",
-      "hl": "Australian companies face 'AI washing' claims after wave of job cuts, offshoring",
-      "detail": "SYDNEY, Nov 12 : Australia's blue-chip companies are increasingly invoking artificial intelligence as they cut jobs and move work offshore, unions and experts say, complicating the government's efforts to support employment in a slowing economy.On Tuesday, Qa\u2026",
-      "url": "https://www.channelnewsasia.com/business/australian-companies-face-ai-washing-claims-after-wave-job-cuts-offshoring-6543886"
+      "hl": "India must create, not just adopt inventions, says NR Narayana Murthy at recorded address to Infosys Prize winners",
+      "detail": "NR Narayana Murthy urges India to create inventions, not just adopt them, calling for higher pay and respect for teachers and researchers and more education investment.",
+      "url": "https://timesofindia.indiatimes.com/city/bengaluru/india-must-create-not-just-adopt-inventions-says-nr-narayana-murthy-at-recorded-address-to-infosys-prize-winners/articleshow/135780043.cms"
+    },
+    {
+      "time": "2026-11-12 11:50",
+      "tk": "INFY",
+      "src": "Business Standard",
+      "cat": "DEAL",
+      "hl": "Indian firms must step up acquisitions to boost innovation: Gopalakrishnan",
+      "detail": "Infosys co-founder Kris Gopalakrishnan calls for greater private investment in research, more startup acquisitions and stronger efforts to turn scientific discoveries into products",
+      "url": "https://www.business-standard.com/companies/news/indian-firms-must-step-up-acquisitions-to-boost-innovation-gopalakrishnan-126111201221_1.html"
+    },
+    {
+      "time": "2026-11-12 09:01",
+      "tk": "CAP",
+      "src": "CNA",
+      "cat": "AI",
+      "hl": "Most large firms plan higher open-weight AI use to cap bills, study shows",
+      "detail": "Nov 12 : Nearly 6 in 10 senior executives at large companies plan to increase their use of cheaper open-weight AI models over the next year as AI bills overshoot budgets, a Capgemini study showed on Thursday.This trend echoes SAP, whose finance chief last mon\u2026",
+      "url": "https://www.channelnewsasia.com/business/most-large-firms-plan-higher-open-weight-ai-use-cap-bills-study-shows-6545551"
+    },
+    {
+      "time": "2026-11-12 06:00",
+      "tk": "Sector",
+      "src": "Insurance Journal",
+      "cat": "DEAL",
+      "hl": "Australian Companies Face \u2018AI Washing\u2019 Claims After Wave of Job Cuts, Offshoring",
+      "detail": "Australia\u2019s blue-chip companies are increasingly invoking artificial intelligence as they cut jobs and move work offshore, unions and experts say, complicating the government\u2019s efforts to support employment in a slowing economy. On Oct. 10, Qantas, Australia\u2019\u2026",
+      "url": "https://www.insurancejournal.com/news/international/2026/11/12/892331.htm"
+    },
+    {
+      "time": "2026-11-12 17:07",
+      "tk": "COFG",
+      "src": "Business Standard",
+      "cat": "MACRO",
+      "hl": "Four companies enter MSCI Standard Index; $2 bn passive inflows expected",
+      "detail": "MSCI's latest index rejig is expected to bring nearly $2 billion in passive inflows into Indian equities, with LIC, Coforge, Meesho and Adani Green among the additions.",
+      "url": "https://www.business-standard.com/markets/news/four-companies-enter-msci-standard-index-2-bn-passive-inflows-expected-126111201772_1.html"
     },
     {
       "time": "2026-11-12 02:44",
@@ -3017,9 +3091,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.106439,
-    "JPY": 0.006252,
-    "CAD": 0.701356,
-    "INR": 0.010635
+    "EUR": 1.103631,
+    "JPY": 0.006266,
+    "CAD": 0.70112,
+    "INR": 0.010612
   }
 }
