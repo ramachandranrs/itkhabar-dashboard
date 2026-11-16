@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-16T02:56:27.911418+00:00",
-  "updated_display": "16 Nov 2026, 02:56 UTC",
+  "updated": "2026-11-16T20:53:30.958584+00:00",
+  "updated_display": "16 Nov 2026, 20:53 UTC",
   "prices": {
     "TCS": {
       "price": 2407.5,
@@ -13,9 +13,9 @@
       "change": -0.8
     },
     "CTSH": {
-      "price": 63.01,
-      "display": "$63.01",
-      "change": -0.6
+      "price": 62.29,
+      "display": "$62.29",
+      "change": -1.1
     },
     "HCLT": {
       "price": 1378.0,
@@ -53,29 +53,29 @@
       "change": -0.3
     },
     "ACN": {
-      "price": 250.49,
-      "display": "$250",
-      "change": 0.2
-    },
-    "CAP": {
-      "price": 127.4,
-      "display": "\u20ac127",
-      "change": 0.7
-    },
-    "ATOS": {
-      "price": 23.74,
-      "display": "\u20ac23.74",
+      "price": 247.57,
+      "display": "$248",
       "change": -1.2
     },
+    "CAP": {
+      "price": 125.5,
+      "display": "\u20ac126",
+      "change": -1.5
+    },
+    "ATOS": {
+      "price": 23.26,
+      "display": "\u20ac23.26",
+      "change": -2.0
+    },
     "DXC": {
-      "price": 14.73,
-      "display": "$14.73",
-      "change": -0.8
+      "price": 14.65,
+      "display": "$14.65",
+      "change": -0.5
     },
     "GIB": {
-      "price": 81.79,
-      "display": "$81.79",
-      "change": -0.0
+      "price": 81.46,
+      "display": "$81.46",
+      "change": -0.4
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -0.72
     },
     "SP500": {
-      "value": 7561.67,
-      "change": -0.4
+      "value": 7413.9,
+      "change": -1.95
     },
     "USD_INR": {
-      "value": 94.23,
-      "change": 0.21
+      "value": 93.91,
+      "change": -0.13
     },
     "EUR_INR": {
-      "value": 103.86,
-      "change": 0.01
+      "value": 103.32,
+      "change": -0.51
     }
   },
   "historical": {
@@ -442,7 +442,8 @@
         65.0,
         64.0,
         63.0,
-        63.0
+        63.0,
+        62.0
       ],
       "dl": [
         "Oct 27",
@@ -458,7 +459,8 @@
         "Nov 10",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16"
       ],
       "mp": [
         71.0,
@@ -1532,7 +1534,8 @@
         259.0,
         254.0,
         250.0,
-        250.0
+        250.0,
+        248.0
       ],
       "dl": [
         "Oct 27",
@@ -1548,7 +1551,8 @@
         "Nov 10",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16"
       ],
       "mp": [
         331.0,
@@ -1670,7 +1674,8 @@
         123.0,
         124.0,
         127.0,
-        127.0
+        127.0,
+        126.0
       ],
       "dl": [
         "Oct 27",
@@ -1686,7 +1691,8 @@
         "Nov 10",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16"
       ],
       "mp": [
         176.0,
@@ -1808,7 +1814,8 @@
         25.0,
         24.0,
         24.0,
-        24.0
+        24.0,
+        23.0
       ],
       "dl": [
         "Oct 27",
@@ -1824,7 +1831,8 @@
         "Nov 10",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16"
       ],
       "mp": [
         524.0,
@@ -1946,6 +1954,7 @@
         15.0,
         15.0,
         15.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1962,7 +1971,8 @@
         "Nov 10",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16"
       ],
       "mp": [
         23.0,
@@ -2084,7 +2094,8 @@
         83.0,
         81.0,
         82.0,
-        82.0
+        82.0,
+        81.0
       ],
       "dl": [
         "Oct 27",
@@ -2100,7 +2111,8 @@
         "Nov 10",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16"
       ],
       "mp": [
         106.0,
@@ -2165,6 +2177,15 @@
       "url": "https://www.livemint.com/money/personal-finance/jioblackrock-flexi-cap-fund-13-new-stocks-added-including-hindustan-zinc-iifl-finance-21-exits-in-october-11794678075651.html"
     },
     {
+      "time": "2026-11-15 05:46",
+      "tk": "LTIM",
+      "src": "Pypi.org",
+      "cat": "AI",
+      "hl": "memtomem-stm 0.7.9",
+      "detail": "MCP proxy for AI agents: compresses and caches tool responses, and surfaces relevant memories from memtomem LTM",
+      "url": "https://pypi.org/project/memtomem-stm/0.7.9/"
+    },
+    {
       "time": "2026-11-14 19:40",
       "tk": "ACN",
       "src": "Biztoc.com",
@@ -2181,6 +2202,15 @@
       "hl": "AI relief fails to lift legacy IT stocks as earnings worries weigh",
       "detail": "The Indian IT sector has seen a rollercoaster of activity, where mid-sized companies have outperformed their larger peers recently. Increased deal bookings are promising, yet slow revenue growth due to client indecision lingers. The emergence of AI technology\u2026",
       "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-relief-fails-to-lift-legacy-it-stocks-as-earnings-worries-weigh/articleshow/135820139.cms"
+    },
+    {
+      "time": "2026-11-15 17:52",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "Oil, commodities drive corporate earnings to record high in Q2FY27",
+      "detail": "Corporate earnings hit a record high in Q2FY27, driven by oil and gas, metals and power companies, while pharma, cement, FMCG and IT services lagged amid margin pressures",
+      "url": "https://www.business-standard.com/markets/news/oil-commodities-drive-corporate-earnings-to-record-high-in-q2fy27-126111500633_1.html"
     },
     {
       "time": "2026-11-14 15:42",
@@ -3076,9 +3106,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.102414,
-    "JPY": 0.006261,
-    "CAD": 0.700447,
-    "INR": 0.010612
+    "EUR": 1.10011,
+    "JPY": 0.00627,
+    "CAD": 0.699428,
+    "INR": 0.010648
   }
 }
