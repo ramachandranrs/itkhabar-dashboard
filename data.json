@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-17T00:21:36.868222+00:00",
-  "updated_display": "17 Nov 2026, 00:21 UTC",
+  "updated": "2026-11-17T05:10:49.345051+00:00",
+  "updated_display": "17 Nov 2026, 05:10 UTC",
   "prices": {
     "TCS": {
-      "price": 2407.5,
-      "display": "\u20b92,408",
-      "change": -1.4
+      "price": 2438.0,
+      "display": "\u20b92,438",
+      "change": 1.4
     },
     "INFY": {
-      "price": 1141.5,
-      "display": "\u20b91,142",
-      "change": -0.8
+      "price": 1140.0,
+      "display": "\u20b91,140",
+      "change": -0.4
     },
     "CTSH": {
       "price": 62.29,
@@ -18,39 +18,39 @@
       "change": -1.1
     },
     "HCLT": {
-      "price": 1378.0,
-      "display": "\u20b91,378",
-      "change": -0.2
+      "price": 1370.3,
+      "display": "\u20b91,370",
+      "change": -1.0
     },
     "WIPRO": {
-      "price": 194.6,
-      "display": "\u20b9195",
-      "change": -0.8
-    },
-    "TECHM": {
-      "price": 1764.0,
-      "display": "\u20b91,764",
-      "change": -0.6
-    },
-    "LTIM": {
-      "price": 4256.4,
-      "display": "\u20b94,256",
+      "price": 192.52,
+      "display": "\u20b9193",
       "change": -1.1
     },
+    "TECHM": {
+      "price": 1756.0,
+      "display": "\u20b91,756",
+      "change": -0.5
+    },
+    "LTIM": {
+      "price": 4210.1,
+      "display": "\u20b94,210",
+      "change": 0.2
+    },
     "MPHL": {
-      "price": 2455.0,
-      "display": "\u20b92,455",
-      "change": 1.9
+      "price": 2431.9,
+      "display": "\u20b92,432",
+      "change": -0.9
     },
     "PSYS": {
-      "price": 6003.0,
-      "display": "\u20b96,003",
-      "change": -0.4
+      "price": 6015.0,
+      "display": "\u20b96,015",
+      "change": 0.2
     },
     "COFG": {
-      "price": 2028.0,
-      "display": "\u20b92,028",
-      "change": -0.3
+      "price": 2038.1,
+      "display": "\u20b92,038",
+      "change": 0.5
     },
     "ACN": {
       "price": 247.7,
@@ -80,24 +80,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 81592.45,
-      "change": -0.39
+      "value": 82529.13,
+      "change": 0.52
     },
     "NIFTY_IT": {
-      "value": 31931.15,
-      "change": -0.72
+      "value": 31935.9,
+      "change": -0.02
     },
     "SP500": {
       "value": 7416.59,
       "change": -1.92
     },
     "USD_INR": {
-      "value": 94.24,
-      "change": 0.22
+      "value": 93.65,
+      "change": -0.62
     },
     "EUR_INR": {
-      "value": 103.8,
-      "change": -0.05
+      "value": 103.07,
+      "change": -0.7
     }
   },
   "historical": {
@@ -168,7 +168,9 @@
         2475.0,
         2472.0,
         2442.0,
-        2408.0
+        2408.0,
+        2405.0,
+        2438.0
       ],
       "dl": [
         "Oct 28",
@@ -182,7 +184,9 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16",
+        "Nov 17"
       ],
       "mp": [
         3448.0,
@@ -302,7 +306,9 @@
         1154.0,
         1155.0,
         1151.0,
-        1142.0
+        1142.0,
+        1145.0,
+        1140.0
       ],
       "dl": [
         "Oct 28",
@@ -316,7 +322,9 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16",
+        "Nov 17"
       ],
       "mp": [
         1390.0,
@@ -574,7 +582,9 @@
         1407.0,
         1395.0,
         1381.0,
-        1378.0
+        1378.0,
+        1385.0,
+        1371.0
       ],
       "dl": [
         "Oct 28",
@@ -588,7 +598,9 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16",
+        "Nov 17"
       ],
       "mp": [
         1303.0,
@@ -708,7 +720,8 @@
         199.0,
         198.0,
         196.0,
-        195.0
+        195.0,
+        193.0
       ],
       "dl": [
         "Oct 28",
@@ -722,7 +735,8 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 17"
       ],
       "mp": [
         218.0,
@@ -842,7 +856,8 @@
         1805.0,
         1788.0,
         1774.0,
-        1764.0
+        1764.0,
+        1756.0
       ],
       "dl": [
         "Oct 28",
@@ -856,7 +871,8 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 17"
       ],
       "mp": [
         1163.0,
@@ -976,7 +992,9 @@
         4318.0,
         4225.0,
         4304.0,
-        4256.0
+        4256.0,
+        4200.0,
+        4210.0
       ],
       "dl": [
         "Oct 28",
@@ -990,7 +1008,9 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 16",
+        "Nov 17"
       ],
       "mp": [
         6022.0,
@@ -1110,7 +1130,8 @@
         2455.0,
         2390.0,
         2410.0,
-        2455.0
+        2455.0,
+        2432.0
       ],
       "dl": [
         "Oct 28",
@@ -1124,7 +1145,8 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 17"
       ],
       "mp": [
         2561.0,
@@ -1244,7 +1266,8 @@
         6040.0,
         5974.0,
         6030.0,
-        6003.0
+        6003.0,
+        6015.0
       ],
       "dl": [
         "Oct 28",
@@ -1258,7 +1281,8 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 17"
       ],
       "mp": [
         3625.0,
@@ -1378,7 +1402,8 @@
         2047.0,
         2018.0,
         2034.0,
-        2028.0
+        2028.0,
+        2038.0
       ],
       "dl": [
         "Oct 28",
@@ -1392,7 +1417,8 @@
         "Nov 9",
         "Nov 11",
         "Nov 12",
-        "Nov 13"
+        "Nov 13",
+        "Nov 17"
       ],
       "mp": [
         1222.0,
@@ -2141,6 +2167,15 @@
       "hl": "West Asia conflict weighs on India's mid-sized IT firms as clients defer spending",
       "detail": "LTM Ltd, Mphasis Ltd, Persistent Systems Ltd, and Hexaware Technologies Ltd have each called out geopolitical challenges due to the middle-east war during the post-earnings call last month.",
       "url": "https://www.livemint.com/industry/infotech/west-asia-war-israel-iran-indian-it-companie-11794732445196.html"
+    },
+    {
+      "time": "2026-11-16 02:30",
+      "tk": "LTIM",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "LTIMindtree Share Price Live Updates: LTIMindtree falls below its 20-day Simple Moving Average",
+      "detail": "Welcome to the LTIMindtree Stock Liveblog, your real-time source for the latest updates and comprehensive analysis on a prominent stock. Dive into the current details of LTIMindtree, including: Last traded price 4186.9, Market capitalization: 124735.2, Volume\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-stock-price-live-updates-16-nov-2026/liveblog/135870261.cms"
     },
     {
       "time": "2026-11-15 05:46",
@@ -3036,9 +3071,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.099989,
-    "JPY": 0.006272,
-    "CAD": 0.699301,
-    "INR": 0.010611
+    "EUR": 1.100958,
+    "JPY": 0.006282,
+    "CAD": 0.699198,
+    "INR": 0.010678
   }
 }
