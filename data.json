@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T19:19:08.771114+00:00",
-  "updated_display": "18 Nov 2026, 19:19 UTC",
+  "updated": "2026-11-18T22:59:38.773678+00:00",
+  "updated_display": "18 Nov 2026, 22:59 UTC",
   "prices": {
     "TCS": {
       "price": 2406.6,
@@ -13,9 +13,9 @@
       "change": -1.3
     },
     "CTSH": {
-      "price": 58.14,
-      "display": "$58.14",
-      "change": -3.1
+      "price": 57.95,
+      "display": "$57.95",
+      "change": -3.4
     },
     "HCLT": {
       "price": 1355.7,
@@ -53,9 +53,9 @@
       "change": 1.5
     },
     "ACN": {
-      "price": 230.34,
-      "display": "$230",
-      "change": -3.7
+      "price": 227.49,
+      "display": "$227",
+      "change": -4.9
     },
     "CAP": {
       "price": 119.25,
@@ -68,14 +68,14 @@
       "change": -0.9
     },
     "DXC": {
-      "price": 14.38,
-      "display": "$14.38",
+      "price": 14.37,
+      "display": "$14.37",
       "change": 0.8
     },
     "GIB": {
-      "price": 80.69,
-      "display": "$80.69",
-      "change": 0.3
+      "price": 80.29,
+      "display": "$80.29",
+      "change": -0.2
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -0.9
     },
     "SP500": {
-      "value": 7327.21,
-      "change": -0.18
+      "value": 7323.63,
+      "change": -0.23
     },
     "USD_INR": {
-      "value": 93.45,
-      "change": -0.55
+      "value": 93.46,
+      "change": -0.54
     },
     "EUR_INR": {
-      "value": 102.56,
-      "change": -0.65
+      "value": 102.6,
+      "change": -0.61
     }
   },
   "historical": {
@@ -1535,7 +1535,7 @@
         250.0,
         248.0,
         239.0,
-        230.0
+        227.0
       ],
       "dl": [
         "Oct 29",
@@ -2095,7 +2095,7 @@
         82.0,
         81.0,
         80.0,
-        81.0
+        80.0
       ],
       "dl": [
         "Oct 29",
@@ -2177,6 +2177,15 @@
       "url": "https://www.thehindubusinessline.com/info-tech/indian-it-recalibrates-workforce-mix-as-utilisation-trends-diverge-in-q2/article71710933.ece"
     },
     {
+      "time": "2026-11-17 20:19",
+      "tk": "CTSH",
+      "src": "Yahoo Entertainment",
+      "cat": "MACRO",
+      "hl": "Jack Nicklaus to meet PGA Tour leaders over Cognizant Classic future",
+      "detail": "\u201cDo you want to have a tournament or don\u2019t want to have a tournament?\u201d Jack Nicklaus weighs in on the Cognizant Classic\u2019s future.",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_80048c32-af51-41b6-b40e-5a3477280310"
+    },
+    {
       "time": "2026-11-17 18:32",
       "tk": "ACN",
       "src": "Crypto Briefing",
@@ -2184,15 +2193,6 @@
       "hl": "Microsoft launches AI transparency initiative with Accenture, Adobe, KPMG, Mastercard, and Volvo Cars",
       "detail": "The initiative could set a precedent for industry-wide AI standards, enhancing accountability and compliance across diverse sectors.\nThe post Microsoft launches AI transparency initiative with Accenture, Adobe, KPMG, Mastercard, and Volvo Cars appeared first \u2026",
       "url": "https://cryptobriefing.com/microsoft-ai-transparency-initiative-ignite/"
-    },
-    {
-      "time": "2026-11-17 10:46",
-      "tk": "ACN",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "Accenture LearnVantage, Google Cloud partner to bring AI learning to 1,000+ Indian institutions",
-      "detail": "Accenture LearnVantage and Google Cloud have announced a strategic collaboration to expand artificial intelligence (AI) education across India, with plans",
-      "url": "https://timesofindia.indiatimes.com/technology/aiq/accenture-learnvantage-google-cloud-partner-to-bring-ai-learning-to-1000-indian-institutions/articleshow/135921291.cms"
     },
     {
       "time": "2026-11-17 04:20",
@@ -3142,9 +3142,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.097213,
-    "JPY": 0.006275,
-    "CAD": 0.697983,
-    "INR": 0.010701
+    "EUR": 1.097815,
+    "JPY": 0.006278,
+    "CAD": 0.698178,
+    "INR": 0.0107
   }
 }
