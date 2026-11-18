@@ -1,103 +1,103 @@
 {
-  "updated": "2026-11-18T04:38:40.324062+00:00",
-  "updated_display": "18 Nov 2026, 04:38 UTC",
+  "updated": "2026-11-18T19:19:08.771114+00:00",
+  "updated_display": "18 Nov 2026, 19:19 UTC",
   "prices": {
     "TCS": {
-      "price": 2401.6,
-      "display": "\u20b92,402",
-      "change": -0.2
+      "price": 2406.6,
+      "display": "\u20b92,407",
+      "change": 0.1
     },
     "INFY": {
-      "price": 1121.7,
-      "display": "\u20b91,122",
-      "change": -0.7
+      "price": 1130.0,
+      "display": "\u20b91,130",
+      "change": -1.3
     },
     "CTSH": {
-      "price": 60.0,
-      "display": "$60.00",
-      "change": -3.7
+      "price": 58.14,
+      "display": "$58.14",
+      "change": -3.1
     },
     "HCLT": {
-      "price": 1351.4,
-      "display": "\u20b91,351",
-      "change": -0.3
+      "price": 1355.7,
+      "display": "\u20b91,356",
+      "change": -2.1
     },
     "WIPRO": {
-      "price": 187.89,
-      "display": "\u20b9188",
-      "change": -1.1
+      "price": 189.89,
+      "display": "\u20b9190",
+      "change": -1.9
     },
     "TECHM": {
-      "price": 1760.0,
-      "display": "\u20b91,760",
-      "change": -0.1
+      "price": 1762.0,
+      "display": "\u20b91,762",
+      "change": -0.8
     },
     "LTIM": {
-      "price": 4130.6,
-      "display": "\u20b94,131",
-      "change": -1.6
+      "price": 4118.0,
+      "display": "\u20b94,118",
+      "change": -1.9
     },
     "MPHL": {
-      "price": 2402.7,
-      "display": "\u20b92,403",
-      "change": -1.2
-    },
-    "PSYS": {
-      "price": 5877.0,
-      "display": "\u20b95,877",
-      "change": -1.7
-    },
-    "COFG": {
-      "price": 2052.0,
-      "display": "\u20b92,052",
+      "price": 2445.0,
+      "display": "\u20b92,445",
       "change": 0.5
     },
+    "PSYS": {
+      "price": 5911.0,
+      "display": "\u20b95,911",
+      "change": -1.1
+    },
+    "COFG": {
+      "price": 2041.0,
+      "display": "\u20b92,041",
+      "change": 1.5
+    },
     "ACN": {
-      "price": 239.28,
-      "display": "$239",
-      "change": -3.4
+      "price": 230.34,
+      "display": "$230",
+      "change": -3.7
     },
     "CAP": {
-      "price": 125.5,
-      "display": "\u20ac126",
-      "change": -1.5
+      "price": 119.25,
+      "display": "\u20ac119",
+      "change": -1.2
     },
     "ATOS": {
-      "price": 23.26,
-      "display": "\u20ac23.26",
-      "change": -2.0
+      "price": 22.04,
+      "display": "\u20ac22.04",
+      "change": -0.9
     },
     "DXC": {
-      "price": 14.26,
-      "display": "$14.26",
-      "change": -2.7
+      "price": 14.38,
+      "display": "$14.38",
+      "change": 0.8
     },
     "GIB": {
-      "price": 80.42,
-      "display": "$80.42",
-      "change": -1.2
+      "price": 80.69,
+      "display": "$80.69",
+      "change": 0.3
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 82215.84,
-      "change": -0.38
+      "value": 82532.19,
+      "change": 0.52
     },
     "NIFTY_IT": {
-      "value": 31517.45,
-      "change": -0.43
+      "value": 31654.1,
+      "change": -0.9
     },
     "SP500": {
-      "value": 7340.53,
-      "change": -1.03
+      "value": 7327.21,
+      "change": -0.18
     },
     "USD_INR": {
-      "value": 93.32,
-      "change": -0.69
+      "value": 93.45,
+      "change": -0.55
     },
     "EUR_INR": {
-      "value": 102.54,
-      "change": -0.66
+      "value": 102.56,
+      "change": -0.65
     }
   },
   "historical": {
@@ -169,8 +169,7 @@
         2442.0,
         2408.0,
         2405.0,
-        2407.0,
-        2402.0
+        2407.0
       ],
       "dl": [
         "Oct 29",
@@ -185,8 +184,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         3448.0,
@@ -307,8 +305,7 @@
         1151.0,
         1142.0,
         1145.0,
-        1130.0,
-        1122.0
+        1130.0
       ],
       "dl": [
         "Oct 29",
@@ -323,8 +320,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         1390.0,
@@ -446,7 +442,8 @@
         63.0,
         63.0,
         62.0,
-        60.0
+        60.0,
+        58.0
       ],
       "dl": [
         "Oct 29",
@@ -462,7 +459,8 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17"
+        "Nov 17",
+        "Nov 18"
       ],
       "mp": [
         71.0,
@@ -583,8 +581,7 @@
         1381.0,
         1378.0,
         1385.0,
-        1356.0,
-        1351.0
+        1356.0
       ],
       "dl": [
         "Oct 29",
@@ -599,8 +596,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         1303.0,
@@ -721,8 +717,7 @@
         196.0,
         195.0,
         194.0,
-        190.0,
-        188.0
+        190.0
       ],
       "dl": [
         "Oct 29",
@@ -737,8 +732,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         218.0,
@@ -859,8 +853,7 @@
         1774.0,
         1764.0,
         1776.0,
-        1762.0,
-        1760.0
+        1762.0
       ],
       "dl": [
         "Oct 29",
@@ -875,8 +868,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         1163.0,
@@ -997,7 +989,7 @@
         4304.0,
         4256.0,
         4200.0,
-        4127.0
+        4118.0
       ],
       "dl": [
         "Oct 29",
@@ -1012,7 +1004,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         6022.0,
@@ -1133,7 +1125,7 @@
         2410.0,
         2455.0,
         2433.0,
-        2403.0
+        2445.0
       ],
       "dl": [
         "Oct 29",
@@ -1148,7 +1140,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         2561.0,
@@ -1269,7 +1261,7 @@
         6030.0,
         6003.0,
         5978.0,
-        5876.0
+        5911.0
       ],
       "dl": [
         "Oct 29",
@@ -1284,7 +1276,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         3625.0,
@@ -1405,8 +1397,7 @@
         2034.0,
         2028.0,
         2010.0,
-        2041.0,
-        2052.0
+        2041.0
       ],
       "dl": [
         "Oct 29",
@@ -1421,8 +1412,7 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17",
-        "Nov 18"
+        "Nov 17"
       ],
       "mp": [
         1222.0,
@@ -1544,7 +1534,8 @@
         250.0,
         250.0,
         248.0,
-        239.0
+        239.0,
+        230.0
       ],
       "dl": [
         "Oct 29",
@@ -1560,7 +1551,8 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17"
+        "Nov 17",
+        "Nov 18"
       ],
       "mp": [
         331.0,
@@ -1681,7 +1673,9 @@
         124.0,
         127.0,
         127.0,
-        126.0
+        126.0,
+        121.0,
+        119.0
       ],
       "dl": [
         "Oct 29",
@@ -1696,7 +1690,9 @@
         "Nov 11",
         "Nov 12",
         "Nov 13",
-        "Nov 16"
+        "Nov 16",
+        "Nov 17",
+        "Nov 18"
       ],
       "mp": [
         176.0,
@@ -1817,7 +1813,9 @@
         24.0,
         24.0,
         24.0,
-        23.0
+        23.0,
+        22.0,
+        22.0
       ],
       "dl": [
         "Oct 29",
@@ -1832,7 +1830,9 @@
         "Nov 11",
         "Nov 12",
         "Nov 13",
-        "Nov 16"
+        "Nov 16",
+        "Nov 17",
+        "Nov 18"
       ],
       "mp": [
         524.0,
@@ -1954,6 +1954,7 @@
         15.0,
         15.0,
         15.0,
+        14.0,
         14.0
       ],
       "dl": [
@@ -1970,7 +1971,8 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17"
+        "Nov 17",
+        "Nov 18"
       ],
       "mp": [
         23.0,
@@ -2092,7 +2094,8 @@
         82.0,
         82.0,
         81.0,
-        80.0
+        80.0,
+        81.0
       ],
       "dl": [
         "Oct 29",
@@ -2108,7 +2111,8 @@
         "Nov 12",
         "Nov 13",
         "Nov 16",
-        "Nov 17"
+        "Nov 17",
+        "Nov 18"
       ],
       "mp": [
         106.0,
@@ -2164,6 +2168,33 @@
   },
   "news": [
     {
+      "time": "2026-11-17 10:42",
+      "tk": "CTSH",
+      "src": "BusinessLine",
+      "cat": "RESULTS",
+      "hl": "Indian IT recalibrates workforce mix as utilisation trends diverge in Q2",
+      "detail": "Among firms that report the metric in their quarterly financials, utilisation mix has seen both massive spikes, as in the case of companies like Tech Mahindra and Cognizant while others like Wipro and LTM have also seen significant declines.",
+      "url": "https://www.thehindubusinessline.com/info-tech/indian-it-recalibrates-workforce-mix-as-utilisation-trends-diverge-in-q2/article71710933.ece"
+    },
+    {
+      "time": "2026-11-17 18:32",
+      "tk": "ACN",
+      "src": "Crypto Briefing",
+      "cat": "AI",
+      "hl": "Microsoft launches AI transparency initiative with Accenture, Adobe, KPMG, Mastercard, and Volvo Cars",
+      "detail": "The initiative could set a precedent for industry-wide AI standards, enhancing accountability and compliance across diverse sectors.\nThe post Microsoft launches AI transparency initiative with Accenture, Adobe, KPMG, Mastercard, and Volvo Cars appeared first \u2026",
+      "url": "https://cryptobriefing.com/microsoft-ai-transparency-initiative-ignite/"
+    },
+    {
+      "time": "2026-11-17 10:46",
+      "tk": "ACN",
+      "src": "The Times of India",
+      "cat": "DEAL",
+      "hl": "Accenture LearnVantage, Google Cloud partner to bring AI learning to 1,000+ Indian institutions",
+      "detail": "Accenture LearnVantage and Google Cloud have announced a strategic collaboration to expand artificial intelligence (AI) education across India, with plans",
+      "url": "https://timesofindia.indiatimes.com/technology/aiq/accenture-learnvantage-google-cloud-partner-to-bring-ai-learning-to-1000-indian-institutions/articleshow/135921291.cms"
+    },
+    {
       "time": "2026-11-17 04:20",
       "tk": "INFY",
       "src": "BusinessLine",
@@ -2180,24 +2211,6 @@
       "hl": "ITC sees biggest addition to mutual fund portfolios in October 2026; Swiggy records sharpest value erosion: Full list",
       "detail": "Mutual fund holdings saw sharp value changes in October, with Bharti Airtel, Infosys and ITC recording the biggest increases, while Swiggy saw the steepest value declines. But were these changes driven by buying and selling or stock price movements? Here\u2019s wh\u2026",
       "url": "https://www.livemint.com/money/personal-finance/itc-sees-biggest-addition-to-mutual-fund-portfolios-in-october-2026-swiggy-records-sharpest-value-erosion-full-list-11794882906857.html"
-    },
-    {
-      "time": "2026-11-17 03:51",
-      "tk": "TCS",
-      "src": "Theregister.com",
-      "cat": "MACRO",
-      "hl": "350 tech jobs hammered as TCS takes over work at iconic Australian retailer",
-      "detail": "Bunnings Warehouse needs a technology model its current employees somehow can\u2019t deliver",
-      "url": "https://www.theregister.com/channel/2026/11/17/350-tech-jobs-hammered-as-tcs-takes-over-work-at-iconic-australian-retailer/5310324"
-    },
-    {
-      "time": "2026-11-17 04:22",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "AI",
-      "hl": "Stock May Trade At A Discount On Fresh AI Outsourcing News",
-      "detail": "Accenture has delivered a mixed ride for shareholders, with the stock down 24.6% over the past 5 years even as the company features heavily in headlines about AI driven consulting and digital transformation work. With the shares most recently closing at US$24\u2026",
-      "url": "https://biztoc.com/x/9f06954b53ada300"
     },
     {
       "time": "2026-11-16 14:57",
@@ -2227,6 +2240,15 @@
       "url": "https://www.thefly.com/aexay"
     },
     {
+      "time": "2026-11-17 06:04",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "cat": "PEOPLE",
+      "hl": "IT weight in mutual fund portfolios rises to 7-month high of 6.8%",
+      "detail": "The increase was largely driven by mark-to-market gains as the Nifty IT index rallied nearly 17 per cent in October, even as funds sold some large-cap IT stocks",
+      "url": "https://www.business-standard.com/markets/mutual-fund/mutual-funds-it-sector-weight-october-2026-infosys-hcl-tcs-126111700331_1.html"
+    },
+    {
       "time": "2026-11-17 03:14",
       "tk": "Sector",
       "src": "Business Standard",
@@ -2236,13 +2258,13 @@
       "url": "https://www.business-standard.com/markets/news/nifty-it-rebounds-21-in-over-4-months-dead-cat-bounce-or-trend-reversal-126111601257_1.html"
     },
     {
-      "time": "2026-11-16 14:00",
-      "tk": "ACN",
-      "src": "Fortune",
-      "cat": "AI",
-      "hl": "Most work doesn\u2019t need the Ferrari of AI, Wharton and Accenture find, but companies may be paying for it anyway",
-      "detail": "Most of the work companies want AI agents to do could easily run on cheaper models but some are using their most expensive model for anything and everything.",
-      "url": "https://fortune.com/2026/11/16/ai-ferrari-profit-loss-wharton-accenture/"
+      "time": "2026-11-17 05:48",
+      "tk": "TECHM",
+      "src": "Business Standard",
+      "cat": "PEOPLE",
+      "hl": "M&M, Airtel, TechM, HDFC Bank lead Nifty's 3100 pts rally; more steam left?",
+      "detail": "Nifty Rally: Nifty 50 has surged 3,111 points, or 14 per cent, from its October low of 22,179.90.",
+      "url": "https://www.business-standard.com/markets/news/m-m-airtel-techm-hdfc-bank-lead-nifty-s-3100-pts-rally-more-steam-left-126111700263_1.html"
     }
   ],
   "quarterly": {
@@ -3120,9 +3142,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.099143,
-    "JPY": 0.006279,
-    "CAD": 0.698885,
-    "INR": 0.010716
+    "EUR": 1.097213,
+    "JPY": 0.006275,
+    "CAD": 0.697983,
+    "INR": 0.010701
   }
 }
