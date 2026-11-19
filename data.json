@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T19:26:20.236319+00:00",
-  "updated_display": "19 Nov 2026, 19:26 UTC",
+  "updated": "2026-11-19T23:08:03.078619+00:00",
+  "updated_display": "19 Nov 2026, 23:08 UTC",
   "prices": {
     "TCS": {
       "price": 2379.5,
@@ -13,9 +13,9 @@
       "change": -1.9
     },
     "CTSH": {
-      "price": 56.65,
-      "display": "$56.65",
-      "change": -2.2
+      "price": 56.31,
+      "display": "$56.31",
+      "change": -2.8
     },
     "HCLT": {
       "price": 1344.7,
@@ -53,29 +53,29 @@
       "change": 0.4
     },
     "ACN": {
-      "price": 219.39,
+      "price": 218.58,
       "display": "$219",
-      "change": -3.6
+      "change": -3.9
     },
     "CAP": {
-      "price": 116.05,
-      "display": "\u20ac116",
-      "change": -2.7
+      "price": 119.25,
+      "display": "\u20ac119",
+      "change": -1.2
     },
     "ATOS": {
-      "price": 21.74,
-      "display": "\u20ac21.74",
-      "change": -1.4
+      "price": 22.04,
+      "display": "\u20ac22.04",
+      "change": -0.9
     },
     "DXC": {
-      "price": 13.49,
-      "display": "$13.49",
-      "change": -6.1
+      "price": 13.33,
+      "display": "$13.33",
+      "change": -7.2
     },
     "GIB": {
-      "price": 78.49,
-      "display": "$78.49",
-      "change": -2.2
+      "price": 78.25,
+      "display": "$78.25",
+      "change": -2.5
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -1.24
     },
     "SP500": {
-      "value": 7221.64,
-      "change": -1.39
+      "value": 7175.83,
+      "change": -2.02
     },
     "USD_INR": {
       "value": 93.28,
       "change": -0.21
     },
     "EUR_INR": {
-      "value": 102.43,
-      "change": -0.24
+      "value": 102.35,
+      "change": -0.32
     }
   },
   "historical": {
@@ -433,7 +433,7 @@
         62.0,
         60.0,
         58.0,
-        57.0
+        56.0
       ],
       "dl": [
         "Oct 30",
@@ -1628,8 +1628,7 @@
         127.0,
         126.0,
         121.0,
-        119.0,
-        116.0
+        119.0
       ],
       "dl": [
         "Oct 30",
@@ -1645,8 +1644,7 @@
         "Nov 13",
         "Nov 16",
         "Nov 17",
-        "Nov 18",
-        "Nov 19"
+        "Nov 18"
       ],
       "mp": [
         176.0,
@@ -1764,7 +1762,6 @@
         24.0,
         23.0,
         22.0,
-        22.0,
         22.0
       ],
       "dl": [
@@ -1781,8 +1778,7 @@
         "Nov 13",
         "Nov 16",
         "Nov 17",
-        "Nov 18",
-        "Nov 19"
+        "Nov 18"
       ],
       "mp": [
         524.0,
@@ -3073,9 +3069,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.097815,
-    "JPY": 0.006259,
-    "CAD": 0.6977,
+    "EUR": 1.097213,
+    "JPY": 0.006266,
+    "CAD": 0.697374,
     "INR": 0.01072
   }
 }
