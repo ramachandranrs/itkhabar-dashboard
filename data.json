@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T19:01:29.707349+00:00",
-  "updated_display": "20 Nov 2026, 19:01 UTC",
+  "updated": "2026-11-20T22:44:17.581035+00:00",
+  "updated_display": "20 Nov 2026, 22:44 UTC",
   "prices": {
     "TCS": {
       "price": 2342.7,
@@ -13,9 +13,9 @@
       "change": -1.5
     },
     "CTSH": {
-      "price": 58.72,
-      "display": "$58.72",
-      "change": 4.3
+      "price": 58.06,
+      "display": "$58.06",
+      "change": 3.1
     },
     "HCLT": {
       "price": 1332.9,
@@ -53,9 +53,9 @@
       "change": -0.4
     },
     "ACN": {
-      "price": 224.4,
-      "display": "$224",
-      "change": 2.7
+      "price": 221.17,
+      "display": "$221",
+      "change": 1.2
     },
     "CAP": {
       "price": 117.7,
@@ -68,14 +68,14 @@
       "change": -6.1
     },
     "DXC": {
-      "price": 13.77,
-      "display": "$13.77",
-      "change": 3.3
+      "price": 13.67,
+      "display": "$13.67",
+      "change": 2.6
     },
     "GIB": {
-      "price": 79.85,
-      "display": "$79.85",
-      "change": 2.0
+      "price": 79.28,
+      "display": "$79.28",
+      "change": 1.3
     }
   },
   "indices": {
@@ -88,16 +88,16 @@
       "change": -1.1
     },
     "SP500": {
-      "value": 7029.27,
-      "change": -2.04
+      "value": 6910.39,
+      "change": -3.7
     },
     "USD_INR": {
-      "value": 92.67,
-      "change": -0.85
+      "value": 92.66,
+      "change": -0.86
     },
     "EUR_INR": {
-      "value": 101.66,
-      "change": -0.78
+      "value": 101.6,
+      "change": -0.85
     }
   },
   "historical": {
@@ -433,7 +433,7 @@
         60.0,
         58.0,
         56.0,
-        59.0
+        58.0
       ],
       "dl": [
         "Nov 2",
@@ -1493,7 +1493,7 @@
         239.0,
         227.0,
         219.0,
-        224.0
+        221.0
       ],
       "dl": [
         "Nov 2",
@@ -2037,7 +2037,7 @@
         80.0,
         80.0,
         78.0,
-        80.0
+        79.0
       ],
       "dl": [
         "Nov 2",
@@ -2126,6 +2126,15 @@
       "url": "https://www.livemint.com/companies/why-indian-it-firms-are-losing-ground-to-global-tech-giants-11795082531526.html"
     },
     {
+      "time": "2026-11-19 20:19",
+      "tk": "CTSH",
+      "src": "Golferinsight.com",
+      "cat": "MACRO",
+      "hl": "Nicklaus Meets Tour Chiefs Over Cognizant Classic Future",
+      "detail": "Jack Nicklaus meets PGA Tour officials this week to fight for the Cognizant Classic, while players face relegation fears in the new tier system.",
+      "url": "https://golferinsight.com/nicklaus-meets-tour-chiefs-over-cognizant-classic-future/"
+    },
+    {
       "time": "2026-11-19 18:48",
       "tk": "ACN",
       "src": "Amazon.com",
@@ -2133,24 +2142,6 @@
       "hl": "Optimize AI economics on Amazon Bedrock with Accenture\u2019s sequenced approach",
       "detail": "As enterprises scale AI on Amazon Bedrock, token spend can grow even as per-token prices fall. This post walks through six composable optimization levers, shows how Accenture applied them across four client engagements, and recommends a sequence for cutting A\u2026",
       "url": "https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/"
-    },
-    {
-      "time": "2026-11-19 16:39",
-      "tk": "ACN",
-      "src": "Crypto Briefing",
-      "cat": "DEAL",
-      "hl": "Accenture plans to cut 950 Meta-linked jobs in Portugal",
-      "detail": "The job cuts highlight the growing impact of AI on employment, signaling a shift in how companies manage content moderation and operational efficiency.\nThe post Accenture plans to cut 950 Meta-linked jobs in Portugal appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/accenture-cuts-950-meta-jobs-portugal/"
-    },
-    {
-      "time": "2026-11-19 13:09",
-      "tk": "CTSH",
-      "src": "The Times of India",
-      "cat": "AI",
-      "hl": "Cognizant opens 165,000 sq ft learning centre in Chennai to train staff in AI",
-      "detail": "Cognizant has launched an AI learning center at its Siruseri campus in Chennai. The facility encompasses 165,000 square feet with various classrooms and collaborative spaces. It aims to help employees enhance their AI expertise for client projects. The openin\u2026",
-      "url": "https://timesofindia.indiatimes.com/technology/aiq/cognizant-opens-165000-sq-ft-learning-centre-in-chennai-to-train-staff-in-ai/articleshow/135992331.cms"
     },
     {
       "time": "2026-11-19 07:58",
@@ -3055,9 +3046,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.097213,
-    "JPY": 0.006296,
-    "CAD": 0.697769,
-    "INR": 0.010791
+    "EUR": 1.097454,
+    "JPY": 0.006309,
+    "CAD": 0.697399,
+    "INR": 0.010792
   }
 }
