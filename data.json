@@ -1,81 +1,81 @@
 {
-  "updated": "2026-11-23T03:53:41.389728+00:00",
-  "updated_display": "23 Nov 2026, 03:53 UTC",
+  "updated": "2026-11-23T22:30:24.106720+00:00",
+  "updated_display": "23 Nov 2026, 22:30 UTC",
   "prices": {
     "TCS": {
-      "price": 2426.5,
-      "display": "\u20b92,426",
-      "change": 2.1
+      "price": 2376.2,
+      "display": "\u20b92,376",
+      "change": 1.4
     },
     "INFY": {
-      "price": 1114.5,
-      "display": "\u20b91,114",
-      "change": 1.5
+      "price": 1098.0,
+      "display": "\u20b91,098",
+      "change": 0.6
     },
     "CTSH": {
-      "price": 58.06,
-      "display": "$58.06",
-      "change": 3.1
+      "price": 58.57,
+      "display": "$58.57",
+      "change": 0.9
     },
     "HCLT": {
-      "price": 1360.2,
-      "display": "\u20b91,360",
-      "change": 1.2
+      "price": 1344.4,
+      "display": "\u20b91,344",
+      "change": 0.9
     },
     "WIPRO": {
-      "price": 187.97,
-      "display": "\u20b9188",
-      "change": 1.2
+      "price": 185.7,
+      "display": "\u20b9186",
+      "change": 1.0
     },
     "TECHM": {
-      "price": 1782.4,
-      "display": "\u20b91,782",
-      "change": 2.1
+      "price": 1746.2,
+      "display": "\u20b91,746",
+      "change": 1.3
     },
     "LTIM": {
-      "price": 4224.4,
-      "display": "\u20b94,224",
-      "change": 1.4
-    },
-    "MPHL": {
-      "price": 2452.1,
-      "display": "\u20b92,452",
-      "change": 1.3
-    },
-    "PSYS": {
-      "price": 6166.5,
-      "display": "\u20b96,166",
-      "change": 0.7
-    },
-    "COFG": {
-      "price": 2130.0,
-      "display": "\u20b92,130",
+      "price": 4166.4,
+      "display": "\u20b94,166",
       "change": 2.1
     },
+    "MPHL": {
+      "price": 2420.0,
+      "display": "\u20b92,420",
+      "change": 2.7
+    },
+    "PSYS": {
+      "price": 6124.0,
+      "display": "\u20b96,124",
+      "change": 4.1
+    },
+    "COFG": {
+      "price": 2086.7,
+      "display": "\u20b92,087",
+      "change": 2.2
+    },
     "ACN": {
-      "price": 221.17,
-      "display": "$221",
-      "change": 1.2
+      "price": 222.29,
+      "display": "$222",
+      "change": 0.5
     },
     "CAP": {
-      "price": 117.7,
-      "display": "\u20ac118",
-      "change": 1.4
+      "price": 117.2,
+      "display": "\u20ac117",
+      "change": -0.4
     },
     "ATOS": {
-      "price": 20.42,
-      "display": "\u20ac20.42",
-      "change": -6.1
+      "price": 20.3,
+      "display": "\u20ac20.30",
+      "change": -0.6
     },
     "DXC": {
-      "price": 13.67,
-      "display": "$13.67",
-      "change": 2.6
+      "price": 13.98,
+      "display": "$13.98",
+      "change": 2.3
     },
     "GIB": {
-      "price": 79.28,
-      "display": "$79.28",
-      "change": 1.3
+      "price": 80.92,
+      "display": "$80.92",
+      "change": 2.1
     }
   },
   "indices": {
@@ -84,20 +84,20 @@
       "change": 1.08
     },
     "NIFTY_IT": {
-      "value": 31815.25,
-      "change": 1.57
+      "value": 31322.65,
+      "change": 1.3
     },
     "SP500": {
-      "value": 6910.39,
-      "change": -3.7
+      "value": 7237.17,
+      "change": 4.73
     },
     "USD_INR": {
-      "value": 92.81,
-      "change": -0.53
+      "value": 92.9,
+      "change": -0.42
     },
     "EUR_INR": {
-      "value": 101.91,
-      "change": -0.34
+      "value": 101.3,
+      "change": -0.94
     }
   },
   "historical": {
@@ -169,8 +169,7 @@
         2407.0,
         2380.0,
         2343.0,
-        2376.0,
-        2427.0
+        2376.0
       ],
       "dl": [
         "Nov 3",
@@ -185,8 +184,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         3448.0,
@@ -307,8 +305,7 @@
         1130.0,
         1109.0,
         1092.0,
-        1098.0,
-        1114.0
+        1098.0
       ],
       "dl": [
         "Nov 3",
@@ -323,8 +320,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         1390.0,
@@ -446,7 +442,8 @@
         60.0,
         58.0,
         56.0,
-        58.0
+        58.0,
+        59.0
       ],
       "dl": [
         "Nov 3",
@@ -462,7 +459,8 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20"
+        "Nov 20",
+        "Nov 23"
       ],
       "mp": [
         71.0,
@@ -583,8 +581,7 @@
         1356.0,
         1345.0,
         1333.0,
-        1344.0,
-        1360.0
+        1344.0
       ],
       "dl": [
         "Nov 3",
@@ -599,8 +596,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         1303.0,
@@ -721,8 +717,7 @@
         190.0,
         185.0,
         184.0,
-        186.0,
-        188.0
+        186.0
       ],
       "dl": [
         "Nov 3",
@@ -737,8 +732,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         218.0,
@@ -859,8 +853,7 @@
         1762.0,
         1750.0,
         1723.0,
-        1746.0,
-        1783.0
+        1746.0
       ],
       "dl": [
         "Nov 3",
@@ -875,8 +868,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         1163.0,
@@ -997,8 +989,7 @@
         4118.0,
         4075.0,
         4080.0,
-        4166.0,
-        4225.0
+        4166.0
       ],
       "dl": [
         "Nov 3",
@@ -1013,8 +1004,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         6022.0,
@@ -1135,8 +1125,7 @@
         2445.0,
         2397.0,
         2356.0,
-        2420.0,
-        2452.0
+        2420.0
       ],
       "dl": [
         "Nov 3",
@@ -1151,8 +1140,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         2561.0,
@@ -1273,8 +1261,7 @@
         5911.0,
         5857.0,
         5880.0,
-        6124.0,
-        6166.0
+        6124.0
       ],
       "dl": [
         "Nov 3",
@@ -1289,8 +1276,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         3625.0,
@@ -1411,8 +1397,7 @@
         2041.0,
         2049.0,
         2041.0,
-        2087.0,
-        2129.0
+        2087.0
       ],
       "dl": [
         "Nov 3",
@@ -1427,8 +1412,7 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20",
-        "Nov 23"
+        "Nov 20"
       ],
       "mp": [
         1222.0,
@@ -1550,7 +1534,8 @@
         239.0,
         227.0,
         219.0,
-        221.0
+        221.0,
+        222.0
       ],
       "dl": [
         "Nov 3",
@@ -1566,7 +1551,8 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20"
+        "Nov 20",
+        "Nov 23"
       ],
       "mp": [
         331.0,
@@ -1688,7 +1674,8 @@
         121.0,
         119.0,
         116.0,
-        118.0
+        118.0,
+        117.0
       ],
       "dl": [
         "Nov 3",
@@ -1704,7 +1691,8 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20"
+        "Nov 20",
+        "Nov 23"
       ],
       "mp": [
         176.0,
@@ -1826,6 +1814,7 @@
         22.0,
         22.0,
         22.0,
+        20.0,
         20.0
       ],
       "dl": [
@@ -1842,7 +1831,8 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20"
+        "Nov 20",
+        "Nov 23"
       ],
       "mp": [
         524.0,
@@ -1964,6 +1954,7 @@
         14.0,
         14.0,
         13.0,
+        14.0,
         14.0
       ],
       "dl": [
@@ -1980,7 +1971,8 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20"
+        "Nov 20",
+        "Nov 23"
       ],
       "mp": [
         23.0,
@@ -2102,7 +2094,8 @@
         80.0,
         80.0,
         78.0,
-        79.0
+        79.0,
+        81.0
       ],
       "dl": [
         "Nov 3",
@@ -2118,7 +2111,8 @@
         "Nov 17",
         "Nov 18",
         "Nov 19",
-        "Nov 20"
+        "Nov 20",
+        "Nov 23"
       ],
       "mp": [
         106.0,
@@ -2174,6 +2168,15 @@
   },
   "news": [
     {
+      "time": "2026-11-22 07:41",
+      "tk": "Sector",
+      "src": "Economictimes.com",
+      "cat": "AI",
+      "hl": "India does not have FANGs or MANGOes, but has WITCH companies, says PPFAS Mutual Fund\u2019s Rajeev Thakkar",
+      "detail": "PPFAS Mutual Fund continues to hold IT services stocks despite concerns over AI disrupting traditional business models, with exposure below 10% of its portfolio. CIO Rajeev Thakkar explains why negative sentiment could create investment opportunities, how emp\u2026",
+      "url": "https://m.economictimes.com/mf/mf-news/india-does-not-have-fangs-or-mangoes-but-has-witch-companies-says-ppfas-mutual-funds-rajeev-thakkar/articleshow/136069789.cms"
+    },
+    {
       "time": "2026-11-21 17:14",
       "tk": "HCLT",
       "src": "Hcltech.com",
@@ -2183,13 +2186,13 @@
       "url": "https://www.hcltech.com/tags/digital-marketing"
     },
     {
-      "time": "2026-11-21 09:04",
-      "tk": "CAP",
-      "src": "Biztoc.com",
-      "cat": "AI",
-      "hl": "Is Capgemini (ENXTPA:CAP) Undervalued As Cash Flow Supports AI Growth?",
-      "detail": "Capgemini has seen its share price drift lower in recent years, which puts a spotlight on whether the current \u20ac117.70 level still lines up with what its cash flows can support over time. Recent headlines around AI, automation and supply chain resilience keep \u2026",
-      "url": "https://biztoc.com/x/3aad860b41ae8270"
+      "time": "2026-11-22 16:46",
+      "tk": "CTSH",
+      "src": "Bleeding Cool News",
+      "cat": "PEOPLE",
+      "hl": "April X Composer on Adapting to Director Flexibility, Cyberpunk & More",
+      "detail": "Matthew Atticus Berger has always dreamed of working in sci-fi, but is also cognizant that certain auteur directors can be very particular about their vision, and he works with what he's got, adjusting as needed. Known for his work in dramas like Rust Creek (\u2026",
+      "url": "https://bleedingcool.com/movies/april-x-composer-on-adapting-to-director-flexibility-cyberpunk-more/"
     },
     {
       "time": "2026-11-21 16:19",
@@ -2199,6 +2202,15 @@
       "hl": "F&O Strategy: Go long on Coforge",
       "detail": "Bullish Coforge outlook with Dec futures buy, key support at 1,998, target 2,130, and risk considerations for F&O traders.",
       "url": "https://www.thehindubusinessline.com/portfolio/commodity-analysis/fampo-strategy-go-long-on-coforge/article71727763.ece"
+    },
+    {
+      "time": "2026-11-22 18:00",
+      "tk": "Sector",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "India's software services exports boom leaves IT companies behind",
+      "detail": "According to data from Nasscom, India's overall technology exports, including IT services, grew to $264.4 billion in FY26, from $233.3 billion in FY25",
+      "url": "https://www.business-standard.com/markets/news/india-s-software-services-exports-boom-leaves-it-companies-behind-126112200846_1.html"
     }
   ],
   "quarterly": {
@@ -3076,9 +3088,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.09866,
-    "JPY": 0.00629,
-    "CAD": 0.697837,
-    "INR": 0.010776
+    "EUR": 1.090394,
+    "JPY": 0.006291,
+    "CAD": 0.696175,
+    "INR": 0.010764
   }
 }
