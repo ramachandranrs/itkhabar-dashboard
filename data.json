@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T02:58:39.172030+00:00",
-  "updated_display": "24 Nov 2026, 02:58 UTC",
+  "updated": "2026-11-24T07:01:28.511863+00:00",
+  "updated_display": "24 Nov 2026, 07:01 UTC",
   "prices": {
     "TCS": {
       "price": 2460.0,
@@ -96,8 +96,8 @@
       "change": 0.24
     },
     "EUR_INR": {
-      "value": 101.39,
-      "change": 0.08
+      "value": 101.37,
+      "change": 0.07
     }
   },
   "historical": {
@@ -2152,6 +2152,15 @@
   },
   "news": [
     {
+      "time": "2026-11-23 04:59",
+      "tk": "INFY",
+      "src": "Economictimes.com",
+      "cat": "ANALYST",
+      "hl": "TCS, Infosys, Wipro, other IT stocks rise up to 3% as AI bloodbath continues; Nasdaq logs worst week since 2020",
+      "detail": "Indian IT stocks bucked the global tech selloff, with the Nifty IT index rising over 700 points. TCS, Wipro, Infosys, HCL Tech and Tech Mahindra gained, while Coforge and Persistent Systems also advanced. The gains came even as AI-linked concerns triggered sh\u2026",
+      "url": "https://m.economictimes.com/markets/stocks/news/tcs-infosys-wipro-other-it-stocks-rise-up-to-3-as-ai-stocks-bloodbath-continues-nasdaq-logs-worst-week-since-2020/articleshow/136089907.cms"
+    },
+    {
       "time": "2026-11-23 02:08",
       "tk": "INFY",
       "src": "The Times of India",
@@ -2161,15 +2170,6 @@
       "url": "https://timesofindia.indiatimes.com/technology/times-techies/iisc-has-caltech-like-culture-of-fundamental-science/articleshow/136086955.cms"
     },
     {
-      "time": "2026-11-22 07:41",
-      "tk": "Sector",
-      "src": "Economictimes.com",
-      "cat": "AI",
-      "hl": "India does not have FANGs or MANGOes, but has WITCH companies, says PPFAS Mutual Fund\u2019s Rajeev Thakkar",
-      "detail": "PPFAS Mutual Fund continues to hold IT services stocks despite concerns over AI disrupting traditional business models, with exposure below 10% of its portfolio. CIO Rajeev Thakkar explains why negative sentiment could create investment opportunities, how emp\u2026",
-      "url": "https://m.economictimes.com/mf/mf-news/india-does-not-have-fangs-or-mangoes-but-has-witch-companies-says-ppfas-mutual-funds-rajeev-thakkar/articleshow/136069789.cms"
-    },
-    {
       "time": "2026-11-22 16:46",
       "tk": "CTSH",
       "src": "Bleeding Cool News",
@@ -2177,6 +2177,15 @@
       "hl": "April X Composer on Adapting to Director Flexibility, Cyberpunk & More",
       "detail": "Matthew Atticus Berger has always dreamed of working in sci-fi, but is also cognizant that certain auteur directors can be very particular about their vision, and he works with what he's got, adjusting as needed. Known for his work in dramas like Rust Creek (\u2026",
       "url": "https://bleedingcool.com/movies/april-x-composer-on-adapting-to-director-flexibility-cyberpunk-more/"
+    },
+    {
+      "time": "2026-11-22 07:41",
+      "tk": "Sector",
+      "src": "Economictimes.com",
+      "cat": "AI",
+      "hl": "India does not have FANGs or MANGOes, but has WITCH companies, says PPFAS Mutual Fund\u2019s Rajeev Thakkar",
+      "detail": "PPFAS Mutual Fund continues to hold IT services stocks despite concerns over AI disrupting traditional business models, with exposure below 10% of its portfolio. CIO Rajeev Thakkar explains why negative sentiment could create investment opportunities, how emp\u2026",
+      "url": "https://m.economictimes.com/mf/mf-news/india-does-not-have-fangs-or-mangoes-but-has-witch-companies-says-ppfas-mutual-funds-rajeev-thakkar/articleshow/136069789.cms"
     },
     {
       "time": "2026-11-23 02:49",
@@ -3072,9 +3081,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.091465,
-    "JPY": 0.006292,
-    "CAD": 0.696422,
+    "EUR": 1.090037,
+    "JPY": 0.006276,
+    "CAD": 0.696296,
     "INR": 0.010764
   }
 }
