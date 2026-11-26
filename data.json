@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-26T05:18:03.095626+00:00",
-  "updated_display": "26 Nov 2026, 05:18 UTC",
+  "updated": "2026-11-26T20:03:17.154543+00:00",
+  "updated_display": "26 Nov 2026, 20:03 UTC",
   "prices": {
     "TCS": {
-      "price": 2572.0,
-      "display": "\u20b92,572",
-      "change": 2.2
+      "price": 2517.3,
+      "display": "\u20b92,517",
+      "change": 2.3
     },
     "INFY": {
-      "price": 1165.0,
-      "display": "\u20b91,165",
-      "change": 3.1
+      "price": 1130.0,
+      "display": "\u20b91,130",
+      "change": 2.4
     },
     "CTSH": {
       "price": 63.32,
@@ -18,39 +18,39 @@
       "change": 3.8
     },
     "HCLT": {
-      "price": 1422.9,
-      "display": "\u20b91,423",
-      "change": 4.3
+      "price": 1380.0,
+      "display": "\u20b91,380",
+      "change": 1.2
     },
     "WIPRO": {
-      "price": 196.52,
-      "display": "\u20b9197",
-      "change": 4.0
+      "price": 189.05,
+      "display": "\u20b9189",
+      "change": 0.9
     },
     "TECHM": {
-      "price": 1837.8,
-      "display": "\u20b91,838",
-      "change": 2.0
+      "price": 1801.2,
+      "display": "\u20b91,801",
+      "change": 1.3
     },
     "LTIM": {
-      "price": 4352.6,
-      "display": "\u20b94,353",
-      "change": 3.3
+      "price": 4270.0,
+      "display": "\u20b94,270",
+      "change": 1.3
     },
     "MPHL": {
-      "price": 2552.8,
-      "display": "\u20b92,553",
-      "change": 0.8
+      "price": 2532.9,
+      "display": "\u20b92,533",
+      "change": 2.6
     },
     "PSYS": {
-      "price": 6266.5,
-      "display": "\u20b96,266",
-      "change": -0.3
+      "price": 6120.0,
+      "display": "\u20b96,120",
+      "change": -2.6
     },
     "COFG": {
-      "price": 2077.4,
-      "display": "\u20b92,077",
-      "change": 0.8
+      "price": 2060.0,
+      "display": "\u20b92,060",
+      "change": -3.8
     },
     "ACN": {
       "price": 240.49,
@@ -58,14 +58,14 @@
       "change": 3.5
     },
     "CAP": {
-      "price": 119.95,
-      "display": "\u20ac120",
-      "change": 2.3
+      "price": 121.0,
+      "display": "\u20ac121",
+      "change": 0.7
     },
     "ATOS": {
-      "price": 20.74,
-      "display": "\u20ac20.74",
-      "change": 2.2
+      "price": 21.06,
+      "display": "\u20ac21.06",
+      "change": 3.8
     },
     "DXC": {
       "price": 14.96,
@@ -80,24 +80,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 84352.2,
-      "change": 0.49
+      "value": 83938.28,
+      "change": 1.82
     },
     "NIFTY_IT": {
-      "value": 33009.45,
-      "change": 2.49
+      "value": 32207.55,
+      "change": 1.12
     },
     "SP500": {
       "value": 7182.78,
       "change": -0.25
     },
     "USD_INR": {
-      "value": 92.53,
-      "change": -0.3
+      "value": 92.43,
+      "change": -0.4
     },
     "EUR_INR": {
       "value": 101.44,
-      "change": -0.33
+      "change": -0.32
     }
   },
   "historical": {
@@ -166,8 +166,7 @@
         2343.0,
         2376.0,
         2460.0,
-        2517.0,
-        2572.0
+        2517.0
       ],
       "dl": [
         "Nov 6",
@@ -181,8 +180,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         3448.0,
@@ -298,8 +296,7 @@
         1092.0,
         1098.0,
         1103.0,
-        1130.0,
-        1165.0
+        1130.0
       ],
       "dl": [
         "Nov 6",
@@ -313,8 +310,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         1390.0,
@@ -564,7 +560,7 @@
         1333.0,
         1344.0,
         1364.0,
-        1423.0
+        1380.0
       ],
       "dl": [
         "Nov 6",
@@ -578,7 +574,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         1303.0,
@@ -694,8 +690,7 @@
         184.0,
         186.0,
         187.0,
-        189.0,
-        197.0
+        189.0
       ],
       "dl": [
         "Nov 6",
@@ -709,8 +704,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         218.0,
@@ -826,8 +820,7 @@
         1723.0,
         1746.0,
         1778.0,
-        1801.0,
-        1838.0
+        1801.0
       ],
       "dl": [
         "Nov 6",
@@ -841,8 +834,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         1163.0,
@@ -958,7 +950,7 @@
         4080.0,
         4166.0,
         4215.0,
-        4353.0
+        4270.0
       ],
       "dl": [
         "Nov 6",
@@ -972,7 +964,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         6022.0,
@@ -1088,8 +1080,7 @@
         2356.0,
         2420.0,
         2468.0,
-        2533.0,
-        2552.0
+        2533.0
       ],
       "dl": [
         "Nov 6",
@@ -1103,8 +1094,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         2561.0,
@@ -1220,7 +1210,7 @@
         5880.0,
         6124.0,
         6282.0,
-        6266.0
+        6120.0
       ],
       "dl": [
         "Nov 6",
@@ -1234,7 +1224,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         3625.0,
@@ -1350,8 +1340,7 @@
         2041.0,
         2087.0,
         2142.0,
-        2060.0,
-        2077.0
+        2060.0
       ],
       "dl": [
         "Nov 6",
@@ -1365,8 +1354,7 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25",
-        "Nov 26"
+        "Nov 25"
       ],
       "mp": [
         1222.0,
@@ -1617,7 +1605,9 @@
         116.0,
         118.0,
         117.0,
-        120.0
+        120.0,
+        120.0,
+        121.0
       ],
       "dl": [
         "Nov 6",
@@ -1632,7 +1622,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 24"
+        "Nov 24",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         176.0,
@@ -1749,6 +1741,8 @@
         22.0,
         20.0,
         20.0,
+        21.0,
+        20.0,
         21.0
       ],
       "dl": [
@@ -1764,7 +1758,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 24"
+        "Nov 24",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         524.0,
@@ -2086,22 +2082,58 @@
   },
   "news": [
     {
-      "time": "2026-11-24 22:02",
-      "tk": "Sector",
-      "src": "CBC News",
-      "cat": "DEAL",
-      "hl": "Offshore energy regulator asks for more money to ramp up for Wind West",
-      "detail": "The regulator for Nova Scotia\u2019s nascent offshore wind industry says its budget needs to grow next year in order to keep up with the province\u2019s ambitions.",
-      "url": "https://www.cbc.ca/news/canada/nova-scotia/offshore-energy-regulator-asks-for-more-money-to-ramp-up-for-wind-west-9.7434603"
+      "time": "2026-11-25 18:43",
+      "tk": "CTSH",
+      "src": "Business Standard",
+      "cat": "MACRO",
+      "hl": "Cognizant in talks to take over parts of S&P Global's Capital IQ operations",
+      "detail": "Cognizant is in talks to take over data and operations staff from S&P Global's India GCC, with around 1,500 employees potentially moving to the IT services firm's payroll.",
+      "url": "https://www.business-standard.com/companies/news/cognizant-in-talks-to-take-over-parts-of-s-p-global-s-capital-iq-operations-126112501155_1.html"
     },
     {
-      "time": "2026-11-24 15:02",
-      "tk": "INFY",
+      "time": "2026-11-25 15:51",
+      "tk": "WIPRO",
       "src": "The Times of India",
-      "cat": "RESULTS",
-      "hl": "Rupee appreciation to hit IT firms\u2019 margins by up to 110 bps: Report",
-      "detail": "Rupee up 2.5% may cut Indian IT margins 62\u2013110 bps in Q3; KPIT, Tata Elxsi, Cyient hit most; Infosys, TCS see 63\u201369 bps: Kotak.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-appreciation-to-hit-it-firms-margins-by-up-to-110-bps-report/articleshow/136134728.cms"
+      "cat": "DEAL",
+      "hl": "Wipro bags $600 mn BP deal after Olam, Phoenix wins",
+      "detail": "Wipro wins $600M multi-year BP deal to transform finance operations using AI and automation; about 3,000 BP staff to transition as new model targets 2027.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/wipro-bags-600-mn-bp-deal-after-olam-phoenix-wins/articleshow/136166978.cms"
+    },
+    {
+      "time": "2026-11-25 14:59",
+      "tk": "WIPRO",
+      "src": "Livemint",
+      "cat": "DEAL",
+      "hl": "Wipro secures $500 million contract from energy major BP",
+      "detail": "The deal spanning around seven years will bring an average of about $75 million in annual business for Wipro and see 3,000 BP employees move to the IT services company, offering a boost to CEO Srini Pallia\u2019s growth efforts.",
+      "url": "https://www.livemint.com/companies/news/wipro-bags-500-million-contract-from-bp-11795614860412.html"
+    },
+    {
+      "time": "2026-11-25 13:56",
+      "tk": "WIPRO",
+      "src": "BusinessLine",
+      "cat": "DEAL",
+      "hl": "bp, Wipro partner to transform finance operations; Wipro to absorb 3,000 bp employees",
+      "detail": "bp partners with Wipro to transform finance ops, moving about 3,000 bp employees to Wipro for AI-driven efficiency and cost competitiveness.",
+      "url": "https://www.thehindubusinessline.com/info-tech/bp-wipro-partner-to-transform-finance-operations-wipro-to-absorb-3000-bp-employees/article71742242.ece"
+    },
+    {
+      "time": "2026-11-25 17:41",
+      "tk": "ACN",
+      "src": "Biztoc.com",
+      "cat": "ANALYST",
+      "hl": "This Mastercard Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday",
+      "detail": "Analysts initiated Buy/Outperform ratings on Firefly, SAB Biotherapeutics, Avenzo, Mastercard and Accenture, with targets from $14 to $751.",
+      "url": "https://biztoc.com/x/deebe4c6d0254ec4"
+    },
+    {
+      "time": "2026-11-25 14:47",
+      "tk": "ATOS",
+      "src": "TelecomTV",
+      "cat": "MACRO",
+      "hl": "What\u2019s up with\u2026 Swisscom, Dell, Atos",
+      "detail": "- Bullets",
+      "url": "https://www.telecomtv.com/content/ai/what-s-up-with-swisscom-dell-atos-56753/"
     },
     {
       "time": "2026-11-24 05:23",
@@ -2113,13 +2145,13 @@
       "url": "https://biztoc.com/x/1052090f6e5db9e6"
     },
     {
-      "time": "2026-11-24 14:40",
-      "tk": "ACN",
-      "src": "Forrester.com",
-      "cat": "MACRO",
-      "hl": "Microsoft Ignite 2026 \u2013 A Promise To Do Better",
-      "detail": "This year\u2019s Ignite was all about shoring up trust and reliability. Unlike last year, which focused heavily on a fictious frontier company for examples, Microsoft brought to the stage Accenture, Alaska Airlines, Blackrock, BNY, Chevron, Publicis Europe, Unilev\u2026",
-      "url": "https://www.forrester.com/blogs/microsoft-ignite-2026-a-promise-to-do-better/"
+      "time": "2026-11-24 15:02",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Rupee appreciation to hit IT firms\u2019 margins by up to 110 bps: Report",
+      "detail": "Rupee up 2.5% may cut Indian IT margins 62\u2013110 bps in Q3; KPIT, Tata Elxsi, Cyient hit most; Infosys, TCS see 63\u201369 bps: Kotak.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-appreciation-to-hit-it-firms-margins-by-up-to-110-bps-report/articleshow/136134728.cms"
     }
   ],
   "quarterly": {
@@ -2997,9 +3029,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.096491,
-    "JPY": 0.006283,
-    "CAD": 0.703092,
-    "INR": 0.010807
+    "EUR": 1.097454,
+    "JPY": 0.006279,
+    "CAD": 0.702006,
+    "INR": 0.010818
   }
 }
