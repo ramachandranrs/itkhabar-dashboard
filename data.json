@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-26T00:33:22.409045+00:00",
-  "updated_display": "26 Nov 2026, 00:33 UTC",
+  "updated": "2026-11-26T05:18:03.095626+00:00",
+  "updated_display": "26 Nov 2026, 05:18 UTC",
   "prices": {
     "TCS": {
-      "price": 2460.0,
-      "display": "\u20b92,460",
-      "change": 3.5
+      "price": 2572.0,
+      "display": "\u20b92,572",
+      "change": 2.2
     },
     "INFY": {
-      "price": 1103.4,
-      "display": "\u20b91,103",
-      "change": 0.5
+      "price": 1165.0,
+      "display": "\u20b91,165",
+      "change": 3.1
     },
     "CTSH": {
       "price": 63.32,
@@ -18,39 +18,39 @@
       "change": 3.8
     },
     "HCLT": {
-      "price": 1364.3,
-      "display": "\u20b91,364",
-      "change": 1.5
+      "price": 1422.9,
+      "display": "\u20b91,423",
+      "change": 4.3
     },
     "WIPRO": {
-      "price": 187.29,
-      "display": "\u20b9187",
-      "change": 0.9
+      "price": 196.52,
+      "display": "\u20b9197",
+      "change": 4.0
     },
     "TECHM": {
-      "price": 1777.5,
-      "display": "\u20b91,778",
-      "change": 1.8
-    },
-    "LTIM": {
-      "price": 4215.0,
-      "display": "\u20b94,215",
-      "change": 1.2
-    },
-    "MPHL": {
-      "price": 2468.4,
-      "display": "\u20b92,468",
+      "price": 1837.8,
+      "display": "\u20b91,838",
       "change": 2.0
     },
+    "LTIM": {
+      "price": 4352.6,
+      "display": "\u20b94,353",
+      "change": 3.3
+    },
+    "MPHL": {
+      "price": 2552.8,
+      "display": "\u20b92,553",
+      "change": 0.8
+    },
     "PSYS": {
-      "price": 6282.5,
-      "display": "\u20b96,282",
-      "change": 2.6
+      "price": 6266.5,
+      "display": "\u20b96,266",
+      "change": -0.3
     },
     "COFG": {
-      "price": 2142.3,
-      "display": "\u20b92,142",
-      "change": 2.7
+      "price": 2077.4,
+      "display": "\u20b92,077",
+      "change": 0.8
     },
     "ACN": {
       "price": 240.49,
@@ -80,24 +80,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 82435.99,
-      "change": -1.77
+      "value": 84352.2,
+      "change": 0.49
     },
     "NIFTY_IT": {
-      "value": 31850.8,
-      "change": 1.69
+      "value": 33009.45,
+      "change": 2.49
     },
     "SP500": {
       "value": 7182.78,
       "change": -0.25
     },
     "USD_INR": {
-      "value": 92.81,
-      "change": -0.12
+      "value": 92.53,
+      "change": -0.3
     },
     "EUR_INR": {
-      "value": 101.77,
-      "change": 0.5
+      "value": 101.44,
+      "change": -0.33
     }
   },
   "historical": {
@@ -165,7 +165,9 @@
         2380.0,
         2343.0,
         2376.0,
-        2460.0
+        2460.0,
+        2517.0,
+        2572.0
       ],
       "dl": [
         "Nov 6",
@@ -178,7 +180,9 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         3448.0,
@@ -293,7 +297,9 @@
         1109.0,
         1092.0,
         1098.0,
-        1103.0
+        1103.0,
+        1130.0,
+        1165.0
       ],
       "dl": [
         "Nov 6",
@@ -306,7 +312,9 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         1390.0,
@@ -555,7 +563,8 @@
         1345.0,
         1333.0,
         1344.0,
-        1364.0
+        1364.0,
+        1423.0
       ],
       "dl": [
         "Nov 6",
@@ -568,7 +577,8 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 26"
       ],
       "mp": [
         1303.0,
@@ -683,7 +693,9 @@
         185.0,
         184.0,
         186.0,
-        187.0
+        187.0,
+        189.0,
+        197.0
       ],
       "dl": [
         "Nov 6",
@@ -696,7 +708,9 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         218.0,
@@ -811,7 +825,9 @@
         1750.0,
         1723.0,
         1746.0,
-        1778.0
+        1778.0,
+        1801.0,
+        1838.0
       ],
       "dl": [
         "Nov 6",
@@ -824,7 +840,9 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         1163.0,
@@ -939,7 +957,8 @@
         4075.0,
         4080.0,
         4166.0,
-        4215.0
+        4215.0,
+        4353.0
       ],
       "dl": [
         "Nov 6",
@@ -952,7 +971,8 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 26"
       ],
       "mp": [
         6022.0,
@@ -1067,7 +1087,9 @@
         2397.0,
         2356.0,
         2420.0,
-        2468.0
+        2468.0,
+        2533.0,
+        2552.0
       ],
       "dl": [
         "Nov 6",
@@ -1080,7 +1102,9 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         2561.0,
@@ -1195,7 +1219,8 @@
         5857.0,
         5880.0,
         6124.0,
-        6282.0
+        6282.0,
+        6266.0
       ],
       "dl": [
         "Nov 6",
@@ -1208,7 +1233,8 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 26"
       ],
       "mp": [
         3625.0,
@@ -1323,7 +1349,9 @@
         2049.0,
         2041.0,
         2087.0,
-        2142.0
+        2142.0,
+        2060.0,
+        2077.0
       ],
       "dl": [
         "Nov 6",
@@ -1336,7 +1364,9 @@
         "Nov 18",
         "Nov 19",
         "Nov 20",
-        "Nov 23"
+        "Nov 23",
+        "Nov 25",
+        "Nov 26"
       ],
       "mp": [
         1222.0,
@@ -2056,24 +2086,6 @@
   },
   "news": [
     {
-      "time": "2026-11-24 16:12",
-      "tk": "INFY",
-      "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "What Stanford, Caltech, Edinburgh researchers say about Indian research institutions",
-      "detail": "Infosys Prize winners' sabbaticals are enabling global researchers and Indian researchers to learn from each other. It's also enabling Indian institutions to understand where they stand in comparison to global ones, and what they can do better",
-      "url": "https://timesofindia.indiatimes.com/technology/times-techies/what-stanford-caltech-edinburgh-researchers-say-about-indian-research-institutions/articleshow/136135768.cms"
-    },
-    {
-      "time": "2026-11-24 15:05",
-      "tk": "WIPRO",
-      "src": "The-digital-reader.com",
-      "cat": "PEOPLE",
-      "hl": "How Wipro Appliances Is Leading the Shift Towards Smarter Indian Kitchens",
-      "detail": "I don\u2019t think a smart kitchen is having a ton of gadgets on the counter. For me, that means having appliances that simplify, and speed up everyday cooking. Traditional Indian meals remain the same but the way they are prepared is changing. I am now looking fo\u2026",
-      "url": "https://the-digital-reader.com/how-wipro-appliances-is-leading-the-shift-towards-smarter-indian-kitchens/"
-    },
-    {
       "time": "2026-11-24 22:02",
       "tk": "Sector",
       "src": "CBC News",
@@ -2092,15 +2104,6 @@
       "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-appreciation-to-hit-it-firms-margins-by-up-to-110-bps-report/articleshow/136134728.cms"
     },
     {
-      "time": "2026-11-24 14:40",
-      "tk": "ACN",
-      "src": "Forrester.com",
-      "cat": "MACRO",
-      "hl": "Microsoft Ignite 2026 \u2013 A Promise To Do Better",
-      "detail": "This year\u2019s Ignite was all about shoring up trust and reliability. Unlike last year, which focused heavily on a fictious frontier company for examples, Microsoft brought to the stage Accenture, Alaska Airlines, Blackrock, BNY, Chevron, Publicis Europe, Unilev\u2026",
-      "url": "https://www.forrester.com/blogs/microsoft-ignite-2026-a-promise-to-do-better/"
-    },
-    {
       "time": "2026-11-24 05:23",
       "tk": "DXC",
       "src": "Biztoc.com",
@@ -2108,6 +2111,15 @@
       "hl": "DXC Introduces Frontier Code Assurance, a Managed Code Security Service Built on Claude Mythos",
       "detail": "ASHBURN, Va., Nov. 24, 2026 /CNW/ -- DXC Technology (NYSE: DXC), a leading enterprise technology and innovation partner, today launched DXC Frontier Code",
       "url": "https://biztoc.com/x/1052090f6e5db9e6"
+    },
+    {
+      "time": "2026-11-24 14:40",
+      "tk": "ACN",
+      "src": "Forrester.com",
+      "cat": "MACRO",
+      "hl": "Microsoft Ignite 2026 \u2013 A Promise To Do Better",
+      "detail": "This year\u2019s Ignite was all about shoring up trust and reliability. Unlike last year, which focused heavily on a fictious frontier company for examples, Microsoft brought to the stage Accenture, Alaska Airlines, Blackrock, BNY, Chevron, Publicis Europe, Unilev\u2026",
+      "url": "https://www.forrester.com/blogs/microsoft-ignite-2026-a-promise-to-do-better/"
     }
   ],
   "quarterly": {
@@ -2985,9 +2997,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.097454,
-    "JPY": 0.006286,
-    "CAD": 0.703527,
-    "INR": 0.010775
+    "EUR": 1.096491,
+    "JPY": 0.006283,
+    "CAD": 0.703092,
+    "INR": 0.010807
   }
 }
