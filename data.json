@@ -1,103 +1,103 @@
 {
-  "updated": "2026-11-27T05:14:43.033428+00:00",
-  "updated_display": "27 Nov 2026, 05:14 UTC",
+  "updated": "2026-11-27T19:51:38.804249+00:00",
+  "updated_display": "27 Nov 2026, 19:51 UTC",
   "prices": {
     "TCS": {
-      "price": 2573.0,
-      "display": "\u20b92,573",
-      "change": -2.5
+      "price": 2640.3,
+      "display": "\u20b92,640",
+      "change": 4.9
     },
     "INFY": {
-      "price": 1154.6,
-      "display": "\u20b91,155",
-      "change": -2.4
+      "price": 1183.0,
+      "display": "\u20b91,183",
+      "change": 4.7
     },
     "CTSH": {
-      "price": 63.32,
-      "display": "$63.32",
-      "change": 3.8
+      "price": 63.42,
+      "display": "$63.42",
+      "change": 0.2
     },
     "HCLT": {
-      "price": 1433.0,
-      "display": "\u20b91,433",
-      "change": -2.4
+      "price": 1468.6,
+      "display": "\u20b91,469",
+      "change": 6.4
     },
     "WIPRO": {
-      "price": 193.1,
-      "display": "\u20b9193",
-      "change": -1.8
+      "price": 196.54,
+      "display": "\u20b9197",
+      "change": 4.0
     },
     "TECHM": {
-      "price": 1846.1,
-      "display": "\u20b91,846",
-      "change": -0.5
+      "price": 1854.7,
+      "display": "\u20b91,855",
+      "change": 3.0
     },
     "LTIM": {
-      "price": 4307.0,
-      "display": "\u20b94,307",
-      "change": -2.3
+      "price": 4406.7,
+      "display": "\u20b94,407",
+      "change": 3.2
     },
     "MPHL": {
-      "price": 2449.0,
-      "display": "\u20b92,449",
-      "change": -2.4
+      "price": 2510.0,
+      "display": "\u20b92,510",
+      "change": -0.9
     },
     "PSYS": {
-      "price": 6221.0,
-      "display": "\u20b96,221",
-      "change": 0.3
+      "price": 6200.0,
+      "display": "\u20b96,200",
+      "change": 1.3
     },
     "COFG": {
-      "price": 2075.1,
-      "display": "\u20b92,075",
-      "change": 3.8
+      "price": 2000.0,
+      "display": "\u20b92,000",
+      "change": -2.9
     },
     "ACN": {
-      "price": 240.49,
-      "display": "$240",
-      "change": 3.5
+      "price": 241.84,
+      "display": "$242",
+      "change": 0.6
     },
     "CAP": {
-      "price": 120.1,
-      "display": "\u20ac120",
-      "change": 0.1
+      "price": 121.75,
+      "display": "\u20ac122",
+      "change": 0.6
     },
     "ATOS": {
-      "price": 20.28,
-      "display": "\u20ac20.28",
-      "change": -2.2
+      "price": 22.34,
+      "display": "\u20ac22.34",
+      "change": 6.1
     },
     "DXC": {
-      "price": 14.96,
-      "display": "$14.96",
-      "change": 4.5
+      "price": 15.23,
+      "display": "$15.23",
+      "change": 1.8
     },
     "GIB": {
-      "price": 83.46,
-      "display": "$83.46",
-      "change": 1.4
+      "price": 83.58,
+      "display": "$83.58",
+      "change": 0.1
     }
   },
   "indices": {
     "SENSEX": {
-      "value": 83990.23,
-      "change": -0.4
+      "value": 84328.59,
+      "change": 0.46
     },
     "NIFTY_IT": {
-      "value": 32854.35,
-      "change": -1.6
+      "value": 33386.95,
+      "change": 3.66
     },
     "SP500": {
-      "value": 7182.78,
-      "change": -0.25
+      "value": 7297.49,
+      "change": 1.6
     },
     "USD_INR": {
-      "value": 92.77,
-      "change": 0.58
+      "value": 92.98,
+      "change": 0.8
     },
     "EUR_INR": {
-      "value": 101.84,
-      "change": 0.73
+      "value": 101.7,
+      "change": 0.6
     }
   },
   "historical": {
@@ -166,8 +166,7 @@
         2376.0,
         2460.0,
         2517.0,
-        2640.0,
-        2573.0
+        2640.0
       ],
       "dl": [
         "Nov 9",
@@ -181,8 +180,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         3448.0,
@@ -298,8 +296,7 @@
         1098.0,
         1103.0,
         1130.0,
-        1183.0,
-        1155.0
+        1183.0
       ],
       "dl": [
         "Nov 9",
@@ -313,8 +310,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         1390.0,
@@ -431,6 +427,7 @@
         58.0,
         59.0,
         61.0,
+        63.0,
         63.0
       ],
       "dl": [
@@ -446,7 +443,8 @@
         "Nov 20",
         "Nov 23",
         "Nov 24",
-        "Nov 25"
+        "Nov 25",
+        "Nov 27"
       ],
       "mp": [
         71.0,
@@ -562,8 +560,7 @@
         1344.0,
         1364.0,
         1380.0,
-        1469.0,
-        1433.0
+        1469.0
       ],
       "dl": [
         "Nov 9",
@@ -577,8 +574,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         1303.0,
@@ -694,8 +690,7 @@
         186.0,
         187.0,
         189.0,
-        197.0,
-        193.0
+        197.0
       ],
       "dl": [
         "Nov 9",
@@ -709,8 +704,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         218.0,
@@ -826,8 +820,7 @@
         1746.0,
         1778.0,
         1801.0,
-        1855.0,
-        1844.0
+        1855.0
       ],
       "dl": [
         "Nov 9",
@@ -841,8 +834,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         1163.0,
@@ -958,8 +950,7 @@
         4166.0,
         4215.0,
         4270.0,
-        4407.0,
-        4307.0
+        4407.0
       ],
       "dl": [
         "Nov 9",
@@ -973,8 +964,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         6022.0,
@@ -1090,8 +1080,7 @@
         2420.0,
         2468.0,
         2533.0,
-        2510.0,
-        2449.0
+        2510.0
       ],
       "dl": [
         "Nov 9",
@@ -1105,8 +1094,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         2561.0,
@@ -1222,8 +1210,7 @@
         6124.0,
         6282.0,
         6120.0,
-        6200.0,
-        6221.0
+        6200.0
       ],
       "dl": [
         "Nov 9",
@@ -1237,8 +1224,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         3625.0,
@@ -1354,8 +1340,7 @@
         2087.0,
         2142.0,
         2060.0,
-        2000.0,
-        2075.0
+        2000.0
       ],
       "dl": [
         "Nov 9",
@@ -1369,8 +1354,7 @@
         "Nov 20",
         "Nov 23",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         1222.0,
@@ -1487,7 +1471,8 @@
         221.0,
         222.0,
         232.0,
-        240.0
+        240.0,
+        242.0
       ],
       "dl": [
         "Nov 9",
@@ -1502,7 +1487,8 @@
         "Nov 20",
         "Nov 23",
         "Nov 24",
-        "Nov 25"
+        "Nov 25",
+        "Nov 27"
       ],
       "mp": [
         331.0,
@@ -1619,7 +1605,9 @@
         118.0,
         117.0,
         120.0,
-        120.0
+        120.0,
+        121.0,
+        122.0
       ],
       "dl": [
         "Nov 9",
@@ -1634,7 +1622,9 @@
         "Nov 20",
         "Nov 23",
         "Nov 24",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         176.0,
@@ -1751,7 +1741,9 @@
         20.0,
         20.0,
         21.0,
-        20.0
+        20.0,
+        21.0,
+        22.0
       ],
       "dl": [
         "Nov 9",
@@ -1766,7 +1758,9 @@
         "Nov 20",
         "Nov 23",
         "Nov 24",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         524.0,
@@ -1883,6 +1877,7 @@
         14.0,
         14.0,
         14.0,
+        15.0,
         15.0
       ],
       "dl": [
@@ -1898,7 +1893,8 @@
         "Nov 20",
         "Nov 23",
         "Nov 24",
-        "Nov 25"
+        "Nov 25",
+        "Nov 27"
       ],
       "mp": [
         23.0,
@@ -2015,7 +2011,8 @@
         79.0,
         81.0,
         82.0,
-        83.0
+        83.0,
+        84.0
       ],
       "dl": [
         "Nov 9",
@@ -2030,7 +2027,8 @@
         "Nov 20",
         "Nov 23",
         "Nov 24",
-        "Nov 25"
+        "Nov 25",
+        "Nov 27"
       ],
       "mp": [
         106.0,
@@ -2084,13 +2082,94 @@
   },
   "news": [
     {
-      "time": "2026-11-26 02:33",
+      "time": "2026-11-26 19:30",
+      "tk": "INFY",
+      "src": "The Times of India",
+      "cat": "MACRO",
+      "hl": "15 corporate majors pledge 10% cut in vehicle use on Hyd roads by 2027",
+      "detail": "15 major corporates in Hyderabad, including Infosys and TCS, pledge a 10% cut in employee-linked vehicle use by 2027 via carpools, shuttles and hybrid work.",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/15-corporate-majors-pledge-10-cut-in-vehicle-use-on-hyd-roads-by-2027/articleshow/136202634.cms"
+    },
+    {
+      "time": "2026-11-26 15:01",
+      "tk": "TECHM",
+      "src": "BusinessLine",
+      "cat": "PEOPLE",
+      "hl": "Satellite communication to resurge telecom business for Tech Mahindra: MD & CEO Mohit Joshi",
+      "detail": "With the entry of satcom in the Indian market, the company sees new opportunities in the integration of telecom terrestrial networks and non-terrestrial networks",
+      "url": "https://www.thehindubusinessline.com/info-tech/satellite-communication-to-resurge-telecom-business-for-tech-mahindra-md-ceo-mohit-joshi/article71746583.ece"
+    },
+    {
+      "time": "2026-11-26 17:15",
+      "tk": "ACN",
+      "src": "BleepingComputer",
+      "cat": "MACRO",
+      "hl": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "detail": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/"
+    },
+    {
+      "time": "2026-11-26 11:35",
+      "tk": "ACN",
+      "src": "Securityweek.com",
+      "cat": "MACRO",
+      "hl": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "detail": "Accenture says hackers exploited MiCollab flaws before Mitel\u2019s advisory, likely aided by AI, in a suspected extortion campaign.\nThe post Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/"
+    },
+    {
+      "time": "2026-11-26 09:24",
+      "tk": "INFY",
+      "src": "BusinessLine",
+      "cat": "MACRO",
+      "hl": "Nifty IT jumps over 2% as HCLTech, Wipro, Infosys lead IT rally",
+      "detail": "IT rally boosts Nifty IT by 2% as HCLTech, Wipro, Infosys lead gains; mixed moves, key resistances noted.",
+      "url": "https://www.thehindubusinessline.com/markets/nifty-it-jumps-over-2-as-hcltech-wipro-infosys-lead-it-rally/article71745930.ece"
+    },
+    {
+      "time": "2026-11-26 05:34",
+      "tk": "INFY",
+      "src": "Business Standard",
+      "cat": "RESULTS",
+      "hl": "Rupee recovery spells margin pressure for IT; Infosys stands out: Jefferies",
+      "detail": "IT Stocks: For every 1 per cent appreciation in the domestic cut, Jefferies estimates an earnings per share (EPS) cut for large IT firms in the range of 2-4 per cent.",
+      "url": "https://www.business-standard.com/markets/news/rupee-recovery-spells-margin-pressure-for-it-infosys-stands-out-jefferies-126112600362_1.html"
+    },
+    {
+      "time": "2026-11-25 14:47",
+      "tk": "ATOS",
+      "src": "TelecomTV",
+      "cat": "MACRO",
+      "hl": "What\u2019s up with\u2026 Swisscom, Dell, Atos",
+      "detail": "- Bullets",
+      "url": "https://www.telecomtv.com/content/ai/what-s-up-with-swisscom-dell-atos-56753/"
+    },
+    {
+      "time": "2026-11-26 13:48",
+      "tk": "Sector",
+      "src": "The Times of India",
+      "cat": "RESULTS",
+      "hl": "Evernex chooses Hyderabad for India HQ, expands data centre services",
+      "detail": "Evernex opens India HQ in Hyderabad to expand data centre maintenance and IT services, aiming to triple revenue in 3 years and double workforce.",
+      "url": "https://timesofindia.indiatimes.com/city/hyderabad/evernex-sets-up-india-hq-in-hyderabad-to-expand-data-centre-services/articleshow/136194459.cms"
+    },
+    {
+      "time": "2026-11-26 12:32",
+      "tk": "WIPRO",
+      "src": "Livemint",
+      "cat": "DEAL",
+      "hl": "Wipro takes over 3,000 BP employees in new deal: What's behind the British oil giant's big move?",
+      "detail": "BP will transfer over 3,000 finance employees in India, Hungary and Malaysia to Wipro in 2027 as the energy giant reshapes operations and cuts costs.",
+      "url": "https://www.livemint.com/companies/wipro-lands-major-bp-deal-takes-over-3-000-employees-across-3-countries-why-is-the-british-co-transferring-staff-11795693466869.html"
+    },
+    {
+      "time": "2026-11-26 06:59",
       "tk": "WIPRO",
       "src": "Business Standard",
-      "cat": "PEOPLE",
-      "hl": "Stocks to watch: LG Electronics, Siemens Energy, Wipro, sugar stocks",
-      "detail": "Textiles, shrimp exporters, gems and jewellery sectors could remain in focus after the US proposed tariffs of up to 25 per cent on Indian goods.",
-      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-lg-electronics-siemens-energy-wipro-sugar-stocks-126112600059_1.html"
+      "cat": "DEAL",
+      "hl": "Wipro shares jump 4% on partnership with BP, emerges top Nifty IT gainer",
+      "detail": "Wipro Share Price: The new operating model is expected to take effect in 2027, subject to applicable conditions, according to the exchange filing.",
+      "url": "https://www.business-standard.com/markets/news/wipro-share-price-jump-4-percent-on-partnership-with-bp-emerges-top-nifty-it-gainer-126112600489_1.html"
     },
     {
       "time": "2026-11-25 18:43",
@@ -2102,13 +2181,22 @@
       "url": "https://www.business-standard.com/companies/news/cognizant-in-talks-to-take-over-parts-of-s-p-global-s-capital-iq-operations-126112501155_1.html"
     },
     {
-      "time": "2026-11-25 15:51",
-      "tk": "WIPRO",
+      "time": "2026-11-26 10:31",
+      "tk": "Sector",
       "src": "The Times of India",
-      "cat": "DEAL",
-      "hl": "Wipro bags $600 mn BP deal after Olam, Phoenix wins",
-      "detail": "Wipro wins $600M multi-year BP deal to transform finance operations using AI and automation; about 3,000 BP staff to transition as new model targets 2027.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/wipro-bags-600-mn-bp-deal-after-olam-phoenix-wins/articleshow/136166978.cms"
+      "cat": "AI",
+      "hl": "IT sector employees seek national AI layoff policy; demand minimum severance pay",
+      "detail": "The proposed framework would require companies to record and disclose the number of positions eliminated because of AI, employees shifted to different roles within the organisation and workers retrained for new jobs. It would also establish minimum expectatio\u2026",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/it-sector-employees-seek-national-ai-layoff-policy-as-automation-threatens-jobs-unions-and-experts-want-nasscom-and-government-to-set-minimum-severance-advance-notice-redeployment-and-reskilling-rules-for-employees-who-lose-work/articleshow/136185743.cms"
+    },
+    {
+      "time": "2026-11-26 02:33",
+      "tk": "WIPRO",
+      "src": "Business Standard",
+      "cat": "PEOPLE",
+      "hl": "Stocks to watch: LG Electronics, Siemens Energy, Wipro, sugar stocks",
+      "detail": "Textiles, shrimp exporters, gems and jewellery sectors could remain in focus after the US proposed tariffs of up to 25 per cent on Indian goods.",
+      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-lg-electronics-siemens-energy-wipro-sugar-stocks-126112600059_1.html"
     },
     {
       "time": "2026-11-25 14:59",
@@ -2127,24 +2215,6 @@
       "hl": "Getting more out of AI means rethinking how security works",
       "detail": "As AI spreads across the business, two Accenture experts make the case for shared executive accountability and stronger protection of company knowledge.\nThe post Getting more out of AI means rethinking how security works appeared first on Digital Journal.",
       "url": "https://www.digitaljournal.com/article/getting-more-out-of-ai-means-rethinking-how-security-works/"
-    },
-    {
-      "time": "2026-11-25 17:41",
-      "tk": "ACN",
-      "src": "Biztoc.com",
-      "cat": "ANALYST",
-      "hl": "This Mastercard Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Wednesday",
-      "detail": "Analysts initiated Buy/Outperform ratings on Firefly, SAB Biotherapeutics, Avenzo, Mastercard and Accenture, with targets from $14 to $751.",
-      "url": "https://biztoc.com/x/deebe4c6d0254ec4"
-    },
-    {
-      "time": "2026-11-25 14:47",
-      "tk": "ATOS",
-      "src": "TelecomTV",
-      "cat": "MACRO",
-      "hl": "What\u2019s up with\u2026 Swisscom, Dell, Atos",
-      "detail": "- Bullets",
-      "url": "https://www.telecomtv.com/content/ai/what-s-up-with-swisscom-dell-atos-56753/"
     }
   ],
   "quarterly": {
@@ -3022,9 +3092,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.097815,
-    "JPY": 0.006278,
-    "CAD": 0.702173,
-    "INR": 0.01078
+    "EUR": 1.093853,
+    "JPY": 0.006267,
+    "CAD": 0.701848,
+    "INR": 0.010755
   }
 }
