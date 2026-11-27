@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-27T00:42:49.598548+00:00",
-  "updated_display": "27 Nov 2026, 00:42 UTC",
+  "updated": "2026-11-27T05:14:43.033428+00:00",
+  "updated_display": "27 Nov 2026, 05:14 UTC",
   "prices": {
     "TCS": {
-      "price": 2517.3,
-      "display": "\u20b92,517",
-      "change": 2.3
+      "price": 2573.0,
+      "display": "\u20b92,573",
+      "change": -2.5
     },
     "INFY": {
-      "price": 1130.0,
-      "display": "\u20b91,130",
-      "change": 2.4
+      "price": 1154.6,
+      "display": "\u20b91,155",
+      "change": -2.4
     },
     "CTSH": {
       "price": 63.32,
@@ -18,39 +18,39 @@
       "change": 3.8
     },
     "HCLT": {
-      "price": 1380.0,
-      "display": "\u20b91,380",
-      "change": 1.2
+      "price": 1433.0,
+      "display": "\u20b91,433",
+      "change": -2.4
     },
     "WIPRO": {
-      "price": 189.05,
-      "display": "\u20b9189",
-      "change": 0.9
+      "price": 193.1,
+      "display": "\u20b9193",
+      "change": -1.8
     },
     "TECHM": {
-      "price": 1801.2,
-      "display": "\u20b91,801",
-      "change": 1.3
+      "price": 1846.1,
+      "display": "\u20b91,846",
+      "change": -0.5
     },
     "LTIM": {
-      "price": 4270.0,
-      "display": "\u20b94,270",
-      "change": 1.3
+      "price": 4307.0,
+      "display": "\u20b94,307",
+      "change": -2.3
     },
     "MPHL": {
-      "price": 2532.9,
-      "display": "\u20b92,533",
-      "change": 2.6
+      "price": 2449.0,
+      "display": "\u20b92,449",
+      "change": -2.4
     },
     "PSYS": {
-      "price": 6120.0,
-      "display": "\u20b96,120",
-      "change": -2.6
+      "price": 6221.0,
+      "display": "\u20b96,221",
+      "change": 0.3
     },
     "COFG": {
-      "price": 2060.0,
-      "display": "\u20b92,060",
-      "change": -3.8
+      "price": 2075.1,
+      "display": "\u20b92,075",
+      "change": 3.8
     },
     "ACN": {
       "price": 240.49,
@@ -80,24 +80,24 @@
   },
   "indices": {
     "SENSEX": {
-      "value": 83938.28,
-      "change": 1.82
+      "value": 83990.23,
+      "change": -0.4
     },
     "NIFTY_IT": {
-      "value": 32207.55,
-      "change": 1.12
+      "value": 32854.35,
+      "change": -1.6
     },
     "SP500": {
       "value": 7182.78,
       "change": -0.25
     },
     "USD_INR": {
-      "value": 92.24,
-      "change": -0.61
+      "value": 92.77,
+      "change": 0.58
     },
     "EUR_INR": {
-      "value": 101.1,
-      "change": -0.66
+      "value": 101.84,
+      "change": 0.73
     }
   },
   "historical": {
@@ -165,7 +165,9 @@
         2343.0,
         2376.0,
         2460.0,
-        2517.0
+        2517.0,
+        2640.0,
+        2573.0
       ],
       "dl": [
         "Nov 9",
@@ -178,7 +180,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         3448.0,
@@ -293,7 +297,9 @@
         1092.0,
         1098.0,
         1103.0,
-        1130.0
+        1130.0,
+        1183.0,
+        1155.0
       ],
       "dl": [
         "Nov 9",
@@ -306,7 +312,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         1390.0,
@@ -553,7 +561,9 @@
         1333.0,
         1344.0,
         1364.0,
-        1380.0
+        1380.0,
+        1469.0,
+        1433.0
       ],
       "dl": [
         "Nov 9",
@@ -566,7 +576,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         1303.0,
@@ -681,7 +693,9 @@
         184.0,
         186.0,
         187.0,
-        189.0
+        189.0,
+        197.0,
+        193.0
       ],
       "dl": [
         "Nov 9",
@@ -694,7 +708,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         218.0,
@@ -809,7 +825,9 @@
         1723.0,
         1746.0,
         1778.0,
-        1801.0
+        1801.0,
+        1855.0,
+        1844.0
       ],
       "dl": [
         "Nov 9",
@@ -822,7 +840,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         1163.0,
@@ -937,7 +957,9 @@
         4080.0,
         4166.0,
         4215.0,
-        4270.0
+        4270.0,
+        4407.0,
+        4307.0
       ],
       "dl": [
         "Nov 9",
@@ -950,7 +972,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         6022.0,
@@ -1065,7 +1089,9 @@
         2356.0,
         2420.0,
         2468.0,
-        2533.0
+        2533.0,
+        2510.0,
+        2449.0
       ],
       "dl": [
         "Nov 9",
@@ -1078,7 +1104,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         2561.0,
@@ -1193,7 +1221,9 @@
         5880.0,
         6124.0,
         6282.0,
-        6120.0
+        6120.0,
+        6200.0,
+        6221.0
       ],
       "dl": [
         "Nov 9",
@@ -1206,7 +1236,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         3625.0,
@@ -1321,7 +1353,9 @@
         2041.0,
         2087.0,
         2142.0,
-        2060.0
+        2060.0,
+        2000.0,
+        2075.0
       ],
       "dl": [
         "Nov 9",
@@ -1334,7 +1368,9 @@
         "Nov 19",
         "Nov 20",
         "Nov 23",
-        "Nov 25"
+        "Nov 25",
+        "Nov 26",
+        "Nov 27"
       ],
       "mp": [
         1222.0,
@@ -2048,6 +2084,15 @@
   },
   "news": [
     {
+      "time": "2026-11-26 02:33",
+      "tk": "WIPRO",
+      "src": "Business Standard",
+      "cat": "PEOPLE",
+      "hl": "Stocks to watch: LG Electronics, Siemens Energy, Wipro, sugar stocks",
+      "detail": "Textiles, shrimp exporters, gems and jewellery sectors could remain in focus after the US proposed tariffs of up to 25 per cent on Indian goods.",
+      "url": "https://www.business-standard.com/markets/news/stocks-to-watch-lg-electronics-siemens-energy-wipro-sugar-stocks-126112600059_1.html"
+    },
+    {
       "time": "2026-11-25 18:43",
       "tk": "CTSH",
       "src": "Business Standard",
@@ -2073,15 +2118,6 @@
       "hl": "Wipro secures $500 million contract from energy major BP",
       "detail": "The deal spanning around seven years will bring an average of about $75 million in annual business for Wipro and see 3,000 BP employees move to the IT services company, offering a boost to CEO Srini Pallia\u2019s growth efforts.",
       "url": "https://www.livemint.com/companies/news/wipro-bags-500-million-contract-from-bp-11795614860412.html"
-    },
-    {
-      "time": "2026-11-25 13:56",
-      "tk": "WIPRO",
-      "src": "BusinessLine",
-      "cat": "DEAL",
-      "hl": "bp, Wipro partner to transform finance operations; Wipro to absorb 3,000 bp employees",
-      "detail": "bp partners with Wipro to transform finance ops, moving about 3,000 bp employees to Wipro for AI-driven efficiency and cost competitiveness.",
-      "url": "https://www.thehindubusinessline.com/info-tech/bp-wipro-partner-to-transform-finance-operations-wipro-to-absorb-3000-bp-employees/article71742242.ece"
     },
     {
       "time": "2026-11-26 00:03",
@@ -2986,9 +3022,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.096611,
-    "JPY": 0.006276,
-    "CAD": 0.701868,
-    "INR": 0.010842
+    "EUR": 1.097815,
+    "JPY": 0.006278,
+    "CAD": 0.702173,
+    "INR": 0.01078
   }
 }
