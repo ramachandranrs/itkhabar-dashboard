@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T19:51:38.804249+00:00",
-  "updated_display": "27 Nov 2026, 19:51 UTC",
+  "updated": "2026-11-28T00:08:51.446749+00:00",
+  "updated_display": "28 Nov 2026, 00:08 UTC",
   "prices": {
     "TCS": {
       "price": 2640.3,
@@ -58,14 +58,14 @@
       "change": 0.6
     },
     "CAP": {
-      "price": 121.75,
-      "display": "\u20ac122",
-      "change": 0.6
+      "price": 121.0,
+      "display": "\u20ac121",
+      "change": 0.7
     },
     "ATOS": {
-      "price": 22.34,
-      "display": "\u20ac22.34",
-      "change": 6.1
+      "price": 21.06,
+      "display": "\u20ac21.06",
+      "change": 3.8
     },
     "DXC": {
       "price": 15.23,
@@ -92,12 +92,12 @@
       "change": 1.6
     },
     "USD_INR": {
-      "value": 92.98,
-      "change": 0.8
+      "value": 92.45,
+      "change": 0.23
     },
     "EUR_INR": {
-      "value": 101.7,
-      "change": 0.6
+      "value": 101.34,
+      "change": 0.24
     }
   },
   "historical": {
@@ -1606,8 +1606,7 @@
         117.0,
         120.0,
         120.0,
-        121.0,
-        122.0
+        121.0
       ],
       "dl": [
         "Nov 9",
@@ -1623,8 +1622,7 @@
         "Nov 23",
         "Nov 24",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         176.0,
@@ -1742,8 +1740,7 @@
         20.0,
         21.0,
         20.0,
-        21.0,
-        22.0
+        21.0
       ],
       "dl": [
         "Nov 9",
@@ -1759,8 +1756,7 @@
         "Nov 23",
         "Nov 24",
         "Nov 25",
-        "Nov 26",
-        "Nov 27"
+        "Nov 26"
       ],
       "mp": [
         524.0,
@@ -2136,15 +2132,6 @@
       "url": "https://www.business-standard.com/markets/news/rupee-recovery-spells-margin-pressure-for-it-infosys-stands-out-jefferies-126112600362_1.html"
     },
     {
-      "time": "2026-11-25 14:47",
-      "tk": "ATOS",
-      "src": "TelecomTV",
-      "cat": "MACRO",
-      "hl": "What\u2019s up with\u2026 Swisscom, Dell, Atos",
-      "detail": "- Bullets",
-      "url": "https://www.telecomtv.com/content/ai/what-s-up-with-swisscom-dell-atos-56753/"
-    },
-    {
       "time": "2026-11-26 13:48",
       "tk": "Sector",
       "src": "The Times of India",
@@ -2172,15 +2159,6 @@
       "url": "https://www.business-standard.com/markets/news/wipro-share-price-jump-4-percent-on-partnership-with-bp-emerges-top-nifty-it-gainer-126112600489_1.html"
     },
     {
-      "time": "2026-11-25 18:43",
-      "tk": "CTSH",
-      "src": "Business Standard",
-      "cat": "MACRO",
-      "hl": "Cognizant in talks to take over parts of S&P Global's Capital IQ operations",
-      "detail": "Cognizant is in talks to take over data and operations staff from S&P Global's India GCC, with around 1,500 employees potentially moving to the IT services firm's payroll.",
-      "url": "https://www.business-standard.com/companies/news/cognizant-in-talks-to-take-over-parts-of-s-p-global-s-capital-iq-operations-126112501155_1.html"
-    },
-    {
       "time": "2026-11-26 10:31",
       "tk": "Sector",
       "src": "The Times of India",
@@ -2197,15 +2175,6 @@
       "hl": "Stocks to watch: LG Electronics, Siemens Energy, Wipro, sugar stocks",
       "detail": "Textiles, shrimp exporters, gems and jewellery sectors could remain in focus after the US proposed tariffs of up to 25 per cent on Indian goods.",
       "url": "https://www.business-standard.com/markets/news/stocks-to-watch-lg-electronics-siemens-energy-wipro-sugar-stocks-126112600059_1.html"
-    },
-    {
-      "time": "2026-11-25 14:59",
-      "tk": "WIPRO",
-      "src": "Livemint",
-      "cat": "DEAL",
-      "hl": "Wipro secures $500 million contract from energy major BP",
-      "detail": "The deal spanning around seven years will bring an average of about $75 million in annual business for Wipro and see 3,000 BP employees move to the IT services company, offering a boost to CEO Srini Pallia\u2019s growth efforts.",
-      "url": "https://www.livemint.com/companies/news/wipro-bags-500-million-contract-from-bp-11795614860412.html"
     },
     {
       "time": "2026-11-26 00:03",
@@ -3092,9 +3061,9 @@
   },
   "forex_rates": {
     "USD": 1.0,
-    "EUR": 1.093853,
-    "JPY": 0.006267,
-    "CAD": 0.701848,
-    "INR": 0.010755
+    "EUR": 1.097213,
+    "JPY": 0.006278,
+    "CAD": 0.701853,
+    "INR": 0.010817
   }
 }
